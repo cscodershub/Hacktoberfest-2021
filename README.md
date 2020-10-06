@@ -1,6 +1,6 @@
 # Community-contributions
 
-## Welcome to the cscodershub-community Repository.
+## Hi there 👋 Welcome to the cscodershub-community Repository.
 
 
 ### Here are some rules that should be followed for PRs.
