@@ -1,0 +1,22 @@
+http://radio-services.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: radio-services.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Length: 271
+< Expires: Thu, 30 Apr 2020 21:30:14 GMT
+< Date: Thu, 30 Apr 2020 21:30:14 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+
+<HTML><HEAD>
+<TITLE>Service Unavailable - Fail to connect</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;6&#46;6b37637d&#46;1588282214&#46;3e07b99
+</BODY></HTML>

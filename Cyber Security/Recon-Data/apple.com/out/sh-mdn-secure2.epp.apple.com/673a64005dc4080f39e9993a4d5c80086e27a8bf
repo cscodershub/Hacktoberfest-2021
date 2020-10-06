@@ -1,0 +1,17 @@
+https://sh-mdn-secure2.epp.apple.com/
+
+> GET / HTTP/1.1
+> Host: sh-mdn-secure2.epp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Request-Id: 7e8dfca1-b000-4e09-b959-52811051e61a
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Xss-Protection: 1; mode=block
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:35 GMT
+< Set-Cookie: as_dc=nc; Domain=apple.com; Expires=Thu, 30-Apr-2020 21:58:35 GMT; Path=/; Secure
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: frame-ancestors 'none'
+< X-Frame-Options: DENY
+

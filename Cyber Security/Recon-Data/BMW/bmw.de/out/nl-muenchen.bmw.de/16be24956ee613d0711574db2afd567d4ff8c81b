@@ -1,0 +1,10 @@
+http://nl-muenchen.bmw.de/
+
+> GET / HTTP/1.1
+> Host: nl-muenchen.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: https://nl-muenchen.bmw.de/
+

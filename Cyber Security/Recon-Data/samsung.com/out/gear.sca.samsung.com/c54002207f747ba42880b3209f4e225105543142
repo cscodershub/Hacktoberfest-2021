@@ -1,0 +1,13 @@
+https://gear.sca.samsung.com/
+
+> GET / HTTP/1.1
+> Host: gear.sca.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/plain
+< Date: Wed, 10 Jun 2020 05:35:17 GMT
+< Server: 
+< Content-Length: 85
+
+[JP] Smart Connectivity Solution of Samsung Electronics Co.,Ltd own this domain name.

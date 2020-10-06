@@ -1,0 +1,18 @@
+https://abmetrix.netflix.com/
+
+> GET / HTTP/1.1
+> Host: abmetrix.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Temporarily Unavailable
+< Content-Type: text/html
+< Content-Length: 178
+< Server: awselb/2.0
+< Date: Wed, 17 Jun 2020 05:37:12 GMT
+
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+</body>
+</html>

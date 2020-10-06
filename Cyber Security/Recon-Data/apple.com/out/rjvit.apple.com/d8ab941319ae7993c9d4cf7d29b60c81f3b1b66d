@@ -1,0 +1,12 @@
+http://rjvit.apple.com/
+
+> GET / HTTP/1.1
+> Host: rjvit.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Object Moved
+< Location: https://rjvit.apple.com/
+< Content-Type: text/html
+< Cache-Control: private
+
+<head><body> This object may be found <a HREF="https://rjvit.apple.com/">here</a> </body>

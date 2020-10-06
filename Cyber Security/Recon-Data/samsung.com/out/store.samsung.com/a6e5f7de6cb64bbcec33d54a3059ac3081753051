@@ -1,0 +1,12 @@
+https://store.samsung.com/
+
+> GET / HTTP/1.1
+> Host: store.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://store.samsung.com/in/
+< Date: Wed, 10 Jun 2020 05:36:44 GMT
+

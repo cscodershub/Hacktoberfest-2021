@@ -1,0 +1,19 @@
+http://devimages.apple.com/
+
+> GET / HTTP/1.1
+> Host: devimages.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 176
+< Expires: Thu, 30 Apr 2020 21:29:39 GMT
+< Date: Thu, 30 Apr 2020 21:29:39 GMT
+< X-Cache: TCP_MISS from a49-44-194-86.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+
+<HTML><HEAD><TITLE>Error</TITLE></HEAD><BODY>
+An error occurred while processing your request.<p>
+Reference&#32;&#35;132&#46;56c22c31&#46;1588282179&#46;1163275
+</BODY></HTML>

@@ -1,0 +1,25 @@
+http://moviecontrol.us-west-2.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: moviecontrol.us-west-2.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 17 Jun 2020 05:34:22 GMT
+< Via: 1.1 i-0432a213ea92a859a (us-west-2)
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 58942
+< X-Originating-Url: http://moviecontrol.us-west-2.prodaa.netflix.com/
+< Server: nccp-modern i-079c675e29ff1b9b8
+< Set-Cookie: memclid=9bb490c8-144e-4855-8d67-72e82fbee10f; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:22 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBELK9hLQSlHfY4UFPle2JSNVAtd%2BHolkljGCsK%2FHB1c3izJpUOtEmwFgHhfl0yw7Hj86Sxf%2FLvA%2FeNeJw8Ds9YY%2BDbGo%2FidrPc%2BpdBPZMx2atMg%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:22 GMT; Path=/; Domain=.netflix.com
+< Content-Length: 199
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

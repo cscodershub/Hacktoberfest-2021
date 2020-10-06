@@ -1,0 +1,18 @@
+https://dev-npp.netflix.com/
+
+> GET / HTTP/1.1
+> Host: dev-npp.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: nginx/1.14.0 (Ubuntu)
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Methods: GET, POST, DELETE, PUT, OPTIONS, PATCH
+< Access-Control-Max-Age: 7200
+< Content-Language: en
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Access-Control-Allow-Headers: authorization, accept, accept-version, content-type, request-id, origin, X-Requested-With, x-api-version, x-request-id, Access-Control-Allow-Origin, Access-Control-Allow-Credentials, Access-Control-Allow-Methods, Access-Control-Max-Age, Access-Control-Expose-Headers, x-auth-token, x-ptools-auth-token
+< Content-Type: text/html;charset=utf-8
+< Date: Wed, 17 Jun 2020 05:36:28 GMT
+
+<html><head><title>Netflix - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Netflix</h3></body></html>

@@ -1,0 +1,23 @@
+http://api-canvas.apple.com/
+
+> GET / HTTP/1.1
+> Host: api-canvas.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 201
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000
+< Location: https://api-canvas.apple.com/
+< X-B3-Traceid: d91249408c89b3e9
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:29:21 GMT
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>AppleHttpServer/62e237dc531d</center>
+</body>
+</html>

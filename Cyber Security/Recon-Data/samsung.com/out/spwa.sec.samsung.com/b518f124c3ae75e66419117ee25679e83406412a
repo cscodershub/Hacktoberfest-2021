@@ -1,0 +1,18 @@
+http://spwa.sec.samsung.com/
+
+> GET / HTTP/1.1
+> Host: spwa.sec.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 303 See Other
+< X-Content-Type-Options: nosniff
+< Date: Wed, 10 Jun 2020 05:36:21 GMT
+< Cache-Control: no-store
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000; include Subdomains
+< Content-Length: 152
+< Location: https://spwa.sec.samsung.com/
+< X-Xss-Protection: 1;mode=block
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://spwa.sec.samsung.com/">here</a></body>

@@ -1,0 +1,31 @@
+http://www.blogs.boomi.com/
+
+> GET / HTTP/1.1
+> Host: www.blogs.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.blogs.boomi.com/
+< X-Styx-Req-Id: c40d26de-ded7-11ea-90a5-aae45f1fff19
+< Date: Sat, 15 Aug 2020 09:16:11 GMT
+< X-Cache-Hits: 1, 0
+< Vary: Cookie, Cookie
+< Content-Type: text/html
+< X-Cache: HIT, MISS
+< Via: 1.1 varnish
+< X-Pantheon-Styx-Hostname: styx-fe3-b-7ccfb4b767-xq658
+< Cache-Control: public, max-age=86400
+< X-Timer: S1597482971.162933,VS0,VE223
+< Accept-Ranges: bytes
+< Server: nginx
+< Content-Length: 162
+< X-Served-By: cache-mdw17350-MDW, cache-bom4736-BOM
+< Age: 84
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

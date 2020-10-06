@@ -1,0 +1,22 @@
+https://developers.instacart.com/
+
+> GET / HTTP/1.1
+> Host: developers.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Date: Tue, 04 Aug 2020 04:47:03 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Download-Options: noopen
+< X-Permitted-Cross-Domain-Policies: none
+< X-Runtime: 0.109611
+< Server: nginx/1.17.8
+< Www-Authenticate: Basic realm="Application"
+< Cache-Control: no-cache
+< X-Request-Id: 7108ac93-23e7-4826-b1bc-0cb3ff7a26c8
+
+HTTP Basic: Access denied.

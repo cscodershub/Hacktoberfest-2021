@@ -1,0 +1,28 @@
+http://connect-status.instacart.com/
+
+> GET / HTTP/1.1
+> Host: connect-status.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Age: 2469
+< Cache-Control: no-cache
+< X-Cache: HIT
+< X-Download-Options: noopen
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+< X-Statuspage-Skip-Logging: true
+< X-Statuspage-Version: 7cc4b692549dbb0942ae416c1b1434b39b77bb64
+< Vary: Accept,Accept-Encoding,X-Forwarded-Host,X-Forwarded-Scheme,X-Forwarded-Proto,Fastly-SSL
+< Strict-Transport-Security: max-age=259200
+< Location: https://connect-status.instacart.com/
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Request-Id: b545cde3-ca78-40db-96f7-b02e6cfcaeb7
+< Content-Length: 103
+< Content-Type: text/html; charset=utf-8
+< Date: Tue, 04 Aug 2020 04:47:02 GMT
+< X-Runtime: 0.045315
+< Referrer-Policy: strict-origin-when-cross-origin
+
+<html><body>You are being <a href="https://connect-status.instacart.com/">redirected</a>.</body></html>

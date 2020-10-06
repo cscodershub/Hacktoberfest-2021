@@ -1,0 +1,70 @@
+https://dev.awards.netflix.com/
+
+> GET / HTTP/1.1
+> Host: dev.awards.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Date: Wed, 17 Jun 2020 05:36:37 GMT
+< Server: Apache
+< Set-Cookie: awards=GVYNnT2tAwFuLduDaNDPkIYtXC739CEsn%2BpM5l2LeeJNzGPBCHQoqxlHl2Ae0JMttsVTlDkcbXXGKSa5Do35f49orMRvW25Y4vIOmXglm8CEALDo887Ag1gJtFVW0TYFroxGEa56SI6rO4PDZM2a9YRe%2BQP%2BixMdmCRtnMC%2BDSTq6fUfJDNam7FA7O7MMDYiofhFDu57k3ptdCFvzPhIHVk7Kd390Ba0Q9%2BJliCtl3ZBgoh%2BmqbXtTYylPKn4v0YlcDvVa6JgREnEohrTkh48Z%2Bje2XXQ3AGwo8L4gtz5L%2FQvLgLI95yR2VBQyDLft29u1ZaI1VJZCHivlSVeHmIK2bytGt%2F1Vx%2FzGQ9gENKN9JQgTRtLTJoVhZYx3EejfxsA4yVeN4LdwCZux%2BJLgz6Rdw9SdKvVMvINZo5BBNPiVHn1ZXvfkiBWsQHh8wzSxFhSHBqLeXCN6lDMwAKSIlsnYNbt3MOuqCt6cPZV9AKTbfKSpkGZaPxcKp3cBrMdkc3nGBbZocWA7lYJp0HHZPZNah%2Bvbs8%2Bi25hZRJNrbD12CUS0mT5PjzoVwJPSJHZfycNtDS66FAOpF6uy1WV3NqozqXc9URnvZv0Lj5nD90otXA1AcIH7rqo4xlJrfqekit; expires=Wed, 17-Jun-2020 10:36:37 GMT; Max-Age=18000; path=/
+< Content-Length: 2541
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Netflix">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="/assets/images/fbthumb.jpg">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="//cloud.typography.com/7316292/7880552/css/fonts.css">
+  <link rel="stylesheet" href="/assets/stylesheets/reset.css">
+  <link rel="stylesheet" href="/assets/stylesheets/home2018.css">
+  <title>Netflix</title>
+</head>
+<body>
+  <div id="home">
+    <header>
+      <section class="title">
+        <h1 class="logo"><a href="/">Netflix</a></h1>
+        <div class="fyc noprint"><a href="/">FYC 2017 Awards</a></div>
+      </section>
+    </header>
+    <section class="grid">
+        <h3>Original Films</h3>
+      <div class="row">
+        <div class="column"><a href="#" class="roxanne">Roxanne</a></div>
+        <div class="column"><a href="#" class="twenty-two-july">22 July</a></div>
+        <div class="column"><a href="#" class="outlaw-king">Outlaw King</a></div>
+        <div class="column"><a href="#" class="ballad-of-buster-scruggs">The Ballad of Buster Scruggs</a></div>
+      </div>
+      <div class="row">
+        <div class="column"><a href="#" class="roma">Roma</a></div>
+        <div class="column"><a href="#" class="kindergarten-teacher">The Kindergarten Teacher</a></div>
+        <div class="column"><a href="#" class="private-life">Private Life</a></div>
+      </div>
+    </section>
+    <footer>
+      <section>
+        <div class="column left">
+          <p class="uppercase"><a href="https://goo.gl/maps/QDDgVK6LyoL2" target="_blank" rel="noopener">Netflix Awards Office: <br class="show-mobile">5800 Sunset Blvd | Los Angeles, CA 90028</a></p>
+          <p>© 1997 - 2020 Netflix, Inc.</p>
+        </div>
+        <div class="column right">
+          <p>
+            <a href="http://www.netflix.com/termsofuse" target="_blank" rel="noopener">Terms of Use</a>
+            <a href="http://www.netflix.com/privacy" target="_blank" rel="noopener">Privacy/Cookies</a><br class="show-mobile">
+            <a href="/new/members">New Member Form</a>
+            <a href="mailto:awards@netflix.com" target="_blank" rel="noopener">Contact the Awards Office</a>
+          </p>
+        </div>
+      </section>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="/assets/javascript/home.js"></script>
+</body>
+</html>

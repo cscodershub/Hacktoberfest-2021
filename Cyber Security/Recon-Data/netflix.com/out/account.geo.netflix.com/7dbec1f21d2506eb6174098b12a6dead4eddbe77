@@ -1,0 +1,32 @@
+https://account.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: account.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Expires: 0
+< X-Frame-Options: DENY
+< Content-Length: 0
+< Content-Type: text/html
+< Edge-Control: no-cache, no-store
+< Location: https://account.geo.netflix.com/in/
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< Date: Wed, 17 Jun 2020 05:36:19 GMT
+< Set-Cookie: flwssn=96d10360-7fef-4b7a-9480-99708e5846a8; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:36:19 GMT
+< Set-Cookie: clSharedContext=d4942f61-51ac-400c-93be-20e0b462a040; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBELZAiPniFqTQR9FhLrT4HzhA-2EJP1FFXrsDMHcNzUSIylBTCIcgoGvH0FEO0HtAarfzt68pUm2xjcSl9oOCrtHF_1tYoN3Kzg7tuCgcomR87w%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABTdcqDXxsXRVcLFvXXWpsFoealYgS-NWrI.%26dt%3D1592372179135; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:36:19 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEP8TFM8JPV_v7hEypHsOa8CA8FDcp7Q8anzeQ8gxYGnR-U-S3KTDDAhZYo5AWuX1VIqrJIJI3LTNXlxfYOAUyPAOufF0qAAjErrbmPziqq97dC7lAu1ldJxdpA10_-sYYsJjtOlqAXgelU1ykoufjbnadPZr9gvXH_0fu_Q5Qq1U3pT80MdfJ5kxKESU6gguazbnZYy5RRuK1rHocQWaZblQl-nbCLFjI3VOIlC_pCktkZHRTs7lmYF8I4yGMN1GRVOHFicx5O3EgsNuCVuZYxhp8imfL2seTEu-kuTc1kCvT3TcYlX6CgdNmQF90VmoyfQbCaOP9laTj-O6AKYTnrygQQ..%26bt%3Ddev%26mac%3DAQEAEAABABQMi4ufP-rnvFieq-Oa3_j8nNr6IG5hWC8.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:36:19 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=6d1be2f1-3f13-4942-89c9-07e03184b073; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:19 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0c943f075fc98d91e (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 232
+< X-Originating-Url: https://account.geo.netflix.com/
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Cache-Control: no-cache, no-store
+< Server: nq_website_core-prod-release de3accb2-811a-4c99-9f4a-e6432ed85a4f
+

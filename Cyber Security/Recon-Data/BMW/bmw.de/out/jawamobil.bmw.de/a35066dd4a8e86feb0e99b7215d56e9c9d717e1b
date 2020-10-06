@@ -1,0 +1,21 @@
+https://jawamobil.bmw.de/
+
+> GET / HTTP/1.1
+> Host: jawamobil.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 11 Aug 2020 04:50:35 GMT
+< Content-Length: 128
+< Content-Type: text/html; charset=utf-8
+< Location: /Home/Login
+< X-Aspnetmvc-Version: 
+< Cache-Control: private,no-cache
+< Server: PXC-Webserver
+< X-Aspnet-Version: 
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="/Home/Login">here</a>.</h2>
+</body></html>

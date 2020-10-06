@@ -1,0 +1,37 @@
+https://cls-iosclient.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: cls-iosclient.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Apple-Tk: false
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< X-Frame-Options: SAMEORIGIN
+< X-Dlb-Upstream: 17.163.251.225:8443
+< X-Xss-Protection: 1; mode=block
+< Pragma: no-cache
+< Content-Length: 232
+< X-Responding-Server: st11p01su-ztbu17163401:8443:320:20H4
+< X-Apple-Request-Uuid: 21fe8f67-452d-e68d-7587-d53e1779dfbf
+< Apple-Seq: 0
+< Apple-Originating-System: UnknownOriginatingSystem
+< Date: Thu, 30 Apr 2020 21:30:17 GMT
+< X-Content-Type-Options: nosniff
+< Cache-Control: must-revalidate,no-cache,no-store
+< Server: dlb/1.0.2
+< Content-Type: text/html;charset=iso-8859-1
+< X-Apple-Jingle-Correlation-Key: EH7I6Z2FFXTI25MH2U7BO6O7X4
+< Via: 17.42.252.7
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /. Reason:
+<pre>    Not Found</pre></p>
+</body>
+</html>

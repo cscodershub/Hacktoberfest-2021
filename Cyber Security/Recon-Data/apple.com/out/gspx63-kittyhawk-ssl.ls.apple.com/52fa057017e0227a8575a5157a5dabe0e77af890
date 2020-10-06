@@ -1,0 +1,17 @@
+http://gspx63-kittyhawk-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspx63-kittyhawk-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 OK
+< Via: 10.186.76.75, https/1.1 sgsin3-edge-bx-013.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Age: 2
+< X-Cache: skipped
+< Date: Thu, 30 Apr 2020 21:31:07 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< X-Dlb-Upstream: 10.182.37.79:7630
+< Cdnuuid: 9b42c72c-9065-4b8f-a969-7ef525673257-2875773760
+< Server: ATS/8.0.7
+< Content-Length: 0
+

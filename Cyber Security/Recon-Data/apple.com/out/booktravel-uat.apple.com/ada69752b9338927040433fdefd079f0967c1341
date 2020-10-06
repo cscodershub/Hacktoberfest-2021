@@ -1,0 +1,35 @@
+https://booktravel-uat.apple.com/
+
+> GET / HTTP/1.1
+> Host: booktravel-uat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Date: Thu, 30 Apr 2020 21:40:46 GMT
+< Content-Type: text/html;charset=UTF-8
+< Server: nginx/1.15.10
+< Set-Cookie: MXP_TRACKINGID=2BB04C78-58FC-45CB-BBF2DCA0E2612A64;Path=/;Expires=Sat, 30-Apr-2050 05:32:16 UTC;Secure;HTTPOnly
+< Set-Cookie: mobileFormat=false;Path=/;Expires=Sat, 30-Apr-2050 05:32:16 UTC;Secure;HTTPOnly
+< Set-Cookie: cfid=36133e43-5c57-40b1-bbec-877892d23a62;expires=Sat, 30-Apr-2050 21:40:46 GMT;path=/;secure;HttpOnly;
+< Set-Cookie: cftoken=0;expires=Sat, 30-Apr-2050 21:40:46 GMT;path=/;secure;HttpOnly;
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: DEL54-C3
+< X-Amz-Cf-Id: tvhipmSzhzBpbl3kvhdn6F98MAA-TTHblecgDm9R9SFIZ72l0l9hBA==
+< Generator: Mura CMS 7.1.443
+< Location: /?display=login&returnURL=https%3A%2F%2Fbooktravel%2Duat%2Eapple%2Ecom%2F
+< Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self'; img-src 'self' *.googleapis.com; style-src 'self' 'unsafe-inline'; font-src 'self';  frame-src 'self';
+< Strict-Transport-Security: max-age=1200
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Via: 1.1 100a71228336f790023e2bfe659fc5b7.cloudfront.net (CloudFront)
+< Content-Length: 98
+
+<html>
+<head>
+	<title>Document Moved</title>
+</head>
+<body>
+	<h1>Object Moved</h1>
+</body>
+</html>

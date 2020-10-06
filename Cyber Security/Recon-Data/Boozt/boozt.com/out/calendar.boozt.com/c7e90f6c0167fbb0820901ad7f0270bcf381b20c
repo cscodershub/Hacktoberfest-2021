@@ -1,0 +1,25 @@
+https://calendar.boozt.com/
+
+> GET / HTTP/1.1
+> Host: calendar.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 525 Origin SSL Handshake Error
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Content-Type: text/html
+< Content-Length: 207
+< Cf-Request-Id: 047f725ca600001ab8532e6200000001
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Cf-Ray: 5c1286743c301ab8-SIN
+< Date: Tue, 11 Aug 2020 14:07:50 GMT
+< Set-Cookie: __cfduid=de75538b263d411c4253dbff6c0fbe4411597154870; expires=Thu, 10-Sep-20 14:07:50 GMT; path=/; domain=.boozt.com; HttpOnly; SameSite=Lax; Secure
+< Cache-Control: no-store, no-cache
+< Server: cloudflare
+
+<html>
+<head><title>525 Origin SSL Handshake Error</title></head>
+<body bgcolor="white">
+<center><h1>525 Origin SSL Handshake Error</h1></center>
+<hr><center>cloudflare-nginx</center>
+</body>
+</html>

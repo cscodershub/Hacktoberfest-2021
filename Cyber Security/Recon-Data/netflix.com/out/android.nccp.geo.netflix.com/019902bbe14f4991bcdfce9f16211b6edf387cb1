@@ -1,0 +1,25 @@
+http://android.nccp.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: android.nccp.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html; charset=iso-8859-1
+< Server: nccp-modern i-0b6e4af36cda871b2
+< X-Netflix.nfstatus: 1_1
+< X-Originating-Url: http://android.nccp.geo.netflix.com/
+< Date: Wed, 17 Jun 2020 05:36:17 GMT
+< Set-Cookie: memclid=a4ad50f3-ae51-4ad4-91d0-73e59b264403; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:17 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEId89Fprx8U8AdYHjn5vNfhAbwvL51r0RGJ78B64Ea4hXFBGiRVbs%2FEVzvay1wu%2F0EUMeTDnWE2Jttc9ux8q2Rl3DIJNy%2FFOGexg6dKHILnLmg%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:17 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-05f8ee10015d66947 (eu-west-1)
+< X-Netflix.proxy.execution-Time: 4
+< Content-Length: 199
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

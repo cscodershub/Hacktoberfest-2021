@@ -1,0 +1,27 @@
+https://cls-ingest.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: cls-ingest.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Cache-Control: no-cache
+< X-Content-Type-Options: nosniff
+< Pragma: no-cache
+< X-Apple-Request-Uuid: 5cfd46b6-9914-71ae-e53f-1442d44bc5fb
+< Apple-Originating-System: UnknownOriginatingSystem
+< X-Frame-Options: SAMEORIGIN
+< X-Dlb-Upstream: 17.164.48.210:9343
+< Content-Type: text/plain;charset=utf-8
+< Content-Length: 0
+< X-Apple-Jingle-Correlation-Key: LT6UNNUZCRY25ZJ7CRBNIS6F7M
+< Apple-Seq: 0
+< X-Xss-Protection: 1; mode=block
+< Server: dlb/1.0.2
+< Date: Thu, 30 Apr 2020 21:30:21 GMT
+< Via: 17.42.252.6
+< X-Responding-Server: st13p01su-ztav06264401:9343:101:20H4
+< Apple-Tk: false
+

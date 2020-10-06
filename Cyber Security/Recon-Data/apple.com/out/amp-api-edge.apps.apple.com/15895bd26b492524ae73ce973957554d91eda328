@@ -1,0 +1,23 @@
+https://amp-api-edge.apps.apple.com/
+
+> GET / HTTP/1.1
+> Host: amp-api-edge.apps.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Length: 175
+< X-Cache: TCP_MISS from a125-99-55-114.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a104-118-6-5.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< X-Cache-Remote: TCP_MISS from a23-34-60-14.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< X-Cache-Remote: TCP_MISS from a23-34-60-14.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< X-Cache-Remote: TCP_MISS from a23-34-60-14.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Date: Thu, 30 Apr 2020 21:40:04 GMT
+< Server: AkamaiGHost
+< Expires: Thu, 30 Apr 2020 21:40:04 GMT
+
+<HTML><HEAD><TITLE>Error</TITLE></HEAD><BODY>
+An error occurred while processing your request.<p>
+Reference&#32;&#35;30&#46;e3c2217&#46;1588282804&#46;39fc6903
+</BODY></HTML>

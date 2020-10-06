@@ -1,0 +1,21 @@
+http://dev-rlc.samsung.com/
+
+> GET / HTTP/1.1
+> Host: dev-rlc.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Vary: Accept-Encoding
+< X-Pad: avoid browser bug
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 10 Jun 2020 05:36:33 GMT
+< Location: https://dev-rlc.samsung.com/
+< Server: Apache
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://dev-rlc.samsung.com/">here</a>.</p>
+</body></html>

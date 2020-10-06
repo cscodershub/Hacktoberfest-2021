@@ -1,0 +1,19 @@
+http://araes.apple.com/
+
+> GET / HTTP/1.1
+> Host: araes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Pragma: no-cache
+< Set-Cookie: ns_s=62cc4911c4816b42e49b7c3380a276cd91e456e9; path=/; HttpOnly
+< Strict-Transport-Security: max-age=31536000
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Location: https://araes.apple.com/
+< Content-Type: text/html; charset=utf-8
+< Vary: Accept-Encoding
+< X-Ua-Compatible: IE=edge
+< Date: Thu, 30 Apr 2020 21:29:30 GMT
+< Server: Bomgar
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+

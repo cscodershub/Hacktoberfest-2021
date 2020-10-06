@@ -1,0 +1,12 @@
+https://cl1-stg.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: cl1-stg.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 2
+< X-Rid: 07980707-7b02-4e98-8141-71c3670f0216
+< Date: Thu, 30 Apr 2020 21:30:53 GMT
+
+OK

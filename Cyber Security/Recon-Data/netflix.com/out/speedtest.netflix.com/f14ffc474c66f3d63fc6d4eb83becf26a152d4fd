@@ -1,0 +1,13 @@
+https://speedtest.netflix.com/
+
+> GET / HTTP/1.1
+> Host: speedtest.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Accept-Ranges: bytes
+< Content-Length: 10
+< Server: AkamaiNetStorage
+< Date: Wed, 17 Jun 2020 05:37:09 GMT
+
+Not found

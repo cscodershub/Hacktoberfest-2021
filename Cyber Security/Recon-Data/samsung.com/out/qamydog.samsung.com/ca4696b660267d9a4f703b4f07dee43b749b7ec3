@@ -1,0 +1,15 @@
+http://qamydog.samsung.com/
+
+> GET / HTTP/1.1
+> Host: qamydog.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Iinfo: 12-4336720-0 0NNN RT(1591767412820 0) q(0 -1 -1 -1) r(0 -1) B16 U5
+< Set-Cookie: visid_incap_2052778=shJs2LmNRsqwOJvFkG2x3nRx4F4AAAAAQUIPAAAAAABM8DXhv7F6pYYWzv+DsyZc; expires=Wed, 09 Jun 2021 06:56:23 GMT; HttpOnly; path=/; Domain=.samsung.com
+< Set-Cookie: incap_ses_715_2052778=YrmyMY5MWygbPpDd8jHsCXRx4F4AAAAAUnS5F5ijZVovEDKhXgtf0g==; path=/; Domain=.samsung.com
+< Content-Type: text/html
+< Cache-Control: no-cache
+< Content-Length: 722
+
+<html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=1&xinfo=12-4336720-0%200NNN%20RT%281591767412820%200%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29%20B16%20U5&incident_id=715001360014115456-18058834287993356&edet=16&cinfo=ffffffff&rpinfo=0" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 715001360014115456-18058834287993356</iframe></body></html>

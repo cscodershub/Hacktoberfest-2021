@@ -1,0 +1,21 @@
+https://pages.coursera.org/
+
+> GET / HTTP/1.1
+> Host: pages.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cf-Ray: 5c071ad29e94dc89-MAA
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Content-Type: text/html; charset=UTF-8
+< Location: http://www.coursera.org/enterprise
+< Cf-Cache-Status: DYNAMIC
+< Cf-Request-Id: 04784f17a20000dc8933118200000001
+< Set-Cookie: __cfduid=d5d644b73c3ab8ca620bf445ad62fe52e1597035118; expires=Wed, 09-Sep-20 04:51:58 GMT; path=/; domain=.pages.coursera.org; HttpOnly; SameSite=Lax
+< Set-Cookie: BIGipServerab23web-nginx-app_https=!TzUxYbo7st+u/ky5yiPNdgcigIaMSa0vq/tvR3DhaJFXyt++glLKSvIS3TnV7iAWj02D50uB4BuBjDs=;Path=/;Version=1;Secure;Httponly
+< Server: cloudflare
+< Date: Mon, 10 Aug 2020 04:51:58 GMT
+< X-Content-Type-Options: nosniff
+< Vary: Accept-Encoding
+
+<html><head><meta http-equiv="refresh" content="0;url=http://www.coursera.org/enterprise"/></head></html>

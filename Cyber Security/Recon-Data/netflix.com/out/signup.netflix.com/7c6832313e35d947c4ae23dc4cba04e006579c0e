@@ -1,0 +1,20 @@
+https://signup.netflix.com/
+
+> GET / HTTP/1.1
+> Host: signup.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Netflix.proxy.execution-Time: 6
+< X-Originating-Url: https://signup.netflix.com/
+< Location: https://www.netflix.com/
+< Set-Cookie: nfvdid=BQFmAAEBEJBPnxdhe5z8AJ3MhHAjg81AvKgQF7qLzUllOtTXN8lko3O_M8JoyGwJylRlFOMktknyDGZbfQNWnrsfEYakWX5MFOcp_NXmdMmTs25w_hiaWA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=fc934189-0906-477f-9331-9aeed117a36f; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:38:30 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_1
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Length: 0
+< Server: nq_website_core-prod-release UNKNOWN
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 i-0cc9ba161549f9c37 (eu-west-1)
+

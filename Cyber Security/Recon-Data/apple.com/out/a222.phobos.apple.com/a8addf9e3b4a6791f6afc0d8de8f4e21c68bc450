@@ -1,0 +1,14 @@
+http://a222.phobos.apple.com/
+
+> GET / HTTP/1.1
+> Host: a222.phobos.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Thu, 30 Apr 2020 21:33:44 GMT
+< X-Akamai-Request-Id: c985985
+< Accept-Ranges: bytes
+< Content-Length: 0
+< Server: AkamaiNetStorage
+< Akamai-Age-Ms: 1588282423994
+

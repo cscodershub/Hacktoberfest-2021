@@ -1,0 +1,26 @@
+https://meinfs.bmw.de/
+
+> GET / HTTP/1.1
+> Host: meinfs.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Expires: Tue, 11 Aug 2020 05:21:20 GMT
+< Server-Timing: cdn-cache; desc=HIT
+< Server-Timing: edge; dur=1
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 219
+< Cache-Control: max-age=1800
+< Date: Tue, 11 Aug 2020 04:51:20 GMT
+< Strict-Transport-Security: max-age=15768000
+< Server: Apache
+< Location: https://meinfs.bmw.de/de/login.html
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://meinfs.bmw.de/de/login.html">here</a>.</p>
+</body></html>

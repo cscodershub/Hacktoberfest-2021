@@ -1,0 +1,20 @@
+https://fast.us-east-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: fast.us-east-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Language: en
+< Server: api-prod i-0ad98ae405816c3e0
+< Set-Cookie: nfvdid=BQFmAAEBEEX4YTC7bNXPn2i4UyK9OpdAPRvndDMDVsvjM9S1yPIsELqbG1uUjDFSSISADu3QCOpM2sQ4Xn4cpZ788qUL291s5a1PWZ6HMF8cYG6N-j0yvw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=4c094a38-07fb-4319-a9ac-6a9bf3dce0bb; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:02 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_3
+< X-Netflix.proxy.execution-Time: 4
+< X-Originating-Url: https://fast.us-east-1.prodaa.netflix.com/
+< Content-Type: text/html;charset=utf-8
+< Date: Wed, 17 Jun 2020 05:34:01 GMT
+< Via: 1.1 i-03697cc42083f42a1 (us-east-1)
+< Content-Length: 796
+
+<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1></body></html>

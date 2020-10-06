@@ -1,0 +1,25 @@
+https://cuntz-neustadt.mini.de/
+
+> GET / HTTP/1.1
+> Host: cuntz-neustadt.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 11 Aug 2020 04:54:14 GMT
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+< Content-Type: text/html; charset=iso-8859-1
+< Expires: Tue, 11 Aug 2020 05:24:14 GMT
+< Content-Length: 243
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Location: https://www.cuntz-neustadt.mini.de/
+< Cache-Control: max-age=1800
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.cuntz-neustadt.mini.de/">here</a>.</p>
+</body></html>

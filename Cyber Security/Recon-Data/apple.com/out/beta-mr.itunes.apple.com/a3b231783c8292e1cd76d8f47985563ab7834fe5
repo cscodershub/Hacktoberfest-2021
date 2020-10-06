@@ -1,0 +1,21 @@
+http://beta-mr.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: beta-mr.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: daiquiri/3.0.0
+< Date: Thu, 30 Apr 2020 21:30:11 GMT
+< Content-Type: text/html
+< Content-Length: 171
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:18493001:mr85p00it-hyhk03154801:7987:20E24
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>daiquiri/3.0.0</center>
+</body>
+</html>

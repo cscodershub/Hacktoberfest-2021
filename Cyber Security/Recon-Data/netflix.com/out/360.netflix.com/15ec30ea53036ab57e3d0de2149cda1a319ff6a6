@@ -1,0 +1,19 @@
+https://360.netflix.com/
+
+> GET / HTTP/1.1
+> Host: 360.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Type: text/html
+< Content-Length: 126
+< Location: https://meechum.netflix.com/as/authorization.oauth2?client_id=threesixty&redirect_uri=https%3A%2F%2F360.netflix.com%2Foauth2%2Fidpresponse&response_type=code&scope=openid email address threesixty&state=r3TcIAFfX9uGRV6uyKe6%2F1DFY%2BAzKlIK73fSae4xn5WVWfaEpU%2FjtAx3gIUDuCfARTyKEYCVapndHN5UVsWlMbL%2FGZ0noS8EdtP8PvxCqtSXKQf3UFajIsXiij2Y4CbCE7HWXV3Geph7NpODv8ETKAfEz%2B9wbItRZNOQ%2BkYvfNGa9yDaa8S%2FHWhGb%2Fg6ykss5Kkhkis%3D&prompt=login&display=page
+< Server: awselb/2.0
+< Date: Wed, 17 Jun 2020 05:33:31 GMT
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+</body>
+</html>

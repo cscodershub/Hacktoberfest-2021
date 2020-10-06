@@ -1,0 +1,17 @@
+http://nw.boozt.com/
+
+> GET / HTTP/1.1
+> Host: nw.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 11 Aug 2020 14:07:58 GMT
+< Expires: Tue, 11 Aug 2020 15:07:58 GMT
+< Location: https://nw.boozt.com/
+< Cf-Request-Id: 047f727b0c000001dd04947200000001
+< Server: cloudflare
+< Cf-Ray: 5c1286a4eaf701dd-SIN
+< Cache-Control: max-age=3600
+< Vary: Accept-Encoding
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+

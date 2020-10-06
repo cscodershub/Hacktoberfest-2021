@@ -1,0 +1,22 @@
+https://darmstadt.mini.de/
+
+> GET / HTTP/1.1
+> Host: darmstadt.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 0
+< Set-Cookie: JSESSIONID=node0tsb1nt14qdid1wzi9o1zy7m0v1925913.node0;Path=/;Secure;HttpOnly;Secure
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+< Strict-Transport-Security: max-age=15768000
+< Content-Type: text/html; charset=utf-8
+< Date: Tue, 11 Aug 2020 04:54:15 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Location: https://darmstadt.mini.de/content.html
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: max-age=14400, must-revalidate
+

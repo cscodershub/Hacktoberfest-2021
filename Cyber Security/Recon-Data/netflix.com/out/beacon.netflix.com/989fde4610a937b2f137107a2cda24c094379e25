@@ -1,0 +1,16 @@
+https://beacon.netflix.com/
+
+> GET / HTTP/1.1
+> Host: beacon.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Wed, 17 Jun 2020 05:38:44 GMT
+< Server: beacon i-0023bfba29add4d5f
+< Via: 1.1 i-0637d90ec0a3f9fa3 (eu-west-1)
+< X-Netflix.proxy.execution-Time: 53446
+< Content-Length: 0
+< X-Netflix.nfstatus: 1_3
+< X-Originating-Url: https://beacon.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+

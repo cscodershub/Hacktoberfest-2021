@@ -1,0 +1,30 @@
+http://bag.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: bag.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 43
+< Apple-Originating-System: MZInit2
+< Apple-Timing-App: 0 ms
+< Server: daiquiri/3.0.0
+< B3: e4a2ed441f8695eed99519fd58990b98-1221684f353a844d
+< X-Apple-Application-Site: MR22
+< Expires: Thu, 30 Apr 2020 21:29:54 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Pragma: no-cache
+< X-Cache: TCP_MISS from a125-99-55-105.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< X-Apple-Jingle-Correlation-Key: 4SRO2RA7Q2K65WMVDH6VRGILTA
+< X-Apple-Request-Uuid: e4a2ed44-1f86-95ee-d995-19fd58990b98
+< X-B3-Traceid: e4a2ed441f8695eed99519fd58990b98
+< X-Apple-Application-Instance: 40082
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:10021001:mr85p00it-hyhk04174901:7987:20E24
+< Date: Thu, 30 Apr 2020 21:29:54 GMT
+< Content-Type: application/json
+< Apple-Seq: 0.0
+< Apple-Tk: false
+< X-B3-Spanid: 1221684f353a844d
+
+{"code":404,"message":"HTTP 404 Not Found"}

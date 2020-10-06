@@ -1,0 +1,38 @@
+https://itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Access-Control-Allow-Origin: *
+< X-Apple-Partner: origin.0
+< Last-Modified: Thu, 30 Apr 2020 21:28:26 GMT
+< Apple-Originating-System: MZStore
+< Strict-Transport-Security: max-age=31536000
+< Apple-Tk: false
+< B3: b8360af892f971fc49a22f7b3e77c4e2-557a937535c295c6
+< X-Webobjects-Loadaverage: 0
+< Apple-Seq: 0
+< X-Apple-Orig-Url: https://itunes.apple.com/
+< X-True-Cache-Key: /L/itunes.apple.com/Browser vcd=2897
+< X-Apple-Translated-Wo-Url: /WebObjects/MZStore.woa/wa/topLevelCountry?urlDesc=
+< X-B3-Traceid: b8360af892f971fc49a22f7b3e77c4e2
+< Apple-Timing-App: 2 ms
+< X-Apple-Jingle-Correlation-Key: XA3AV6ES7FY7YSNCF55T456E4I
+< X-Frame-Options: SAMEORIGIN
+< X-Cache-Remote: TCP_MISS from a115-248-238-93.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Apple-Request-Uuid: b8360af8-92f9-71fc-49a2-2f7b3e77c4e2
+< X-B3-Spanid: 557a937535c295c6
+< Vary: X-Apple-Store-Front
+< Location: https://apple.com/itunes
+< Content-Length: 0
+< Cache-Control: no-transform, max-age=0
+< Content-Type: text/html; charset=UTF-8
+< X-Apple-Application-Site: ST11
+< X-Apple-Application-Instance: 2125623
+< Akamai-Age-Ms: 1588282107045
+< Date: Thu, 30 Apr 2020 21:28:27 GMT
+< X-Cache: TCP_MISS from a23-203-63-14.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< X-Apple-Aka-Ttl: Generated Thu Apr 30 14:28:26 PDT 2020, Expires Thu Apr 30 14:28:26 PDT 2020, TTL 0s
+

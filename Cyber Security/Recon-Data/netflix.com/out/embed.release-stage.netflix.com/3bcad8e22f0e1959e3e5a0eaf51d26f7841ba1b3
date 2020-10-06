@@ -1,0 +1,19 @@
+https://embed.release-stage.netflix.com/
+
+> GET / HTTP/1.1
+> Host: embed.release-stage.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 502 Bad Gateway
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 2_14
+< Content-Length: 0
+< Server: shakti-release-stage null
+< Set-Cookie: nfvdid=BQFmAAEBEJFFZmZqgMhpzHN1cc_ZtRtAFnnOFOdunPk0nlKGfP0kGjAfnxzNb1WCy5iR_DfjYmNHTSqB7IFulGuUd3VlMyXWvFGb2P67Z4kxiUOVwUnC_Q%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=9d026328-fe1f-4c0e-aef3-dc2e8e9ca453; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:08 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0b9b0152318cae2f7 (eu-west-1)
+< X-Content-Type-Options: nosniff
+< X-Netflix.proxy.execution-Time: 3
+< X-Originating-Url: https://embed.release-stage.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+

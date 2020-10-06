@@ -1,0 +1,14 @@
+https://www.seminars.apple.com/
+
+> GET / HTTP/1.1
+> Host: www.seminars.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: red 3.7
+< Date: Thu, 30.Apr 2020 21:40:03 GMT
+< Referer: https://www.seminars.apple.com/
+< Location: http://salesresources.apple.com/seminarseol?cid=oas-us-domains-seminars.apple.com
+< Content-Type: text/html
+< Content-Length: 0
+

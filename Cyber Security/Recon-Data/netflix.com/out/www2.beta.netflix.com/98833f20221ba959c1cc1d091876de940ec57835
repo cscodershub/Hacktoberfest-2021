@@ -1,0 +1,31 @@
+https://www2.beta.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www2.beta.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Robots-Tag: noindex
+< Pragma: no-cache
+< Location: https://www2.beta.netflix.com/in/
+< X-Content-Type-Options: nosniff
+< X-Netflix.proxy.execution-Time: 473
+< X-Frame-Options: DENY
+< Content-Type: text/html
+< Date: Wed, 17 Jun 2020 05:34:54 GMT
+< Server: nq_website_core-prod-release-beta 44b558cb-e030-43f1-9fbf-f36a617b18fd
+< Expires: 0
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Strict-Transport-Security: max-age=31536000
+< X-Originating-Url: http://www2.beta.netflix.com/
+< Set-Cookie: flwssn=fa105c4d-ce0f-4bec-a2bc-ab6c5177c1da; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:54 GMT
+< Set-Cookie: clSharedContext=b6a03daf-c895-4ed7-be91-c2481ad7c23e; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEHGbNUpILljzXtM4xqXDiGRAJcxz13iYHLEF--vQYLakFfTwPQdKkhGdYCEyDpvHWspop5V_rFVYharT-ujkU7-vMztNBNW3dIq5GekIROgoAg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABQU8nXhb3g4d-274IRHlMP_Ab--5LNvyfc.%26dt%3D1592372094452; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:54 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEM3hskwnZYpu7XT88nYByF2A8AxPBBVC3w5GTYLcmJNG9oQuedgZlQA5y21rJymoG7r711ZYO8x3BLCmDTIPodq9p3xzSZ0vjhO42FUeWqi0faUoCv4wjz1KWn3Q-n8XSkJaJtpICVlmiKaEovEfEP7dJQoXfhY0M9Z1ewfRixaPCFrjuuHZDY993CLz5Dp3Yy48L4BkN_Qt1AR2IQkMWfSBHixtfXIybeWpdozqb2X6hbmYfNoT4CKTbo-xLlgE4qSQXvgF91oZn4MKOIVvrp_rtdxiUjHM1UaC3dNw9196tKAWytU9LS8Uc166FlSO66zeWSrTxVD9enIhLbjRd_Ix9w..%26bt%3Ddev%26mac%3DAQEAEAABABQZqUkGAKyGSZXDdVhvLk_yUL2wtWuRI4Q.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:54 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=bd0dc25b-dd90-4e7e-b4de-153c062b8402; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:54 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_1
+< Cache-Control: no-cache, no-store
+< Via: 1.1 i-008d8eba86f9a6387 (eu-west-1)
+< Edge-Control: no-cache, no-store
+

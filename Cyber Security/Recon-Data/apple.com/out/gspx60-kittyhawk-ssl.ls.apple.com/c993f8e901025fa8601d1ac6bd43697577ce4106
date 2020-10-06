@@ -1,0 +1,15 @@
+http://gspx60-kittyhawk-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspx60-kittyhawk-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 501 Not Implemented
+< Via: https/1.1 sgsin3-edge-bx-029.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Server: ATS/8.0.7
+< Cdnuuid: 9046b8df-0004-4673-aa41-324cd971eb37-768876567
+< X-Cache: skipped
+< Date: Thu Apr 30 21:31:06 2020
+< Content-Length: 0
+< Age: 0
+

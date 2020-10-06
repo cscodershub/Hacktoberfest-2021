@@ -1,0 +1,12 @@
+http://apple.com/
+
+> GET / HTTP/1.1
+> Host: apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 MOVED PERMANENTLY
+< Date: Thu, 30 Apr 2020 21:28:28 GMT
+< Location: https://www.apple.com/
+< Content-Type: text/html
+< Server: Apache
+

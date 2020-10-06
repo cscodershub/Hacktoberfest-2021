@@ -1,0 +1,23 @@
+http://netflix.com/
+
+> GET / HTTP/1.1
+> Host: netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Netflix.proxy.execution-Time: 24
+< X-Originating-Url: http://netflix.com/
+< Edge-Control: no-cache, no-store
+< Server: nq_website_core-prod-release ab3a16fd-1fa6-48a0-90e9-751f47f9873c
+< X-Content-Type-Options: nosniff
+< Date: Wed, 17 Jun 2020 05:39:59 GMT
+< Via: 1.1 i-0a9963b2675149702 (eu-west-1)
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Cache-Control: no-cache, no-store
+< Set-Cookie: nfvdid=BQFmAAEBEEkEEUOEYGkcOuniFBHzdZhAVnGeasWGuf4xgzf7g-UrIVlcMKCURAIycEp5CrAJjOxHGquxOojZvKjvbDOP88G2H_x1v-0yzXyjT5W9-nZPGg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=5c0aae84-60ac-4cb5-8e82-435229d217c5; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:39:59 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< Location: https://netflix.com/
+< X-Netflix.nfstatus: 1_1
+< Content-Length: 0
+

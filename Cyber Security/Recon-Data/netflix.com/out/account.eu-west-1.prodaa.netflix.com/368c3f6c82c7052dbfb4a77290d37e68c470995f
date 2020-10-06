@@ -1,0 +1,32 @@
+https://account.eu-west-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: account.eu-west-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html
+< Edge-Control: no-cache, no-store
+< X-Frame-Options: DENY
+< Via: 1.1 i-0a154f0f336f85710 (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 116
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:34:12 GMT
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000
+< Server: nq_website_core-prod-release 3d76395a-0f62-49f7-b5c1-a1e7f9097ae0
+< Set-Cookie: flwssn=2becbf42-a3e5-4fe2-a837-f92f47eb94d8; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:12 GMT
+< Set-Cookie: clSharedContext=759359a9-d800-4f65-a0f9-744279bed0bf; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEP5bmtM_iVPSH3c7oskoMNRA5HWT7pwBhTEwccuKvFvrEsp5tQcrYznimHUjiWy-3dibitUHiDDy9LaOSCpRpaBUtgjaW4PloWHt09n8XTcmVg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABTLerwssG1YyuFy0sXTNCyO1TQ72oxUSG0.%26dt%3D1592372052631; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:12 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEJWU9pJUTaShxpfnWVMw1wqA8MJx_0BpBjSTBe2kludTqterB4Jg6YknM199kIpz3t-gf9fUHPMFgfbJp3rYyrqC4rIM1tqGeBg2dH1JOyr3FH2U6tJ0_MZW0WH79_ALfSgxjeGdlfGaPwcktw4CCFn-w-CUcNVc4-tbDs6tbN4NnhGgrwkn9Y7lDOey64fCfDVPlc1EXpT9tgxmi-LS6FpkUfcew8v8KypzPZz_EIwI-zk5S_qgq3LLv4qsAEwnTTj-DQ6xEtKTO46FoaFiu8P5553TiAAfZqnqRqqHN7hN5UB3rVkpFpQO_udewNmd6qR4Lgl70XwZCFZj9bfz96n3Dg..%26bt%3Ddev%26mac%3DAQEAEAABABQOW7S3xCyyPuBuZVdAmXr5LJAP0sjDNLg.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:12 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=e93eb7bb-659c-48de-b22b-e6d9d1b70f33; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:12 GMT; Path=/; Domain=.netflix.com
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: https://account.eu-west-1.prodaa.netflix.com/
+< Content-Length: 0
+< Cache-Control: no-cache, no-store
+< Expires: 0
+< Location: https://account.eu-west-1.prodaa.netflix.com/in/
+

@@ -1,0 +1,24 @@
+http://dagnyc.instacart.com/
+
+> GET / HTTP/1.1
+> Host: dagnyc.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 04 Aug 2020 04:47:05 GMT
+< Content-Length: 183
+< Location: https://dagnyc.instacart.com/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 89dc287f5e32714b82f47c0b401f72af.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: hfWheC37d16rXnf2lvTmq_3L54FQ_CiQv-pHwIhz2nbl3BFtpHHM5Q==
+< Server: CloudFront
+< Content-Type: text/html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

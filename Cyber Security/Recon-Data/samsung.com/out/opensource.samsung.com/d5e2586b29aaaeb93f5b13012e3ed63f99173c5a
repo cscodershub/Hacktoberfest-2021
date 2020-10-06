@@ -1,0 +1,20 @@
+https://opensource.samsung.com/
+
+> GET / HTTP/1.1
+> Host: opensource.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 302
+< Date: Wed, 10 Jun 2020 05:36:43 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: SCOUTER=z3d0a5krlh9thh; Max-Age=2147483647; Expires=Mon, 28-Jun-2088 08:50:50 GMT; Path=/
+< Set-Cookie: JSESSIONID=DEA093F3B34648BC3DB3DB93F216FA69; Path=/; Secure; HttpOnly
+< Set-Cookie: TS01be26c4=0130e8942aafe730255c7ac8990fe795c9c99f0bd0ac836513ffc0b6b5aa4bc83c644384707827d3aff25b1f4152417a08d1d6e869feb47b492d0601cf031b18f895c9d70e19e9437ea7d3464cbd99ab26a8e2aac6; Path=/
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Content-Length: 0
+< Content-Type: text/html;charset=UTF-8
+< X-Content-Type-Options: nosniff
+< Location: main
+

@@ -1,0 +1,8 @@
+https://exu.unqork.io/ayco-qa/
+image/x-icon
+https://exu.unqork.io/ayco-qa/styles/ayco/assets/images/favicon.ico?rev=2020-08-12T22:14:55.220Z
+https://exu.unqork.io/ayco-qa/main.css?rev=6.10.2-2020-08-04
+https://exu.unqork.io/ayco-qa/styles/ayco/customer.css?rev=2020-08-12T22:14:55.220Z
+http://browsehappy.com/
+https://exu.unqork.io/ayco-qa/main.js?rev=6.10.2-2020-08-04
+https://exu.unqork.io/ayco-qa/styles/ayco/customer.js?rev=2020-08-12T22:14:55.220Z

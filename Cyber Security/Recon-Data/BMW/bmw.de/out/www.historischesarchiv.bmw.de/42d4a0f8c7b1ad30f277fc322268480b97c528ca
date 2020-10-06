@@ -1,0 +1,490 @@
+https://www.historischesarchiv.bmw.de/
+
+> GET / HTTP/1.1
+> Host: www.historischesarchiv.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache, no-store, must-revalidate
+< Content-Type: text/html;charset=UTF-8
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: JSESSIONID=bdb9b7392a6ee9a5760e62348e1d.0; Path=/research; Secure; HttpOnly
+< Strict-Transport-Security: max-age=31536000;includeSubDomains
+< Date: Tue, 11 Aug 2020 04:51:09 GMT
+< X-Content-Type-Options: nosniff
+< Pragma: no-cache
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" /><link type="text/css" rel="stylesheet" href="/research/javax.faces.resource/theme.css?ln=primefaces-research" /><link type="text/css" rel="stylesheet" href="/research/javax.faces.resource/reset.css;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=css" /><link type="text/css" rel="stylesheet" href="/research/javax.faces.resource/bmw/css/common.css;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" /><link type="text/css" rel="stylesheet" href="/research/javax.faces.resource/research.css;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=css" /><link type="text/css" rel="stylesheet" href="/research/javax.faces.resource/components.css;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=primefaces&amp;v=7.0" /><script type="text/javascript" src="/research/javax.faces.resource/jquery/jquery.js;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=primefaces&amp;v=7.0"></script><script type="text/javascript" src="/research/javax.faces.resource/jquery/jquery-plugins.js;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=primefaces&amp;v=7.0"></script><script type="text/javascript" src="/research/javax.faces.resource/core.js;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=primefaces&amp;v=7.0"></script><script type="text/javascript" src="/research/javax.faces.resource/components.js;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=primefaces&amp;v=7.0"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='de';PrimeFaces.settings.legacyWidgetNamespace=true;}</script>
+
+		
+		<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="expires" content="0" /><script type="text/javascript" src="/research/javax.faces.resource/common.js;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=bmw/js"></script><script type="text/javascript" src="/research/javax.faces.resource/weltNavigation.js;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=bmw/js/navigation"></script>
+		<script src="https://content.jwplatform.com/libraries/Afad9BWH.js"></script>
+
+		<title>BMW Classic - Recherche-Client</title></head><body id="body" class="group" ng-controller="BaseDemoController" ng-app="basysApp" com.sun.faces.facelets.MARK_ID="36669540_716c488b" id="body">
+
+		<div id="wrapper">
+			<div id="ac-wrapper" style="display: none">
+				<div id="popup">
+					<h2>Hinweis zu Cookies</h2>
+					<p>BMW möchte Ihnen den bestmöglichen Service bieten. Dazu speichern wir Informationen über Ihren Besuch in sogenannten Cookies. Durch die Nutzung dieser Webseite erklären Sie sich mit der Verwendung von Cookies einverstanden. Detaillierte Informationen über den Einsatz von Cookies auf dieser Webseite erhalten Sie durch Klick auf "Mehr Informationen".</p>
+					<div id="cookieNotificationButtons"><a href="/research/general/cookies_extended.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" style="float: left" class="hasChildren">Mehr Informationen</a>
+						<input type="submit" class="btn btn-default btn-lg btn-submit blue_button" name="submit" value="OK" style="float: right" onClick="PopUp('hide')" align="right" />
+					</div>
+				</div>
+			</div>
+			<br />
+
+			
+			<div gcdm-app="basys" gcdm-business-context="basys/de_pm2" gcdm-api-key="ef3bacce-8aaf-42d6-ae74-0e6599fd8a3f" gcdm-api-endpoint="https://customer.bmwgroup.com/">
+
+	<div id="header">
+		<div id="bmwgroup_logo"><img id="j_idt18" src="/research/javax.faces.resource/img/logos/logo_bmwgroup.gif;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=bmw" alt="" class="screen" width="86" height="41" /><img id="j_idt19" src="/research/javax.faces.resource/img/logos/logo_bmwgroup.png;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=bmw" alt="" class="print" width="86" height="41" />
+		</div>
+		<div id="bmw_mini_rr_logo"><img id="j_idt21" src="/research/javax.faces.resource/img/logos/logo_bmw_mini.jpg;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=bmw" class="screen" alt="" width="192" height="40" /><img id="j_idt22" src="/research/javax.faces.resource/img/logos/logo_bmw_mini.png;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=bmw" class="print" alt="" width="192" height="40" />
+		</div>
+	</div>
+<form id="navForm" name="navForm" method="post" action="/research/index.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="navForm" value="navForm" />
+
+		<div id="topNav">
+			<ul>
+				<li class="nav_0"><a href="/research/;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Home</a>
+				</li>
+				<li class="nav_1"><a href="/research/search/;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" class="hasChildren">Suche</a>
+					<div class="subNav">
+						<div class="inner"><a href="/research/search/;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Einfache Suche</a><a href="/research/search/expandedSearch.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Erweiterte Suche</a><a href="/research/search/descriptorSearch.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Schlagwortsuche</a><a href="/research/search/searchTips.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Suchtipps</a>
+						</div>
+						<div class="bl"></div>
+						<div class="br"></div>
+						<div class="eul"></div>
+						<div class="u"></div>
+						<div class="eur"></div>
+					</div></li>
+				<li class="nav_1"><a href="/research/workbook/;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" class="hasChildren">Arbeitsmappen</a>
+					<div class="subNav">
+						<div class="inner"><a href="/research/workbook/publicWorkbooks.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Allgemeine Arbeitsmappen</a><script type="text/javascript" src="/research/javax.faces.resource/jsf.js;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=javax.faces"></script><a href="#" onclick="jsf.util.chain(this,event,'PF(\'orderNotesDlg\').show();return false;','mojarra.jsfcljs(document.getElementById(\'navForm\'),{\'navForm:j_idt47\':\'navForm:j_idt47\'},\'\')');return false">Hinweise zu Bild- und Filmbestellungen</a>
+
+						</div>
+						<div class="bl"></div>
+						<div class="br"></div>
+						<div class="eul"></div>
+						<div class="u"></div>
+						<div class="eur"></div>
+					</div></li>
+					<li class="nav_1">
+					</li>
+				<li class="nav_1"><a href="/research/information/;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" class="hasChildren">Informationen zum BMW Group Archiv</a>
+					<div class="subNav">
+						<div class="inner"><a href="/research/information/contact.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Kontakt</a><a href="/research/information/anfahrt.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Anfahrt</a>
+					
+						
+						
+						</div>
+ 
+						<div class="bl"></div>
+						<div class="br"></div>
+						<div class="eul"></div>
+						<div class="u"></div>
+						<div class="eur"></div>
+					</div></li>
+				 <li class="nav_0"><a href="/research/information/manual/de/index.html;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Hilfe</a>
+				</li>
+
+			</ul>
+
+			<div class="rightNav" gcdm-login-status-output="basys"><div id="navForm:j_idt72" class="ui-outputpanel ui-widget">
+					<ul style="display: inline;">
+						<li class="nav_9" ng-show="gcdmIsLoggedIn()">
+						<a class="hasChildren" style="min-width:200px;" value="/research/search/">Mein Account</a>
+							<div class="subNav" style="min-width: 200px;">
+								<div class="inner"><span style="padding-left: 10px;  margin-bottom: 9px; line-height: 15px; display: block;">{{gcdmUserAccount.mail}}</span><a href="/research/account/changePassword.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Passwort ändern</a><a href="/research/account/loginIdChange.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Login ID ändern</a><a href="/research/account/deleteAccount.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0">Konto löschen</a>
+									
+									
+								</div>
+								<div class="bl"></div>
+								<div class="br"></div>
+								<div class="eul"></div>
+								<div class="u"></div>
+								<div class="eur"></div>
+							</div></li>
+                            <li ng-show="gcdmIsLoggedIn()"><a href="#" onclick="jsf.util.chain(this,event,'basysLogout()','mojarra.jsfcljs(document.getElementById(\'navForm\'),{\'navForm:j_idt82\':\'navForm:j_idt82\'},\'\')');return false">Logout</a>
+						  </li>
+						
+						<li ng-show="!gcdmIsLoggedIn()"><a href="/research/account/register.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" class="registerLink">Registrieren</a>
+						</li>
+
+						<li ng-show="!gcdmIsLoggedIn()"><div id="navForm:j_idt88">
+								<div ng-show="!gcdmIsLoggedIn()"><a href="#" class="loginLink">Login</a>
+								</div>
+								<div ng-show="!gcdmIsLoggedIn() || gcdmShowPolicyConfirmation">
+								</div><div class="ui-lightbox-inline ui-helper-hidden">
+										<div id="login" ng-include="'/research/components/gcdm/login.html'"></div></div></div><script id="navForm:j_idt88_s" type="text/javascript">$(function(){PrimeFaces.cw("LightBox","loginBox",{id:"navForm:j_idt88",mode:"inline",width:"450px"});});</script>
+						</li>
+
+						
+						
+						
+						
+						
+						<script type="text/javascript">
+							function getGcdmLanguage() {
+								return 'de';
+							}
+
+							function getGcdmCountry() {
+								return 'DE';
+							}
+
+							function setGcdmTextFromPMA(pHTMLPrefix, pClassName, pText, pPMAText, pHTMLPostfix) {
+								var theElements = document.getElementsByClassName(pClassName);
+								if (theElements.length == 1) {
+									var theElement = theElements[0]
+									if (theElement.id.substr(0, pClassName.length) == pClassName) {
+										theElement.innerHTML = pHTMLPrefix + pText + pPMAText + pHTMLPostfix;
+									}
+								}
+							}
+
+							function hideGcdmElementFromPMA(pClassName) {
+								var theElements = document.getElementsByClassName(pClassName);
+								// console.log("hideGcdmElementFromPMA: class = " + pClassName + ", theElements.length = " + theElements.length);
+
+								if (theElements.length == 1) {
+									var theElement = theElements[0];
+									console.log("hideGcdmElementFromPMA: theElement id = " +  theElement.id +  ", innerHTML = " + theElement.innerHTML);
+									if (theElement.id.substr(0, pClassName.length) == pClassName) {
+										theElement.style.display='none';
+									}
+								}
+							}
+
+							function addCheckboxListenerRegister() {
+								var theInputElementRegister = getPolicyCheckbox();
+								// console.log("addCheckboxListenerRegister");
+								if (theInputElementRegister) {
+									// console.log("addCheckboxListenerRegister: addEventListener");
+									theInputElementRegister.addEventListener('click', checkConsentsRegister);
+								}
+							}
+
+							function checkConsentsRegister() {
+								// console.log("checkConsentsRegister");
+								checkConsentsWithMessage('gcdmRegister', 'confirmContactPolicyRegisterMessage');
+							}
+
+							function addCheckboxListenerLogin() {
+								var theInputElementLogin = getPolicyCheckbox();
+								// console.log("addCheckboxListenerLogin");
+								if (theInputElementLogin) {
+									// console.log("addCheckboxListenerLogin: addEventListener");
+									theInputElementLogin.addEventListener('click', checkConsentsLogin);
+								}
+							}
+
+							function checkConsentsLogin() {
+								// console.log("checkConsentsLogin");
+								checkConsentsWithMessage('loginPolicyAgreeBtn', 'confirmContactPolicyLoginMessage');
+							}
+
+							function checkConsentsWithMessage(pButton, pConfirmDivId) {
+								if (!isConsentsChecked()) {
+									showLanguageDependingElement(pConfirmDivId);
+									// do lock the button
+									lockButton(pButton, true);
+									return false;
+								} else {
+									hideLanguageDependingElement(pConfirmDivId);
+									// do unlock the button
+									lockButton(pButton, false);
+									return true;
+								}
+							}
+
+							function showLanguageDependingElement(pIdToShow) {
+								var pIdToShowWithLanguage = pIdToShow + '_' + getGcdmLanguage();
+								// console.log("showLanguageDependingElement: pIdToShowWithLanguage = " + pIdToShowWithLanguage);
+
+								var elemToShow = document.getElementById(pIdToShowWithLanguage);
+								if (elemToShow) {
+									elemToShow.style.visibility = 'visible';
+								}
+							}
+
+							function hideLanguageDependingElement(pIdToHide) {
+								var pIdToHideWithLanguage = pIdToHide + '_' + getGcdmLanguage();
+								// console.log("hideLanguageDependingElement: pIdToHideWithLanguage = " + pIdToHideWithLanguage);
+
+								var elemToHide = document.getElementById(pIdToHideWithLanguage);
+								if (elemToHide) {
+									elemToHide.style.visibility = 'hidden';
+								}
+							}
+
+							function isConsentsChecked() {
+								var theInputElementConsents = getPolicyCheckbox();
+								if (theInputElementConsents) {
+									var theInputElementClasslist = theInputElementConsents.classList;
+									// console.log("isConsentsChecked: theInputElementClasslist = " + theInputElementClasslist);
+									if (theInputElementClasslist.contains('ng-not-empty')) {
+										console.log("isConsentsChecked: yes");
+										return true;
+									}
+								}
+								console.log("isConsentsChecked: no");
+								return false;
+							}
+
+							function getPolicyCheckbox() {
+								var theInputTags = document.getElementsByTagName('input');
+								// console.log("getPolicyCheckbox: theInputTags.length = " + theInputTags.length);
+								for (var i = 0; i < theInputTags.length; i++) {
+									var theInputTag = theInputTags[i];
+									// if (theInputTag.name) {
+									// 	console.log("getPolicyCheckbox: " + i + ".theInputTag.name = " + theInputTag.name);
+									// }
+									if (theInputTag) {
+										var theType = theInputTag.type;
+										if (theInputTag.type == 'checkbox') {
+											console.log("getPolicyCheckbox: checkbox found, name = " + theInputTag.name);
+											if (theInputTag.name.substr(0, 6) == 'helper') {
+												console.log("getPolicyCheckbox: GCDM policy checkbox (helper...) found!");
+												return theInputTag;
+											}
+										}
+									}
+								}
+								console.log("getPolicyCheckbox: GCDM policy checkbox NOT found!?");
+								return null;
+							}
+
+							function lockButton(pButtonId, pLock) {
+								var theElement = document.getElementById(pButtonId);
+								if (theElement) {
+									theElement.disabled = pLock;
+								}
+							}
+						</script>
+
+					</ul>
+					<ul style="display: inline;"><li><a id="navForm:j_idt101" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('navForm',{'navForm:j_idt101':'navForm:j_idt101'}).submit('navForm');return false;">EN</a></li></ul></div>
+					</div>
+			</div>
+
+		
+		
+		<div style="display: none;" ng-if="!gcdmIsLoggedIn()" ng-init="checkLogin()"></div><script id="navForm:j_idt104" type="text/javascript">updateMenu = function() {PrimeFaces.ab({s:"navForm:j_idt104",f:"navForm",u:"navForm",ps:true,pa:arguments[0]});}</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="6952291797362268601:9054886789909465341" autocomplete="off" />
+</form><span style="display:none;">
+
+	<div class="gcdmHiddenLabels"><span class="enterAccountValues">Bitte geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein.</span><span class="email">E-Mail-Adresse*</span><span class="password">Passwort*</span><span class="passwordConfirm">Passwort bestätigen*</span><span class="newPassword">Neues Passwort*</span><span class="currentPassword">Aktuelles Passwort*</span><span class="accessData">Zugangsdaten</span><span class="personalInfo">Persönliche Information</span><span class="salutation">Anrede</span><span class="firstName">Vorname*</span><span class="surname">Nachname*</span><span class="passwordNotEqual">Die Passwörter stimmen nicht überein</span><span class="passwordMinLength">Ihr Passwort muss mindestens 8 Zeichen enthalten.</span><span class="passwordComplexity">Ihr Passwort muss mindestens 2 der folgenden 3 Elemente enthalten:</span><span class="digits">Zahlen</span><span class="characters">Buchstaben (abc = ABC, nicht Ã„Ã–Ãœ)</span><span class="specialcharacters">Sonderzeichen (.)</span><span class="passwordUsedRecently">Passwort vor kurzem bereits verwendet!</span><span class="requireddata">*Erforderliche Angaben</span><span class="forgotPassword">Passwort vergessen?</span><span class="changePassword">Passwort ändern</span><span class="resetpassword">Passwort zurücksetzen</span><span class="legalNotice">Hinweise zum Datenschutz:</span><span class="legalNoticeText">Die Vertraulichkeit und Integrität Ihrer persönlichen Angaben ist uns ein besonderes Anliegen. Wir werden Ihre Angaben daher sorgfältig und entsprechend den gesetzlichen Bestimmungen zum Datenschutz verarbeiten und Nutzen und nicht an Dritte oder andere BMW Fachstellen weitergeben.</span><span class="disclaimer">Widerrufsrecht:</span><span class="disclaimerText">Ich kann unter der E-Mail-Adresse kundenbetreuung@bmw.de oder der Telefonnummer 089 1250 160 00 (Mo. – So. von 8:00 bis 20:00 Uhr) Auskunft über meine bei der BMW AG gespeicherten personenbezogenen Daten erhalten und jederzeit deren Berichtigung, Löschung oder Sperrung verlangen. Sollte ich im Nachhinein Einwände gegen die Speicherung, Verarbeitung und Nutzung meiner Daten haben, kann ich meine Einwilligung ohne Angabe von Gründen unter der oben genannten E-Mail-Adresse oder Telefonnummer widerrufen.</span><span class="policyAgree">Ich aktzeptiere die</span><span class="policyAgreeLink">Bestimmungen</span><span class="agree">Zustimmen</span><span class="enterInformation">Bitte Informationen eingeben!</span><span class="userExists">Email-Adresse bereits registriert!</span><span class="register">Registrieren</span><span class="registerNow">Jetzt Registrieren</span><span class="registerSuccessfull">Registrierung erfolgreich!</span><span class="registerSuccessfullClick">Sie können sie nun hier anmelden:</span><span class="activateMail">Aktiviere Account:</span><span class="accountNotFound">FEHLER! Account nicht gefunden!</span><span class="authFailed">FEHLER! Authentifizierung fehlgeschlagen!</span><span class="activateSuccessfull">Account erfolgreich aktiviert! Sie können sich nun einloggen.</span><span class="activateSuccessfull">Account erfolgreich aktiviert! Sie können sich nun einloggen.</span><span class="resetMailSuccessfull">Email zum Zurücksetzen des Passwortes versand!</span><span class="pleaseChoose">Bitte wählen ...</span><span class="setPasswordSuccessfull">Passwort erfolgreich geändert!</span><span class="validatioError">FEHLER! Eingegebene Daten inkorrekt!</span><span class="emailInvalid">Email-Adresse ungültig!</span><span class="changeLoginId">E-Mail Adresse ändern</span><span class="changeLoginSuccessfull">Email-Adresse erfolgreich geändert!</span><span class="changeLoginSuccessfull2">Bitte kontrollieren sie Ihr E-Mail Fach um die Änderung zu bestätigen!</span>
+            
+
+	</div>
+	<script>
+	function getGCDMLabel(labelName){
+		return $(".gcdmHiddenLabels").find("."+ labelName).text();
+	}
+	
+	function replaceGCDMLabels($formContainer){
+		$formContainer.find(".gcdmLabel").each(function(){
+			var label = getGCDMLabel($(this).data("labelname"));
+			$(this).html(label);
+		})
+	}
+	
+	</script></span>
+<form id="j_idt156" name="j_idt156" method="post" action="/research/index.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt156" value="j_idt156" />
+<script id="j_idt156:j_idt157" type="text/javascript">refresh = function() {PrimeFaces.ab({s:"j_idt156:j_idt157",f:"j_idt156",u:"@all navForm",ps:true,pa:arguments[0]});}</script><script id="j_idt156:j_idt158" type="text/javascript">gcdmLogin = function() {PrimeFaces.ab({s:"j_idt156:j_idt158",f:"j_idt156",ps:true,pa:arguments[0]});}</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="6952291797362268601:9054886789909465341" autocomplete="off" />
+</form>
+			</div>
+		<style>
+			b {
+				font-weight: bold;
+			}
+		</style>
+		<div id="content">
+<form id="form" name="form" method="post" action="/research/index.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="form" value="form" />
+
+				<div class="overviewImage">
+					<div class="imgCont"><img id="form:j_idt162" src="/research/javax.faces.resource/img/00631579_m.jpg;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=irc" alt="" class="keyvis" />
+					</div>
+
+					<div class="overviewText">
+						<h2>BMW Geschichte
+						</h2>
+
+						<p>
+						</p>
+
+						<p>Das BMW Group Archiv bereitet die Informationen zu Unternehmens-, Marken- und Produkthistorie auf und stellt diese umfassend aus dem Zeitraum der Unternehmensgründung bis zum Jahre 1980 zur Verfügung. Die Daten aus jüngerer Zeit werden sukzessive freigeschalten. Der Datenbestand umfasst zum Beispiel Geschäftsberichte, BMW Werkszeitungen, Bilder und Filme, Ereignisse und viele Informationen zu allen Produkten mit ihren technischen und historischen Daten.<br/>In der Bilder- und Filmsuche stehen Ihnen zusätzliche Funktionen zur Bestellanfrage von Medien zur Verfügung.<br/>Erkunden Sie nun das Informationsnetzwerk der 100-jährigen BMW Geschichte.</p>
+					</div>
+				</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:2" value="6952291797362268601:9054886789909465341" autocomplete="off" />
+</form>
+		</div>
+<form id="j_idt171" name="j_idt171" method="post" action="/research/index.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt171" value="j_idt171" />
+
+	<div id="footer">
+		<div id="bottomNav">
+			<ul>
+				<li><a href="/research/information/contact.xhtml" target="_self">Kontakt</a></li>
+				<li><a href="/research/general/legal_disclaimer.xhtml">Rechtlicher Hinweis</a></li>
+				
+				<li><a href="/research/general/imprint.xhtml">Impressum</a></li>
+				<li><a id="j_idt171:j_idt174" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.addSubmitParam('j_idt171',{'j_idt171:j_idt174':'j_idt171:j_idt174'}).submit('j_idt171');return false;">Englisch</a></li>
+				<li><a href="http://www.bmwgroup.com/d/0_0_www_bmwgroup_com/home/home.html" target="_blank">bmwgroup.com</a></li>
+			</ul>
+			<div class="clear bottomDistance"></div>
+			
+			<div class="clear"></div>
+		</div>
+		<div id="imgSoz"><img id="j_idt171:footer_trias" src="/research/javax.faces.resource/bmw_classic/transparent.png;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=irc" alt="" />
+			<style>
+.fb_iframe_widget {
+	display: inline-block;
+	position: relative;
+}
+</style>
+			<div id="channels">
+				<a href="//www.facebook.com/BMW.Classic" target="_blank" style="width: 100%; font-size: 11px; line-height: 16px; margin-bottom: 4px; color: #b8b8b8;"><img id="j_idt171:j_idt177" src="/research/javax.faces.resource/img/standard_elements/sozBook_fb.png;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=bmw" alt="" /> BMW Classic auf Facebook
+				</a> <a href="//instagram.com/bmwclassic" target="_blank" style="width: 100%; font-size: 11px; line-height: 16px; margin-bottom: 4px; color: #b8b8b8;"><img id="j_idt171:j_idt179" src="/research/javax.faces.resource/img/standard_elements/sozBook_instagram.png;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=bmw" alt="" /> BMW Classic auf Instagram
+				</a>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:3" value="6952291797362268601:9054886789909465341" autocomplete="off" />
+</form>
+		</div>
+
+	<div id="pleaseLogin">
+<form id="pleaseLoginForm" name="pleaseLoginForm" method="post" action="/research/index.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="pleaseLoginForm" value="pleaseLoginForm" />
+<div id="pleaseLoginForm:j_idt183" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="pleaseLoginForm:j_idt183_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="pleaseLoginForm:j_idt183_content">
+
+				<p>Diese Funktion steht nur angemeldeten Nutzern zur Verfügung.
+				</p><table id="pleaseLoginForm:j_idt187" class="ui-panelgrid ui-widget" role="grid"><tbody><tr class="ui-widget-content" role="row"><td role="gridcell" class="ui-panelgrid-cell"><a id="pleaseLoginForm:j_idt188" href="#" class="ui-commandlink ui-widget arrow " onclick="loginBox.show();pleaseLoginDlg.hide();;PrimeFaces.ab({s:&quot;pleaseLoginForm:j_idt188&quot;,f:&quot;pleaseLoginForm&quot;,ps:true});return false;">Login</a></td><td role="gridcell" class="ui-panelgrid-cell"><a id="pleaseLoginForm:j_idt190" href="#" class="ui-commandlink ui-widget arrow " onclick="registerBox.show();pleaseLoginDlg.hide();;PrimeFaces.ab({s:&quot;pleaseLoginForm:j_idt190&quot;,f:&quot;pleaseLoginForm&quot;,ps:true});return false;">Registrieren</a></td></tr></tbody></table></div></div><script id="pleaseLoginForm:j_idt183_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","pleaseLoginDlg",{id:"pleaseLoginForm:j_idt183",resizable:false,modal:true});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:4" value="6952291797362268601:9054886789909465341" autocomplete="off" />
+</form>
+	</div>
+
+	<div id="orderNotes">
+<form id="orderNotesForm" name="orderNotesForm" method="post" action="/research/index.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="orderNotesForm" value="orderNotesForm" />
+<div id="orderNotesForm:j_idt194" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="orderNotesForm:j_idt194_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="orderNotesForm:j_idt194_content">
+				<h2>Hinweise zu Bild- und Filmbestellungen
+				</h2>
+				<div class="spacer16"></div>
+				<p>Sehr geehrte Kundin, <br/> Sehr geehrter Kunde, <br/> <br/> Sie können in unserem Historischen Medienarchiv Bilder und Filmmaterial kostenpflichtig bestellen. <br/> Für Bestellungen gehen Sie bitte wie folgt vor:
+				</p>
+				<ul>
+					<li>Nach Anmeldung mit Ihren Nutzerdaten recherchieren Sie das von Ihnen gewünschte Bild und Filmmaterial.
+					</li>
+					<li>Legen Sie die gewünschten Datensätze im Warenkorb ab und rufen Sie von dort aus die Option „Bestellanfrage stellen“ auf. Dort erhalten Sie Informationen über den weiteren Bestellvorgang.
+					</li>
+					<li>Sie haben auch die Möglichkeit, ohne recherchiertes Bild- / Filmmaterial eine informelle Bestellanfrage an das Medienarchiv zu stellen: Nehmen Sie hierfür bitte mit dem Medienarchiv Kontakt auf:
+							<br /><br />E-Mail: historisches.medien-archiv@bmwgroup.com
+						<br />Telefon: +49 (0) 89/382-25518 (9.00 – 17.00 Uhr)
+						<br />Fax: +49 (0) 89/382-24765
+					</li>
+				</ul></div></div><script id="orderNotesForm:j_idt194_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","orderNotesDlg",{id:"orderNotesForm:j_idt194",resizable:false,modal:true,width:"700"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:5" value="6952291797362268601:9054886789909465341" autocomplete="off" />
+</form>
+	</div>
+
+	<div>
+<form id="addedArchivalsForm" name="addedArchivalsForm" method="post" action="/research/index.xhtml;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="addedArchivalsForm" value="addedArchivalsForm" />
+<div id="addedArchivalsForm:j_idt214" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="addedArchivalsForm:j_idt214_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="addedArchivalsForm:j_idt214_content">
+				<p>Bilder und AV-Medien werden in den Warenkorb gelegt. Andere Archivalien sind nicht bestellbar.
+				</p><table id="addedArchivalsForm:j_idt218" class="ui-panelgrid ui-widget" role="grid"><tbody></tbody></table><a id="addedArchivalsForm:j_idt219" href="#" class="ui-commandlink ui-widget blue_button" onclick="PrimeFaces.addSubmitParam('addedArchivalsForm',{'addedArchivalsForm:j_idt219':'addedArchivalsForm:j_idt219'}).submit('addedArchivalsForm');return false;">Zum Warenkorb</a><a id="addedArchivalsForm:j_idt221" href="#" class="ui-commandlink ui-widget blue_button" onclick="archialsAddedDlg.hide();PrimeFaces.ab({s:&quot;addedArchivalsForm:j_idt221&quot;,f:&quot;addedArchivalsForm&quot;,ps:true});return false;" style="float:right">Weiter recherchieren</a></div></div><script id="addedArchivalsForm:j_idt214_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","archialsAddedDlg",{id:"addedArchivalsForm:j_idt214",resizable:false,modal:true,width:"500"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:6" value="6952291797362268601:9054886789909465341" autocomplete="off" />
+</form>
+	</div><div id="j_idt223" class="ui-panel ui-widget ui-widget-content ui-corner-all" data-widget="widget_j_idt223"><div id="j_idt223_content" class="ui-panel-content ui-widget-content"></div></div><script id="j_idt223_s" type="text/javascript">$(function(){PrimeFaces.cw("Panel","widget_j_idt223",{id:"j_idt223"});});</script>
+		
+
+		
+
+		<script type="text/javascript">
+	
+		function hideShow(buttonId) {
+			//1-deactivate; 2-activate 
+			if(buttonId==="deactivate"){
+				
+				document.getElementById('headerButtonSetTwo').style.display = "block";
+				document.getElementById('headerButtonSetOne').style.display = "none";
+				//cookieMngmnt(1);
+			}else{
+				document.getElementById('headerButtonSetOne').style.display = "block";
+				document.getElementById('headerButtonSetTwo').style.display = "none";
+				//cookieMngmnt(2);
+	    	}	
+		}
+		
+		//turns cookie usage on/off
+		function cookieMngmnt(onOff){
+			if(onOff===1){  //deactivate
+				var ca = document.cookie.split(';');	
+				var cookies = {};
+				
+				if(ca!==null){ 
+					for (var i=0; i < ca.length; i++){
+						var pair = ca[i].split("=");
+						cookies[(pair[0]+'').trim()] = unescape(pair[1]);
+						
+						for(var j=0; j < cookieDeletionList.length; j++){							
+							if(pair[0]===cookieDeletionList[j]){
+								document.cookie = pair[0]+"=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+							}
+						}	
+					}
+				}
+			}else{ //activate
+					//TODO
+			}			
+		}
+		
+		
+		function PopUp(hideOrshow) {
+		        if (hideOrshow == 'hide') {
+		            document.getElementById('ac-wrapper').style.display = "none";
+		            localStorage.setItem("popupWasShown",1);
+		            document.getElementById('leftNav').style.top= "135px";
+		        }
+		        else  if(localStorage.getItem("popupWasShown") == null) {
+		            document.getElementById('ac-wrapper').removeAttribute('style');
+		            document.getElementById('leftNav').style.top= "230px";
+		        }
+		    }
+		    
+		window.onload = function () {
+			setTimeout(function () {
+		    PopUp('show');	   
+	        }, 0);
+	    }
+		
+		    
+		function hideNow(e) {
+		        if (e.target.id == 'ac-wrapper') document.getElementById('ac-wrapper').style.display = 'none';
+		    }
+		    		
+			
+			$(document).ready(function() {
+				setTimeout(function(){
+					weltNavigation.init();
+				}, 200)					
+	/* 				weltLeftNavigation.init();
+					changeLinksAccordingToStage();
+					highlightNavigation(); */
+			});			
+			</script>
+    <script src="https://customer.bmwgroup.com/formcomponentsV2/js/angular.js"></script>
+    <script src="https://customer.bmwgroup.com/formcomponentsV2/js/gcdm.js"></script><script type="text/javascript" src="/research/javax.faces.resource/gcdm/basysResearchApp.js;jsessionid=bdb9b7392a6ee9a5760e62348e1d.0?ln=js"></script></body>
+</html>

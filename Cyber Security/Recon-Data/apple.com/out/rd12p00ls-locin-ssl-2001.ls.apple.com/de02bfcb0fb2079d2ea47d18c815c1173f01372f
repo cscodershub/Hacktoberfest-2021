@@ -1,0 +1,11 @@
+http://rd12p00ls-locin-ssl-2001.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: rd12p00ls-locin-ssl-2001.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found : Moved Temporarily
+< Pragma: no-cache
+< Location: https://rd12p00ls-locin-ssl-2001.ls.apple.com/
+< Cache-Control: no-cache
+

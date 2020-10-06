@@ -1,0 +1,15 @@
+http://gspe72-2-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe72-2-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< Date: Thu, 30 Apr 2020 21:31:00 GMT
+< Via: http/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 sgsin3-edge-bx-023.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Server: ATS/8.0.7
+< Cdnuuid: d23e0999-8eb0-4fd5-badf-e7d894d4c4bb-10819767
+< X-Cache: miss, miss
+< Content-Length: 0
+< Age: 0
+

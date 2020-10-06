@@ -1,0 +1,54 @@
+https://oss.bmw.de/
+
+> GET / HTTP/1.1
+> Host: oss.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Length: 975
+< Content-Type: text/html
+< Date: Tue, 11 Aug 2020 04:51:12 GMT
+< Server: Apache
+< Last-Modified: Tue, 04 Apr 2017 13:11:51 GMT
+< Etag: "3cf-54c5704dcd3f3"
+< Accept-Ranges: bytes
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+<title>BMW - OSS</title>
+<link rev="made" href="mailto:itps.web@list.bmw.com" />
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    p, address {margin-left: 3em; font-family: Verdana, Arial, Helvetica,
+sans-serif; text-align:center; font-size: 10pt; font-weight: bold; }
+    span {font-size: smaller;}
+/*]]>*/--></style>
+<link rel="shortcut icon" type="image/x-icon" href="/pictures/common/favicon.ico">
+</head>
+
+<body>
+<div>
+  <p>
+  <img src="bmw.png" width="100" height="100" alt="BMW"/>
+
+  </p>
+  <p>
+  OSS Portal has been shutdown
+  </p>
+  <p>
+
+
+  
+     Please find our new AOS Portal at https://aos.bmwgroup.com
+
+  
+
+  </p>
+</div>
+
+</body>
+</html>
+

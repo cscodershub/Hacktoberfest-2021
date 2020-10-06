@@ -1,0 +1,25 @@
+https://delivery-time.boozt.com/
+
+> GET / HTTP/1.1
+> Host: delivery-time.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html; charset=utf-8
+< Vary: Accept-Encoding
+< Access-Control-Allow-Origin: *
+< Cf-Request-Id: 047f7266c800001aa03b002200000001
+< Cf-Ray: 5c1286847c761aa0-SIN
+< Cache-Control: private
+< Cf-Cache-Status: DYNAMIC
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< Date: Tue, 11 Aug 2020 14:07:53 GMT
+< X-Cloud-Trace-Context: 427886979983b51c183de8c1b5978e0f;o=1
+< Set-Cookie: __cfduid=d7c93197f632c0b4fc9f73fa89e3c35f61597154873; expires=Thu, 10-Sep-20 14:07:53 GMT; path=/; domain=.boozt.com; HttpOnly; SameSite=Lax; Secure
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>

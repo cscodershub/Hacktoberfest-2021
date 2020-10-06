@@ -1,0 +1,57 @@
+https://edge-search.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: edge-search.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 Apple WebObjects
+< Cache-Control: private
+< Cache-Control: no-cache
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: max-age=0
+< Expires: Thu, 30-Apr-2020 02:53:42 GMT
+< Content-Type: text/html; charset=UTF-8
+< X-B3-Spanid: a2aad0978123fd0a
+< Pragma: no-cache
+< X-Apple-Jingle-Correlation-Key: 2FGJIZOEEWV5SUYQ4KRMAUJEDM
+< X-Apple-Application-Site: MR22
+< Apple-Seq: 0
+< X-B3-Traceid: d14c9465c425abd95310e2a2c051241b
+< Nncoection: close
+< Strict-Transport-Security: max-age=31536000
+< B3: d14c9465c425abd95310e2a2c051241b-a2aad0978123fd0a
+< X-Webobjects-Loadaverage: 0
+< Apple-Originating-System: SPSearchQuery
+< Apple-Tk: false
+< Apple-Timing-App: 3 ms
+< X-Apple-Application-Instance: 603302
+< X-Apple-Request-Uuid: d14c9465-c425-abd9-5310-e2a2c051241b
+< Cteonnt-Length: 874
+< Date: Thu, 30 Apr 2020 21:29:51 GMT
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Session Creation Error</title>
+</head>
+<body bgcolor="#ffffff">
+
+<table border="0" width="100%">
+<tr>
+    <td align="center" valign="top">
+        <img border="0" src="/WebObjects/SPSearchQuery.woa/wr?wodata=jar%3Afile%3A%2F%2F%2Fopt%2Fitms%2FJingleFW%2FJingleFW20F64%2FFrameworks%2FJavaWOExtensions-5.4.3.framework.3d613f0%2FResources%2FJavaLibraries%2FJavaWOExtensions-5.8.20-b01.jar%21%2FWebServerResources%2Fexclamation.gif" width="32" height="32" /><br>
+        Re-enter<br>
+        <a target="_top" href="/WebObjects/SPSearchQuery.woa/wa/default">
+            <b>SPSearchQuery</b>
+        </a>
+    </td>
+    <td align="left" valign="middle">
+        <b>Your session could not be created.</b>
+    </td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+http://shorturl.netflix.com/
+
+> GET / HTTP/1.1
+> Host: shorturl.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Wed, 17 Jun 2020 05:36:01 GMT
+< Server: Google Frontend
+< Content-Length: 0
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-cache
+< Location: http://shorturl.netflix.com/a/netflix.com?continue=http%3A//shorturl.netflix.com/
+< X-Cloud-Trace-Context: b6c0d28c976bed6aaaa0c003954c0ed9
+

@@ -1,0 +1,27 @@
+http://pv-files.apple.com/
+
+> GET / HTTP/1.1
+> Host: pv-files.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Thu, 30 Apr 2020 21:29:36 GMT
+< Server: Apache
+< Cteonnt-Length: 367
+< Content-Type: text/html; charset=UTF-8
+< Accept-Ranges: bytes
+< Cache-Control: max-age=1800
+< Expires: Thu, 30 Apr 2020 21:59:36 GMT
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>bye bye</title>
+	<meta <meta http-equiv="refresh" content="0;URL='http://www.apple.com/'">>
+</head>
+<body>
+Bye Bye  You shouldn't be here.
+</body>
+</html>

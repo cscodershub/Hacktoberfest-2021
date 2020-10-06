@@ -1,0 +1,31 @@
+https://resources.boomi.com/
+
+> GET / HTTP/1.1
+> Host: resources.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Ua-Compatible: IE=Edge,chrome=1
+< X-Runtime: 0.011477
+< X-Served-By: cache-bom4732-BOM
+< X-Cache-Hits: 0
+< Vary: Accept-Encoding, Origin
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< P3p: CP="ALL DSP COR CURa ADMa DEVa OUR IND COM NAV"
+< X-Request-Id: 2264a972-322a-4cfb-b0f5-17ae802a7356
+< Via: 1.1 vegur
+< Via: 1.1 varnish
+< Date: Sat, 15 Aug 2020 09:16:08 GMT
+< X-Timer: S1597482968.817010,VS0,VE1131
+< X-Frame-Options: SAMEORIGIN
+< X-Download-Options: noopen
+< Location: https://resources.boomi.com/resources
+< Content-Type: text/html; charset=utf-8
+< X-Cache: MISS
+< Cache-Control: no-cache
+< Accept-Ranges: bytes
+< Server: Cowboy
+< X-Permitted-Cross-Domain-Policies: none
+
+<html><body>You are being <a href="https://resources.boomi.com/resources">redirected</a>.</body></html>

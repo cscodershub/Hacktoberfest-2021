@@ -1,0 +1,23 @@
+http://support-vendor.apple.com/
+
+> GET / HTTP/1.1
+> Host: support-vendor.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: TCP_MISS from a49-44-130-58.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:29:15 GMT
+< Location: https://support.apple.com/
+< X-Cache-Remote: TCP_MEM_HIT from a49-44-95-20.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Cache-Control: no-siteapp
+< Content-Type: text/html
+< Content-Length: 162
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

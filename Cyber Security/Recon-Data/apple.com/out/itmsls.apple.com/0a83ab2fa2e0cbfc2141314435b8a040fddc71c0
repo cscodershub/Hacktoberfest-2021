@@ -1,0 +1,32 @@
+http://itmsls.apple.com/
+
+> GET / HTTP/1.1
+> Host: itmsls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: HEAD, GET, OPTIONS
+< Access-Control-Max-Age: 3000
+< Apple-Balance-Left: 209
+< Server: daiquiri/3.0.0
+< X-Apple-Request-Uuid: c708d425-ce0d-045e-dd81-8b6ccc0ad836
+< B3: c708d425ce0d045edd818b6ccc0ad836-683887b4a5f370cc
+< X-B3-Spanid: 683887b4a5f370cc
+< Apple-Seq: 0.0
+< Access-Control-Allow-Headers: range
+< Connection: keep-alive
+< Content-Type: application/json
+< Content-Length: 149
+< Apple-Originating-System: ar-resolver-origin
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Thu, 30 Apr 2020 20:37:55 GMT
+< X-B3-Traceid: c708d425ce0d045edd818b6ccc0ad836
+< Access-Control-Expose-Headers: range, cdn-server, content-encoding, transfer-encoding, content-range
+< Access-Control-Allow-Credentials: false
+< X-Daiquiri-Instance: daiquiri:17173001:mr85p00it-hyhk04114101:7987:20E24
+< Cache-Control: max-age=3600
+< X-Apple-Jingle-Correlation-Key: Y4ENIJOOBUCF5XMBRNWMYCWYGY
+< Apple-Tk: false
+
+{"code":{"code":2,"name":"Bad Request"},"errorMessage":"Invalid token: Token cannot be empty or null.","correlationKey":"Y4ENIJOOBUCF5XMBRNWMYCWYGY"}

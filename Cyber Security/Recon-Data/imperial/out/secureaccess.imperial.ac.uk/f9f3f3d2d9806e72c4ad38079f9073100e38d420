@@ -1,0 +1,15 @@
+https://secureaccess.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: secureaccess.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=utf-8
+< Set-Cookie: DSSIGNIN=url_default; path=/dana-na/; expires=Thu, 31-Dec-2037 00:00:00 GMT; secure
+< Set-Cookie: DSIVS=; path=/; expires=Thu, 01 Jan 1970 22:00:00 GMT; secure
+< Set-Cookie: DSSignInURL=/; path=/; secure
+< Content-Length: 0
+< Strict-Transport-Security: max-age=31536000
+< Location: /dana-na/auth/url_default/welcome.cgi
+

@@ -1,0 +1,20 @@
+http://services.flow.boomi.com/
+
+> GET / HTTP/1.1
+> Host: services.flow.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 308 Permanent Redirect
+< Content-Type: text/html
+< Content-Length: 171
+< Location: https://services.flow.boomi.com/
+< Server: nginx/1.17.8
+< Date: Sat, 15 Aug 2020 09:16:01 GMT
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx/1.17.8</center>
+</body>
+</html>

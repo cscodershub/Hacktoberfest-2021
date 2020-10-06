@@ -1,0 +1,25 @@
+http://appleweb-uat.apple.com/
+
+> GET / HTTP/1.1
+> Host: appleweb-uat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=0, no-cache, no-store
+< Pragma: no-cache
+< X-Akamai-Staging: ESSL
+< Content-Length: 162
+< Server: Apple
+< Expires: Thu, 30 Apr 2020 21:40:46 GMT
+< Date: Thu, 30 Apr 2020 21:40:46 GMT
+< X-Cache: TCP_MISS from a23-48-169-54.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< Content-Type: text/html
+< Location: https://appleweb-uat.apple.com/
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

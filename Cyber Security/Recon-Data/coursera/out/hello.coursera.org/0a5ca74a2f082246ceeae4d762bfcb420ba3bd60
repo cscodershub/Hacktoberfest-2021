@@ -1,0 +1,15 @@
+https://hello.coursera.org/
+
+> GET / HTTP/1.1
+> Host: hello.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=15724800; includeSubDomains
+< Server: nginx/1.17.10
+< Date: Mon, 10 Aug 2020 04:51:54 GMT
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 10
+
+Forbidden

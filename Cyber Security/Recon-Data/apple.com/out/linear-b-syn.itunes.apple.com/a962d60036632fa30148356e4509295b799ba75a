@@ -1,0 +1,23 @@
+https://linear-b-syn.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: linear-b-syn.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: application/x-amz-json-1.1
+< X-Amzn-Requestid: YQAHFAA5NTUDCJPRMZT4BKTUEYWVNRB6ITJVKEK2DYWIVBEQFV3M3WUN6R3UIAIRCPMB4BFMJYHGHWLFH6VM6BI
+< X-Amzn-Errortype: AccessDeniedException
+< X-Amz-Cf-Id: I2eKW5Ad-Z16RyLlcHekKmNXaq8fh2SxdWs3o3jxDgwE0l6ZUCJDuA==
+< Content-Length: 28
+< Via: 1.1 d4b41c13595dcfd327649d8cdea72ce8.cloudfront.net (CloudFront), https/1.1 usqas4-vp-vst-008.ts.apple.com (ApacheTrafficServer/8.0.7 [uScSsSfUpSeN:t cCSp sS]), https/1.1 usqas4-ve-vfe-008.ts.apple.com (ApacheTrafficServer/8.0.7 [uScSsSfUpSeN:t cCSpSs ]), https/1.1 usrtv2-edge-bx-006.ts.apple.com (ApacheTrafficServer/8.0.7 [uScMsSfWpSeN:t cCMpSs ])
+< X-Amz-Cf-Pop: IAD89-C3
+< Age: 1
+< Date: Thu, 30 Apr 2020 21:30:01 GMT
+< Access-Control-Allow-Origin: *
+< X-Cache: miss, hit-stale, hit-stale, Error from cloudfront
+< Server: ATS/8.0.7
+< Cdnuuid: 3bce48d8-5efb-4f2a-b884-65aa041d6300-48131813
+< Cdn-Server: aapl
+
+{"Message":"Access Denied."}

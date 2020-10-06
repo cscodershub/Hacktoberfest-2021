@@ -1,0 +1,28 @@
+https://my.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: my.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+< Access-Control-Allow-Credentials: true
+< X-Xss-Protection: 0
+< Server: Apache
+< Content-Type: text/html; charset=iso-8859-1
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Headers: Content-Type
+< Date: Tue, 11 Aug 2020 04:45:30 GMT
+< Content-Length: 328
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /
+on this server.<br />
+</p>
+<p>Additionally, a 403 Forbidden
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>

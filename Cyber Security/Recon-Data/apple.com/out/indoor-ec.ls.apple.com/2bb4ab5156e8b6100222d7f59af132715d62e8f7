@@ -1,0 +1,16 @@
+https://indoor-ec.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: indoor-ec.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: PLAY_SESSION=2-pypDPjOMGLE/7nfBmrPe4ukZHcHVyJ8AYi7lZL9ESC7Sd5444e3H1CGLAkK/rdQ79nuZKknrYUIAa+IRUP47vK5E+mwWZq5hOGysdRCSqYcP5IKS6mQS/4E18U9QV+AiR4pr7Nff+7lw; Path=/; Secure; HTTPOnly
+< Strict-Transport-Security: max-age=31536000
+< Server: AppleHttpServer/62e237dc531d
+< Content-Type: text/plain; charset=utf-8
+< Vary: Accept-Encoding
+< X-B3-Traceid: 721caf1a3b5a32af
+< Date: Thu, 30 Apr 2020 21:30:49 GMT
+
+Handler not found for request GET /

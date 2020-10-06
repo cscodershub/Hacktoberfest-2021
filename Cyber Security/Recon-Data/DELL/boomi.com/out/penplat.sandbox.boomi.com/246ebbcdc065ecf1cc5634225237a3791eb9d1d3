@@ -1,0 +1,104 @@
+https://penplat.sandbox.boomi.com/
+
+> GET / HTTP/1.1
+> Host: penplat.sandbox.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 502 Bad Gateway
+< Server: nginx
+< Date: Sat, 15 Aug 2020 09:16:15 GMT
+< Content-Type: text/html
+< Content-Length: 2226
+< Etag: "5b48cca6-8b2"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Something Went Wrong</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,300' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" href="https://static.cdn.boomi.com/platform-maintenance-or-outage/img/favicon.ico">
+
+	<style type="text/css">
+		body{
+			background-color: #28353d;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		.wall{
+			padding-top: 60px;
+			border-bottom: solid 20px #ffebd2;
+			background-image: url('https://static.cdn.boomi.com/platform-maintenance-or-outage/img/block.png');
+			background-repeat: repeat;
+		}
+
+		.wall img{
+			padding-top: 24px;
+		}
+
+		#down{
+			background-color: #ffffff;
+		}
+
+		h1, h3{
+			color: #28353d;
+		}
+
+		h1{
+			text-transform: uppercase;
+			font-weight: 800;
+			font-size: 30px;
+		}
+
+		h3{
+			font-weight: 300;
+		}
+
+		footer{
+			padding: 24px;
+		}
+
+		footer span{
+			color: rgba(255,255,255,.5);
+			padding-right: 12px;
+		}
+
+		a{
+			color: #2491a3;
+			text-decoration: underline;
+		}
+
+		a:hover{
+			color: #4abed1;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container-fluid wall">
+		<div class="row text-center">
+			<h1>Something went wrong, but we're taking care of it.</h1>
+			<h3>You can monitor our progress <a href="https://status.boomi.com/"><b>HERE</b></a></h3>
+		</div>
+		<div class="row text-center">
+			<img src="https://static.cdn.boomi.com/platform-maintenance-or-outage/img/fail.png" height="400">
+		</div>
+	</div>
+
+	<footer>
+		<div class="container-fluid text-center">
+			<div class="row">
+				<div class="col-md-4 pull-left">
+					<img src="https://static.cdn.boomi.com/platform-maintenance-or-outage/img/logo.png" width="100">
+				</div>
+				<div class="col-md-8 pull-right">
+					<span>For more information visit <a href="https://status.boomi.com/">Platform & Status Announcements </a></span>
+					<span> &copy; Copyright 2018 Boomi, Inc.</span>
+					<a href="http://www.boomi.com/privacy"> Privacy</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

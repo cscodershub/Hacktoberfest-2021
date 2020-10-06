@@ -1,0 +1,25 @@
+https://uts-api-siri.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: uts-api-siri.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Apple-Timing-App: 16309794763
+< Access-Control-Allow-Origin: *
+< Vary: Accept-Encoding
+< Apple-Timing-App: 16309794763
+< Access-Control-Allow-Headers: Content-Type,*
+< Access-Control-Expose-Headers: X-Apple-Next-Ekv
+< Content-Type: text/plain
+< X-Apple-Ssl-Token-Valid: false
+< X-Responding-Instance: uts-api:2122:st43p00it-qugc10220401:8100:206UTS209
+< Cache-Control: private, no-cache, must-revalidate, max-age=0
+< X-Apple-Application-Site: ST11
+< Akamai-Age-Ms: 1588282192099
+< Date: Thu, 30 Apr 2020 21:29:52 GMT
+< X-Apple-Application-Instance: 2122
+< X-Apple-Response-Time: 16309794763
+< Access-Control-Allow-Methods: GET,POST
+
+404:HTTP 404 Not Found

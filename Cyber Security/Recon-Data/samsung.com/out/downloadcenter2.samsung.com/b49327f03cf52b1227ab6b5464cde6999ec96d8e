@@ -1,0 +1,20 @@
+https://downloadcenter2.samsung.com/
+
+> GET / HTTP/1.1
+> Host: downloadcenter2.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Ali-Swift-Global-Savetime: 1591532083
+< Age: 58897
+< X-Swift-Savetime: Tue, 09 Jun 2020 13:14:11 GMT
+< Eagleid: b47a4eb815917673483872536e
+< Content-Type: application/octet-stream
+< Content-Length: 0
+< Via: cache1.l2cn1816[0,302-0,H], cache5.l2cn1816[0,0], vcache2.cn2811[0,302-0,H], vcache34.cn2811[12,0]
+< X-Cache: HIT TCP_HIT dirn:0:205590398
+< X-Swift-Cachetime: 604800
+< Timing-Allow-Origin: *
+< Server: Tengine
+< Location: https://org.downloadcenter.samsung.com/
+

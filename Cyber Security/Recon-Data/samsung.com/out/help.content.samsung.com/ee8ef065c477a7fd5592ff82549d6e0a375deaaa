@@ -1,0 +1,20 @@
+http://help.content.samsung.com/
+
+> GET / HTTP/1.1
+> Host: help.content.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Temporary Redirect
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: TS01166133=01c4a40a5e7eb344ede8c0cf498f0fd0d553117a71a12a5248278d52486fb1ca6b1eba2e1cf74f87cae7c23c6020b7598cb02572c6; Path=/
+< Date: Wed, 10 Jun 2020 05:35:50 GMT
+< Location: https://help.content.samsung.com/
+< Content-Length: 243
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>307 Temporary Redirect</title>
+</head><body>
+<h1>Temporary Redirect</h1>
+<p>The document has moved <a href="https://help.content.samsung.com/">here</a>.</p>
+</body></html>

@@ -1,0 +1,12 @@
+http://static.ips.apple.com/
+
+> GET / HTTP/1.1
+> Host: static.ips.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://static.ips.apple.com/
+< Date: Thu, 30 Apr 2020 21:40:05 GMT
+

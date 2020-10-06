@@ -1,0 +1,20 @@
+https://carrierbundle.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: carrierbundle.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Access-Control-Allow-Credentials: true
+< X-Apple-Jingle-Correlation-Key: RIC5O5SQWEQKCSTWB7MJMQRNOQ
+< B3: 8a05d77650b120a14a760fd896422d74-8ef4d60dfe4f7b6e
+< X-B3-Traceid: 8a05d77650b120a14a760fd896422d74
+< X-B3-Spanid: 8ef4d60dfe4f7b6e
+< Apple-Seq: 0
+< X-Apple-Jingle-Responding-Instance: MZCarrierBundle-nk11p01it-ibav18303802-10005-10200
+< Access-Control-Allow-Origin: *
+< X-Apple-Request-Uuid: 8a05d776-50b1-20a1-4a76-0fd896422d74
+< Apple-Tk: false
+< Apple-Originating-System: MZCarrierBundle
+< Server: Jetty(9.4.18.v20190429)
+

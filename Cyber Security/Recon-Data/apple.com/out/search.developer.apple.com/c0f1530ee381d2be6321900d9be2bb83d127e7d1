@@ -1,0 +1,23 @@
+http://search.developer.apple.com/
+
+> GET / HTTP/1.1
+> Host: search.developer.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://search.developer.apple.com/
+< X-B3-Traceid: ea945d20a753c6ce
+< Date: Thu, 30 Apr 2020 21:29:07 GMT
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000
+< Server: AppleHttpServer/62e237dc531d
+< Content-Length: 201
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>AppleHttpServer/62e237dc531d</center>
+</body>
+</html>

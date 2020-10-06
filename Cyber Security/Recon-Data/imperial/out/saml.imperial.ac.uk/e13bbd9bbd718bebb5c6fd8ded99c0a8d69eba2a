@@ -1,0 +1,15 @@
+https://saml.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: saml.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apache/2.2.15 (Oracle)
+< Last-Modified: Fri, 10 Mar 2017 17:17:49 GMT
+< Etag: "40113-0-54a638a839de9"
+< Accept-Ranges: bytes
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Date: Sat, 18 Jul 2020 13:54:28 GMT
+

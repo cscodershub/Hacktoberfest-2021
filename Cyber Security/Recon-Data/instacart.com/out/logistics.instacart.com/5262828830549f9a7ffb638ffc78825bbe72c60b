@@ -1,0 +1,25 @@
+https://logistics.instacart.com/
+
+> GET / HTTP/1.1
+> Host: logistics.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Xss-Protection: 1; mode=block
+< X-Request-Id: fc4b302c-d7bc-452c-92c9-735e491176f0
+< X-Runtime: 0.004696
+< X-Download-Options: noopen
+< Referrer-Policy: strict-origin-when-cross-origin
+< Cache-Control: no-cache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Type: text/html; charset=utf-8
+< Server: nginx
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 04 Aug 2020 04:47:16 GMT
+< X-Permitted-Cross-Domain-Policies: none
+< Location: https://logistics.instacart.com/login
+< Set-Cookie: _mkra_ctxt=168196cd957bf0bf74516b49dfb2ebba--302; path=/; max-age=5; HttpOnly
+< Set-Cookie: _logistics_session=THZ6TFlic3VTZEgvYUZIMVpLMUJBeksxSkVYZWQya2EzMWdTTlhySWVCZzdQMFg1d0FzYUtLUEIrYXRQaTZQcGNZR3QyVkVRdnVWU0RialIrMytUTTFJdEJqVWdVcE1pN25UMTl6RjZBNllZNDVqTVM0dGd6QnRTT3YzNERJYlQvdHFaZkR1YUNOSjYvdXh0VUpjaGFBPT0tLTRNNFduUkEwRDdOWUZCODZ1RWhBUWc9PQ%3D%3D--5d1863a19d994cba67e6ea4c218965a361b59d52; path=/; expires=Wed, 05 Aug 2020 04:47:16 GMT; secure; HttpOnly
+< X-Content-Type-Options: nosniff
+
+<html><body>You are being <a href="https://logistics.instacart.com/login">redirected</a>.</body></html>

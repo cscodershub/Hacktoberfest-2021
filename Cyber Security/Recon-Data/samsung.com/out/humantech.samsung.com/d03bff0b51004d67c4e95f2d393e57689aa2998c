@@ -1,0 +1,26 @@
+http://humantech.samsung.com/
+
+> GET / HTTP/1.1
+> Host: humantech.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Etag: "d4748475858d31:0"
+< Date: Wed, 10 Jun 2020 05:37:01 GMT
+< Content-Length: 359
+< Set-Cookie: TS019fd945=01debf25547e15894e79d1fed701d8b59d060e1482501d10f3def8acea731982ab09c29c2a40f7fbd04142ab5c9102ec0f391bd7b6; Path=/
+< Content-Type: text/html
+< Last-Modified: Wed, 08 Nov 2017 06:10:30 GMT
+< Accept-Ranges: bytes
+
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+<title>휴먼테크논문대상</title>
+<script type="text/javascript">
+	location.href="/saitext/index.jsp";  //forwarding pagedd
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,624 @@
+https://r1.community.samsung.com/
+
+> GET / HTTP/1.1
+> Host: r1.community.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Via: 1.1 c90147ea5199ff7ce77981c8da4247c4.cloudfront.net (CloudFront)
+< Date: Wed, 10 Jun 2020 05:35:43 GMT
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=UTF-8
+< Server: Apache
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Vary: Accept-Encoding
+< X-Amz-Cf-Pop: FRA53-C1
+< X-Amz-Cf-Id: WIei1QITNnq_Q9QhQPq-pUd10thVYDLnUQUotlAT_hWGNaNuAaczfQ==
+< Set-Cookie: AWSALB=pYvK/0WM87sdXYgCdeJ9QzaozlGnLYTf5twjbXc9q8JORCRhdeF9mygWqmjBJ4fLxMMAsA7BlPiVfZUqGJWTZDuAB/gvBjHUlaBmKUco7M+3ZV7chOY4SowpvEvf; Expires=Wed, 17 Jun 2020 05:35:43 GMT; Path=/
+< Set-Cookie: AWSALBCORS=pYvK/0WM87sdXYgCdeJ9QzaozlGnLYTf5twjbXc9q8JORCRhdeF9mygWqmjBJ4fLxMMAsA7BlPiVfZUqGJWTZDuAB/gvBjHUlaBmKUco7M+3ZV7chOY4SowpvEvf; Expires=Wed, 17 Jun 2020 05:35:43 GMT; Path=/; SameSite=None; Secure
+< Set-Cookie: LiSESSIONID=CC7B2EE88FD693D271828C0102AAA145; Path=/; Secure; HttpOnly
+< Set-Cookie: LithiumUserInfo=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+< Set-Cookie: LithiumUserSecure=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+< Set-Cookie: LithiumVisitor=~2jLBRvHTEoYN1Aws2~Y5y72wwh_LsAhUW0mCa5n5i9Opbjw5eLbk5a4UHD47reAbM9rmtq1A79-kbSr7UTDqstehkI9_XRfvcx88ziHA..; Expires=Sat, 08-Jun-2030 05:35:43 GMT; Path=/; HttpOnly
+< Pragma: no-cache
+< X-Cache: Miss from cloudfront
+
+<!DOCTYPE html><html prefix="og: http://ogp.me/ns#" dir="ltr" lang="en" class="no-js">
+	<head>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgQPUlZTCBACV1JQBQIOVVI=",licenseKey:"90ec53e80f",applicationID:"233223936"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(21),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(22),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(9),t(8),"addEventListener"in window&&t(5),c.xhrWrappable&&t(10),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(9),s=t(8),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(7),"addEventListener"in window&&t(5);var x=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof x&&(this.bstStart=y.now())}),o.on(w,function(t,n){var e=t[0];e instanceof x&&i("bst",[e,n,this.bstStart,y.now()])}),a.on(m,function(t,n,e){this.bstStart=y.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,y.now(),this.bstType])}),s.on(m,function(){this.bstStart=y.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,y.now(),"requestAnimationFrame"])}),o.on(g+p,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),o.on(g+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){function r(t,n,e){var r=t[n];"function"==typeof r&&(t[n]=function(){var t=i(arguments),n={};o.emit(e+"before-start",[t],n);var a;n[m]&&n[m].dt&&(a=n[m].dt);var s=r.apply(this,t);return o.emit(e+"start",[t,a],s),s.then(function(t){return o.emit(e+"end",[null,t],s),t},function(t){throw o.emit(e+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(22),a=t(21);n.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,n){r(d[h],n,f),r(l[h],n,f)}),r(s,"fetch",c),o.on(c+"end",function(t,n){var e=this;if(n){var r=n.headers.get("content-length");null!==r&&(e.rxSize=r),o.emit(c+"done",[null,n],e)}else o.emit(c+"done",[t],e)}))},{}],7:[function(t,n,e){var r=t("ee").get("history"),o=t("wrap-function")(r);n.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],8:[function(t,n,e){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],9:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],10:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",s)}function i(t){y.push(t),h&&(b?b.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];n.exports=u;var x=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],11:[function(t,n,e){function r(t){if(!i(t))return null;var n=window.NREUM;if(!n.loader_config)return null;var e=(n.loader_config.accountID||"").toString()||null,r=(n.loader_config.agentID||"").toString()||null,s=(n.loader_config.trustKey||"").toString()||null;if(!e||!r)return null;var c=a.generateCatId(),f=a.generateCatId(),u=Date.now(),d=o(c,f,u,e,r,s);return{header:d,guid:c,traceId:f,timestamp:u}}function o(t,n,e,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:n,ti:e}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function i(t){var n=!1,e=!1,r={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(r=NREUM.init.distributed_tracing,e=!!r.enabled),e)if(t.sameOrigin)n=!0;else if(r.allowed_origins instanceof Array)for(var o=0;o<r.allowed_origins.length;o++){var i=s(r.allowed_origins[o]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){n=!0;break}}return e&&n}var a=t(19),s=t(13);n.exports={generateTracePayload:r,shouldGenerateTrace:i}},{}],12:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);n.aborted||(e.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==n.status&&(n.status=0):i(this,t),e.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime]))}}function o(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.parsedOrigin=c(n),t.sameOrigin=t.parsedOrigin.sameOrigin}function i(t,n){t.params.status=n.status;var e=w(n,t.lastSize);if(e&&(t.metrics.rxSize=e),t.sameOrigin){var r=n.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(13),f=t(11).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(17),m=t(16),w=t(14),v=window.XMLHttpRequest;a.features.xhr=!0,t(10),t(6),u.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,t.addEventListener("load",function(e){i(n,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var e=f(this.parsedOrigin);e&&e.header&&(n.setRequestHeader("newrelic",e.header),this.dt=e)}),u.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=m(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<l;s++)n.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),u.on("xhr-load-added",function(t,n){var e=""+p(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,n){var e=""+p(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],n)}),u.on("removeEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],n)}),u.on("fn-start",function(t,n,e){n instanceof v&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,n){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)}),u.on("fetch-before-start",function(t){var n,e=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url&&(n=t[0].url),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var r=f(this.parsedOrigin);if(r&&r.header){var o=r.header;if("string"==typeof t[0]){var i={};for(var a in e)i[a]=e[a];i.headers=new Headers(e.headers||{}),i.headers.set("newrelic",o),this.dt=r,t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&(t[0].headers.append("newrelic",o),this.dt=r)}})}},{}],13:[function(t,n,e){var r={};n.exports=function(t){if(t in r)return r[t];var n=document.createElement("a"),e=window.location,o={};n.href=t,o.port=n.port;var i=n.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=n.hostname||e.hostname,o.pathname=n.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!n.protocol||":"===n.protocol||n.protocol===e.protocol,s=n.hostname===document.domain&&n.port===e.port;return o.sameOrigin=a&&(!n.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],14:[function(t,n,e){function r(t,n){var e=t.responseType;return"json"===e&&null!==n?n:"arraybuffer"===e||"blob"===e||"json"===e?o(t.response):"text"===e||""===e||void 0===e?o(t.responseText):void 0}var o=t(16);n.exports=r},{}],15:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(21),s=t(22),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],16:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],17:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],18:[function(t,n,e){function r(t,n){var e=t.getEntries();e.forEach(function(t){"first-paint"===t.name?c("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&c("timing",["fcp",Math.floor(t.startTime)])})}function o(t,n){var e=t.getEntries();e.length>0&&c("lcp",[e[e.length-1]])}function i(t){if(t instanceof u&&!l){var n,e=Math.round(t.timeStamp);n=e>1e12?Date.now()-e:f.now()-e,l=!0,c("timing",["fi",e,{type:t.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,s,c=t("handle"),f=t("loader"),u=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),s=new PerformanceObserver(o);try{a.observe({entryTypes:["paint"]}),s.observe({entryTypes:["largest-contentful-paint"]})}catch(d){}}if("addEventListener"in document){var l=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(t){document.addEventListener(t,i,!1)})}}},{}],19:[function(t,n,e){function r(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(n=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(n=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}n.exports={generateUuid:r,generateCatId:o}},{}],20:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],21:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],22:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],23:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([x,e,r,a]),a}}function p(t,n){g[t]=m(t).concat(n)}function h(t,n){var e=g[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return g[t]||[]}function w(t){return d[t]=d[t]||o(e)}function v(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var g={},y={},x={on:p,addEventListener:p,removeEventListener:h,emit:e,get:w,listeners:m,context:n,buffer:v,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(21),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=b.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(21),u=t("ee"),d=t(20),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var g=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1169.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:g,features:{},xhrWrappable:x,userAgent:d};t(15),t(18),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(23)},{}],"wrap-function":[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(22),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}]},{},["loader",2,12,4,3]);</script>
+	
+	<title>Samsung Members Community</title>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="icon" href="https://r1.community.samsung.com/html/assets/favicon.ico?9FC51B89847827502975E31A7A684D8A" type="image/x-icon" />
+<link rel="shortcut icon" href="https://r1.community.samsung.com/html/assets/favicon.ico?9FC51B89847827502975E31A7A684D8A" type="image/x-icon" />
+<meta property="og:image" content="https://r1.community.samsung.com/html/assets/img_social-media_new.png?050283507A770CAB0A4469E395656B54" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="270" />
+<meta property="og:image:height" content="270" />
+<meta name="naver-site-verification" content="059a37aae925db2a993a1fb8a4aa5d8fca3b7542" />
+<link rel="stylesheet" href="https://r1.community.samsung.com/html/assets/owl.carousel.min.css?630EC721DCBFD9D178122C57583A6D59" />
+<link rel="stylesheet" href="https://r1.community.samsung.com/html/assets/owl.theme.default.min.css?7EF090B33D6EAB537FD821B6CC1BAEAE" />
+
+
+	
+	
+	
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/><link href="https://r1.community.samsung.com/" rel="canonical"/>
+	<meta content="website" property="og:type"/><meta content="https://r1.community.samsung.com/" property="og:url"/><meta content="" property="og:description"/><meta content="Samsung Members Community" property="og:title"/>
+	
+	
+		<link class="lia-link-navigation hidden live-links" title="New board topics in Samsung Members" type="application/rss+xml" rel="alternate" id="link" href="/isuuy43828/rss/Community?interaction.style=forum"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All board posts in Samsung Members" type="application/rss+xml" rel="alternate" id="link_0" href="/isuuy43828/rss/Community?interaction.style=forum&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New knowledge base articles in Samsung Members" type="application/rss+xml" rel="alternate" id="link_1" href="/isuuy43828/rss/Community?interaction.style=tkb"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All knowledge base posts in Samsung Members" type="application/rss+xml" rel="alternate" id="link_2" href="/isuuy43828/rss/Community?interaction.style=tkb&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New blog articles in Samsung Members" type="application/rss+xml" rel="alternate" id="link_3" href="/isuuy43828/rss/Community?interaction.style=blog"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All blog posts in Samsung Members" type="application/rss+xml" rel="alternate" id="link_4" href="/isuuy43828/rss/Community?interaction.style=blog&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New idea exchange ideas in Samsung Members" type="application/rss+xml" rel="alternate" id="link_5" href="/isuuy43828/rss/Community?interaction.style=idea"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All idea exchange posts in Samsung Members" type="application/rss+xml" rel="alternate" id="link_6" href="/isuuy43828/rss/Community?interaction.style=idea&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New contest entry in Samsung Members" type="application/rss+xml" rel="alternate" id="link_7" href="/isuuy43828/rss/Community?interaction.style=contest"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All contest posts in Samsung Members" type="application/rss+xml" rel="alternate" id="link_8" href="/isuuy43828/rss/Community?interaction.style=contest&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New Products" type="application/rss+xml" rel="alternate" id="link_9" href="/isuuy43828/rss/Community?interaction.style=review"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All Reviews and Comments" type="application/rss+xml" rel="alternate" id="link_10" href="/isuuy43828/rss/Community?interaction.style=review&amp;feeds.replies=true"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="New media posts in Samsung Members" type="application/rss+xml" rel="alternate" id="link_11" href="/isuuy43828/rss/Community?interaction.style=media"></link>
+	
+		<link class="lia-link-navigation hidden live-links" title="All media posts in Samsung Members" type="application/rss+xml" rel="alternate" id="link_12" href="/isuuy43828/rss/Community?interaction.style=media&amp;feeds.replies=true"></link>
+	
+
+	
+	
+	    
+            	<link href="/skins/4281657/6f0f2051d76ce47c79fc46b4fc6f99c5/samsung_global.css" rel="stylesheet" type="text/css"/>
+            
+	
+
+	
+	
+	
+	
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://r1.community.samsung.com/html/assets/owl.carousel.min.js?A3065558097A65E00E61CE89161392E9"></script>
+
+
+<script type="text/javascript" src="/t5/scripts/EAA19129A1248A19BBE86A06A73AF336/lia-scripts-head-min.js"></script><script language="javascript" type="text/javascript">
+<!--
+LITHIUM.PrefetchData = {"Components":{},"commonResults":{}};
+LITHIUM.DEBUG = false;
+LITHIUM.CommunityJsonObject = {
+  "Validation" : {
+    "image.description" : {
+      "min" : 0,
+      "max" : 1000,
+      "isoneof" : [ ],
+      "type" : "string"
+    },
+    "tkb.toc_maximum_heading_level" : {
+      "min" : 1,
+      "max" : 6,
+      "isoneof" : [ ],
+      "type" : "integer"
+    },
+    "tkb.toc_heading_list_style" : {
+      "min" : 0,
+      "max" : 50,
+      "isoneof" : [
+        "disc",
+        "circle",
+        "square",
+        "none"
+      ],
+      "type" : "string"
+    },
+    "blog.toc_maximum_heading_level" : {
+      "min" : 1,
+      "max" : 6,
+      "isoneof" : [ ],
+      "type" : "integer"
+    },
+    "tkb.toc_heading_indent" : {
+      "min" : 5,
+      "max" : 50,
+      "isoneof" : [ ],
+      "type" : "integer"
+    },
+    "blog.toc_heading_indent" : {
+      "min" : 5,
+      "max" : 50,
+      "isoneof" : [ ],
+      "type" : "integer"
+    },
+    "blog.toc_heading_list_style" : {
+      "min" : 0,
+      "max" : 50,
+      "isoneof" : [
+        "disc",
+        "circle",
+        "square",
+        "none"
+      ],
+      "type" : "string"
+    }
+  },
+  "User" : {
+    "settings" : {
+      "imageupload.legal_file_extensions" : "*.jpg;*.JPG;*.jpeg;*.JPEG;*.png;*.PNG;*.gif;*.GIF;",
+      "config.enable_avatar" : true,
+      "integratedprofile.show_klout_score" : true,
+      "layout.sort_view_by_last_post_date" : true,
+      "layout.friendly_dates_enabled" : false,
+      "profileplus.allow.anonymous.scorebox" : false,
+      "tkb.message_sort_default" : "topicPublishDate",
+      "layout.format_pattern_date" : "MM-dd-yyyy",
+      "config.require_search_before_post" : "off",
+      "isUserLinked" : false,
+      "integratedprofile.cta_add_topics_dismissal_timestamp" : -1,
+      "layout.message_body_image_max_size" : 1000,
+      "profileplus.everyone" : false,
+      "integratedprofile.cta_connect_wide_dismissal_timestamp" : -1,
+      "blog.toc_maximum_heading_level" : "",
+      "integratedprofile.hide_social_networks" : false,
+      "blog.toc_heading_indent" : "",
+      "contest.entries_per_page_num" : 20,
+      "layout.messages_per_page_linear" : 20,
+      "integratedprofile.cta_manage_topics_dismissal_timestamp" : -1,
+      "profile.shared_profile_test_group" : false,
+      "integratedprofile.cta_personalized_feed_dismissal_timestamp" : -1,
+      "integratedprofile.curated_feed_size" : 10,
+      "contest.one_kudo_per_contest" : false,
+      "integratedprofile.enable_social_networks" : false,
+      "integratedprofile.my_interests_dismissal_timestamp" : -1,
+      "profile.language" : "en",
+      "layout.friendly_dates_max_age_days" : 31,
+      "layout.threading_order" : "thread_descending",
+      "blog.toc_heading_list_style" : "disc",
+      "useRecService" : false,
+      "layout.module_welcome" : "<h2>Welcome to the Samsung<br />\r\nMembers Community<\/h2>\r\n<p>Explore your new hub for all things Samsung and beyond. Connect with Samsung experts, super-fans, and other Community members for tips on features and how to get the most out of your Samsung product.<\/p>\r\n<a class=\"samsung-members-link\" href=\"https://www.samsung.com/global/galaxy/apps/samsung-members/\" target=\"_blank\"><span>Samsung Members: <\/span>Learn more<\/a>",
+      "imageupload.max_uploaded_images_per_upload" : 10,
+      "imageupload.max_uploaded_images_per_user" : 15000,
+      "integratedprofile.connect_mode" : "",
+      "tkb.toc_maximum_heading_level" : "",
+      "tkb.toc_heading_list_style" : "disc",
+      "sharedprofile.show_hovercard_score" : true,
+      "config.search_before_post_scope" : "board",
+      "tkb.toc_heading_indent" : "",
+      "p13n.cta.recommendations_feed_dismissal_timestamp" : -1,
+      "imageupload.max_file_size" : 20480,
+      "layout.show_batch_checkboxes" : false,
+      "integratedprofile.cta_connect_slim_dismissal_timestamp" : -1
+    },
+    "isAnonymous" : true,
+    "policies" : {
+      "image-upload.process-and-remove-exif-metadata" : true
+    },
+    "registered" : false,
+    "emailRef" : "",
+    "id" : -1,
+    "login" : "Anonymous"
+  },
+  "Server" : {
+    "communityPrefix" : "/isuuy43828",
+    "nodeChangeTimeStamp" : 1591767259549,
+    "tapestryPrefix" : "/t5",
+    "deviceMode" : "DESKTOP",
+    "responsiveDeviceMode" : "DESKTOP",
+    "version" : "20.1",
+    "branch" : "20.1-release",
+    "showTextKeys" : false
+  },
+  "Config" : {
+    "phase" : "prod",
+    "integratedprofile.cta.reprompt.delay" : 30,
+    "profileplus.tracking" : {
+      "profileplus.tracking.enable" : false,
+      "profileplus.tracking.click.enable" : false,
+      "profileplus.tracking.impression.enable" : false
+    },
+    "app.revision" : "2005131456-s4680d4a3c5-b81",
+    "navigation.manager.community.structure.limit" : "1000"
+  },
+  "Activity" : {
+    "Results" : [ ]
+  },
+  "NodeContainer" : {
+    "viewHref" : "https://r1.community.samsung.com/t5/Top/ct-p/top",
+    "description" : "",
+    "id" : "top",
+    "shortTitle" : "Top",
+    "title" : "Top",
+    "nodeType" : "category"
+  },
+  "Page" : {
+    "skins" : [
+      "samsung_global",
+      "responsive_peak"
+    ],
+    "authUrls" : {
+      "loginUrl" : "/plugins/custom/samsung/samsung_oauth2_sso/sso_login_redirect?referer=https%3A%2F%2Fr1.community.samsung.com%2F",
+      "loginUrlNotRegistered" : "/plugins/custom/samsung/samsung_oauth2_sso/sso_login_redirect?redirectreason=notregistered&referer=https%3A%2F%2Fr1.community.samsung.com%2F",
+      "loginUrlNotRegisteredDestTpl" : "/plugins/custom/samsung/samsung_oauth2_sso/sso_login_redirect?redirectreason=notregistered&referer=%7B%7BdestUrl%7D%7D"
+    },
+    "name" : "CommunityPage",
+    "rtl" : false,
+    "object" : {
+      "viewHref" : "/",
+      "id" : "isuuy43828",
+      "page" : "CommunityPage",
+      "type" : "Community"
+    }
+  },
+  "WebTracking" : {
+    "Activities" : { },
+    "path" : "Community:Samsung Members Community"
+  },
+  "Feedback" : {
+    "targeted" : { }
+  },
+  "Seo" : {
+    "markerEscaping" : {
+      "pathElement" : {
+        "prefix" : "@",
+        "match" : "^[0-9][0-9]$"
+      },
+      "enabled" : false
+    }
+  },
+  "TopLevelNode" : {
+    "viewHref" : "https://r1.community.samsung.com/",
+    "description" : "",
+    "id" : "isuuy43828",
+    "shortTitle" : "Samsung Members Community",
+    "title" : "Samsung Members",
+    "nodeType" : "Community"
+  },
+  "Community" : {
+    "viewHref" : "https://r1.community.samsung.com/",
+    "integratedprofile.lang_code" : "en",
+    "integratedprofile.country_code" : "US",
+    "id" : "isuuy43828",
+    "shortTitle" : "Samsung Members Community",
+    "title" : "Samsung Members"
+  },
+  "CoreNode" : {
+    "viewHref" : "https://r1.community.samsung.com/",
+    "settings" : { },
+    "description" : "",
+    "id" : "isuuy43828",
+    "shortTitle" : "Samsung Members Community",
+    "title" : "Samsung Members",
+    "nodeType" : "Community",
+    "ancestors" : [ ]
+  }
+};
+LITHIUM.Components.RENDER_URL = '/t5/util/componentrenderpage/component-id/#{component-id}?render_behavior=raw';
+LITHIUM.Components.ORIGINAL_PAGE_NAME = 'community/Page';
+LITHIUM.Components.ORIGINAL_PAGE_CONTEXT = 'kXqeqq1FRnK5NDlbuf_groz0MtDCta1XaxyzwtnEXjrLXShveeBbYhJE0WN62SgoOi--w55NcxyZl1k3x_nAsEB7cK7oKBTfviVRgS0mNXjQz19a-08edhWoW68okxqz4MhLnpc8G85dMK4g8161Y6KxYJ2o-LagqN4LYbb_1F4PXnGhC48e_3qvg202UCHNpIN6bn6wgIrOzzTms7rpZJjSR06j7muL2Ok5200PwbUQyPgJeFZtS88X4QYGFF2KqsVLNpcZwJXSMQQgLtxYI1W9IzVWvx25m-VyE8BWDYY.';
+LITHIUM.Css = {
+  "BASE_DEFERRED_IMAGE" : "lia-deferred-image",
+  "BASE_BUTTON" : "lia-button",
+  "BASE_SPOILER_CONTAINER" : "lia-spoiler-container",
+  "BASE_TABS_INACTIVE" : "lia-tabs-inactive",
+  "BASE_TABS_ACTIVE" : "lia-tabs-active",
+  "BASE_AJAX_REMOVE_HIGHLIGHT" : "lia-ajax-remove-highlight",
+  "BASE_FEEDBACK_SCROLL_TO" : "lia-feedback-scroll-to",
+  "BASE_FORM_FIELD_VALIDATING" : "lia-form-field-validating",
+  "BASE_FORM_ERROR_TEXT" : "lia-form-error-text",
+  "BASE_FEEDBACK_INLINE_ALERT" : "lia-panel-feedback-inline-alert",
+  "BASE_BUTTON_OVERLAY" : "lia-button-overlay",
+  "BASE_TABS_STANDARD" : "lia-tabs-standard",
+  "BASE_AJAX_INDETERMINATE_LOADER_BAR" : "lia-ajax-indeterminate-loader-bar",
+  "BASE_AJAX_SUCCESS_HIGHLIGHT" : "lia-ajax-success-highlight",
+  "BASE_CONTENT" : "lia-content",
+  "BASE_JS_HIDDEN" : "lia-js-hidden",
+  "BASE_AJAX_LOADER_CONTENT_OVERLAY" : "lia-ajax-loader-content-overlay",
+  "BASE_FORM_FIELD_SUCCESS" : "lia-form-field-success",
+  "BASE_FORM_WARNING_TEXT" : "lia-form-warning-text",
+  "BASE_FORM_FIELDSET_CONTENT_WRAPPER" : "lia-form-fieldset-content-wrapper",
+  "BASE_AJAX_LOADER_OVERLAY_TYPE" : "lia-ajax-overlay-loader",
+  "BASE_FORM_FIELD_ERROR" : "lia-form-field-error",
+  "BASE_SPOILER_CONTENT" : "lia-spoiler-content",
+  "BASE_FORM_SUBMITTING" : "lia-form-submitting",
+  "BASE_EFFECT_HIGHLIGHT_START" : "lia-effect-highlight-start",
+  "BASE_FORM_FIELD_ERROR_NO_FOCUS" : "lia-form-field-error-no-focus",
+  "BASE_EFFECT_HIGHLIGHT_END" : "lia-effect-highlight-end",
+  "BASE_SPOILER_LINK" : "lia-spoiler-link",
+  "BASE_DISABLED" : "lia-link-disabled",
+  "FACEBOOK_LOGOUT" : "lia-component-users-action-logout",
+  "FACEBOOK_SWITCH_USER" : "lia-component-admin-action-switch-user",
+  "BASE_FORM_FIELD_WARNING" : "lia-form-field-warning",
+  "BASE_AJAX_LOADER_FEEDBACK" : "lia-ajax-loader-feedback",
+  "BASE_AJAX_LOADER_OVERLAY" : "lia-ajax-loader-overlay",
+  "BASE_LAZY_LOAD" : "lia-lazy-load"
+};
+LITHIUM.noConflict = true;
+LITHIUM.useCheckOnline = false;
+LITHIUM.RenderedScripts = [
+  "NoConflict.js",
+  "jquery.blockui.js",
+  "ActiveCast3.js",
+  "jquery.ui.dialog.js",
+  "jquery.tmpl-1.1.1.js",
+  "jquery.js",
+  "jquery.iframe-shim-1.0.js",
+  "jquery.clone-position-1.0.js",
+  "jquery.css-data-1.0.js",
+  "Lithium.js",
+  "Throttle.js",
+  "Namespace.js",
+  "OoyalaPlayer.js",
+  "json2.js",
+  "jquery.viewport-1.0.js",
+  "AjaxSupport.js",
+  "ForceLithiumJQuery.js",
+  "jquery.ui.draggable.js",
+  "jquery.ui.mouse.js",
+  "Video.js",
+  "LiModernizr.js",
+  "jquery.ajax-cache-response-1.0.js",
+  "jquery.ui.widget.js",
+  "jquery.delayToggle-1.0.js",
+  "prism.js",
+  "SpoilerToggle.js",
+  "Loader.js",
+  "jquery.json-1.3.js",
+  "jquery.appear-1.1.1.js",
+  "ElementQueries.js",
+  "jquery.function-utils-1.0.js",
+  "jquery.scrollTo.js",
+  "Events.js",
+  "ElementMethods.js",
+  "DataHandler.js",
+  "Auth.js",
+  "jquery.iframe-transport.js",
+  "PolyfillsAll.js",
+  "DeferredImages.js",
+  "jquery.fileupload.js",
+  "jquery.hoverIntent-r6.js",
+  "jquery.effects.core.js",
+  "Sandbox.js",
+  "Components.js",
+  "Text.js",
+  "jquery.ui.core.js",
+  "jquery.effects.slide.js",
+  "PartialRenderProxy.js",
+  "jquery.ui.resizable.js",
+  "jquery.lithium-selector-extensions.js",
+  "jquery.ui.position.js",
+  "Cache.js",
+  "jquery.position-toggle-1.0.js",
+  "Globals.js",
+  "Forms.js",
+  "ResizeSensor.js"
+];// -->
+</script><script type="text/javascript" src="/t5/scripts/D60EB96AE5FF670ED274F16ABB044ABD/lia-scripts-head-min.js"></script></head>
+	<body class="lia-user-status-anonymous CommunityPage lia-body" id="lia-body">
+	
+	
+	<div id="BCCFEAAC" class="ServiceNodeInfoHeader">
+</div>
+	
+	
+	
+	
+
+	<div class="lia-page">
+		<center>
+			
+				
+					
+	
+	<div class="MinimumWidthContainer">
+		<div class="min-width-wrapper">
+			<div class="min-width">		
+				
+						<div class="lia-content">
+                            
+							
+							
+							
+		
+	<div class="lia-quilt lia-quilt-community-page lia-quilt-layout-single-row-full lia-top-quilt">
+	<div class="lia-quilt-row lia-quilt-row-main">
+		<div class="lia-quilt-column lia-quilt-column-24 lia-quilt-column-single lia-quilt-column-main-content">
+			<div class="lia-quilt-column-alley lia-quilt-column-alley-single">
+	
+		
+			
+<div class="custom-country-selection">
+    <section>
+        <h2>Choose your Country</h2>
+        <ul>
+                <li id="country-ad"><a href="https://eu.community.samsung.com/?category.id=es">Andorra</a></li>
+                <li id="country-ao"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">Angola</a></li>
+                <li id="country-ar"><a href="t5/Argentina/ct-p/ar?profile.language=es">Argentina</a></li>
+                <li id="country-bh"><a href="https://r2.community.samsung.com/t5/UAE/ct-p/ae?profile.language=en">Bahrain</a></li>
+                <li id="country-bd"><a href="https://r2.community.samsung.com/t5/India/ct-p/in?profile.language=en">Bangladesh</a></li>
+                <li id="country-bt"><a href="https://r2.community.samsung.com/t5/India/ct-p/in?profile.language=en">Bhutan</a></li>
+                <li id="country-bw"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">Botswana</a></li>
+                <li id="country-br"><a href="/t5/Brazil/ct-p/br?profile.language=pt-br">Brazil</a></li>
+                <li id="country-ca"><a href="/t5/Canada/ct-p/ca?profile.language=en">Canada</a></li>
+                <li id="country-cl"><a href="/t5/Chile/ct-p/cl?profile.language=es">Chile</a></li>
+                <li id="country-cn"><a href="https://www.samsungmembers.cn/">China</a></li>
+                <li id="country-cr"><a href="/t5/Panama/ct-p/pa?profile.language=es">Costa Rica</a></li>
+                <li id="country-cz"><a href="https://eu.community.samsung.com/?category.id=cz">Czech Republic</a></li>
+                <li id="country-do"><a href="/t5/Panama/ct-p/pa?profile.language=es">Dominican Republic</a></li>
+                <li id="country-ec"><a href="/t5/Panama/ct-p/pa?profile.language=es">Ecuador</a></li>
+                <li id="country-eg"><a href="https://r2.community.samsung.com/t5/Egypt/ct-p/eg?profile.language=ar">Egypt</a></li>
+                <li id="country-fr"><a href="https://eu.community.samsung.com/?category.id=fr">France</a></li>
+                <li id="country-de"><a href="https://eu.community.samsung.com/?category.id=de">Germany</a></li>
+                <li id="country-gt"><a href="/t5/Panama/ct-p/pa?profile.language=es">Guatemala</a></li>
+                <li id="country-hu"><a href="https://eu.community.samsung.com/?category.id=hu">Hungary</a></li>
+                <li id="country-in"><a href="https://r2.community.samsung.com/t5/India/ct-p/in?profile.language=en">India</a></li>
+                <li id="country-id"><a href="/t5/Indonesia/ct-p/id?profile.language=in">Indonesia</a></li>
+                <li id="country-iq"><a href="https://r2.community.samsung.com/t5/SELV-Jordan/ct-p/jo?profile.language=ar">Iraq</a></li>
+                <li id="country-ie"><a href="https://eu.community.samsung.com/?category.id=uk">Ireland</a></li>
+                <li id="country-it"><a href="https://eu.community.samsung.com/?category.id=it">Italy</a></li>
+                <li id="country-jo"><a href="https://r2.community.samsung.com/t5/SELV-Jordan/ct-p/jo?profile.language=ar">Jordan</a></li>
+                <li id="country-kr"><a href="/t5/Korea/ct-p/kr?profile.language=ko">Korea</a></li>
+                <li id="country-kw"><a href="https://r2.community.samsung.com/t5/UAE/ct-p/ae?profile.language=en">Kuwait</a></li>
+                <li id="country-lb"><a href="https://r2.community.samsung.com/t5/SELV-Jordan/ct-p/jo?profile.language=ar">Lebanon</a></li>
+                <li id="country-ls"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">Lesotho</a></li>
+                <li id="country-my"><a href="/t5/Malaysia/ct-p/my?profile.language=en">Malaysia</a></li>
+                <li id="country-mw"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">Malawi</a></li>
+                <li id="country-mv"><a href="https://r2.community.samsung.com/t5/Sri-Lanka/ct-p/lk?profile.language=en">Maldives</a></li>
+                <li id="country-mt"><a href="https://eu.community.samsung.com/?category.id=it">Malta</a></li>
+                <li id="country-mu"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">Mauritius</a></li>
+                <li id="country-mx"><a href="/t5/Mexico/ct-p/mx?profile.language=es">Mexico</a></li>
+                <li id="country-mc"><a href="https://eu.community.samsung.com/?category.id=fr">Monaco</a></li>
+                <li id="country-mz"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">Mozambique</a></li>
+                <li id="country-na"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">Namibia</a></li>
+                <li id="country-np"><a href="https://r2.community.samsung.com/t5/India/ct-p/in?profile.language=en">Nepal</a></li>
+                <li id="country-nl"><a href="https://eu.community.samsung.com/?category.id=nl">Netherlands</a></li>
+                <li id="country-om"><a href="https://r2.community.samsung.com/t5/UAE/ct-p/ae?profile.language=en">Oman</a></li>
+                <li id="country-pk"><a href="https://r2.community.samsung.com/t5/Pakistan/ct-p/pk?profile.language=en">Pakistan</a></li>
+                <li id="country-ps"><a href="https://r2.community.samsung.com/t5/SELV-Jordan/ct-p/jo?profile.language=ar">Palestine</a></li>
+                <li id="country-pa"><a href="/t5/Panama/ct-p/pa?profile.language=es">Panama</a></li>
+                <li id="country-pe"><a href="/t5/Peru/ct-p/pe?profile.language=es">Peru</a></li>
+                <li id="country-ph"><a href="/t5/Philippines/ct-p/ph?profile.language=en">Philippines</a></li>
+                <li id="country-pl"><a href="https://eu.community.samsung.com/?category.id=pl">Poland</a></li>
+                <li id="country-pt"><a href="https://eu.community.samsung.com/?category.id=pt">Portugal</a></li>
+                <li id="country-qa"><a href="https://r2.community.samsung.com/t5/UAE/ct-p/ae?profile.language=en">Qatar</a></li>
+                <li id="country-sm"><a href="https://eu.community.samsung.com/?category.id=it">San Marino</a></li>
+                <li id="country-sa"><a href="https://r2.community.samsung.com/t5/Saudi-Arabia/ct-p/sa?profile.language=ar">Saudi Arabia</a></li>
+                <li id="country-za"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">South Africa</a></li>
+                <li id="country-es"><a href="https://eu.community.samsung.com/?category.id=es">Spain</a></li>
+                <li id="country-lk"><a href="https://r2.community.samsung.com/t5/Sri-Lanka/ct-p/lk?profile.language=en">Sri Lanka</a></li>
+                <li id="country-sz"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">Swaziland</a></li>
+                <li id="country-th"><a href="/t5/Thailand/ct-p/th?profile.language=th">Thailand</a></li>
+                <li id="country-tr"><a href="https://r2.community.samsung.com/t5/Turkey/ct-p/tr?profile.language=tr">Turkey</a></li>
+                <li id="country-ae"><a href="https://r2.community.samsung.com/t5/UAE/ct-p/ae?profile.language=en">United Arab Emirates</a></li>
+                <li id="country-gb"><a href="https://eu.community.samsung.com/?category.id=uk">United Kingdom</a></li>
+                <li id="country-us"><a href="https://us.community.samsung.com/">United States</a></li>
+                <li id="country-ye"><a href="https://r2.community.samsung.com/t5/UAE/ct-p/ae?profile.language=en">Yemen</a></li>
+                <li id="country-zm"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">Zambia</a></li>
+                <li id="country-zw"><a href="https://r2.community.samsung.com/t5/South-Africa/ct-p/za?profile.language=en">Zimbabwe</a></li>
+        </ul>
+    </section>
+</div>
+
+		
+	
+	
+</div>
+		</div>
+	</div>
+</div>
+	
+
+	
+						</div>
+					
+			</div>								
+		</div>
+	</div>
+
+				
+			
+		</center>
+	</div>
+	
+	
+	
+	
+	
+
+	
+	
+	
+<script type="text/javascript" src="/t5/scripts/33DAF31CA58E60CCBC704F22792924AF/lia-scripts-common-min.js"></script><script type="text/javascript" src="/t5/scripts/27F5C373A7C969D28034A39801E59710/lia-scripts-body-min.js"></script><script language="javascript" type="text/javascript">
+<!--
+LITHIUM.Sandbox.restore();
+LITHIUM.jQuery.fn.cssData.defaults = {"dataPrefix":"lia-js-data","pairDelimeter":"-","prefixDelimeter":"-"};
+LITHIUM.CommunityJsonObject.User.policies['forums.action.message-view.batch-messages.allow'] = false;
+ ;(function($) {
+   $(document).ready(function() {
+     $('body').on('click', '.custom-kudo-message-component', function() {
+       const action = $(this).attr('data-attrib-action');
+       const parent = $(this).parents('.lia-component-kudos-widget-button-version-3');
+       const request = $.ajax({
+         url: '/plugins/custom/samsung/samsungelamer2/custom.kudo-message?tid=-6423412220729918494',
+         type: 'POST',
+         dataType: 'json',
+         data: {"msgid": $(this).attr('data-lia-kudos-entity-uid'), "action": $(this).attr('data-attrib-action')},
+         context: this,
+         beforeSend: function() {
+           $('.error', parent).removeClass('active').html('');
+         }
+       });
+ 
+       request.done(function(data, textStatus, jqXHR) {
+         if (data.status == 'success') {
+           $('.MessageKudosCount', parent).html(data.count);
+           if (action === 'revoke') {
+             $('.lia-button-image-kudos', parent).addClass('lia-button-image-kudos-not-kudoed').removeClass('lia-button-image-kudos-kudoed');
+             $(this).attr('data-attrib-action', 'kudo');
+           } else if (action === 'kudo') {
+             $('.lia-button-image-kudos', parent).addClass('lia-button-image-kudos-kudoed').removeClass('lia-button-image-kudos-not-kudoed');
+             $(this).attr('data-attrib-action', 'revoke');
+           }
+         } else {
+           $('.error', parent).html(data.message).addClass('active');
+         }
+       });
+       request.fail(function(jqXHR, textStatus, errorThrown) {
+         $('.error', parent).html('custom.kudo-message.unknown-error').addClass('active');
+       });
+     });
+   });
+ })(LITHIUM.jQuery);
+
+;(function ($) {
+    $(document).ready(function() {
+        $(document).on("click",".custom-tile-bookmark a" ,function(){
+            var id = $(this).attr('data-id'), action = $(this).attr('data-action');
+            var elem = 'bookmark-id-'+id;
+            var url = '/plugins/custom/samsung/samsungelamer2/custom.community-bookmark?tid=-6423412220729918494&action='+action+'&id='+id;
+            $.ajax({
+                url: url,
+                dataType: 'json',
+                success: function(result) {
+                  if(result.action == 'add') {
+                      $('.'+elem).removeClass('add');
+                      $('.'+elem).addClass('remove');
+                      $('.'+elem).attr('data-action','remove');
+                      $('.'+elem).text('Remove from bookmarks');
+                  } else {
+                      $('.'+elem).removeClass('remove');
+                      $('.'+elem).addClass('add');
+                      $('.'+elem).attr('data-action','add');
+                      $('.'+elem).text('Add to bookmarks');
+                  }
+                }
+            });
+        });
+    });
+})(LITHIUM.jQuery);
+
+LITHIUM.PartialRenderProxy({"limuirsComponentRenderedEvent":"LITHIUM:limuirsComponentRendered","relayEvent":"LITHIUM:partialRenderProxyRelay","listenerEvent":"LITHIUM:partialRenderProxy"});
+LITHIUM.AjaxSupport.defaultAjaxFeedbackHtml = "<div class=\"lia-inline-ajax-feedback lia-component-common-widget-ajax-feedback\">\n\t\t\t<div class=\"AjaxFeedback\" id=\"ajaxFeedback_2855d813cc9479\"><\/div>\n\t\t\t\n\t\n\n\t\n\n\t\t<\/div>";
+LITHIUM.AjaxSupport.defaultAjaxErrorHtml = "<span id=\"feedback-error\"> <\/span>\n\n\t\n\t\t<div class=\"InfoMessage lia-panel-feedback-inline-alert lia-component-common-widget-feedback\" id=\"feedback_2855d813df87b6\">\n\t\t\t<div role=\"alert\" class=\"lia-text\">\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t<p ng-non-bindable=\"\" tabindex=\"0\">Sorry, unable to complete the action you requested.<\/p>\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t<\/div>\n\n\t\t\t\n\t\t<\/div>";
+LITHIUM.AjaxSupport({"ajaxOptionsParam":{"event":"LITHIUM:partialRenderProxyRelay","parameters":{"javascript.ignore_combine_and_minify":"true"}},"tokenId":"ajax","elementSelector":document,"action":"partialRenderProxyRelay","feedbackSelector":false,"url":"https://r1.community.samsung.com/t5/community/page.liabase.basebody.partialrenderproxy:partialrenderproxyrelay","ajaxErrorEventName":"LITHIUM:ajaxError","token":""});
+new Image().src = ["/","b","e","a","c","o","n","/","6","4","2","6","1","2","6","1","3","1","5","_","1","5","9","1","7","6","7","3","4","3","4","1","4",".","g","i","f"].join("");
+LITHIUM.Auth.API_URL = '/t5/util/authcheckpage';
+LITHIUM.Auth.LOGIN_URL_TMPL = '/plugins/custom/samsung/samsung_oauth2_sso/sso_login_redirect?referer=https%3A%2F%2FREPLACE_TEXT';
+LITHIUM.Auth.KEEP_ALIVE_URL = '/t5/status/blankpage?keepalive';
+LITHIUM.Auth.KEEP_ALIVE_TIME = 180000;
+LITHIUM.Auth.CHECK_SESSION_TOKEN = 'VV4HZnxSoWER_-1';
+LITHIUM.AjaxSupport.useTickets = true;
+LITHIUM.Loader.runJsAttached();
+// -->
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"90ec53e80f","agent":"","beacon":"bam.nr-data.net","applicationTime":69,"applicationID":"233223936","transactionName":"M1BRYEAEWBVYURYLWAoaZFFQSmIHSVcRFkUdZVJTV191CVRfFwxeEExjVVUA","queueTime":0,"atts":"HxdGFggeFA1afw0AXghQEQ4QA1cKSldAThUPVnFbRkcMRE1AFwcVGUg="}</script></body>
+</html>

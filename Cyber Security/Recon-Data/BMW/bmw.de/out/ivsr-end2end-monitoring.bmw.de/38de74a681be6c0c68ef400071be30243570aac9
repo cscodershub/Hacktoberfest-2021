@@ -1,0 +1,47 @@
+https://ivsr-end2end-monitoring.bmw.de/
+
+> GET / HTTP/1.1
+> Host: ivsr-end2end-monitoring.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31556926;includeSubDomains
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Etag: "307-5a3a1ff5e98cf"
+< Content-Length: 775
+< X-Content-Security-Policy: default-src 'self'
+< X-Webkit-Csp: default-src 'self'
+< Content-Type: text/html
+< Date: Tue, 11 Aug 2020 04:51:00 GMT
+< Last-Modified: Sun, 19 Apr 2020 10:10:53 GMT
+< X-Xss-Protection: 1; mode=block
+< Content-Security-Policy: default-src 'self'
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+ <title>BMW Group - no content deployed</title>
+ <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+ <style type="text/css">
+    body       { vertical-align: middle; }
+    p          { font-family: Verdana, Arial, Helvetica, sans-serif;
+                 text-align: center;
+                 font-size: 10pt; }
+    .bold      { font-weight: bold; }
+ </style>
+ </head>
+
+ <body>
+  <div>
+    <p style="margin-top: 150px;"/>
+    <p><img src="/webops-global-icons/bmw/bmw_group.png" alt="BMW Group"/></p>
+    <p class="bold">BMW - New Installation (ML6)</p>
+    <p>This project didn't deploy any content yet.</p>
+  </div>
+
+ </body>
+</html>

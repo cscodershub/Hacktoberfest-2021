@@ -1,0 +1,23 @@
+http://image.email.boozt.com/
+
+> GET / HTTP/1.1
+> Host: image.email.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 274
+< Expires: Tue, 11 Aug 2020 14:07:53 GMT
+< Date: Tue, 11 Aug 2020 14:07:53 GMT
+< Server: AkamaiGHost
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;image&#46;email&#46;boozt&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;9c732c31&#46;1597154873&#46;14f0866
+</BODY>
+</HTML>

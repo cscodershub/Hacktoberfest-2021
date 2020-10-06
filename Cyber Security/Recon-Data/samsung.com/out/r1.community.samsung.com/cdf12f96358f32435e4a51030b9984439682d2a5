@@ -1,0 +1,23 @@
+http://r1.community.samsung.com/
+
+> GET / HTTP/1.1
+> Host: r1.community.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: AWSALB=FEyWf9lKOpUgkGUyydvyRbYCPNcAwjn5nOqI97hZgMKhMVoSshZcMHKQwAAq9bxFi4dndV0xwp9HffFptbjrUkuLj/f9D7fyJAGuFJSONW/e3MhGCHFemwYZinr5; Expires=Wed, 17 Jun 2020 05:35:52 GMT; Path=/
+< Set-Cookie: AWSALBCORS=FEyWf9lKOpUgkGUyydvyRbYCPNcAwjn5nOqI97hZgMKhMVoSshZcMHKQwAAq9bxFi4dndV0xwp9HffFptbjrUkuLj/f9D7fyJAGuFJSONW/e3MhGCHFemwYZinr5; Expires=Wed, 17 Jun 2020 05:35:52 GMT; Path=/; SameSite=None
+< Set-Cookie: LiSESSIONID=BA21E880065387161051A940CB8AC8DA; Path=/; HttpOnly
+< Set-Cookie: LithiumUserInfo=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+< Set-Cookie: LithiumUserSecure=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+< Set-Cookie: LithiumVisitor=~2YMktYCC58g2PC0eN~7BA-ocrCgqGVKOqAEOOP08P7zyBEL0Zqh6QxWozfZ4MUDfnHn9NcGpJsvLOparGMQdPrPuNOfRqIohb1dh0uTw..; Expires=Sat, 08-Jun-2030 05:35:52 GMT; Path=/; HttpOnly
+< Set-Cookie: LiSESSIONID=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+< X-Amz-Cf-Pop: FRA53-C1
+< Content-Length: 0
+< X-Amz-Cf-Id: NwB08z8Yyf2sCY1xJ8j4683zX86AYe2WkgDx2j7P_4zJ4sfz0XwH1A==
+< Location: https://r1.community.samsung.com/
+< Date: Wed, 10 Jun 2020 05:35:52 GMT
+< Server: Apache
+< Via: 1.1 f2db75b601dc30df73b1beb29596a375.cloudfront.net (CloudFront)
+< X-Cache: Miss from cloudfront
+

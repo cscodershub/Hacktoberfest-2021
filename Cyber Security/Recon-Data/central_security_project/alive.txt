@@ -1,0 +1,6 @@
+https://search.maven.org
+https://www.maven.org
+https://repo.apache.maven.org
+https://search-aws.maven.org
+https://repo1.maven.org
+https://status.maven.org

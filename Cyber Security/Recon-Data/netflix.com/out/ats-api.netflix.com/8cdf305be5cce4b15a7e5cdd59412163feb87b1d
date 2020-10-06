@@ -1,0 +1,20 @@
+http://ats-api.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ats-api.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 17 Jun 2020 05:35:24 GMT
+< Location: https://ats-api.netflix.com/
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Content-Length: 178
+< Content-Type: text/html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

@@ -1,0 +1,32 @@
+https://www.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Wed, 17 Jun 2020 05:34:51 GMT
+< Expires: 0
+< Pragma: no-cache
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache, no-store
+< X-Netflix.proxy.execution-Time: 194
+< X-Originating-Url: https://www.latency.prodaa.netflix.com/
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Length: 0
+< Edge-Control: no-cache, no-store
+< Server: nq_website_core-prod-release 3fd13f4a-488a-4ca5-8989-556ff5be0b79
+< Set-Cookie: flwssn=ccf07eed-b9e2-4d28-8b1f-45ba6dd78ff8; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:51 GMT
+< Set-Cookie: clSharedContext=1a649681-6dd1-411f-81c0-8379a8f63d5a; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBENjLp9kInVwyhbyZwujexrpAL3Qxx2EpeR66OwNB1uhK1hYsxGMW8hNGvLxMmcQu4f6L5nnqnQ-CrRTAXVrWWWpfsZ-E7caN2Fz3sjSJ9eoXTw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABQmyY8cn5rc9HMNU-eufmPJcXr75ig6opw.%26dt%3D1592372091979; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:51 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEBaP75YgatM326z2td97zTeA8DbclVimu81DGjfEyTLc69grzxe5WoJ-kW-K3rVMUk2lcAh5pBCQ4ZncLYpJrdrDVvRA4Mzf8H0iwLb9T-VKiLYZPIIOUxxU_qhLJJYrcn4BWPch6W5g61wIvoMfw_vdU4MOyog0A6BqZxvq69gROUFlLUR-QIH_qz-KB9W4yYUsc00Qy0mh3D6Mv4ac6HTL5EPA1_B5kkSTZEWHwu5AtTN1oC_GlY24urHQTzw4KfDgmEt89H0lRf6JIksK61_E6F8l85poW5o79FsQSodKeJXrI6v9-6_o2dfSm3KvYPJuekzGqBe5zW8m4ArAndSTlA..%26bt%3Ddev%26mac%3DAQEAEAABABTKEJVkf-I7KVBzCvN81ZXqNr560Ysoy8U.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:51 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=10c4c286-eb44-43c3-83df-dd00810ae5e6; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:51 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0659891aeaad73421 (eu-west-1)
+< Content-Type: text/html
+< Location: https://www.latency.prodaa.netflix.com/in/
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: DENY
+< X-Netflix.nfstatus: 1_1
+

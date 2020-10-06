@@ -1,0 +1,47 @@
+https://a3p.eucdm.samsung.com/
+
+> GET / HTTP/1.1
+> Host: a3p.eucdm.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Etag: "3d12e1a5489d41:0"
+< Date: Wed, 10 Jun 2020 05:35:41 GMT
+< Content-Length: 701
+< Set-Cookie: TS01d15ade=0192ad0e30d6bfc168c5c574cea05f90c2d0ffd710fc980777001bfae4abc7ca5cac5fc1d66be43a5d47df3cc6e258556b210fddb3; Path=/
+< Content-Type: text/html
+< Last-Modified: Thu, 21 Jun 2018 10:14:32 GMT
+< Accept-Ranges: bytes
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows Server</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iis-85.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>

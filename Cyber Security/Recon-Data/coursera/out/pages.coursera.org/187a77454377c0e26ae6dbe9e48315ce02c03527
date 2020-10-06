@@ -1,0 +1,25 @@
+http://pages.coursera.org/
+
+> GET / HTTP/1.1
+> Host: pages.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Mon, 10 Aug 2020 04:52:02 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Location: https://pages.coursera.org/
+< Cf-Request-Id: 04784f26860000dc958e8ab200000001
+< Cf-Ray: 5c071aea7f40dc95-MAA
+< Set-Cookie: __cfduid=d79b1589a52a09466d1abde3535eef1281597035122; expires=Wed, 09-Sep-20 04:52:02 GMT; path=/; domain=.pages.coursera.org; HttpOnly; SameSite=Lax
+< Set-Cookie: __cf_bm=5a982ed27ec0e6be087dab73ab19167b022722dc-1597035122-1800-AeyXpJwaU6Yn4WKNX1Bzk4Ey7jq05TaHfsTGU9DmK1+etyVYf0e1uS1xwZstHuGV2rMu0u3xofMh7QJAW1xXkYM=; path=/; expires=Mon, 10-Aug-20 05:22:02 GMT; domain=.pages.coursera.org; HttpOnly; SameSite=None
+< Vary: Accept-Encoding
+< Cf-Cache-Status: DYNAMIC
+< Server: cloudflare
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://pages.coursera.org/">here</a>.</p>
+</body></html>

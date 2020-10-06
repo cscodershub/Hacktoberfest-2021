@@ -1,0 +1,28 @@
+http://status.maven.org/
+
+> GET / HTTP/1.1
+> Host: status.maven.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Fri, 18 Sep 2020 08:36:42 GMT
+< X-Request-Id: 5d1672a3-cefd-4c24-954c-2ac87694858c
+< X-Runtime: 0.045662
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Age: 102
+< Cache-Control: no-cache
+< X-Cache: HIT
+< X-Statuspage-Version: 07bcb7ea7b0a7b19bde70611efed09941ac71ad2
+< Content-Length: 91
+< Vary: Accept,Accept-Encoding,X-Forwarded-Host,X-Forwarded-Scheme,X-Forwarded-Proto,Fastly-SSL
+< X-Download-Options: noopen
+< Referrer-Policy: strict-origin-when-cross-origin
+< Location: https://status.maven.org/
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+< X-Statuspage-Skip-Logging: true
+< Content-Type: text/html; charset=utf-8
+< Strict-Transport-Security: max-age=259200
+
+<html><body>You are being <a href="https://status.maven.org/">redirected</a>.</body></html>

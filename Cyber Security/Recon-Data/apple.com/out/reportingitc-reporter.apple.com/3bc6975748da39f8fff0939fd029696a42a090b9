@@ -1,0 +1,35 @@
+https://reportingitc-reporter.apple.com/
+
+> GET / HTTP/1.1
+> Host: reportingitc-reporter.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:29:07 GMT
+< Content-Type: text/html;charset=utf-8
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error 404 - Not Found</title>
+<meta charset="utf-8">
+<style>body { font-family: sans-serif; } table, td { border: 1px solid #333; } td, th { padding: 5px; } thead, tfoot { background-color: #333; color: #fff; } </style>
+</head>
+<body>
+<h2>Error 404 - Not Found.</h2>
+<p>No context on this server matched or handled this request.</p>
+<p>Contexts known to this server are:</p>
+<table class="contexts"><thead><tr><th>Context Path</th><th>Display Name</th><th>Status</th><th>LifeCycle</th></tr></thead><tbody>
+<tr><td><a href="/JettyConfigurater/">/JettyConfigurater</a></td><td>JettyConfigurater&nbsp;</td><td>Available</td><td>STARTED</td></tr>
+<tr><td><a href="/reportservice/">/reportservice</a></td><td>UnifiedAutoingestService&nbsp;</td><td>Available</td><td>STARTED</td></tr>
+<tr><td><a href="/shieldmonitor/">/shieldmonitor</a></td><td>&nbsp;</td><td>Available</td><td>STARTED</td></tr>
+<tr><td><a href="/Health/">/Health</a></td><td>Portal Health Check&nbsp;</td><td>Available</td><td>STARTED</td></tr>
+<tr><td><a href="/monitor/">/monitor</a></td><td>&nbsp;</td><td>Available</td><td>STARTED</td></tr>
+<tr><td><a href="/localhealthcheck/">/localhealthcheck</a></td><td>localhealthcheck&nbsp;</td><td>Available</td><td>STARTED</td></tr>
+</tbody></table><hr/>
+<a href="http://eclipse.org/jetty"><img alt="icon" src="/favicon.ico"/></a>&nbsp;<a href="http://eclipse.org/jetty">Powered by Eclipse Jetty:// Server</a><hr/>
+</body>
+</html>

@@ -1,0 +1,18 @@
+http://product-img.yummly.com/
+
+> GET / HTTP/1.1
+> Host: product-img.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Sat, 15 Aug 2020 14:57:36 GMT
+< Server: AmazonS3
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Pop: CCU50-C1
+< X-Amz-Cf-Id: aObR0Qc9aRNIjVLYcboO9iCoDTnhMxK3CkjvnJnAFQJj8yf_RkJltA==
+< Content-Type: application/xml
+< X-Amz-Bucket-Region: us-east-1
+< Via: 1.1 a0fdf9b8f4fb34f72a88aeb631350a10.cloudfront.net (CloudFront)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>FCBBA2AD7E0D6D12</RequestId><HostId>XNFnRDcWBTs1kH4gN0IFTTQTSDyB1og7tAfHmBe+2tMD8Iqa09fXu8ehMKLy+9pobLvIFCyYyaE=</HostId></Error>

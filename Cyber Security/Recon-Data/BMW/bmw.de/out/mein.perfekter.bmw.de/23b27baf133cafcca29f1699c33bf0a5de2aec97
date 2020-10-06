@@ -1,0 +1,14 @@
+https://mein.perfekter.bmw.de/
+
+> GET / HTTP/1.1
+> Host: mein.perfekter.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Powered-By: PleskLin
+< Content-Type: text/html
+< Server: Apache
+< Location: https://www.bmw.de/de/ssl/need-analyzer-extended.html
+< Vary: Accept-Encoding
+< Date: Tue, 11 Aug 2020 04:51:14 GMT
+

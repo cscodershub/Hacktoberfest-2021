@@ -1,0 +1,973 @@
+https://video.boomi.com/
+
+> GET / HTTP/1.1
+> Host: video.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: ALLOWALL
+< Date: Sat, 15 Aug 2020 09:15:55 GMT
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: max-age=0, private, must-revalidate
+< Content-Security-Policy: default-src * mailto: tel:; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'
+< Set-Cookie: _Shire_session=ZGhKMENxdEtjNzhXZSt1K2pqRE9aUnpRTS9UZTRKTlZxR2dLc0dWQnN1RXpYWHJja1NncDVIUjZXYkUyNllBNU1ZSjVVWTdMbXpjY1REdDJ4ckRJN2xFRzV4aGYwR3RwRjF3YUZwNmV0R3YyUkNrbjhxS3lDSFJFMHpPNWt6VFhaamVyUG8zUTVhMjF6a0s0RHRjMFhnPT0tLUhYYXVOVlRTSmEzYVBJb2lkVk1zR2c9PQ%3D%3D--ec03d8035cc6a3b261940394541b2d8539964bfa; path=/; secure; HttpOnly
+< X-Request-Id: d94c4618-0da8-4df5-b3c5-7637c040e5c9
+< X-Runtime: 0.377586
+< Referrer-Policy: no-referrer-when-downgrade
+< Etag: W/"f83f79cdc7677a3363bc430eeef1738e"
+< Strict-Transport-Security: max-age=31556952
+< X-Content-Type-Options: nosniff
+< X-Robots-Tag: noindex
+
+<!DOCTYPE html>
+  <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+  <!--[if IE 8]>    <html lang="en" class="no-js ie8 old-ie"> <![endif]-->
+  <!--[if IE 9]>    <html lang="en" class="no-js ie9 old-ie"> <![endif]-->
+  <!--[if (gte IE 10)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+  <head>
+    <title>Dell Boomi Video Hub</title>
+    <script>
+//<![CDATA[
+
+  const ENV = (function() {
+    return {
+      MULTIPASS_HOST: 'https://auth.vidyard.com',
+      SHIRE_HOST: 'share.vidyard.com',
+      ASSET_DOMAIN: '//assets.vidyard.com',
+      ROLLBAR_CLIENT_ACCESS_TOKEN: 'bad3f9f55e284ec3a9681269ae7edb43',
+      RAILS_ENV: 'production',
+    };
+  }());
+
+//]]>
+</script>
+    <link rel="icon" href="//cdn.vidyard.com/hubs/favicons/6a6d154c-c49e-4e08-8b5a-ab04aec3e487.ico" />
+    <link rel="shortcut icon" href="//cdn.vidyard.com/hubs/favicons/6a6d154c-c49e-4e08-8b5a-ab04aec3e487.ico" />
+
+      <meta name="robots" content="noindex, nofollow" />
+      <meta name="googlebot" content="noindex" />
+
+    <meta name="title" content="Dell Boomi Video Hub" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="generator" content="vidyard.com">
+
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="L/6bCg6uIq+s0fw/x/Gx0FmQeglYbvN0u7rPxPORtkNjiszlUnhivyo/la5SpoXidv0GZoFGgmN0g9iROWqS+w==" />
+
+
+
+    <script src="//assets.vidyard.com/share/webpack/common-b1ebb9127c9402353857.js" crossorigin="anonymous"></script>
+
+    <script src="//assets.vidyard.com/share/webpack/hub-scripts/manifest_bootstrap-ba2e0c671f3f7daad102.js" crossorigin="anonymous"></script>
+    <script src="//assets.vidyard.com/share/webpack/hub-scripts/spandex_flair/manifest-decda3d2201e2c69d0dd.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" media="screen" href="//assets.vidyard.com/share/webpack/hub-styles/manifest_bootstrap-75ba1147a64f7d0b0132c3fa3deb83a3.css" />
+    <link rel="stylesheet" media="screen" href="//assets.vidyard.com/share/webpack/hub-styles/spandex_flair/manifest-9526a74e711e9c1398ca2b55d92206d3.css" />
+
+    <style type="text/css">
+    </style>
+
+
+    
+
+    <style type='text/css' class='css_style'>
+      @import url(https://s3.amazonaws.com/vidyard-client-services/dellboomi/css/stylev3.css);
+@import url(https://s3.amazonaws.com/vidyard-client-services/dellboomi/css/bmm.min.css);
+@import url(https://s3.amazonaws.com/vidyard-client-services/dellboomi/css/footer.css);
+
+/*Need this for Mobile Nav Bar (boomi-divi-builder)*/
+@import url(https://s3.amazonaws.com/vidyard-client-services/dellboomi/css/modules-layout.min.css);
+/* Need for lav logos */
+@import url(https://s3.amazonaws.com/vidyard-client-services/dellboomi/css/fontboomi.css);
+/* Need for hamburger menu */
+@import url(https://s3.amazonaws.com/vidyard-client-services/dellboomi/css/dashicons.min.css);
+
+body {
+    font-size: 14px !important;
+}
+
+#header {
+    margin-top: -15px;
+}
+#banner {
+    display: none;
+}
+#hub-container {
+    padding-top: 100px;
+}
+#category-grids {
+    padding-top: 100px;
+}
+.boomi-search-field {
+    font-size: 16px;
+}
+.primary-navigation {
+    font-size: 16px;
+}
+.header-right {
+    font-size: 16px;
+}
+#site-header .site-header .site-logo-wrapper {
+    width: 16rem;
+}
+.bmm-menu .menu-item.icon .bmm-icon-wrapper .bmm-icon {
+    font-size: 5rem;
+}  
+/* #menu-item-27448 > a {
+    color: #00567c;
+} */
+#menu-item-27486 > ul {
+    left: 107.031px;
+}
+#menu-item-27503 > ul {
+    left: 218.672px;
+}
+#menu-item-27516 > ul {
+    left: 367.781px;
+}
+#menu-item-28626 > ul {
+    left: 457.391px;
+}
+
+/*Footer*/
+#menu-item-15266, #menu-item-15267, #menu-item-15268, #menu-item-15269, #menu-item-15270 {
+    font-size: 16px;
+}
+div#nav_menu-3 > ul > li:not(:first-child) {
+    font-size: 14.4px;
+}
+div#nav_menu-4 > ul > li:not(:first-child) {
+    font-size: 14.4px;
+}
+div#nav_menu-5 > ul > li:not(:first-child) {
+    font-size: 14.4px;
+}
+div#nav_menu-7 > ul > li:not(:first-child) {
+    font-size: 14.4px;
+}
+div#nav_menu-6 > ul > li:not(:first-child) {
+    font-size: 14.4px;
+}
+.footer-copy {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1315px) {
+#menu-item-27486 > ul {
+    left: 88.0312px;
+}
+#menu-item-27503 > ul {
+    left: 180.672px;
+}
+#menu-item-27516 > ul {
+    left: 234.781px;
+}
+#menu-item-28626 > ul {
+    left: 324.391px;
+}
+}
+
+@media only screen and (max-width: 1215px) {
+#menu-item-27486 > ul {
+    left: 84.0312px;
+}
+#menu-item-27503 > ul {
+    left: 172.672px;
+}
+#menu-item-27516 > ul {
+    left: 206.781px;
+}
+#menu-item-28626 > ul {
+    left: 296.391px;
+}
+}
+
+@media only screen and (max-width: 1199px) {
+    #site-header .site-header .site-logo-wrapper {
+        width: 14rem;
+}  
+}
+
+@media only screen and (max-width: 1149px) {
+    #menu-mega-menu-2 {
+        display: none;
+    }
+    .menu-toggle {
+        font-size: 16px;
+    }
+    .boomi-mobile-nav .mobile-menu > .menu-item a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #site-header .site-header {
+        padding-top: 30px;
+    }
+    #hub-container {
+        padding-top: 0;
+    }
+}
+
+.header-bottom {
+    background: #043d58 !important;
+}
+
+.site-header {
+max-width: 1140px;
+margin: auto;
+}
+
+
+.footer-container {
+background: #003D58;
+color: #FFFFFF;
+}
+
+.footer-container:before {
+background: url(https://cdn.brandfolder.io/W49AM39J/as/pxklyd-24v5a8-14c0qk/footer-menu-pattern.svg);
+background-size: contain;
+background-repeat: repeat;
+width: 170%;
+height: 100%;
+content: "";
+display: block;
+overflow: hidden;
+position: absolute;
+top: 180px;
+left: -100px;
+opacity: 0.5;
+z-index: 0;
+}
+
+.site-info {
+position: relative;
+}
+
+.site-info-wrap {
+max-width: 1140px;
+margin: auto;
+padding: 3rem !important;
+position: relative;
+}
+
+.footer-menu-container {
+display: flex;
+}
+
+@media (max-width: 991px) {
+.footer-menu-container {
+flex-wrap: wrap;
+}
+}
+
+.footer-menu-container a {
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.footer-menu-container ul {
+margin: 0 2rem 0 0;
+padding: 0;
+width: 160px;
+}
+
+@media (min-width: 992px) {
+.footer-menu-container ul {
+margin: 0 1rem 0 0;
+}
+}
+
+@media (min-width: 1200px) {
+.footer-menu-container ul {
+margin: 0 2rem 0 0;
+}
+}
+
+.footer-menu-container li {
+list-style-type: none;
+}
+
+@media (max-width: 991px) {
+.footer-menu-container .footer-widget {
+padding: 1rem;
+}
+}
+
+.footer-menu-container .footer-menus {
+display: flex;
+}
+
+@media (max-width: 991px) {
+.footer-menu-container .footer-menus {
+flex-wrap: wrap;
+margin: 1rem 0;
+}
+}
+
+.footer-menu-container .footer-menus li {
+list-style-type: none;
+margin-bottom: 0.5rem;
+}
+
+.footer-menu-container .footer-menus li a {
+font-weight: normal;
+font-size: 12px;
+display: inline-block;
+text-decoration: none;
+}
+
+.footer-menu-container .footer-menus li a:hover {
+color: #FF7C66 !important;
+}
+
+.footer-menu-container .menu-header a {
+font-size: 16px !important;
+font-weight: 600 !important;
+margin-top: 1rem;
+}
+
+.social-media-container {
+display: flex;
+justify-content: center;
+}
+
+.social-media-container .fa {
+font-size: 30px !important;
+}
+
+.social-media-container .footer-social-media {
+overflow: hidden;
+margin-bottom: 1rem;
+width: 100%;
+}
+
+.social-media-container .footer-social-media .boomi-social-media {
+padding: 0;
+margin: 0;
+list-style-type: none;
+display: flex;
+flex-wrap: nowrap;
+}
+
+.social-media-container .footer-social-media .boomi-social-media li {
+font-size: 22px;
+float: left;
+margin-right: 1rem;
+}
+
+.social-media-container .footer-social-media .boomi-social-media li:last-child {
+margin-right: 0;
+}
+
+.social-media-container .footer-social-media .boomi-social-media li a {
+color: #FFFFFF;
+}
+
+.social-media-container .footer-social-media .boomi-social-media li a:hover {
+color: #FF7C66;
+}
+
+.social-media-container .footer-social-media p {
+font-size: 16px !important;
+font-weight: 600 !important;
+margin-top: 1.4rem;
+text-transform: uppercase;
+}
+
+.footer-copy-container {
+display: flex;
+justify-content: space-between;
+margin-top: 2rem;
+font-size: 12px;
+}
+
+@media (max-width: 991px) {
+.footer-copy-container {
+flex-wrap: wrap;
+}
+}
+
+.footer-copy-container a {
+color: #FFFFFF !important;
+font-size: 12px;
+}
+
+.footer-menu-spacing {
+margin-top: 2rem;
+}
+
+.language-selector-container #lang_sel_list {
+background: transparent;
+border: none;
+padding: 0;
+margin-bottom: 2rem;
+}
+
+.language-selector-container .wpml-ls-current-language a {
+border: 1px solid white;
+padding: 0.5rem;
+color: #FFFFFF;
+}
+
+.language-selector-container .wpml-ls-link {
+color: #FFFFFF;
+background: transparent !important;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@media (min-width: 992px) {
+.language-selector-container .wpml-ls-link {
+margin-right: 1rem;
+}
+}
+
+.language-selector-container .wpml-ls-link:hover {
+background: #FFFFFF !important;
+color: #033D58 !important;
+}
+
+.boomi-external-link {
+position: relative;
+}
+
+.boomi-external-link:after {
+background: url(https://cdn.brandfolder.io/W49AM39J/as/py1d5m-arxvls-1l2vk0/White-External-Link-Icon.svg);
+background-size: contain;
+background-repeat: no-repeat;
+width: 12px;
+height: 12px;
+content: "";
+display: inline-block;
+overflow: hidden;
+position: absolute;
+top: 0;
+bottom: 0;
+margin: auto 0.6rem;
+}
+
+.site-footer {
+    overflow: hidden;
+}
+
+.site-info {
+    padding: 0 !important;
+}
+
+.footer-widget ul.menu li a {
+    color: #fff !important;
+}
+    </style>
+    <script type="text/javascript">
+    $(function(){
+        // Adding a class to the body tag
+        $('body').addClass('page-template page-template-page-platform-template page-template-page-platform-template-php page page-id-14301 page-parent et_divi_builder page-platform en et-pb-theme-boomi et-db et_minified_js et_minified_css chrome push-body');
+        
+        // Mobile menu toggle
+        $('.menu-toggle').on('click', function(){
+            $('body').toggleClass('push-body-toleft');
+            $('.boomi-mobile-nav').toggleClass('menu-open');
+        })
+
+        // Search onClick functions for both regular and mobile view
+        $('#boomi-search-toggle-on').on('click', function(){
+            if ($(window).width() >= 1150) {
+                $(this).hide();
+                $('#menu-mega-menu-2').hide();
+                $('.boomi-search-container').show();
+                $('#boomi-search-toggle-off').show();
+                $('.boomi-search-bar').css("flex", "1 1 0%");
+            }
+            if ($(window).width() <= 1149) {
+                $(this).hide();
+                $('#site-navigation').hide();
+                $('.boomi-search-container').show();
+                $('#boomi-search-toggle-off').show();
+                $('.boomi-search-bar').css("flex", "1 1 0%");   
+            }
+        })
+        $('#boomi-search-toggle-off').on('click', function(){
+            if ($(window).width() >=1150) {
+                $(this).hide();
+                $('#boomi-search-toggle-on').show();
+                $('#menu-mega-menu-2').show();
+                $('.boomi-search-container').hide();
+                $('.boomi-search-bar').css("flex", "0 0 auto");
+            }
+            if ($(window).width() <= 1149) {
+                $(this).hide();
+                $('#boomi-search-toggle-on').show();
+                $('#site-navigation').show();
+                $('.boomi-search-container').hide();
+                $('.boomi-search-bar').css("flex", "0 0 auto");
+            }
+        })
+
+        // Hamburger meun
+        $('.dashicons').on('click', function(e) {
+          if(e) e.preventDefault();
+
+          $('.menu-item .sub-menu.active').removeClass('active').removeAttr('style');
+          $(this).closest('.menu-item').find('.sub-menu').addClass('active').css('display', 'block');
+        });
+
+        //Change the color of the View All buttons
+        $('.stats.pull-right > a')
+            .on('mouseenter', function(){
+                $(this).css({
+                    "background-color": "#ff7c66",
+                    "color": "#fff",
+                    "border-color": "#fff"
+                });
+            })
+            .on('mouseleave', function(){
+                $(this).css({
+                    "color": "#333",
+                    "background-color": "#fff",
+                    "border-color": "#adadad"
+                });
+            })
+    })
+</script>
+    
+      <script>
+//<![CDATA[
+
+  $(document).ready(function () {
+
+          if (typeof SpandexFlair.init === 'function') {
+            SpandexFlair.init();
+          }
+
+          if (typeof HubAccessibility.init === 'function') {
+            HubAccessibility.init();
+          }
+  });
+
+//]]>
+</script>
+          <script>
+//<![CDATA[
+
+  $(document).ready(function () {
+
+          if (typeof LoadCategories.init === 'function') {
+            LoadCategories.init("https://video.boomi.com/players_by_category.json", 14395, 14396, 14438);
+          }
+  });
+
+//]]>
+</script>
+
+  </head>
+  <body class="user-color">
+    
+    
+    <div id="notifications">
+  <div id="header_success" class="alert alert-success header alert-dismissable text-center collapse">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <i class="fa fa-check-circle" aria-hidden="true"></i>
+    <span class="message" role="alert" aria-live="assertive"></span>
+  </div>
+
+  <div id="header_notice" class="alert alert-info header alert-dismissable text-center collapse">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <i class="fa fa-info-circle" aria-hidden="true"></i>
+    <span class="message" role="alert" aria-live="assertive"></span>
+  </div>
+
+  <div id="header_error" class="alert alert-danger header alert-dismissable text-center collapse">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+    <span class="message" role="alert" aria-live="assertive"></span>
+  </div>
+</div>
+
+
+    <div id="hub-layout-container">
+      <div id="header">
+            <header id="site-header">
+    <div class="site-header">
+        <div class="site-logo-wrapper">
+            <div class="site-logo">
+                <a href="https://boomi.com"><img src="https://cdn.brandfolder.io/W49AM39J/as/pxzggw-bgotog-1vnhuw/boomi-website-logo.svg" alt="boomi logo"></a>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom"></div>
+</header>
+      </div>
+      
+        <div id="main-content">
+          
+<div id="hub-container" class="container index">
+  <div id="banner" style="">
+  <a href="#skip-to-content" id="header-bypass" tabindex="1">Jump to videos</a>
+  <div class="row">
+    <div id="banner-brand" class="col-xs-12 col-sm-6 col-lg-7">
+      <a class="row" href="https://video.boomi.com/">
+          <div id="banner-logo" class="col-xs-6 col-sm-5">
+            <img alt="" aria-hidden="true" src="//cdn.vidyard.com/hubs/logos/ba24124d-2e03-497a-bc9b-f7841e4941d0.png" />
+          </div>
+        <h1 id="banner-title" class="col-xs-6 col-sm-7">Dell Boomi Video Hub</h1>
+</a>    </div>
+      <div id="banner-social" class="col-xs-6 col-sm-3 col-lg-2" role="group" aria-label="Social media links">
+          <a href="https://twitter.com/boomi" class="social-btn" name="twitter" target="_blank" aria-label="Twitter link">
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+  </a>
+  <a href="https://www.facebook.com/DellBoomi/" class="social-btn" name="facebook" target="_blank" aria-label="Facebook link">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+  </a>
+
+      </div>
+      <div id="banner-search-form" class="col-xs-12 col-sm-3 col-lg-3">
+        <form name="search" action="https://video.boomi.com/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+  <div class="input-group">
+
+
+    <label for="search-submit" class="sr-only">Search</label>
+
+    <input type="search" name="query" id="search-submit" placeholder="Search" class="form-control" />
+
+
+
+      <span class="input-group-btn">
+  <button class="btn btn-default" type="submit" aria-label="Submit Search"><i class="fa fa-search"></i></button>
+</span>
+
+  </div>
+</form>
+      </div>
+  </div>
+</div>
+
+<div id="skip-to-content"></div>
+
+
+
+    <div id="category-sliders">
+
+          <div id="vidyard-category-14395" class="category-wrapper" role="region" aria-label="Video category Why Customers Love Boomi">
+  <div class="player-template">
+  <div class="player slick-slide">
+    <a href="https://video.boomi.com/">
+      <div  class="vy-thumbnail ">
+  <div class="thumbnail-mask" style="background-image: url(//play.vidyard.com)">
+
+
+
+
+    
+        <div class="player-metadata">
+          <div class="metadata" aria-label="Video information" tabindex="-1">
+            <span class="created-at"></span>
+          </div>
+          <div class="description" aria-label="Video description" tabindex="-1"></div>
+        </div>
+
+  </div>
+</div>
+      <p class="title"></p>
+</a>  </div>
+</div>
+
+
+  <div class="category-name">
+    <h2>Why Customers Love Boomi</h2>
+    <div class="stats pull-right">
+      <div class="count"></div>
+      <a class="btn btn-default" aria-label="View All Why Customers Love Boomi videos" href="https://video.boomi.com/categories/why-customers-love-boomi">View All</a>
+    </div>
+  </div>
+  <div class="category" aria-label="Loading Why Customers Love Boomi videos">
+      <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+  <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+  <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+  <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+
+  </div>
+</div>
+
+          <div id="vidyard-category-14396" class="category-wrapper" role="region" aria-label="Video category Why Partners Love Boomi">
+  <div class="player-template">
+  <div class="player slick-slide">
+    <a href="https://video.boomi.com/">
+      <div  class="vy-thumbnail ">
+  <div class="thumbnail-mask" style="background-image: url(//play.vidyard.com)">
+
+
+
+
+    
+        <div class="player-metadata">
+          <div class="metadata" aria-label="Video information" tabindex="-1">
+            <span class="created-at"></span>
+          </div>
+          <div class="description" aria-label="Video description" tabindex="-1"></div>
+        </div>
+
+  </div>
+</div>
+      <p class="title"></p>
+</a>  </div>
+</div>
+
+
+  <div class="category-name">
+    <h2>Why Partners Love Boomi</h2>
+    <div class="stats pull-right">
+      <div class="count"></div>
+      <a class="btn btn-default" aria-label="View All Why Partners Love Boomi videos" href="https://video.boomi.com/categories/why-partners-love-boomi">View All</a>
+    </div>
+  </div>
+  <div class="category" aria-label="Loading Why Partners Love Boomi videos">
+      <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+  <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+  <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+  <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+
+  </div>
+</div>
+
+          <div id="vidyard-category-14438" class="category-wrapper" role="region" aria-label="Video category Boomi Culture">
+  <div class="player-template">
+  <div class="player slick-slide">
+    <a href="https://video.boomi.com/">
+      <div  class="vy-thumbnail ">
+  <div class="thumbnail-mask" style="background-image: url(//play.vidyard.com)">
+
+
+
+
+    
+        <div class="player-metadata">
+          <div class="metadata" aria-label="Video information" tabindex="-1">
+            <span class="created-at"></span>
+          </div>
+          <div class="description" aria-label="Video description" tabindex="-1"></div>
+        </div>
+
+  </div>
+</div>
+      <p class="title"></p>
+</a>  </div>
+</div>
+
+
+  <div class="category-name">
+    <h2>Boomi Culture</h2>
+    <div class="stats pull-right">
+      <div class="count"></div>
+      <a class="btn btn-default" aria-label="View All Boomi Culture videos" href="https://video.boomi.com/categories/boomi-culture">View All</a>
+    </div>
+  </div>
+  <div class="category" aria-label="Loading Boomi Culture videos">
+      <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+  <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+  <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+  <div class="player slick-slide placeholder-player">
+    <a>
+      <div class="vy-thumbnail">
+  <div class="thumbnail-mask">
+  </div>
+</div>
+
+      <p class="title">&nbsp;</p>
+    </a>
+  </div>
+
+  </div>
+</div>
+
+    </div>
+</div>
+
+        </div>
+      
+      <div id="footer">
+          <footer id="colophon" class="site-footer">
+	<div class="site-info">
+		<div class="footer-container">
+			<div class="site-info-wrap">
+				<div class="footer-menu-container footer-widgets">
+										<div class="footer-menus">
+						<div id="nav_menu-8" class="footer-widget widget_nav_menu"><ul id="menu-footer-platform" class="menu">
+<li id="menu-item-35758" class="menu-header menu-item menu-item-type-post_type menu-item-object-page menu-item-35758"><a href="https://boomi.com/platform/">Platform</a></li>
+<li id="menu-item-35881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35881"><a href="https://boomi.com/platform/integration/">Integration</a></li>
+<li id="menu-item-35883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35883"><a href="https://boomi.com/platform/master-data-hub/">Master Data Hub</a></li>
+<li id="menu-item-35884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35884"><a href="https://boomi.com/platform/b2b-management/">B2B/EDI Management</a></li>
+<li id="menu-item-35885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35885"><a href="https://boomi.com/platform/api-management/">API Management</a></li>
+<li id="menu-item-35882" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35882"><a href="https://boomi.com/platform/flow/">Flow</a></li>
+</ul></div>
+<div id="nav_menu-9" class="footer-widget widget_nav_menu"><ul id="menu-footer-solutions" class="menu">
+<li id="menu-item-35759" class="menu-header menu-item menu-item-type-post_type menu-item-object-page menu-item-35759"><a href="https://boomi.com/solutions/">Solutions</a></li>
+<li id="menu-item-35886" class="menu-header footer-menu-spacing menu-item menu-item-type-post_type menu-item-object-page menu-item-35886"><a href="https://boomi.com/services/">Services &amp; Training</a></li>
+<li id="menu-item-35887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35887"><a href="https://boomi.com/services/training/">Training and Certification</a></li>
+<li id="menu-item-35894" class="boomi-external-link menu-item menu-item-type-custom menu-item-object-custom menu-item-35894"><a target="_blank" href="https://train.boomi.com/#/login">Training Login</a></li>
+</ul></div>
+<div id="nav_menu-10" class="footer-widget widget_nav_menu"><ul id="menu-footer-resources" class="menu">
+<li id="menu-item-35760" class="menu-header menu-item menu-item-type-custom menu-item-object-custom menu-item-35760"><a href="https://resources.boomi.com/">Resources</a></li>
+<li id="menu-item-36544" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36544"><a href="https://resources.boomi.com/upcoming-webinars">Upcoming Webinars</a></li>
+<li id="menu-item-36546" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36546"><a href="https://resources.boomi.com/product-demos">Demos</a></li>
+</ul></div>
+<div id="nav_menu-11" class="footer-widget widget_nav_menu"><ul id="menu-footer-company" class="menu">
+<li id="menu-item-35761" class="menu-header menu-item menu-item-type-post_type menu-item-object-page menu-item-35761"><a href="https://boomi.com/company/">Company</a></li>
+<li id="menu-item-35888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35888"><a href="https://boomi.com/company/leadership-team/">Leadership Team</a></li>
+<li id="menu-item-35889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35889"><a href="https://boomi.com/company/careers/">Careers</a></li>
+<li id="menu-item-36545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36545"><a href="https://boomi.com/company/events/">Events</a></li>
+</ul></div>
+<div id="nav_menu-12" class="footer-widget widget_nav_menu"><ul id="menu-footer-customers" class="menu">
+<li id="menu-item-36736" class="menu-header menu-item menu-item-type-post_type menu-item-object-page menu-item-36736"><a href="https://boomi.com/customers/">Customers</a></li>
+<li id="menu-item-35890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35890"><a href="https://boomi.com/customers/find-customer/">Find a Customer</a></li>
+<li id="menu-item-35891" class="menu-header footer-menu-spacing menu-item menu-item-type-post_type menu-item-object-page menu-item-35891"><a href="https://boomi.com/partners/">Partners</a></li>
+<li id="menu-item-35892" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35892"><a href="https://boomi.com/partners/find-a-partner/">Find a Partner</a></li>
+<li id="menu-item-35893" class="boomi-external-link menu-item menu-item-type-custom menu-item-object-custom menu-item-35893"><a target="_blank" href="https://partners.boomi.com/login/">Partner Login</a></li>
+<li id="menu-item-35895" class="menu-header footer-menu-spacing menu-item menu-item-type-custom menu-item-object-custom menu-item-35895"><a href="https://community.boomi.com">Community</a></li>
+<li id="menu-item-36701" class="boomi-external-link menu-item menu-item-type-custom menu-item-object-custom menu-item-36701"><a href="https://community.boomi.com/s/login/?startURL=%2Fs%2F%3Ft%3D1568060878833">Community Login</a></li>
+</ul></div>					</div>
+					
+					<div class="social-media-container">
+						<div class="footer-social-media">
+							<p>Contact Us</p>
+<div class="boomi-social-media-wrap"><ul class="boomi-social-media">
+<li id="twitter"><a href="https://twitter.com/boomi" aria-label="View us on twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+<li id="facebook"><a href="https://www.facebook.com/DellBoomi" aria-label="View us on facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+<li id="youtube"><a href="https://www.youtube.com/channel/UC63U1JBpElNL6anLEeS6fzw" aria-label="View us on youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+<li id="linkedin"><a href="https://www.linkedin.com/company/boomi-inc" aria-label="View us on linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+<li id="instagram"><a href="https://www.instagram.com/dell_boomi/" aria-label="View us on instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+</ul></div>						</div>
+					</div>
+				</div>
+				<div class="footer-copy-container">
+					<div>
+						A Dell Technologies Business
+					</div>
+					<div>
+						© 2019						Copyright Boomi, Inc. ALL RIGHTS RESERVED. Dell Boomi and your <a href="/privacy/">right to privacy</a>					</div>
+
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+</footer>
+      </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+    
+  </body>
+</html>

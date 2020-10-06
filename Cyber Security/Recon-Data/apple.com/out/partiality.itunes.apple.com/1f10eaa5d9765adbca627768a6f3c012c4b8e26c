@@ -1,0 +1,23 @@
+https://partiality.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: partiality.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< Apple-Tk: false
+< Apple-Seq: 0
+< Apple-Originating-System: MZPartiality
+< X-Apple-Application-Site: MR22
+< Apple-Timing-App: 0 ms
+< X-Apple-Jingle-Correlation-Key: 3OUWXYJ5OSV5QMV7VZT3Y6I3XU
+< X-Apple-Request-Uuid: dba96be1-3d74-abd8-32bf-ae67bc791bbd
+< X-B3-Spanid: 0f17633afa869909
+< Date: Thu, 30 Apr 2020 21:30:28 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-B3-Traceid: dba96be13d74abd832bfae67bc791bbd
+< X-Apple-Application-Instance: 301002
+< Content-Length: 90
+< B3: dba96be13d74abd832bfae67bc791bbd-0f17633afa869909
+
+<html><head><title>Error</title></head><body>Your request produced an error.</body></html>

@@ -1,0 +1,13 @@
+http://files.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: files.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Cache-Control: no-cache,no-store
+< Pragma: no-cache
+< Date: Thu, 30 Apr 2020 21:30:14 GMT
+< Content-Length: 62
+
+<html><body><b>Http/1.1 Service Unavailable</b></body> </html>

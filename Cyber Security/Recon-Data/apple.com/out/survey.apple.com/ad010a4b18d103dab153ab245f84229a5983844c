@@ -1,0 +1,26 @@
+https://survey.apple.com/
+
+> GET / HTTP/1.1
+> Host: survey.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Type: text/html
+< Content-Length: 138
+< Set-Cookie: EFM_shldTrk=dffc2c379d35a7ae4593120a73caed51; expires=Thu, 30-Apr-20 22:28:23 GMT; max-age=3600; domain=.apple.com; httponly; secure; path=/
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Server: Apple
+< Location: https://www.apple.com/pageNotFound
+< Host: survey.apple.com
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Date: Thu, 30 Apr 2020 21:28:23 GMT
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

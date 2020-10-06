@@ -1,0 +1,539 @@
+https://blog.coursera.org/
+
+> GET / HTTP/1.1
+> Host: blog.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Link: <https://blog.coursera.org/>; rel=shortlink
+< X-Content-Type-Options: nosniff
+< X-Coursera-Trace-Id-Hex: e8b98fb73371042f
+< X-Nananana: Batcache-Hit
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=UTF-8
+< Server: nginx
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Mon, 10 Aug 2020 04:51:07 GMT
+< Set-Cookie: CSRF3-Token=1597899095.4XKTPwPveCyiQPQk; Max-Age=864000; Expires=Thu, 20 Aug 2020 04:51:35 GMT; Path=/; Domain=.coursera.org
+< Set-Cookie: __204u=1408454861-1597035095451; Max-Age=31536000; Expires=Tue, 10 Aug 2021 04:51:35 GMT; Path=/; Domain=.coursera.org
+< X-Coursera-Request-Id: KxY3hdrFEeqqgRI7jNACuQ
+< Cache-Control: max-age=272, must-revalidate
+< Date: Mon, 10 Aug 2020 04:51:35 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Vary: Accept-Encoding, Cookie
+< X-Ac: 2.dca _atomic_dca
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v14.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Home Page | Coursera Blog</title>
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://blog.coursera.org/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Home Page | Coursera Blog" />
+	<meta property="og:url" content="https://blog.coursera.org/" />
+	<meta property="og:site_name" content="Coursera Blog" />
+	<meta property="article:modified_time" content="2019-06-24T17:35:10+00:00" />
+	<meta property="og:image" content="https://blog.coursera.org/wp-content/uploads/2017/07/coursera-fb.png" />
+	<meta property="og:image:width" content="320" />
+	<meta property="og:image:height" content="320" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://blog.coursera.org/#website","url":"https://blog.coursera.org/","name":"Coursera Blog","description":"","potentialAction":[{"@type":"SearchAction","target":"https://blog.coursera.org/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://blog.coursera.org/#webpage","url":"https://blog.coursera.org/","name":"Home Page | Coursera Blog","isPartOf":{"@id":"https://blog.coursera.org/#website"},"datePublished":"2019-06-24T17:33:42+00:00","dateModified":"2019-06-24T17:35:10+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://blog.coursera.org/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//netdna.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Coursera Blog &raquo; Feed" href="https://blog.coursera.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Coursera Blog &raquo; Comments Feed" href="https://blog.coursera.org/comments/feed/" />
+<!-- This site uses the Google Analytics by ExactMetrics plugin v6.1.0 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+<!-- Note: ExactMetrics is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the ExactMetrics settings panel. -->
+<!-- No UA code set -->
+<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.coursera.org\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='coursera-blog-theme-css'  href='https://blog.coursera.org/wp-content/themes/coursera-blog/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://blog.coursera.org/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='button-css-css'  href='https://blog.coursera.org/wp-content/plugins/buttons-with-style/css/button-css.css' type='text/css' media='all' />
+<link rel='stylesheet' id='button-foundation-css'  href='https://blog.coursera.org/wp-content/plugins/buttons-with-style/css/foundation-icons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://blog.coursera.org/wp-content/plugins/revslider/public/assets/css/rs6.css' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='esmp_theme_standard-css'  href='https://blog.coursera.org/wp-content/plugins/easy-social-metrics-pro/lib/widget-top-posts/css/esmp-theme-standard.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='esmp-font-css'  href='https://blog.coursera.org/wp-content/plugins/easy-social-metrics-pro/assets/css/esmp.css' type='text/css' media='all' />
+<link rel='stylesheet' id='coursera-jquery-ui-style-css'  href='//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css' type='text/css' media='all' />
+<link rel='stylesheet' id='coursera-google-fonts-css'  href='//fonts.googleapis.com/css?family=Merriweather%3A400%2C700%7COpen+Sans%3A400%2C400i%2C600%2C700%2C700i&#038;ver=1570040855' type='text/css' media='all' />
+<link rel='stylesheet' id='prefix-font-awesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://blog.coursera.org/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/plugins/revslider/public/assets/js/rbtools.min.js'></script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/plugins/revslider/public/assets/js/rs6.min.js'></script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/plugins/stop-user-enumeration/frontend/js/frontend.js'></script>
+<link rel="apple-touch-icon" href="https://blog.coursera.org/wp-content/themes/coursera-blog/images/apple-touch-icon.png" />
+<link rel='https://api.w.org/' href='https://blog.coursera.org/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://blog.coursera.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.coursera.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://blog.coursera.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.coursera.org%2F&#038;format=xml" />
+<link rel="pingback" href="https://blog.coursera.org/xmlrpc.php" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JKLVK');</script>
+<!-- End Google Tag Manager --><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 6.2.15 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://blog.coursera.org/wp-content/uploads/2016/12/icon-blue-96x96.png" sizes="32x32" />
+<link rel="icon" href="https://blog.coursera.org/wp-content/uploads/2016/12/icon-blue-96x96.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://blog.coursera.org/wp-content/uploads/2016/12/icon-blue-96x96.png" />
+<meta name="msapplication-TileImage" content="https://blog.coursera.org/wp-content/uploads/2016/12/icon-blue-96x96.png" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+</head>
+<body class="home page-template page-template-blog-home page-template-blog-home-php page page-id-54619 header-full-width full-width-content genesis-breadcrumbs-hidden"><!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JKLVK"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) --><div class="site-container"><header class="site-header"><div class="desktop-header">
+				<div class="items">
+					<div class="logo">
+						<a href="https://www.coursera.org" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img src="data:image/svg+xml,%3Csvg%20id%3D%22Layer_1%22%20data-name%3D%22Layer%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20476.1%2066.5%22%3E%3Ctitle%3Ecoursera-logo%3C%2Ftitle%3E%3Cpath%20d%3D%22M246.7%2C25.2a22%2C22%2C0%2C0%2C1%2C5.4-13.7V6.7H248c-8.4%2C0-15.6%2C3.2-19.7%2C10.5h-.2V7.5H206.5V66.7h21.6V42.9c0-10.2%2C3-17.9%2C15-17.9C244.3%2C25%2C245.6%2C25.1%2C246.7%2C25.2Z%22%20transform%3D%22translate%28-7.5%20-4.2%29%22%20style%3D%22fill%3A%23fff%22%2F%3E%3Cpath%20d%3D%22M410.3%2C25a34.88%2C34.88%2C0%2C0%2C1%2C8.5-13.6V6.8h-4.2c-8.4%2C0-15.6%2C3.2-19.7%2C10.5h-.2V7.6H373.1V66.8h21.6V42.9c0-10.2%2C3-17.9%2C15-17.9Z%22%20transform%3D%22translate%28-7.5%20-4.2%29%22%20style%3D%22fill%3A%23fff%22%2F%3E%3Cpath%20d%3D%22M290.6%2C22.8a28.06%2C28.06%2C0%2C0%2C0-11.7-2.9c-2.5%2C0-6.8%2C1-6.8%2C4%2C0%2C4%2C6.8%2C4.6%2C9.7%2C5.2%2C10.1%2C2%2C17.7%2C6.6%2C17.7%2C17.5%2C0%2C15.6-14.6%2C22.1-28.7%2C22.1a48.19%2C48.19%2C0%2C0%2C1-24.6-6.8L254%2C47.2c4.4%2C3%2C11.7%2C6%2C17.1%2C6%2C2.7%2C0%2C6.8-1.3%2C6.8-4.5%2C0-4.6-6.8-4.9-13.5-6.6s-13.5-5-13.5-15.6c0-14.6%2C13.5-21%2C26.8-21a49.26%2C49.26%2C0%2C0%2C1%2C20.1%2C3.8Z%22%20transform%3D%22translate%28-7.5%20-4.2%29%22%20style%3D%22fill%3A%23fff%22%2F%3E%3Cpath%20d%3D%22M483.5%2C66.8H461.9V60.2h-.2c-3.8%2C5.9-11.3%2C8.5-18.4%2C8.5-18.1%2C0-30.7-14.7-30.7-31.6S425.1%2C5.6%2C443.1%2C5.6c7%2C0%2C14.4%2C2.5%2C18.9%2C7.7V7.5h21.6V66.8ZM434.9%2C37.2c0%2C7.5%2C5.1%2C13.3%2C13.9%2C13.3s13.9-5.8%2C13.9-13.3c0-7.3-5.1-13.4-13.9-13.4S434.9%2C30%2C434.9%2C37.2Z%22%20transform%3D%22translate%28-7.5%20-4.2%29%22%20style%3D%22fill%3A%23fff%22%2F%3E%3Cpath%20d%3D%22M369.7%2C40.7H324.2c0%2C8.5%2C4.6%2C13.2%2C13.5%2C13.2%2C4.6%2C0%2C7.9-1.5%2C10.3-5.4h20.8c-3.4%2C14-17.1%2C20.3-31%2C20.3-20.2%2C0-35.2-11.1-35.2-31.5%2C0-19.8%2C13.9-31.6%2C33.7-31.6%2C21.1%2C0%2C33.4%2C12.7%2C33.4%2C32.9v2.1ZM349.6%2C28.6c-1.1-5.7-6.4-9.4-12.2-9.4-6.3%2C0-11.5%2C3.2-12.8%2C9.4Z%22%20transform%3D%22translate%28-7.5%20-4.2%29%22%20style%3D%22fill%3A%23fff%22%2F%3E%3Cpath%20d%3D%22M138%2C36.3V34.8h0c-1-5.5-2.4-10.6-5.5-15.3a28.94%2C28.94%2C0%2C0%2C0-4.8-5.6%2C34.31%2C34.31%2C0%2C0%2C0-8.9-6.1%2C38.07%2C38.07%2C0%2C0%2C0-16.6-3.6h-1.8a40%2C40%2C0%2C0%2C0-12%2C2.4A34.67%2C34.67%2C0%2C0%2C0%2C78.5%2C12a12.94%2C12.94%2C0%2C0%2C0-1.8%2C1.6l-.5.2-.6.5h0l-.3.5-.1.3-.8.9c-.6.6-1.1%2C1.3-1.6%2C1.9h0a38.78%2C38.78%2C0%2C0%2C0-2.7%2C3.8c-.5.8-1%2C1.5-1.4%2C2.3L62.5%2C36.6h0l-.3.6-.7%2C1.4A53.1%2C53.1%2C0%2C0%2C1%2C57%2C46.4a16.65%2C16.65%2C0%2C0%2C1-13.1%2C5.9H42.8A17.83%2C17.83%2C0%2C0%2C1%2C34.4%2C50c-.3-.2-.5-.3-.8-.5A13.28%2C13.28%2C0%2C0%2C1%2C29%2C44.4%2C14%2C14%2C0%2C0%2C1%2C27.2%2C37v-.2a13.47%2C13.47%2C0%2C0%2C1%2C4.9-10.1A17.68%2C17.68%2C0%2C0%2C1%2C34.5%2C25c.1-.1.2-.1.4-.2A16.43%2C16.43%2C0%2C0%2C1%2C43%2C22.9h1c4.9.2%2C8.6%2C1.7%2C11.6%2C4.7L65%2C10.7a38.7%2C38.7%2C0%2C0%2C0-7.6-3.9c-.1%2C0-.2-.1-.3-.1a4.18%2C4.18%2C0%2C0%2C1-1-.4%2C41.51%2C41.51%2C0%2C0%2C0-9.3-1.9h-.3A7.57%2C7.57%2C0%2C0%2C1%2C45%2C4.3H43.1A38.26%2C38.26%2C0%2C0%2C0%2C26.6%2C7.9%2C33.58%2C33.58%2C0%2C0%2C0%2C13%2C19.6%2C32.59%2C32.59%2C0%2C0%2C0%2C7.5%2C36.4v1.5a30.76%2C30.76%2C0%2C0%2C0%2C9.2%2C22.2c6.4%2C6.6%2C14.8%2C10.1%2C24.8%2C10.5h1.9a39.45%2C39.45%2C0%2C0%2C0%2C15.6-3%2C29.05%2C29.05%2C0%2C0%2C0%2C3.5-1.8l1.8-1.2.4-.3.7-.5a16.38%2C16.38%2C0%2C0%2C0%2C2.5-2.1l.3-.3A18.48%2C18.48%2C0%2C0%2C0%2C69.6%2C60l1.7-1.9.6-.8.3-.4.1-.4C75.1%2C52.4%2C83%2C37%2C83%2C37h0l.7-.9.5-.7A51.12%2C51.12%2C0%2C0%2C1%2C87.5%2C30h.1a17%2C17%2C0%2C0%2C1%2C12.8-7.1c9.1-.8%2C17.1%2C5.2%2C17.9%2C13.4s-6.1%2C15.5-15.2%2C16.2a20.13%2C20.13%2C0%2C0%2C1-5.5-.3h0c-6.7-1.4-11-6.3-13.1-8.5L75.7%2C59.8a53.09%2C53.09%2C0%2C0%2C0%2C4.6%2C4.1%2C39.68%2C39.68%2C0%2C0%2C0%2C6.2%2C3.6%2C38.9%2C38.9%2C0%2C0%2C0%2C15.4%2C3.2h1.2a37.46%2C37.46%2C0%2C0%2C0%2C25.4-10.8c6.1-6.2%2C9.5-13.4%2C9.5-21.8v-.2A8.53%2C8.53%2C0%2C0%2C0%2C138%2C36.3Z%22%20transform%3D%22translate%28-7.5%20-4.2%29%22%20style%3D%22fill%3A%23fff%22%2F%3E%3Cpath%20d%3D%22M171.4%2C68.8A43.34%2C43.34%2C0%2C0%2C1%2C159%2C67.2a24.68%2C24.68%2C0%2C0%2C1-9.5-5%2C22.44%2C22.44%2C0%2C0%2C1-6.1-8.8%2C34.65%2C34.65%2C0%2C0%2C1-2.1-12.8V7.5h20.8V40.4q0%2C5.55%2C2.7%2C8.1a9.37%2C9.37%2C0%2C0%2C0%2C6.8%2C2.5%2C9.57%2C9.57%2C0%2C0%2C0%2C6.8-2.4c1.8-1.6%2C2.6-4.2%2C2.6-7.9V7.5h20.8V40.2a34.21%2C34.21%2C0%2C0%2C1-2.2%2C13.1%2C21.93%2C21.93%2C0%2C0%2C1-6.2%2C8.8%2C24.48%2C24.48%2C0%2C0%2C1-9.6%2C5A40.43%2C40.43%2C0%2C0%2C1%2C171.4%2C68.8Z%22%20transform%3D%22translate%28-7.5%20-4.2%29%22%20style%3D%22fill%3A%23fff%22%2F%3E%3C%2Fsvg%3E" alt="Coursera" /></a>
+					</div>
+					<div class="nav">
+						<ul>
+							<li><a href="https://www.coursera.org/browse?languages=en" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Find a Course</a></li>
+							<li><a href="https://www.coursera.org/?authMode=signup" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Sign Up</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header-container">
+				<div class="items">
+					<div class="logo">
+						<a href="https://blog.coursera.org" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Coursera <span>Blog</span></a>
+					</div>
+					<div class="nav">
+						<ul class="menu">
+							<li><a href="https://blog.coursera.org/degrees/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Degrees</a></li>
+							<li><a href="https://blog.coursera.org/for-business/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">For Business</a></li>
+							<li><a href="https://blog.coursera.org/for-educators/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">For Educators</a></li>
+							<li><a href="https://blog.coursera.org/product-news/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Product News</a></li>
+							<li><a href="https://blog.coursera.org/stories/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Stories</a></li>
+							<li>
+								<form role="search" action="https://blog.coursera.org/"  method="get" id="searchform" class="searchform">
+								<i class="fa fa-search" aria-hidden="true"></i>
+								<input type="text" name="s" id="s" />
+								</form>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div><div class="wrap"><header class="site-header"><div class="wrap"><div class="title-area"></div></div></header></div></header><div class="site-inner"><div class="wrap"><div class="content-sidebar-wrap"><main class="content"><article class="post-54619 page type-page status-publish entry"><header class="entry-header"><h1 class="entry-title">Home Page</h1>
+</header><div class="entry-content"></div></article>	<!-- Featured Post Area -->
+	<div class="homepage-featured">
+		<div class="container">
+							<div class="featured all" style="background:url('https://blog.coursera.org/wp-content/uploads/2020/07/Artboard-1-1.png'); background-size:cover; background-position: center -30px;">
+					<div class="meta">
+					    <div class="title">
+					    	<div class="pre"></div>
+					    	<a href="https://blog.coursera.org/coursera-is-among-the-top-10-on-fast-companys-best-workplaces-for-innovators-list/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Coursera is Among the Top 10 on Fast Company’s Best Workplaces for Innovators List</a>
+					    </div>
+					</div>
+				</div>
+							<div class="featured all" style="background:url('https://blog.coursera.org/wp-content/uploads/2020/07/BIF_sunset-1-scaled.jpeg'); background-size:cover; background-position: center -30px;">
+					<div class="meta">
+					    <div class="title">
+					    	<div class="pre"></div>
+					    	<a href="https://blog.coursera.org/more-than-1-6-million-learners-around-the-world-benefit-from-partner-contributions-in-courseras-response-to-the-pandemic/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">More than 1.6 million learners around the world benefit from partner contributions in Coursera’s response to the pandemic</a>
+					    </div>
+					</div>
+				</div>
+							<div class="featured all" style="background:url('https://blog.coursera.org/wp-content/uploads/2020/07/PR_Coursera_corporate_image_omni-coursera-blue-1.png'); background-size:cover; background-position: center -30px;">
+					<div class="meta">
+					    <div class="title">
+					    	<div class="pre">By Jeff Maggioncalda, CEO Coursera </div>
+					    	<a href="https://blog.coursera.org/coursera-raises-130-million-in-series-f-round-of-financing/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Coursera raises $130 Million in Series F round of financing</a>
+					    </div>
+					</div>
+				</div>
+					</div>
+	</div>	
+	<!-- /Featured Post Area -->
+	<!-- All the Posts! -->
+	<div class="all-the-posts-contain">
+		<div class="all-the-posts">
+			<!-- Latest Post Area -->
+			<div class="latest-posts">
+				<div class="container">
+					<div class="header-contain">
+						<h3>Latest Posts</h3>
+						<div class="post-cats">
+							<div class="less"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+							<ul id="scroll">
+								<li id="start"><button id="hide" class="tag-button all active" data-tag="all">All</button></li>
+							    <li><button class="tag-button data-science" data-tag="data-science">Data Science</button></li>
+							    <li><button class="tag-button computer-science" data-tag="computer-science">Computer Science</button></li>
+							    <li><button class="tag-button business" data-tag="business">Business</button></li>
+							    <li><button class="tag-button personal-development" data-tag="personal-development">Personal Development</button></li>
+							    <li ><button id="show" class="tag-button arts-and-humanities" data-tag="arts-and-humanities">Arts &amp; Humanities</button></li>
+						     </ul>
+						     <div class="more"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+						</div>
+					</div>
+					<div class="tag-posts">
+													<div class="recent">
+							   	<div class="img">
+							    	<a href="https://blog.coursera.org/learn-how-katie-earned-her-google-it-support-professional-certificate-and-landed-a-new-job-in-it/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img class="cover" src="https://blog.coursera.org/wp-content/uploads/2020/07/Upswell-Learner-Omni-MCR-590-v3_Kaitie-1-1.jpg" alt="Learn how Kaitie earned her Google IT Support Professional Certificate and landed a new job in IT" /></a>
+							    </div>
+							    <div class="post">
+							    	<div class="meta">
+								    	<div class="pre"></div>
+								    	<div class="title">
+								    		<a href="https://blog.coursera.org/learn-how-katie-earned-her-google-it-support-professional-certificate-and-landed-a-new-job-in-it/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Learn how Kaitie earned her Google IT Support Professional Certificate and landed a new job in IT</a>
+								    	</div>
+								    	<div class="date">July 28, 2020</div>
+								    </div>
+								  	<div class="excerpt">My name is Kaitie, and I work as a Cloud Support Specialist at Adar IT in Skokie, IL. My undergraduate degree was in computer science, and while I was in school, I made the decision to enroll in the Google IT Support Professional Certificate in the hope that it would open up more career opportunities&hellip;</div>
+							    </div>
+							    <div class="footer">
+							    	<div class="cat">
+							    									    			<a href="https://blog.coursera.org/tag/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"></a>
+							    									    	</div>	
+							    								    	<div class="likes">
+							    		<a href="#" class="dot-irecommendthis" id="dot-irecommendthis-57221" title="Recommend this"><span class="dot-irecommendthis-count">4</span> <span class="dot-irecommendthis-suffix"></span></a>							    	</div>
+							   	</div>
+							</div>
+													<div class="recent">
+							   	<div class="img">
+							    	<a href="https://blog.coursera.org/trending-online-courses-in-business-data-science-tech-and-health/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img class="cover" src="https://blog.coursera.org/wp-content/uploads/2020/07/12321bfe-631d-4655-b60a-d054c2050f99.png" alt="Trending online courses in business, data science, tech, and health" /></a>
+							    </div>
+							    <div class="post">
+							    	<div class="meta">
+								    	<div class="pre"></div>
+								    	<div class="title">
+								    		<a href="https://blog.coursera.org/trending-online-courses-in-business-data-science-tech-and-health/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Trending online courses in business, data science, tech, and health</a>
+								    	</div>
+								    	<div class="date">July 21, 2020</div>
+								    </div>
+								  	<div class="excerpt">With more world-class content launching every week, there are always new topics to explore, new skills to learn, and new ways to achieve your goals. These latest courses, Specializations, Professional Certificates, and MasterTrack™ Certificates cover everything from AI, blockchain, and cybersecurity, to contact tracing, social work, and UX design. What will you learn next?&nbsp; Business&hellip;</div>
+							    </div>
+							    <div class="footer">
+							    	<div class="cat">
+							    									    			<a href="https://blog.coursera.org/tag/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"></a>
+							    									    	</div>	
+							    								    	<div class="likes">
+							    		<a href="#" class="dot-irecommendthis" id="dot-irecommendthis-57172" title="Recommend this"><span class="dot-irecommendthis-count">5</span> <span class="dot-irecommendthis-suffix"></span></a>							    	</div>
+							   	</div>
+							</div>
+													<div class="recent">
+							   	<div class="img">
+							    	<a href="https://blog.coursera.org/how-amie-launched-a-new-career-in-it-during-covid-19/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img class="cover" src="https://blog.coursera.org/wp-content/uploads/2020/07/GoogleIT-Blog-Post-MCR-670_v1b.jpg" alt="How Amie launched a new career in IT during COVID-19" /></a>
+							    </div>
+							    <div class="post">
+							    	<div class="meta">
+								    	<div class="pre"></div>
+								    	<div class="title">
+								    		<a href="https://blog.coursera.org/how-amie-launched-a-new-career-in-it-during-covid-19/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">How Amie launched a new career in IT during COVID-19</a>
+								    	</div>
+								    	<div class="date">July 20, 2020</div>
+								    </div>
+								  	<div class="excerpt">We’d like to introduce you to Amie Hanbury. In the story she shares below, Amie describes how COVID-19 caused her to reevaluate her career, and how learning on Coursera gave her both the confidence and the skills to pursue a new opportunity. With the support of her family, and driven by a desire to make&hellip;</div>
+							    </div>
+							    <div class="footer">
+							    	<div class="cat">
+							    									    			<a href="https://blog.coursera.org/tag/learner" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Learner Story</a>
+							    									    	</div>	
+							    								    	<div class="likes">
+							    		<a href="#" class="dot-irecommendthis" id="dot-irecommendthis-57174" title="Recommend this"><span class="dot-irecommendthis-count">8</span> <span class="dot-irecommendthis-suffix"></span></a>							    	</div>
+							   	</div>
+							</div>
+													<div class="recent">
+							   	<div class="img">
+							    	<a href="https://blog.coursera.org/project-career-research-how-to-set-yourself-up-for-success-in-choosing-a-new-career/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img class="cover" src="https://blog.coursera.org/wp-content/uploads/2020/07/Blog-career-advice-MCR-672-social-1.png" alt="Project Career Research: how to set yourself up for success in choosing a new career" /></a>
+							    </div>
+							    <div class="post">
+							    	<div class="meta">
+								    	<div class="pre"></div>
+								    	<div class="title">
+								    		<a href="https://blog.coursera.org/project-career-research-how-to-set-yourself-up-for-success-in-choosing-a-new-career/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Project Career Research: how to set yourself up for success in choosing a new career</a>
+								    	</div>
+								    	<div class="date">July 20, 2020</div>
+								    </div>
+								  	<div class="excerpt">Launching a new career can be an exhilarating process, but also a complicated one. One of the most important steps is the first one—choosing which career to pursue. Whether you’re a college student getting ready to join the workforce for the first time, a mid-career professional looking to make a career switch, or someone returning&hellip;</div>
+							    </div>
+							    <div class="footer">
+							    	<div class="cat">
+							    									    			<a href="https://blog.coursera.org/tag/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"></a>
+							    									    	</div>	
+							    								    	<div class="likes">
+							    		<a href="#" class="dot-irecommendthis" id="dot-irecommendthis-57158" title="Recommend this"><span class="dot-irecommendthis-count">1</span> <span class="dot-irecommendthis-suffix"></span></a>							    	</div>
+							   	</div>
+							</div>
+											</div>
+				</div>
+			</div>
+			<!-- /Latest Post Area -->
+			<!-- Product News Area -->
+			<div class="product-news">
+				<div class="container">
+					<div class="header-container">
+						<h3>Product News</h3>
+					</div>
+					<div class="recent-news">
+													    <div class="recent">
+							    	<div class="post">
+							    		<div class="meta">
+								    		<div class="pre"></div>
+								    		<div class="title">
+								    			<a href="https://blog.coursera.org/ready-for-retention-presenting-a-unified-note-taking-experience/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Ready for retention: Presenting a unified note-taking experience</a>
+								    		</div>
+								    		<div class="date">September 9, 2019</div>
+								    	</div>
+								    	<div class="excerpt">Ken Sun, Director of Product Management, Coursera What did you learn in your last course on Coursera? What were the important concepts presented each week? Could you draw one graph the instructor used? If recalling ...<span class="more">read more</span></div>
+							    	</div>
+							    </div>
+													    <div class="recent">
+							    	<div class="post">
+							    		<div class="meta">
+								    		<div class="pre">by Ken Sun, Sr. Director of Product Management</div>
+								    		<div class="title">
+								    			<a href="https://blog.coursera.org/updates-to-your-learning-experience-on-coursera/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Updates to Your Learning Experience on Coursera</a>
+								    		</div>
+								    		<div class="date">March 19, 2019</div>
+								    	</div>
+								    	<div class="excerpt">At Coursera, we’re always working on making your learning experience more rewarding than ever. Our latest updates are designed to provide you with tools that help you make progress on-the-go and stay on track with ...<span class="more">read more</span></div>
+							    	</div>
+							    </div>
+													    <div class="recent">
+							    	<div class="post">
+							    		<div class="meta">
+								    		<div class="pre"></div>
+								    		<div class="title">
+								    			<a href="https://blog.coursera.org/introducing-the-coursera-global-skills-index/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Introducing the Coursera Global Skills Index</a>
+								    		</div>
+								    		<div class="date">March 14, 2019</div>
+								    	</div>
+								    	<div class="excerpt">By Emily Glassberg Sands, Head of Data Science, Coursera Today marks the release of the inaugural Coursera Global Skills Index (GSI), an in-depth look at skill trends and performance around the world, made possible by ...<span class="more">read more</span></div>
+							    	</div>
+							    </div>
+											</div>
+				</div>
+			</div>
+			<!-- /Latest Post Area -->
+		</div>
+	</div>
+	<!-- /All the Posts! -->
+	<!-- Footer Design -->
+	<div class="footer-design">
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+	<!-- /Footer Design -->
+</main></div></div></div><footer class="site-footer"><div class="site-footer">
+				<div class="inner-wrapper">
+					<div class="info">
+						<div class="logo"><img src="https://blog.coursera.org/wp-content/themes/coursera-blog/assets/images/coursera-gray-logo.png" alt="Coursera" />
+						</div>
+						<p class="about">Coursera provides universal access to the world’s best education, partnering with top universities and organizations to offer courses online.</p>
+						<p class="copyright">© 2020 Coursera Inc. All rights reserved.</p>
+						<p class="mobile-badges">
+							<a href="https://itunes.apple.com/app/apple-store/id736535961?mt=8" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img src="https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg" alt="Download on the App Store" height="45" data-reactid=".x57emqgr9c.2.0.0.3.0.0"></a>
+							<a href="http://play.google.com/store/apps/details?id=org.coursera.android" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img src="https://d3njjcbhbojbot.cloudfront.net/web/02f41838990e78a2c1a02e22216eda0474e89f88/images/icons/en_generic_rgb_wo_45.png" alt="Get it on Google Play" height="45" data-reactid=".x57emqgr9c.2.0.0.3.1.0"></a>
+						</p>
+					</div>
+					<div class="menu">
+						<ul>
+							<li class="plain">Coursera</li>
+							<li><a href="https://about.coursera.org/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">About</a></li>
+							<li><a href="https://about.coursera.org/leadership" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Leadership</a></li>
+							<li><a href="https://about.coursera.org/careers" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Careers</a></li>
+							<li><a href="https://www.coursera.org/browse" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Catalog</a></li>
+
+							<li><a href="https://www.coursera.org/professional-certificates" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Professional Certificates</a></li>
+							<li><a href="https://www.coursera.org/mastertrack" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">MasterTrack™ Certificates</a></li>
+
+
+							<li><a href="https://www.coursera.org/degrees" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Degrees</a></li>
+							<li><a href="https://www.coursera.org/business?utm_campaign=website&amp;utm_content=blog-footer-to-enterprise&amp;utm_medium=coursera&amp;utm_source=blog" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">For Enterprise</a></li>
+							<li><a href="https://www.coursera.org/campus?utm_campaign=website&amp;utm_content=blog-footer-to-campus&amp;utm_medium=coursera&amp;utm_source=blog" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">For Campus</a></li>
+							<li><a href="https://www.coursera.org/government?utm_campaign=website&amp;utm_content=blog-footer-to-Government&amp;utm_medium=coursera&amp;utm_source=blog" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">For government</a></li>
+							<li><a href="https://www.coursera.org/coronavirus-response" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Coronavirus Response</a></li>
+
+						</ul>
+						<ul>
+							<li class="plain">Community</li>
+
+							<li><a href="https://coursera.community/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Learners</a></li>
+							<li><a href="https://www.coursera.org/about/partners" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Partners</a></li><li><a href="hhttps://building.coursera.org/developer-program/" data-wpel-link="internal">Developers</a></li>
+							<li><a href="https://coursera.community/beta-tester-news-announcements-20/join-the-coursera-beta-tester-community-47" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Beta Testers</a></li>
+
+							<li><a href="https://coursera.community/gtc-news-announcements-17/join-the-coursera-global-translator-community-45" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Translators</a></li>
+
+							<li><a href="https://medium.com/coursera-engineering" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Tech Blog</a></li>
+
+						</ul>
+						<ul>
+							<li class="plain">Connect</li>
+							<li><a href="https://blog.coursera.org/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Blog</a></li>
+
+							<li><a href="https://www.facebook.com/Coursera" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Facebook</a></li>
+							<li><a href="https://www.linkedin.com/company/coursera" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">LinkedIn</a></li>
+							<li><a href="http://twitter.com/coursera" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Twitter</a></li>
+							<li><a href="https://www.instagram.com/coursera/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Instagram</a></li>
+						</ul>
+						<ul>
+							<li class="plain">More</li>
+							<li><a href="https://www.coursera.org/about/terms" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Terms</a></li>
+							<li><a href="https://www.coursera.org/about/privacy" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Privacy</a></li>
+							<li><a href="https://learner.coursera.help/hc/en-us" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Help</a></li>
+							<li><a href="https://learner.coursera.help/hc/en-us/articles/208280056-Accommodations-for-learners-with-disabilities" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Accessibility</a></li>
+							<li><a href="https://about.coursera.org/press" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Press</a></li>
+							<li><a href="https://www.coursera.org/about/contact" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Contact</a></li>
+							<li><a href="https://www.coursera.org/directory" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Directory</a></li>
+							<li><a href="https://about.coursera.org/affiliates" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Affiliates</a></li>
+						</ul>
+					</div>
+				</div>
+		</div><div class="wrap"><footer class="site-footer"><div class="wrap"></div></footer></div></footer></div><script src="https://careers.coursera.org/coursera/js/400.js"></script>
+<script>
+  window.onload = function() {
+    FourHundred.push(['batch',
+      ['constant', 'batching', false], // turn off batching, unless you plan on sending a lot of events
+      ['constant', 'beacon', 'https://www.coursera.org/eventing/info.v2'], // set eventing URLs
+      ['constant', 'beaconBatch', 'https://www.coursera.org/eventing/infoBatch.v2'],
+      ['app', 'marketing_blog'], // ask analytics what you should set this to
+      ['clientVersion', '1'] // ask analytics what you should set this to
+    ]);
+    FourHundred.push({key:"pageview", value:{}});
+  }
+</script><script type='text/javascript'>
+/* <![CDATA[ */
+var beloadmore = {"nonce":"6c8fd79076","url":"https:\/\/blog.coursera.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/themes/coursera-blog/assets/js/load-more.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var losearchmore = {"nonce":"cfdda3adff","url":"https:\/\/blog.coursera.org\/wp-admin\/admin-ajax.php","query":[]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/themes/coursera-blog/assets/js/search-more.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var lotagload = {"nonce":"6dd3fa973b","url":"https:\/\/blog.coursera.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/themes/coursera-blog/assets/js/load-tag.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var locatload = {"nonce":"135cd9d7f5","url":"https:\/\/blog.coursera.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/themes/coursera-blog/assets/js/load-cat.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"the-courserian"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/plugins/disqus-comment-system/public/js/comment_count.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dot_irecommendthis = {"ajaxurl":"https:\/\/blog.coursera.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/plugins/i-recommend-this/js/dot_irecommendthis.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var learnerstories = {"ajaxurl":"https:\/\/blog.coursera.org\/wp-admin\/admin-ajax.php","query_vars":"[]"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/themes/coursera-blog/assets/js/main.min.js'></script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/themes/coursera-blog/assets/js/jquery.sticky-min.js'></script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-content/themes/coursera-blog/assets/js/modernizr.js'></script>
+<script type='text/javascript' src='https://blog.coursera.org/wp-includes/js/wp-embed.min.js'></script>
+		<script type="text/javascript">
+			(function() {
+			var t   = document.createElement( 'script' );
+			t.type  = 'text/javascript';
+			t.async = true;
+			t.id    = 'gauges-tracker';
+			t.setAttribute( 'data-site-id', '58475803bb922a433100d853' );
+			t.src = '//secure.gaug.es/track.js';
+			var s = document.getElementsByTagName( 'script' )[0];
+			s.parentNode.insertBefore( t, s );
+			})();
+		</script>
+		</body></html>
+<!--
+	generated 28 seconds ago
+	generated in 0.661 seconds
+	served from batcache in 0.002 seconds
+	expires in 272 seconds
+-->

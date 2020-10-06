@@ -1,0 +1,26 @@
+http://community.bmw.de/
+
+> GET / HTTP/1.1
+> Host: community.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 11 Aug 2020 04:51:22 GMT
+< Server: Apache
+< Via: 1.1 3b4d1163775ea43e2848ada2f6a68950.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: c-AmF3UDC2WAEeJzHPNBj5BVxDO5XHIrdQbpYKOlEEnjmvki_rdX2A==
+< Content-Length: 209
+< Set-Cookie: AWSALB=LKgk2tTsoUwxgqzh1xz5PE2vFfuxRkvrW7QLLEl2B2RQdExqoh2Wk2v7wQdwt0yvFRbKliBsQsVC2GCPJf1hOtruYOOrHE2r9GegLCma0r1dYGytdQ2pyW5T3uYb; Expires=Tue, 18 Aug 2020 04:51:22 GMT; Path=/
+< Set-Cookie: AWSALBCORS=LKgk2tTsoUwxgqzh1xz5PE2vFfuxRkvrW7QLLEl2B2RQdExqoh2Wk2v7wQdwt0yvFRbKliBsQsVC2GCPJf1hOtruYOOrHE2r9GegLCma0r1dYGytdQ2pyW5T3uYb; Expires=Tue, 18 Aug 2020 04:51:22 GMT; Path=/; SameSite=None
+< Location: https://community.bmw.de/
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: MRS52-C1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://community.bmw.de/">here</a>.</p>
+</body></html>

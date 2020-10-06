@@ -1,0 +1,18 @@
+http://garage.mini.de/
+
+> GET / HTTP/1.1
+> Host: garage.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: AkamaiGHost
+< Date: Tue, 11 Aug 2020 04:54:40 GMT
+< Access-Control-Max-Age: 86400
+< X-Frame-Options: DENY
+< Content-Length: 0
+< Location: https://garage.mini.de/
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Headers: *
+< Access-Control-Allow-Methods: GET
+< Access-Control-Allow-Origin: *
+

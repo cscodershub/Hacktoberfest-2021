@@ -1,0 +1,17 @@
+https://imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Arr-Server: icrp11
+< Content-Security-Policy: frame-ancestors self *.imperial.ac.uk
+< Date: Sat, 18 Jul 2020 13:54:39 GMT
+< Content-Length: 150
+< Content-Type: text/html; charset=UTF-8
+< Location: https://www.imperial.ac.uk/
+< Server: Microsoft-IIS/10.0
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.imperial.ac.uk/">here</a></body>

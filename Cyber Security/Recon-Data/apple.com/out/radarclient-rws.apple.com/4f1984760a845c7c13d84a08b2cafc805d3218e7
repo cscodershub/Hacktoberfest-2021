@@ -1,0 +1,26 @@
+https://radarclient-rws.apple.com/
+
+> GET / HTTP/1.1
+> Host: radarclient-rws.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Server: Apple
+< Content-Type: text/html;charset=iso-8859-1
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Set-Cookie: JSESSIONID=node0vxuzuk63s2wpexlzhped3jvq328119.node0;Path=/;Expires=Thu, 30-Apr-2020 23:42:38 GMT;Max-Age=7320;Secure;HttpOnly
+< Host: radarclient-rws.apple.com
+< Date: Thu, 30 Apr 2020 21:40:38 GMT
+< Content-Length: 0
+< Pragma: no-cache
+< Location: https://idmsac.apple.com/IDMSWebAuth/login?appIdKey=77e2a60d4bdfa6b7311c854a56505800be3c24e3a27a670098ff61b69fc5214b&sslEnabled=true&rv=3
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< X-Api-Version: 1.0
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Content-Language: en-US
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+

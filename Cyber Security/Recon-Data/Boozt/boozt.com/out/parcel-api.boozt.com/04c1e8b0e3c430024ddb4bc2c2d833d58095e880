@@ -1,0 +1,17 @@
+http://parcel-api.boozt.com/
+
+> GET / HTTP/1.1
+> Host: parcel-api.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Tue, 11 Aug 2020 15:07:52 GMT
+< Server: cloudflare
+< Cf-Ray: 5c128683cdbbdcd2-SIN
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Date: Tue, 11 Aug 2020 14:07:52 GMT
+< Cache-Control: max-age=3600
+< Location: https://parcel-api.boozt.com/
+< Cf-Request-Id: 047f7266610000dcd291207200000001
+< Vary: Accept-Encoding
+

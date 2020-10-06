@@ -1,0 +1,16 @@
+http://beacon.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: beacon.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: beacon i-063dec2d3e546af4f
+< X-Netflix.proxy.execution-Time: 3
+< X-Originating-Url: http://beacon.geo.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Content-Length: 0
+< Date: Wed, 17 Jun 2020 05:36:16 GMT
+< Via: 1.1 i-02baefc524a000529 (eu-west-1)
+< X-Netflix.nfstatus: 1_3
+

@@ -1,0 +1,16 @@
+https://presentationtracking.us-east-1-sa.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: presentationtracking.us-east-1-sa.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Netflix.nfstatus: 1_3
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Server: beacon i-085a16b05cad2db0f
+< Via: 1.1 i-05c8e0fb7bdc2df44 (us-east-1)
+< X-Netflix.proxy.execution-Time: 3
+< X-Originating-Url: https://presentationtracking.us-east-1-sa.prodaa.netflix.com/
+< Content-Length: 0
+< Date: Wed, 17 Jun 2020 05:35:50 GMT
+

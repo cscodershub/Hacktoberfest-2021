@@ -1,0 +1,10 @@
+http://partnerapi.netflix.com/
+
+> GET / HTTP/1.1
+> Host: partnerapi.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 0
+< Location: https://partnerapi.netflix.com/
+

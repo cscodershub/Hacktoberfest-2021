@@ -1,0 +1,537 @@
+https://podcaster.apple.com/
+
+> GET / HTTP/1.1
+> Host: podcaster.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Thu, 30 Apr 2020 21:29:08 GMT
+< Content-Type: text/html
+< Last-Modified: Fri, 28 Sep 2018 23:36:23 GMT
+< Etag: "5baebaf7-8c66"
+< X-B3-Traceid: abd6649c93074ba3
+< Server: AppleHttpServer/62e237dc531d
+< Content-Length: 35942
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000
+
+<!DOCTYPE html>
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="ac/localnav/4/styles/ac-localnav.built.css" />
+		<link rel="stylesheet" type="text/css" href="ac/globalfooter/2.0/en_US/styles/ac-globalfooter.built.css" />
+		<link rel="canonical" href="https://www.podcaster.apple.com/">
+		<title>Podcaster - Apple</title>
+		<meta name="Description" content="Make it easy for listeners everywhere to discover your podcast. Use these tips and best practices from Apple Podcasts when marketing your show." />
+		<meta property="og:image" content="https://podcaster.apple.com/assets/images/shared/og.png" />
+		<meta property="og:title" content="Podcaster – Apple" />
+		<meta property="og:description" content="Make it easy for listeners everywhere to discover your podcast. Use these tips and best practices from Apple Podcasts when marketing your show." />
+		<meta property="og:url" content="https://www.podcaster.apple.com/" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="Apple" />
+		<meta property="og:type" content="website" />
+		<meta name="twitter:image" content="https://podcaster.apple.com/assets/images/shared/og.png">
+			<meta name="twitter:site" content="@Apple" />
+			<meta name="twitter:card" content="summary_large_image" />
+		<link rel="stylesheet" href="https://www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1|Apple+Icons,v1">
+			<link rel="stylesheet" href="assets/styles/main.built.css" type="text/css" />
+			<link rel="stylesheet" href="assets/styles/overview.built.css" type="text/css" />
+			<script src="assets/scripts/head.built.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body class="page-overview ">
+		<input type="checkbox" id="ac-ln-menustate" class="ac-ln-menustate"/>
+<nav id="ac-localnav" class="no-js ac-localnav-noborder ac-localnav-scrim ac-localnav-dark medium-ac-ln-collapsible" lang="en-US" data-sticky data-analytics-region="local nav" role="navigation">
+	<div class="ac-ln-wrapper">
+		<div class="ac-ln-background"></div>
+		<div class="ac-ln-content">
+			<h2 class="ac-ln-title">
+				<span class="ac-ln-title-apple"></span> Podcasts
+			</h2>
+			<div class="ac-ln-menu">
+				<a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">
+					<span class="ac-ln-menucta-anchor-label">Open Menu</span>
+				</a>
+				<a href="/" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">
+					<span class="ac-ln-menucta-anchor-label">Close Menu</span>
+				</a>
+				<div class="ac-ln-menu-tray">
+					<ul class="ac-ln-menu-items">
+						<li class="ac-ln-menu-item">
+							<a href="#fundamentals" class="ac-ln-menu-link" data-analytics-title="Fundamentals" data-jumpnav-item>Fundamentals</a>
+						</li>
+						<li class="ac-ln-menu-item">
+							<a href="#presentation" class="ac-ln-menu-link" data-analytics-title="Presentation" data-jumpnav-item>Presentation</a>
+						</li>
+						<li class="ac-ln-menu-item">
+							<a href="#development" class="ac-ln-menu-link" data-analytics-title="Development" data-jumpnav-item>Development</a>
+						</li>
+						<li class="ac-ln-menu-item">
+							<a href="#tools-resources" class="ac-ln-menu-link" data-analytics-title="Tools &amp; Resources" data-jumpnav-item>Tools &amp; Resources</a>
+						</li>
+						<li class="ac-ln-menu-item">
+							<a href="#common-mistakes" class="ac-ln-menu-link" data-analytics-title="Common Mistakes" data-jumpnav-item>Common Mistakes</a>
+						</li>
+					</ul>
+				</div>
+				<div class="ac-ln-actions">
+					<div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+						<label for="ac-ln-menustate" class="ac-ln-menucta">
+							<span class="ac-ln-menucta-chevron"></span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+<label id="ac-ln-curtain" for="ac-ln-menustate"></label>
+<script type="text/javascript" src="ac/localnav/4/scripts/ac-localnav.built.js"></script>
+		<main id="main" class="main" role="main" data-page-type="overview">
+					<section class="section section-overview section-hero">
+		<div class="section-content">
+				<div class="hero-headline-wrapper">
+		<div class="center-content">
+			<div class="hero-headline large-6 small-12">
+				<div class="row">
+					<h1 class="typography-headline headlineblock">Podcast Marketing Best Practices</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="overviewHeroGallery" class="hero-gallery" data-ac-gallery-fade>
+		<div id="hero-gallery-container">
+			<div id="hero-slide-the-nod" class="hero-gallery-slide" data-ac-gallery-item>
+				<a class="hero-podcast-link" href="https://itunes.apple.com/us/podcast/the-nod/id1250583865?mt=2">Listen to <em>The Nod</em></a>
+				<figure class="image-hero-slide-at-office"></figure>
+			</div>
+			<div id="hero-slide-unqualified" class="hero-gallery-slide" data-ac-gallery-item>
+				<a class="hero-podcast-link" href="https://itunes.apple.com/us/podcast/anna-faris-is-unqualified/id1059045374?mt=2">Listen to <em>Anna Faris is Unqualified</em></a>
+				<figure class="image-hero-slide-at-home"></figure>
+			</div>
+		</div>
+	</div>
+	<div class="hero-copy-wrapper">
+		<div class="center-content">
+			<div class="hero-copy large-5 small-12">
+				<div class="row">
+					<p>You’re a podcaster. But there’s another name for what you are: a storyteller. So when it comes to marketing your show, think of it as telling the story of your podcast. Use these tips and best practices to help get the word out, so your show can find listeners everywhere.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+		</div>
+</section>
+		<section id="fundamentals" class="section section-overview section-fundamentals">
+		<div class="section-content">
+<div id="drawer-fundamentals" data-drawer-hero>
+	<div class="podcast-drawer-subhero podcast-drawer-subhero-fundamentals ">
+		<div class="center-content">
+			<div class="row">
+				<div class="column large-6 medium-5 small-12  large-push-6 medium-push-7 small-push-0">
+					<div class="subhero-image-wrapper alternate">
+						<figure class="image-subhero-fundamentals"></figure>
+					</div>
+				</div>
+				<div class="column large-6 medium-7 small-12  large-pull-6 medium-pull-5 small-push-0 ">
+					<div class="subhero-copy-wrapper">
+						<h2 class="typography-headline subhero-headline alternate">Fundamentals of Podcast Marketing</h2>
+						<p class="subhero-copy alternate">Because first impressions are the most lasting, you want your show’s to be good — right out of the gate. And that starts with understanding the basics for marketing it.</p>
+						<button aria-expanded="false" class="drawer-trigger icon icon-pluscircle icon-before" data-drawer-trigger="fundamentals">Learn More</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="podcast-drawer-content podcast-drawer-content-fundamentals" aria-hidden="true" data-drawer-item="fundamentals">
+		<div class="center-content">
+			<div id="draweritem-keep-in-mind" class="podcast-drawer-item draweritem-keep-in-mind ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-keep-in-mind"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Keep this in mind. Always.</h3>
+			<p>Before you start marketing your show, it’s helpful to keep in mind why and how people listen to podcasts. For many, podcasts can be deeply personal. People listen not just for information, but also for a meaningful connection to topics and ideas they care about. And while listeners enjoy podcasts at different times, it’s the quiet moments when most people tune in. These moments soon become little retreats, “me time” that listeners look forward to and plan around.</p>
+	<p>And how they listen is usually on iPhone. Earbuds in, headphones on, everything else drowned out. Which means, as a podcaster, your voice is literally in their heads. So how you promote your show matters. Because you’re not just making your podcast known to the world, you’re forming a relationship.</p>		</div>
+	</div>
+</div>
+<div id="draweritem-lead-benefit" class="podcast-drawer-item draweritem-lead-benefit ">
+	<div class="row">
+		<div class="column large-4 small-12  large-push-7 large-offset-1 small-offset-0 small-push-0">
+			<figure class="icon-draweritem-lead-benefit"></figure>
+		</div>
+		<div class="column large-7 small-12  large-pull-4 small-push-0">
+			<h3 class="typography-headline-reduced draweritem-headline">Lead with the benefit.</h3>
+			<p>With an endless supply of great content listeners can consume, your podcast needs to stand out. And you make that happen by being very clear about the benefits of your show. In other words, what’s in it for your listeners? Will it educate them on a complex topic? Inspire change in their world? Provide some much needed comic relief? Be prepared to share what your podcast is and why listeners should care. You want them to get the gist of your show at first glance. So lead with the benefit in all your writing and photography.</p>		</div>
+	</div>
+</div>
+<div id="draweritem-design-for-mobile" class="podcast-drawer-item draweritem-design-for-mobile ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-design-for-mobile"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Design for mobile.</h3>
+			<p>The vast majority of podcast discovery and listening happens on iPhone, when folks are on the go. Which means you should think about all the ways you can optimize how you present your show. Make it easy for people to discover you on a mobile device.</p>
+	<p><strong>Here are some tips to follow:</strong></p>
+	<ul class="list">
+		<li>Your website should be responsive. It should look good and function well on any device — whether it’s a smartphone or computer. All artwork and descriptions should work on mobile, too.</li>
+		<li>Place the Listen on Apple Podcasts badges above the fold on your website, episode pages, email messages, and newsletters. (Above the fold is the part that’s visible before listeners have to scroll.) So if they’re quickly browsing your site, they can instantly subscribe and listen later.</li>
+	</ul>
+	<ul class="list" style="list-style: none;">
+		<li><a href="https://Apple.co/GreatPodWebsite">Visit <em>The Nod</em> for a great example of a <span class="more nowrap">podcast webpage</span></a></li>
+	</ul>		</div>
+	</div>
+</div>
+<div id="draweritem-direct-audience" class="podcast-drawer-item draweritem-direct-audience ">
+	<div class="row">
+		<div class="column large-4 small-12  large-push-7 large-offset-1 small-offset-0 small-push-0">
+			<figure class="icon-draweritem-direct-audience"></figure>
+		</div>
+		<div class="column large-7 small-12  large-pull-4 small-push-0">
+			<h3 class="typography-headline-reduced draweritem-headline">Direct your audience.</h3>
+			<p>Your show needs to be easy to find, especially for anyone new to podcasts, so be specific. iOS devices are in the hands of millions of people all over the world. Use the Apple brand to your advantage. Tell the audience where to get your show: “Listen on Apple Podcasts and subscribe,” “Go to Apple Podcasts to subscribe and share.” </p>		</div>
+	</div>
+</div>
+<div id="draweritem-make-plan" class="podcast-drawer-item draweritem-make-plan ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-make-plan"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Make a plan.</h3>
+			<p>You’re about to release your first show. Or maybe it’s your 50th. Whatever the case, it’s important to think beyond just getting it out there. Creating a marketing plan is the best way to ensure you’re not merely trusting that people will find your show. Identifying who your audience is, how you’re going to reach them, and ways Apple can help all go into your plan.</p>		</div>
+	</div>
+</div>			<button aria-expanded="false" class="drawer-trigger filled icon icon-before icon-resetcircle text-center" data-drawer-trigger="fundamentals">Close</button>
+		</div>
+	</div>
+</div>
+		</div>
+</section>
+		<section id="presentation" class="section section-overview section-presentation">
+		<div class="section-content">
+<div id="drawer-presentation" data-drawer-hero>
+	<div class="podcast-drawer-subhero podcast-drawer-subhero-presentation ">
+		<div class="center-content">
+			<div class="row">
+				<div class="column large-6 medium-5 small-12 ">
+					<div class="subhero-image-wrapper ">
+						<figure class="image-subhero-presentation"></figure>
+					</div>
+				</div>
+				<div class="column large-6 medium-7 small-12 text-right">
+					<div class="subhero-copy-wrapper">
+						<h2 class="typography-headline subhero-headline ">Package and Present Your Show</h2>
+						<p class="subhero-copy ">Getting your show ready for the big time requires some thoughtful behind-the-scenes work. That means nailing down the look and feel of your show, as well as how you describe it.</p>
+						<button aria-expanded="false" class="drawer-trigger icon icon-pluscircle icon-after" data-drawer-trigger="presentation">Learn More</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="podcast-drawer-content podcast-drawer-content-presentation" aria-hidden="true" data-drawer-item="presentation">
+		<div class="center-content">
+			<div id="draweritem-design-thoughtfully" class="podcast-drawer-item draweritem-design-thoughtfully ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-design-thoughtfully"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Design thoughtfully.</h3>
+			<p>A podcast’s identity goes far beyond cover art. It includes all the ways your show is visually represented on Apple Podcasts, social media, and your website. Smart branding provides insight into what your show is about. Create an identity that communicates the tone and subject matter of your podcast.</p>
+	<p>Let’s talk logos for a sec. Your logo might look great enlarged in whatever design app used to make it. But does it look good at thumbnail size? Consider using clear, large font and relevant imagery.</p>
+	<p><a href="https://Apple.co/GreatPodArtwork" class="icon-podcastlink">Visit Apple Podcasts to see examples <span class="more nowrap">of show logos</span></a></p>		</div>
+	</div>
+</div>
+<div id="draweritem-describe-thoughtfully" class="podcast-drawer-item draweritem-describe-thoughtfully ">
+	<div class="row">
+		<div class="column large-4 small-12  large-push-7 large-offset-1 small-offset-0 small-push-0">
+			<figure class="icon-draweritem-describe-thoughtfully"></figure>
+		</div>
+		<div class="column large-7 small-12  large-pull-4 small-push-0">
+			<h3 class="typography-headline-reduced draweritem-headline">Describe thoughtfully.</h3>
+			<p>When you describe your show, be sure to talk about the content. Explain the benefits and why listeners should care. When it comes to episode titling, lead with the most important information first — like big-name guests, trending topics, or exclusive interviews.</p>
+	<p><a href="https://Apple.co/GreatPodDescription" class="icon-podcastlink">Visit Apple Podcasts to see examples of <span class="more nowrap">show descriptions</span></a></p>		</div>
+	</div>
+</div>
+<div id="draweritem-create-brief" class="podcast-drawer-item draweritem-create-brief ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-create-brief"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Create a brief.</h3>
+			<p>A brief about your podcast is a great way to share the vision of your show and package up all the information for advertisers, networks, or Apple. A brief is not a marketing plan. Marketing plans provide more in-depth information. Briefs are shorter and contain high-level details. That said, your brief should contain the following elements:</p>
+	<div class="row">
+		<div class="column large-5 small-12">
+			<ul class="list list-nobullet list-brief">
+				<li><strong>Podcast Name</strong></li>
+				<li><strong>Host</strong></li>
+				<li><strong>Host Bio</strong></li>
+				<li><strong>Description</strong></li>
+				<li><strong>Context </strong></li>
+			</ul>
+		</div>
+		<div class="column large-7 small-12">
+			<ul class="list list-nobullet list-brief last">
+				<li><strong>Business Objective</strong></li>
+				<li><strong>Target Audience</strong></li>
+				<li><strong>Duration and Frequency</strong></li>
+				<li><strong>Launch Date</strong></li>
+			</ul>
+		</div>
+	</div>
+	<p>Most of these items are self-explanatory, but let’s clarify a few. Context explains why you created your show in the first place. In other words, what problem is it trying to solve? Your business objective outlines what you expect to accomplish and how your show fits into your organization’s strategic goals. Your target audience is the people you’re hoping to reach — fans of historical-fiction TV shows and movies, for example. Duration and frequency lay out how long each episode is and how often they’re produced.</p>
+	<p>In addition to attracting an audience, you may want to get the attention of advertisers. And maybe earn a little positive press coverage to boot. Talking about your show in a clear manner that highlights your compelling content can make all the difference in users discovering and listening to your show.</p>		</div>
+	</div>
+</div>			<button aria-expanded="false" class="drawer-trigger filled icon icon-before icon-resetcircle text-center" data-drawer-trigger="presentation">Close</button>
+		</div>
+	</div>
+</div>
+		</div>
+</section>
+		<section id="development" class="section section-overview section-development">
+		<div class="section-content">
+<div id="drawer-development" data-drawer-hero>
+	<div class="podcast-drawer-subhero podcast-drawer-subhero-development ">
+		<div class="center-content">
+			<div class="row">
+				<div class="column large-6 medium-5 small-12  large-push-6 medium-push-7 small-push-0">
+					<div class="subhero-image-wrapper alternate">
+						<figure class="image-subhero-development"></figure>
+					</div>
+				</div>
+				<div class="column large-6 medium-7 small-12  large-pull-6 medium-pull-5 small-push-0 ">
+					<div class="subhero-copy-wrapper">
+						<h2 class="typography-headline subhero-headline alternate">Audience Development</h2>
+						<p class="subhero-copy alternate">Fans of your show are out there. They just don’t know they’re fans yet. This is where you and your amazing storytelling skills come into play. For you to find them and them to find you, you’ll need to leverage tools like social media, email, and perhaps video.</p>
+						<button aria-expanded="false" class="drawer-trigger icon icon-pluscircle icon-before" data-drawer-trigger="development">Learn More</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="podcast-drawer-content podcast-drawer-content-development" aria-hidden="true" data-drawer-item="development">
+		<div class="center-content">
+			<div id="draweritem-produce-trailers" class="podcast-drawer-item draweritem-produce-trailers ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-produce-trailers"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Produce trailers.</h3>
+			<p>Just like with blockbuster movies, podcast trailers pique interest. So consider creating a prelaunch trailer to introduce listeners to your show. But keep it short and simple. Two minutes or less should do the trick. Tease just enough information to generate interest. And highlight important events like the beginning of a new season, special guests, new features, or a big story.</p>		</div>
+	</div>
+</div>
+<div id="draweritem-collaborate-podcasts" class="podcast-drawer-item draweritem-collaborate-podcasts ">
+	<div class="row">
+		<div class="column large-4 small-12  large-push-7 large-offset-1 small-offset-0 small-push-0">
+			<figure class="icon-draweritem-collaborate-podcasts"></figure>
+		</div>
+		<div class="column large-7 small-12  large-pull-4 small-push-0">
+			<h3 class="typography-headline-reduced draweritem-headline">Collaborate with other podcasts.</h3>
+			<p>Cross-promotion is another way to generate buzz about your podcast. If you can, make guest appearances on other shows. This gives you the opportunity to plug yours. If you have a big-name guest coming on your show, spread the word about it. And use in-kind promotions to your advantage — hype up other podcasts on your show, while they do the same for yours. There are millions of people who have never listened to a podcast before, so think of other podcasters in your category not as competitors but as colleagues.</p>		</div>
+	</div>
+</div>
+<div id="draweritem-tentpole-programming" class="podcast-drawer-item draweritem-tentpole-programming ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-tentpole-programming"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Develop tentpole programming.</h3>
+			<p>Tentpole programming means creating content centered around popular cultural moments. This is anything from trending topics on social media to major holidays to movie releases. Think Emmy Awards or Black History Month. Basically, whatever people are buzzing about. An episode schedule that reflects what’s going on right now has built-in promotional value. And Apple might feature your show as part of a collection.</p>		</div>
+	</div>
+</div>
+<div id="draweritem-organic-social-media" class="podcast-drawer-item draweritem-organic-social-media ">
+	<div class="row">
+		<div class="column large-4 small-12  large-push-7 large-offset-1 small-offset-0 small-push-0">
+			<figure class="icon-draweritem-organic-social-media"></figure>
+		</div>
+		<div class="column large-7 small-12  large-pull-4 small-push-0">
+			<h3 class="typography-headline-reduced draweritem-headline">Promote with organic social media.</h3>
+			<p>Social media is your ally. It’s a relatively easy way to promote your show and engage with your audience. So get in the habit of posting regularly on Twitter, Facebook, Instagram, or Reddit. For starters, Instagram Stories is a creative and simple method to get your followers to tap over to Apple Podcasts. Consider posting things like a quick, behind-the-scenes video or a poll tied to an upcoming episode. Whatever you do, just start the conversation and keep it going. Create and post native content for social media platforms and link directly to Apple Podcasts to drive listeners to your show. And don’t forget to tag us in your posts — @ApplePodcasts on Twitter, Facebook, and Instagram.</p>		</div>
+	</div>
+</div>
+<div id="draweritem-paid-social-media" class="podcast-drawer-item draweritem-paid-social-media ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-paid-social-media"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Promote with paid social media.</h3>
+			<p>Another way you can leverage social media is through paid advertising. Your budget will dictate how often you go this route, but know that paid social media content is an effective way to reach large, targeted audiences.</p>		</div>
+	</div>
+</div>
+<div id="draweritem-send-email-newsletters" class="podcast-drawer-item draweritem-send-email-newsletters ">
+	<div class="row">
+		<div class="column large-4 small-12  large-push-7 large-offset-1 small-offset-0 small-push-0">
+			<figure class="icon-draweritem-send-email-newsletters"></figure>
+		</div>
+		<div class="column large-7 small-12  large-pull-4 small-push-0">
+			<h3 class="typography-headline-reduced draweritem-headline">Send email and newsletters.</h3>
+			<p>Sometimes you have more to say than 280 characters will allow. So why not do it in email or newsletter form? Either of these methods is great for sharing details that entice people to listen to your podcast and spread the word. Name-drop popular guests, share feedback or reviews, ask for show ideas. Email and newsletters help you cultivate a relationship with your listeners. So make sure your communications are targeted and specific. Listeners will unsubscribe to email and newsletters when messages are irrelevant and useless to them.</p>		</div>
+	</div>
+</div>			<button aria-expanded="false" class="drawer-trigger filled icon icon-before icon-resetcircle text-center" data-drawer-trigger="development">Close</button>
+		</div>
+	</div>
+</div>
+		</div>
+</section>
+		<section id="tools-resources" class="section section-overview section-tools-resources">
+		<div class="section-content">
+<div id="drawer-tools-resources" data-drawer-hero>
+	<div class="podcast-drawer-subhero podcast-drawer-subhero-tools-resources ">
+		<div class="center-content">
+			<div class="row">
+				<div class="column large-6 medium-5 small-12 ">
+					<div class="subhero-image-wrapper ">
+						<figure class="image-subhero-tools-resources"></figure>
+					</div>
+				</div>
+				<div class="column large-6 medium-7 small-12 text-right">
+					<div class="subhero-copy-wrapper">
+						<h2 class="typography-headline subhero-headline ">Apple Marketing Tools and Resources</h2>
+						<p class="subhero-copy ">You want it to be easy for listeners to subscribe to your show. So do we. That’s why we created nifty badges for you to use. It’s official Apple branding that makes it beyond simple for people to go from curious cat to loyal listener in one tap.</p>
+						<button aria-expanded="false" class="drawer-trigger icon icon-pluscircle icon-after" data-drawer-trigger="tools-resources">Learn More</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="podcast-drawer-content podcast-drawer-content-tools-resources" aria-hidden="true" data-drawer-item="tools-resources">
+		<div class="center-content">
+			<div id="draweritem-review-our-guidelines" class="podcast-drawer-item draweritem-review-our-guidelines ">
+	<div class="row">
+		<div class="column large-4 small-12  large-push-7 large-offset-1 small-offset-0 small-push-0">
+			<figure class="icon-draweritem-review-our-guidelines"></figure>
+		</div>
+		<div class="column large-7 small-12  large-pull-4 small-push-0">
+			<h3 class="typography-headline-reduced draweritem-headline">Review our guidelines.</h3>
+			<p>Before you download and use any official Apple badges and branding, including the Listen on Apple Podcasts badge, you’ll need to review the <a href="https://www.apple.com/itunes/marketing-on-podcasts/identity-guidelines.html">Apple Podcasts Identity Guidelines</a>. “Listen” lets new, first-time listeners know your show is audio.</p>
+	<p>Also, as many people are learning about podcasts for the first time, consider including the word “free” in your marketing — “Listen free on Apple Podcasts.”</p>		</div>
+	</div>
+</div>
+<div id="draweritem-use-apple-tools" class="podcast-drawer-item draweritem-use-apple-tools ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-use-apple-tools"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Use Apple tools.</h3>
+			<p>We’ve created a handful of tools that can help drive listeners to your show. </p>
+	<p><strong class="display-tablecell">Link Maker and Banner Builder</strong>
+	The best way to create links to podcasts and other content is Link Maker. Banner Builder lets you immediately create banner art for podcasts, as well as Apple Music, apps, and more content on our stores.</p>
+	<ul class="list list-nobullet">
+		<li><a href="https://linkmaker.itunes.apple.com/us">Go to <span class="more nowrap">Link Maker</span></a></li>
+		<li><a href="https://banners.itunes.apple.com/us">Go to <span class="more nowrap">Banner Builder</span></a></li>
+	</ul>
+	<p class="tool-buffer"><strong class="display-tablecell">Widget Builder</strong>
+	If you have multiple shows, Widget Builder lets you easily add interactive widgets to your website or blog. These widgets allow users to create and showcase a list of podcasts, explore music, preview songs, and more. Users can also discover apps from the App Store — all without leaving your site.</p>
+	<p><a href="https://widgets.itunes.apple.com/builder?country=us">Go to <span class="more nowrap">Widget Builder</span></a></p>
+	<p class="tool-buffer"><strong class="display-tablecell">iAd Workbench</strong>
+	Another useful way to advertise your show on Apple Podcasts and reach millions of Apple users in over 100 countries is through iAd Workbench.</p>
+	<p><a href="https://support.apple.com/kb/PH22967?viewlocale=en_US&locale=en_US">Learn more about <span class="more nowrap">iAd Workbench</span></a></p>		</div>
+	</div>
+</div>
+<div id="draweritem-join-affiliate-program" class="podcast-drawer-item draweritem-join-affiliate-program ">
+	<div class="row">
+		<div class="column large-4 small-12  large-push-7 large-offset-1 small-offset-0 small-push-0">
+			<figure class="icon-draweritem-join-affiliate-program"></figure>
+		</div>
+		<div class="column large-7 small-12  large-pull-4 small-push-0">
+			<h3 class="typography-headline-reduced draweritem-headline">Join the affiliate program.</h3>
+			<p class="wide-load">The affiliate program provides a unique way for you to create links and track clicks to your podcast. You can also link to millions of songs as well as books, movies, and TV shows while earning commissions on qualifying sales and subscriptions on Apple Music.</p>
+	<p><a href="https://www.apple.com/itunes/affiliates/">Apply for the <span class="more nowrap">affiliate program</span></a></p>		</div>
+	</div>
+</div>
+<div id="draweritem-request-vanity-url" class="podcast-drawer-item draweritem-request-vanity-url ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-request-vanity-url"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Request a vanity URL.</h3>
+			<p>A vanity URL is a special cobranded URL that makes it simple to share your show on Apple Podcasts. They’re especially useful when a listener can’t click or tap a link. To request a vanity URL, send an email to <a href="mailto:podcastsmarketing@apple.com">podcastsmarketing@apple.com</a>. Be sure to include how you intend to use the URL, if granted.</p>
+	<p>Example: applepodcasts.com/[your-podcast-name]</p>		</div>
+	</div>
+</div>			<button aria-expanded="false" class="drawer-trigger filled icon icon-before icon-resetcircle text-center" data-drawer-trigger="tools-resources">Close</button>
+		</div>
+	</div>
+</div>
+		</div>
+</section>
+		<section id="common-mistakes" class="section section-overview section-common-mistakes">
+		<div class="section-content">
+<div id="drawer-common-mistakes" data-drawer-hero>
+	<div class="podcast-drawer-subhero podcast-drawer-subhero-common-mistakes ">
+		<div class="center-content">
+			<div class="row">
+				<div class="column large-6 medium-5 small-12  large-push-6 medium-push-7 small-push-0">
+					<div class="subhero-image-wrapper alternate">
+						<figure class="image-subhero-common-mistakes"></figure>
+					</div>
+				</div>
+				<div class="column large-6 medium-7 small-12  large-pull-6 medium-pull-5 small-push-0 ">
+					<div class="subhero-copy-wrapper">
+						<h2 class="typography-headline subhero-headline alternate">Avoid Common Mistakes</h2>
+						<p class="subhero-copy alternate">Mistakes happen. But not if you can help it, right? Here are a few suggestions from us when it comes to marketing your show.</p>
+						<button aria-expanded="false" class="drawer-trigger icon icon-pluscircle icon-before" data-drawer-trigger="common-mistakes">Learn More</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="podcast-drawer-content podcast-drawer-content-common-mistakes" aria-hidden="true" data-drawer-item="common-mistakes">
+		<div class="center-content">
+			<div id="draweritem-lead-with-content" class="podcast-drawer-item draweritem-lead-with-content ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-lead-with-content"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Lead with the content.</h3>
+			<p>Listeners want to know right away what they’re in for. So don’t bury the lede. For instance, if you have a superstar guest making an appearance on your show, come right out and say so. Skip the vague, flowery intro and let the people know what they can expect to hear. <a href="https://podcastsconnect.apple.com">Podcast Analytics</a> show that listenership declines with overly drawn out intros and outros.</p>		</div>
+	</div>
+</div>
+<div id="draweritem-close-with-link" class="podcast-drawer-item draweritem-close-with-link ">
+	<div class="row">
+		<div class="column large-4 small-12  large-push-7 large-offset-1 small-offset-0 small-push-0">
+			<figure class="icon-draweritem-close-with-link"></figure>
+		</div>
+		<div class="column large-7 small-12  large-pull-4 small-push-0">
+			<h3 class="typography-headline-reduced draweritem-headline">Close with a link.</h3>
+			<p>After you tell listeners what to expect, make sure they know how to find what you’re talking about. Whether it’s a specific episode or your show in general, give them a link to go to.</p>		</div>
+	</div>
+</div>
+<div id="draweritem-pick-wisely" class="podcast-drawer-item draweritem-pick-wisely ">
+	<div class="row">
+		<div class="column large-4 small-12 ">
+			<figure class="icon-draweritem-pick-wisely"></figure>
+		</div>
+		<div class="column large-7 small-12 ">
+			<h3 class="typography-headline-reduced draweritem-headline">Pick your screenshots wisely.</h3>
+			<p>If you want to display a screenshot of your show as it appears on Apple Podcasts, capture it from the Podcasts app using a mobile device, like iPhone or iPad. If you aren’t sure how to do that, this support article gives you step-by-step instructions: <a href="https://support.apple.com/en-us/HT200289">How to take a screenshot on your iPhone, iPad, and iPod touch.</a></p>		</div>
+	</div>
+</div>			<button aria-expanded="false" class="drawer-trigger filled icon icon-before icon-resetcircle text-center" data-drawer-trigger="common-mistakes">Close</button>
+		</div>
+	</div>
+</div>
+		</div>
+</section>
+		</main><!--/main-->
+		<footer id="ac-globalfooter" class="no-js" lang="en-US" data-analytics-region="global footer" role="contentinfo" aria-labelledby="ac-gf-label">
+	<div class="ac-gf-content">
+		<div class="ac-gf-footer-legal-copyright"><span class="apple-icon"></span> Copyright &copy; 2018 Apple Inc. All rights reserved.</div>
+		<div class="ac-gf-footer-legal-links">
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/privacy/en-ww/">Privacy Policy</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/internet-services/terms/site.html">Terms of Use</a>
+		</div>
+	</div>
+	<script type="text/javascript" src="ac/globalfooter/2.0/en_US/scripts/ac-globalfooter.built.js"></script>
+</footer>
+			<script src="assets/scripts/main.built.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

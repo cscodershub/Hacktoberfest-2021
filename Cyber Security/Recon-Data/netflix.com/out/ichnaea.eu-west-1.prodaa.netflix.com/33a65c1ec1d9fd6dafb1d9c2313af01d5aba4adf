@@ -1,0 +1,27 @@
+https://ichnaea.eu-west-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ichnaea.eu-west-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 405 Method Not Allowed
+< Access-Control-Allow-Origin: https://ichnaea.eu-west-1.prodaa.netflix.com
+< Via: 1.1 i-0123d42240b123b80 (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< X-Xss-Protection: 1; mode=block
+< Date: Wed, 17 Jun 2020 05:34:05 GMT
+< Pragma: no-cache
+< X-Originating-Url: https://ichnaea.eu-west-1.prodaa.netflix.com/
+< Server: clingest-secure i-050c6d2d90275ff50
+< X-Netflix.proxy.execution-Time: 7
+< Access-Control-Allow-Headers: Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Content-Type: application/json
+< Expires: 0
+< X-Frame-Options: DENY
+< Access-Control-Allow-Credentials: true
+< Allow: OPTIONS
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< X-Content-Type-Options: nosniff
+
+{"timestamp":"2020-06-17T05:34:05.543+0000","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"/"}

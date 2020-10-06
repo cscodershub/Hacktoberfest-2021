@@ -1,0 +1,8 @@
+https://genius-download.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: genius-download.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+

@@ -1,0 +1,22 @@
+http://spreview-mr.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: spreview-mr.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:18493001:mr85p00it-hyhk03154801:7987:20E24
+< Server: daiquiri/3.0.0
+< Date: Thu, 30 Apr 2020 21:30:13 GMT
+< Content-Type: text/html
+< Content-Length: 163
+< Location: https://spreview-mr.itunes.apple.com/
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+<hr><center>daiquiri/3.0.0</center>
+</body>
+</html>

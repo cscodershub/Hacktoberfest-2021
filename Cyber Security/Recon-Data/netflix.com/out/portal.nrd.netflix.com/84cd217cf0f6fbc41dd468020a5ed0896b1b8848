@@ -1,0 +1,24 @@
+http://portal.nrd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: portal.nrd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 17 Jun 2020 05:35:06 GMT
+< Content-Length: 183
+< Via: 1.1 aeb6b352800783451646fad0939e61cf.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< X-Amz-Cf-Id: 6zBcbmLoy2b-O7EwY7bSJFK_SANGf_iQ9R-7Rrq4RqVrAWDKd9CvqQ==
+< Server: CloudFront
+< Content-Type: text/html
+< Location: https://portal.nrd.netflix.com/
+< X-Cache: Redirect from cloudfront
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

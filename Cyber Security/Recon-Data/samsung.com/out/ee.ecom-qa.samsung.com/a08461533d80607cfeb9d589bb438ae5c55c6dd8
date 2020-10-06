@@ -1,0 +1,14 @@
+https://ee.ecom-qa.samsung.com/
+
+> GET / HTTP/1.1
+> Host: ee.ecom-qa.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Cache-Control: no-cache
+< Access-Control-Allow-Credentials: true
+< Date: Wed, 10 Jun 2020 05:36:00 GMT
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 60
+
+{"statusCode":404,"error":"Not Found","message":"Not Found"}

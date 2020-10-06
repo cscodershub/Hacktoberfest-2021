@@ -1,0 +1,24 @@
+http://biritemarket.instacart.com/
+
+> GET / HTTP/1.1
+> Host: biritemarket.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 04 Aug 2020 04:46:58 GMT
+< Content-Type: text/html
+< X-Amz-Cf-Id: kgUhYReYNtA2goC7qiM3iwkSUtyNlLxgP0NMWcyDcIf87gknQ-fCeQ==
+< X-Amz-Cf-Pop: MAA50-C1
+< Server: CloudFront
+< Content-Length: 183
+< Location: https://biritemarket.instacart.com/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 0ea4ba2686c947264397b51111282703.cloudfront.net (CloudFront)
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

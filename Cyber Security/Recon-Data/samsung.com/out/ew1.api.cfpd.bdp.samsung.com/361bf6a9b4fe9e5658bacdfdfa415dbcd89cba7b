@@ -1,0 +1,15 @@
+https://ew1.api.cfpd.bdp.samsung.com/
+
+> GET / HTTP/1.1
+> Host: ew1.api.cfpd.bdp.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Vary: Origin
+< Vary: Access-Control-Request-Method
+< Vary: Access-Control-Request-Headers
+< Content-Length: 110
+< Content-Type: application/json
+< Date: Wed, 10 Jun 2020 05:35:41 GMT
+
+{"timestamp":"2020-06-10T05:35:41.803+0000","status":404,"error":"Not Found","message":"Not Found","path":"/"}

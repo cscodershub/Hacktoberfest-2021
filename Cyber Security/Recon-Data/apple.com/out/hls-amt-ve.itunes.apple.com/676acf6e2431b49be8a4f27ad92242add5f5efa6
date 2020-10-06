@@ -1,0 +1,33 @@
+http://hls-amt-ve.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: hls-amt-ve.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Expires: Thu, 30 Apr 2020 21:29:54 GMT
+< X-Cache: TCP_DENIED from a49-44-194-197.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< Akamai-Mon-Iucid-Del: 501125
+< X-City: ZZZ
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Headers: range
+< Access-Control-Expose-Headers: *
+< Server: AkamaiGHost
+< Content-Type: text/html
+< Content-Length: 289
+< Mime-Version: 1.0
+< Cache-Control: private, private, max-age=3600
+< Via: HTTP/1.1 INZZZ1 (Akamai [u cMs f p e :t cCHi p s ])
+< X-Countrycode: IN
+< Date: Thu, 30 Apr 2020 21:29:54 GMT
+< Cdn-Server: akam
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;hls&#45;amt&#45;ve&#46;itunes&#46;apple&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;c5c22c31&#46;1588282194&#46;12379611
+</BODY>
+</HTML>

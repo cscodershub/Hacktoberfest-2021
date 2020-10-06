@@ -1,0 +1,14 @@
+https://kentest03.sandbox.boomi.com/
+
+> GET / HTTP/1.1
+> Host: kentest03.sandbox.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://auth.ttox.org/
+< Vary: Accept,  Accept-Encoding
+< Strict-Transport-Security: max-age=604800; preload
+< Date: Sat, 15 Aug 2020 09:16:12 GMT
+< Content-Length: 0
+< Server: nginx/1.16.1
+

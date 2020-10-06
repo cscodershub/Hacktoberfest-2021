@@ -1,0 +1,16 @@
+https://view.email.boozt.com/
+
+> GET / HTTP/1.1
+> Host: view.email.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: /Error.aspx
+< Date: Tue, 11 Aug 2020 14:07:49 GMT
+< Content-Length: 128
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="/Error.aspx">here</a>.</h2>
+</body></html>

@@ -1,0 +1,28 @@
+https://food4less.instacart.com/
+
+> GET / HTTP/1.1
+> Host: food4less.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Date: Tue, 04 Aug 2020 04:47:06 GMT
+< X-Download-Options: noopen
+< Cache-Control: no-cache
+< Via: 1.1 ffbf7c0814126647d720044d9f5a41cd.cloudfront.net (CloudFront)
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: build_sha=b2487cd6cf0d167b75a0861b63be737cdb68edfd;Path=/;
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: Cmvg9rsa-o17z4UvqfZovHdK15S1Rd79hTJcu2Qxu4Rkt74lqJb8tg==
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Runtime: 0.018610
+< Vary: Origin
+< X-Cache: Error from cloudfront
+< Content-Type: text/html; charset=utf-8
+< Server: nginx
+< X-Frame-Options: SAMEORIGIN
+< X-Permitted-Cross-Domain-Policies: none
+< Www-Authenticate: Basic realm="Application"
+< X-Request-Id: c78b5f6d-2ea1-42da-896c-cd7337ef991d
+
+HTTP Basic: Access denied.

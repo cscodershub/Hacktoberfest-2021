@@ -1,0 +1,25 @@
+http://api-autostaging-42.development.yummly.com/
+
+> GET / HTTP/1.1
+> Host: api-autostaging-42.development.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Sat, 15 Aug 2020 14:57:41 GMT
+< Server: Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.4.45 mod_fcgid/2.3.9
+< Content-Length: 481
+< Content-Type: text/html;charset=ISO-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /</title>
+ </head>
+ <body>
+<h1>Index of /</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+</body></html>

@@ -1,0 +1,1422 @@
+https://covidresponse.instacart.com/
+
+> GET / HTTP/1.1
+> Host: covidresponse.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Location: https://covidresponse.instacart.com/
+< X-Proxy-Backend: page-server
+< P3p: CP="This is not a privacy policy."
+< Date: Tue, 04 Aug 2020 04:46:58 GMT
+< Etag: 20ef16cec46b18ff80f7af7caf353691
+< Content-Type: text/html; charset=UTF-8
+< Last-Modified: Fri, 03 Apr 2020 21:56:46 GMT
+< X-Unbounce-Variant: a
+< Link: <https://covidresponse.instacart.com/>; rel="canonical"
+< Set-Cookie: ubpv=a%2C324e2c04-3623-42b5-b703-1d226f4493a3; Max-Age=15897600; Expires=Thu, 04 Feb 2021 04:46:58 GMT; Path=/
+< Set-Cookie: ubrs=weighted; Path=/
+< Set-Cookie: ubvs=27.6.71.2011596979090676968; Max-Age=15552000; Expires=Sun, 31 Jan 2021 04:46:58 GMT; Path=/
+< Set-Cookie: ubvt=27.6.71.2011596979090676968; Max-Age=259200; Expires=Fri, 07 Aug 2020 04:46:58 GMT; Path=/; Domain=instacart.com
+< X-Unbounce-Pageid: 324e2c04-3623-42b5-b703-1d226f4493a3
+< X-Unbounce-Visitorid: 27.6.71.2011596979090676968
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+      <!--324e2c04-3623-42b5-b703-1d226f4493a3 a-->
+
+    <title>Instacart COVID-19 Resource Center</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    
+
+    
+
+
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="lp-version" content="v6.21.9"><style title="page-styles" type="text/css" data-page-type="main_desktop">
+body {
+ color:#000;
+}
+a {
+ color:#0000ff;
+ text-decoration:none;
+}
+#lp-pom-text-13 {
+ left:0px;
+ top:675.5px;
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ z-index:9;
+ width:955px;
+ height:190px;
+ position:absolute;
+}
+#lp-pom-root {
+ display:block;
+ background:rgba(255,255,255,1);
+ border-style:none;
+ margin:auto;
+ padding-top:0px;
+ border-radius:0px;
+ min-width:960px;
+ height:1440px;
+}
+#lp-pom-block-11 {
+ display:block;
+ background:rgba(67,176,42,1);
+ border-style:none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:0px;
+ border-radius:0px;
+ width:100%;
+ height:91px;
+ position:relative;
+}
+#lp-pom-button-152 {
+ display:block;
+ border-style:none;
+ border-radius:0px;
+ left:156px;
+ top:20px;
+ z-index:3;
+ width:171px;
+ height:51px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#ffffff;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-button-153 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:332px;
+ top:20px;
+ z-index:4;
+ width:244px;
+ height:51px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#FFFFFF;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-button-154 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:582px;
+ top:20px;
+ z-index:5;
+ width:126px;
+ height:51px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#ffffff;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-button-155 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:851px;
+ top:20px;
+ z-index:7;
+ width:119px;
+ height:51px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#FFFFFF;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-button-162 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:-7px;
+ top:20px;
+ z-index:13;
+ width:158px;
+ height:51px;
+ position:absolute;
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#ffffff;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-button-169 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:712px;
+ top:20px;
+ z-index:11;
+ width:134px;
+ height:51px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#FFFFFF;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-image-182 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:151px;
+ top:35.5px;
+ z-index:15;
+ position:absolute;
+}
+#lp-pom-image-183 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:325px;
+ top:35.5px;
+ z-index:16;
+ position:absolute;
+}
+#lp-pom-image-184 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:575px;
+ top:35.5px;
+ z-index:17;
+ position:absolute;
+}
+#lp-pom-image-185 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:706px;
+ top:35.5px;
+ z-index:18;
+ position:absolute;
+}
+#lp-pom-image-186 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:846px;
+ top:35.5px;
+ z-index:19;
+ position:absolute;
+}
+#lp-pom-box-197 {
+ display:block;
+ background:rgba(67,176,42,1);
+ border-style:none;
+ border-radius:0px;
+ left:74px;
+ top:-98px;
+ z-index:22;
+ width:42px;
+ height:28px;
+ position:absolute;
+}
+#lp-pom-block-12 {
+ display:block;
+ background:rgba(255,255,255,1);
+ background-image:url(//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/7a2e717b-home-3_1hc0io000000000000001.png);
+ background-repeat:no-repeat;
+ background-position:center top;
+ background-size:cover;
+ border-style:none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:0px;
+ border-radius:0px;
+ width:100%;
+ height:522px;
+ position:relative;
+}
+#lp-pom-text-157 {
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ left:20px;
+ top:293px;
+ z-index:8;
+ width:655px;
+ height:167px;
+ position:absolute;
+}
+#lp-pom-image-158 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:-5px;
+ top:117px;
+ z-index:10;
+ position:absolute;
+}
+#lp-pom-text-160 {
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ left:20px;
+ top:487px;
+ z-index:21;
+ width:647px;
+ height:68px;
+ position:absolute;
+}
+#lp-pom-box-190 {
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ left:-149px;
+ top:100px;
+ z-index:6;
+ width:100px;
+ height:100px;
+ position:absolute;
+}
+#lp-pom-block-16 {
+ display:block;
+ background:rgba(236,246,255,1);
+ border-style:none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:0px;
+ border-radius:0px;
+ width:100%;
+ height:652px;
+ position:relative;
+}
+#lp-pom-text-179 {
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ left:0px;
+ top:893.5px;
+ z-index:12;
+ width:465px;
+ height:228px;
+ position:absolute;
+}
+#lp-pom-image-180 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:545px;
+ top:863px;
+ z-index:14;
+ position:absolute;
+}
+#lp-pom-block-102 {
+ display:block;
+ background:rgba(14,73,31,1);
+ border-style:none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:0px;
+ border-radius:0px;
+ width:100%;
+ height:175px;
+ position:relative;
+}
+#lp-pom-image-103 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:405px;
+ top:1313px;
+ z-index:2;
+ position:absolute;
+}
+#lp-pom-text-148 {
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ left:330px;
+ top:1372px;
+ z-index:1;
+ width:300px;
+ height:26px;
+ position:absolute;
+}
+#lp-pom-button-189 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:405px;
+ top:1301px;
+ z-index:20;
+ width:150px;
+ height:52px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#FFFFFF;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-root .lp-positioned-content {
+ top:0px;
+ width:960px;
+ margin-left:-480px;
+}
+#lp-pom-block-11 .lp-pom-block-content {
+ margin-left:auto;
+ margin-right:auto;
+ width:960px;
+ height:91px;
+}
+#lp-pom-block-12 .lp-pom-block-content {
+ margin-left:auto;
+ margin-right:auto;
+ width:960px;
+ height:522px;
+}
+#lp-pom-block-16 .lp-pom-block-content {
+ margin-left:auto;
+ margin-right:auto;
+ width:960px;
+ height:652px;
+}
+#lp-pom-block-102 .lp-pom-block-content {
+ margin-left:auto;
+ margin-right:auto;
+ width:960px;
+ height:175px;
+}
+#lp-pom-image-103 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:150px;
+ height:30px;
+}
+#lp-pom-image-103 .lp-pom-image-container img {
+ width:150px;
+ height:30px;
+}
+#lp-pom-button-152:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-152:active {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-152 .label {
+ margin-top:-7px;
+}
+#lp-pom-button-153:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-153:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-153 .label {
+ margin-top:-7px;
+}
+#lp-pom-button-154:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-154:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-154 .label {
+ margin-top:-7px;
+}
+#lp-pom-button-155:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-155:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-155 .label {
+ margin-top:-7px;
+}
+#lp-pom-image-158 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:235px;
+ height:58px;
+}
+#lp-pom-image-158 .lp-pom-image-container img {
+ width:235px;
+ height:58px;
+}
+#lp-pom-button-162:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-162:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-162 .label {
+ margin-top:-7px;
+}
+#lp-pom-button-169:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-169:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-169 .label {
+ margin-top:-7px;
+}
+#lp-pom-image-180 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:415px;
+ height:330px;
+}
+#lp-pom-image-180 .lp-pom-image-container img {
+ width:415px;
+ height:330px;
+}
+#lp-pom-image-182 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-182 .lp-pom-image-container img {
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-183 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-183 .lp-pom-image-container img {
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-184 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-184 .lp-pom-image-container img {
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-185 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-185 .lp-pom-image-container img {
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-186 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-186 .lp-pom-image-container img {
+ width:9px;
+ height:20px;
+}
+#lp-pom-button-189:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-189:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-189 .label {
+ margin-top:0px;
+}
+#lp-pom-root-color-overlay {
+ position:absolute;
+ background:none;
+ top:0;
+ width:100%;
+ height:1440px;
+ min-height:100%;
+}
+#lp-pom-block-11-color-overlay {
+ position:absolute;
+ background:none;
+ height:91px;
+ width:100%;;
+}
+#lp-pom-block-12-color-overlay {
+ position:absolute;
+ background:none;
+ height:522px;
+ width:100%;;
+}
+#lp-pom-block-16-color-overlay {
+ position:absolute;
+ background:none;
+ height:652px;
+ width:100%;;
+}
+#lp-pom-block-102-color-overlay {
+ position:absolute;
+ background:none;
+ height:175px;
+ width:100%;;
+}
+#lp-pom-box-190-color-overlay {
+ position:absolute;
+ background:none;
+ height:100px;
+ width:100px;
+}
+#lp-pom-box-197-color-overlay {
+ position:absolute;
+ background:none;
+ height:28px;
+ width:42px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.1), (min-resolution: 97dpi) {
+#lp-pom-block-12 {
+ background-image:url(//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/7a2e717b-home-3_000000000000000000001.png);
+}
+}
+</style><style title="page-styles" type="text/css" data-page-type="main_mobile">
+@media only screen and (max-width: 600px) {
+#lp-pom-root {
+ display:block;
+ background:rgba(255,255,255,1);
+ border-style:none;
+ margin:auto;
+ padding-top:0px;
+ border-radius:0px;
+ min-width:320px;
+ height:1643px;
+}
+#lp-pom-block-11 {
+ display:block;
+ background:rgba(67,176,42,1);
+ border-style:none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:0px;
+ border-radius:0px;
+ width:100%;
+ height:320px;
+ position:relative;
+}
+#lp-pom-button-152 {
+ display:block;
+ border-style:none;
+ border-radius:0px;
+ left:74px;
+ top:60px;
+ z-index:3;
+ width:171px;
+ height:49px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#ffffff;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-button-153 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:28px;
+ top:100px;
+ z-index:4;
+ width:264px;
+ height:49px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#ffffff;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-button-154 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:97px;
+ top:150px;
+ z-index:5;
+ width:126px;
+ height:49px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#ffffff;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-button-155 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:100.5px;
+ top:250px;
+ z-index:7;
+ width:119px;
+ height:49px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#ffffff;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-button-162 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:69.5px;
+ top:11px;
+ z-index:13;
+ width:181px;
+ height:49px;
+ position:absolute;
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#ffffff;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-button-169 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:93px;
+ top:200px;
+ z-index:11;
+ width:134px;
+ height:49px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#FFFFFF;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+#lp-pom-image-182 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:311px;
+ top:295px;
+ z-index:15;
+ position:absolute;
+}
+#lp-pom-image-183 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:311px;
+ top:295px;
+ z-index:16;
+ position:absolute;
+}
+#lp-pom-image-184 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:311px;
+ top:295px;
+ z-index:17;
+ position:absolute;
+}
+#lp-pom-image-185 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:311px;
+ top:295px;
+ z-index:18;
+ position:absolute;
+}
+#lp-pom-image-186 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:307px;
+ top:295px;
+ z-index:19;
+ position:absolute;
+}
+#lp-pom-box-197 {
+ display:block;
+ background:rgba(67,176,42,1);
+ border-style:none;
+ border-radius:0px;
+ left:307px;
+ top:283px;
+ z-index:22;
+ width:13px;
+ height:37px;
+ position:absolute;
+}
+#lp-pom-block-12 {
+ display:block;
+ background:rgba(255,255,255,1);
+ background-image:url(//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/7a2e717b-home-3_0nt08c0go08c075000001.png);
+ background-repeat:no-repeat;
+ background-position:right center;
+ background-size:cover;
+ border-style:none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:0px;
+ border-radius:0px;
+ width:100%;
+ height:300px;
+ position:relative;
+}
+#lp-pom-text-157 {
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ left:20px;
+ top:443px;
+ z-index:8;
+ width:449px;
+ height:167px;
+ transform:scale(0.56);
+ transform-origin:0 0;
+ -webkit-transform:scale(0.56);
+ -webkit-transform-origin:0 0;
+ position:absolute;
+}
+#lp-pom-image-158 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:54.5px;
+ top:336px;
+ z-index:10;
+ position:absolute;
+}
+#lp-pom-text-160 {
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ left:20px;
+ top:547px;
+ z-index:21;
+ width:473px;
+ height:68px;
+ transform:scale(0.62);
+ transform-origin:0 0;
+ -webkit-transform:scale(0.62);
+ -webkit-transform-origin:0 0;
+ position:absolute;
+}
+#lp-pom-box-190 {
+ display:block;
+ background:rgba(255,255,255,0.74);
+ border-style:none;
+ border-radius:0px;
+ left:0px;
+ top:320px;
+ z-index:6;
+ width:320px;
+ height:300px;
+ position:absolute;
+}
+#lp-pom-text-13 {
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ left:17.5px;
+ top:682px;
+ z-index:9;
+ width:380px;
+ height:456px;
+ transform:scale(0.75);
+ transform-origin:0 0;
+ -webkit-transform:scale(0.75);
+ -webkit-transform-origin:0 0;
+ position:absolute;
+}
+#lp-pom-block-16 {
+ display:block;
+ background:rgba(236,246,255,1);
+ border-style:none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:0px;
+ border-radius:0px;
+ width:100%;
+ height:898px;
+ position:relative;
+}
+#lp-pom-text-179 {
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ left:17.5px;
+ top:1030px;
+ z-index:12;
+ width:380px;
+ height:304px;
+ transform:scale(0.75);
+ transform-origin:0 0;
+ -webkit-transform:scale(0.75);
+ -webkit-transform-origin:0 0;
+ position:absolute;
+}
+#lp-pom-image-180 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:49px;
+ top:1312px;
+ z-index:14;
+ position:absolute;
+}
+#lp-pom-block-102 {
+ display:block;
+ background:rgba(14,73,31,1);
+ border-style:none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:0px;
+ border-radius:0px;
+ width:100%;
+ height:125px;
+ position:relative;
+}
+#lp-pom-image-103 {
+ display:block;
+ background:rgba(255,255,255,0);
+ left:110px;
+ top:1545.5px;
+ z-index:2;
+ position:absolute;
+}
+#lp-pom-text-148 {
+ display:block;
+ background:rgba(255,255,255,0);
+ border-style:none;
+ border-radius:0px;
+ left:38.5px;
+ top:1585px;
+ z-index:1;
+ width:243px;
+ height:26px;
+ position:absolute;
+}
+#lp-pom-button-189 {
+ display:block;
+ border-style:none;
+ border-radius:5px;
+ left:85px;
+ top:1543px;
+ z-index:20;
+ width:150px;
+ height:32px;
+ position:absolute;
+ background:rgba(0,176,0,0);
+ box-shadow:none;
+ text-shadow:none;
+ color:#FFFFFF;
+ border-width:undefinedpx;
+ border-color:#undefined;
+ font-size:12px;
+ line-height:14px;
+ font-weight:600;
+ font-family:Montserrat;
+ font-style:normal;
+ text-align:center;
+ background-repeat:no-repeat;
+}
+body {
+ color:#000;
+}
+a {
+ color:#0000ff;
+ text-decoration:none;
+}
+#lp-pom-root .lp-positioned-content {
+ top:0px;
+ width:320px;
+ margin-left:-160px;
+}
+#lp-pom-block-11 .lp-pom-block-content {
+ margin-left:auto;
+ margin-right:auto;
+ width:320px;
+ height:320px;
+}
+#lp-pom-block-12 .lp-pom-block-content {
+ margin-left:auto;
+ margin-right:auto;
+ width:320px;
+ height:300px;
+}
+#lp-pom-block-16 .lp-pom-block-content {
+ margin-left:auto;
+ margin-right:auto;
+ width:320px;
+ height:898px;
+}
+#lp-pom-block-102 .lp-pom-block-content {
+ margin-left:auto;
+ margin-right:auto;
+ width:320px;
+ height:125px;
+}
+#lp-pom-image-103 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:100px;
+ height:20px;
+}
+#lp-pom-image-103 .lp-pom-image-container img {
+ width:100px;
+ height:20px;
+}
+#lp-pom-button-152:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-152:active {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-152 .label {
+ margin-top:-7px;
+}
+#lp-pom-button-153:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-153:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-153 .label {
+ margin-top:-7px;
+}
+#lp-pom-button-154:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-154:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-154 .label {
+ margin-top:-7px;
+}
+#lp-pom-button-155:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-155:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-155 .label {
+ margin-top:-7px;
+}
+#lp-pom-image-158 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:190px;
+ height:46px;
+}
+#lp-pom-image-158 .lp-pom-image-container img {
+ width:190px;
+ height:46px;
+}
+#lp-pom-button-162:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-162:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-162 .label {
+ margin-top:-7px;
+}
+#lp-pom-button-169:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-169:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-169 .label {
+ margin-top:-7px;
+}
+#lp-pom-image-180 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:222px;
+ height:177px;
+}
+#lp-pom-image-180 .lp-pom-image-container img {
+ width:222px;
+ height:177px;
+}
+#lp-pom-image-182 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-182 .lp-pom-image-container img {
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-183 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-183 .lp-pom-image-container img {
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-184 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-184 .lp-pom-image-container img {
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-185 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-185 .lp-pom-image-container img {
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-186 .lp-pom-image-container {
+ border-style:none;
+ border-radius:0px;
+ width:9px;
+ height:20px;
+}
+#lp-pom-image-186 .lp-pom-image-container img {
+ width:9px;
+ height:20px;
+}
+#lp-pom-button-189:hover {
+ background:rgba(255,255,255,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-189:active {
+ background:rgba(4,106,4,0);
+ box-shadow:none;
+ color:#0E491F;
+}
+#lp-pom-button-189 .label {
+ margin-top:0px;
+}
+#lp-pom-root-color-overlay {
+ position:absolute;
+ background:none;
+ top:0;
+ width:100%;
+ height:1643px;
+ min-height:100%;
+}
+#lp-pom-block-11-color-overlay {
+ position:absolute;
+ background:none;
+ height:320px;
+ width:100%;;
+}
+#lp-pom-block-12-color-overlay {
+ position:absolute;
+ background:none;
+ height:300px;
+ width:100%;;
+}
+#lp-pom-block-16-color-overlay {
+ position:absolute;
+ background:none;
+ height:898px;
+ width:100%;;
+}
+#lp-pom-block-102-color-overlay {
+ position:absolute;
+ background:none;
+ height:125px;
+ width:100%;;
+}
+#lp-pom-box-190-color-overlay {
+ position:absolute;
+ background:none;
+ height:300px;
+ width:320px;
+}
+#lp-pom-box-197-color-overlay {
+ position:absolute;
+ background:none;
+ height:37px;
+ width:13px;
+}
+}
+@media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.1), only screen and (max-width: 600px) and (min-resolution: 97dpi) {
+#lp-pom-block-12 {
+ background-image:url(//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/7a2e717b-home-3_1bm0go0xc0go0ea000001.png);
+}
+}
+@media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2.1), only screen and (max-width: 600px) and (min-resolution: 193dpi) {
+#lp-pom-block-12 {
+ background-image:url(//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/7a2e717b-home-3_1zf0p01e00p00lf000001.png);
+}
+}
+</style><!-- lp:insertions start head --><link href="//builder-assets.unbounce.com/published-css/main-7b78720.z.css" rel="stylesheet" media="screen" type="text/css" /><meta property='og:title' content='Instacart COVID-19 Resource Center'/><script type="text/javascript">window.ub = {"page":{"id":"324e2c04-3623-42b5-b703-1d226f4493a3","variantId":"a","usedAs":"main","name":"Instacart COVID 19 Response Microsite","url":"http://covidresponse.instacart.com/","dimensions":{"desktop":{"height":1440,"width":960},"mobile":{"height":1643,"width":320},"mobileMaxWidth":600}},"hooks":{"beforeFormSubmit":[],"afterFormSubmit":[]}};</script><script>window.ub.page.webFonts = ['Montserrat:600,regular,300,700,500'];</script><script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script><link href='https://d2guulkeunn7d8.cloudfront.net/assets/white_label/icons/instacart_favicon-71a27410d0cacd58e1bc455c8872dd9362163917c297708638e6fb319e811440.ico' rel='icon' type='image/x-icon'><meta property="og:title" content="Instacart COVID-19 Resource Center" />
+<meta property="og:url" content="https://covidresponse.instacart.com"/> 
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://miro.medium.com/max/1400/1*swe1P6OXgcTrfyNpKjeG2A.jpeg" />
+<meta property="og:image:width" content="400" />
+<meta property="og:image:height" content="300" />
+<meta property="og:description" content="As the COVID-19 crisis unfolds, our teams are committed to continuing to deliver for all the communities we serve and ensuring our customers and shoppers can safely and reliably use Instacart. We’re proud to be able to serve as an essential service for households across North America during this critical time." /><!-- lp:insertions end head -->
+
+<script type='text/javascript'>(function() {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  window.ub.googleAnalyticsTrackingId = 'UA-162533762-1';
+
+  window.ga('create', window.ub.googleAnalyticsTrackingId, 'auto', {
+    siteSpeedSampleRate: 100
+  });
+
+  window.eventTracker = {
+    trackOne: function(selector, category, action, label) {
+      return Array.prototype.slice.call(document.querySelectorAll(selector)).forEach(function(element) {
+        element.dataset.eventCategory = category || '';
+        element.dataset.eventAction = action || '';
+        element.dataset.eventLabel = label || '';
+      });
+    }
+  };
+
+}).call(this);
+</script><script type="text/javascript" async src="https://assets.ub-analytics.com/ub.js"></script></head>
+    <body class="lp-pom-body"><!-- lp:insertions start body:before --><!-- lp:insertions end body:before -->
+<!-- Google Tag Manager --> <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-TDSJD74' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-TDSJD74');</script> <!-- End Google Tag Manager --> <script type='text/javascript'>(function() {
+  window.ub.googleTagManagerContainerId = 'GTM-TDSJD74';
+
+}).call(this);
+</script>
+    
+
+<div class="lp-element lp-pom-root" id="lp-pom-root"><div id="lp-pom-root-color-overlay"></div><div class="lp-positioned-content"><div class="lp-element lp-pom-text nlh" id="lp-pom-text-13"><p style="line-height: 38px;"><span style="font-family: Montserrat; font-weight: 400; font-style: normal; font-size: 22px; color: rgb(14, 73, 31);">As the COVID-19 crisis unfolds, our teams are committed to continuing to deliver for all the communities we serve and ensuring our customers and shoppers can safely and reliably use Instacart. We’re proud to be able to serve as an essential service for households across North America during this critical time.<br>&nbsp;</span><span style="font-family: Montserrat; font-weight: 300; font-style: normal; font-size: 22px; color: rgb(67, 176, 42);"><strong><br></strong></span></p></div><div class="lp-element lp-pom-image" id="lp-pom-image-103"><div class="lp-pom-image-container" style="overflow: hidden;"><img src="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/transparent.gif" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/b4010914-instacart-logo-white_04600y04600u000002001.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/b4010914-instacart-logo-white_08c01w08c01o000004001.png" data-src-desktop-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/b4010914-instacart-logo-white_0ci02u0ci02i000006001.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/b4010914-instacart-logo-white_02s00k000000000000001.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/b4010914-instacart-logo-white_05k014000000000000001.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/b4010914-instacart-logo-white_08c01o000000000000001.png"></div></div><div class="lp-element lp-pom-text nlh" id="lp-pom-text-148"><p style="line-height: 26px; text-align: center;"><span style="font-weight: 300; font-family: Montserrat; font-size: 10px; color: rgb(255, 255, 255);">2020. All Rights Reserved. <a href="clkg/https/www.instacart.com/privacy" target="_blank"><span style="text-decoration:none;">Privacy Policy</span></a>.</span></p></div><a class="lp-element lp-pom-button" id="lp-pom-button-152" href="clkg/https/covidresponse.instacart.com/customer-resources/" target="_self" data-params="true"><span class="label">CUSTOMER RESOURCES</span></a><a class="lp-element lp-pom-button" id="lp-pom-button-153" href="clkg/https/covidresponse.instacart.com/health-safety-advisory-panel/" target="_self" data-params="true"><span class="label">HEALTH &amp; SAFETY ADVISORY PANEL</span></a><a class="lp-element lp-pom-button" id="lp-pom-button-154" href="clkg/https/covidresponse.instacart.com/cdc-guidelines/" target="_self" data-params="true"><span class="label">CDC GUIDELINES</span></a><a class="lp-element lp-pom-button" id="lp-pom-button-155" href="clkg/https/covidresponse.instacart.com/why-we-shop/" target="_self" data-params="true"><span class="label">WHY WE SHOP</span></a><div class="lp-element lp-pom-text nlh" id="lp-pom-text-157"><p style="line-height: 45px;"><span style="font-weight: 700; font-family: Montserrat; font-size: 54px; color: rgb(14, 73, 31); font-style: normal; background-color: rgba(255, 255, 255, 0);">Instacart’s&nbsp;</span></p><p style="line-height: 45px;"><span style="font-weight: 700; font-family: Montserrat; font-size: 54px; color: rgb(14, 73, 31); font-style: normal; background-color: rgba(255, 255, 255, 0);">COVID-19&nbsp;</span></p><p style="line-height: 45px;"><span style="font-weight: 700; font-family: Montserrat; font-size: 54px; color: rgb(14, 73, 31); font-style: normal; background-color: rgba(255, 255, 255, 0);">Resource&nbsp;</span><span style="font-weight: 700; font-family: Montserrat; font-size: 54px; color: rgb(14, 73, 31); font-style: normal; background-color: rgba(255, 255, 255, 0);">Center</span><span style="font-weight: 700; font-family: Montserrat; font-size: 30px; color: rgb(14, 73, 31); font-style: normal;"><br></span></p></div><div class="lp-element lp-pom-image" id="lp-pom-image-158"><div class="lp-pom-image-container" style="overflow: hidden;"><img src="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/transparent.gif" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/406df4b3-instacart-logo-wordmark_06j01m000000000000001.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/406df4b3-instacart-logo-wordmark_0d2038000000000000001.png" data-src-desktop-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/406df4b3-instacart-logo-wordmark_0jl04u000000000000001.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/406df4b3-instacart-logo-wordmark_05a01a000000000000001.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/406df4b3-instacart-logo-wordmark_0ak02k000000000000001.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/406df4b3-instacart-logo-wordmark_0fu03u000000000000001.png"></div></div><div class="lp-element lp-pom-text nlh" id="lp-pom-text-160"><p style="line-height: 26px;"><span style="font-weight: 500; font-family: Montserrat; font-size: 32px; color: rgb(67, 176, 42); font-style: normal;">Supporting the&nbsp;</span><span style="font-size: 32px;"><span style="font-style: normal;"><span style="font-weight: 500;"><span style="font-family: Montserrat;"><span style="color: rgb(67, 176, 42);">Health&nbsp;</span></span><span style="font-family: Montserrat;"><span style="color: rgb(67, 176, 42);">and&nbsp;</span></span></span></span></span></p><p style="line-height: 26px;"><span style="font-size: 32px;"><span style="font-style: normal;"><span style="font-weight: 500;"><span style="font-family: Montserrat;"><span style="color: rgb(67, 176, 42);">Safety&nbsp;</span></span></span></span><span style="font-weight: 500; font-family: Montserrat; color: rgb(67, 176, 42); font-style: normal;">of our&nbsp;</span></span><span style="font-weight: 500; font-family: Montserrat; font-size: 32px; color: rgb(67, 176, 42); font-style: normal;">Communities</span><span style="font-weight: 700; font-family: Montserrat; font-size: 30px; color: rgb(14, 73, 31);"><br></span></p></div><a class="lp-element lp-pom-button" id="lp-pom-button-162" href="clkg/https/covidresponse.instacart.com/shopper-resources/" target="_self" data-params="true"><span class="label">SHOPPER RESOURCES</span></a><a class="lp-element lp-pom-button" id="lp-pom-button-169" href="clkg/https/covidresponse.instacart.com/keep-up-to-date/" target="_self" data-params="true"><span class="label">KEEP UP TO DATE</span></a><div class="lp-element lp-pom-text nlh" id="lp-pom-text-179"><p style="line-height: 38px;"><span style="font-family: Montserrat; font-weight: 400; font-style: normal; font-size: 22px; color: rgb(14, 73, 31);">Our teams are working closely with health officials to update our policies as this crisis evolves. You can stay up to date on the latest details of our continued health and safety commitment on our&nbsp;</span><a data-action="url" data-params="true" href="clkn/https/news.instacart.com/" target="_blank"><span style="font-family: Montserrat; font-weight: 500; font-style: normal; font-size: 22px; color: rgb(14, 73, 31);"><u>news</u></span></a><span style="font-family: Montserrat; font-weight: 400; font-style: normal; font-size: 22px; color: rgb(14, 73, 31);"> </span><span style="font-family: Montserrat; font-weight: 400; font-style: normal; font-size: 22px; color: rgb(14, 73, 31);">and&nbsp;</span><a data-action="url" data-params="true" href="clkg/https/medium.com/shopper-news" target="_blank"><span style="font-family: Montserrat; font-weight: 500; font-style: normal; font-size: 22px; color: rgb(14, 73, 31);"><u>shopper-focused</u></span></a><span style="font-family: Montserrat; font-weight: 400; font-style: normal; font-size: 22px; color: rgb(14, 73, 31);">&nbsp;blogs.</span><span style="font-family: Montserrat; font-weight: 300; font-style: normal; font-size: 22px; color: rgb(67, 176, 42);"><strong><br></strong></span></p></div><div class="lp-element lp-pom-image" id="lp-pom-image-180"><div class="lp-pom-image-container" style="overflow: hidden;"><img src="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/transparent.gif" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/6305f809-accent-brick01_0bj096000000000000001.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/6305f809-accent-brick01_0n20ic000000000000001.png" data-src-desktop-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/6305f809-accent-brick01_000000000000000000001.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/6305f809-accent-brick01_06604x000000000000001.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/6305f809-accent-brick01_0cc09u000000000000001.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/6305f809-accent-brick01_0ii0er000000000000001.png"></div></div><div class="lp-element lp-pom-image" id="lp-pom-image-182"><div class="lp-pom-image-container" style="overflow: hidden;"><img src="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/transparent.gif" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00900k000000000000001.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00i014000000000000001.png" data-src-desktop-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_000000000000000000001.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00900k000000000000001.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00i014000000000000001.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_000000000000000000001.png"></div></div><div class="lp-element lp-pom-image" id="lp-pom-image-183"><div class="lp-pom-image-container" style="overflow: hidden;"><img src="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/transparent.gif" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00900k000000000000001.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00i014000000000000001.png" data-src-desktop-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_000000000000000000001.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00900k000000000000001.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00i014000000000000001.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_000000000000000000001.png"></div></div><div class="lp-element lp-pom-image" id="lp-pom-image-184"><div class="lp-pom-image-container" style="overflow: hidden;"><img src="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/transparent.gif" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00900k000000000000001.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00i014000000000000001.png" data-src-desktop-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_000000000000000000001.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00900k000000000000001.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00i014000000000000001.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_000000000000000000001.png"></div></div><div class="lp-element lp-pom-image" id="lp-pom-image-185"><div class="lp-pom-image-container" style="overflow: hidden;"><img src="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/transparent.gif" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00900k000000000000001.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00i014000000000000001.png" data-src-desktop-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_000000000000000000001.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00900k000000000000001.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00i014000000000000001.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_000000000000000000001.png"></div></div><div class="lp-element lp-pom-image" id="lp-pom-image-186"><div class="lp-pom-image-container" style="overflow: hidden;"><img src="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/transparent.gif" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00900k000000000000001.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00i014000000000000001.png" data-src-desktop-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_000000000000000000001.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00900k000000000000001.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_00i014000000000000001.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/covidresponse.instacart.com/e06afd42-menu-line_000000000000000000001.png"></div></div><a class="lp-element lp-pom-button" id="lp-pom-button-189" href="clkg/https/www.instacart.com/" target="_blank" data-params="true"><span class="label"></span></a><div class="lp-element lp-pom-box" id="lp-pom-box-190"><div id="lp-pom-box-190-color-overlay"></div></div><div class="lp-element lp-pom-box" id="lp-pom-box-197"><div id="lp-pom-box-197-color-overlay"></div></div></div><div class="lp-element lp-pom-block" id="lp-pom-block-11"><div id="lp-pom-block-11-color-overlay"></div><div class="lp-pom-block-content"></div></div><div class="lp-element lp-pom-block" id="lp-pom-block-12"><div id="lp-pom-block-12-color-overlay"></div><div class="lp-pom-block-content"></div></div><div class="lp-element lp-pom-block" id="lp-pom-block-16"><div id="lp-pom-block-16-color-overlay"></div><div class="lp-pom-block-content"></div></div><div class="lp-element lp-pom-block" id="lp-pom-block-102"><div id="lp-pom-block-102-color-overlay"></div><div class="lp-pom-block-content"></div></div></div><!-- lp:insertions start body:after -->
+<script>
+  jQuery(function($) {
+  
+    // The speed of the scroll in milliseconds
+    const speed = 1000;
+  
+    // Find links that are #anchors and scroll to them
+    $('a[href^="#"]')
+      .not('.lp-pom-form .lp-pom-button')
+      .unbind('click.smoothScroll')
+      .bind('click.smoothScroll', function(event) {
+        event.preventDefault();
+        const href = $(this).attr('href').split('#');
+        $('html, body').animate({ scrollTop: $(`#${href[1]}`).offset().top }, speed);
+      });
+  });
+</script><script async src="//builder-assets.unbounce.com/published-js/main.bundle-81f56cf.z.js" type="text/javascript"></script><script type="text/javascript">Array.prototype.slice
+  .call(document.querySelectorAll('.lp-pom-form form input[name^=ubafs-]'))
+  .forEach(function(input) {
+    input.parentNode.removeChild(input);
+  });
+
+Array.prototype.slice.call(document.querySelectorAll('.lp-pom-form form')).forEach(function(form) {
+  var jevField = document.createElement('input');
+  jevField.type = 'hidden';
+  jevField.name = 'ubafs-jev';
+  jevField.id = jevField.name;
+  jevField.value = JSON.stringify({
+    date: new Date(),
+    agent: navigator.userAgent,
+    screen: {
+      availWidth: screen.availWidth,
+      availHeight: screen.availHeight,
+      width: screen.width,
+      height: screen.height,
+    },
+    window: {
+      innerWidth: window.innerWidth,
+      innerHeight: window.innerHeight,
+    },
+    hasPlugins: 'length' in navigator.plugins && navigator.plugins.length > 0,
+  });
+
+  form.appendChild(jevField);
+});
+</script>
+<!-- lp:insertions end body:after -->
+</body>
+</html>

@@ -1,0 +1,16 @@
+http://ictprintservice-www.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: ictprintservice-www.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 303 See Other
+< Content-Length: 166
+< Content-Type: text/html; charset=UTF-8
+< Location: https://ictprintservice-www.imperial.ac.uk/
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Date: Sat, 18 Jul 2020 13:54:41 GMT
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://ictprintservice-www.imperial.ac.uk/">here</a></body>

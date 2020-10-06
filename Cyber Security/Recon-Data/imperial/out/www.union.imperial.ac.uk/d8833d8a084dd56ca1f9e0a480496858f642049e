@@ -1,0 +1,11 @@
+http://www.union.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.union.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: no-cache
+< Content-Length: 0
+< Location: https://www.imperialcollegeunion.org
+

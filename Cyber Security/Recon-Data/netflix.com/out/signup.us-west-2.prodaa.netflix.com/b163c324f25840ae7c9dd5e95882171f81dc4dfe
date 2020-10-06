@@ -1,0 +1,20 @@
+http://signup.us-west-2.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: signup.us-west-2.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.netflix.com/
+< Server: nq_website_core-prod-release UNKNOWN
+< Via: 1.1 i-01d866588c6a5b534 (us-west-2)
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: http://signup.us-west-2.prodaa.netflix.com/
+< Content-Length: 0
+< Set-Cookie: nfvdid=BQFmAAEBEM6abd8fvo2oOD2nFrX-xGRA2vyoJ63eFY2-ih3t04H-SdDoIeq26FE3vDNiNsCw88kPdHaXnhnu36b5IYuBZm5mADiI-iuqLBH64TtWb_bFLQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=b5df3503-0333-48f4-a0f0-733578e3e85e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:49 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 32445
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+

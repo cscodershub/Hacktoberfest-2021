@@ -1,0 +1,645 @@
+https://refugees.coursera.org/
+
+> GET / HTTP/1.1
+> Host: refugees.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Link: <https://refugees.dev-coursera.com/wp-json/>; rel="https://api.w.org/", <https://refugees.dev-coursera.com/>; rel=shortlink
+< Set-Cookie: CSRF3-Token=1597899119.RGVtH77ebSNHgysW; Max-Age=864000; Expires=Thu, 20 Aug 2020 04:51:59 GMT; Path=/; Domain=.coursera.org
+< Set-Cookie: __204u=4046536630-1597035119248; Max-Age=31536000; Expires=Tue, 10 Aug 2021 04:51:59 GMT; Path=/; Domain=.coursera.org
+< Vary: Accept-Encoding, Cookie
+< X-Coursera-Request-Id: OUVZiNrFEeqAJBK4LWzwGQ
+< X-Frame-Options: SAMEORIGIN
+< X-Cache: Miss from cloudfront
+< Via: 1.1 397d8dc80b84c3a589fd92cbe6a67c23.cloudfront.net (CloudFront)
+< Content-Type: text/html; charset=UTF-8
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Content-Type-Options: nosniff
+< X-Amz-Cf-Id: M2zvBuykg5Rn9U_t1q3oawEmoJXWk1xQIKvidEemsX9BUIuu4XjidQ==
+< X-Ac: 1.dca _atomic_dca
+< X-Pingback: https://refugees.dev-coursera.com/xmlrpc.php
+< X-Xss-Protection: 1; mode=block
+< Date: Mon, 10 Aug 2020 04:51:59 GMT
+< Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+< Server: nginx
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Coursera-Trace-Id-Hex: affa0f5f7d31b006
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JKLVK');</script>
+<!-- End Google Tag Manager -->
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Coursera for Refugees - ">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://www.coursera.org/refugees/xmlrpc.php">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<title>Coursera for Refugees | Transforming Lives Through Learning</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v9.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Coursera exists to transform lives through learning. Coursera for Refugees brings this transformation to vulnerable populations around the world."/>
+<link rel="canonical" href="https://www.coursera.org/refugees" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Coursera for Refugees | Transforming Lives Through Learning" />
+<meta property="og:description" content="Coursera exists to transform lives through learning. Coursera for Refugees brings this transformation to vulnerable populations around the world." />
+<meta property="og:url" content="https://www.coursera.org/refugees" />
+<meta property="og:site_name" content="Coursera for Refugees" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Coursera exists to transform lives through learning. Coursera for Refugees brings this transformation to vulnerable populations around the world." />
+<meta name="twitter:title" content="Coursera for Refugees | Transforming Lives Through Learning" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Coursera for Refugees &raquo; Feed" href="https://www.coursera.org/refugees/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Coursera for Refugees &raquo; Comments Feed" href="https://www.coursera.org/refugees/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Coursera for Refugees &raquo; Coursera for Refugees Comments Feed" href="https://www.coursera.org/refugees/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.coursera.org/refugees\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://149361944.v2.pressablecdn.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='child-understrap-styles-css'  href='https://149361944.v2.pressablecdn.com/wp-content/themes/Coursera%20For%20Refugees/css/child-theme.min.css?ver=0.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='bx-css-css'  href='https://149361944.v2.pressablecdn.com/wp-content/themes/Coursera%20For%20Refugees/css/jquery.bxslider.min.css?ver=0.3.5' type='text/css' media='all' />
+<script type='text/javascript' src='https://149361944.v2.pressablecdn.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://149361944.v2.pressablecdn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://149361944.v2.pressablecdn.com/wp-content/plugins/stop-user-enumeration/frontend/js/frontend.js?ver=1.3.15'></script>
+<link rel='https://api.w.org/' href='https://www.coursera.org/refugees/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.coursera.org/refugees/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.coursera.org/refugees/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='https://www.coursera.org/refugees/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.coursera.org/refugees/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.coursera.org/refugees%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.coursera.org/refugees/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.coursera.org/refugees%2F&#038;format=xml" />
+<link rel="pingback" href="https://www.coursera.org/refugees/xmlrpc.php">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Coursera for Refugees - ">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	
+	<script type="text/javascript" src="//5qx57q.attendify.io/js/embed.js"></script>
+
+<!-- RTP tag --> 
+<script type='text/javascript'>
+(function(c,h,a,f,i,e){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+ c[a].a=i;c[a].e=e;var g=h.createElement("script");g.async=true;g.type="text/javascript";
+ g.src=f+'?aid='+i;var b=h.getElementsByTagName("script")[0];b.parentNode.insertBefore(g,b);
+ })(window,document,"rtp","//abrtp1-cdn.marketo.com/rtp-api/v1/rtp.js","coursera");
+ 
+rtp('send','view');
+rtp('get', 'campaign',true);
+</script>
+<!-- End of RTP tag -->
+
+	
+</head>
+
+<body class="home page-template page-template-templates page-template-Coursera-For-Refugees page-template-templatesCoursera-For-Refugees-php page page-id-2">
+	
+	<!-- <div class="mobile-home">
+		<div id="fs_video" class="videoContainer">
+      
+    </div>
+		<a href="https://www.coursera.org/brand-guide/">
+      <img class="coursera-logo" src="https://149361944.v2.pressablecdn.com/wp-content/themes/Coursera%20For%20Refugees/images/c4b-905-x-100.png" alt="coursera logo" />
+      </a>
+		
+	</div>-->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JKLVK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div class="hfeed site mobile-full" id="page">
+	
+	<div class="coursera-bar rc-PageHeader">
+		<a href="https://coursera.org">
+	<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICB3aWR0aD0iMTA4cHgiIGhlaWdodD0iMTdweCIgdmlld0JveD0iMCAwIDEwOCAxNyIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTA4IDE3IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0iIzRhODlkYyIgZD0iTTU0LjI4MSw1Ljc3M2MwLjA2Ni0xLjI2OSwwLjUyMS0yLjMwNiwxLjIzMi0zLjExNVYxLjU4aC0wLjk0NWMtMS45MSwwLTMuNTI3LDAuNzMyLTQuNDY3LDIuMzg2aC0wLjA1NQogIFYxLjc2MmgtNC44OTl2MTMuNDQxaDQuOVY5Ljc3N2MwLTIuMzAzLDAuNjc0LTQuMDU5LDMuMzkzLTQuMDU5QzUzLjczNiw1LjcyLDU0LjAxMyw1LjczNyw1NC4yODEsNS43NzN6Ii8+CjxwYXRoIGZpbGw9IiM0YTg5ZGMiIGQ9Ik05MS4zOCw1LjcyNGMwLjQwNy0xLjE4OCwxLjA2Ny0yLjI0NiwxLjkyNS0zLjA5NXYtMS4wNWgtMC45NDNjLTEuOTExLDAtMy41MjYsMC43MzItNC40NzEsMi4zODVoLTAuMDUzCiAgVjEuNzYyaC00LjkwMnYxMy40NDFoNC45MDJWOS43NzdjMC0yLjMwMywwLjY3Ni00LjA1OSwzLjM5NS00LjA1OUw5MS4zOCw1LjcyNHoiLz4KPHBhdGggZmlsbD0iIzRhODlkYyIgZD0iTTY0LjIzMiw1LjIyYy0wLjc1Ni0wLjM5My0xLjgwOC0wLjY1NS0yLjY0NS0wLjY1NWMtMC41NjIsMC0xLjUzMywwLjIzNC0xLjUzMywwLjkxNwogIGMwLDAuOTE4LDEuNTMzLDEuMDQ4LDIuMjExLDEuMTgyYzIuMjg0LDAuNDQ0LDQuMDEyLDEuNDkzLDQuMDEyLDMuOTc5YzAsMy41MzYtMy4zMTMsNS4wMDgtNi41Miw1LjAwOAogIGMtMS45NjcsMC0zLjkwMi0wLjU1MS01LjU3NC0xLjU0N2wxLjc3Ny0zLjMzYzAuOTk1LDAuNjg0LDIuNjY1LDEuMzYzLDMuODc3LDEuMzYzYzAuNjIsMCwxLjUzNS0wLjI4NywxLjUzNS0xLjAyMQogIGMwLTEuMDQ4LTEuNTM1LTEuMTAzLTMuMDcyLTEuNDk1Yy0xLjUzMy0wLjM5My0zLjA2Ni0xLjEyNS0zLjA2Ni0zLjUzNmMwLTMuMzAyLDMuMDY2LTQuNzY3LDYuMDg4LTQuNzY3CiAgYzEuNTYyLDAsMy4xMjUsMC4yMzUsNC41NDksMC44NjRMNjQuMjMyLDUuMjJ6Ii8+CjxwYXRoIGZpbGw9IiM0YTg5ZGMiIGQ9Ik0xMDgsMTUuMjAzaC00Ljl2LTEuNDk1aC0wLjA1NGMtMC44NjIsMS4zMzYtMi41NjIsMS45MzgtNC4xNzUsMS45MzhjLTQuMDk2LDAtNi45NzUtMy4zMjgtNi45NzUtNy4xOAogIGMwLTMuODQ4LDIuODI4LTcuMTUxLDYuOTItNy4xNTFjMS41ODgsMCwzLjI2LDAuNTc2LDQuMjgzLDEuNzU0VjEuNzYyaDQuODk5TDEwOCwxNS4yMDNMMTA4LDE1LjIwM3ogTTk2Ljk1OSw4LjQ5NQogIGMwLDEuNzAyLDEuMTYsMy4wMTIsMy4xNSwzLjAxMmMxLjk5MiwwLDMuMTQ3LTEuMzA4LDMuMTQ3LTMuMDEyYzAtMS42NTEtMS4xNTUtMy4wMzktMy4xNDctMy4wMzkKICBDOTguMTE5LDUuNDU3LDk2Ljk1OSw2Ljg0NCw5Ni45NTksOC40OTV6Ii8+CjxwYXRoIGZpbGw9IiM0YTg5ZGMiIGQ9Ik04Mi4xNjMsOS4yODNINzEuODQ2YzAsMS45MzcsMS4wNTMsMi45ODQsMy4wNzIsMi45ODRjMS4wNSwwLDEuODAzLTAuMzM5LDIuMzQzLTEuMjMxaDQuNzE0CiAgYy0wLjc4MSwzLjE3MS0zLjg3OSw0LjYxMi03LjAyOSw0LjYxMmMtNC41NzUsMC03Ljk5NS0yLjUxNy03Ljk5NS03LjE1MmMwLTQuNDgsMy4xNDctNy4xNzgsNy42NDQtNy4xNzgKICBjNC43OTMsMCw3LjU3LDIuODgzLDcuNTcsNy40NjZMODIuMTYzLDkuMjgzTDgyLjE2Myw5LjI4M3ogTTc3LjYxMSw2LjUzYy0wLjI0My0xLjI4NC0xLjQ1NS0yLjEyMi0yLjc3My0yLjEyMgogIGMtMS40MjksMC0yLjYwOSwwLjczMS0yLjkxLDIuMTIySDc3LjYxMXoiLz4KPGc+CiAgPGc+CiAgICA8cGF0aCBmaWxsPSIjNGE4OWRjIiBkPSJNMjkuNTYxLDguMjYxYy0wLjAwNS0wLjExNi0wLjAxMy0wLjIyOS0wLjAyMi0wLjM0NGMwLDAsMC0wLjAwMSwwLTAuMDAyYzAsMCwwLTAuMDAxLDAtMC4wMDIKICAgICAgYy0wLjExLTEuMjQ3LTAuNTIyLTIuNDE0LTEuMjIxLTMuNDY4Yy0wLjMxMi0wLjQ3LTAuNjY5LTAuODk3LTEuMDY4LTEuMjhjLTAuNTgzLTAuNTYxLTEuMjU4LTEuMDI1LTIuMDE5LTEuMzkyCiAgICAgIGMtMS4xNDUtMC41NDctMi40MS0wLjgyMy0zLjc2LTAuODIzYy0wLjEzMiwwLTAuMjcsMC4wMDItMC40MDksMC4wMDdDMjAuMTE0LDEsMTkuMTk3LDEuMTgsMTguMzM1LDEuNDk3CiAgICAgIGMtMC44NjksMC4zMTQtMS42MjYsMC43MjktMi4yNDUsMS4yMjdjLTAuMTI2LDAuMS0wLjI2MywwLjIyMy0wLjQxLDAuMzU4bC0wLjEwNiwwLjEwNEwxNS40MjksMy4zNGgwLjAwMWgwLjAwMWwtMC4wNjgsMC4wNjcKICAgICAgTDE1LjMzLDMuNDQzbC0wLjE3MywwLjE4MmMtMC4xMjgsMC4xNDQtMC4yNSwwLjI4OC0wLjM2NCwwLjQyOWwtMC4wMDEtMC4wMDJsLTAuMDA0LTAuMDA0Yy0wLjIzNywwLjI4OC0wLjQ1NiwwLjU4Ni0wLjYxNywwLjg1NAogICAgICBjLTAuMTA5LDAuMTcyLTAuMjE2LDAuMzQ5LTAuMzE4LDAuNTI2TDEyLjQ0LDguMjg1bDAuMDAyLDAuMDAybC0wLjA3NCwwLjE0NWwtMC4xNTYsMC4zMTZjLTAuMzEsMC42MjctMC42NDIsMS4yNTItMS4wMTMsMS43NjgKICAgICAgYy0wLjgyNywwLjkwNy0xLjc2MiwxLjM1MS0yLjk2NCwxLjM1MWMtMC4wODQsMC0wLjE3LTAuMDA0LTAuMjU4LTAuMDA5Yy0wLjcyNC0wLjAyOS0xLjM0NS0wLjItMS44OTYtMC41MjYKICAgICAgYy0wLjA1OS0wLjAzNS0wLjExNi0wLjA3MS0wLjE3MS0wLjEwOGMtMC40NS0wLjI5OS0wLjc5NS0wLjY4My0xLjA1My0xLjE2MmMtMC4yOTEtMC41NDMtMC40Mi0xLjA5OC0wLjQwMi0xLjY4NgogICAgICBDNC40NTYsOC4zNiw0LjQ1Nyw4LjM0Niw0LjQ1Nyw4LjMzM0M0LjQ5Niw3LjM5Nyw0Ljg1Myw2LjY2OSw1LjU3Miw2LjA0QzUuNzQ3LDUuODg5LDUuOTMsNS43NjEsNi4xMjEsNS42NDcKICAgICAgYzAuMDI3LTAuMDE2LDAuMDU0LTAuMDMxLDAuMDgxLTAuMDQ1YzAuNTM0LTAuMjkxLDEuMTQyLTAuNDM2LDEuODM5LTAuNDM2bDAuMjE3LDAuMDA2QzkuMzY1LDUuMjE0LDEwLjIxOSw1LjU2LDEwLjksNi4yMzUKICAgICAgTDEzLjAzNiwyLjRjLTAuNTExLTAuMzQyLTEuMDg4LTAuNjM2LTEuNzI0LTAuODc1Yy0wLjAyNC0wLjAwOS0wLjA0OS0wLjAxOS0wLjA3NC0wLjAyN2MtMC4wNzYtMC4wMjctMC4xNTEtMC4wNTUtMC4yMjktMC4wOAogICAgICBDMTAuMzMzLDEuMTkyLDkuNjI0LDEuMDUzLDguODk0LDAuOTlsMCwwQzguODc2LDAuOTg3LDguODU2LDAuOTg1LDguODM4LDAuOTgzQzguNzI2LDAuOTc2LDguNjEyLDAuOTYyLDguNSwwLjk1NwogICAgICBDOC4zNzgsMC45NTIsOC4yNTUsMC45NSw4LjEzNSwwLjk0OUg4LjA2NmMtMS4zNDMsMC4wMDUtMi41OTEsMC4yOC0zLjczMiwwLjgyNUMzLjA1NiwyLjM5LDIuMDIsMy4yODcsMS4yNTIsNC40NDMKICAgICAgQzAuNDg2LDUuNTk5LDAuMDY4LDYuODgyLDAuMDA4LDguMjU5QzAuMDAzLDguMzc3LDAsOC40OTQsMCw4LjYwOWMtMC4wMDEsMS45MjYsMC43MDEsMy42MiwyLjA5Nyw1LjA0MgogICAgICBjMS40NTcsMS40OTIsMy4zNTIsMi4yOTYsNS42MjcsMi4zOTFjMC4xNDYsMC4wMDYsMC4yOSwwLjAxLDAuNDM0LDAuMDFjMS4yODcsMCwyLjQ3OC0wLjIyOSwzLjU0Ni0wLjY4NwogICAgICBjMC4yNjctMC4xMTQsMC41MjYtMC4yNDgsMC43OTEtMC4zOTdjMC4xNDQtMC4wODMsMC4yOC0wLjE3MSwwLjQxNS0wLjI2NWwwLjEtMC4wNjdsMC4xNjgtMC4xMTUKICAgICAgYzAuMjAyLTAuMTQ1LDAuMzkxLTAuMzAyLDAuNTc1LTAuNDY5bDAuMDY0LTAuMDYxYzAuMTA4LTAuMTAzLDAuMjE2LTAuMjA3LDAuMzE4LTAuMzE0bDAuMzgzLTAuNDMzbDAuMTQ2LTAuMTgzbDAuMDY4LTAuMQogICAgICBsMC4wNjgtMC4wOThjMC41NjktMC45NTYsMi40MjEtNC40MzUsMi40MjEtNC40MzVWOC40MjFsMC4xMS0wLjIxMmwwLjA5Mi0wLjE2NmMwLjI3My0wLjQ5NywwLjQ3LTAuODUsMC43MzEtMS4yMjFsMC4wMDctMC4wMTEKICAgICAgYzAuNjA5LTAuODgzLDEuNjU2LTEuNTEyLDIuODktMS42MThjMi4wNy0wLjE3OCwzLjg4NCwxLjE4Miw0LjA1MSwzLjAzOGMwLjE2NiwxLjg1Ni0xLjM3OCwzLjUwNS0zLjQ0OCwzLjY4NAogICAgICBjLTAuNDMxLDAuMDM3LTAuODUsMC4wMDgtMS4yNDUtMC4wNzlsLTAuMDEsMC4wMDRjLTEuNTE5LTAuMzE2LTIuNDg2LTEuNDI0LTIuOTYzLTEuOTE5bC0xLjk5MiwzLjY2MwogICAgICBjMCwwLDAuNjE5LDAuNjI0LDEuMDQzLDAuOTM2YzAuNDI1LDAuMzExLDAuOTc0LDAuNjE3LDEuNDEyLDAuODA3YzEuMDYzLDAuNDU0LDIuMjE5LDAuNzI2LDMuNDk2LDAuNzI2CiAgICAgIGMwLjE0OCwwLDAuMTE4LDAsMC4yNzItMC4wMDZjMi4yNzMtMC4wOTUsNC4yOTktMC45NjYsNS43Ni0yLjQ1OGMxLjM4NC0xLjQxNywyLjEzNS0zLjAzNSwyLjE0Mi00Ljk1VjguNTgyCiAgICAgIEMyOS41NjgsOC40NzYsMjkuNTY1LDguMzY5LDI5LjU2MSw4LjI2MXoiLz4KICA8L2c+CjwvZz4KPGc+CiAgPHBhdGggZmlsbD0iIzRhODlkYyIgZD0iTTM3LjE4MSwxNS42NTdjLTEuMDMzLDAtMS45Ny0wLjEyLTIuODExLTAuMzZjLTAuODQxLTAuMjQtMS41NTktMC42MTktMi4xNTQtMS4xMzkKICAgIGMtMC41OTctMC41Mi0xLjA1Ny0xLjE4Mi0xLjM4MS0xLjk4NXMtMC40ODYtMS43NzEtMC40ODYtMi44OTlWMS43NTloNC43Mjd2Ny40NTVjMCwwLjg0NSwwLjIwMiwxLjQ1NywwLjYwNSwxLjgzOQogICAgYzAuNDA0LDAuMzgzLDAuOTE3LDAuNTc0LDEuNTM5LDAuNTc0YzAuNjM2LDAsMS4xNTItMC4xNzgsMS41NS0wLjUzNWMwLjM5Ni0wLjM1NywwLjU5Ni0wLjk0OSwwLjU5Ni0xLjc4MVYxLjc1OWg0LjcyN3Y3LjQxNgogICAgYzAsMS4xNjgtMC4xNjYsMi4xNjEtMC40OTcsMi45NzhjLTAuMzMxLDAuODE4LTAuNzk4LDEuNDg2LTEuMzk5LDIuMDA2Yy0wLjYwNCwwLjUyLTEuMzMxLDAuODk4LTIuMTg2LDEuMTM5CiAgICBDMzkuMTU2LDE1LjUzNywzOC4yMTMsMTUuNjU3LDM3LjE4MSwxNS42NTd6Ii8+CjwvZz4KPC9zdmc+" class="rc-CourseraLogo courseraLogoImage_wme5kp" alt="Coursera" aria-hidden="true" data-reactid="25">
+	</a>
+			<ul class="c-navbar-list bt3-nav bt3-navbar-nav bt3-navbar-right" role="menu" data-reactid="48">
+				<li role="none" class="rc-HeaderRightNavButton c-ph-right-nav-button c-ph-government c-ph-right-nav-no-border" data-reactid="53">
+				<a data-click-key="common.page_header.click.header_right_nav_button" data-click-value="{&quot;namespace&quot;:{&quot;app&quot;:&quot;common&quot;,&quot;page&quot;:&quot;page_header&quot;,&quot;component&quot;:&quot;header_right_nav_button&quot;,&quot;action&quot;:&quot;click&quot;},&quot;name&quot;:&quot;enterprise&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;,&quot;href&quot;:&quot;/enterprise&quot;}" data-track="true" data-track-app="common" data-track-page="page_header" data-track-action="click" data-track-component="header_right_nav_button" data-track-href="https://www.coursera.org/business" href="https://www.coursera.org/business" to="https://www.coursera.org/business" id="enterprise-link" role="menuitem" data-reactid="54">For Business</a>
+				</li><li style="border-left: solid 2px rgba(0,0,0,0.12);">
+					
+					<a data-click-key="common.page_header.click.header_right_nav_button" data-click-value="{&quot;namespace&quot;:{&quot;app&quot;:&quot;common&quot;,&quot;page&quot;:&quot;page_header&quot;,&quot;component&quot;:&quot;header_right_nav_button&quot;,&quot;action&quot;:&quot;click&quot;},&quot;name&quot;:&quot;government&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;,&quot;href&quot;:&quot;/government&quot;}" data-track="true" data-track-app="common" data-track-page="page_header" data-track-action="click" data-track-component="header_right_nav_button" data-track-href="https://www.coursera.org/government" href="https://www.coursera.org/government" to="/government" id="government-link" role="menuitem" data-reactid="54">For Government</a></li><li class="c-ph-right-nav-button c-ph-log-in" data-reactid="55"><a data-click-key="common.page_header.click.header_right_nav_button" data-click-value="{&quot;namespace&quot;:{&quot;app&quot;:&quot;common&quot;,&quot;page&quot;:&quot;page_header&quot;,&quot;component&quot;:&quot;header_right_nav_button&quot;,&quot;action&quot;:&quot;click&quot;},&quot;name&quot;:&quot;login&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;,&quot;href&quot;:{&quot;pathname&quot;:&quot;/&quot;,&quot;query&quot;:{&quot;authMode&quot;:&quot;login&quot;}}}" data-track="true" data-track-app="common" data-track-page="page_header" data-track-action="click" data-track-component="header_right_nav_button" data-track-href="[object Object]" href="https://www.coursera.org/?authMode=login" class="" role="menuitem" rel="" data-reactid="56">Log In</a></li><li class="c-ph-right-nav-button c-ph-sign-up c-ph-right-nav-no-border" data-reactid="57"><a data-click-key="common.page_header.click.header_right_nav_button" data-click-value="{&quot;namespace&quot;:{&quot;app&quot;:&quot;common&quot;,&quot;page&quot;:&quot;page_header&quot;,&quot;component&quot;:&quot;header_right_nav_button&quot;,&quot;action&quot;:&quot;click&quot;},&quot;name&quot;:&quot;signup&quot;,&quot;schema_type&quot;:&quot;FRONTEND&quot;,&quot;href&quot;:{&quot;pathname&quot;:&quot;/&quot;,&quot;query&quot;:{&quot;authMode&quot;:&quot;signup&quot;}}}" data-track="true" data-track-app="common" data-track-page="page_header" data-track-action="click" data-track-component="header_right_nav_button" data-track-href="[object Object]" href="https://www.coursera.org/?authMode=signup" class="signup-btn link-button primary" role="menuitem" rel="" data-reactid="58">Sign Up</a></li></ul>
+	</div>
+	<script>
+	function closePromo() {
+		console.log("here");
+	jQuery(".coursera-promo-bar").animate({
+		height: 0,
+		padding: 0
+	}, 750, function() {
+		jQuery(".coursera-promo-bar").css('display', 'none');
+	});
+	
+	sessionStorage.setItem("Coursera-Refugee-Promo", "true");
+}
+jQuery(document).ready(function($) {
+	var hgt=54;
+	if(parseInt(jQuery(window).width())<=480) {
+		hgt=72;
+	}
+	if (sessionStorage.getItem("Coursera-Refugee-Promo") == "true") {
+		$(".coursera-promo-bar").css("display", "none");
+	} else {
+		$(".coursera-promo-bar").css("display", "block");
+		$(".coursera-promo-bar").css("height", hgt+"px");
+		
+	}
+});
+	
+	</script>
+	
+	
+			
+		<style>
+.bx-wrapper p, .bw-wrapper a {
+font-size: 16px !important;
+	 -ms-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+			}</style>
+		
+		
+<!-- ******************* The Navbar Area ******************* -->
+	<div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
+
+		<a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
+		
+		<div class="coursera-masthead">
+			<div class="gradient">&nbsp;</div>
+			
+				<div class="header-container home-container">
+<div class="header-content-container row">
+	<img src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/05/iStock-537331536.png" alt="picture of refugee" />
+					<div class="content-container">
+						<h1><h1>Coursera for Refugees</h1>
+<h2>Coursera exists to transform lives through learning. Coursera for Refugees brings this transformation to vulnerable populations around the world.</h2></h1>
+					</div>
+					
+				</div>
+			</div>
+   
+
+  <!-- <div id="main-menu" class="menu"><ul>
+<li class="page_item page-item-2 current_page_item"><a href="https://www.coursera.org/refugees/" aria-current="page">Coursera for Refugees</a></li>
+<li class="page_item page-item-226"><a href="https://www.coursera.org/refugees/for-refugee-learners/">For Refugee Learners</a></li>
+</ul></div>
+ -->
+  
+    </div>
+    
+  
+	
+
+	</div><!-- .wrapper-navbar end -->
+	<div class="home-container">
+		<div class="row">
+			<div class="col-md-6 left">
+				<p>Coursera for Refugees launched in 2016 when a handful of Coursera employees approached the U.S. Department of State with an idea: what if we could provide access to Coursera’s catalog at no cost to refugees around the world? Today, we’ve served over 26,000 refugee learners, and we’re just getting started.</p>
+
+			</div>
+
+			<div class="col-md-6 right">
+				<p><a href="https://www.unrefugees.org/refugee-facts/statistics/" target="_blank" rel="noopener">According to the UNHCR</a>, only 1% of refugees enroll in college or a university, and the worldwide college or university enrollment rate is 36 percent. Together with our 25 program partners, Coursera for Refugees reaches learners in 119 countries to provide access to transformational knowledge.</p>
+<p><a href="https://www.coursera.org/refugees/for-refugee-learners/">Resources for Refugee Learners →</a><br />
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeMIVQnJiKpT1f2VkRguOgCWq9jfWi68aF5QKGnW9sPvS2uJw/viewform?vc=0&amp;c=0&amp;w=1">Become a Coursera for Refugees Partner →</a><br />
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScF4lu7G17vKJWwyiDRydCDYh1uwkC7xBl3ag5TClhnNaPB2Q/viewform?vc=0&amp;c=0&amp;w=1">Support a learning program → </a></p>
+
+			</div>
+
+		</div>
+		
+		 <div class="slider">
+
+		
+		<div>
+			<div class="row">
+
+				<div class="col-md-6 left">
+					<p><img class="alignnone wp-image-377 size-full" src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2019/06/c4r_alignment_1.png" alt="Estella" width="1199" height="913" /></p>
+
+				</div>
+
+				<div class="col-md-6 right">
+					<h2>Meet Estella</h2>
+<p>“I am passionate about social change and journalistic reporting. I’ve completed four courses and plan to continue to achieve my dream of becoming a journalist!”</p>
+<p><a href="https://blog.coursera.org/meet-estella-an-up-and-coming-journalist-passionate-about-social-change/" target="_blank" rel="noopener">Read Estella's story →</a></p>
+
+				</div>
+
+			</div>
+		</div>
+		<div>
+			<div class="row">
+
+				<div class="col-md-6 left">
+					<p><img class="aligncenter wp-image-374 size-full" src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2019/06/c4r_alignment_3.png" alt="Ehab" width="1199" height="913" /></p>
+
+				</div>
+
+				<div class="col-md-6 right">
+					<h2>Meet Ehab</h2>
+<p>“I study and learn because my country needs help. We need to encourage Syrian youth to participate in the peace-building process and fight for social justice.”</p>
+<p><a href="https://blog.coursera.org/meet-ehab-a-peace-advocate-building-a-new-life-in-germany/" target="_blank" rel="noopener">Read Ehab's Story →</a></p>
+
+				</div>
+
+			</div>
+		</div>
+		<div>
+			<div class="row">
+
+				<div class="col-md-6 left">
+					<p><img class="alignnone wp-image-379 size-full" src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2019/06/c4r_alignment_2.png" alt="Madiha" width="1199" height="913" /></p>
+
+				</div>
+
+				<div class="col-md-6 right">
+					<h2>Meet Madiha</h2>
+<p>“For three years, I’ve been a volunteer teacher in a community-based learning center for refugees. I also love to write — writing gives me the freedom to fully express myself without boundaries.”</p>
+<p><a href="https://blog.coursera.org/meet-madiha-a-hazara-refugee-whos-following-her-dream-of-becoming-a-writer/" target="_blank" rel="noopener">Read Madiha's story →</a></p>
+
+				</div>
+
+			</div>
+		</div>
+			 
+			 
+		</div>
+
+			<div class="row">
+			<div class="col-md-4 left">
+				<h4>26,000</h4>
+<h3>Refugees Served</h3>
+<p>Coursera for Refugees serves over 26,000 refugees in 119 countries around the world. Refugee learners access Coursera’s content through programs on nearly every continent.</p>
+
+			</div>
+
+			<div class="col-md-4 middle">
+				<h4>25</h4>
+<h3>Program Partners</h3>
+<p>Thanks to the commitment of our 25 program partners, Coursera for Refugees works directly with governments and nonprofits serving refugees and vulnerable populations across the globe.</p>
+
+			</div>
+				<div class="col-md-4 right">
+				<h4>24,000</h4>
+<h3>Course Completions</h3>
+<p>With 24,000 course completions and nearly 130,000 enrollments, refugee learners access top content from Coursera’s university and company partners to learn skills that help transform their lives.</p>
+
+			</div>
+
+		</div>
+
+		<div class="row center-vertically">
+			
+			<div class="col-md-6 push-6 right">
+				<p><img class="alignnone wp-image-21 size-full" src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/home-large-icon1.jpg" alt="" width="1085" height="906" /></p>
+			</div>
+			
+			<div class="col-md-6 pull-6 left">
+				<div class="center-copy">
+				<h2>Are you a refugee learner?</h2>
+<p><span style="font-weight: 400;">If you are a refugee that is not currently enrolled in an existing Coursera for Refugees program, you can apply for financial assistance for any course in our catalog.</span></p>
+<p><a href="https://www.coursera.org/refugees/for-refugee-learners/" target="_blank" rel="noopener">See how to apply for financial assistance →</a></p>
+				</div>
+
+			</div>
+
+			
+
+		</div>
+
+		<div class="row center-vertically">
+			<div class="col-md-6 left">
+				
+					<p><img class="alignnone wp-image-22 size-full" src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/home-large-icon2.jpg" alt="" width="1085" height="906" /></p>
+				
+				</div>
+				
+
+		
+
+			<div class="col-md-6 right">
+				<div class="center-copy">
+				<h2>Would you like to become a Coursera for Refugees program partner?</h2>
+<p>Governments and nonprofits around the world are partnering with Coursera to provide refugees and vulnerable populations with comprehensive learning programs and support services.</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeMIVQnJiKpT1f2VkRguOgCWq9jfWi68aF5QKGnW9sPvS2uJw/viewform" target="_blank" rel="noopener">Apply to become a Coursera for Refugees Partner →</a></p>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="row center-vertically">
+			<div class="col-md-6 push-6 right">
+				<p><img class="alignnone wp-image-163 size-full" src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/Sponsor.jpg" alt="how-to-help-icon" width="915" height="906" /></p>
+
+			</div>
+			
+			<div class="col-md-6 pull-6 left">
+				<div class="center-copy">
+				<h2>Are you a university or company that wants to help?</h2>
+<p>Our programs couldn’t survive without the generous investments of time and energy from our partners. If you are a university or company that would like to collaborate with us on content development or hiring partnerships for refugees, please contact us using the link below.</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScF4lu7G17vKJWwyiDRydCDYh1uwkC7xBl3ag5TClhnNaPB2Q/viewform?vc=0&amp;c=0&amp;w=1">Share more information →</a></p>
+				</div>
+
+			</div>
+
+			
+
+		</div>
+
+		<div class="row partners">
+			
+			<div class="col-md-4 left push-8">
+				<h2>About Our Program Partners</h2>
+<p>Thanks to our program partners, Coursera for Refugees is able to serve refugees and vulnerable populations around the globe by working directly with governments and nonprofits.</p>
+
+			</div>
+
+			<div class="col-md-8 right pull-4">
+				<div class="row">
+				<div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/RefuSHE-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/xavier-project-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/talent-beyond-boundaries-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2019/06/JRS-grey.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/IEE-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/Upwardly-Global-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/BEI-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/Lutheran-Family-Services-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/kiron-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/Syrian-Youth-Assembly-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/EQI-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/tarjam-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/Dept-of-State-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/HIAS-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/Save-the-Children-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2019/06/inzone-grey.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2019/06/Ugeneve-Grey.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/Tent-logo-gray.png' /></div><div class='col-md-4 col-6'><img src='https://149361944.v2.pressablecdn.com/wp-content/uploads/2020/03/iamthecode_grayscale.png' /></div>				</div>
+
+			</div>
+			
+
+		</div>
+		<div class="row">
+			<div class="col-md-5 left learner-story">
+				<p>&nbsp;</p>
+<p><img class="alignnone wp-image-311 size-full" src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/partner-image-upwardly-global.png" alt="featured-partner-upwardly-global" width="577" height="253" /></p>
+
+			</div>
+
+			<div class="col-md-7 right">
+				<h2>Featured Partner</h2>
+<p>Nearly 2 million immigrants and refugees with college degrees are unemployed in the US. <a href="https://upwardlyglobal-refugees.squarespace.com/refugeespecific-services/" target="_blank" rel="noopener">Upwardly Global</a> works to eliminate employment barriers, and has placed over 5,000 skilled immigrants and refugees back into their career field. Upwardly Global’s partnership with Coursera is helping immigrants and refugees gain in-demand tech skills and find good jobs with more than 20% of course completers reporting a successful job placement.</p>
+
+			</div>
+
+		</div>
+
+
+			<div class="row three-row">
+			<div class="col-md-4 left">
+				<p><img class="alignnone wp-image-166" src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/FastCo-2x-1-300x45.png" alt="FastCo-2x" width="240" height="36" /></p>
+<p>Coursera for Refugees earned Coursera a spot as one of Fast Company’s 2018 most 50 innovative education companies.</p>
+<p><a href="https://www.fastcompany.com/company/coursera" target="_blank" rel="noopener">Read More →</a></p>
+
+			</div>
+
+			<div class="col-md-4 middle">
+				<p><img class="alignnone wp-image-158" src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/Time-2x.png" alt="" width="128" height="39" /></p>
+<p>Hadi Althib, a Syrian refugee in Turkey, shares with TIME how he is rebuilding his life and transforming his community through education.</p>
+<p><a href="http://time.com/4825289/world-refugee-day-education-hadi-althib/" target="_blank" rel="noopener">Read More →</a></p>
+<p>&nbsp;</p>
+
+			</div>
+				<div class="col-md-4 right">
+				<h2><img class="alignnone wp-image-162" src="https://149361944.v2.pressablecdn.com/wp-content/uploads/2018/06/Coursera-Blog-2x-300x50.png" alt="coursera-blog-logo" width="210" height="35" /></h2>
+<p>Explore more powerful stories of transformation from our partner and learner community.</p>
+<p><a href="https://blog.coursera.org/tag/coursera-for-refugees/" target="_blank" rel="noopener">Read More →</a></p>
+
+			</div>
+
+		</div>
+		
+		
+</div>
+<div class="bottom-gradient">
+			<div class="row vert-center" >
+				<div class="col-md-12" align=center>
+					
+					<h1>Use your skills to help refugees</h1>
+<h2>Join Coursera’s Global Translator community</h2>					<a href="https://translate-coursera.org/" class="btn btn-standard home-cta">Learn More</a>
+				</div>
+			</div>
+		</div>
+<script>
+
+    jQuery(document).ready(function(){
+      jQuery('.slider').bxSlider({
+		  controls: false,
+		  auto: false
+	  });
+    });
+	
+
+</script>
+
+
+ <div class="site-footer">
+      <div class="inner-wrapper">
+        <div class="info">
+          <div class="logo"><img src="https://blog.coursera.org/wp-content/themes/coursera-blog/assets/images/coursera-gray-logo.png" alt="Coursera">
+          </div>
+          <p class="about">Coursera provides universal access to the world’s best education, partnering with top universities and organizations to offer courses online.</p>
+          <p class="copyright">© 2019 Coursera Inc. All rights reserved.</p>
+          <p class="mobile-badges">
+            <a href="https://itunes.apple.com/app/apple-store/id736535961?mt=8"><img src="https://pages.coursera-for-business.org/rs/748-MIV-116/images/download_on_the_app_store_badge_en.svg" alt="Download on the App Store" data-reactid=".x57emqgr9c.2.0.0.3.0.0" height="45"></a>
+            <a href="https://play.google.com/store/apps/details?id=org.coursera.android"><img src="https://pages.coursera-for-business.org/rs/748-MIV-116/images/en_generic_rgb_wo_45.png" alt="Get it on Google Play" data-reactid=".x57emqgr9c.2.0.0.3.1.0" style="height: 31px; width: auto;"></a>
+          </p>
+        </div>
+        <div class="menu">
+          <ul>
+            <li class="plain">Coursera</li>
+            <li><a href="https://blog.coursera.org/about/">About</a></li>
+			<li><a href="https://blog.coursera.org/leadership/">Leadership</a></li>
+            <li><a href="https://www.coursera.org/about/careers">Careers</a></li>
+            <li><a href="https://www.coursera.org/browse">Catalog</a></li>
+            <li><a href="https://www.coursera.org/business?utm_campaign=website&utm_content=refugees-footer-to-enterprise&utm_medium=coursera&utm_source=refugees">For Enterprise</a></li>
+							<li><a href="https://www.coursera.org/campus?utm_campaign=website&utm_content=refugees-footer-to-campus&utm_medium=coursera&utm_source=refugees">For Campus</a></li>
+							<li><a href="https://www.coursera.org/government?utm_campaign=website&utm_content=refugees-footer-to-Government&utm_medium=coursera&utm_source=refugees">For Government</a></li>
+
+          </ul>
+          <ul>
+            <li class="plain">Community</li>
+            <li><a href="https://www.coursera.org/about/partners">Partners</a></li>
+            <li><a href="http://www.coursera.community/#mentor">Mentors</a></li>
+            <li><a href="http://www.coursera.community/#gtc">Translators</a></li>
+            <li><a href="https://building.coursera.org/app-platform/">Developers</a></li>
+            <li><a href="http://www.coursera.community/#beta-tester">Beta Testers</a></li>
+          </ul>
+          <ul>
+            <li class="plain">Connect</li>
+            <li><a href="https://blog.coursera.org/for-business/">Blog</a></li>
+            <li><a href="https://www.facebook.com/Coursera">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/company/coursera">LinkedIn</a></li>
+            <li><a href="https://twitter.com/coursera">Twitter</a></li>
+            <li><a href="https://plus.google.com/+Coursera">Google+</a></li>
+            <li><a href="https://building.coursera.org/">Tech Blog</a></li>
+          </ul>
+          <ul>
+            <li class="plain">More</li>
+            <li><a href="https://www.coursera.org/about/terms">Terms</a></li>
+            <li><a href="https://www.coursera.org/about/privacy">Privacy</a></li>
+            <li><a href="https://learner.coursera.help/hc">Help</a></li>
+            <li><a href="https://learner.coursera.help/hc/en-us/articles/208280056-Accommodations-for-learners-with-disabilities">Accessibility</a></li>
+            <li><a href="https://about.coursera.org/press">Press</a></li>
+            <li><a href="https://www.coursera.org/about/contact">Contact</a></li>
+            <li><a href="https://www.coursera.org/directory">Directory</a></li>
+            <li><a href="https://about.coursera.org/affiliates">Affiliates</a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div style="clear: both"></div>
+    </div>
+
+</div><!-- #page we need this extra closing tag here -->
+
+<script type='text/javascript' src='https://149361944.v2.pressablecdn.com/wp-content/themes/Coursera%20For%20Refugees/js/child-theme.min.js?ver=0.3.5'></script>
+<script type='text/javascript' src='https://149361944.v2.pressablecdn.com/wp-content/themes/Coursera%20For%20Refugees/js/jquery.bxslider.js?ver=0.3.5'></script>
+<script type='text/javascript' src='https://149361944.v2.pressablecdn.com/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+		<script type="text/javascript">
+			(function() {
+			var t   = document.createElement( 'script' );
+			t.type  = 'text/javascript';
+			t.async = true;
+			t.id    = 'gauges-tracker';
+			t.setAttribute( 'data-site-id', '5b032f3554a1b926629142ea' );
+			t.src = '//secure.gaug.es/track.js';
+			var s = document.getElementsByTagName( 'script' )[0];
+			s.parentNode.insertBefore( t, s );
+			})();
+		</script>
+		 <script src="https://careers.coursera.org/coursera/js/400.js"></script>
+    <script>
+      window.onload = function() {
+        FourHundred.push(['batch',
+                          ['constant', 'batching', false], // turn off batching, unless you plan on sending a lot of events
+                          ['constant', 'beacon', 'https://www.coursera.org/eventing/info.v2'],
+                          ['constant', 'beaconBatch', 'https://www.coursera.org/eventing/infoBatch.v2'],
+                          ['app', 'marketing_blog'], // ask analytics what you should set this to
+                          ['clientVersion', '1'] // ask analytics what you should set this to
+                         ]);
+        FourHundred.push({key:'pageview', value:{}});
+      }
+    </script>
+
+
+<script type="text/javascript">
+/*(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('748-MIV-116');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+
+	function closePromo() {
+		
+		
+			jQuery(".promo-bar").animate({
+			height: 0,
+			padding:0
+		  }, 750, function() {
+			jQuery(".promo-bar").css('display','none');
+		  });
+				jQuery(".coursera-masthead").animate({
+			top: 0
+		  }, 750, function() {
+
+		  });
+		jQuery(".coursera-header").animate({
+			marginTop: 67
+		  }, 750, function() {
+
+		  });
+				
+		
+		
+		 sessionStorage.setItem("Coursera-Enterprise-Promo", "true");
+		
+		
+}
+		
+jQuery(document).ready(function( $ ) {
+	
+	
+		
+		
+				if(sessionStorage.getItem("Coursera-Enterprise-Promo")=="true") {
+					
+					console.log("promo closed");
+					
+					$(".coursera-masthead").css("top","0");
+					$(".coursera-header").css("margin-top","33px");
+					
+					
+					
+
+				}
+				else {
+					console.log("promo open");
+					
+					$(".promo-bar").css("display","block");
+					
+					$(".coursera-masthead").css("top","47px");
+					$(".coursera-header").css("margin-top","111px");
+					
+					
+				}
+	
+	
+});
+		jQuery(document).ready(function( $ ) {
+	
+	if($('.uni-logos').length) {
+	   $('.uni-logos img').css("opacity", 1);
+	   }
+	
+});
+	*/
+	
+	</script>
+
+
+</body>
+
+</html>
+

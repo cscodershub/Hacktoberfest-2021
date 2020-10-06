@@ -1,0 +1,4 @@
+http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd
+http://www.w3.org/1999/xhtml
+text/css
+http://go.microsoft.com/fwlink/?linkid=66138&amp;amp;clcid=0x409

@@ -1,0 +1,19 @@
+https://confluence.netflix.com/
+
+> GET / HTTP/1.1
+> Host: confluence.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Length: 126
+< Location: https://meechum.netflix.com/as/authorization.oauth2?client_id=confluence&redirect_uri=https%3A%2F%2Fconfluence.netflix.com%2Foauth2%2Fidpresponse&response_type=code&scope=default confluence&state=kq8Kum3HEM%2BlWto7YVSr1U0CGas7ZJwv28k3jkjQA7BCgkvQXqPT78UBNghUQydAhOsptJS%2BSbKhWF173jBVmkp8683U8ZdvyivnQ6msN3Ur8KnF3lvYiOy5b6aCS6D8KF4mG1Gq%2FxJ8vLtf3L2eLLbV%2FzKM%2FGSrL6lda%2F9%2Futs%2FwxkSgxXMNC6r9tHOm7d%2Fs%2Bw%2B4Rw%3D&auth_strategy=BidirectionGoogleLogin&class=java.util.HashMap&prompt=login&display=page
+< Server: awselb/2.0
+< Date: Wed, 17 Jun 2020 05:38:20 GMT
+< Content-Type: text/html
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+</body>
+</html>

@@ -1,0 +1,19 @@
+http://email.instacart.com/
+
+> GET / HTTP/1.1
+> Host: email.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 162
+< Server: nginx
+< Date: Tue, 04 Aug 2020 04:47:07 GMT
+< Content-Type: text/html
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

@@ -1,0 +1,21 @@
+https://mobile.samsung.com/
+
+> GET / HTTP/1.1
+> Host: mobile.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: None
+< Date: Wed, 10 Jun 2020 05:36:44 GMT
+< Content-Type: text/html
+< Set-Cookie: NSC_dpn.tbntvohdtqpsubm.nqipup3=ffffffffcd4bf2f145525d5f4f58455e445a4a420a63;expires=Wed, 10-Jun-2020 05:46:44 GMT;path=/;httponly
+< Cache-Control: private
+< Last-Modified: Fri, 27 Jul 2018 03:40:08 GMT
+< Cteonnt-Length: 98
+< Etag: "62-5b5a9418"
+< Accept-Ranges: bytes
+
+<!DOCTYPE html>
+<html>
+<meta http-equiv="refresh" content="0; url=/AnyWay/index.jsp">
+</html>

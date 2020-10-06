@@ -1,0 +1,25 @@
+https://nrdp.nccp.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: nrdp.nccp.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Set-Cookie: memclid=30b15489-544a-4150-912e-0ab9f94e5d02; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:13 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBECJWeF3cvTXOVlezX8mo0nFASDn8uW0r8KVHui3UUlHgchIHm2mjplCT8JQ%2FpsU8NkprERo%2Fy7CqsruXLgWyRfDZgEkH%2BgfymOQQjCFuq%2FeIuQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:13 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 4
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 17 Jun 2020 05:36:13 GMT
+< Server: nccp-modern i-09fac84a74bbe50f6
+< Via: 1.1 i-0df990361cf89a10e (eu-west-1)
+< X-Originating-Url: https://nrdp.nccp.geo.netflix.com/
+< Content-Length: 199
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

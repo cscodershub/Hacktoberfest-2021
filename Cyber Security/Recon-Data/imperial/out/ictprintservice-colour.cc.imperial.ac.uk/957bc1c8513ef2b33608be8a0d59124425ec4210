@@ -1,0 +1,13 @@
+https://ictprintservice-colour.cc.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: ictprintservice-colour.cc.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Set-Cookie: CFID=36033; expires=Mon, 16-Jul-2029 13:54:48 GMT; path=/
+< Set-Cookie: CFTOKEN=D864A20E-B85E-4821-AD07DE0F86A9FA30; expires=Mon, 16-Jul-2029 13:54:48 GMT; path=/
+< Location: https://ictprintservice-colour.cc.imperial.ac.uk/login.cfm?dest=index.cfm&
+< Server: Jetty(6.1.26)
+< Date: Sat, 18 Jul 2020 13:54:48 GMT
+

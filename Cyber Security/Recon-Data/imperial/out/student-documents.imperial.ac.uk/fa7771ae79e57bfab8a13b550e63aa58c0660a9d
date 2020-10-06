@@ -1,0 +1,1472 @@
+https://student-documents.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: student-documents.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: private
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=15552001; includeSubDomains; preload
+< Date: Sat, 18 Jul 2020 13:55:02 GMT
+< Content-Type: text/html; charset=utf-8
+< Vary: Accept-Encoding
+< Server: 
+< X-Xss-Protection: 1; mode=block
+< Content-Security-Policy: default-src *; font-src http://* 'self' 'unsafe-eval' 'unsafe-inline' data:; img-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob:; style-src 'self' 'unsafe-inline' http://*; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://*;
+
+<!DOCTYPE html>
+<!-- Version: 5.1.0.1996 -->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- Head BEGIN -->
+<head>
+    <!-- Version: 5.1.0.1996 -->
+    <meta charset="utf-8">
+
+    
+<title>Imperial College eModule | Home</title>
+
+<meta content="Home" name="title">
+<meta content="home page" name="keywords" />
+<meta content="this is the home page" name="description" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta content="" name="author" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet"/>
+
+    <link href="/assets/global/plugins/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/simple-line-icons/simple-line-icons.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.css" rel="stylesheet"/>
+<link href="/assets/admin/pages/css/error.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/slider-revolution-slider/rs-plugin/css/settings.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-colorpicker/css/colorpicker.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/select2/select2.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-datepicker/css/datepicker.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-editable/bootstrap-editable/css/bootstrap-editable.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-editable/inputs-ext/address/address.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/dropzone/css/dropzone.css" rel="stylesheet"/>
+<link href="/assets/global/plugins/bootstrap-toastr/toastr.css" rel="stylesheet"/>
+<link href="/css/bootstrap-tour.min.css" rel="stylesheet"/>
+<link href="/assets/global/css/components.css" rel="stylesheet"/>
+<link href="/assets/global/css/plugins.css" rel="stylesheet"/>
+<link href="/assets/frontend/layout/css/style.css" rel="stylesheet"/>
+<link href="/assets/frontend/pages/css/style-shop.css" rel="stylesheet"/>
+<link href="/assets/frontend/pages/css/style-revolution-slider.css" rel="stylesheet"/>
+<link href="/assets/frontend/layout/css/style-responsive.css" rel="stylesheet"/>
+<link href="/assets/frontend/layout/css/themes/red.css" rel="stylesheet"/>
+<link href="/assets/frontend/layout/css/custom.css" rel="stylesheet"/>
+<link href="/css/select2-bootstrap.css" rel="stylesheet"/>
+<link href="/assets/admin/pages/css/profile.css" rel="stylesheet"/>
+<link href="/css/jquery.cookiebar.css" rel="stylesheet"/>
+<link href="/css/eModule.css" rel="stylesheet"/>
+
+
+    <!-- Theme styles END -->
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <script src="/assets/global/plugins/jquery.min.js"></script>
+<script src="/assets/global/plugins/jquery-migrate.min.js"></script>
+
+    <script src="/assets/global/plugins/ckeditor/ckeditor.js"></script>
+<script src="/assets/global/plugins/ckeditor/adapters/jquery.js"></script>
+
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="~/assets/global/plugins/flot-0-8-3/excanvas.min.js"></script><![endif]-->
+    <script src="/assets/global/plugins/flot-0-8-3/jquery.flot.min.js"></script>
+<script src="/assets/global/plugins/flot-0-8-3/jquery.flot.time.min.js"></script>
+<script src="/assets/global/plugins/flot-0-8-3/jquery.flot.axislabels.js"></script>
+<script src="/assets/global/plugins/flot-0-8-3/jquery.flot.pie.min.js"></script>
+
+
+        <style>
+            .ecommerce .site-logo {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.btn-block.btn-blue {background-color:#006EAF;color:#FFFFFF;}
+.btn-block.btn-blue:hover {background-color:#003E74;color:#FFFFFF;}
+        </style>
+
+    <!-- 36158 - 16/01/2018 - AJ - Google captcha js has to be just before the </head> tag -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<!-- Head END -->
+<!-- Body BEGIN -->
+<body class="ecommerce public page-quick-sidebar-over-content page-home">
+    
+    <!-- BEGIN TOP BAR -->
+<div class="pre-header">
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-md-5">
+                
+
+
+<div id="1-Top_Bar_Content--" class="row-loader" data-pageid="1" data-parentelementid="" data-reference="" data-section="Top Bar Content">
+
+    </div>
+
+            </div>
+            <div class="col-md-7">
+                <ul class="list-unstyled list-inline pull-right">
+                    
+                    <!-- BEGIN ORGANISATION LIST DROPDOWN -->
+                    
+                    <!-- BEGIN ORGANISATION LIST DROPDOWN -->
+
+                        <li>
+                            <a title="Help" data-target="#dynamic-modal" href="/Elements/Render/Modal?group=Core&type=PageHelp&file=Default&id=1&skipElements=1">
+                                <span class="fa fa-question-circle"></span>
+                            </a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END TOP BAR -->
+
+    <!-- BEGIN HEADER -->
+<div class="header">
+    <div class="container">
+            <a class="site-logo" href="/"><img src="/Elements/Media/Configuration/Logo/system" alt="Imperial College eModule"></a>
+
+        <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
+
+        <!-- BEGIN NAVIGATION -->
+
+
+        <div class="header-navigation pull-right font-transform-inherit">
+            <ul>
+                            <li>
+                                <a href="/" target="link_target_self">
+                                    Home
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="/support" target="">
+                                    Support
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="/faq" target="">
+                                    FAQ
+                                </a>
+
+                            </li>
+            </ul>
+        </div>
+        <!-- END NAVIGATION -->
+    </div>
+</div>
+<!-- Header END -->
+
+    
+    
+
+    <div class="main">
+        <div class="container page-content">
+
+            
+
+            
+
+
+<div id="1-Main_Content--" class="row-loader" data-pageid="1" data-parentelementid="" data-reference="" data-section="Main Content">
+
+        <div class="row-container"
+              id="row-5-1---Main_Content"
+              >
+
+            <div class="row-content">
+
+
+                <div class="row">
+
+
+                        <div id="column-5-1--4--Main_Content"
+                              class="col-lg-4 column sortable"
+                              data-id="4"
+                              data-widthdesktop="4"
+                              data-name="Column 4">
+                            <div class="column-content">
+
+
+
+<div id="element-4859">
+
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="Portlet" data-group="Containers" data-id="4859">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> Portlet</span>
+                <span class="caption-helper">Containers (REF: 4859)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-4859" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Containers" data-type="Portlet" data-id="4859" data-file="Default" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="portlet light">
+        <div class="portlet-body">
+            
+
+ 
+
+
+<div id="1-Main_Content-4859-Content" class="row-loader" data-pageid="1" data-parentelementid="4859" data-reference="Content" data-section="Main Content">
+
+        <div class="row-container"
+              id="row-1-1-4859-Content-Main_Content"
+              >
+
+            <div class="row-content">
+
+
+                <div class="row">
+
+
+                        <div id="column-1-1-4859-1-Content-Main_Content"
+                              class="col-lg-12 column sortable"
+                              data-id="1"
+                              data-widthdesktop="12"
+                              data-name="Column 1">
+                            <div class="column-content">
+
+
+
+
+<div id="element-4861">
+
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="TitleWithIcon" data-group="Generic" data-id="4861">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> Title with Icon</span>
+                <span class="caption-helper">Generic (REF: 4861)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-4861" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Generic" data-type="TitleWithIcon" data-id="4861" data-file="IconLeft" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+        <div class="service-box margin-bottom-40">
+            <div class="service-box-heading">
+                <em><i class="fa fa-user"></i></em>
+                <span class="editable"
+                      data-field="title"
+                      data-type="text"
+                      data-group="PageElement"
+                      data-languagecode="EN-GB"
+                      data-title="Enter Title"
+                      data-pk="4861"
+                      data-onlyme="true">Imperial Student Login</span>
+                </div>
+
+
+                <div id="inline-editor-4861" data-pk="4861"
+                     data-languagecode="EN-GB" class="inline-editor">
+                    <p>Log into your document dashboard to:</p>
+
+<p>&nbsp; - Access your documents</p>
+
+<p>&nbsp; - Share your qualification&nbsp;documents&nbsp;with Employers.</p>
+
+<p>&nbsp;</p>
+
+                </div>
+
+            </div>
+
+
+    <style>
+        #element-4861 .service-box p {
+            color: #3e4d5c;
+        }
+
+        #element-4861 .service-box-heading > em > i {
+            color: #006eaf;
+            border:1px solid #006eaf;
+        }
+
+        #element-4861 .service-box-heading span {
+            color: #006eaf;
+        }
+    
+    </style>
+
+</div>
+
+<div id="element-4863">
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="Link" data-group="Generic" data-id="4863">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> Link</span>
+                <span class="caption-helper">Generic (REF: 4863)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-4863" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Generic" data-type="Link" data-id="4863" data-file="Default" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+        <a href="shibboleth" class="btn default btn-block  btn-blue margin-bottom-10">
+
+            Login
+        </a>
+
+</div>
+                                <!-- empty sortable porlet required for each columns! -->
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+    
+    <script>
+
+        jQuery(document).ready(function () {
+
+
+
+        });
+
+    </script>
+
+</div>
+                                <!-- empty sortable porlet required for each columns! -->
+                            </div>
+                        </div>
+                        <div id="column-5-1--5--Main_Content"
+                              class="col-lg-4 column sortable"
+                              data-id="5"
+                              data-widthdesktop="4"
+                              data-name="Column 5">
+                            <div class="column-content">
+
+
+
+<div id="element-4860">
+
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="Portlet" data-group="Containers" data-id="4860">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> Portlet</span>
+                <span class="caption-helper">Containers (REF: 4860)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-4860" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Containers" data-type="Portlet" data-id="4860" data-file="Default" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="portlet light">
+        <div class="portlet-body">
+            
+
+ 
+
+
+<div id="1-Main_Content-4860-Content" class="row-loader" data-pageid="1" data-parentelementid="4860" data-reference="Content" data-section="Main Content">
+
+        <div class="row-container"
+              id="row-1-1-4860-Content-Main_Content"
+              >
+
+            <div class="row-content">
+
+
+                <div class="row">
+
+
+                        <div id="column-1-1-4860-1-Content-Main_Content"
+                              class="col-lg-12 column sortable"
+                              data-id="1"
+                              data-widthdesktop="12"
+                              data-name="Column 1">
+                            <div class="column-content">
+
+
+
+
+<div id="element-4862">
+
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="TitleWithIcon" data-group="Generic" data-id="4862">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> Title with Icon</span>
+                <span class="caption-helper">Generic (REF: 4862)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-4862" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Generic" data-type="TitleWithIcon" data-id="4862" data-file="IconLeft" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+        <div class="service-box margin-bottom-40">
+            <div class="service-box-heading">
+                <em><i class="fa fa-building"></i></em>
+                <span class="editable"
+                      data-field="title"
+                      data-type="text"
+                      data-group="PageElement"
+                      data-languagecode="EN-GB"
+                      data-title="Enter Title"
+                      data-pk="4862"
+                      data-onlyme="true">Third Party Employers</span>
+                </div>
+
+
+                <div id="inline-editor-4862" data-pk="4862"
+                     data-languagecode="EN-GB" class="inline-editor">
+                    <p>Connect &nbsp;with students to:</p>
+
+<p>&nbsp; - Verify their&nbsp;attendance at Imperial College London</p>
+
+<p>&nbsp; - View their qualification documents</p>
+
+<p>&nbsp;</p>
+
+                </div>
+
+            </div>
+
+
+    <style>
+        #element-4862 .service-box p {
+            color: #3e4d5c;
+        }
+
+        #element-4862 .service-box-heading > em > i {
+            color: #006eaf;
+            border:1px solid #006eaf;
+        }
+
+        #element-4862 .service-box-heading span {
+            color: #006eaf;
+        }
+    
+    </style>
+
+</div>
+
+<div id="element-4864">
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="Link" data-group="Generic" data-id="4864">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> Link</span>
+                <span class="caption-helper">Generic (REF: 4864)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-4864" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Generic" data-type="Link" data-id="4864" data-file="Default" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+        <a href="/registration/employer" class="btn default btn-block btn-blue margin-bottom-10">
+
+            REGISTER
+        </a>
+
+</div>
+                                <!-- empty sortable porlet required for each columns! -->
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+    
+    <script>
+
+        jQuery(document).ready(function () {
+
+
+
+        });
+
+    </script>
+
+</div>
+                                <!-- empty sortable porlet required for each columns! -->
+                            </div>
+                        </div>
+                        <div id="column-5-1--3--Main_Content"
+                              class="col-lg-4 column sortable"
+                              data-id="3"
+                              data-widthdesktop="4"
+                              data-name="Column 3">
+                            <div class="column-content">
+
+
+
+<div id="element-4361">
+
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="Portlet" data-group="Containers" data-id="4361">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> Portlet</span>
+                <span class="caption-helper">Containers (REF: 4361)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-4361" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Containers" data-type="Portlet" data-id="4361" data-file="Default" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="portlet light">
+        <div class="portlet-body">
+            
+
+ 
+
+
+<div id="1-Main_Content-4361-Content" class="row-loader" data-pageid="1" data-parentelementid="4361" data-reference="Content" data-section="Main Content">
+
+        <div class="row-container"
+              id="row-1-1-4361-Content-Main_Content"
+              >
+
+            <div class="row-content">
+
+
+                <div class="row">
+
+
+                        <div id="column-1-1-4361-1-Content-Main_Content"
+                              class="col-lg-12 column sortable"
+                              data-id="1"
+                              data-widthdesktop="12"
+                              data-name="Column 1">
+                            <div class="column-content">
+
+
+
+
+<div id="element-4865">
+
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="TitleWithIcon" data-group="Generic" data-id="4865">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> Title with Icon</span>
+                <span class="caption-helper">Generic (REF: 4865)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-4865" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Generic" data-type="TitleWithIcon" data-id="4865" data-file="IconOnlyLeft" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+        <div class="service-box">
+            <div class="service-box-heading">
+                <em><i class="fa fa-lock"></i></em>
+                <span class="editable"
+                      data-field="title"
+                      data-type="text"
+                      data-group="PageElement"
+                      data-languagecode="EN-GB"
+                      data-title="Enter Title"
+                      data-pk="4865"
+                      data-onlyme="true">Employer Login</span>
+                </div>
+
+            </div>
+
+
+    <style>
+        #element-4865 .service-box p {
+            color: #3e4d5c;
+        }
+
+        #element-4865 .service-box-heading  > em > i {
+            color: #006eaf;
+            border:1px solid #006eaf;
+        }
+
+        #element-4865 .service-box-heading span {
+            color: #006eaf;
+        }
+
+    </style>
+
+</div>
+
+
+<div id="element-4832" elementgroup="Users" elementtype="Login" class="moveable-element">
+
+    <style>
+        .btn-primary {
+            background: #e94d1c;
+        }
+
+            .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+                background-attachment: scroll;
+                background-clip: border-box;
+                background-color: hsl(14, 96%, 41%);
+                background-image: none;
+                background-origin: padding-box;
+                background-position: 0 0;
+                background-repeat: repeat;
+                background-size: auto auto;
+            }
+    </style>
+
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="Login" data-group="Users" data-id="4832">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> Login</span>
+                <span class="caption-helper">Users (REF: 4832)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-4832" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Users" data-type="Login" data-id="4832" data-file="Default" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <form action="/?id=4832" class="form-horizontal" method="post">
+      
+        
+        <div id="container-username" class="form-group tour-username">
+
+
+
+            <label class="col-xs-4 col-sm-4 col-md-4  control-label  "
+                   for="username">
+                <span class="editable"
+                      data-field="username"
+                      data-type="text"
+                      data-group="PageElement"
+                      data-title="Set Text"
+                      data-translationtype="label"
+                      data-ismodal="False"
+                      data-pk="4832"
+                      data-elementgroup="Users"
+                      data-elementtype="Login"
+                      data-languagecode="EN-GB"
+                      >
+
+Username                </span>
+            </label>
+
+            <div class="col-xs-8 col-sm-8 col-md-8 ">
+
+                    <div class="">
+
+
+
+                        <!-- 36882 - 05/03/2018 - DB - Alterations to support a readonly property for date pickers. I decided to use two conditional statement for this as even if you have readonly="" it still add's the readonly flag. -->
+<input MaxLength="255" class="form-control input-small  " id="username" name="username" placeholder="Username" role="textbox" type="text" value="" />
+
+                    </div>
+            </div>
+
+        </div>
+
+
+
+        
+        <div id="container-password" class="form-group">
+
+
+
+            <label class="col-xs-4 col-sm-4 col-md-4  control-label  "
+                   for="password">
+                <span class="editable"
+                      data-field="password"
+                      data-type="text"
+                      data-group="PageElement"
+                      data-title="Set Text"
+                      data-translationtype="label"
+                      data-ismodal="False"
+                      data-pk="4832"
+                      data-elementgroup="Users"
+                      data-elementtype="Login"
+                      data-languagecode="EN-GB"
+                      >
+
+Password                </span>
+            </label>
+
+            <div class="col-xs-8 col-sm-8 col-md-8 ">
+
+                    <div class="">
+
+
+
+                        <!-- 36882 - 05/03/2018 - DB - Alterations to support a readonly property for date pickers. I decided to use two conditional statement for this as even if you have readonly="" it still add's the readonly flag. -->
+<input MaxLength="255" autocomplete="off" class="form-control input-small  " id="password" name="password" placeholder="******" role="textbox" type="password" />
+
+                    </div>
+            </div>
+
+        </div>
+
+
+
+        <input id="returnURL" name="returnURL" type="hidden" value="" />
+
+        <div class="form-group tour-rememberMe">
+            <div class="col-md-offset-4 col-md-8">
+                <div class="checkbox">
+                    <label for="rememberMe">
+                        <input type="checkbox" name="rememberMe" id="rememberMe" />
+                        Remember me
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-md-offset-4">
+                <button type="submit" class="btn btn-primary btn-block btn-blue"><i class="fa fa-arrow-circle-right"></i> Login</button>
+            </div>
+        </div>
+      
+    </form>
+
+    <script>
+
+        $(document).ready(function () {
+
+
+            var options = {
+                Element: {
+                    ID: "4832",
+                    Group: "Users",
+                    Type: "Login"
+                }
+            };
+
+            var formOptions = {
+                messageType: "alert"
+            };
+
+            var element4832 = new eModule(options);
+            element4832.loadForm();
+            element4832.handleForm(formOptions);
+
+        });
+
+        function guidedTour4832() {
+
+            return [{
+                element: "#element-4832",
+                placement: "left",
+                title: "Users - Login",
+                content: "A user for any group can login using this form."
+            },
+                    {
+                        element: "#element-4832 .tour-username",
+                        placement: "top",
+                        title: "Users - Login",
+                        content: "The username would be the email address for the account."
+                    },
+                    {
+                        element: "#element-4832 .tour-rememberMe",
+                        placement: "top",
+                        title: "Users - Login",
+                        content: "You can set the browser to remember you so next time you don't have to login."
+                    }];
+
+        }
+
+    </script>
+</div>
+
+
+
+<div id="element-4866">
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="Link" data-group="Generic" data-id="4866">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> Link</span>
+                <span class="caption-helper">Generic (REF: 4866)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-4866" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Generic" data-type="Link" data-id="4866" data-file="Default" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+        <a href="/reset-password" class="btn default btn-block btn-blue margin-bottom-10">
+
+            Forgotten Password
+        </a>
+
+</div>
+                                <!-- empty sortable porlet required for each columns! -->
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+    
+    <script>
+
+        jQuery(document).ready(function () {
+
+
+
+        });
+
+    </script>
+
+</div>
+                                <!-- empty sortable porlet required for each columns! -->
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+    <!-- BEGIN PRE-FOOTER -->
+<div class="pre-footer">
+    <div class="container">
+
+
+        
+
+
+<div id="1-Pre_Footer_Content--" class="row-loader" data-pageid="1" data-parentelementid="" data-reference="" data-section="Pre Footer Content">
+
+    </div>
+
+
+    </div>
+</div>
+<!-- END PRE-FOOTER -->
+
+
+    <!-- BEGIN FOOTER -->
+    <div class="footer">
+        <div class="container">
+            
+
+
+<div id="1-Footer_Content--" class="row-loader" data-pageid="1" data-parentelementid="" data-reference="" data-section="Footer Content">
+
+        <div class="row-container"
+              id="row-2-1---Footer_Content"
+              >
+
+            <div class="row-content">
+
+
+                <div class="row">
+
+
+                        <div id="column-2-1--1--Footer_Content"
+                              class="col-lg-10 column sortable"
+                              data-id="1"
+                              data-widthdesktop="10"
+                              data-name="Column 1">
+                            <div class="column-content">
+
+
+
+
+<div id="element-5047">
+
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="WYSIWYG" data-group="Generic" data-id="5047">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> WYSIWYG</span>
+                <span class="caption-helper">Generic (REF: 5047)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-5047" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Generic" data-type="WYSIWYG" data-id="5047" data-file="Default" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div id="inline-editor-5047" data-pk="5047"
+         data-languagecode="EN-GB" class="inline-editor ">
+        <p>2020&nbsp;&copy; Advanced Secure Technologies ltd. All&nbsp;Rights Reserved. <a href="https://student-documents.imperial.ac.uk/privacy">Privacy Policy</a> | <a href="https://student-documents.imperial.ac.uk/cookies">Cookie Policy</a></p>
+
+    </div>
+
+</div>                                <!-- empty sortable porlet required for each columns! -->
+                            </div>
+                        </div>
+                        <div id="column-2-1--2--Footer_Content"
+                              class="col-lg-2 column sortable"
+                              data-id="2"
+                              data-widthdesktop="2"
+                              data-name="Column 2">
+                            <div class="column-content">
+
+
+
+
+<div id="element-5048">
+
+    
+
+
+    <div class="element-editor portlet light bg-inverse" data-type="SystemInformation" data-group="Generic" data-id="5048">
+        <div class="portlet-title">
+            <div class="caption font-green-sharp">
+                <i class="fa fa-puzzle-piece font-green-sharp"></i>
+                <span class="caption-subject bold uppercase"> System Information</span>
+                <span class="caption-helper">Generic (REF: 5048)</span>
+            </div>
+            <div class="actions">
+
+                <div class="btn-group">
+                    <a href="#" class="dropdown-toggle  btn btn-circle blue-hoki" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img alt="English" longdesc="Currently set to English language" src="/assets/global/img/languages/EN-GB.png">
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+
+
+
+                <a href="#element-5048" class="btn btn-circle btn-sm refresh-element yellow-crusta" data-group="Generic" data-type="SystemInformation" data-id="5048" data-file="VersionNumber" data-title="Refresh">
+                    <i class="fa fa-refresh"></i>
+                </a>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+  
+    v5.1.0.1996
+</div>                                <!-- empty sortable porlet required for each columns! -->
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        </div>
+    </div>
+
+    <!-- END FOOTER -->
+    
+
+<div id="dynamic-modal" class="modal fade modal-scroll in" tabindex="-1" data-width="760">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title" data-content="Loading..."></h4>
+        </div>
+        <div id="dynamic-modal-content" class="modal-body modal-bg" data-content="<p>Loading...</p>">
+
+        </div>
+        <div class="modal-footer">
+
+        </div>
+    </div>
+</div>
+
+
+<div id="remote-request-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-width="350">
+
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title">Loading...</h4>
+        </div>
+        <div class="modal-body modal-bg">
+
+        </div>
+        <div class="modal-footer">
+            <a href="#" data-dismiss="modal" class="btn btn-default">No</a>
+            <a href="#" data-dismiss="modal" class="btn green-meadow remote-request-confirm">Yes</a>
+        </div>
+    </div>
+</div>
+
+    
+<!--[if lt IE 9]>
+   <script src="/assets/global/plugins/respond.min.js"></script>
+<script src="/assets/global/plugins/excanvas.min.js"></script>
+
+<![endif]-->
+<script src="/assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="/assets/global/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
+<script src="/assets/global/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js"></script>
+<script src="/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js"></script>
+<script src="/assets/global/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/scripts/bootstrap-tour.min.js"></script>
+<script src="/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+<script src="/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="/assets/global/plugins/jquery.blockui.min.js"></script>
+<script src="/assets/global/plugins/jquery.cokie.min.js"></script>
+<script src="/assets/global/plugins/uniform/jquery.uniform.min.js"></script>
+<script src="/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+<script src="/assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js"></script>
+<script src="/assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js"></script>
+<script src="/assets/global/plugins/dropzone/dropzone.js"></script>
+<script src="/assets/global/plugins/bootstrap-toastr/toastr.min.js"></script>
+<script src="/assets/global/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script src="/assets/global/plugins/jstree/dist/jstree.js"></script>
+<script src="/assets/global/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js"></script>
+<script src="/assets/global/plugins/bootstrap-sessiontimeout/jquery.sessionTimeout.js"></script>
+<script src="/assets/global/plugins/select2/select2.min.js"></script>
+<script src="/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script src="/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script src="/assets/global/plugins/moment.min.js"></script>
+<script src="/assets/global/plugins/bootstrap-editable/bootstrap-editable/js/bootstrap-editable.js"></script>
+<script src="/assets/global/plugins/bootstrap-editable/inputs-ext/address/address.js"></script>
+<script src="/assets/global/plugins/bootstrap-editable/inputs-ext/ckeditor/ckeditor.js"></script>
+<script src="/assets/global/plugins/bootstrap-editable/inputs-ext/rawhtml/rawhtml.js"></script>
+<script src="/assets/global/plugins/bootstrap-maxlength/bootstrap-maxlength.js"></script>
+<script src="/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js"></script>
+<script src="/assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="/assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script src="/assets/frontend/pages/scripts/revo-slider-init.js"></script>
+<script src="/assets/global/plugins/bootstrap-touchspin/bootstrap.touchspin.js"></script>
+<script src="/assets/global/plugins/icheck/icheck.min.js"></script>
+<script src="/assets/global/scripts/metronic.js"></script>
+<script src="/assets/admin/layout/scripts/quick-sidebar.js"></script>
+<script src="/assets/global/scripts/datatable.js"></script>
+<script src="/assets/admin/pages/scripts/index.js"></script>
+<script src="/assets/admin/pages/scripts/tasks.js"></script>
+<script src="/Scripts/JSON-js/cycle.js"></script>
+<script src="/assets/global/plugins/jquery-validation/js/dssl-jquery.validate.js"></script>
+<script src="/assets/global/plugins/jquery-validation/js/additional-methods.min.js"></script>
+<script src="/assets/global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+<script src="/Scripts/jquery.regex.js"></script>
+<script src="/Scripts/jquery.serialize-object.min.js"></script>
+<script src="/Scripts/list.min.js"></script>
+<script src="/scripts/jquery.cookiebar.js"></script>
+<script src="/Scripts/eModule.core.js"></script>
+
+
+    <script src="/assets/frontend/layout/scripts/layout.js"></script>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function () {
+        Layout.init();
+        QuickSidebar.init(); // init quick sidebar
+        RevosliderInit.initRevoSlider();
+        var emoduleOptions = {
+            authenticated:false,
+            Element: {
+                ID: 1,
+                Group: "Page",
+                Type: "SaveChanges",
+                languageCode: "EN-GB"
+            },
+            timeout:{
+                title: 'Session Timeout',
+                message: 'Your session is about to timeout.',
+                stayConnectedText: 'Stay Connected',
+                logoutText: 'Logout',
+                redirUrl: '/Changes/Locked?redirect=',
+                logoutUrl: '/logout',
+                warnAfter: 720000,
+                redirAfter: 1680000 + 720000,
+                keepAliveUrl: '',
+                logoutAfter: 1140000,
+                redirPage: ''
+            },
+            cookieConsent: {
+                message: "This website uses cookies to ensure you get the best experience on our website",
+                acceptText: "Got it!",
+                policyText: "More info",
+                policyURL: "/cookies"
+            },
+            permissions:{
+                editLayout: false
+                },
+                validation: {
+                    equalto: "Please enter the same value again.",
+                    required: "This field is required.",
+                    email: "Please enter a valid email address.",
+                    phone: "Please enter a valid phone number.",
+                    mobile: "Please enter a valid mobile number."
+                },
+                datePicker:{
+                    days: [
+                        "Sunday",
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday",
+                        "Saturday"
+                    ],
+                    daysShort: [
+                        "Sun",
+                        "Mon",
+                        "Tue",
+                        "Wed",
+                        "Thu",
+                        "Fri",
+                        "Sat"
+                    ],
+                    daysMin:  [
+                        "Su",
+                        "Mo",
+                        "Tu",
+                        "We",
+                        "Th",
+                        "Fr",
+                        "Sa"
+                    ],
+                    months: [
+                       "January",
+                       "February",
+                       "March",
+                       "April",
+                       "May",
+                       "June",
+                       "July",
+                       "August",
+                       "September",
+                       "October",
+                       "November",
+                       "December"
+                    ],
+                    monthsShort: [
+                       "Jan",
+                       "Feb",
+                       "Mar",
+                       "Apr",
+                       "May",
+                       "Jun",
+                       "Jul",
+                       "Aug",
+                       "Sep",
+                       "Oct",
+                       "Nov",
+                       "Dec"
+                    ],
+                    today:"Today",
+                    clear: "Clear"
+                }
+            };
+
+            var js = new eModule(emoduleOptions);
+
+            js.init();
+            js.editModeButtons({
+                editable:{
+                    emptytext:"Empty"
+                }
+            });
+
+        });
+    </script>
+    <!-- End Cookie Consent plugin -->
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+    
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-41615702-37', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+    <div id="PAGE_END"></div>
+</body>
+<!-- END BODY -->
+</html>

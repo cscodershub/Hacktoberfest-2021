@@ -1,0 +1,29 @@
+https://devices.netflix.com/
+
+> GET / HTTP/1.1
+> Host: devices.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Temporary Redirect
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Cf-Ray: 5a4a69f259f5de86-BLR
+< Content-Type: text/plain; charset=utf-8
+< Cc-Stable-Domain: radioactive-shoelace.cloudvent.net
+< Location: /en/
+< Vary: Accept, Accept-Encoding
+< Cc-Cache-Status: MISS
+< Access-Control-Allow-Headers: X-CSRF-Token
+< Cf-Request-Id: 0362608b780000de86153ee200000001
+< Date: Wed, 17 Jun 2020 05:36:37 GMT
+< Cc-Country: IN
+< X-No-Cache: true
+< Cf-Cache-Status: MISS
+< Set-Cookie: __cfduid=de79061f77795380c546afc51f43292e31592372196; expires=Fri, 17-Jul-20 05:36:36 GMT; path=/; domain=.devices.netflix.com; HttpOnly; SameSite=Lax
+< Set-Cookie: locale=en; Max-Age=86400; Path=/; Expires=Thu, 18 Jun 2020 05:36:37 GMT
+< Set-Cookie: connect.sid=s%3AMXvQ6OSDInzpSNV6RaJbYXgKlaxuF4hQ.XFMBRLiyA9c80HcTSZRvGOtNHvvtwktyl%2FCM1L3YD7o; Path=/; Expires=Thu, 18 Jun 2020 05:36:37 GMT; HttpOnly
+< Cc-Build-Id: 6087174
+< Access-Control-Allow-Origin: *
+< Server: cloudflare
+< Alt-Svc: h3-27=":443"; ma=86400
+
+Temporary Redirect. Redirecting to /en/

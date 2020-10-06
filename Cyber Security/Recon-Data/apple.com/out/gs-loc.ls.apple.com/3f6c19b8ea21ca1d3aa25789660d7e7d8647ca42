@@ -1,0 +1,10 @@
+https://gs-loc.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gs-loc.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Rid: b5701020-f9c0-4add-a32a-d8279ac7e728
+
+Not Found

@@ -1,0 +1,20 @@
+http://atv.demos.apple.com/
+
+> GET / HTTP/1.1
+> Host: atv.demos.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: ATS/8.0.7
+< Age: 2
+< Via: https/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 sgsin3-edge-bx-025.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Cdnuuid: 7dbc0928-600e-4d34-aa56-f0238d0301d7-771780386
+< Date: Thu, 30 Apr 2020 21:40:03 GMT
+< X-Cache: miss, hit-stale
+< X-Amz-Bucket-Region: us-east-1
+< X-Amz-Request-Id: 11E84714D6DE9DFB
+< X-Amz-Id-2: hsxa+G5/O7E+LkIAlduVwJMD9s+Cs9YFjfQ1xbUAL9VvfirOWJLMSN2y6WBiyMVYQ2GBiCuZ+qI=
+< Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>11E84714D6DE9DFB</RequestId><HostId>hsxa+G5/O7E+LkIAlduVwJMD9s+Cs9YFjfQ1xbUAL9VvfirOWJLMSN2y6WBiyMVYQ2GBiCuZ+qI=</HostId></Error>

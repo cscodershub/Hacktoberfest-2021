@@ -1,0 +1,21 @@
+https://mdmenrollment.apple.com/
+
+> GET / HTTP/1.1
+> Host: mdmenrollment.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Thu, 30 Apr 2020 21:41:13 GMT
+< X-Apple-Request-Uuid: 8a644ebc-00ff-4ed6-b482-c4ed263f41f7
+< Content-Type: text/plain; charset=UTF-8
+< Apple-Originating-System: UnknownOriginatingSystem
+< Cneonction: close
+< Server: AppleHttpServer/ac9d40131a4d
+< X-Apple-Jingle-Correlation-Key: RJSE5PAA75HNNNECYTWSMP2B64
+< Apple-Seq: 0
+< Apple-Tk: false
+< Via: 631194250daa17e24277dea86cf30319:18574ba6607a16dbbd54070484ff6376:Mumbai
+< Access-Control-Expose-Headers: X-Apple-Request-UUID
+< Access-Control-Expose-Headers: Via
+
+The requested URL was not found on this server.

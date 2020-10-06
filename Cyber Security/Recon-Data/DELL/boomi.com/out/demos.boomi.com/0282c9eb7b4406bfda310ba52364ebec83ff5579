@@ -1,0 +1,25 @@
+https://demos.boomi.com/
+
+> GET / HTTP/1.1
+> Host: demos.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache-Hits: 1, 1
+< Content-Type: text/html; charset=UTF-8
+< Location: https://boomi.com/demos-2//
+< Strict-Transport-Security: max-age=300
+< X-Pantheon-Styx-Hostname: styx-fe3-b-7ccfb4b767-bg4rj
+< Cache-Control: public, max-age=86400
+< Content-Length: 0
+< X-Styx-Req-Id: 82e6a64f-de51-11ea-9184-66e6b9a90e1d
+< Date: Sat, 15 Aug 2020 09:15:53 GMT
+< X-Served-By: cache-mdw17331-MDW, cache-bom4745-BOM
+< X-Cache: HIT, HIT
+< Vary: Cookie, Cookie
+< Age: 57728
+< Accept-Ranges: bytes
+< Via: 1.1 varnish
+< X-Timer: S1597482953.291107,VS0,VE1
+< Server: nginx
+

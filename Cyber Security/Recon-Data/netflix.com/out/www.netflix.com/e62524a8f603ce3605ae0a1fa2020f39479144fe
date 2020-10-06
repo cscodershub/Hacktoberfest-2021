@@ -1,0 +1,32 @@
+https://www.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Edge-Control: no-cache, no-store
+< X-Netflix.proxy.execution-Time: 116
+< Content-Length: 0
+< Content-Type: text/html
+< Pragma: no-cache
+< Server: nq_website_core-prod-release 20c666d7-b14a-4eba-a146-18f741595547
+< Set-Cookie: flwssn=0dcb6030-fc30-4134-9f99-d8b1a57b6c8f; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:38:07 GMT
+< Set-Cookie: clSharedContext=6cdffc5c-f020-42c8-bff6-0908d1c8c1c5; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEDDgMc_RrLam8sJ3l1Y3FDlAgW6zRQMkN_IIfThrfRYsWj6MvAEklTiEikMIbvXPN-GJ2ZZoAwESpFicQDvD0XZxqn1KRNFNCvtCf-VmahLscg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABTKba46b_NmkIP_F1xlxa-KeIrQaSW24Gs.%26dt%3D1592372287311; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:38:07 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEESxc0sr5TJ768ARLmUJRDqA8A2XD4BLbhYEZtZhhCZXfJtAvDes04Abwo2tGB4OHSCqMxuqar1p7OH0vAkX8dF3oXZJ_7CcF-zWjY8fKXmHwQlEVJDpCgoH6zTwKBbA5MDB92c6h0q-F9YkcgPBEdlRo5byhlExLGyhyq2p-KMSmJc-fKmfoqLUzwjW4wRBZTJZnrb0Gb0nOQ66OrrdwdxGUrzBfaK-wx4CYs7lmdj5oyK1j--RLVHvA36-vYWAcpODqV17kjtAtHxa-JhjHSrBoaXKo_acoTfUjcFsyamyIInB1aWmGS7_Bu54xVjcqgAeCfRCM-5N7uy0Lp5OsnoZ5Q..%26bt%3Ddev%26mac%3DAQEAEAABABQ8-lIVYOPpMqKXj8P_HNJMcP4KgQR5_tc.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:38:07 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=e4581b75-4335-4983-9bc7-bd7c42130d24; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:38:07 GMT; Path=/; Domain=.netflix.com
+< X-Originating-Url: https://www.netflix.com/
+< Expires: 0
+< Location: https://www.netflix.com/in/
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:38:07 GMT
+< Via: 1.1 i-0c5036efd41aeb304 (eu-west-1)
+< X-Frame-Options: DENY
+< X-Netflix.nfstatus: 1_1
+< Cache-Control: no-cache, no-store
+

@@ -1,0 +1,162 @@
+https://news.apple.com/
+
+> GET / HTTP/1.1
+> Host: news.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:40:37 GMT
+< Content-Type: text/html
+< Cache-Control: no-transform,public,max-age=300
+< Content-Length: 6964
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Strict-Transport-Security: max-age=31536000
+< X-Xss-Protection: 1
+< X-B3-Traceid: 408823a07a77cf22
+
+<!DOCTYPE html>
+<html class="js no-touch svg no-oldie no-ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+<script type="text/javascript">if (window.self === window.top) {
+      window.onload = function() {if (!String.prototype.includes) {
+              String.prototype.includes = function(search, start) {
+                  'use strict';
+                  if (typeof start !== 'number') {
+                      start = 0;
+                  }
+                  if (start + search.length > this.length) {
+                      return false;
+                  } else {
+                      return this.indexOf(search, start) !== -1;
+                  }
+              };
+          }var curUserAgent = navigator.userAgent.toLocaleLowerCase();
+          if (shouldRedirectToApp(curUserAgent)) {
+              window.location = "applenewss://apple.news/";}function shouldRedirectToApp(curUserAgent) {
+              var isIOSDevice = isIOS(curUserAgent);
+              var isMacOSDevice = isMacOS(curUserAgent);
+              var noArticleURL = true;
+              return (isIOSDevice && (isIOSRedirectApp(curUserAgent) || (noArticleURL && isIOSRedirectAppForNoURL(curUserAgent)))) ||
+                  (isMacOSDevice && (isMacOSRedirectApp(curUserAgent) || (noArticleURL && isMacOSRedirectAppForNoURL(curUserAgent))));
+          }function shouldRedirectToCanonicalUrl(curUserAgent) {
+              var isIOSDevice = isIOS(curUserAgent);
+              var isMacOSDevice = isMacOS(curUserAgent);
+              return !(isIOSDevice && isIOSNoArticleURLRedirectApp(curUserAgent)) &&
+                  !(isMacOSDevice && isMacOSNoArticleURLRedirectApp(curUserAgent));
+          }function isIOS(curUserAgent) {
+              var iOS9Version = getVersionNumber(9, 0, 0);
+              var iOSPattern = /(?:ipad|ipod|iphone).* os (\d+)(?:\.|_)(\d+)((?:\.|_)(\d+))? like mac os x/g;
+              var iOSVersion = matchAndGetVersion(curUserAgent, iOSPattern);
+              return iOSVersion >= iOS9Version;
+          }
+          function isMacOS(curUserAgent) {
+              var macOS1014Version = getVersionNumber(10, 14, 0);
+              var macOSPattern = /mac os x (\d+)(?:\.|_)(\d+)((?:\.|_)(\d+))?/g;
+              var macOSVersion = matchAndGetVersion(curUserAgent, macOSPattern);
+              return macOSVersion >= macOS1014Version;
+          }function matchAndGetVersion(curUserAgent, versionPattern) {var match = versionPattern.exec(curUserAgent);
+              if (match != null) {
+                  var majorVersion = match[1] != null ? parseInt(match[1]) : 0;
+                  var minorVersion = match[2] != null ? parseInt(match[2]) : 0;
+                  var pointVersion = match[3] != null ? parseInt(match[3].substring(1)) : 0;
+                  return getVersionNumber(majorVersion, minorVersion, pointVersion);
+              }
+              return 0;
+          }function getVersionNumber(majorVersion, minorVersion, pointVersion) {
+              return (majorVersion * (1000 * 1000)) + (minorVersion * 1000) + pointVersion;
+          }function isSocialMediaBot(curUserAgent) {
+              return curUserAgent.includes("twitterbot") || curUserAgent.includes("facebookexternalhit") || curUserAgent.includes("facebot") || curUserAgent.includes("linkedinbot") || false;
+          }function isIOSRedirectApp(curUserAgent) {
+              return curUserAgent.includes("fbav") || curUserAgent.includes("instagram") || curUserAgent.includes("fban/") || curUserAgent.includes("crios/") || false;
+          }
+          function isIOSRedirectAppForNoURL(curUserAgent) {
+              return false;
+          }
+          function isMacOSRedirectApp(curUserAgent) {
+              return curUserAgent.includes("chrome/") || false;
+          }
+          function isMacOSRedirectAppForNoURL(curUserAgent) {
+              return false;
+          }
+          function isIOSNoArticleURLRedirectApp(curUserAgent) {
+              return curUserAgent.includes("crios/") || false;
+          }
+          function isMacOSNoArticleURLRedirectApp(curUserAgent) {
+              return curUserAgent.includes("chrome/") || false;
+          }function redirectToUrl(url) {
+              top.location.replace(url);
+          }
+          function redirectToUrlAfterTimeout(url, timeout) {
+              setTimeout(function() { redirectToUrl(url) }, timeout);
+          }
+      };
+  }
+</script>
+
+<title>Apple News</title>
+<meta name="Author" content="Apple Inc." /><meta name="apple-itunes-app" content="app-id=1066498020, app-argument=https://news.apple.com/" /><meta property="og:type" content="article" />
+<meta property="og:title" content="Apple News" />
+
+<meta property="og:image" content="https://news.apple.com/images/AppiconOpenGraph_v6.png" /><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Apple News" />
+
+<meta name="twitter:image" content="https://news.apple.com/images/AppiconTwitterCard_v6.png" /><link rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+  <link rel="stylesheet" href="https://www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1" type="text/css">
+  <link rel="stylesheet" href="/css/index.css" type="text/css" />
+</head>
+<body>
+  <div id="main">
+    <div class="content">
+
+    <script type="text/javascript">
+        
+        if (window.self === window.top) {
+            window.onload = function() {
+
+                
+                var DEFAULT_NEWS_URL = "https://apple.com/news";
+                var url = window.location;
+
+                var anchor = url.hash;
+                if(!anchor){
+                    top.location.replace(DEFAULT_NEWS_URL);
+                }
+
+                anchor = anchor.toLowerCase();
+                
+                if(anchor === "#au") {
+                    top.location.replace("https://apple.com/au/news");
+                } else
+                if(anchor === "#uk") {
+                    top.location.replace("https://apple.com/uk/news");
+                } else{
+                    top.location.replace(DEFAULT_NEWS_URL);
+                }
+            };
+        }
+    </script>
+    </div>
+    <div class="footer">
+      <ul class="menu policies">
+        <li class="item first">
+          <span class="icon icon-before icon-apple"></span>
+        </li>
+        <li class="item">
+          <a href="https://www.apple.com/privacy/">Privacy Policy</a>
+        </li>
+        <li class="item last">
+          <a href="https://www.apple.com/legal/internet-services/terms/site.html">Terms and Conditions</a>
+        </li>
+      </ul>
+      <div class="copyright">
+        Copyright &copy; 2020 Apple Inc. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

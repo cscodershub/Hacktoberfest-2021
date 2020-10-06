@@ -1,0 +1,17 @@
+http://ncds.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ncds.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: AkamaiGHost
+< Expires: Wed, 17 Jun 2020 05:39:25 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Date: Wed, 17 Jun 2020 05:39:25 GMT
+< Strict-Transport-Security: max-age=15768000
+< Content-Length: 0
+< Location: https://ncds.netflix.com/
+< Pragma: no-cache
+< Access-Control-Allow-Origin: *
+

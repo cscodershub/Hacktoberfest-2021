@@ -1,0 +1,25 @@
+https://sp-dev.boozt.com/
+
+> GET / HTTP/1.1
+> Host: sp-dev.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 525 Origin SSL Handshake Error
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Date: Tue, 11 Aug 2020 14:07:50 GMT
+< Content-Type: text/html
+< Content-Length: 207
+< Cache-Control: no-store, no-cache
+< Set-Cookie: __cfduid=d4dff8cca67de12f06b3e7df5e8fe02df1597154870; expires=Thu, 10-Sep-20 14:07:50 GMT; path=/; domain=.boozt.com; HttpOnly; SameSite=Lax; Secure
+< Cf-Request-Id: 047f725b5300001acc5ca9c200000001
+< Server: cloudflare
+< Cf-Ray: 5c1286721cc31acc-SIN
+
+<html>
+<head><title>525 Origin SSL Handshake Error</title></head>
+<body bgcolor="white">
+<center><h1>525 Origin SSL Handshake Error</h1></center>
+<hr><center>cloudflare-nginx</center>
+</body>
+</html>

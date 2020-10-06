@@ -1,0 +1,14 @@
+Running against: http://aa-16.development.yummly.com/js/set-background.js
+
+/css/styles.css
+/css/gradients.css
+http://www.w3.org/2000/svg
+http://www.w3.org/1999/xlink
+https://aws.amazon.com/
+https://aws.amazon.com/what-is-cloud-computing/
+https://aws.amazon.com/solutions/
+https://aws.amazon.com/contact-us/
+http://twitter.com/home/?status=I just hosted a website on AWS!
+img/tweet.svg
+https://aws.amazon.com/careers/devtools-jobs/
+js/set-background.js

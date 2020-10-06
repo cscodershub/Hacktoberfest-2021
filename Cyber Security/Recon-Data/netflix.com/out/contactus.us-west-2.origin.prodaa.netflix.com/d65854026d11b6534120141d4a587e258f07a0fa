@@ -1,0 +1,24 @@
+http://contactus.us-west-2.origin.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: contactus.us-west-2.origin.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html;charset=UTF-8
+< Date: Wed, 17 Jun 2020 05:34:47 GMT
+< Pragma: no-cache
+< Server: padme i-0972c3f2841dba9e1
+< Set-Cookie: memclid=08050ff2-a1f3-4adb-b6aa-a7769fbe5fd5; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:47 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEBMNOYZUR40ZgTvMIF34eqRAoEoDRvQZRJpNxsgIaMu1APGJVj82LzbDuHOkUbZ2BMTclhSzPgNiQzconZ9yFPGFmFkltNqH4%2F5uRW1kB1NehA%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:47 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_1
+< Cache-Control: public
+< X-Netflix.proxy.execution-Time: 48181
+< Expires: Tue, 16 Jun 2020 05:34:47 GMT
+< Location: https://contactus.us-west-2.origin.prodaa.netflix.com/
+< Via: 1.1 i-0ace4a3a7f72bd9bb (us-west-2)
+< X-Originating-Url: http://contactus.us-west-2.origin.prodaa.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Content-Length: 54
+
+https://contactus.us-west-2.origin.prodaa.netflix.com/

@@ -1,0 +1,11 @@
+https://t.ads.instacart.com/
+
+> GET / HTTP/1.1
+> Host: t.ads.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 204 No Content
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Robots-Tag: noindex
+< Date: Tue, 04 Aug 2020 04:47:31 GMT
+

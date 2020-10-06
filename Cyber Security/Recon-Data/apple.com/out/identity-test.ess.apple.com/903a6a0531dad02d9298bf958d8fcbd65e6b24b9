@@ -1,0 +1,19 @@
+https://identity-test.ess.apple.com/
+
+> GET / HTTP/1.1
+> Host: identity-test.ess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< X-Responding-Instance: IdentityService:400001:magent0118.usprz06.pie.apple.com:31018:2008B-142:nocommit
+< X-B3-Traceid: 388169d6a0f1e190
+< Date: Thu, 30 Apr 2020 21:40:15 GMT
+< X-Apple-Jingle-Correlation-Key: DQA24EMNIENVCFBOK7HQD4QGWQ
+< Apple-Seq: 0
+< Apple-Tk: false
+< Apple-Originating-System: UnknownOriginatingSystem
+< Strict-Transport-Security: max-age=31536000
+< Server: AppleHttpServer/62e237dc531d
+< Content-Length: 0
+< X-Apple-Request-Uuid: 1c01ae11-8d41-1b51-142e-57cf01f206b4
+

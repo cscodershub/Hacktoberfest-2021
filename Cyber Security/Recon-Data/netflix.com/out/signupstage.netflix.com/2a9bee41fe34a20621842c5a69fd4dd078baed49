@@ -1,0 +1,20 @@
+http://signupstage.netflix.com/
+
+> GET / HTTP/1.1
+> Host: signupstage.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Location: https://www.stage.netflix.com/
+< Server: nq_website_core-prod-release UNKNOWN
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 i-009f8cdd5038ab21d (us-west-2)
+< X-Content-Type-Options: nosniff
+< X-Netflix.nfstatus: 1_1
+< X-Originating-Url: http://signupstage.netflix.com/
+< Content-Length: 0
+< Set-Cookie: nfvdid=BQFmAAEBEIkg0Smsc8KKoPvN4yfdYU9AVA-poCTPb9SGCiaJH0WYJ2BlAidkrXxX6vm7h3qwOzHOxfX9L_0-R0pCd2Y5Q7Qv7k1DXTopPZuRia8qsmdK3g%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=4178f1ce-d88d-480b-a680-3da0e5da08a9; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:14 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.proxy.execution-Time: 56797
+

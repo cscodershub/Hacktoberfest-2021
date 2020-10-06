@@ -1,0 +1,24 @@
+http://pricerite.instacart.com/
+
+> GET / HTTP/1.1
+> Host: pricerite.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:29 GMT
+< Content-Length: 183
+< Location: https://pricerite.instacart.com/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 cef203263ad70903b822aba7a504edb9.cloudfront.net (CloudFront)
+< Content-Type: text/html
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: pqSSY-5lg4Z4kuwc-i5S-qx8SpwrKMDD0_GuD3s7GGQ130eWb3cyAA==
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

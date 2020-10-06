@@ -1,0 +1,18 @@
+https://jawa-mobil.bmw.de/
+
+> GET / HTTP/1.1
+> Host: jawa-mobil.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 11 Aug 2020 04:50:52 GMT
+< Content-Length: 177
+< Cache-Control: no-cache
+< Location: https://jawamobil.bmw.de
+< Server: PXC-Webserver
+< X-Content-Type-Options: nosniff
+
+<head><title>Dokument verschoben</title></head>
+<body><h1>Objekt verschoben</h1>Dieses Dokument befindet sich möglicherweise <a HREF="https://jawamobil.bmw.de">hier</a>.</body>

@@ -1,0 +1,25 @@
+http://ios.nccp.eu-west-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ios.nccp.eu-west-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: memclid=f3565932-d81f-4083-8191-19fdfacd338e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:15 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEIndwQl3GLBFrk2hbG1B8XtAXP23VVj5QiLkYpgBlX7ZpCGhjB4fpWb2yLnuI1%2FUGC%2BxU%2BeCgDYP3oBbPn%2B%2BomYfHz7VAbswrG8Jt5%2BXGv%2FnuA%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:15 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.proxy.execution-Time: 5
+< X-Originating-Url: http://ios.nccp.eu-west-1.prodaa.netflix.com/
+< Date: Wed, 17 Jun 2020 05:34:15 GMT
+< Server: nccp-modern i-0d47a713336a6a6e5
+< Via: 1.1 i-0e6aaa292f1e0c5af (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< Content-Length: 199
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

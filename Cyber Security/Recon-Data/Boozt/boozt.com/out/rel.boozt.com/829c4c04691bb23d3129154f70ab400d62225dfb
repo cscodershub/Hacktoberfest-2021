@@ -1,0 +1,20 @@
+https://rel.boozt.com/
+
+> GET / HTTP/1.1
+> Host: rel.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Tue, 11 Aug 2020 14:07:48 GMT
+< Content-Type: text/plain;charset=UTF-8
+< Content-Length: 23
+< Set-Cookie: __cfduid=d21291670487382bd875ba1e491abdca71597154868; expires=Thu, 10-Sep-20 14:07:48 GMT; path=/; domain=.boozt.com; HttpOnly; SameSite=Lax; Secure
+< Set-Cookie: X-Release-Version=20200811132945; Expires=Tue, 11 Aug 2020 14:10:00 GMT; Path='/';
+< Cf-Request-Id: 047f7254f60000d9a43b9f0200000001
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Cf-Ray: 5c128667f8dcd9a4-SIN
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+end with 20200811132945

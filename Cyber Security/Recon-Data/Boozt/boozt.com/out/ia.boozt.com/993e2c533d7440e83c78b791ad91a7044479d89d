@@ -1,0 +1,17 @@
+https://ia.boozt.com/
+
+> GET / HTTP/1.1
+> Host: ia.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Tue, 11 Aug 2020 14:07:48 GMT
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Id: IrCeMVZMRjNL72Yl9Ebs05yJrG55q5f5_fqp5CN1p5u_CAuK_7LJKg==
+< Content-Type: application/xml
+< Server: AmazonS3
+< Via: 1.1 7d2d5778b1394e6cac677a18d71b6170.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>2B59C9354858118D</RequestId><HostId>ZuH9Ad+AKPwBNKWogQcmysaj7/jxaIE6HSwo4g9do4OnG9SegyaHWiWc8edn/Ys66pRZnHE21S8=</HostId></Error>

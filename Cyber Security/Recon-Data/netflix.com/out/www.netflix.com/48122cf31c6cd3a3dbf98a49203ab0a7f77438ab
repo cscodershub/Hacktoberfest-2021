@@ -1,0 +1,32 @@
+https://www.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Netflix.proxy.execution-Time: 128
+< X-Robots-Tag: index
+< Date: Wed, 17 Jun 2020 05:35:32 GMT
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: flwssn=c497852f-b064-47f9-879d-da2ba09c0e68; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:35:32 GMT
+< Set-Cookie: clSharedContext=ca320c81-2791-41e6-b1e8-5ddc4a03d2be; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEGF8k7OaslwrVzdIQyjbulFA19bFwb4uF85VrNhBKY0GOUwsnZro65covx5qAbXF2wmpzhOEQWIvIfa463ugz-hEfxK5lFjgYKavLV2u0VSebA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABQ2E_NwgiLDBBdl2QHxIPGBdEGd-dVkUvU.%26dt%3D1592372132246; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:35:32 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEGlLkX3w92WQ65veKlBoqW-A8OdaFt48tZADufSRa-4psvE5H0FWnwStl_vTF1OTPuea2lRGHUQXSgRkWBdSuksSjAr-U-m8nNAvaKfFmPDihp2TqKsIhMIrW4Z9Es6ImPXsxkA3ShOzoQ3VO4E-8Ax6L-2h_PPYrbPOyWSPjCLL4YoPfN6_KUdYYsjKG71NCZgsQuc_BOol2GDl2Itu7l57S2-JBCnxMFhytPAvg5NxPzc2CO6qfsoLFnpSPgBeuslOcAqSbgMd5UpqtGnetSfz-cWQx9jlIuwccIyW3Nf7DW1kc0JHunRMF-OGbVv1-YErCnTFzxWgCGPbt3QmRFOMzA..%26bt%3Ddev%26mac%3DAQEAEAABABRz2BTeLJgQS5FKCjWxzyFldGuS8u05vw0.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:35:32 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=05c491c8-9ae8-46d6-b8f6-4500aad81e56; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:32 GMT; Path=/; Domain=.netflix.com
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+< X-Netflix.nfstatus: 1_1
+< X-Originating-Url: https://www.netflix.com/
+< Cache-Control: no-cache, no-store
+< Location: https://www.netflix.com/in/
+< Server: nq_website_core-prod-release 33ce1fe9-f796-428d-8179-3c83352fa02e
+< Content-Length: 0
+< Edge-Control: no-cache, no-store
+< Expires: 0
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Type: text/html
+< Via: 1.1 i-05f4b4a0fe5e81ef5 (eu-west-1)
+

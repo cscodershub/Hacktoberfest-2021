@@ -1,0 +1,22 @@
+https://rsu-emea.bmw.de/
+
+> GET / HTTP/1.1
+> Host: rsu-emea.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://b2b-sso.bmw.com/login/login_b2b.fcc?TYPE=33619969&REALMOID=06-20eb3934-32dd-45cd-a478-984506499c51&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=$SM$hKYbQRDnPyannH2TuusU0vsZXxwM%2feEpi14P8QvWwS%2bvtyOLrCrxVYvpFJx2KoOM&TARGET=$SM$https%3a%2f%2frsu-emea%2ebmw%2ede%2f
+< Content-Length: 479
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 11 Aug 2020 04:51:12 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+< Cache-Control: no-store
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://b2b-sso.bmw.com/login/login_b2b.fcc?TYPE=33619969&amp;REALMOID=06-20eb3934-32dd-45cd-a478-984506499c51&amp;GUID=&amp;SMAUTHREASON=0&amp;METHOD=GET&amp;SMAGENTNAME=$SM$hKYbQRDnPyannH2TuusU0vsZXxwM%2feEpi14P8QvWwS%2bvtyOLrCrxVYvpFJx2KoOM&amp;TARGET=$SM$https%3a%2f%2frsu-emea%2ebmw%2ede%2f">here</a>.</p>
+</body></html>

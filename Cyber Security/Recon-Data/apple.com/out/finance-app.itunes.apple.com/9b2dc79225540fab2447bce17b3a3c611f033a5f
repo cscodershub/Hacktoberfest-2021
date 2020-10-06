@@ -1,0 +1,241 @@
+https://finance-app.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: finance-app.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Etag: f421a36e3daac88380cadc1719e3cb43
+< Apple-Originating-System: UnknownOriginatingSystem
+< Server: daiquiri/3.0.0
+< Last-Modified: Mon, 20 Apr 2020 21:25:40 GMT
+< X-Responding-Instance: silverbullet-external:2022:st13p00it-ztdg07184001:8301:20REL3
+< X-Apple-Jingle-Correlation-Key: WEEALA4EQ6DYTZA33KVSTJS4OI
+< X-Apple-Request-Uuid: b1080583-8487-8789-e41b-daab29a65c72
+< Vary: Accept-Encoding
+< X-Apple-Version-Number: 2016.6.0
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:45887002:st44p00it-hyhk16064801:7987:20E24
+< Date: Thu, 30 Apr 2020 21:30:00 GMT
+< Apple-Seq: 0.0
+< Apple-Tk: false
+< Cache-Control: no-transform, max-age=60
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta id="vendorCssUrl" name="finance-app:vendor-css-url" content="/assets/vendor-3141f29c8ba3e2c994dc250acc9f8927.css">
+    <meta id="mainCssUrl" name="finance-app:main-css-url" content="/assets/finance-app-4c8b3d257102d3197d2cd7808a432078.css">
+    <meta id="vendorJsUrl" name="finance-app:vendor-js-url" content="/assets/vendor-03693b62baf9f53916dc181bfc32a7e9.js">
+    <meta id="mainJsUrl" name="finance-app:main-js-url" content="/assets/finance-app-9fb3ef69d029266357c5bad419a64239.js">
+
+    
+<meta name="finance-app/config/environment" content="%7B%22modulePrefix%22%3A%22finance-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22finance-app%22%2C%22version%22%3A%222016.6.0+576c8006%22%7D%2C%22moment%22%3A%7B%22includeLocales%22%3Atrue%7D%2C%22ember-cli-mirage%22%3A%7B%22enabled%22%3Afalse%2C%22usingProxy%22%3Afalse%2C%22useDefaultPassthroughs%22%3Atrue%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+    <meta name="version" content="2016.6.0">
+
+    <link rel="icon" href="favicon.ico" />
+
+    
+
+
+<style>
+:root{color-scheme:light dark;--apple-system-background:-apple-system-background;--apple-system-control-background:-apple-system-control-background;--apple-system-secondary-background:-apple-system-secondary-background;--apple-system-tertiary-background:-apple-system-tertiary-background;--apple-system-grouped-background:-apple-system-grouped-background;--apple-system-secondary-grouped-background:-apple-system-secondary-grouped-background;--apple-system-tertiary-grouped-background:-apple-system-tertiary-grouped-background;--apple-system-separator:-apple-system-separator;--apple-system-label:-apple-system-label;--apple-system-secondary-label:-apple-system-secondary-label;--apple-system-tertiary-label:-apple-system-tertiary-label;--apple-system-header-text:-apple-system-header-text;--apple-system-selected-content-background:-apple-system-selected-content-background;--apple-system-red:-apple-system-red;--apple-system-text-background:-apple-system-text-background;--apple-system-blue:-apple-system-blue;--apple-system-green:-apple-system-green}@-webkit-keyframes spinner-light{0%,100%{background-position:-3px -28px}50%{background-position:-159px -28px}8%{background-position:-29px -28px}58%{background-position:-185px -28px}16%{background-position:-55px -28px}66%{background-position:-211px -28px}24%{background-position:-81px -28px}74%{background-position:-237px -28px}32%{background-position:-107px -28px}82%{background-position:-263px -28px}40%{background-position:-133px -28px}90%{background-position:-289px -28px}}@-webkit-keyframes spinner-dark{0%,100%{background-position:-3px -3px}50%{background-position:-159px -3px}8%{background-position:-29px -3px}58%{background-position:-185px -3px}16%{background-position:-55px -3px}66%{background-position:-211px -3px}24%{background-position:-81px -3px}74%{background-position:-237px -3px}32%{background-position:-107px -3px}82%{background-position:-263px -3px}40%{background-position:-133px -3px}90%{background-position:-289px -3px}}@-webkit-keyframes spinner-dark-35-35{0%,100%{background-position:0 0}50%{background-position:-240px 0}8%{background-position:-40px 0}58%{background-position:-280px 0}16%{background-position:-80px 0}66%{background-position:-320px 0}24%{background-position:-120px 0}74%{background-position:-360px 0}32%{background-position:-160px 0}82%{background-position:-400px 0}40%{background-position:-200px 0}90%{background-position:-440px 0}}@-webkit-keyframes spinner-light-35-35{0%,100%{background-position:0 -40px}50%{background-position:-240px -40px}8%{background-position:-40px -40px}58%{background-position:-280px -40px}16%{background-position:-80px -40px}66%{background-position:-320px -40px}24%{background-position:-120px -40px}74%{background-position:-360px -40px}32%{background-position:-160px -40px}82%{background-position:-400px -40px}40%{background-position:-200px -40px}90%{background-position:-440px -40px}}@supports not (color:-apple-system-background){:root{--apple-system-background:swatch(system-background-primary)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-background:swatch(system-dark-background-primary)}}}@supports not (color:-apple-system-control-background){:root{--apple-system-control-background:swatch(system-background-primary)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-control-background:swatch(system-dark-background-control)}}}@supports not (color:-apple-system-secondary-background){:root{--apple-system-secondary-background:swatch(system-background-secondary)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-secondary-background:swatch(system-dark-background-secondary)}}}@supports not (color:-apple-system-tertiary-background){:root{--apple-system-tertiary-background:swatch(system-background-tertiary)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-tertiary-background:swatch(system-dark-background-tertiary)}}}@supports not (color:-apple-system-grouped-background){:root{--apple-system-grouped-background:swatch(system-grouped-background-primary)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-grouped-background:swatch(system-dark-background-primary)}}}@supports not (color:-apple-system-secondary-grouped-background){:root{--apple-system-secondary-grouped-background:swatch(system-grouped-background-secondary)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-secondary-grouped-background:swatch(system-dark-background-secondary)}}}@supports not (color:-apple-system-tertiary-grouped-background){:root{--apple-system-tertiary-grouped-background:swatch(system-grouped-background-tertiary)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-tertiary-grouped-background:swatch(system-dark-background-tertiary)}}}@supports not (color:-apple-system-separator){:root{--apple-system-separator:swatch(system-separator)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-separator:swatch(dark-mode-separator)}}}@supports not (color:-apple-system-label){:root{--apple-system-label:swatch(system-label-primary)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-label:swatch(dark-mode-primary-white)}}}@supports not (color:-apple-system-secondary-label){:root{--apple-system-secondary-label:swatch(account-p-color)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-secondary-label:swatch(dark-mode-secondary-white)}}}@supports not (color:-apple-system-tertiary-label){:root{--apple-system-tertiary-label:swatch(system-label-tertiary)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-tertiary-label:swatch(dark-mode-tertiary-white)}}}@supports not (color:-apple-system-header-text){:root{--apple-system-header-text:swatch(text-dark-gray)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-header-text:swatch(dark-mode-primary-white)}}}@supports not (color:-apple-system-selected-content-background){:root{--apple-system-selected-content-background:swatch(tapped_element_bg)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-selected-content-background:swatch(dark-mode-selected-color)}}}@supports not (color:-apple-system-red){:root{--apple-system-red:swatch(text-red)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-red:swatch(dark-mode-red)}}}@supports not (color:-apple-system-text-background){:root{--apple-system-text-background:swatch(text-gray)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-text-background:swatch(dark-mode-primary-white)}}}@supports not (color:-apple-system-blue){:root{--apple-system-blue:swatch(desktop-blue)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-blue:swatch(dark-mode-blue)}}}@supports not (color:-apple-system-green){:root{--apple-system-green:swatch(system-green)}@media (prefers-dark-interface),(prefers-color-scheme:dark){:root{--apple-system-green:swatch(system-green)}}}:root body.Win32{--apple-system-background:swatch(system-background-primary);--apple-system-control-background:swatch(system-background-control);--apple-system-secondary-background:swatch(system-background-secondary);--apple-system-tertiary-background:swatch(system-background-tertiary);--apple-system-grouped-background:swatch(system-grouped-background-primary);--apple-system-secondary-grouped-background:swatch(system-grouped-background-secondary);--apple-system-tertiary-grouped-background:swatch(system-grouped-background-tertiary);--apple-system-separator:swatch(system-separator);--apple-system-label:swatch(system-label-primary);--apple-system-secondary-label:swatch(account-p-color);--apple-system-tertiary-label:swatch(account-chevron);--apple-system-header-text:swatch(text-dark-gray);--apple-system-selected-content-background:swatch(tapped_element_bg);--apple-system-red:swatch(text-red);--apple-system-text-background:swatch(text-gray);--apple-system-blue:swatch(desktop-blue);--apple-system-green:swatch(system-green)}@-webkit-keyframes circle-animation{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes circle-animation{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.transitioning-base,body.android .transitioning,body:not(.android) .transitioning{height:100vh;display:block}body.android .nib-spinner-container,body:not(.android) .circle-loader{display:none}body:not(.android) .transitioning::before{content:'';position:fixed;top:0;right:0;bottom:0;left:0;z-index:1000}body:not(.android) .transitioning::after{position:fixed;z-index:2001;top:50%;left:50%;margin:-13px 0 0 -13px}body:not(.android) .transitioning .nib-spinner-container{position:fixed;top:-100%;bottom:-100%;left:-100%;right:-100%;margin:auto;width:25px;height:25px}body:not(.android) .transitioning .spinner{width:25px;height:25px;position:relative}body:not(.android) .transitioning .spinner__nib{position:absolute;left:50%;top:0;margin-left:-1.17px;width:2.34px;height:7.81px;border-radius:1.17px;-webkit-transform-origin:center 12.5px;-ms-transform-origin:center 12.5px;transform-origin:center 12.5px;-webkit-animation-name:nib;animation-name:nib;animation-direction:reverse;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:cubic-bezier(calc(1 / 3),0,calc(2 / 3),calc(1 / 3));animation-timing-function:cubic-bezier(calc(1 / 3),0,calc(2 / 3),calc(1 / 3));background:#000}@media (prefers-dark-interface),(prefers-color-scheme:dark){body:not(.android) .transitioning .spinner__nib{background:#fff}}body:not(.android) .transitioning .spinner__nib-0{-webkit-animation-delay:-1s;animation-delay:-1s;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);opacity:calc(1 - (.83137 * (0/12)))}body:not(.android) .transitioning .spinner__nib-1{-webkit-animation-delay:-.91667s;animation-delay:-.91667s;-webkit-transform:rotate(30deg);-ms-transform:rotate(30deg);transform:rotate(30deg);opacity:calc(1 - (.83137 * (1/12)))}body:not(.android) .transitioning .spinner__nib-2{-webkit-animation-delay:-.83333s;animation-delay:-.83333s;-webkit-transform:rotate(60deg);-ms-transform:rotate(60deg);transform:rotate(60deg);opacity:calc(1 - (.83137 * (2/12)))}body:not(.android) .transitioning .spinner__nib-3{-webkit-animation-delay:-.75s;animation-delay:-.75s;-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);opacity:calc(1 - (.83137 * (3/12)))}body:not(.android) .transitioning .spinner__nib-4{-webkit-animation-delay:-.66667s;animation-delay:-.66667s;-webkit-transform:rotate(120deg);-ms-transform:rotate(120deg);transform:rotate(120deg);opacity:calc(1 - (.83137 * (4/12)))}body:not(.android) .transitioning .spinner__nib-5{-webkit-animation-delay:-.58333s;animation-delay:-.58333s;-webkit-transform:rotate(150deg);-ms-transform:rotate(150deg);transform:rotate(150deg);opacity:calc(1 - (.83137 * (5/12)))}body:not(.android) .transitioning .spinner__nib-6{-webkit-animation-delay:-.5s;animation-delay:-.5s;-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);opacity:calc(1 - (.83137 * (6/12)))}body:not(.android) .transitioning .spinner__nib-7{-webkit-animation-delay:-.41667s;animation-delay:-.41667s;-webkit-transform:rotate(210deg);-ms-transform:rotate(210deg);transform:rotate(210deg);opacity:calc(1 - (.83137 * (7/12)))}body:not(.android) .transitioning .spinner__nib-8{-webkit-animation-delay:-.33333s;animation-delay:-.33333s;-webkit-transform:rotate(240deg);-ms-transform:rotate(240deg);transform:rotate(240deg);opacity:calc(1 - (.83137 * (8/12)))}body:not(.android) .transitioning .spinner__nib-9{-webkit-animation-delay:-.25s;animation-delay:-.25s;-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg);opacity:calc(1 - (.83137 * (9/12)))}body:not(.android) .transitioning .spinner__nib-10{-webkit-animation-delay:-.16667s;animation-delay:-.16667s;-webkit-transform:rotate(300deg);-ms-transform:rotate(300deg);transform:rotate(300deg);opacity:calc(1 - (.83137 * (10/12)))}body:not(.android) .transitioning .spinner__nib-11{-webkit-animation-delay:-83.33ms;animation-delay:-83.33ms;-webkit-transform:rotate(330deg);-ms-transform:rotate(330deg);transform:rotate(330deg);opacity:calc(1 - (.83137 * (11/12)))}@-webkit-keyframes nib{0%{opacity:.16863}100%{opacity:1}}@keyframes nib{0%{opacity:.16863}100%{opacity:1}}body:not(.android) .transitioning.large .loading-text{top:100px}body:not(.android) .transitioning.large .nib-spinner-container{width:40px;height:40px}body:not(.android) .transitioning.large .spinner{width:40px;height:40px;position:relative}body:not(.android) .transitioning.large .spinner__nib{margin-left:-1.46px;width:3.93px;height:10.77px;border-radius:1.46px;-webkit-transform-origin:center 20px;-ms-transform-origin:center 20px;transform-origin:center 20px}body:not(.android) .spinner-35-35::after{content:'';height:40px;width:40px;background-size:480px 80px;-webkit-animation:spinner-dark-35-35 1s infinite;-webkit-animation-timing-function:step-start}body.android .circle-loader{width:38px;height:38px;position:absolute;top:50%;z-index:1001;text-align:initial;color:#ff2c55;left:50%;margin:-19px 0 0 -19px}body.android .circle-loader div{display:inline-block;position:relative}body.android .circle-loader .rotating-container{width:100%;height:100%;-webkit-animation:container-rotate 1568ms linear infinite;animation:container-rotate 1568ms linear infinite}@-webkit-keyframes container-rotate{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes container-rotate{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}body.android .circle-loader .circle-layer{position:absolute;width:100%;height:100%;-webkit-animation:circle-animation 5332ms cubic-bezier(.4,0,.2,1) infinite both;animation:circle-animation 5332ms cubic-bezier(.4,0,.2,1) infinite both}@keyframes circle-animation{12.5%{-webkit-transform:rotate(135deg);transform:rotate(135deg)}25%{-webkit-transform:rotate(270deg);transform:rotate(270deg)}37.5%{-webkit-transform:rotate(405deg);transform:rotate(405deg)}50%{-webkit-transform:rotate(540deg);transform:rotate(540deg)}62.5%{-webkit-transform:rotate(675deg);transform:rotate(675deg)}75%{-webkit-transform:rotate(810deg);transform:rotate(810deg)}87.5%{-webkit-transform:rotate(945deg);transform:rotate(945deg)}to{-webkit-transform:rotate(1080deg);transform:rotate(1080deg)}}body.android .circle-loader .gap-patch{position:absolute;-webkit-box-sizing:border-box;box-sizing:border-box;top:0;left:45%;width:10%;height:100%;overflow:hidden;border-color:inherit}body.android .circle-loader .gap-patch .circle{width:1000%;left:-450%}body.android .circle-loader .circle-clipper{display:inline-block;position:relative;width:50%;height:100%;overflow:hidden;border-color:inherit}body.android .circle-loader .circle-clipper .circle{width:200%}body.android .circle-loader .circle-clipper.left .circle{border-right-color:transparent!important;-webkit-transform:rotate(129deg);-ms-transform:rotate(129deg);transform:rotate(129deg);-webkit-animation:counter-clockwise-rotation 1333ms cubic-bezier(.4,0,.2,1) infinite both;animation:counter-clockwise-rotation 1333ms cubic-bezier(.4,0,.2,1) infinite both}body.android .circle-loader .circle-clipper.right .circle{left:-100%;border-left-color:transparent!important;-webkit-transform:rotate(-129deg);-ms-transform:rotate(-129deg);transform:rotate(-129deg);-webkit-animation:clockwise-rotation 1333ms cubic-bezier(.4,0,.2,1) infinite both;animation:clockwise-rotation 1333ms cubic-bezier(.4,0,.2,1) infinite both}body.android .circle-loader .circle{-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;border-style:solid;border-color:inherit;border-bottom-color:transparent!important;border-radius:50%;-webkit-animation:none;animation:none;border-width:4px}@-webkit-keyframes counter-clockwise-rotation{from,to{-webkit-transform:rotate(130deg);transform:rotate(130deg)}50%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}}@keyframes counter-clockwise-rotation{from,to{-webkit-transform:rotate(130deg);transform:rotate(130deg)}50%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}}@-webkit-keyframes clockwise-rotation{from,to{-webkit-transform:rotate(-130deg);transform:rotate(-130deg)}50%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}}@keyframes clockwise-rotation{from,to{-webkit-transform:rotate(-130deg);transform:rotate(-130deg)}50%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}}@media (prefers-dark-interface),(prefers-color-scheme:dark){body{color:swatch(system-label-primary);color:var(--apple-system-label);background-color:swatch(system-background-primary);background-color:var(--apple-system-background)}}@media (prefers-dark-interface) and (prefers-dark-interface),(prefers-color-scheme:dark) and (prefers-dark-interface),(prefers-dark-interface) and (prefers-color-scheme:dark),(prefers-color-scheme:dark) and (prefers-color-scheme:dark){body{color:swatch(dark-mode-primary-white);color:var(--apple-system-label);background-color:swatch(system-dark-background-primary);background-color:var(--apple-system-background)}}@media (prefers-dark-interface),(prefers-color-scheme:dark){body:not(.android):not(.app-store):not(.music-subscribe):not(.activate):not(.terms-and-conditions):not(.itunes-window):not(.legal) .transitioning{color:swatch(system-label-primary);color:var(--apple-system-label);background-color:swatch(system-background-primary);background-color:var(--apple-system-background)}}@media (prefers-dark-interface) and (prefers-dark-interface),(prefers-color-scheme:dark) and (prefers-dark-interface),(prefers-dark-interface) and (prefers-color-scheme:dark),(prefers-color-scheme:dark) and (prefers-color-scheme:dark){body:not(.android):not(.app-store):not(.music-subscribe):not(.activate):not(.terms-and-conditions):not(.itunes-window):not(.legal) .transitioning{color:swatch(dark-mode-primary-white);color:var(--apple-system-label);background-color:swatch(system-dark-background-primary);background-color:var(--apple-system-background)}}@media (prefers-dark-interface),(prefers-color-scheme:dark){body:not(.android):not(.app-store):not(.music-subscribe):not(.activate):not(.terms-and-conditions):not(.itunes-window):not(.legal) .spinner:not(.large)::after,body:not(.android):not(.app-store):not(.music-subscribe):not(.activate):not(.terms-and-conditions):not(.itunes-window):not(.legal) .transitioning:not(.large)::after{-webkit-animation:spinner-light 1s infinite;-webkit-animation-timing-function:step-start}body:not(.android):not(.app-store):not(.music-subscribe):not(.activate):not(.terms-and-conditions):not(.itunes-window):not(.legal) .spinner-35-35::after,body:not(.android):not(.app-store):not(.music-subscribe):not(.activate):not(.terms-and-conditions):not(.itunes-window):not(.legal) .spinner.large::after{-webkit-animation:spinner-light-35-35 1s infinite;-webkit-animation-timing-function:step-start}body .style-gradient,body body[class*=music-]:not(.music-upsell):not(.music-subscribe):not(.music-sdk-subscribe):not(.music-welcome-branded):not(.music-contextual-upsell){color:swatch(system-label-primary);color:var(--apple-system-label)}}@media (prefers-dark-interface) and (prefers-dark-interface),(prefers-color-scheme:dark) and (prefers-dark-interface),(prefers-dark-interface) and (prefers-color-scheme:dark),(prefers-color-scheme:dark) and (prefers-color-scheme:dark){body .style-gradient,body body[class*=music-]:not(.music-upsell):not(.music-subscribe):not(.music-sdk-subscribe):not(.music-welcome-branded):not(.music-contextual-upsell){color:swatch(dark-mode-primary-white);color:var(--apple-system-label)}}.style-gradient{background:-webkit-radial-gradient(95% -5%,100% 100%,rgba(255,64,112,.5),rgba(255,64,112,0)),-webkit-radial-gradient(2% 35%,100% 100%,rgba(182,94,255,.4),rgba(182,94,255,0)),-webkit-radial-gradient(95% 85%,100% 100%,rgba(53,241,255,.6),rgba(53,241,255,0)),-webkit-radial-gradient(115% 45%,100% 100%,rgba(66,148,255,.4),rgba(66,148,255,0)),-webkit-linear-gradient(-45deg,#fd6655 0,#f75681 20%,#7a71ff 58%,#13def0 100%);background-repeat:no-repeat}.style-gradient:not(.android) .spinner__nib{background-color:#fff}
+</style>
+</head>
+
+
+<body id="page">
+    <div id="page-loader" class="transitioning">
+        <div class="nib-spinner-container">
+            <div class="spinner">
+                <div class="spinner__nib spinner__nib-0"></div>
+                <div class="spinner__nib spinner__nib-1"></div>
+                <div class="spinner__nib spinner__nib-2"></div>
+                <div class="spinner__nib spinner__nib-3"></div>
+                <div class="spinner__nib spinner__nib-4"></div>
+                <div class="spinner__nib spinner__nib-5"></div>
+                <div class="spinner__nib spinner__nib-6"></div>
+                <div class="spinner__nib spinner__nib-7"></div>
+                <div class="spinner__nib spinner__nib-8"></div>
+                <div class="spinner__nib spinner__nib-9"></div>
+                <div class="spinner__nib spinner__nib-10"></div>
+                <div class="spinner__nib spinner__nib-11"></div>
+            </div>
+        </div>
+        <div class="circle-loader">
+            <div class="rotating-container">
+                <div class="circle-layer">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                        <!-- Do not separate these into different lines -->
+                    </div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="loading-text dynamic-type-footer"></div>
+    </div>
+
+    
+
+    <script>
+        var MAX_RETRY_COUNT = 2;
+        var CSS = 'css';
+        var JS = 'js';
+        var MAIN = 'main';
+        var VENDOR = 'vendor';
+        var retryCounts = {};
+
+        retryCounts[CSS] = {};
+        retryCounts[JS] = {};
+        retryCounts[CSS][MAIN] = 0;
+        retryCounts[CSS][VENDOR] = 0;
+        retryCounts[JS][MAIN] = 0;
+        retryCounts[JS][VENDOR] = 0;
+
+        var getUserAgent = function getUserAgent() {
+            return navigator.userAgent && navigator.userAgent.toLowerCase();
+        };
+
+        var isApp = function isApp(app) {
+            return (getUserAgent() || '').indexOf(app) !== -1;
+        };
+
+        var hasiTunes = typeof iTunes !== 'undefined';
+        var hasTransitionAPI = function hasTransitionAPI() {
+            try {
+                return iTunes && typeof iTunes.navigationSimulator !== 'undefined';
+            } catch (e) {
+                return false;
+            }
+        };
+
+        var onJsErrorFunction = function onJsErrorFunction(el, src, isMain) {
+            el.parentNode.removeChild(el);
+            var assetName = isMain ? MAIN : VENDOR;
+            var retryCount = retryCounts[JS][assetName];
+            if (retryCount <= MAX_RETRY_COUNT) {
+                createAndAppendScriptElement(src, isMain);
+                retryCounts[JS][assetName] += 1;
+            } else if (hasTransitionAPI()) {
+                iTunes.navigationSimulator.popToView(-1, function () { });
+            } else if (hasiTunes) {
+                iTunes.dismissSheet();
+            }
+        };
+
+        var onCssErrorFunction = function onCssErrorFunction(el, src, isMain) {
+            el.parentNode.removeChild(el);
+            var assetName = isMain ? MAIN : VENDOR;
+            var retryCount = retryCounts[CSS][assetName];
+            if (retryCount <= MAX_RETRY_COUNT) {
+                createAndAppendLinkElement(src, isMain);
+                retryCounts[CSS][assetName] += 1;
+            } else if (hasTransitionAPI()) {
+                iTunes.navigationSimulator.popToView(-1, function () { });
+            } else if (hasiTunes) {
+                iTunes.dismissSheet();
+            }
+        };
+
+        var createAndAppendLinkElement = function createAndAppendLinkElement(href, isMain) {
+            if (!href) {
+                return;
+            }
+            var linkEl = document.createElement('link');
+
+            linkEl.rel = 'stylesheet';
+            linkEl.type = 'text/css';
+            linkEl.href = href;
+            linkEl.addEventListener('error', function onerror() {
+                linkEl.removeEventListener('error', onerror);
+                onCssErrorFunction(linkEl, href, isMain);
+            });
+
+            document.head.appendChild(linkEl);
+        };
+
+        var createAndAppendScriptElement = function createAndAppendScriptElement(src, isMain) {
+            if (!src) {
+                return;
+            }
+
+            var scriptEl = document.createElement('script');
+
+            scriptEl.src = src;
+            scriptEl.async = false;
+            scriptEl.type = 'text/javascript';
+            scriptEl.addEventListener('error', function onerror() {
+                scriptEl.removeEventListener('error', onerror);
+                onJsErrorFunction(scriptEl, src, isMain);
+            });
+
+            document.body.appendChild(scriptEl);
+        };
+
+        var hasiTunesViewController = hasiTunes && iTunes.viewController;
+        if (hasiTunesViewController) {
+            iTunes.viewController.scrollingEnabled = false;
+        }
+
+        window.addEventListener('DOMContentLoaded', function setup() {
+            if (hasiTunesViewController) {
+                var color = window.getComputedStyle(document.querySelector('body')).getPropertyValue('background-color');
+                iTunes.viewController.backgroundColor = color;
+            }
+
+            var isAndroid = navigator.userAgent.toLowerCase().indexOf('android') !== -1;
+            var isSetupAssistant = navigator.userAgent.toLowerCase().indexOf('assistant') !== -1;
+            var isDesktop = navigator.userAgent.toLowerCase().indexOf('macintosh') !== -1;
+
+            if (isAndroid) {
+                var page = document.getElementById('page');
+                if (page) {
+                    page.classList.add('android');
+                    var loader = document.getElementById('page-loader');
+                    if (loader) {
+                        loader.style.display = 'block';
+                    }
+                }
+            }
+
+            if (isSetupAssistant) {
+                var page = document.getElementById('page');
+                if (page) {
+                    page.classList.add('assistant');
+                    var loader = document.getElementById('page-loader');
+                    if (loader) {
+                        loader.style.display = 'none';
+                    }
+                }
+            }
+
+            if (isDesktop) {
+                var pageLoader = document.getElementById('page-loader');
+                if (pageLoader) {
+                    pageLoader.classList.add('large');
+                }
+            }
+
+            setTimeout(function () {
+                createAndAppendLinkElement(document.getElementById('vendorCssUrl').content, false);
+                createAndAppendLinkElement(document.getElementById('mainCssUrl').content, true);
+                createAndAppendScriptElement(document.getElementById('vendorJsUrl').content, false);
+                createAndAppendScriptElement(document.getElementById('mainJsUrl').content, true);
+            }, 0);
+        });
+    </script>
+
+    
+</body>
+
+</html>

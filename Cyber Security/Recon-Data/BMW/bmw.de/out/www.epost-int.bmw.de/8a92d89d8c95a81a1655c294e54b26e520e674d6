@@ -1,0 +1,12 @@
+http://www.epost-int.bmw.de/
+
+> GET / HTTP/1.1
+> Host: www.epost-int.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 0
+< Location: https://www.epost-int.bmw.de/
+< Server: BigIP
+< Connection: close
+

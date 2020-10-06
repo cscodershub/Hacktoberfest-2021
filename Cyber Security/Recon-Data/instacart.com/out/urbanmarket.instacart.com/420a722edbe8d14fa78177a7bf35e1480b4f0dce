@@ -1,0 +1,24 @@
+http://urbanmarket.instacart.com/
+
+> GET / HTTP/1.1
+> Host: urbanmarket.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 183
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: MAA50-C2
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:37 GMT
+< Content-Type: text/html
+< X-Amz-Cf-Id: 6KU-9t7TnG9wmfxzXTvk7jaLAU0GevpLdeP2trG25x4eXthC8k321A==
+< Location: https://urbanmarket.instacart.com/
+< Via: 1.1 c2b35656376607c7956f8ac31dcfaaa7.cloudfront.net (CloudFront)
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

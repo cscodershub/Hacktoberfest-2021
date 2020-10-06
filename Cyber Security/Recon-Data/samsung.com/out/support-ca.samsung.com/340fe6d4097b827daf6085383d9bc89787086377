@@ -1,0 +1,27 @@
+http://support-ca.samsung.com/
+
+> GET / HTTP/1.1
+> Host: support-ca.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Etag: "13b-586c125b"
+< Accept-Ranges: bytes
+< Date: Wed, 10 Jun 2020 05:35:54 GMT
+< Content-Type: text/html
+< Last-Modified: Tue, 03 Jan 2017 21:06:35 GMT
+< Content-Length: 315
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" />
+<title>Samsung Online Service Center</title>
+</head>
+
+<script language="javascript">
+	//location.href = "/cyber/index.jsp"
+	//location.href = "/cyber/notice/shutdown.jsp"
+	location.href = "http://105.1.22.204/ca";
+</script>
+
+</html>

@@ -1,0 +1,17 @@
+http://mail.boozt.com/
+
+> GET / HTTP/1.1
+> Host: mail.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=3600
+< Expires: Tue, 11 Aug 2020 15:07:52 GMT
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Cf-Ray: 5c1286840899c3a9-SIN
+< Date: Tue, 11 Aug 2020 14:07:52 GMT
+< Location: https://mail.boozt.com/
+< Cf-Request-Id: 047f7266830000c3a9919e1200000001
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+

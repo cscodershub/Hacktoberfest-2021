@@ -1,0 +1,25 @@
+https://helpdesk.coursera.org/
+
+> GET / HTTP/1.1
+> Host: helpdesk.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Content-Type-Options: nosniff
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Location: https://helpdesk.coursera.org/jsp/index.jsp
+< Server: ZGS
+< X-Sdpod-Version: 1741
+< Pragma: no-cache
+< Date: Mon, 10 Aug 2020 04:51:51 GMT
+< Set-Cookie: 6bc9ae5955=215b2f7d509f8d73056a23f7cae07bbf; Path=/
+< Set-Cookie: sdpcscook=ba133ed1-018a-4b11-b95e-5530390c93c7;path=/;SameSite=None;Secure;priority=high
+< Set-Cookie: _zcsr_tmp=ba133ed1-018a-4b11-b95e-5530390c93c7;path=/;SameSite=Strict;Secure;priority=high
+< Set-Cookie: JSESSIONID=7FDAAEEBADB7AE6900BA3FA59226F258; Path=/; Secure; HttpOnly
+< Cache-Control: no-cache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=63072000
+< Content-Type: text/html;charset=UTF-8
+< Content-Length: 0
+< X-Xss-Protection: 1
+

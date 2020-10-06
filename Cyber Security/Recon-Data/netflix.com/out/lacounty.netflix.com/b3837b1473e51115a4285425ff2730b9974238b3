@@ -1,0 +1,21 @@
+https://lacounty.netflix.com/
+
+> GET / HTTP/1.1
+> Host: lacounty.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Wed, 17 Jun 2020 05:37:13 GMT
+< Content-Type: text/html
+< Content-Length: 151
+< Cf-Ray: 5a4a6ad90edfde8a-BLR
+< Cf-Request-Id: 0362611ba70000de8a7215d200000001
+< Server: cloudflare
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>

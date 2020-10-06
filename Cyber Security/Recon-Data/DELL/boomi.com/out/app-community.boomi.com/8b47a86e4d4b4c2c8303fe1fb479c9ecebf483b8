@@ -1,0 +1,22 @@
+https://app-community.boomi.com/
+
+> GET / HTTP/1.1
+> Host: app-community.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Date: Sat, 15 Aug 2020 09:15:59 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 268
+< Expires: Sat, 15 Aug 2020 09:15:59 GMT
+
+<HTML><HEAD>
+<TITLE>Service Unavailable</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable - DNS failure</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;11&#46;73fcb17&#46;1597482959&#46;171e817f
+</BODY></HTML>

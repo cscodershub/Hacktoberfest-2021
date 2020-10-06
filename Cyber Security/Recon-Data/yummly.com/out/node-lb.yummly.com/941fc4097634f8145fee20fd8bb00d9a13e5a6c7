@@ -1,0 +1,27 @@
+https://node-lb.yummly.com/
+
+> GET / HTTP/1.1
+> Host: node-lb.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Content-Type-Options: nosniff
+< Date: Sat, 15 Aug 2020 14:57:37 GMT
+< Content-Length: 233
+< Audit-Id: e87fc4d7-8fb9-4c8f-9480-2ef395f4e937
+< Content-Type: application/json
+
+{
+  "kind": "Status",
+  "apiVersion": "v1",
+  "metadata": {
+    
+  },
+  "status": "Failure",
+  "message": "forbidden: User \"system:anonymous\" cannot get path \"/\"",
+  "reason": "Forbidden",
+  "details": {
+    
+  },
+  "code": 403
+}

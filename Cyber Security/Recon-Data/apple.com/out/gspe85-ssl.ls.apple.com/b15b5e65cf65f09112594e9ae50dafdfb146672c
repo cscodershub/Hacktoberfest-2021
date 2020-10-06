@@ -1,0 +1,16 @@
+http://gspe85-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe85-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Thu, 30 Apr 2020 21:31:03 GMT
+< Server: ATS/8.0.7
+< Cdnuuid: cd013dfc-e0ca-40d8-864a-eb0d69b612b6-2876890081
+< X-Rid: 1f010999-b9cf-4f77-a8b4-194f6145be7d
+< Age: 0
+< Via: https/1.1 sgsin3-edge-bx-011.ts.apple.com (ApacheTrafficServer/8.0.7)
+< X-Cache: miss
+
+Not Found

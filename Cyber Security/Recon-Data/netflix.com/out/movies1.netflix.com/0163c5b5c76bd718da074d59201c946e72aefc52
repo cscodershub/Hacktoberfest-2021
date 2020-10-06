@@ -1,0 +1,15 @@
+http://movies1.netflix.com/
+
+> GET / HTTP/1.1
+> Host: movies1.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: public, must-revalidate, proxy-revalidate, max-age=3600
+< Content-Type: text/html; charset=utf-8
+< Location: https://www.netflix.com/
+< Date: Wed, 17 Jun 2020 05:38:57 GMT
+< Content-Length: 59
+
+<a href="https://www.netflix.com/">Moved Permanently</a>.
+

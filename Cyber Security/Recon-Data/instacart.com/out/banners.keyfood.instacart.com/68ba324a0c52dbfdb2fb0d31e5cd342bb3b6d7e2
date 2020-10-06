@@ -1,0 +1,24 @@
+http://banners.keyfood.instacart.com/
+
+> GET / HTTP/1.1
+> Host: banners.keyfood.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Pop: MAA50-C2
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:46:56 GMT
+< Content-Type: text/html
+< Content-Length: 183
+< X-Amz-Cf-Id: aLkx-43Z7hq81LSp9wSg1i9h2mRPl5P333pX4p5X4DRwUoBvQsqSjA==
+< Location: https://banners.keyfood.instacart.com/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 6b3bacffbdc84b46f975defba099bd74.cloudfront.net (CloudFront)
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

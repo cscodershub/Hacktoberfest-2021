@@ -1,0 +1,27 @@
+https://pg-bootstrap.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: pg-bootstrap.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Pragma: no-cache
+< Via: 17.42.252.8
+< X-Dlb-Upstream: 17.164.65.112:9343
+< Date: Thu, 30 Apr 2020 21:30:03 GMT
+< Content-Length: 0
+< Apple-Originating-System: UnknownOriginatingSystem
+< Apple-Tk: false
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Content-Type: text/plain;charset=utf-8
+< X-Apple-Request-Uuid: 01b98272-cf8d-ab05-98dc-1771e3fc3483
+< Apple-Seq: 0
+< Cache-Control: no-cache
+< Server: dlb/1.0.2
+< X-Responding-Server: st13p01su-hpam01212301:9343:108:20H4
+< X-Apple-Jingle-Correlation-Key: AG4YE4WPRWVQLGG4C5Y6H7BUQM
+

@@ -1,0 +1,24 @@
+http://galafresh.instacart.com/
+
+> GET / HTTP/1.1
+> Host: galafresh.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Via: 1.1 114fd2cbe6b2daa62f2fb8ae0a6be0eb.cloudfront.net (CloudFront)
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: pbFdN8wo5gcHapGa3gNWTzlcDOGfh0K4T4i9k_j7ncBOpWPDnRkGHw==
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:12 GMT
+< Content-Type: text/html
+< Content-Length: 183
+< Location: https://galafresh.instacart.com/
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

@@ -1,0 +1,22 @@
+https://pr-cs-integrations.apple.com/
+
+> GET / HTTP/1.1
+> Host: pr-cs-integrations.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:31:28 GMT
+< Content-Type: text/html
+< Content-Length: 230
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN
+
+<html>
+<head><title>400 No required SSL certificate was sent</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>No required SSL certificate was sent</center>
+<hr><center>Apple</center>
+</body>
+</html>

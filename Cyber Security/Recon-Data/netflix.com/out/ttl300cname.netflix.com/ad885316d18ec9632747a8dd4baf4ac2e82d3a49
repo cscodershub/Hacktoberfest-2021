@@ -1,0 +1,25 @@
+http://ttl300cname.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ttl300cname.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Tcp-Info: addr=27.6.68.76;port=56429
+< Server: nginx
+< Date: Wed, 17 Jun 2020 05:35:15 GMT
+< Content-Type: text/html
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: X-TCP-Info
+< Content-Length: 146
+< Timing-Allow-Origin: *
+< Cache-Control: no-store
+< Pragma: no-cache
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

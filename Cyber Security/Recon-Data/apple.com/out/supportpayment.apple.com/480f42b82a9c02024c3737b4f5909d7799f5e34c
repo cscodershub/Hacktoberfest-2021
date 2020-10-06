@@ -1,0 +1,187 @@
+http://supportpayment.apple.com/
+
+> GET / HTTP/1.1
+> Host: supportpayment.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Set-Cookie: shield_webpay_443=1ca66d05266055c6e077bc04bb5db3fe; domain=.apple.com; httponly; secure; path=/
+< Set-Cookie: JSESSIONID=node0svjm4s0nhf8ok6htdpvdh9vt732.node0; Path=/; Secure
+< Vary: Origin
+< Vary: Access-Control-Request-Method
+< Vary: Access-Control-Request-Headers
+< Vary: Origin
+< Vary: Access-Control-Request-Method
+< Vary: Access-Control-Request-Headers
+< Content-Language: en-US
+< Server: Apple
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 30 Apr 2020 19:29:47 GMT
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Referrer-Policy: same-origin
+< Date: Thu, 30 Apr 2020 21:41:19 GMT
+< Content-Type: text/html
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/favicon.ico><link rel=stylesheet href=https://www.apple.com/ac/globalfooter/3/ar_AE/styles/ac-globalfooter.built.css type=text/css media=all><title>Apple Support Pay</title><style>.overlay {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+    }
+
+    #globalfooter {
+      font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+      direction: ltr;
+      color: #6e7071 !important;
+      padding-bottom: 0px !important;
+    }
+
+    #globalfooter a {
+      color: #0070c9 !important;
+    }
+
+    #globalfooter #breadcrumbs {
+      background: none !important;
+      border: .5px solid #e0e0e0;
+      border-radius: 5px;
+      background-color: #fdfdfd !important;
+    }
+
+    #globalfooter #breadcrumbs a.home {
+      background: url(applelogo.png) no-repeat center;
+      background-size: 13px 13px;
+    }
+
+    #ac-globalfooter {
+      background-color: initial;
+    }
+
+    @media all and (min-width: 960px) and (max-width: 1024px) {
+      #globalfooter {
+        width: 960px !important;
+      }
+      .gf-buy {
+        width: 100% !important;
+      }
+      .gf-links {
+        float: left !important;
+      }
+      .gf-sosumi>p {
+        float: none !important;
+      }
+    }
+
+    @media all and (min-width: 801px) and (max-width: 959px) {
+      #globalfooter {
+        width: 801px !important;
+      }
+      .gf-buy {
+        width: 100% !important;
+      }
+      .gf-links {
+        float: left !important;
+      }
+      .gf-sosumi>p {
+        float: none !important;
+      }
+    }
+
+    @media all and (min-width: 769px) and (max-width: 800px) {
+      #globalfooter {
+        width: 769px !important;
+      }
+      .gf-buy {
+        width: 100% !important;
+      }
+      .gf-links {
+        float: left !important;
+      }
+      .gf-sosumi>p {
+        float: none !important;
+      }
+    }
+
+    @media all and (min-width: 569px) and (max-width: 768px) {
+      #globalfooter {
+        width: 569px !important;
+      }
+      .gf-buy {
+        width: 100% !important;
+      }
+      .gf-links {
+        float: left !important;
+      }
+      .gf-sosumi>p {
+        float: none !important;
+      }
+    }
+
+    @media all and (min-width: 481px) and (max-width: 568px) {
+      #globalfooter {
+        width: 481px !important;
+      }
+      .gf-buy {
+        width: 100% !important;
+      }
+      .gf-links {
+        float: left !important;
+      }
+      .gf-sosumi>p {
+        float: none !important;
+      }
+    }
+
+    @media all and (min-width: 321px) and (max-width: 480px) {
+      #globalfooter {
+        width: 321px !important;
+      }
+      .gf-buy {
+        width: 100% !important;
+      }
+      .gf-links {
+        float: left !important;
+      }
+      .gf-sosumi>p {
+        float: none !important;
+      }
+    }
+
+    @media all and (min-width: 0px) and (max-width: 320px) {
+      #globalfooter {
+        width: 320px !important;
+      }
+      .gf-buy {
+        width: 100% !important;
+      }
+      .gf-links {
+        float: left !important;
+      }
+      .gf-sosumi>p {
+        float: none !important;
+      }</style><link href=/css/app.f3eb1cf0.css rel=preload as=style><link href=/css/chunk-vendors.f2076c64.css rel=preload as=style><link href=/js/app.280d939d.js rel=preload as=script><link href=/js/chunk-vendors.579acea2.js rel=preload as=script><link href=/css/chunk-vendors.f2076c64.css rel=stylesheet><link href=/css/app.f3eb1cf0.css rel=stylesheet></head><body><div id=app><div class=overlay></div></div><script>window.Columbo =
+      window.Columbo ||
+      function (o, u) {
+        'function' == typeof o ? (u = o) : (Columbo.config = o),
+          u && (Columbo.q = Columbo.q || []).push(u)
+      }
+    Columbo(
+      {
+        appConfig: {
+          version: '1.0.0',
+          columboId:
+            '2c3865df84d1af1784fb5364262bbeac5e595222e2f91fe3d05b32255f5d53ea'
+        },
+        endpoint: 'https://columbo-event.apple.com/api/v2'
+      },
+      reporter => {
+        reporter.enable()
+      }
+    )</script><script src=/js/chunk-vendors.579acea2.js></script><script src=/js/app.280d939d.js></script></body></html>

@@ -1,0 +1,24 @@
+https://sendgrid.boozt.com/
+
+> GET / HTTP/1.1
+> Host: sendgrid.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Tue, 11 Aug 2020 14:07:48 GMT
+< Content-Type: text/html
+< Cf-Cache-Status: DYNAMIC
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< Cf-Ray: 5c1286659ff81ac8-SIN
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Set-Cookie: __cfduid=d24e16b9c57782d2eab3c70a86bd5080a1597154868; expires=Thu, 10-Sep-20 14:07:48 GMT; path=/; domain=.boozt.com; HttpOnly; SameSite=Lax; Secure
+< Cf-Request-Id: 047f72537c00001ac83a221200000001
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

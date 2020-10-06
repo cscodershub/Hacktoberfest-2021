@@ -1,0 +1,19 @@
+http://research.samsung.com/
+
+> GET / HTTP/1.1
+> Host: research.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Set-Cookie: SCOUTER=z1rf9dtekeb10q; Max-Age=2147483647; Expires=Mon, 28-Jun-2088 08:51:11 GMT; Path=/
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Expires: 0
+< X-Frame-Options: SAMEORIGIN
+< Location: https://research.samsung.com/
+< Date: Wed, 10 Jun 2020 05:37:04 GMT
+< Content-Length: 0
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1
+< Pragma: no-cache
+< Server: Null
+

@@ -1,0 +1,294 @@
+https://redcap.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: redcap.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Redcap-Random-Text: LYTFn2exEy2QZBKcPMrzZ5aau8jzNMEGVQe9Y
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< X-Content-Type-Options: nosniff
+< Access-Control-Allow-Origin: *
+< Set-Cookie: PHPSESSID=91s62a15cm819812jg2epovmof; path=/; HttpOnly
+< Set-Cookie: PHPSESSID=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; HttpOnly
+< X-Powered-By: PHP/7.2.31
+< X-Xss-Protection: 1; mode=block
+< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.2.31
+< Pragma: no-cache
+< Vary: Accept-Encoding
+< Content-Type: text/html; charset=UTF-8
+< Date: Sat, 18 Jul 2020 13:54:39 GMT
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta name="googlebot" content="noindex, noarchive, nofollow, nosnippet">
+<meta name="robots" content="noindex, noarchive, nofollow">
+<meta name="slurp" content="noindex, noarchive, nofollow, noodp, noydir">
+<meta name="msnbot" content="noindex, noarchive, nofollow, noodp">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REDCap</title>
+<link rel="shortcut icon" href="/redcap_v9.1.19/Resources/images/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/redcap_v9.1.19/Resources/images/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v9.1.19/Resources/css/jquery-ui.min.css"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v9.1.19/Resources/css/style.css"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v9.1.19/Resources/css/home.css"/>
+<script type="text/javascript" src="/redcap_v9.1.19/Resources/js/base.js"></script>
+		<!--[if IE 9]>
+		<link rel="stylesheet" type="text/css" href="/redcap_v9.1.19/Resources/css/bootstrap-ie9.min.css">
+		<script type="text/javascript">$(function(){ie9FormFix()});</script>
+		<!--<![endif]-->
+		</head>
+<body><script type="text/javascript">
+	$(function () {
+		if ($('#project-menu-logo').length > 0 && false) {
+			var newPanel = $('#app_panel').clone()
+			newPanel.attr('id', 'external_modules_panel')
+			newPanel.find('.x-panel-header div:first-child').html("External Modules")
+			var menuToggle = newPanel.find('.projMenuToggle')
+			var menuId = "projMenuExternalModules";
+			menuToggle.attr('id', menuId)
+
+			var menubox = newPanel.find('.x-panel-body .menubox .menubox')
+			var exampleLink = menubox.find('.hang:first-child').clone()
+			menubox.html('')
+
+			            // Only render the newPanel if the menubox contains links
+			if (menubox.children().length) {
+				newPanel.insertBefore('#help_panel')
+				
+				projectMenuToggle('#projMenuExternalModules')
+
+				var shouldBeCollapsed = false;
+				var isCollapsed = menuToggle.find('img')[0].src.indexOf('collapse') === -1
+				if(
+					(shouldBeCollapsed && !isCollapsed)
+					||
+					(!shouldBeCollapsed && isCollapsed)
+				){
+					menuToggle.click()
+				}
+			}
+		}
+	})
+</script>
+
+<div id="pagecontainer" class="container-fluid" role="main">	<script type="text/javascript">
+		var redcap_version = '9.1.19';
+	var server_name = 'redcap.imperial.ac.uk';
+	var app_path_webroot = '/redcap_v9.1.19/';
+	var app_path_webroot_full = 'https://redcap.imperial.ac.uk/';
+	var app_path_images = '/redcap_v9.1.19/Resources/images/';
+	var page = 'index.php';
+	var sendit_enabled = 1;
+	var super_user = 0;
+	var surveys_enabled = 0;
+	var now = '2020-07-18 13:54:39'; var now_mdy = '07-18-2020 13:54:39'; var now_dmy = '18-07-2020 13:54:39';
+	var today = '2020-07-18'; var today_mdy = '07-18-2020'; var today_dmy = '18-07-2020';
+	var email_domain_whitelist = new Array();
+	var user_date_format_jquery = 'dd-mm-yy';
+	var user_date_format_validation = 'dmy';
+	var user_date_format_delimiter = '-';
+	var ALLOWED_TAGS = '<ol><ul><li><label><pre><p><a><br><center><font><b><i><u><h6><h5><h4><h3><h2><h1><hr><table><tbody><tr><th><td><img><span><div><em><strong><acronym><sub><sup><map><area>';
+	var AUTOMATE_ALL = '0';
+		var datatables_disable = [];	
+	var langMsg137 = 'NOTICE: It appears that you may have multiple browser windows/tabs open, which may prevent some things from working on this page until this page is refreshed. It is advised that you complete what you are doing, and then refresh this page.';
+	var langMsg68 = '(click to go to project)';
+	var langMsg69 = '(current project)';
+	var langTimepicker01 = 'Now';
+	var langTimepicker02 = 'Time';
+	var langTimepicker03 = 'Hour';
+	var langTimepicker04 = 'Minute';
+	var langTimepicker05 = 'Choose Time';
+	var langAutoLogout01 = 'REDCap Auto Logout Warning';
+	var langAutoLogout02 = 'Log In';
+	var langAutoLogout03 = 'Continue on this page';
+	var warn_timeout1 = 'You will be automatically logged out of REDCap in <b>2 MINUTES</b> due to inactivity. Click the button below to prevent auto logout.';
+	var warn_timeout2 = 'You will be automatically logged out of REDCap in <b>30 SECONDS</b> due to inactivity. Click the button below to prevent auto logout.';
+	var warn_timeout3 = '<b>Due to inactivity, your REDCap session has expired.</b> Click the button below to log in again.';
+	$(function(){
+		$.datepicker.setDefaults({
+			closeText: 'Done',
+			prevText: 'Prev',
+			nextText: 'Next',
+			currentText: 'Today',
+			monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+			dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+			dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa']
+		});
+	});
+	</script>
+	<div id="container"><div id="pagecontent"><style type="text/css">#container{ background: url("/redcap_v9.1.19/Resources/images/redcap-logo-large.png") no-repeat; }</style><div id="left_col"><h4 style="margin-top:60px;padding:3px;border-bottom:1px solid #AAAAAA;color:#000000;font-weight:bold;">Log In</h4><p style='font-size:13px;'>
+				Please log in with your user name and password. If you are having trouble logging in, please contact
+				<a style='font-size:13px;text-decoration:underline;' href="mailto:icredcap.service@imperial.ac.uk">Redcap Service</a>.
+			</p>
+			<br><center><form name='form' style='max-width:350px;' method='post' action='/'><div class='input-group'>
+				<div class='input-group-prepend' style='margin-left:30px;'>
+					<span class='input-group-text fs14 wrap' id='basic-addon1' style='width:120px;color:#333;'>Username:</span>
+					<input type='text' class='form-control fs14' style='border-top-left-radius:0;border-bottom-left-radius:0;width:180px;' aria-labelledby='basic-addon1' name='username' id='username' value='' tabindex='1' >
+				</div>
+			</div><div class='input-group' style='margin-top:10px;'>
+				<div class='input-group-prepend' style='margin-left:30px;'>
+					<span class='input-group-text fs14 wrap' id='basic-addon1' style='width:120px;color:#333;'>Password:</span>
+					<input type='password' class='form-control fs14' style='border-top-left-radius:0;border-bottom-left-radius:0;width:180px;' aria-labelledby='basic-addon1' name='password' id='password' value='' tabindex='2' >
+				</div>
+			</div>
+			<div style='text-align:left;margin:20px 0 0 120px;'>
+				<button class='btn btn-md btn-defaultrc fs14' id='login_btn' tabindex='3' onclick="setTimeout(function(){ $('#login_btn').prop('disabled',true); },10);">Log In</button>
+				<div style="float:right;margin-top:10px;margin-right:10px;"><a style="font-size:11px;text-decoration:underline;" href="/redcap_v9.1.19/Authentication/password_recovery.php">Forgot your password?</a></div>
+
+			</div>
+			<input type='hidden' name='submitted' value='1'>
+			<input type='hidden' id='redcap_login_a38us_09i85' name='redcap_login_a38us_09i85' value=''></form></center><br></div>	<hr style="margin-bottom: 10px; border-top: 1px solid #AAA;">
+<div class='row'>
+			<div class='col-12 col-md-7' style='padding-bottom:20px;'><div>
+			<div style='float:left;font-weight:bold;'>Welcome to REDCap!</div>
+			<div class='d-none' style='float:right;margin-right:20px;'>
+				<button class='jqbuttonmed' onclick="window.location.href = '/index.php?action=myprojects';"><img src='/redcap_v9.1.19/Resources/images/folders_stack.png'> <span style='vertical-align:middle;'>Go to My Projects</span></button>
+			</div>
+			<div class='clear'></div>
+		</div>
+		<p>
+			REDCap is a secure web platform for building and managing online databases and surveys.
+			REDCap's streamlined process for rapidly creating and designing projects offers a
+			vast array of tools that can be tailored to virtually any data collection strategy.
+		</p>
+		<p>
+			REDCap provides automated export procedures for seamless data downloads to Excel and common statistical
+			packages (SPSS, SAS, Stata, R), as well as a built-in project calendar, a scheduling module, ad hoc reporting tools,
+			and advanced features, such as branching logic, file uploading, and calculated fields.
+		</p>
+		<p>
+			Learn more about REDCap by watching a
+			<i class="fas fa-film"></i> <a href='javascript:;' onclick="popupvid('redcap_overview_brief02','Brief Overview of REDCap')" style='text-decoration:underline;'>brief summary video (4 min)</a>.
+			If you would like to view other quick video tutorials of REDCap in action and an overview of its features, please see the
+			<a href='index.php?action=training' style='text-decoration:underline;'>Training Resources</a>
+			page.<br>
+		</p><p style='color:#C00000;'>
+	<i>NOTICE:</i> If you are collecting data for the purposes of human subjects research, review and approval of the project is required by your Institutional Review Board.</p>
+
+<p>
+			If you require assistance or have any questions about REDCap, please contact
+			<a style='text-decoration:underline;' href='mailto:icredcap.service@imperial.ac.uk'>Redcap Service</a>.
+		</p><div class='round'
+		style='background-color:#E8ECF0;border:1px solid #99B5B7;margin:15px 10px 0 0;padding:5px 5px 5px 10px;'><H4 align="center">Web Content Accessibility Statement</h4></a><br />
+<p><b>The REDCap software has not been formally assessed for compliance against Web Content Accessibility Guidelines (WCAG). </p><br />
+<p>The software providers (Vanderbilt University) have undertaken a lot of  usability improvements to the survey pages to improve the experience for users with disabilities and visual impairments.  </p><br />
+<p>The software is considered to be partially conformant with WCAG 2.1 . Partially conformant means that some parts of the content do not conform  to the accessibility standards. </p><br />
+<p>If you are unable to complete the study surveys, please contact your study sponsor who will assist you to capture the survey information.</p></b></div></div><div class='col-11 col-md-5'><div class="well" style="font-size:12px;">
+				<h6 style="text-align:center;margin-top:0;">
+					REDCap Features
+				</h6>
+				<p>
+					<b>Build online surveys and databases quickly and securely</b> - Create and design your project rapidly using secure web authentication from your browser. No extra software is required.
+				</p>
+				<p>
+					<b>Fast and flexible</b> - Conception to production-level survey/database in less than one day.
+				</p>
+				<p>
+					<b>Export data to common data analysis packages</b> - Export your data to Microsoft Excel, PDF, SAS, Stata, R, or SPSS for analysis.
+				</p>
+				<p>
+					<b>Ad Hoc Reporting</b> - Create custom queries for generating reports to view or download.
+				</p>			<p>
+					<b>Easily manage a contact list of survey respondents or create a simple survey link</b> - Build a list of email contacts, create custom email invitations, and track who responds, or you may also create
+		a single survey link to email out or post on a website.
+				</p>
+				<p>
+					<b>Scheduling</b> - Utilize a built-in project calendar and scheduling module for organizing your events and appointments.
+				</p>		<p>
+					<b>Send files to others securely</b> - Using 'Send-It', upload and send files to multiple recipients, including existing project documents, that are too large for email
+			attachments or that contain sensitive data.
+				</p> 		<p>
+					<b>Save your data collection instruments as a PDF to print</b> - Generate a PDF version of your forms and surveys for printing to collect data offline.
+				</p>
+				<p>
+					<b>Advanced features</b> - Auto-validation, calculated fields, 			file uploading,  			branching/skip logic, and survey stop actions.
+				</p>		<p>
+					<b>REDCap API</b> - Have external applications connect to REDCap remotely in a programmatic or automated fashion.
+				</p>			<p>
+					<b>Data Queries</b> - Document the process of resolving data issues using the Data Resolution Workflow module.
+				</p>		<p>
+				<b>Piping</b> - Inject previously collected data values into question labels, survey invitation emails, etc. to provide a
+	more customized experience.
+			</p>
+		</div>
+			</div>
+		</div><script type='text/javascript'>document.getElementById('username').focus();</script></div></div><div id="footer" class="d-none d-sm-block col-md-12" aria-hidden="true"><a href="https://projectredcap.org" tabindex="-1" target="_blank">REDCap 9.1.19</a> - &copy; 2020 Vanderbilt University</div></div>
+		<script type='text/javascript'>
+		$(function(){
+			initAutoLogout(3,30);
+		});
+		</script><div id="working">
+	<img alt="Working..." src="/redcap_v9.1.19/Resources/images/progress_circle.gif"/>
+	&nbsp;Working...
+</div>
+<div id="fade"></div>
+
+	<!-- Add hidden text for slider accessiblity on surveys -->
+	<div id="slider-0means" class="hidden">0% means</div>
+	<div id="slider-50means" class="hidden">50% means</div>
+	<div id="slider-100means" class="hidden">100% means</div>
+
+	<!-- Text used for field validation errors -->
+	<div id="valtext_divs">
+		<div id="valtext_number">This value you provided is not a number. Please try again.</div>
+		<div id="valtext_integer">This value you provided is not an integer. Please try again.</div>
+		<div id="valtext_vmrn">The value entered is not a valid Vanderbilt Medical Record Number (i.e. 4- to 9-digit number, excluding leading zeros). Please try again.</div>
+		<div id="valtext_rangehard">The value you provided must be within the suggested range.</div>
+		<div id="valtext_rangesoft1">The value you provided is outside the suggested range.</div>
+		<div id="valtext_rangesoft2">This value is admissible, but you may wish to double check it.</div>
+		<div id="valtext_time">The value entered must be a time value in the following format HH:MM within the range 00:00-23:59 (e.g., 04:32 or 23:19).</div>
+		<div id="valtext_zipcode">This field must be a 5 or 9 digit U.S. ZIP Code (like 94043). Please re-enter it now.</div>
+		<div id="valtext_phone">This field must be a 10 digit U.S. phone number (like 415 555 1212). Please re-enter it now.</div>
+		<div id="valtext_email">This field must be a valid email address (like joe@user.com). Please re-enter it now.</div>
+		<div id="valtext_regex">The value you provided could not be validated because it does not follow the expected format. Please try again.</div>
+		<div id="valtext_requiredformat">Required format:</div>
+	</div>
+	<!-- Regex used for field validation -->
+	<div id="valregex_divs">
+			<div id="valregex-postalcode_french" datatype="postal_code" label="Code Postal 5 caracteres (France)">/^((0?[1-9])|([1-8][0-9])|(9[0-8]))[0-9]{3}$/</div>
+			<div id="valregex-date_dmy" datatype="date" label="Date (D-M-Y)">/^((29([-\/])02\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\d|2[0-8])([-\/])(0[1-9]|1[012]))|((29|30)([-\/])(0[13-9]|1[012]))|(31([-\/])(0[13578]|1[02])))(\11|\15|\18)\d{4}))$/</div>
+			<div id="valregex-date_mdy" datatype="date" label="Date (M-D-Y)">/^((02([-\/])29\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\/])(0[1-9]|1\d|2[0-8]))|((0[13-9]|1[012])([-\/])(29|30))|((0[13578]|1[02])([-\/])31))(\11|\15|\19)\d{4}))$/</div>
+			<div id="valregex-date_ymd" datatype="date" label="Date (Y-M-D)">/^(((\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\/])02(\6)29)|(\d{4}([-\/])((0[1-9]|1[012])(\9)(0[1-9]|1\d|2[0-8])|((0[13-9]|1[012])(\9)(29|30))|((0[13578]|1[02])(\9)31))))$/</div>
+			<div id="valregex-datetime_dmy" datatype="datetime" label="Datetime (D-M-Y H:M)">/^((29([-\/])02\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\d|2[0-8])([-\/])(0[1-9]|1[012]))|((29|30)([-\/])(0[13-9]|1[012]))|(31([-\/])(0[13578]|1[02])))(\11|\15|\18)\d{4})) (\d|[0-1]\d|[2][0-3]):[0-5]\d$/</div>
+			<div id="valregex-datetime_mdy" datatype="datetime" label="Datetime (M-D-Y H:M)">/^((02([-\/])29\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\/])(0[1-9]|1\d|2[0-8]))|((0[13-9]|1[012])([-\/])(29|30))|((0[13578]|1[02])([-\/])31))(\11|\15|\19)\d{4})) (\d|[0-1]\d|[2][0-3]):[0-5]\d$/</div>
+			<div id="valregex-datetime_ymd" datatype="datetime" label="Datetime (Y-M-D H:M)">/^(((\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\/])02(\6)29)|(\d{4}([-\/])((0[1-9]|1[012])(\9)(0[1-9]|1\d|2[0-8])|((0[13-9]|1[012])(\9)(29|30))|((0[13578]|1[02])(\9)31)))) (\d|[0-1]\d|[2][0-3]):[0-5]\d$/</div>
+			<div id="valregex-datetime_seconds_dmy" datatype="datetime_seconds" label="Datetime w/ seconds (D-M-Y H:M:S)">/^((29([-\/])02\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\d|2[0-8])([-\/])(0[1-9]|1[012]))|((29|30)([-\/])(0[13-9]|1[012]))|(31([-\/])(0[13578]|1[02])))(\11|\15|\18)\d{4})) (\d|[0-1]\d|[2][0-3])(:[0-5]\d){2}$/</div>
+			<div id="valregex-datetime_seconds_mdy" datatype="datetime_seconds" label="Datetime w/ seconds (M-D-Y H:M:S)">/^((02([-\/])29\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\/])(0[1-9]|1\d|2[0-8]))|((0[13-9]|1[012])([-\/])(29|30))|((0[13578]|1[02])([-\/])31))(\11|\15|\19)\d{4})) (\d|[0-1]\d|[2][0-3])(:[0-5]\d){2}$/</div>
+			<div id="valregex-datetime_seconds_ymd" datatype="datetime_seconds" label="Datetime w/ seconds (Y-M-D H:M:S)">/^(((\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\/])02(\6)29)|(\d{4}([-\/])((0[1-9]|1[012])(\9)(0[1-9]|1\d|2[0-8])|((0[13-9]|1[012])(\9)(29|30))|((0[13578]|1[02])(\9)31)))) (\d|[0-1]\d|[2][0-3])(:[0-5]\d){2}$/</div>
+			<div id="valregex-email" datatype="email" label="Email">/^(?!\.)((?!.*\.{2})[a-zA-Z0-9\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0250-\u02AF\u0300-\u036F\u0370-\u03FF\u0400-\u04FF\u0500-\u052F\u0530-\u058F\u0590-\u05FF\u0600-\u06FF\u0700-\u074F\u0750-\u077F\u0780-\u07BF\u07C0-\u07FF\u0900-\u097F\u0980-\u09FF\u0A00-\u0A7F\u0A80-\u0AFF\u0B00-\u0B7F\u0B80-\u0BFF\u0C00-\u0C7F\u0C80-\u0CFF\u0D00-\u0D7F\u0D80-\u0DFF\u0E00-\u0E7F\u0E80-\u0EFF\u0F00-\u0FFF\u1000-\u109F\u10A0-\u10FF\u1100-\u11FF\u1200-\u137F\u1380-\u139F\u13A0-\u13FF\u1400-\u167F\u1680-\u169F\u16A0-\u16FF\u1700-\u171F\u1720-\u173F\u1740-\u175F\u1760-\u177F\u1780-\u17FF\u1800-\u18AF\u1900-\u194F\u1950-\u197F\u1980-\u19DF\u19E0-\u19FF\u1A00-\u1A1F\u1B00-\u1B7F\u1D00-\u1D7F\u1D80-\u1DBF\u1DC0-\u1DFF\u1E00-\u1EFF\u1F00-\u1FFF\u20D0-\u20FF\u2100-\u214F\u2C00-\u2C5F\u2C60-\u2C7F\u2C80-\u2CFF\u2D00-\u2D2F\u2D30-\u2D7F\u2D80-\u2DDF\u2F00-\u2FDF\u2FF0-\u2FFF\u3040-\u309F\u30A0-\u30FF\u3100-\u312F\u3130-\u318F\u3190-\u319F\u31C0-\u31EF\u31F0-\u31FF\u3200-\u32FF\u3300-\u33FF\u3400-\u4DBF\u4DC0-\u4DFF\u4E00-\u9FFF\uA000-\uA48F\uA490-\uA4CF\uA700-\uA71F\uA800-\uA82F\uA840-\uA87F\uAC00-\uD7AF\uF900-\uFAFF\.!#$%&'*+-/=?^_`{|}~\-\d]+)@(?!\.)([a-zA-Z0-9\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0250-\u02AF\u0300-\u036F\u0370-\u03FF\u0400-\u04FF\u0500-\u052F\u0530-\u058F\u0590-\u05FF\u0600-\u06FF\u0700-\u074F\u0750-\u077F\u0780-\u07BF\u07C0-\u07FF\u0900-\u097F\u0980-\u09FF\u0A00-\u0A7F\u0A80-\u0AFF\u0B00-\u0B7F\u0B80-\u0BFF\u0C00-\u0C7F\u0C80-\u0CFF\u0D00-\u0D7F\u0D80-\u0DFF\u0E00-\u0E7F\u0E80-\u0EFF\u0F00-\u0FFF\u1000-\u109F\u10A0-\u10FF\u1100-\u11FF\u1200-\u137F\u1380-\u139F\u13A0-\u13FF\u1400-\u167F\u1680-\u169F\u16A0-\u16FF\u1700-\u171F\u1720-\u173F\u1740-\u175F\u1760-\u177F\u1780-\u17FF\u1800-\u18AF\u1900-\u194F\u1950-\u197F\u1980-\u19DF\u19E0-\u19FF\u1A00-\u1A1F\u1B00-\u1B7F\u1D00-\u1D7F\u1D80-\u1DBF\u1DC0-\u1DFF\u1E00-\u1EFF\u1F00-\u1FFF\u20D0-\u20FF\u2100-\u214F\u2C00-\u2C5F\u2C60-\u2C7F\u2C80-\u2CFF\u2D00-\u2D2F\u2D30-\u2D7F\u2D80-\u2DDF\u2F00-\u2FDF\u2FF0-\u2FFF\u3040-\u309F\u30A0-\u30FF\u3100-\u312F\u3130-\u318F\u3190-\u319F\u31C0-\u31EF\u31F0-\u31FF\u3200-\u32FF\u3300-\u33FF\u3400-\u4DBF\u4DC0-\u4DFF\u4E00-\u9FFF\uA000-\uA48F\uA490-\uA4CF\uA700-\uA71F\uA800-\uA82F\uA840-\uA87F\uAC00-\uD7AF\uF900-\uFAFF\-\.\d]+)((\.([a-zA-Z\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0250-\u02AF\u0300-\u036F\u0370-\u03FF\u0400-\u04FF\u0500-\u052F\u0530-\u058F\u0590-\u05FF\u0600-\u06FF\u0700-\u074F\u0750-\u077F\u0780-\u07BF\u07C0-\u07FF\u0900-\u097F\u0980-\u09FF\u0A00-\u0A7F\u0A80-\u0AFF\u0B00-\u0B7F\u0B80-\u0BFF\u0C00-\u0C7F\u0C80-\u0CFF\u0D00-\u0D7F\u0D80-\u0DFF\u0E00-\u0E7F\u0E80-\u0EFF\u0F00-\u0FFF\u1000-\u109F\u10A0-\u10FF\u1100-\u11FF\u1200-\u137F\u1380-\u139F\u13A0-\u13FF\u1400-\u167F\u1680-\u169F\u16A0-\u16FF\u1700-\u171F\u1720-\u173F\u1740-\u175F\u1760-\u177F\u1780-\u17FF\u1800-\u18AF\u1900-\u194F\u1950-\u197F\u1980-\u19DF\u19E0-\u19FF\u1A00-\u1A1F\u1B00-\u1B7F\u1D00-\u1D7F\u1D80-\u1DBF\u1DC0-\u1DFF\u1E00-\u1EFF\u1F00-\u1FFF\u20D0-\u20FF\u2100-\u214F\u2C00-\u2C5F\u2C60-\u2C7F\u2C80-\u2CFF\u2D00-\u2D2F\u2D30-\u2D7F\u2D80-\u2DDF\u2F00-\u2FDF\u2FF0-\u2FFF\u3040-\u309F\u30A0-\u30FF\u3100-\u312F\u3130-\u318F\u3190-\u319F\u31C0-\u31EF\u31F0-\u31FF\u3200-\u32FF\u3300-\u33FF\u3400-\u4DBF\u4DC0-\u4DFF\u4E00-\u9FFF\uA000-\uA48F\uA490-\uA4CF\uA700-\uA71F\uA800-\uA82F\uA840-\uA87F\uAC00-\uD7AF\uF900-\uFAFF]){2,63})+)$/i</div>
+			<div id="valregex-integer" datatype="integer" label="Integer">/^[-+]?\b\d+\b$/</div>
+			<div id="valregex-alpha_only" datatype="text" label="Letters only">/^[a-z]+$/i</div>
+			<div id="valregex-mrn_10d" datatype="mrn" label="MRN (10 digits)">/^\d{10}$/</div>
+			<div id="valregex-mrn_generic" datatype="mrn" label="MRN (generic)">/^[a-z0-9-_]+$/i</div>
+			<div id="valregex-number" datatype="number" label="Number">/^[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?$/</div>
+			<div id="valregex-number_1dp_comma_decimal" datatype="number_comma_decimal" label="Number (1 decimal place - comma as decimal)">/^-?\d+,\d$/</div>
+			<div id="valregex-number_1dp" datatype="number" label="Number (1 decimal place)">/^-?\d+\.\d$/</div>
+			<div id="valregex-number_2dp_comma_decimal" datatype="number_comma_decimal" label="Number (2 decimal places - comma as decimal)">/^-?\d+,\d{2}$/</div>
+			<div id="valregex-number_2dp" datatype="number" label="Number (2 decimal places)">/^-?\d+\.\d{2}$/</div>
+			<div id="valregex-number_3dp_comma_decimal" datatype="number_comma_decimal" label="Number (3 decimal places - comma as decimal)">/^-?\d+,\d{3}$/</div>
+			<div id="valregex-number_3dp" datatype="number" label="Number (3 decimal places)">/^-?\d+\.\d{3}$/</div>
+			<div id="valregex-number_4dp_comma_decimal" datatype="number_comma_decimal" label="Number (4 decimal places - comma as decimal)">/^-?\d+,\d{4}$/</div>
+			<div id="valregex-number_4dp" datatype="number" label="Number (4 decimal places)">/^-?\d+\.\d{4}$/</div>
+			<div id="valregex-number_comma_decimal" datatype="number_comma_decimal" label="Number (comma as decimal)">/^[-+]?[0-9]*,?[0-9]+([eE][-+]?[0-9]+)?$/</div>
+			<div id="valregex-phone_australia" datatype="phone" label="Phone (Australia)">/^(\(0[2-8]\)|0[2-8])\s*\d{4}\s*\d{4}$/</div>
+			<div id="valregex-phone" datatype="phone" label="Phone (North America)">/^(?:\(?([2-9]0[1-9]|[2-9]1[02-9]|[2-9][2-9][0-9])\)?)\s*(?:[.-]\s*)?([2-9]\d{2})\s*(?:[.-]\s*)?(\d{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$/</div>
+			<div id="valregex-postalcode_australia" datatype="postal_code" label="Postal Code (Australia)">/^\d{4}$/</div>
+			<div id="valregex-postalcode_canada" datatype="postal_code" label="Postal Code (Canada)">/^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1}\s*\d{1}[A-Z]{1}\d{1}$/i</div>
+			<div id="valregex-postalcode_germany" datatype="postal_code" label="Postal Code (Germany)">/^(0[1-9]|[1-9]\d)\d{3}$/</div>
+			<div id="valregex-ssn" datatype="ssn" label="Social Security Number (U.S.)">/^\d{3}-\d\d-\d{4}$/</div>
+			<div id="valregex-time" datatype="time" label="Time (HH:MM)">/^([0-9]|[0-1][0-9]|[2][0-3]):([0-5][0-9])$/</div>
+			<div id="valregex-time_mm_ss" datatype="time" label="Time (MM:SS)">/^[0-5]\d:[0-5]\d$/</div>
+			<div id="valregex-vmrn" datatype="mrn" label="Vanderbilt MRN">/^[0-9]{4,9}$/</div>
+			<div id="valregex-zipcode" datatype="postal_code" label="Zipcode (U.S.)">/^\d{5}(-\d{4})?$/</div>
+		</div>
+	<div id="random_text_hidden_div" style="display:none;">dtPkWDZBjSV6gUDrs5yKp4cCFYh</div>
+</body></html>

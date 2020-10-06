@@ -1,0 +1,22 @@
+http://aries.apple.com/
+
+> GET / HTTP/1.1
+> Host: aries.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 162
+< Location: https://sh-nwk-aries.apple.com/
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:29:37 GMT
+< X-Cache: TCP_REFRESH_MISS from a49-44-130-165.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (S)
+< X-Cache-Remote: TCP_REFRESH_MISS from a49-44-118-98.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (S)
+< Content-Type: text/html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

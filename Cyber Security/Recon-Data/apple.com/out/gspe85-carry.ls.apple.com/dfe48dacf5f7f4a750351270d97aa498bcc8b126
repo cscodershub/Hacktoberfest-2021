@@ -1,0 +1,16 @@
+http://gspe85-carry.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe85-carry.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Rid: a622c71f-4021-4696-85da-34593f25a7ae
+< Date: Thu, 30 Apr 2020 21:31:18 GMT
+< Age: 1
+< Via: https/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 sgsin3-edge-bx-001.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Server: ATS/8.0.7
+< Cdnuuid: af1db9b2-ebec-43e9-bea9-95c70051ef81-3168844906
+< X-Cache: miss, hit-stale
+
+Not Found

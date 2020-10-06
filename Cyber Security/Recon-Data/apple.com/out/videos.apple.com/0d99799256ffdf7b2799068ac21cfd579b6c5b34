@@ -1,0 +1,26 @@
+http://videos.apple.com/
+
+> GET / HTTP/1.1
+> Host: videos.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Cache: TCP_MISS from a125-99-55-122.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a115-248-238-111.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Apple-Partner: origin.0
+< Server: daiquiri/3.0.0
+< X-Daiquiri-Instance: daiquiri:12814001:mr85p00it-hyhk03104001:7987:20E24
+< Date: Thu, 30 Apr 2020 21:40:02 GMT
+< X-True-Cache-Key: /L/videos.apple.com/Browser vcd=2897
+< Set-Cookie: geo=IN; path=/; domain=.apple.com
+< Content-Length: 171
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>daiquiri/3.0.0</center>
+</body>
+</html>

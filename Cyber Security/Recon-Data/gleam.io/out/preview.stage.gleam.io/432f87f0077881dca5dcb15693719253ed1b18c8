@@ -1,0 +1,15 @@
+https://preview.stage.gleam.io/
+
+> GET / HTTP/1.1
+> Host: preview.stage.gleam.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Cache-Control: no-cache
+< Connection: close
+< Content-Type: text/html
+< Www-Authenticate: Basic realm="Private"
+
+<html><body><h1>401 Unauthorized</h1>
+You need a valid user and password to access this content.
+</body></html>

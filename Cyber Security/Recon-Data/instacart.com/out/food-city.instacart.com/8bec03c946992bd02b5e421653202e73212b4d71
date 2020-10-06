@@ -1,0 +1,24 @@
+http://food-city.instacart.com/
+
+> GET / HTTP/1.1
+> Host: food-city.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 2f5b3fa20e9b26698ee5050f9fd19eea.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:09 GMT
+< Content-Type: text/html
+< Content-Length: 183
+< Location: https://food-city.instacart.com/
+< X-Amz-Cf-Id: E59IfFVol1xUmRDiykhJ9o4Ev2W92wgSZM3yZQjL165jevwG8MDVfw==
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

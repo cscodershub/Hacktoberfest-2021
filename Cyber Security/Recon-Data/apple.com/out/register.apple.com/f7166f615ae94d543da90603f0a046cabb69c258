@@ -1,0 +1,11 @@
+http://register.apple.com/
+
+> GET / HTTP/1.1
+> Host: register.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Pragma: no-cache
+< Location: https://register.apple.com/
+< Cache-Control: no-cache
+

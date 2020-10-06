@@ -1,0 +1,16 @@
+http://nmtracking.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: nmtracking.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Netflix.nfstatus: 1_3
+< X-Netflix.proxy.execution-Time: 54712
+< X-Originating-Url: http://nmtracking.geo.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:36:14 GMT
+< Server: beacon i-00c13a00632fc847c
+< Via: 1.1 i-0eb044ff4a1c5cd99 (eu-west-1)
+< Content-Length: 0
+

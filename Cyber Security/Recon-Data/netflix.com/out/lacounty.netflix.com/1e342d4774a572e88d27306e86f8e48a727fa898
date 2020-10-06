@@ -1,0 +1,25 @@
+http://lacounty.netflix.com/
+
+> GET / HTTP/1.1
+> Host: lacounty.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 17 Jun 2020 05:37:18 GMT
+< Content-Type: text/plain; charset=utf-8
+< Location: https://lacounty.netflix.com/
+< Vary: Accept, Accept-Encoding
+< Age: 1321
+< Access-Control-Allow-Origin: *
+< Server: cloudflare
+< Cf-Ray: 5a4a6af8d98adeaa-BLR
+< Alt-Svc: h3-27=":443"; ma=86400
+< Cc-Fetch-Error: no-files
+< Access-Control-Allow-Headers: X-CSRF-Token
+< Cc-Cache-Status: HIT
+< Set-Cookie: __cfduid=d3638c02a9e1f57677cd0606a41e305601592372238; expires=Fri, 17-Jul-20 05:37:18 GMT; path=/; domain=.lacounty.netflix.com; HttpOnly; SameSite=Lax
+< Cc-Stable-Domain: cantaloupe-spinach.cloudvent.net
+< Cf-Cache-Status: HIT
+< Cf-Request-Id: 0362612f8b0000deaace2e8200000001
+
+Moved Permanently. Redirecting to https://lacounty.netflix.com/

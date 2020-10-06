@@ -1,0 +1,15 @@
+https://events.fyc.netflix.com/
+
+> GET / HTTP/1.1
+> Host: events.fyc.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://series.netflixawards.com/
+< Date: Wed, 17 Jun 2020 05:35:58 GMT
+< Content-Length: 68
+< Cache-Control: public, must-revalidate, proxy-revalidate, max-age=3600
+< Content-Type: text/html; charset=utf-8
+
+<a href="https://series.netflixawards.com/">Moved Permanently</a>.
+

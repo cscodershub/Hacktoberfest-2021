@@ -1,0 +1,24 @@
+http://res.m1.email.samsung.com/
+
+> GET / HTTP/1.1
+> Host: res.m1.email.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Amz-Cf-Id: erT2r1IDHl04hpCVVeZTvDqPxWMerIJfVYGqrYiNJhWqtcjxw-J4Jg==
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 10 Jun 2020 05:35:47 GMT
+< Server: Apache
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: MAA50-C2
+< Content-Length: 217
+< Location: https://res.m1.email.samsung.com/
+< Via: 1.1 3579213845e783a90df82b40f2d1f602.cloudfront.net (CloudFront)
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://res.m1.email.samsung.com/">here</a>.</p>
+</body></html>

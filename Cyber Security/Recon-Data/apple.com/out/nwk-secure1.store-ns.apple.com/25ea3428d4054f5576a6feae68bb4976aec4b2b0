@@ -1,0 +1,29 @@
+https://nwk-secure1.store-ns.apple.com/
+
+> GET / HTTP/1.1
+> Host: nwk-secure1.store-ns.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Content-Type-Options: nosniff
+< Location: https://www.apple.com/
+< Date: Thu, 30 Apr 2020 21:31:21 GMT
+< Etag: "d41d8cd98f00b204e9800998ecf8427e"
+< Cache-Control: private, max-age=120
+< X-Frame-Options: DENY
+< Content-Security-Policy: frame-ancestors 'none'
+< Last-Modified: Thu, 30 Apr 2020 21:31:21 GMT
+< Vary: accept-encoding
+< Set-Cookie: dssid2=1d32b2ea-a32a-43a1-8c75-3b8672cfb27c; Path=/; Domain=apple.com; Expires=Sun, 28-Apr-2030 21:31:21 GMT; Max-Age=315360000; Secure; HttpOnly
+< Set-Cookie: dssf=1; Path=/; Domain=apple.com; Expires=Sun, 28-Apr-2030 21:31:21 GMT; Max-Age=315360000; Secure; HttpOnly
+< Set-Cookie: as_pcts=Jztm1gXhPYOWQCn3m3_mis5QNttmtOzocBVd6G8vlq9zw0sNoCBBMQ:h5EPRYydw2Ut; Path=/; Domain=apple.com; Secure; HttpOnly
+< Set-Cookie: as_dc=nwk; Domain=apple.com; Expires=Thu, 30-Apr-2020 22:01:21 GMT; Path=/; Secure
+< Set-Cookie: as_sfa=Mnx1c3x1c3x8ZW5fVVN8Y29uc3VtZXJ8aW50ZXJuZXR8MHwwfDE; Version=1; Domain=apple.com; Max-Age=315360000; Expires=Sun, 28-Apr-2030 21:31:21 GMT; Path=/; Secure
+< X-Xss-Protection: 1; mode=block
+< Content-Language: en-US
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Expires: Thu, 30 Apr 2020 21:33:21 GMT
+< Edge-Control: !no-store, cache-maxage=120
+< X-Request-Id: a9cb8b7e-0b9e-44e0-9cd8-0164a3f52691
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+

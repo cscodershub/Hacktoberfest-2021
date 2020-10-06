@@ -1,0 +1,51 @@
+https://gbitableauexternaluat.apple.com/
+
+> GET / HTTP/1.1
+> Host: gbitableauexternaluat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate
+< Content-Security-Policy: frame-ancestors https://*.apple.com;
+< Referrer-Policy: no-referrer-when-downgrade
+< P3p: CP="NON"
+< X-Ua-Compatible: IE=Edge
+< Pragma: no-cache
+< Date: Thu, 30 Apr 2020 21:40:51 GMT
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Accept-Ranges: bytes
+< Vary: Accept-Encoding
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< Last-Modified: Fri, 27 Mar 2020 04:17:36 GMT
+< Etag: "919-5a1ce61945800-gzip"
+< Server: Apple
+< X-Tableau: Tableau Server
+< Host: gbitableauexternaluat.apple.com
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+< Content-Security-Policy-Report-Only: connect-src * https://*.tiles.mapbox.com https://api.mapbox.com; default-src blob:; font-src * data:; frame-src * data:; img-src * data: blob:; object-src data:; report-uri /vizql/csp-report; script-src * blob:; style-src * 'unsafe-inline'
+< X-Frame-Options: SAMEORIGIN
+< Expires: -1
+
+<!DOCTYPE html>
+<html xmlns:ng="" xmlns:tb="">
+  <head ng-csp>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=2, width=device-width, height=device-height, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+  <meta name="vizportal-config" data-buildId="2020_1_102_9td9k9i3oao" data-staticAssetsUrlPrefix=""><link href="vendors~vizportal.css?e25e6021fbe07dbce528" rel="stylesheet"><link href="vizportal.css?e25e6021fbe07dbce528" rel="stylesheet"><script type="text/javascript" src="/javascripts/api/tableau-2.min.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="jquery.min.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="angular.min.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="angular-cookies.min.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="angular-sanitize.min.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="angular-ui-router.min.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="rsa.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="underscore-min.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="q.min.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="canvas-to-blob.min.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="js.cookie.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="mousetrap.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="core.min.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="vendors~vizportal.js?e25e6021fbe07dbce528"></script><script type="text/javascript" src="vizportal.js?e25e6021fbe07dbce528"></script></head>
+  <body class="tb-body">
+    <div class="tb-app" ng-app="VizPortalRun" id="ng-app" tb-window-resize>
+      <tb:app></tb:app>
+      <tb:react-toaster></tb:react-toaster>
+      <script type="text/ng-template" id="inline_stackedElement.html">
+        <div class="tb-absolute" tb-window-resize tb-left="left" tb-top="top" tb-right="right" tb-bottom="bottom" tb-visible="visible"></div>
+      </script>
+      <tb:stacked-elements></tb:stacked-elements>
+    </div>
+  </body>
+</html>

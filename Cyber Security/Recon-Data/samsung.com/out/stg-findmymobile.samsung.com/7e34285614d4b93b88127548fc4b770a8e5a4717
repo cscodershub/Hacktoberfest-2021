@@ -1,0 +1,211 @@
+https://stg-findmymobile.samsung.com/
+
+> GET / HTTP/1.1
+> Host: stg-findmymobile.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding,User-Agent
+< X-Fmm-Orgin: stg-eu
+< X-Frame-Options: DENY
+< Content-Type: text/html;charset=utf-8
+< Date: Wed, 10 Jun 2020 05:36:44 GMT
+< Set-Cookie: JSESSIONID=eUokXrPdjRD7yHzP7rD0M4Zg1g7glEv8iYh2Cbid.fmm-dev-cns-2; path=/; HttpOnly;HttpOnly;Secure
+
+
+ 
+
+ 
+
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<title>Find My Mobile</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<meta name="mobile-web-app-capable" content="yes">
+ 
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="../fmm/css/jquery-ui.css?bust=202006040924">
+<link rel="stylesheet" href="../fmm/css/jquery.scrollbar.css?bust=202006040924">
+<link rel="stylesheet" href="../fmm/css/common.css?bust=202006040924">
+<link rel="stylesheet" href="../fmm/css/fmm.css?bust=202006040924">
+<link rel="stylesheet" href="../fmm/css/sup.css?bust=202006040924">
+<link rel="stylesheet" href="../fmm/css/svg-bundle.css?bust=202006040924">
+
+	<script type="text/javascript">
+	var appVersion = "202006040924";
+	</script>
+	<script src='fmm/js/lib/require.js?bust=202006040924' type="text/javascript" charset="utf-8"></script>
+	<!--[if lt IE 9]>
+		<script type="text/JavaScript" src="../js/lib/pie.js"></script>
+		<script type="text/javascript">
+		  $(document).ready( function() {
+		    if (window.PIE) {
+		      $('.pie').each(function() {
+		       PIE.attach(this);
+		      });
+		    }
+		  });
+		</script>
+		<![endif]-->
+	<!--[if lte IE 9]>
+		<script src="js/lib/placeholders.jquery.js"></script>
+	<![endif]-->
+
+    <!--  <script type="text/javascript" src='js/lib/analytics.stg.js' async></script>	-->
+    <!--  <script type="text/javascript" src='fmm/js/lib/analytics.js?bust=202006040924' async></script> -->
+     
+    
+       
+    <script type="text/javascript">
+	var naverClientID = 'acpy8apwl0'
+	var accountEnvType= 'stg'
+		
+    requirejs.config({
+		urlArgs: "bust=" + appVersion,
+		waitSeconds: 0, 
+	});
+
+	function getCookieByName(cname) {
+	    var name = cname + "=";
+	    var ca = document.cookie.split(';');
+	    for(var i=0; i<ca.length; i++) {
+	        var c = ca[i];
+	        while (c.charAt(0)==' ') c = c.substring(1);
+	        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+	    }
+	    return "";
+	}
+
+	function loadPrefetchItems(rel, itemType, url)
+    {
+    	var link = document.createElement("link");
+	    link.type = itemType;
+	    link.rel = rel;
+	    link.href = url;
+	  	document.getElementsByTagName("head")[0].appendChild(link);
+	}
+	
+
+	var _s2p_contrast = getCookieByName('_s2p_contrast');	
+	if(_s2p_contrast == "true") {
+		loadPrefetchItems('stylesheet', 'text/css', '../fmm/css/fmmHC.css?bust=202006040924');
+	}
+	</script>
+	
+	 	 
+	
+	
+	
+	<script type="text/javascript">
+		var userId = 'null';
+		var agent_type_by_user = 'pc';
+		var ospStateValue = 'null';
+		var cookieLang = getCookieByName('_s2p_language');
+		var cookieCountry = getCookieByName('_s2p_country');
+
+		var __language = (cookieLang !=undefined && cookieLang.length > 1) ? cookieLang :'en';
+		var __country = (cookieCountry !=undefined && cookieCountry.length > 1) ? cookieCountry :'US';
+		var globalLocale = __language+'_'+ __country;
+		
+		var csrfToken; 
+		var domain = 'EU';
+		var htmlTag = document.getElementsByTagName('html');		
+		htmlTag[0].lang = __language; //For html validation purpose only.
+		var logIn;
+		var GlobalMessage;
+		var nls;
+		var isLoginSuccess = 'null';
+		var deviceList;
+		var LastSelectedDvc;
+		var isAgreement;
+		var agreementPath;
+		var deviceType = 'pc';
+		var domainUrl ='https://stg-findmymobile.samsung.com';
+		var appId = 'ntly6zvfpn';		
+		var emailid = 'null';
+		var mqttTopic;
+		var mqttWillTopic;
+		var isError = false;
+		var errorStatusCode;
+		var mqttUrl;
+		var nicePinEncData;
+		var niceTelEncData;
+		var notice;
+		var aboutUs = '';		
+		
+		var mquserName;
+		var mquserCode;
+		var mqclientId;		
+		var korPrivacyDate= '2018-12-20';
+		
+		var swpDrivePath = 'https://dev.swp.svc.samsung.com/Drive';
+		var swpGalleryPath = 'https://dev.swp.svc.samsung.com/Gallery';
+		var swpHomePath = 'https://dev.swp.svc.samsung.com/Home';
+		var swpNotePath = 'https://dev.swp.svc.samsung.com/Note';
+		var swpStoragePath = 'https://dev.swp.svc.samsung.com/Storage/#/?refApp=Fmm';
+		var swpLoginPath = 'https://dev.swp.svc.samsung.com/Login';
+		var swpFmmAnchor = 'https://dev.swp.svc.samsung.com/Login/#/FMM';
+		var fmmUnionLocale = 'EU';
+				
+		checkGlobalLocale();
+		requirejs(['fmm/js/main'], function(main) {
+      		
+		}); 
+			
+
+	    function performSaccountClick() {
+	    	var frm = document.frm_test;
+	    	frm.method = "POST";
+	    	frm.actionID.value = "FindEmail";
+	    	var lang_ctry = globalLocale.split("_");
+	    	frm.languageCode.value = lang_ctry[0];
+   	
+	    	frm.submit();
+	    }
+
+		
+
+	    function checkGlobalLocale()
+		{
+	    	if (globalLocale == undefined || globalLocale == null || globalLocale == '') {
+				if (navigator.languages != undefined){ 
+					globalLocale = navigator.languages[0];
+				} 
+				else{ 
+					globalLocale = navigator.language;
+				}
+				globalLocale = globalLocale.replace('-', '_');
+			}	
+		}
+	</script>
+</head>
+
+<body onload=''>
+<form name="frm_test" method="post" action="https://account.samsung.com" >
+	<input type="hidden" name="actionID" value="startAP" />
+	<input type="hidden" name="serviceID" value="9fm95yr10p" />
+	<input type="hidden" name="serviceName" value="SamsungDive" />
+	<input type="hidden" name="GUID" value="null" />
+	<input type="hidden" name="countryCode" value="" />
+	<input type="hidden" name="languageCode" value="" />
+	<input type="hidden" name="goBackURL" value="https://stg-findmymobile.samsung.com" />
+</form>
+
+<form id="supportFrm" name="supportFrm" method="post">
+    <input type="hidden" id="countryCd" name="countryCd" value="" />
+    <input type="hidden" id="lang" name="lang" value="" />
+    <input type="hidden" id="Email" name="Email" value="" />
+    <input type="hidden" id="serviceCd" name="serviceCd" value="findmymobile" />
+    <input type="hidden" id="targetUrl" name="targetUrl" value="/faq/searchFaq.do" />
+    <input type="hidden" id="chnlCd" name="chnlCd" value="web" />
+    <input type="hidden" id="isChnr" name="isChnr" value="true" />
+    <input type="hidden" name="goBackURL" value="https://stg-findmymobile.samsung.com" />  
+</form>
+     <div id='fmm_application' style="width:100%;height:100%;display:none;"></div>
+</body>
+
+</html>

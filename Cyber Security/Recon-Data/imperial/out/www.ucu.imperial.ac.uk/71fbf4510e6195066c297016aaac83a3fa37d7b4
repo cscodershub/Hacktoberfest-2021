@@ -1,0 +1,18 @@
+https://www.ucu.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.ucu.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< X-Litespeed-Cache: hit
+< Content-Length: 0
+< Date: Sat, 18 Jul 2020 13:55:03 GMT
+< Server: LiteSpeed
+< Access-Control-Allow-Origin: https://www.ucu.org.uk
+< Location: https://ucu.imperial.ac.uk/
+< Vary: User-Agent
+< Alt-Svc: quic=":443"; ma=2592000; v="43,46", h3-Q043=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-25=":443"; ma=2592000, h3-27=":443"; ma=2592000
+< X-Redirect-By: WordPress
+

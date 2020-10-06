@@ -1,0 +1,15 @@
+https://prod.cloud.us-east-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: prod.cloud.us-east-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Via: 1.1 i-03d537a9753348dd9 (us-east-1)
+< Server: zuul i-03d537a9753348dd9
+< X-Originating-Url: https://prod.cloud.us-east-1.prodaa.netflix.com:7006/
+< X-Netflix.nfstatus: 1_5
+< Set-Cookie: memclid=ed5e4f46-b206-4da1-925a-5da7183d079e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:33:53 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEP6XGCLb45A4aSudtbTqL41ADuzfEBAkicVKp2xSEfn3B%2BWo%2F9aBH8J2UuMkiQ%2FcKHu01dZy0qODhFPK16wHkmilA4RqTQjA3tCbLkHuDJtUOQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:33:53 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.proxy.execution-Time: 987
+

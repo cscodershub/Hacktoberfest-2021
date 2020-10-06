@@ -1,0 +1,24 @@
+https://wellness.apple.com/
+
+> GET / HTTP/1.1
+> Host: wellness.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Expires: Thu, 30 Apr 2020 21:40:21 GMT
+< Pragma: no-cache
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: max-age=0, no-cache, no-store
+< Location: https://idmsac.apple.com/IDMSWebAuth/login?appIdKey=48148241eeae7261a9576bbdd225b9130fc9eaf2366855f8fb8d28210c10c5f7&rv=1&view=3&path=/
+< X-Xss-Protection: 1; mode=block
+< Date: Thu, 30 Apr 2020 21:40:21 GMT
+< Server: Apple
+< Content-Length: 0
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Host: wellness.apple.com
+

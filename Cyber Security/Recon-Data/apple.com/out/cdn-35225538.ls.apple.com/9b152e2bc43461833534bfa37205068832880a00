@@ -1,0 +1,23 @@
+https://cdn-35225538.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: cdn-35225538.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Type: text/html
+< Content-Length: 269
+< Expires: Thu, 30 Apr 2020 21:30:47 GMT
+< Date: Thu, 30 Apr 2020 21:30:47 GMT
+< X-Cache: TCP_MISS from a23-64-140-247.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+
+<HTML><HEAD>
+<TITLE>Service Unavailable</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable - DNS failure</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;11&#46;f78c4017&#46;1588282247&#46;409191fa
+</BODY></HTML>

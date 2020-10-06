@@ -1,0 +1,28 @@
+http://status.coursera.org/
+
+> GET / HTTP/1.1
+> Host: status.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Vary: Accept,Accept-Encoding,X-Forwarded-Host,X-Forwarded-Scheme,X-Forwarded-Proto,Fastly-SSL
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 10 Aug 2020 04:52:07 GMT
+< X-Xss-Protection: 1; mode=block
+< X-Runtime: 0.039751
+< X-Permitted-Cross-Domain-Policies: none
+< Referrer-Policy: strict-origin-when-cross-origin
+< Age: 352
+< Cache-Control: no-cache
+< X-Cache: HIT
+< Content-Type: text/html; charset=utf-8
+< Strict-Transport-Security: max-age=259200
+< X-Request-Id: cdbd8dd0-921e-4aa2-90dc-8fce431c8bd6
+< Location: https://status.coursera.org/
+< X-Statuspage-Skip-Logging: true
+< X-Download-Options: noopen
+< X-Content-Type-Options: nosniff
+< X-Statuspage-Version: 36f1a3672cd370d3e142c76c876b4ccd4a939b67
+< Content-Length: 94
+
+<html><body>You are being <a href="https://status.coursera.org/">redirected</a>.</body></html>

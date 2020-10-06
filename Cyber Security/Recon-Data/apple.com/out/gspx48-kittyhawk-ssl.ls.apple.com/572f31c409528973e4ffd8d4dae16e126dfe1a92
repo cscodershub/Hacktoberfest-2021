@@ -1,0 +1,19 @@
+http://gspx48-kittyhawk-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspx48-kittyhawk-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: ATS/8.0.7
+< Cdnuuid: 97782b1e-2271-4a3a-b1d6-f485bc838559-770215572
+< X-Cache: skipped
+< Content-Length: 39
+< Date: Thu, 30 Apr 2020 21:31:08 GMT
+< Age: 1
+< Via: https/1.1 sgsin3-edge-bx-031.ts.apple.com (ApacheTrafficServer/8.0.7)
+
+<html>
+<body>
+<p>Not Found.</p>
+</html>

@@ -1,0 +1,20 @@
+https://shealth.samsung.com/
+
+> GET / HTTP/1.1
+> Host: shealth.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Tue, 09 Jun 2020 06:10:59 GMT
+< Server: AmazonS3
+< Via: 1.1 f468d4be4190315811788259705d446a.cloudfront.net (CloudFront)
+< Age: 39306
+< X-Amz-Cf-Id: XBCbOvs279bCGd6Akl6HiCmLSI8jdcdwNyzxToyd9_55YsJBDN2wGQ==
+< Content-Type: text/html
+< Content-Length: 960
+< Date: Tue, 09 Jun 2020 18:41:52 GMT
+< Etag: "1459189dbddd5894a806b88550b9e738"
+< X-Cache: Hit from cloudfront
+< X-Amz-Cf-Pop: MAA50-C1
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge, chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" id=viewport><base href=/ ><link rel=icon href=/static/img/samsunghealth_favicon_v01.ico type=image/x-icon><title>Samsung Health</title><link href=/static/css/font.css rel=stylesheet type=text/css><link href=/static/css/app.css rel=preload as=style><link href=/static/js/app.js rel=preload as=script><link href=/static/js/vendor.js rel=preload as=script><link href=/static/css/app.css?b95a4e58135a28f3fce7 rel=stylesheet></head><body><noscript><strong>We're sorry but vue-test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/static/js/vendor.js?b95a4e58135a28f3fce7></script><script src=/static/js/app.js?b95a4e58135a28f3fce7></script></body></html>

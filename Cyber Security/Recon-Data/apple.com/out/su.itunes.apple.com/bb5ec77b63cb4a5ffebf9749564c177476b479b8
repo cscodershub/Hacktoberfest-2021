@@ -1,0 +1,26 @@
+http://su.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: su.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000
+< Content-Security-Policy: default-src 'self'  *.apple.com;
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< Date: Thu, 30 Apr 2020 21:30:27 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< X-Xss-Protection: 1; mode=block
+< X-Server: (null)
+< Cache-Control: public,max-age=3600,no-transform
+< Vary: Accept-Encoding
+< Last-Modified: Wed, 29 Apr 2020 08:38:02 GMT
+< Etag: "6f-5a469ddc2541b"
+
+<html>
+<body>
+<p><a href="/WebObjects/MZAdmin.woa/">DJ</a>
+<p><a href="/WebObjects/iTunesConnect.woa/">iTC</a>

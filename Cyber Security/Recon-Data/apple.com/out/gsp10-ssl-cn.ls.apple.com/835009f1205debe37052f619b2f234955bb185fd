@@ -1,0 +1,11 @@
+https://gsp10-ssl-cn.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsp10-ssl-cn.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Rid: 9c100f16-bf41-4f67-82ea-46aab0796a15
+< Content-Length: 9
+
+Not Found

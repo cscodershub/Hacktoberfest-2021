@@ -1,0 +1,32 @@
+https://iforgot-nc-s.apple.com/
+
+> GET / HTTP/1.1
+> Host: iforgot-nc-s.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Set-Cookie: idclient=web; Domain=iforgot.apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: dslang=US-EN; Domain=apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: site=USA; Domain=apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: X-Apple-I-Web-Token=AAAAKjJ8NTIxZThkYzU4NjQyYjAxMTdlMGU0NjhkN2Y0ZDhiNmQAAAFxzQwYck2OizJ2HggIhqZgRgpc9J6xT281S+gXouMMkR4qVdpYPYyD73YxACDW3QR+zyr6o5p2wBAn4kazgr4nrTyzYLQCNHCx7Su5bAs4iJyZxw==; Max-Age=900; Expires=Thu, 30-Apr-2020 21:44:14 GMT; Domain=apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: ifssp=57073FF6793646BD2AC17BCFE49A9D6AA984789C8EE3E899D7F5E0BF1227372A01DA337F251A03D41FC4B122C3C267057232E50833B13B8AE8ABC7A148CB0023367C15D8482C5DEDB435F939512E4D71B87C6C374CDDEF32D0B9AD727000B6A9D679D45B27AB05BBD3E4D42CDA1DF59B895BF87FDA9C7B35; Domain=iforgot.apple.com; Path=/; Secure; HttpOnly
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Vary: Accept-Encoding
+< Server: Apple
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.apple.com https://*.cdn-apple.com http://*.apple-mapkit.com https://*.apple-mapkit.com ; object-src 'self' http://*.apple-mapkit.com https://*.apple-mapkit.com; style-src 'unsafe-inline' https://*.apple.com https://*.cdn-apple.com http://*.apple-mapkit.com https://*.apple-mapkit.com ; img-src 'self' data: https://*.apple.com https://*.cdn-apple.com https://*.icloud.com https://*.mzstatic.com http://*.apple-mapkit.com https://*.apple-mapkit.com ; media-src * data:; connect-src 'self' http://*.apple-mapkit.com https://*.apple-mapkit.com;
+< X-Apple-I-Request-Id: 3e8761d5-9856-48b7-a705-2d416afbe50b
+< X-Buildversion: R8-2
+< Pragma: no-cache
+< Host: iforgot-nc-s.apple.com
+< X-Content-Type-Options: nosniff
+< Content-Location: /
+< Location: /password/verify/appleid
+< Content-Language: en-US-x-lvariant-USA
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache
+< Cache-Control: no-store
+< Date: Thu, 30 Apr 2020 21:29:14 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+

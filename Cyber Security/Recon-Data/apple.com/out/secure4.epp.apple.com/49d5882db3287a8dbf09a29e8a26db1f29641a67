@@ -1,0 +1,12 @@
+https://secure4.epp.apple.com/
+
+> GET / HTTP/1.1
+> Host: secure4.epp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Thu, 30 Apr 2020 21:28:35 GMT
+< Set-Cookie: as_dc=ucp1; Domain=apple.com; Expires=Thu, 30-Apr-2020 21:58:35 GMT; Path=/; Secure
+< X-Request-Id: 7a2dfcca-931e-4ee9-b2ad-fad9cd3823f1
+< Server: Apple
+

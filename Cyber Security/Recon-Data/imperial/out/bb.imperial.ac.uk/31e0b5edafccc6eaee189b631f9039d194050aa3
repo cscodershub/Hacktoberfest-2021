@@ -1,0 +1,28 @@
+https://bb.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: bb.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Frame-Options: SAMEORIGIN
+< Location: /auth-saml/saml/login?apId=_14_1&redirectUrl=https%3A%2F%2Fbb.imperial.ac.uk%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Date: Sat, 18 Jul 2020 13:54:23 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Tue, 18 Jul 2000 13:54:23 GMT
+< Expires: Thu, 18 Jul 2019 13:54:23 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< Set-Cookie: session_id=534255ECBE46AF9DA278A9BF92B2A5D2; Path=/; HttpOnly
+< Set-Cookie: s_session_id=A674B9B9545AF0A091F1256D24DB4067; Path=/; Secure; HttpOnly
+< Set-Cookie: web_client_cache_guid=d650561a-e7ed-4433-ab71-a4bdb82158a8; Path=/; Secure
+< Set-Cookie: NSC_309628_wjq_46.183.240.113*443=ffffffff090b1d6645525d5f4f58455e445a4a4229a0;path=/;secure
+< Content-Length: 0
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.9-rel.12+78adef1
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-309628-sf555142-app001.mhint
+

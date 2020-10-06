@@ -1,0 +1,20 @@
+http://multimediachat.apple.com/
+
+> GET / HTTP/1.1
+> Host: multimediachat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Length: 138
+< Location: https://multimediachat.apple.com/
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:40:44 GMT
+< Content-Type: text/html
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

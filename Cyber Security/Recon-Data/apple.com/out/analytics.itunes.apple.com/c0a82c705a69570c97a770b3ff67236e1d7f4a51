@@ -1,0 +1,17 @@
+https://analytics.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: analytics.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Location: https://appstoreconnect.apple.com/login?module=AppAnalytics&hostname=analytics.itunes.apple.com&targetUrl=%2F&authResult=FAILED
+< X-Apple-Jingle-Correlation-Key: KPEHN4BHCKBFZEFR5TH7WGKRMY
+< X-Daiquiri-Instance: daiquiri:38493002:pv50p00it-hyhk10063901:7987:20E24
+< Content-Length: 1
+< Set-Cookie: dq-auth-retry:4MuxdooW-1aDgWp5wmAczcyzC2M=1; Max-Age=10; Expires=Thu, 30 Apr 2020 21:30:19 GMT; Path=/; Secure; HTTPOnly
+< Server: daiquiri/3.0.0
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Thu, 30 Apr 2020 21:30:09 GMT
+
+

@@ -1,0 +1,16 @@
+https://indoor-wc.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: indoor-wc.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-B3-Traceid: 57709afc15712d30
+< Date: Thu, 30 Apr 2020 21:30:50 GMT
+< Content-Type: text/plain; charset=utf-8
+< Vary: Accept-Encoding
+< Set-Cookie: PLAY_SESSION=2-TlU4wd015f8Ikw3FrS8DqLv8Ge3WxPZ9xd9h69ByyCHkDj6MZ+egnaDLxeKzhgQ2URb/kAgtaW5CgVga2ZLmMhe10xRSOx+LybbqXqSlo0MQWSBjFPsvjiXPuuktvv1v6WwzGYbclCFd; Path=/; Secure; HTTPOnly
+< Strict-Transport-Security: max-age=31536000
+< Server: AppleHttpServer/62e237dc531d
+
+Handler not found for request GET /

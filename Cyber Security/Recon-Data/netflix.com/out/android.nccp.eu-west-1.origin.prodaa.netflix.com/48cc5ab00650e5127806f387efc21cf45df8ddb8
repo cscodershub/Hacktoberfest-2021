@@ -1,0 +1,25 @@
+http://android.nccp.eu-west-1.origin.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: android.nccp.eu-west-1.origin.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Set-Cookie: memclid=f8b678bc-c27b-43e9-8975-a43e6c0095b4; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:38 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEGmjpIz3vs2xGiGO8FsEHDhAHa9Qbrty%2BGB57Pt2wKolxF9G07Z8zJTyLIelNyz%2FgTa7t6rI1zpDKxqIIFa51nyfxPmEPa%2Fjs5w7Bq0qUGY%2FKA%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:38 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 4
+< X-Originating-Url: http://android.nccp.eu-west-1.origin.prodaa.netflix.com/
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 17 Jun 2020 05:34:38 GMT
+< Server: nccp-modern i-0e9a663884ecd0aee
+< Via: 1.1 i-0459a26f01be15872 (eu-west-1)
+< Content-Length: 199
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

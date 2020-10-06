@@ -1,0 +1,39 @@
+http://remote.america.samsung.com/
+
+> GET / HTTP/1.1
+> Host: remote.america.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Server: None
+< Date: Wed, 10 Jun 2020 05:35:54 GMT
+< Content-Type: text/html
+< Last-Modified: Tue, 11 Feb 2020 05:18:08 GMT
+< Content-Length: 588
+< Etag: "24c-5e423910"
+
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>GD Web</title>
+ </head>
+ <body>
+   <div>
+  <table cellpadding="0px" cellspacing="0px" style="width:100%">
+   <tr>
+    <td height="30" align="center" style="background-color:#ffffff; border-bottom:1px solid #000000; padding-bottom:5px;">
+     <span style="font-size:20px;">GD Web</span>
+    </td>
+   </tr>
+   <tr height="230">
+    <td align="center" valign="middle" style="padding-top:15px; padding-bottom:10px;">
+		<script LANGUAGE="javascript">
+		</script>
+    </td>
+   </tr>
+  </table>
+ </div>
+ </body>
+</html>

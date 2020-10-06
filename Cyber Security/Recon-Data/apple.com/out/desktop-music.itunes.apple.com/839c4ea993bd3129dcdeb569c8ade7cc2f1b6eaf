@@ -1,0 +1,100 @@
+https://desktop-music.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: desktop-music.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Last-Modified: Thu, 16 Apr 2020 20:21:15 GMT
+< X-Apple-Jingle-Correlation-Key: XM5CE4CDVLQ5GAN7CJKZV7K4OE
+< Cache-Control: no-transform, max-age=57
+< Vary: Accept-Encoding
+< Date: Thu, 30 Apr 2020 21:29:43 GMT
+< Etag: 74027a835de17ae486542e5e102c9f3a
+< X-Responding-Instance: silverbullet-external:2032:st13p00it-ztdg07184101:8301:20REL3
+< X-Apple-Request-Uuid: bb3a2270-43aa-e1d3-01bf-12559afd5c71
+< Apple-Seq: 0.0
+< Apple-Tk: false
+< Server: daiquiri/3.0.0
+< X-Apple-Version-Number: 2016.2.0
+< Apple-Originating-System: UnknownOriginatingSystem
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:45887002:st44p00it-hyhk16064801:7987:20E24
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="robots" content="noindex">
+
+    <title>Apple Music</title>
+
+    
+<meta name="desktop-music-app/config/environment" content="%7B%22contentSecurityPolicy%22%3A%7B%22img-src%22%3A%22'self'%20*.mzstatic.com%20https%3A%2F%2F*.mzstatic.com%20*.apple.com%20data%3A%20artwork%3A%22%2C%22style-src%22%3A%22'self'%20'unsafe-inline'%22%2C%22font-src%22%3A%22'self'%20data%3A%22%2C%22report-uri%22%3A%22'self'%22%2C%22connect-src%22%3A%22'self'%20https%3A%2F%2F*.itunes.apple.com%20https%3A%2F%2Fitunes.apple.com%20https%3A%2F%2F*.apple.com%20http%3A%2F%2F*.itunes.apple.com%22%2C%22script-src%22%3A%22'self'%20'unsafe-inline'%22%7D%2C%22modulePrefix%22%3A%22desktop-music-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history%22%2C%22historySupportMiddleware%22%3Atrue%2C%22viewportConfig%22%3A%7B%22viewportDidScroll%22%3Afalse%2C%22viewportTolerance%22%3A%7B%22top%22%3A200%2C%22left%22%3A100%2C%22bottom%22%3A200%2C%22right%22%3A100%7D%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_JQUERY_INTEGRATION%22%3Atrue%7D%2C%22i18n%22%3A%7B%22useDevLoc%22%3Atrue%2C%22defaultLocale%22%3A%22en-us%22%7D%2C%22APP%22%3A%7B%22SPINNER_DELAY%22%3A2000%2C%22PLAYBACK_DELAY%22%3A2000%2C%22IS_DOWNLOADED%22%3A3000%2C%22BROWSE_LAZY_SHELVES%22%3A0.6%2C%22FOR_YOU_LAZY_SHELVES%22%3A0.4%2C%22tvMoviesRatingsUrl%22%3A%22https%3A%2F%2Fdesktop-store.itunes.apple.com%2FmovieTvRatingsAdvisory%2F%22%2C%22socialOnboardingInvite%22%3A%22https%3A%2F%2Fitunes.apple.com%2Fdeeplink%3Fp%3Dsharing%26app%3Dmusic%22%2C%22manageAppleIdURL%22%3A%22https%3A%2F%2Fappleid.apple.com%2Faccount%2Fmanage%22%2C%22iCloudSettingUrl%22%3A%22https%3A%2F%2Fsetup.icloud.com%2Femail%2Fprefs%2FaccountDetails%3Fpath%3DloadPersonalInfoUI%22%2C%22getMusicSDKAuthorizationsSrv%22%3A%22https%3A%2F%2Fplay.itunes.apple.com%2FWebObjects%2FMZPlay.woa%2Fwa%2FgetMusicSDKAuthorizationsSrv%22%2C%22revokeMusicSDKAuthorizationSrv%22%3A%22https%3A%2F%2Fplay.itunes.apple.com%2FWebObjects%2FMZPlay.woa%2Fwa%2FrevokeMusicSDKAuthorizationSrv%22%2C%22name%22%3A%22desktop-music-app%22%2C%22version%22%3A%222016.2.0-v2%2B11eb5dde%22%7D%2C%22METRICS%22%3A%7B%22autoTrackingEnabled%22%3Atrue%2C%22topic%22%3A%22xp_its_music_main%22%2C%22appName%22%3A%22desktop-music-app%22%2C%22delegate%22%3A%22desktop%22%2C%22isEnabled%22%3Atrue%7D%2C%22MEDIA_SHELF%22%3A%7B%22GRID_CONFIG%22%3A%7B%222-2-3-4%22%3A%7B%22xsmall%22%3A2%2C%22small%22%3A2%2C%22medium%22%3A3%2C%22large%22%3A4%7D%7D%7D%2C%22MEDIA_API%22%3A%7B%22teamId%22%3A%22AMPWebPlay%22%2C%22keyId%22%3A%22WebPlayKid%22%2C%22privateKeyPath%22%3A%22.%2Fkeys%2Fwebplayer.p8%22%2C%22token%22%3A%22eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpc3MiOiJBTVBXZWJQbGF5IiwiaWF0IjoxNTg2ODkzODA4LCJleHAiOjE2MDI0NDU4MDh9.dnhQ68CKj62lFADWctrO0mO0m651hsPuEjAzZgwwgT_fMh4Y06BPAs90buWF0ZRdrxrskXwGIItHHNu448RN7g%22%7D%2C%22MUSIC%22%3A%7B%22DEFAULT_TRANSITION%22%3A%22index%22%2C%22TOKEN%22%3A%22eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpc3MiOiJBTVBXZWJQbGF5IiwiaWF0IjoxNTY5MjczNzU1LCJleHAiOjE1ODQ4MjU3NTV9.eVPXnwUaRy-6-Vv5EVoGDiQ4EW96y-L3jxMHsiqDyr38t58KdRX_PfnnMReRFbayOUcgrsP_MKNtqvXn7Hn57g%22%2C%22FEATURES%22%3A%7B%22useDevLocalizations%22%3Afalse%2C%22showPlaybackBars%22%3Atrue%2C%22showDevTools%22%3Afalse%7D%7D%2C%22moment%22%3A%7B%22includeLocales%22%3Atrue%7D%2C%22features%22%3A%7B%22AMWEB%22%3Afalse%2C%22RESKIN%22%3Afalse%2C%22DEFAULT%22%3Atrue%7D%2C%22ember-cli-mirage%22%3A%7B%22enabled%22%3Afalse%2C%22usingProxy%22%3Afalse%2C%22useDefaultPassthroughs%22%3Atrue%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+    <meta name="version" content="2016.2.0-v2">
+
+    <link integrity="" rel="stylesheet" href="/assets/vendor-9f64350e60af138b9c79aa4aef0cd105.css">
+    <link integrity="" rel="stylesheet" href="/assets/desktop-music-app-143f6fbb1e62099dc2e02082d2f74268.css">
+
+    <link rel="preconnect" href="https://js-cdn.music.apple.com" crossorigin>
+    <link rel="preconnect" href="https://itunes.apple.com" crossorigin>
+    <link rel="preconnect" href="https://api.music.apple.com" crossorigin>
+    <link rel="preconnect" href="https://amp-api.music.apple.com" crossorigin>
+    <link rel="preconnect" href="https://xp.apple.com" crossorigin>
+    <link rel="preconnect" href="https://se2.itunes.apple.com" crossorigin>
+    <link rel="preconnect" href="https://is1-ssl.mzstatic.com" crossorigin>
+    <link rel="preconnect" href="https://is2-ssl.mzstatic.com" crossorigin>
+    <link rel="preconnect" href="https://is3-ssl.mzstatic.com" crossorigin>
+    <link rel="preconnect" href="https://is4-ssl.mzstatic.com" crossorigin>
+    <link rel="preconnect" href="https://is5-ssl.mzstatic.com" crossorigin>
+    <link rel="preconnect" href="https://client-api.itunes.apple.com" crossorigin>
+    <link rel="preconnect" href="https://init.itunes.apple.com" crossorigin>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/favicon-180-eb957907435b0f6386bf2367d57d75f6.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32-f8fa14f1c8c9551f51f255919b95c706.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16-355d6bde81fb7df990572726486b774f.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel='mask-icon' href='/assets/favicon/favicon.svg' color='#ff2d15'>
+
+    
+  </head>
+  <body style="background-color: transparent">
+    
+    <script>
+        window.OVERRIDE_WEAKMAP = true;
+    </script>
+
+    <div class="pulse-spinner full-page-spinner is-not-visible" id="index-pulse">
+      <div class="pulse-spinner__nib pulse-spinner__nib-0"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-1"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-2"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-3"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-4"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-5"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-6"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-7"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-8"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-9"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-10"></div>
+      <div class="pulse-spinner__nib pulse-spinner__nib-11"></div>
+    </div>
+
+    <script>
+        setTimeout(function() {
+            var pulse = document.getElementById('index-pulse');
+            if (pulse) {
+                pulse.classList.remove('is-not-visible');
+            }
+        }, 2000);
+    </script>
+
+    <script src="https://js-cdn.music.apple.com/musickit/v1/generate.js"></script>
+    <script src="/assets/vendor-87fff789a0fe15e9585803fae5b341d4.js" integrity="sha256-CMKQSCcWlPLtnH6PHWJhraAyq8qFWgE0+f0/ItdZqBU= sha512-u+wvtMvI1YtMnHtZTiRGwTz7iH9CqzBbyoDcQtmEU2j8T7GcJLvuTW9yP0ZDjBw5aqIG9Xwyi21kPWouUZwCWg==" ></script>
+    <script src="/assets/desktop-music-app-ee0fb529d5d3a137a790dbb328c65c94.js" integrity="sha256-3YU/3dDFvjvtL5K2AyAnU6UT5QsV2BoC3e4entHmeTE= sha512-r43zG1rDl4wGWkYnT+gkxjaxh/83CkPfv5ceiMT8Tu0DLZzmA5Q2HrlSzAtgcaypOVKOkAHiRXkqHZPlELXCaw==" ></script>
+
+    
+    <div id="dt-modal-container"></div>
+  </body>
+</html>

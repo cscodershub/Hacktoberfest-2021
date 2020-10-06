@@ -1,0 +1,32 @@
+https://wiki.boomi.com/
+
+> GET / HTTP/1.1
+> Host: wiki.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000;
+< Strict-Transport-Security: max-age=300
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< X-Served-By: cache-mdw17381-MDW, cache-bom4740-BOM
+< X-Timer: S1597482978.148709,VS0,VE279
+< Accept-Ranges: bytes
+< Content-Length: 0
+< X-Frame-Options: DENY
+< X-Styx-Req-Id: fa0c38d0-ded7-11ea-a949-8a26ef20aa29
+< Date: Sat, 15 Aug 2020 09:16:18 GMT
+< X-Cache: MISS, MISS
+< Server: nginx
+< Location: https://wiki.boomi.com/wp-login.php?redirect_to=https%3A%2F%2Fwiki.boomi.com%2F&reauth=1
+< Set-Cookie: wordpress_google_apps_login=43c669d4d491c78d71a1ac869455feb6; path=/; secure
+< X-Redirect-By: WordPress
+< Age: 0
+< Via: 1.1 varnish
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< X-Pantheon-Styx-Hostname: styx-fe2-a-c895cb595-9x5cv
+< X-Cache-Hits: 0, 0
+< Vary: Cookie, Cookie
+

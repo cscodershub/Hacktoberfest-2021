@@ -1,0 +1,23 @@
+https://savant.apple.com/
+
+> GET / HTTP/1.1
+> Host: savant.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apple
+< Content-Length: 112
+< Cache-Control: no-cache
+< X-Request-Id: 6949dc6c-5bd5-4b9c-856a-45a19d4f3b93
+< Strict-Transport-Security: max-age=15552000
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Powered-By: Phusion Passenger
+< Host: savant.apple.com
+< Date: Thu, 30 Apr 2020 21:41:12 GMT
+< Content-Type: text/html
+< Status: 301 Moved Permanently
+< X-Frame-Options: SAMEORIGIN
+< Location: https://savant.apple.com/storekit/mobile/index
+< X-Runtime: 0.000728
+
+<html><body>You are being <a href="https://savant.apple.com/storekit/mobile/index">redirected</a>.</body></html>

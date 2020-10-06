@@ -1,0 +1,139 @@
+http://strolche.bmw.de/
+
+> GET / HTTP/1.1
+> Host: strolche.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 5769
+< X-Xss-Protection: 1; mode=block
+< X-Content-Security-Policy: default-src 'self'
+< Content-Type: text/html
+< Date: Tue, 11 Aug 2020 04:51:08 GMT
+< Accept-Ranges: bytes
+< X-Content-Type-Options: nosniff
+< Etag: "1689-581137e6d3112"
+< X-Webkit-Csp: default-src 'self'
+< Last-Modified: Mon, 04 Feb 2019 15:53:29 GMT
+< Content-Security-Policy: default-src 'self'
+
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>BMW Strolche e.V. / BMW Group FIZ-Strolche e.V. / BMW Strolche Regensburg e.V. - Startseite</title>
+	<meta name="keywords" content="Strolche, BMW Strolche, BMW Strolche München, BMW Strolche Regensburg, BMW-Strolche, BMW Strolche e.V., FIZ-Strolche, BMW FIZ-Strolche e.V., BMW Group FIZ-Strolche e.V., BMW Strolche Regensburg e.V., Elterninitiative, BMW-Kinderkrippe, BMW-Kindergarten, BMW-Kindertagesstätte, BMW-KiTa, BMW-Kinderbetreuung, BMW Kinderkrippe, BMW Kindergarten, BMW Kindertagesstätte, BMW KiTa, BMW Kinderbetreuung, Kinderbetreuung bei BMW, BMW-Familienpolitik, BMW Familienpolitik, BMW-Krabbelstube, BMW Krabbelstube, BMW-Krabbelgruppe, BMW Krabbelgruppe, Innovative Gruppe BMW, BMW-Kooperationseinrichtung, BMW Kooperationseinrichtung">
+	<meta name="author" content="Hubert Kronzucker">
+	<meta name="language" content="de">
+	<meta name="organization" content="BMW Strolche e.V. / BMW Group FIZ-Strolche e.V. / BMW Strolche Regensburg e.V.">
+	<meta name="generator" content="Microsoft FrontPage 12.0">
+	<meta name="description" content="Strolche - die Elternintiativen der BMW Group: 3 Kindertagesstätten in München (Nähe Werk, Nähe Forschungs- und Innovationszentrum FIZ) und Regensburg (Nähe Werk), getragen von 3 gemeinnützigen Vereinen (BMW Strolche e.V., BMW Group FIZ-Strolche e.V., BMW Strolche Regensburg e.V.) bieten in unterschiedlichen Betreuungskonzepten Kinderbetreuung von 0-6">
+	<meta name="robots" content="index,follow"> 
+	<!-- Standardstylesheet fuer Body, Headlines, Fliesstext und Fusszeile -->
+	<link rel=stylesheet type="text/css" href="main01.css">
+	<style type="text/css">
+.style1 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: x-small;
+	color: #FFFFFF;
+	background-color: #C0C0C0;
+}
+.style2 {
+	text-decoration: none;
+}
+.style3 {
+	color: #FFFFFF;
+}
+</style>
+</head>
+
+<!-- Hintergrundfarbe weiss; Linkfarbe schwarz; Aktive Links bei Click grau; "visited" links schwarz -->
+
+<body bgcolor="#FFFFFF" link="#000000" alink="#999999" vlink="#000000" onLoad="parent.navi.bgColNav('home')">
+<table border="0" cellspacing="0" cellpadding="0" width="600">
+<tr><td height="19" class="style1" style="width: 1183px"><strong>
+	<a href="http://www.bmw.de" class="style2"><span class="style3">BMW Deutschland</span></a></strong></TD></TR>
+  <tr>
+	<td height="94" valign="top" style="width: 1183px">
+		<!-- Headline(s) --><h3>&nbsp;</h3>
+		<h3> <font class="hl1" face="Arial, Helvetica, Sans-Serif" color="#000000">Herzlich
+		  willkommen bei den Strolchen !<br>
+		  </font> <font class="hl2" face="Arial, Helvetica, Sans-Serif" color="#666666">Betriebsnahe,
+    gemeinnützige Elterninitiativen&nbsp;für die Vereinbarkeit&nbsp;von Familie und Beruf.</font></h3>		<br></td>
+</tr>
+<tr>
+	<td height="265" valign="top">
+	<!-- Hier kann der Fliesstext positioniert werden -->
+	<p align="Center"> <br>
+	  <font face="Arial, Helvetica, Sans-Serif"> <strong><a href="http://www.bmwstrolche.de" target="_self">BMW Strolche 
+	    M&uuml;nchen e.V.</a></strong><br>
+	    gegr&uuml;ndet 1992<br>
+	    </font> </p>
+	<CENTER>
+  <TABLE CELLPADDING="2" ALIGN="Center" WIDTH="">
+    <TR>
+      <TD width="30%" allign=center><p align="Center"><font face="Arial, Helvetica, Sans-Serif"><strong> <a target="_blank" href="http://www.fiz-strolche.de">BMW
+        FIZ Strolche M&uuml;nchen e.V.</a></strong><br>
+        gegr&uuml;ndet 2001</font></p>        <P ALIGN=Center></TD>
+      <TD width="40%" allign=center><P ALIGN=Center>
+	<IMG SRC="img/raster.jpg" WIDTH="300" HEIGHT="270"></TD>
+      <TD width="30%" allign=center><P ALIGN=Center>
+    <font face="Arial, Helvetica, Sans-Serif"><B><a href="http://www.bmw-strolche-regensburg.de/" target="_self">BMW Strolche
+    Regensburg e.V.</a></B><BR>
+	gegr&uuml;ndet 2003</font></TD>
+    </TR>
+  </TABLE>
+</CENTER>
+
+    <p ALIGN="Center"><font face="Arial, Helvetica, Sans-Serif"><B><a href="https://www.bmw-strolche-dingolfing.de">BMW Strolche
+    Dingolfing e.V.</a></B><BR>
+	gegr&uuml;ndet 2004</font></p>
+<P ALIGN=Center>
+<font face="Arial, Helvetica, Sans-Serif">
+
+<!-- <div align="center">
+  <center>
+  <table border="0">
+    <tr> 
+    <td align="center" valign="middle">
+<font face="Arial, Helvetica, Sans-Serif">
+
+        <p align="center">&nbsp; <img border="0" src="img/acopdflogo.gif" alt="Acrobat PDF-Dokument" width="30" height="30" align="middle">&nbsp;
+        <a href="flyer.pdf">Die Strolche in Kürze: Unser Info-Flyer</a>&nbsp;
+        </p>
+
+		</font>
+    </td>
+  </tr>
+  <center>
+  <tr>
+    <td colspan="2" width="590">
+      <p align="center"><font size="1" face="Arial, Helvetica, Sans-Serif">Zum Anschauen oder Ausdrucken des Flyers
+      wird die Software Adobe Acrobat Reader benötigt.&nbsp;<br>
+ Die Software steht unter
+      <a href="http://www.adobe.com/products/acrobat/readstep.html">http://www.adobe.com/products/acrobat/readstep.html</a>
+      zum Download bereit.&nbsp;<br>
+ Sie finden alle Informationen jedoch auch auf den
+      folgenden Seiten der BMW Strolche und der BMW FIZ-Strolche.</font></td>
+  </tr>
+  </table>
+  </center>
+</div> -->
+
+        <p align="center">&nbsp;
+        </p>
+
+		</font>
+	</td>
+</tr>
+</table>
+
+<p align="left"><font size="-2" face="Arial, Helvetica" class="foot">
+[Stand: 
+<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%d.%m.%Y" startspan -->22.08.2018<!--webbot bot="Timestamp" endspan i-checksum="12519" --> | <a href="mailto:strolche.kontakt@bmw.de">Kontakt</a> | <a href="index.html" onMouseOut="window.status=''" onMouseOver="window.status='Home Projekt'; return true;" target="_top">Strolche
+Home</a> | © BMW
+Strolche München e.V. / BMW FIZ Strolche München e.V. / BMW
+Strolche Regensburg e.V.]</FONT><br></P>
+</body>
+</html>

@@ -1,0 +1,20 @@
+http://ondemand.qa.boomi.com/
+
+> GET / HTTP/1.1
+> Host: ondemand.qa.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 238
+< Server: Apache/2.4.6 (Red Hat Enterprise Linux) PHP/5.4.16
+< Location: https://ondemand.qa.boomi.com/
+< Date: Sat, 15 Aug 2020 09:16:14 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://ondemand.qa.boomi.com/">here</a>.</p>
+</body></html>

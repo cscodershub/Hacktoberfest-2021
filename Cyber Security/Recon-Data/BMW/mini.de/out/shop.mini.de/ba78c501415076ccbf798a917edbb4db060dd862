@@ -1,0 +1,1152 @@
+https://shop.mini.de/
+
+> GET / HTTP/1.1
+> Host: shop.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apache/2
+< Vary: Host,Accept-Encoding
+< Cache-Control: no-cache,no-store,must-revalidate
+< Content-Type: text/html;charset=utf-8
+< Set-Cookie: sid=AcHzE7fUeub2E-jmJVEmk5l0f_PqaWf0NVeNIa6u; Path=/; Version=1; HttpOnly
+< Set-Cookie: pgid-MINIDE-MarketDE-Site=XEPKh.q8DShSRpBgVNA1lNIx0000fyiLYGoD; Path=/; Version=1; HttpOnly
+< Date: Tue, 11 Aug 2020 04:54:40 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Expires: Thu, 01 Dec 1994 16:00:00 GMT
+
+
+
+<!DOCTYPE html> 
+<html lang="de"
+xmlns="http://www.w3.org/1999/xhtml" 
+xmlns:og="http://ogp.me/ns#">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=1270"><meta name="title" content="MINI Shop Deutschland" /><meta name="description" content="MINI Markt - Deutschland" /><meta name="keywords" content="MINI Markt - Deutschland" /><meta name="format-detection" content="telephone=no" /><link rel="canonical" href="https://shop.mini.de/mini-de/de_DE/index.html" /><link rel="shortcut icon" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/img/icon_logo.ico" type="image/x-icon" />
+<link rel="icon" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/img/icon_logo.ico" type="image/x-icon" />
+<title>MINI Shop Deutschland</title>
+
+
+
+
+ 
+
+
+
+<script type="text/javascript">
+	var SYNCHRONIZER_TOKEN_NAME = 'SynchronizerToken';
+	var SYNCHRONIZER_TOKEN_VALUE = 'a146221d7fb6e16ff275267ac2b90c015dc458717721777efd2cb47779bf92b2';
+</script><script type="text/javascript">
+var pageProperties = new Object();
+pageProperties.webRoot = "/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE";
+pageProperties.pipelineURL = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewContent-Start";
+pageProperties.currentChannelName = "MarketDE";
+pageProperties.currentPipelineName = "";
+pageProperties.webserverURL = "http://shop.mini.de:80";
+pageProperties.webserverSecureURL = "https://shop.mini.de:443";
+pageProperties.deleteCookiesURL = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewApplication-DeleteCookies";
+pageProperties.showErrorURL = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewAjax-Start?LayerTarget=ViewError-Layer";
+
+
+pageProperties.marketDomainId = "MINIDE-MarketDE";
+
+pageProperties.brandName = "MINI";
+pageProperties.loginPage = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewAjax-Start?LayerTarget=ViewUserAccount-ShowLogin";
+pageProperties.registerPage = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewAjax-Start?LayerTarget=ViewUserAccount-ShowRegister";
+pageProperties.passwordForgottenPage = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewAjax-Start?LayerTarget=ViewForgotLoginData-ForgotPassword";
+pageProperties.recalculateCartURL = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewCart-Recalculate";
+pageProperties.vinValidationIdentOnlyURL = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewVehicleInformation-ViewVehicleSelectionTeaser?IsPopup=true&ChangeVehicle=true&IdentOnly=true";
+
+pageProperties.vinValidationURL = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewVehicleInformation-ViewVehicleSelectionTeaser?IsPopup=true&ChangeVehicle=true";
+
+pageProperties.showProductNotificationURL = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewAjax-Start?LayerTarget=ViewProductNotification-ViewAlertForm";
+pageProperties.renderVehicleInfoURL = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewPagelet_comp_product_detail-RenderVehicleInfo?VP_ERROR=&ETKContext=true";
+pageProperties.deactivateVehicleURL = 'https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewGarage-RemoveAllVehicleInformation';
+pageProperties.socialMedia = new Object();
+pageProperties.socialMedia.pInterestURL="http://www.bmw.de";
+pageProperties.socialMedia.pInterestMedia="https://www.bmw.de/dam/bmw/marketDE/bmw_next/logo-icons/id-modul/bmw_id_DE_de.png.resource.1353521369274.png";
+pageProperties.socialMedia.pInterestDescription="BMW";
+pageProperties.socialMedia.tracking = false
+pageProperties.sid = ""
+
+
+pageProperties.marketDomainId = "MINIDE-MarketDE";
+
+pageProperties.miniCartCount = "";
+pageProperties.vin = "";
+pageProperties.encryptedVIN = "";
+pageProperties.hasVIN = false;
+pageProperties.VINValidationSwitch = "";
+pageProperties.ProductListPageSize = 12;
+pageProperties.vehicle = new Object();
+pageProperties.vehicle.ModelSeries = "";
+pageProperties.vehicle.ProductionDate = ""; 
+pageProperties.vehicle.ColorCode = "";
+pageProperties.vehicle.Gearing = "";
+pageProperties.vehicle.EngineSeries = "";
+pageProperties.vehicle.CubicCapacity = "";
+pageProperties.vehicle.AutoBody = "";
+pageProperties.vehicle.Series = "";
+pageProperties.vehicle.Model = "";
+pageProperties.vehicle.ModelVariantDetail = "";
+pageProperties.vehicle.PseudoTypeKeys = "";
+pageProperties.vehicle.TypeKeys = "";
+pageProperties.checkVINValidationSwitchURL = "https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewAjax-GetSessionValue?SessionObjectName=VINValidationSwitch";
+
+var messages = new Array();
+messages["email_invalid"] = "Bitte geben Sie eine g&uuml;ltige E-Mail-Adresse ein.";
+messages["tel_invalid"] = "Bitte geben Sie eine g&uuml;ltige Telefonnummer ein.";
+messages["pwd_invalid"] = "Bitte geben Sie ein g&uuml;ltiges Passwort ein.";
+messages["pwd_repeat"] = "Bitte geben Sie das Passwort erneut ein.";
+messages["slider_min"] = "von";
+messages["slider_max"] = "bis";
+messages["expand_all"] = "Alle &ouml;ffnen";
+messages["collapse_all"] = "Alle schlie&szlig;en";
+messages["load_more"] = "Mehr Produkte anzeigen";
+</script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery-1.8.3.min.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.ui-1.9.2.min.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.scrollto.min.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/extended.videoplayer.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/appconfig.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/swipegallery.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/swfobject.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.easing.min.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/supersized.3.2.7.min.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/supersized.shutter.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.jqzoom-core.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.placeholder-enhanced.min.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.autocomplete-2.1.0.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.custom-scrollbar.3.0.4.concat.min.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.ui.touch-punch.0.2.3.min.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.touchswipe.min.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.uri.1.14.1.js?lastModified=1558528026000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/jquery/jquery.cookie.js?lastModified=1470213972000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/csrfGuard.js?lastModified=1470213964000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/scripts_base.js?lastModified=1595531176000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/libraries/jquery.easyPaginate.js?lastModified=1558528026000" defer></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?v=3&sensor=false&language=de&libraries=geometry&key=AIzaSyD9patCvB-rn55stDqsk7oMgaoa1l7qx7Y"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/jquery.postMessage.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/jquery.jsonp-2.1.4.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/extdraggableobject_packed.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/mxn/mxn.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/mxn/mxn.core.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/mxn/mxn.googlev3.core.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/mxn/mxn.geocoder.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/mxn/mxn.googlev3.geocoder.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/mxn/mxn.router.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/mxn/mxn.googlev3.router.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/C2B.LocalSearch.Base.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/C2B.LocalSearch.LocalSearch.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/C2B.LocalSearch.MapBoundsInit.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/C2B.LocalSearch.BackendWrapper.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/C2B.LocalSearch.Poi.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/C2B.LocalSearch.PoiList.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/C2B.LocalSearch.Pin.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/C2B.LocalSearch.PinCluster.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/C2B.LocalSearch.PinList.js?lastModified=1558528022000"></script><script type="text/javascript" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/c2b-localsearch/static/localsearch/v4/js/C2B.LocalSearch.Error.js?lastModified=1558528022000"></script><script type="text/javascript">
+messages["overview"] = "&Uuml;bersicht";
+</script><script src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/js/scripts_mini.js?lastModified=1558528026000"></script><script type="text/javascript">
+var previousRequest = unescape('%7B+%22VIN%22+%3A+%22%22%2C++%22VehicleTypeKeys%22+%3A+%22%22%2C+%22PathInfo%22+%3A+%22%2FWFS%2FMINIDE-MarketDE-Site%2Fde_DE%2F-%2FEUR%2FDefault-Start%22%2C+%22Parameters%22+%3A+%5B%5D%7D'); // prevent Cross Site Scripting by encoding PreviousRequest, then decode it back
+previousRequest = JSON.parse(String(previousRequest).replace(/\+/g, ' ')); // further decode is necessary to replace plus "+" with space " "
+previousRequest.VIN = pageProperties.encryptedVIN;
+previousRequest.VehicleTypeKeys = pageProperties.vehicle.TypeKeys;
+
+var selectedDealer = bmw.shops.util.Cookie.readCookie('SelectedDistributionPartnerIdAndOutletId');
+if (selectedDealer != null) {
+var ids = selectedDealer.split('_'); 
+if (ids.length == 3 && pageProperties.marketDomainId == ids[2]) {
+window.location = bmw.shops.commands.createPipelineURL('ViewDealerSelection-Redirect', 0, '?DistributionPartnerID='+ids[0]+'&OutletID='+ids[1]+'&PreviousRequest='+ encodeURIComponent(JSON.stringify(previousRequest)) + '&CID=SEAKamp19&CRE=MINIDE&TYPE=R&auml;derwechsel_nichteingelagert&PLA=2020-01&tl=soc-plan-kurz-pro-miy-.-.-.-.-.-.');
+}
+}
+</script>
+<script type="text/javascript">
+window.bmwcsaPageID = "MINIDE-MarketDE-Site";
+</script><script type="text/javascript">
+$(document).ready(function() {
+bmw.shops.commands.checkForceInitialLayer();
+});
+</script><!--[if !(lt IE 9)]><!-->
+<style>
+@font-face {
+font-family: 'BMWType_Bold';
+src: url('/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/fonts/bmwtypewebbold.woff') format('woff'), /* FF3.6+, IE9+ */
+url('/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/fonts/bmwtypewebbold.ttf') format('truetype'), /* Saf3+,Chrome,FF3.5,Opera10+ */
+url('/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/fonts/bmwtypewebbold.svg#BMWTypeWebBold') format('svg'); /* iOS before 4.2 */
+}
+</style>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<style>
+@font-face {
+font-family: 'BMWType_Bold';
+src: url('/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/fonts/bmwtypewebbold.eot');
+}
+</style>
+<![endif]-->
+<style>
+@font-face {
+font-family: 'bmwTypeWebBoldAll';
+src: url('/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/fonts/BMWTypeWebBoldAll.20161018.woff2') format('woff2');
+}
+@font-face {
+font-family: 'bmwTypeWebLightAll';
+src: url('/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/fonts/BMWTypeWebLightAll.20161018.woff2') format('woff2');
+}
+</style>
+<link rel="stylesheet" type="text/css" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/libraries/cssreset.min.css"/><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/styles.css?lastModified=1595356720000" media="all"><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/styles_ie11.css?lastModified=1558528026000" media="all"><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/libraries/jquery.jqzoom.css?lastModified=1558528026000" media="all"><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/libraries/supersized.css?lastModified=1558528026000" media="all"><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/libraries/supersized.shutter.css?lastModified=1558528026000" media="all"><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/libraries/jquery.custom-scrollbar.3.0.4.css?lastModified=1558528026000" media="all"><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/libraries/extended.videoplayer.css?lastModified=1558528026000" media="all"><script>
+/*@cc_on
+@if (@_jscript_version == 10)
+document.write('<link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/styles_ie10.css?lastModified=1558528026000" media="all">');
+@end
+@*/
+</script>
+<!--[if (gte IE 9) & (lt IE 10)]><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/styles_ie9.css?lastModified=1558528026000" media="all"> 
+<![endif]-->
+<!--[if (gte IE 8) & (lt IE 9)]><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/styles_ie8.css?lastModified=1558528026000" media="all"> 
+<![endif]--> 
+<!--[if lt IE 8]><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/styles_ie7.css?lastModified=1558528026000" media="all"> 
+<![endif]--><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/print.css?lastModified=1558528026000" media="print"> 
+<!--[if !(lt IE 9)]><!-->
+<style>
+@font-face {
+font-family: 'MINITypeHeadline';
+src: url('/waroot/css/fonts/minitypeheadline.woff') format('woff'), /* FF3.6+, IE9+ */
+url('/waroot/css/fonts/minitypeheadline.ttf') format('truetype'), /* Saf3+,Chrome,FF3.5,Opera10+ */
+url('/waroot/css/fonts/minitypeheadline.svg#MINITypeHeadline') format('svg'); /* iOS before 4.2 */
+font-family: 'MINITypeRegular';
+src: url('/waroot/css/fonts/minityperegular.woff') format('woff'), /* FF3.6+, IE9+ */
+url('/waroot/css/fonts/minityperegular.ttf') format('truetype'), /* Saf3+,Chrome,FF3.5,Opera10+ */
+url('/waroot/css/fonts/minityperegular.svg#MINITypeRegular') format('svg'); /* iOS before 4.2 */
+}
+</style>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<style>
+@font-face {
+font-family: 'MINITypeHeadline';
+src: url('/waroot/css/fonts/minitypeheadline.eot');
+font-family: 'MINITypeRegular';
+src: url('/waroot/css/fonts/minityperegular.eot');
+}
+</style>
+<![endif]--><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/styles_payment_amazon.css?lastModified=1558528026000" media="all"><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/styles_mini.css?lastModified=1595356720000" media="all"><link type="text/css" rel="stylesheet" href="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/extended.videoplayer.css?lastModified=1558528026000" media="all">
+</head>
+<body ><noscript>
+<div class="kor-modal kor-active-content ish-dialogPage-warnBoxBackgroundLayer"></div>
+<div class="kor-overlay ish-dialogPage ish-dialogPage-warnBox">
+<div class="kor-header">
+<div class="kor-header-contents"></div>
+</div>
+<div class="kor-content-active">
+<div class="kor-content-contents">
+<div>Offenbar ist JavaScript in Ihrem Browser deaktiviert.<div>Die Funktion dieser Webseite setzt jedoch JavaScript voraus.<br/><br/>Bitte aktivieren Sie JavaScript und laden Sie diese Seite erneut.</div>
+</div>
+</div>
+</div>
+</div>
+</noscript>
+ 
+<div id="loginstatus" style="display:none">0</div> 
+<div id="wrapper"> 
+
+<div id="content" class="headerBar cookieInfo">
+<h1>Cookies auf shop.MINI.de</h1>
+<p>MINI verwendet Cookies (auch von Drittanbietern), um Informationen &uuml;ber die Nutzung der Website durch die Besucher zu sammeln. Diese Cookies helfen uns dabei, Ihnen das bestm&ouml;gliche Online-Erlebnis zu bieten, unsere Website st&auml;ndig zu verbessern und Ihnen Angebote zu unterbreiten, die auf Ihre Interessen zugeschnitten sind. Mit dem Klick auf den Button &quot;COOKIES ZULASSEN&quot; erkl&auml;ren Sie sich mit der Verwendung von Cookies einverstanden. F&uuml;r weitere Informationen &uuml;ber die Nutzung von Cookies oder f&uuml;r die &Auml;nderung Ihrer Einstellungen klicken Sie bitte auf &quot;Mehr &uuml;ber die Verwendung und Ablehnung von Cookies&quot;.</p>
+<a class="arrow cookieSettings" href="#">Mehr &uuml;ber die Verwendung und Ablehnung von Cookies</a><br><br>
+<button class="buttonComp buttonBlue floatRight cookieAccept">Zustimmen</button>
+</div>
+<script>
+$('.cookieInfo .cookieAccept').click(function() {
+bmw.shops.util.Cookie.acceptCookies();
+$(".cookieInfo, #cookieInfoPlaceholder").remove();
+});
+$('.cookieInfo .cookieSettings').click(function(event) {
+event.preventDefault();
+bmw.shops.util.Cookie.revokeAcceptCookies();
+window.location = 'https://shop.mini.de/mini-de/de_DE/content/cookies'
+});
+</script><script type="text/javascript">
+pageProperties.hideCookieLayer = 0;
+</script>
+<div id="topNav">
+<div class="firstLine">
+<ul><li> 
+<a class="mPigLpxJPPMAAAFtoEVVJiWh"  href="#" onclick="bmw.shops.pageElements.Layer.showLayer('https:&#47;&#47;shop.mini.de&#47;INTERSHOP&#47;web&#47;WFS&#47;MINIDE-MarketDE-Site&#47;de_DE&#47;-&#47;EUR&#47;ViewDealerLocator-ShowDealerLocatorPopup','.mPigLpxJPPMAAAFtoEVVJiWh');">MINI PARTNER W&Auml;HLEN</a></li></ul>
+</div>
+<div class="secondLine">
+<ul><li><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;index.html" >Home</a>
+</li> 
+ 
+<li>
+<a href="https://shop.mini.de/mini-de/de_DE/mini-original-teile/page1.html" class="hasChildren">MINI Original Teile</a>
+<ul class="subNav inner shadow">
+<li> 
+<ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-teile/alle-kategorien/page1.html">Alle Kategorien</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-teile/antrieb/page1.html">Antrieb</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-teile/ausstattung-interieur/page1.html">Ausstattung &#47; Interieur</a>
+</div></div>
+</ul></li><li><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-teile/elektrik/page1.html">Elektrik</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-teile/fahrwerk/page1.html">Fahrwerk</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-teile/karosserie-ausstattung-exterieur/page1.html">Karosserie &#47; Ausstattung &#47; Exterieur</a>
+</div></div>
+</ul></li><li><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-teile/wartung-verschleiss/page1.html">Wartung &#47; Verschleiss</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-teile/ersatzteile-fuer-zubehoerprodukte-nachruestungen/page1.html">Ersatzteile f&uuml;r Zubeh&ouml;rprodukte &#47; Nachr&uuml;stungen</a>
+</div></div>
+</ul></li></ul>
+</li><script type="text/javascript">
+if (getTypeKeyFilterValue() == null) { 
+var $headerCategoryLinks = jQuery('#topNav li.l3 a');
+$headerCategoryLinks.each(function() {
+$(this).click(function() {
+var targetCategoryLink = $(this).attr('data-cat-link');
+if (targetCategoryLink) {
+$(this).attr('href', 'javascript:void(0);');
+bmw.shops.pageElements.Layer.showLayer('https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewVehicleInformation-ViewVehicleSelectionTeaser?IsPopup=true&IsInitialPopup=true&CategoryLink='+targetCategoryLink);
+}
+});
+});
+}
+</script><script type="text/javascript">
+$(document).ready(function(){
+if (!pageProperties.hasVIN) {
+$("a.forceVINValidation").click(function() {
+var targetCategoryLink = $(this).attr('data-cat-link');
+$('a.forceVINValidation').attr('href','javascript:void(0);');
+bmw.shops.pageElements.Layer.showLayer('https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewVehicleInformation-ViewVehicleSelectionTeaser?IsPopup=true&IsInitialPopup=true&IdentOnly=true&CategoryLink='+targetCategoryLink);
+});
+}
+});
+</script> 
+ 
+<li>
+<a href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/page1.html" class="hasChildren">MINI Original Zubeh&ouml;r</a>
+<ul class="subNav inner shadow">
+<li> 
+<ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/raeder/page1.html">R&auml;der</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/aussen-design/page1.html">Aussen-Design</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/john-cooper-works/page1.html">John Cooper Works</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/musik-elektronik/page1.html">Musik &amp; Elektronik</a>
+</div></div>
+</ul></li><li><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/gepaeck-freizeit/page1.html">Gep&auml;ck &amp; Freizeit</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/innen-design/page1.html">Innen-Design</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/reinigung-pflege/page1.html">Reinigung &amp; Pflege</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/modellspezifisches-zubehoer/page1.html">Modellspezifisches Zubeh&ouml;r</a>
+</div></div>
+</ul></li><li><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2 forceVINValidation" data-cat-link="https%3A%2F%2Fshop.mini.de%2Fmini-de%2Fde_DE%2Fmini-original-zubehoer%2Fsoftware-updates%2Fpage1.html%3Bpgid%3DXEPKh.q8DShSRpBgVNA1lNIx0000W4DBDvWU%3Bsid%3Drrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/software-updates/page1.html">Software Updates</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/mini-electric/page1.html">MINI ELECTRIC</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/mini-motorenoele/page1.html">MINI Motoren&ouml;le</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/value-parts-packages/page1.html">Value Parts &amp; Packages</a>
+</div></div>
+</ul></li></ul>
+</li><script type="text/javascript">
+$(document).ready(function(){
+if (!pageProperties.hasVIN) {
+$("a.forceVINValidation").click(function() {
+var targetCategoryLink = $(this).attr('data-cat-link');
+$('a.forceVINValidation').attr('href','javascript:void(0);');
+bmw.shops.pageElements.Layer.showLayer('https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewVehicleInformation-ViewVehicleSelectionTeaser?IsPopup=true&IsInitialPopup=true&IdentOnly=true&CategoryLink='+targetCategoryLink);
+});
+}
+});
+</script> 
+ 
+<li>
+<a href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/page1.html" class="hasChildren">MINI Lifestyle</a>
+<ul class="subNav inner shadow">
+<li> 
+<ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/neue-mini-lifestyle-collection/page1.html">Neue MINI Lifestyle Collection</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/mode/page1.html">Mode</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/accessoires/page1.html">Accessoires</a>
+</div></div>
+</ul></li><li><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/gepaeck/page1.html">Gep&auml;ck</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/miniaturen/page1.html">Miniaturen</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/kids/page1.html">Kids</a>
+</div></div>
+</ul></li><li><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/bikes/page1.html">Bikes</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/geschenke/page1.html">Geschenke</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a 
+class="h2"
+ 
+href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/kollektionen/page1.html">Kollektionen</a>
+</div></div>
+</ul></li></ul>
+</li><script type="text/javascript">
+$(document).ready(function(){
+if (!pageProperties.hasVIN) {
+$("a.forceVINValidation").click(function() {
+var targetCategoryLink = $(this).attr('data-cat-link');
+$('a.forceVINValidation').attr('href','javascript:void(0);');
+bmw.shops.pageElements.Layer.showLayer('https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewVehicleInformation-ViewVehicleSelectionTeaser?IsPopup=true&IsInitialPopup=true&IdentOnly=true&CategoryLink='+targetCategoryLink);
+});
+}
+});
+</script> 
+ 
+<li>
+<a href="https://shop.mini.de/mini-de/de_DE/service-pakete/page1.html">MINI Service</a>
+</li><script type="text/javascript">
+$(document).ready(function(){
+if (!pageProperties.hasVIN) {
+$("a.forceVINValidation").click(function() {
+var targetCategoryLink = $(this).attr('data-cat-link');
+$('a.forceVINValidation').attr('href','javascript:void(0);');
+bmw.shops.pageElements.Layer.showLayer('https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewVehicleInformation-ViewVehicleSelectionTeaser?IsPopup=true&IsInitialPopup=true&IdentOnly=true&CategoryLink='+targetCategoryLink);
+});
+}
+});
+</script><li>
+<a href="https://shop.mini.de/mini-de/de_DE/content/kampagnen-specials-services" class="hasChildren">Specials und Services</a>
+<ul class="subNav inner shadow">
+<li> 
+<ul class="inner">
+<div class="content">
+<div class="h2">
+<a class="h2" href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;mini-zubehoer-fruehjahr-sommer_of_tn.glpxkd14aaafwprljii54" title="" >MINI Zubeh&ouml;r Fr&uuml;hjahr Sommer 
+</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a class="h2" href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;mini-motorenoele" title="" >MINI Motorenoele 
+</a>
+</div></div>
+</ul><ul class="inner">
+<div class="content">
+<div class="h2">
+<a class="h2" href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;mini-service-inclusive" title="" >MINI Service Inclusive 
+</a>
+</div></div>
+</ul></li></ul>
+</li></ul>
+<div id="killNavigation"></div>
+</div><div class="search">
+<form id="headerSearch" class="ish-headerSearch" role="search" name="HeaderSearch" action="https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewParametricSearch-SearchByRedirect" method="get">
+<input autocomplete="off" type="text" 
+value="Suchbegriff eingeben" 
+class="kor-searchForm" 
+data-suggestUrl="https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewSuggestSearch-Suggest?MaxAutoSuggestResults=10"  
+data-onItemSelectFunction="HeaderSearchOnItemSelect"
+data-showResultFunction="showResultInLowerCase"
+data-default-value="Suchbegriff eingeben"
+data-preventEnter=1
+name="SearchTerm"
+/>
+<a href="#" class="searchtrigger" id="headerSearchSubmitButton"></a>
+</form>
+</div><div class="thirdLine"><div id="garage" class="link">
+<div class="garageTrigger">Meine Fahrzeuge 
+</div>
+<div id="garageContent" class="shadow">
+</div>
+</div> 
+<div class="link"><a class="showRegister" href="#">Registrieren</a></div>
+<div class="link"><a class="showLogin" href="#">Login</a></div>
+<div class="welcomeMessage">Willkommen bei MINI.</div><!-- CurrentProductRepository not EmployeeShop --></div>
+<div class="idModule">
+<div class="idModuleBg"></div> 
+
+	<!-- OutletID cannot be resolved from cookie: No cookie "SelectedDistributionPartnerIdAndOutletId" -->
+
+
+<img alt="MINI Logo" src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/img/mini_id.png"> 
+</div>
+</div><script type="text/javascript">
+pageProperties.showError = 0;
+</script><script type="text/javascript">
+$(document).ready(function() {
+// check if setting cookies is allowed in browser at all and show notification when check fails
+if (! bmw.shops.util.Cookie.areCookiesEnabled())
+{
+bmw.shops.pageElements.Layer.showLayer('https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewApplication-DisplayCookieInfo?Context=CookiesDisabled');
+}
+});
+</script><script type="text/javascript">
+$(document).ready(function() {
+bmw.shops.forms.initSuggestForm($('#headerSearch'), ['SearchTerm']);
+if (pageProperties.showError > 0)
+{
+bmw.shops.pageElements.Layer.showLayer(pageProperties.showErrorURL);
+}
+});
+function HeaderSearchOnItemSelect() {
+$( "#headerSearchSubmitButton" ).click();
+};
+</script><!-- Canonical link: https://shop.mini.de/mini-de/de_DE/index.html --><div id="content" class="productCategory"><div class="withoutNavigationTeaserLeft"><div class="galleryContainer">
+<div id="swipegalleryContainer0" class="appGallery stage2line4col"><ul id="swipegallery0" style="" class="swgul"><li> 
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/1270/MINI_Corona_reduzierte_MwSt.jpg" />
+<div class="teaserOverlay blackHead" style=""><div class="h3andButton"></div>
+</div>
+<div class="stageHint" style=""></div>
+</li> 
+<li> 
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/1270/Slider_Lifestyle_02.jpg" />
+<div class="teaserOverlay whiteHead" style="left:70px !important; top:250px !important;"><h1>DIE NEUE MINI LIFESTYLE COLLECTION.</h1><div class="h3andButton"><h3>JETZT ENTDECKEN.</h3><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;MINI-Lifestyle-Collection-2020--page.campaign.mini.new.lifestyle.collection.2020.html" class="buttonComp buttonGrey" title="" >ZU DEN PRODUKTEN</a></div>
+</div>
+<div class="stageHint" style=""></div>
+</li> 
+<li> 
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/Kampagnen/Fruehjahr_Sommer_2020/MINI_Fruehjahr_Sommer_Header_4_1270.jpg" />
+<div class="teaserOverlay whiteHead" style="left:80px !important; top:40px !important;"><h1>AUSGER&Uuml;STET? FERTIG. LOS!</h1><div class="h3andButton"><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;MINI-Zubehoer-Fruehjahr-Sommer-2020--page.campaign.fruehjahr.sommer.2020.html" class="buttonComp buttonGrey" title="" >MEHR ERFAHREN</a></div>
+</div>
+<div class="stageHint" style=""></div>
+</li> 
+<li> 
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/Kampagnen/MINI%20Motoren%c3%b6le/MINI_Motorenoele_Slider_A.jpg" />
+<div class="teaserOverlay whiteHead" style="left:700px !important; "><h1>MINI ORIGINAL ENGINE OILS.</h1><div class="h3andButton"><h3>AB SOFORT HIER ERH&Auml;LTLICH.</h3><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;MINI-Motorenoele--page.campaign.mini.motorenoel.html" class="buttonComp buttonBlue" title="" >Zu den Produkten</a></div>
+</div>
+<div class="stageHint" style=""></div>
+</li> 
+<li> 
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/1270/Zubehoer_Allgemein_1270.jpg" />
+<div class="teaserOverlay whiteHead" style="left:75px !important; top:50px !important;"><h1>MINI ORIGINAL ZUBEH&Ouml;R.</h1><div class="h3andButton"><h3>VIELFALT F&Uuml;R IHREN MINI.</h3><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;mini-original-zubehoer&#47;page1.html" class="buttonComp buttonGrey" title="" >ALLE PRODUKTE ANSEHEN</a></div>
+</div>
+<div class="stageHint" style=""></div>
+</li> 
+<li> 
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/1270/Key_visiual_laenger_1270x420.jpg" />
+<div class="teaserOverlay blackHead" style="left:75px !important; top:50px !important;"><h1>John Cooper Works Zubeh&ouml;r.</h1><div class="h3andButton"><h3>DER LOOK DES RENNFAHRERS.</h3><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;mini-original-zubehoer&#47;john-cooper-works&#47;page1.html" class="buttonComp buttonGrey" title="Alle Produkte ansehen" >Alle Produkte ansehen</a></div>
+</div>
+<div class="stageHint" style=""></div>
+</li> 
+<li> 
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/1270/MINI_Header_Geschenke_1270x420.jpg" />
+<div class="teaserOverlay whiteHead" style="left:750px !important; top:250px !important;"><h1>MINI GESCHENKE.</h1><div class="h3andButton"><h3>GESCHENKIDEEN F&Uuml;R JEDEN ANLASS.</h3><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;mini-lifestyle&#47;geschenke&#47;page1.html" class="buttonComp buttonGrey" title="Zu den Geschenken" >Zu den Geschenken</a></div>
+</div>
+<div class="stageHint" style=""></div>
+</li> 
+</ul>
+<div class="prevButton"></div>
+<div class="nextButton"></div>
+<div class="swipeNav"></div>
+</div> 
+</div>
+<script type="text/javascript">
+bmw.shops.pageElements.SwipeGallery({
+height: '416px',
+paginationDevider: ' von ',
+selector: '#swipegallery0',
+width: '1270px',
+autorunSpeed:6000,
+loop:true
+}); 
+</script> <script type="text/javascript">
+if (categoryLink == null)
+var categoryLink = null;
+</script><span class="vehicleSelectionTeaser1x1">
+<div class="teaserContainer vehicleSelectionTeaser">
+
+<div class="teaser1line1col vin shadow"><div class="disabled"></div>
+<div class="wait">
+<div class="ajaxPngPreloader"></div>
+</div><div id="VinInputForm" >
+<h3>Noch einfacher alle passenden Produkte finden?</h3>
+<p>Mit Hilfe der Fahrgestellnummer k&ouml;nnen Sie die Artikel noch weiter und genauer darstellen lassen.</p>
+<form class="" name="VINIdentification" action="https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewAjax-RenderPagelet" method="post">
+<div class="search">
+<input type="text" name="VIN" value="z.B. T732200" data-default-value="z.B. T732200">
+<input type="hidden" name="Reference" value="box">
+<input type="hidden" name="PageletUUID" value="ttagLptM_tUAAAFLBvl5D3Ny">
+<span class="infoTrigger infoTriggerText"></span>
+<div class="infoLayer txt wide shadow">
+<a class="closeButton"></a>
+<div class="infoContent">
+<b>Wo finde ich meine Fahrgestellnummer (FIN)?</b>
+<p>Die Fahrgestellnummer Ihres MINI finden Sie in Ihrem Fahrzeugschein. Es gen&uuml;gt die Eingabe der letzten 7 Stellen. Mehr Informationen finden Sie in den FAQs.</p>
+</div>
+<span class="contextLayerPointerLeft"></span>
+</div>
+</div>
+<span class="error">Leider keine g&uuml;ltige Fahrgestellnummer.</span>
+<input type="submit" class="buttonComp buttonGrey selectionTrigger box" value="Ihr Fahrzeug finden"/>
+</form>
+<a class="arrow modelSelectionTrigger" href="#">&Uuml;ber die Modellauswahl</a>
+<div class="clear"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+//function to display the VIN-Validation
+$('.modelSelectionTrigger').click(function() { 
+bmw.shops.pageElements.Layer.showLayer('https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewVehicleInformation-ViewVehicleSelectionTeaser?IsPopup=true&IsInitialPopup=true&ChangeVehicle=true');
+});
+// toggle search input fields
+$('.searchContainer input, .orderSearch input, .search input').ToggleInputValue();
+});
+</script>
+</div></div>
+<script type="text/javascript">
+$(document).ready(function() {
+var vehicleModelSelection1x1;
+vehicleModelSelection1x1 = bmw.shops.pageElements.VehicleModelSelection($('.vehicleSelectionTeaser1x1'));
+vehicleModelSelection1x1.init();
+
+});
+</script></div>
+</span> 
+<div class="teaserContainer">
+<div class="teaser1line1col category shadow">
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/245/category_teaser_teile_2.jpg" />
+<h3>MINI Original Teile</h3><h4>Wischerbl&auml;tter, Bremsbel&auml;ge, uvm.</h4><a class="arrow" href="https://shop.mini.de/mini-de/de_DE/mini-original-teile/page1.html">Alle Produkte ansehen</a>
+</div>
+</div><div class="teaserContainer textTeaser"><div class="copy1line2col"><h2 >Einfach online shoppen.</h2><img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE-MarketDE/de_DE/revamp/MINI_Shop_Icons_DE_090618-07.jpg" border="0" alt="" width="551" height="201" /><ul class="linkContainer"></ul>
+</div>
+</div><div class="teaserContainer textTeaser"><div class="copy2line2col"><h2 >AUGUST HIGHLIGHT:</h2><a href="https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-00027-Site/de_DE/-/EUR/ViewStandardCatalog-Browse?CatalogID=MINI_Zubehoer_Welt-DE&amp;CategoryDomainName=MINI-MINI_Zubehoer_Welt-DE&amp;CategoryName=StructureGroup_75637690158"></a><br /><a href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/page1.html"><img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/550/Produkt_des_Monats_August_550x470.jpg" border="0" alt="" width="550" height="470" /></a><ul class="linkContainer"></ul>
+</div>
+</div><div class="teaserContainer addProduct">
+<div class="shadow product teaser1line1col">
+<div class="disabled"></div>
+<div class="wait">
+<div class="ajaxPngPreloader"></div>
+</div><img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/products/245/Sportantenne_Topseller_Stoerer.jpg" /><h4>MINI Sport Antenne</h4><span class="teaserProductPrice">
+<span
+
+>ab&nbsp;
+21,94 &euro; 
+*&nbsp;<span class="small">*</span><span class="infoTrigger infoTriggerText toBottom" id="notme"></span>
+<div class="infoLayer txt wide shadow" id="notme">
+<a class="closeButton" id="notme"></a>
+<div class="infoContent">
+<h4>Unverbindliche Preisempfehlung</h4>
+<p>Unverbindliche Preisempfehlung des Herstellers, bitte w&auml;hlen Sie einen MINI H&auml;ndler um den h&auml;ndlerspezifischen Preis zu erhalten</p>
+</div>
+<span class="contextLayerPointerLeft"></span>
+</div> 
+</span>
+</span> <a class="arrow " href="https://shop.mini.de/mini-de/de_DE/p/mini-original-zubehoer/aussen-design/aerodynamik/mini-sport-antenne/PID_86489/">Zum Produkt</a></div>
+</div><script type="text/javascript">
+function refreshMiniCart() 
+{
+$('#miniCartContent').load(bmw.shops.commands.createPipelineURL('ViewCart-MiniCart', 0, ''), function() {
+var $content = pageProperties.miniCartCount;
+if ($content === null || isNaN($content) || $content == "0" || $content == "") {
+$('#miniCart .ammount').removeClass('basketActive');
+$("#miniCartCount").html("0");
+} else {
+$('#miniCart .ammount').addClass('basketActive');
+$("#miniCartCount").html($content);
+}
+});
+}
+function addToCartNow(_trigger) 
+{
+if ($(_trigger).hasClass('incart'))
+{
+return true;
+}
+var preloader = bmw.shops.util.PngPreloader($(_trigger).closest('.teaserContainer').find('.ajaxPngPreloader'));
+var disabled = $(_trigger).closest('.teaserContainer').find('.disabled,.wait');
+$.ajax({
+method: 'POST',
+url: 'https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewCart-AddProduct?SkipReload=true',
+data: $(_trigger).closest('.teaserContainer').find('.immediateProductAdd').serialize(),
+beforeSend: function(){
+preloader.show();
+disabled.fadeIn();}
+})
+.done(function( data ) {
+$.each(data, function(index, element) {
+if ($('.teaserCart').hasClass('teaserCart'))
+{
+showTeaserCart(element.CartCount,element.TotalPrice);
+for(var i = 0; i < element.Items.length; i++) {
+var pli = element.Items[i];
+setInCart(pli.SKU);
+}
+}
+});
+preloader.hide();
+disabled.fadeOut();
+refreshMiniCart();
+})
+.fail(function(){});
+}
+</script><div class="teaserContainer addProduct">
+<div class="shadow product teaser1line1col">
+<div class="disabled"></div>
+<div class="wait">
+<div class="ajaxPngPreloader"></div>
+</div><img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/245/Reiniger_Topseller.jpg" /><h4>Innenreiniger</h4><span class="teaserProductPrice">
+</span> <a class="arrow " href="https://shop.mini.de/mini-de/de_DE/p/mini-original-zubehoer/reinigung-pflege/innenraumpflege/innenreiniger/PID_665930/">Zum Produkt</a></div>
+</div><script type="text/javascript">
+function refreshMiniCart() 
+{
+$('#miniCartContent').load(bmw.shops.commands.createPipelineURL('ViewCart-MiniCart', 0, ''), function() {
+var $content = pageProperties.miniCartCount;
+if ($content === null || isNaN($content) || $content == "0" || $content == "") {
+$('#miniCart .ammount').removeClass('basketActive');
+$("#miniCartCount").html("0");
+} else {
+$('#miniCart .ammount').addClass('basketActive');
+$("#miniCartCount").html($content);
+}
+});
+}
+function addToCartNow(_trigger) 
+{
+if ($(_trigger).hasClass('incart'))
+{
+return true;
+}
+var preloader = bmw.shops.util.PngPreloader($(_trigger).closest('.teaserContainer').find('.ajaxPngPreloader'));
+var disabled = $(_trigger).closest('.teaserContainer').find('.disabled,.wait');
+$.ajax({
+method: 'POST',
+url: 'https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewCart-AddProduct?SkipReload=true',
+data: $(_trigger).closest('.teaserContainer').find('.immediateProductAdd').serialize(),
+beforeSend: function(){
+preloader.show();
+disabled.fadeIn();}
+})
+.done(function( data ) {
+$.each(data, function(index, element) {
+if ($('.teaserCart').hasClass('teaserCart'))
+{
+showTeaserCart(element.CartCount,element.TotalPrice);
+for(var i = 0; i < element.Items.length; i++) {
+var pli = element.Items[i];
+setInCart(pli.SKU);
+}
+}
+});
+preloader.hide();
+disabled.fadeOut();
+refreshMiniCart();
+})
+.fail(function(){});
+}
+</script><div class="teaserContainer addProduct">
+<div class="shadow product teaser1line1col">
+<div class="disabled"></div>
+<div class="wait">
+<div class="ajaxPngPreloader"></div>
+</div><img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/products/245/innenraumduft_black_orange_245x136.jpg" /><h4>MINI Innenraumduft Black Orange</h4><span class="teaserProductPrice">
+<span
+
+>7,26 &euro; 
+*&nbsp;<span class="small">*</span><span class="infoTrigger infoTriggerText toBottom" id="notme"></span>
+<div class="infoLayer txt wide shadow" id="notme">
+<a class="closeButton" id="notme"></a>
+<div class="infoContent">
+<h4>Unverbindliche Preisempfehlung</h4>
+<p>Unverbindliche Preisempfehlung des Herstellers, bitte w&auml;hlen Sie einen MINI H&auml;ndler um den h&auml;ndlerspezifischen Preis zu erhalten</p>
+</div>
+<span class="contextLayerPointerLeft"></span>
+</div> 
+</span>
+</span> <a class="arrow " href="https://shop.mini.de/mini-de/de_DE/p/mini-original-zubehoer/reinigung-pflege/sonstige-produkte/mini-innenraumduft-black-orange/PID_587903/">Zum Produkt</a></div>
+</div><script type="text/javascript">
+function refreshMiniCart() 
+{
+$('#miniCartContent').load(bmw.shops.commands.createPipelineURL('ViewCart-MiniCart', 0, ''), function() {
+var $content = pageProperties.miniCartCount;
+if ($content === null || isNaN($content) || $content == "0" || $content == "") {
+$('#miniCart .ammount').removeClass('basketActive');
+$("#miniCartCount").html("0");
+} else {
+$('#miniCart .ammount').addClass('basketActive');
+$("#miniCartCount").html($content);
+}
+});
+}
+function addToCartNow(_trigger) 
+{
+if ($(_trigger).hasClass('incart'))
+{
+return true;
+}
+var preloader = bmw.shops.util.PngPreloader($(_trigger).closest('.teaserContainer').find('.ajaxPngPreloader'));
+var disabled = $(_trigger).closest('.teaserContainer').find('.disabled,.wait');
+$.ajax({
+method: 'POST',
+url: 'https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewCart-AddProduct?SkipReload=true',
+data: $(_trigger).closest('.teaserContainer').find('.immediateProductAdd').serialize(),
+beforeSend: function(){
+preloader.show();
+disabled.fadeIn();}
+})
+.done(function( data ) {
+$.each(data, function(index, element) {
+if ($('.teaserCart').hasClass('teaserCart'))
+{
+showTeaserCart(element.CartCount,element.TotalPrice);
+for(var i = 0; i < element.Items.length; i++) {
+var pli = element.Items[i];
+setInCart(pli.SKU);
+}
+}
+});
+preloader.hide();
+disabled.fadeOut();
+refreshMiniCart();
+})
+.fail(function(){});
+}
+</script><div class="teaserContainer addProduct">
+<div class="shadow product teaser1line1col">
+<div class="disabled"></div>
+<div class="wait">
+<div class="ajaxPngPreloader"></div>
+</div><img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE/de_DE/images/245/Fu%c3%9fmatte_Topseller_Stoerer.jpg" /><h4>Fussmatten Textil vorn</h4><span class="teaserProductPrice">
+<span
+
+>ab&nbsp;
+98,45 &euro; 
+*&nbsp;<span class="small">*</span><span class="infoTrigger infoTriggerText toBottom" id="notme"></span>
+<div class="infoLayer txt wide shadow" id="notme">
+<a class="closeButton" id="notme"></a>
+<div class="infoContent">
+<h4>Unverbindliche Preisempfehlung</h4>
+<p>Unverbindliche Preisempfehlung des Herstellers, bitte w&auml;hlen Sie einen MINI H&auml;ndler um den h&auml;ndlerspezifischen Preis zu erhalten</p>
+</div>
+<span class="contextLayerPointerLeft"></span>
+</div> 
+</span>
+</span> <a class="arrow " href="https://shop.mini.de/mini-de/de_DE/p/mini-original-teile/alle-kategorien/nachruestung-umruestung-zubehoer/035394-interieur-umfaenge/fussmatten-textil-vorn/PID_693867/">Zum Produkt</a></div>
+</div><script type="text/javascript">
+function refreshMiniCart() 
+{
+$('#miniCartContent').load(bmw.shops.commands.createPipelineURL('ViewCart-MiniCart', 0, ''), function() {
+var $content = pageProperties.miniCartCount;
+if ($content === null || isNaN($content) || $content == "0" || $content == "") {
+$('#miniCart .ammount').removeClass('basketActive');
+$("#miniCartCount").html("0");
+} else {
+$('#miniCart .ammount').addClass('basketActive');
+$("#miniCartCount").html($content);
+}
+});
+}
+function addToCartNow(_trigger) 
+{
+if ($(_trigger).hasClass('incart'))
+{
+return true;
+}
+var preloader = bmw.shops.util.PngPreloader($(_trigger).closest('.teaserContainer').find('.ajaxPngPreloader'));
+var disabled = $(_trigger).closest('.teaserContainer').find('.disabled,.wait');
+$.ajax({
+method: 'POST',
+url: 'https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewCart-AddProduct?SkipReload=true',
+data: $(_trigger).closest('.teaserContainer').find('.immediateProductAdd').serialize(),
+beforeSend: function(){
+preloader.show();
+disabled.fadeIn();}
+})
+.done(function( data ) {
+$.each(data, function(index, element) {
+if ($('.teaserCart').hasClass('teaserCart'))
+{
+showTeaserCart(element.CartCount,element.TotalPrice);
+for(var i = 0; i < element.Items.length; i++) {
+var pli = element.Items[i];
+setInCart(pli.SKU);
+}
+}
+});
+preloader.hide();
+disabled.fadeOut();
+refreshMiniCart();
+})
+.fail(function(){});
+}
+</script> 
+<div class="teaserContainer">
+<div class="teaser1line1col category shadow">
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE-MarketDE/de_DE/revamp/Aussen_Design_Home_Kleiner_Teaser_245_136.jpg" />
+<h3>Aussen-Design</h3><a class="arrow" href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/aussen-design/page1.html">Alle Produkte ansehen</a>
+</div>
+</div> 
+<div class="teaserContainer">
+<div class="teaser1line1col category shadow">
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE-MarketDE/de_DE/revamp/Innen_Design_Home_Kleiner_Teaser_245_136.jpg" />
+<h3>Innen-Design</h3><a class="arrow" href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/innen-design/page1.html">Alle Produkte ansehen</a>
+</div>
+</div> 
+<div class="teaserContainer">
+<div class="teaser1line1col category shadow">
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE-MarketDE/de_DE/revamp/R%c3%a4der_Startseite.jpg" />
+<h3>R&auml;der</h3><a class="arrow" href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/raeder/page1.html">Alle Produkte ansehen</a>
+</div>
+</div> 
+<div class="teaserContainer">
+<div class="teaser1line1col category shadow">
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE-MarketDE/de_DE/revamp/Reinigung_MINI_245.jpg" />
+<h3>Reinigung &amp; Pflege</h3><a class="arrow" href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/reinigung-pflege/page1.html">Alle Produkte ansehen</a>
+</div>
+</div> 
+<div class="teaserContainer">
+<div class="teaser1line1col category shadow">
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE-MarketDE/de_DE/revamp/JCW_Teaser_Home_245.jpg" />
+<h3>John Cooper Works</h3><a class="arrow" href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/john-cooper-works/page1.html">Alle Produkte ansehen</a>
+</div>
+</div> 
+<div class="teaserContainer">
+<div class="teaser1line1col category shadow">
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE-MarketDE/de_DE/revamp/Modelle_Home_Kleiner_Teaser_245_136.jpg" />
+<h3>Modellspezifisches Zubeh&ouml;r</h3><a class="arrow" href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/modellspezifisches-zubehoer/page1.html">Alle Produkte ansehen</a>
+</div>
+</div> 
+<div class="teaserContainer">
+<div class="teaser1line1col category shadow">
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE-MarketDE/de_DE/revamp/Mode_245_neu_home.jpg" />
+<h3>Lifestyle </h3><a class="arrow" href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/page1.html">Alle Produkte ansehen</a>
+</div>
+</div> 
+<div class="teaserContainer">
+<div class="teaser1line1col category shadow">
+<img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/MINIDE-MarketDE/de_DE/revamp/Gepaeck_Freizeit_245_neu.jpg" />
+<h3>Gep&auml;ck &amp; Freizeit</h3><a class="arrow" href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/gepaeck-freizeit/page1.html">Alle Produkte ansehen</a>
+</div>
+</div><div class="teaserContainer textTeaser"><div class="copy1line4col"><h2 >Der neue MINI Online Shop.</h2><p dir="LTR" align="LEFT"><br />Willkommen in der wunderbaren Welt von MINI. Im offiziellen MINI Online Shop mit tausenden Produkten finden Sie einen ganz eigenen Stil für Ihr Fahrzeug und für sich selbst. Ihr Wunschprodukt für noch mehr Gokart-Feeling wartet schon in den Kategorien <a href="https://shop.mini.de/mini-de/de_DE/original-mini-teile/page1.html" title="MINI Original Teile"><span style="text-decoration: underline;">MINI Original Teile</span></a>, <a href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/page1.html" title="MINI Original Zubehör"><span style="text-decoration: underline;">MINI Original Zubehör</span></a> und <a href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/page1.html" title="MINI Lifestyle"><span style="text-decoration: underline;">MINI Lifestyle</span></a> auf Sie.</p>
+<p dir="LTR" align="LEFT">Ob Sie nach <a href="https://shop.mini.de/mini-de/de_DE/mini-original-zubehoer/page1.html" title="MINI Original Zubehör"><span style="text-decoration: underline;">MINI Original Zubehör</span></a> wie einer Handyhalterung oder Sommerrädern, einer JCW Tasche aus den <a href="https://shop.mini.de/mini-de/de_DE/mini-lifestyle/page1.html" title="MINI Lifestyle"><span style="text-decoration: underline;">MINI Lifestyle</span></a> Produkten oder nach Ersatzteilen für Ihre Klimaanlage innerhalb der <a href="https://shop.mini.de/mini-de/de_DE/original-mini-teile/page1.html" title="MINI Original Teile"><span style="text-decoration: underline;">MINI Original Teile</span></a> suchen: Wählen Sie Ihren Wunschhändler aus, bestellen Sie rund um die Uhr an sieben Tagen die Woche ganz bequem online und lassen Sie sich Ihr Wunschprodukt einfach und sicher nach Hause liefern - oder holen Sie es direkt selbst bei Ihrer MINI Niederlassung oder bei Ihrem MINI Händler ab.</p>
+<p dir="LTR" align="LEFT">Der MINI Online Shop steht Ihnen beratend zur Seite: So werden beim Kauf einer MINI Original Bremse nach <a href="#" class="modelSelectionTrigger"><span style="text-decoration: underline;">Eingabe der Fahrgestellnummer</span></a> Ihres MINI alle dafür erforderlichen zusätzlichen Ersatzteile anhand technischer Grafiken empfohlen und Sie wissen jederzeit und auf einen Blick, welches das passende Produkt ist. Erleben Sie ein völlig neues digitales Einkaufserlebnis mit einer vielseitigen Auswahl an MINI Produkten in der Zuverlässigkeit und Qualität, die Sie von MINI gewohnt sind.<br /><br /><br /><br /></p><ul class="linkContainer"></ul>
+</div>
+</div></div><!-- end:withoutNavigation --></div><!-- end:content -->
+<div class="clear"></div><script>
+$(document).ready(function(){ 
+bmw.shops.facets.ProductCategory.init();
+});
+</script><div id="footer">
+<div id="footerContent">
+<div class="singleFooterContainer links"><b>Informationen</b>
+<ul>
+<li><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;datenschutz" >Datenschutz</a></li><li><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;rechtlicher-hinweis" >Rechtlicher Hinweis</a></li><li><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;impressum" >Impressum</a></li><li><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;agb" >AGB</a></li><li><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;cookies" >Cookies</a></li><li><a href="https:&#47;&#47;shop.bmw.de" target="_blank" >BMW Shop</a></li><li><a href="https:&#47;&#47;shop.bmw-motorrad.de" target="_blank" >BMW Motorrad Shop</a></li></ul></div>
+<div class="singleFooterContainer links"><b>Kundenservice</b>
+<ul><li> 
+<a class="N1igLptMQ0wAAAFOmnoGk2pE"  href="#" onclick="bmw.shops.pageElements.Layer.showLayer('https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;service-dialog-contact-us','.N1igLptMQ0wAAAFOmnoGk2pE','https');">Kontakt</a></li><li><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;sendungsverfolgung" >Sendungsverfolgung</a></li><li><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;faq" >FAQ</a></li><li><a href="https:&#47;&#47;shop.mini.de&#47;mini-de&#47;de_DE&#47;content&#47;downloads" >Downloads</a></li></ul></div>
+<div class="singleFooterContainer advantages"><b>Ihre Vorteile</b><div>Original MINI Teile, Zubeh&ouml;r und Lifestyle</div><div>Sichere Zahlung</div><div>Einfache Produktsuche anhand Ihrer Fahrgestellnummer (FIN)</div></div>
+<div class="singleFooterContainer options links"></div>
+<div class="singleFooterContainer links languages">
+</div>
+<div class="singleFooterContainer right socweb"><b></b><a href="http:&#47;&#47;www.facebook.com&#47;MINI.Deutschland" target="_blank"><img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/img/icon_facebook.png"></a><a href="http:&#47;&#47;www.youtube.com&#47;MINI.Deutschland" target="_blank"><img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/img/icon_youtube.png"></a><a href="http:&#47;&#47;www.twitter.com&#47;MINI.Deutschland" target="_blank"><img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/img/icon_twitter.png"></a><a href="https:&#47;&#47;plus.google.com&#47;+MINI" target="_blank"><img src="/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/img/icon_googleplus.png"></a></div>
+<div class="bottomNavCopyright"><div class="rrpNote">* Unverbindliche Preisempfehlung</div>&copy; BMW AG 2020</div>
+</div>
+</div>
+<script type="text/javascript">
+function switchLocale(localeID, currentLocaleID)
+{
+if (bmw.shops.util.Cookie.hasAcceptCookies())
+{
+bmw.shops.util.Cookie.createCookie('selectedLocaleID', localeID);
+}
+// collect all needed variables
+var $url = window.location.href;
+var $productsku = '';
+var $productsku_detail = '';
+var $categoryname = '';
+var $catalogid = '';
+var $pageletentrypointid = '';
+// convert url parameters into array
+var currentParams = window.location.search.slice(1).split("&").map(function(n){return n = n.split("="),this[n[0]] = n[1],this}.bind({}))[0];
+// create an array with celebrus tracking parameter names
+var celebrusParams = ['CID', 'TYPE', 'PLA', 'CRE','tl','cid', 'type', 'pla', 'cre'];
+var searchParams = ['SearchParameter'];
+var count = 0, idx = 0;
+// get url parameters count
+for (key in currentParams){ if(key.length === 0){ continue; } if(currentParams.hasOwnProperty(key)){ count++ }}
+var celebrusParamsQuery = ($url.indexOf('?') === -1 && count > 0) ? '?' : ((count > 0) ? '&' : '');
+var searchParamsQuery = "&";
+// check if the url contains celebrus parameters
+$.each(currentParams, function(key, value){
+var index = $.inArray(key, celebrusParams); idx++;
+if(index != -1){ celebrusParamsQuery += (key + '=' + value + ((idx !== count) ? '&' : '')); }
+});
+// check if the url contains search parameter
+$.each(currentParams, function(key, value){
+var index = $.inArray(key, searchParams); idx++;
+if(index != -1){ searchParamsQuery += (key + '=' + value); }
+});
+if (searchParamsQuery.length == '&') {
+searchParamsQuery = '';
+}
+// simple pipeline switch if it isn't defined a product-, category- or content page (incl. a rewritten URL) 
+if ($productsku.length == 0 && $categoryname.length == 0 && $catalogid.length == 0 && $pageletentrypointid.length == 0) {
+if ($url.indexOf(currentLocaleID) == -1) {
+window.location = 'https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewApplication-SwitchLocale?SKU=' + $productsku + '&CategoryName=' + $categoryname + '&CatalogID=' + $catalogid + '&PEPID=' + $pageletentrypointid + '&LocaleID=' + localeID + celebrusParamsQuery;
+} else {
+window.location = $url.substr(0,$url.indexOf(currentLocaleID)) + localeID + $url.substr($url.indexOf(currentLocaleID) + currentLocaleID.length) + celebrusParamsQuery;
+}
+} else {
+if ($productsku_detail.length == 0) {
+window.location = 'https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewApplication-SwitchLocale?SKU=' + $productsku + '&CategoryName=' + $categoryname + '&CatalogID=' + $catalogid + '&PEPID=' + $pageletentrypointid + '&LocaleID=' + localeID + celebrusParamsQuery + searchParamsQuery;
+} else {
+window.location = 'https://shop.mini.de/INTERSHOP/web/WFS/MINIDE-MarketDE-Site/de_DE/-/EUR/ViewApplication-SwitchLocale?SKU=' + $productsku_detail + '&CategoryName=' + $categoryname + '&CatalogID=' + $catalogid + '&PEPID=' + $pageletentrypointid + '&LocaleID=' + localeID + celebrusParamsQuery;
+}
+}
+};
+</script><div id="cookieInfoPlaceholder"></div><script type="text/javascript">var footerCSS = document.createElement("link"); footerCSS.rel = "stylesheet"; footerCSS.href = "/INTERSHOP/static/WFS/MINIDE-MarketDE-Site/-/-/de_DE/css/styles_otv.css?lastModified=1558528026000"; footerCSS.type = "text/css"; var goDefer = document.getElementsByTagName("link")[0]; goDefer.parentNode.insertBefore(footerCSS, goDefer);</script></div>
+<div id="layerWrapper" data-hijax="true">
+<div id="modalBg" class="opacity75 basic-layer-close"></div>
+<div id="layer">
+<a href="#" class="close basic-layer-close"></a>
+<div class="layerContent"><div class="loaderWhiteBackground"></div></div>
+</div>
+</div>
+<div id="shareLayerWrapper">
+<div id="modalBg" class="opacity75 basic-layer-close"></div>
+<div id="transparentLayer">
+<a href="#" class="close basic-layer-close"></a>
+<div class="shareLayerContent"><a href="https://www.facebook.com/sharer/sharer.php?u=https://shop.mini.de/mini-de/de_DE/index.html" class="share-fb" target="_blank"></a>
+<a href="http://twitter.com/share?url=https://shop.mini.de/mini-de/de_DE/index.html" class="share-twitter" target="_blank"></a>
+<a href="https://plus.google.com/share?url=https://shop.mini.de/mini-de/de_DE/index.html" class="share-gplus" target="_blank"></a></div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+CSRFGuard.injectTokens(document.body);
+</script><div class="ish-smallLoader"></div>
+</body>
+</html>

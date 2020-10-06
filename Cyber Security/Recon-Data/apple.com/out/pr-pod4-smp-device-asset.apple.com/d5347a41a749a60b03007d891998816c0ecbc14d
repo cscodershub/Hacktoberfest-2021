@@ -1,0 +1,23 @@
+http://pr-pod4-smp-device-asset.apple.com/
+
+> GET / HTTP/1.1
+> Host: pr-pod4-smp-device-asset.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html
+< Content-Length: 299
+< Expires: Thu, 30 Apr 2020 21:41:03 GMT
+< Date: Thu, 30 Apr 2020 21:41:03 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;pr&#45;pod4&#45;smp&#45;device&#45;asset&#46;apple&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;7237637d&#46;1588282863&#46;1e307be
+</BODY>
+</HTML>

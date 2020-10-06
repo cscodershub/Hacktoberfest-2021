@@ -1,0 +1,16 @@
+http://ichnaea.staging.us-west-2.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ichnaea.staging.us-west-2.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 0
+< Location: https://ichnaea.staging.us-west-2.prodaa.netflix.com/
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 30
+< X-Originating-Url: http://ichnaea.staging.us-west-2.prodaa.netflix.com/
+< Date: Wed, 17 Jun 2020 05:34:21 GMT
+< Server: clingest-secure i-031ed4d48dcaf40a0
+< Via: 1.1 i-019a2a8d690cd3e89 (us-west-2)
+

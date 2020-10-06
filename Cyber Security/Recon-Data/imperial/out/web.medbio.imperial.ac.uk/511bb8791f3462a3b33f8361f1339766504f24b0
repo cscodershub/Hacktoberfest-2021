@@ -1,0 +1,12 @@
+https://web.medbio.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: web.medbio.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Connection: close
+< Content-Length: 0
+< Location: https://www.imperial.ac.uk/uk-med-bio
+< Server: BigIP
+

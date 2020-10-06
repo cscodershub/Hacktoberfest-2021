@@ -1,0 +1,25 @@
+http://gsxassets-it.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsxassets-it.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: AkamaiGHost
+< Content-Length: 275
+< Expires: Thu, 30 Apr 2020 21:41:08 GMT
+< Date: Thu, 30 Apr 2020 21:41:08 GMT
+< Mime-Version: 1.0
+< Content-Type: text/html
+< X-Cache: TCP_DENIED from a23-48-169-55.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Akamai-Staging: ESSL
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;gsxassets&#45;it&#46;apple&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;37a93017&#46;1588282868&#46;1322bd6
+</BODY>
+</HTML>

@@ -1,0 +1,24 @@
+http://web-website-spa-production.production.yummly.com/
+
+> GET / HTTP/1.1
+> Host: web-website-spa-production.production.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Server: nginx
+< Content-Security-Policy: default-src wss://ws.ttsep.com/ 'self' blob: data: 'unsafe-inline' 'unsafe-eval' https:; form-action https:; upgrade-insecure-requests;
+< Date: Sat, 15 Aug 2020 14:57:37 GMT
+< Location: https://web-website-spa-production.production.yummly.com/
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Content-Security-Policy: default-src wss://ws.ttsep.com/ 'self' blob: data: 'unsafe-inline' 'unsafe-eval' https:; form-action https:; upgrade-insecure-requests;
+< Referrer-Policy: origin-when-cross-origin
+< Content-Length: 162
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

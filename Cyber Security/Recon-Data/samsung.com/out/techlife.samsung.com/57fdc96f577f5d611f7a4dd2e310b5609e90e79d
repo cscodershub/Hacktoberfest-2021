@@ -1,0 +1,19 @@
+http://techlife.samsung.com/
+
+> GET / HTTP/1.1
+> Host: techlife.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: nginx
+< Date: Wed, 10 Jun 2020 05:36:43 GMT
+< Content-Type: text/html
+< Vary: Accept-Encoding
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

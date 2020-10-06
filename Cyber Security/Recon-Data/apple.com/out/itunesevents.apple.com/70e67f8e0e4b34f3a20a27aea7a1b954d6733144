@@ -1,0 +1,18 @@
+http://itunesevents.apple.com/
+
+> GET / HTTP/1.1
+> Host: itunesevents.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: AmazonS3
+< Content-Length: 243
+< Date: Thu, 30 Apr 2020 21:40:33 GMT
+< X-Cache: TCP_MISS from a49-44-95-31.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a104-122-94-194.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Amz-Request-Id: 169AED24DCD2DA64
+< X-Amz-Id-2: HuRIPLsQflROdT67Y9R+VYEqZ8ekPHu6xCBjtuec4cYQuGnRMhye7EBF/q5flHKX9u7Oy5IGa7E=
+< Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>169AED24DCD2DA64</RequestId><HostId>HuRIPLsQflROdT67Y9R+VYEqZ8ekPHu6xCBjtuec4cYQuGnRMhye7EBF/q5flHKX9u7Oy5IGa7E=</HostId></Error>

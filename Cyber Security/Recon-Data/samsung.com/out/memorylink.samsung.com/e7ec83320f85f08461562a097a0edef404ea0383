@@ -1,0 +1,26 @@
+https://memorylink.samsung.com/
+
+> GET / HTTP/1.1
+> Host: memorylink.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Last-Modified: Fri, 11 May 2018 06:35:45 GMT
+< Accept-Ranges: bytes
+< Date: Wed, 10 Jun 2020 05:37:09 GMT
+< Content-Length: 425
+< Set-Cookie: TS01ebe677=0130e8942aa78dd1ac9844a7d59551d72b2d3bb9a7b701bdd71338202d43e6f478ec9163086d204321554aa4c458d999f070c9e6c1; Path=/
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="refresh" content="0;url=/ecomobile/main.do" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Samsung Memory Link</title>
+</head>
+<body>
+
+</body>
+</html>

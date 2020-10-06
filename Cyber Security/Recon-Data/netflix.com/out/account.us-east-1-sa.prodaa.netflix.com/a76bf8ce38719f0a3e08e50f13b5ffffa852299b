@@ -1,0 +1,23 @@
+http://account.us-east-1-sa.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: account.us-east-1-sa.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: http://account.us-east-1-sa.prodaa.netflix.com/
+< Content-Length: 0
+< Date: Wed, 17 Jun 2020 05:34:47 GMT
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 i-0fca1723af974685c (us-east-1)
+< X-Netflix.nfstatus: 1_1
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Cache-Control: no-cache, no-store
+< Location: https://account.us-east-1-sa.prodaa.netflix.com/
+< Edge-Control: no-cache, no-store
+< X-Netflix.proxy.execution-Time: 9
+< Server: nq_website_core-prod-release 4a37aecd-fae5-4661-bd94-339c9e8d2c5a
+< Set-Cookie: nfvdid=BQFmAAEBEAUHvS2m3Ffw2endIqbpwwlAX8oxtoefaqD59f6d2goS66S25bSXzivLn5Ds6rw2_3OtrNXwwn_uDruVdyaVPnx05YWSO_5DNFXiFEfFfcooag%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=7f8936a3-ba48-418f-af0d-ec075e495783; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:47 GMT; Path=/; Domain=.netflix.com
+

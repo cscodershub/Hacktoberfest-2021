@@ -1,0 +1,19 @@
+http://pv-captive-redirect.apple.com/
+
+> GET / HTTP/1.1
+> Host: pv-captive-redirect.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< Date: Tue Jun  1 12:48:03 PDT 1999 PDT
+< Location: http://www.apple.com/
+< Content-Type: text/html
+< Content-Length: 235
+
+<HTML><HEAD><TITLE>Found</TITLE></HEAD><BODY>
+<H1>Found</H1> This document has moved to a new <a href="http://www.apple.com/"> location</a>.
+Please update your documents and hotlists accordingly. http://www.apple.com/
+
+</BODY>
+</HTML>

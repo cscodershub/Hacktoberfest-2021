@@ -1,0 +1,16 @@
+https://benefits.apple.com/
+
+> GET / HTTP/1.1
+> Host: benefits.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Redirect
+< Set-Cookie: f5-ess-cookie=3353066762.0.0000; path=/; Httponly; Secure
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Type: text/html; charset=UTF-8
+< Location: https://benefits.apple.com/ESS/SingleSignOn.axd?r=SAML_APPLE
+< Date: Thu, 30 Apr 2020 21:40:23 GMT
+< Content-Length: 183
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://benefits.apple.com/ESS/SingleSignOn.axd?r=SAML_APPLE">here</a></body>

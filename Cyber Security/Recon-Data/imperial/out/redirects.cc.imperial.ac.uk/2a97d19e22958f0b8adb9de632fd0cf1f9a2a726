@@ -1,0 +1,12 @@
+http://redirects.cc.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: redirects.cc.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 0
+< Location: http://www.imperial.ac.uk
+< Server: BigIP
+< Connection: close
+

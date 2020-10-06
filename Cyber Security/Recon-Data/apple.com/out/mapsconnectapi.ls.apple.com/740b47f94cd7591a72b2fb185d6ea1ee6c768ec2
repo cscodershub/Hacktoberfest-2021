@@ -1,0 +1,16 @@
+https://mapsconnectapi.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: mapsconnectapi.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/plain; charset=utf-8
+< Vary: Accept-Encoding
+< Set-Cookie: PLAY_SESSION=2-TnvJkogN7fgIUoR1J8sAaSPydxP5Fm+qYYtRf8VxrlnLFmjAYclHT6K2wN0qL80PhRIwZ0n0nM6BtjPKEE/jXtsqDWPhwmwzjqgIksbOVHZjX4GfDiv73U6YiSYv4GanUjR1QS1930dI; Path=/; Secure; HTTPOnly
+< X-B3-Traceid: 41ac821a910ebe6c
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:30:54 GMT
+
+Handler not found for request GET /

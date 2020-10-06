@@ -1,0 +1,20 @@
+https://geo.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: geo.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Server: nginx
+< Content-Length: 140
+< Location: https://itunes.apple.com/
+< X-Robots-Tag: noindex
+< Expires: Thu, 30 Apr 2020 21:30:01 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Content-Type: text/html
+< Pragma: no-cache
+< Date: Thu, 30 Apr 2020 21:30:01 GMT
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://itunes.apple.com/">here</a></h2>
+</body><html>

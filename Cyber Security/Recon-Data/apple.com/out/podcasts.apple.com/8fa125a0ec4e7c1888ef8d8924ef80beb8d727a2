@@ -1,0 +1,23 @@
+https://podcasts.apple.com/
+
+> GET / HTTP/1.1
+> Host: podcasts.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< X-Cache-Remote: TCP_MISS from a115-248-238-55.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Server: daiquiri/3.0.0
+< Location: https://apps.apple.com/us/app/apple-podcasts/id525463029
+< Vary: Accept, Accept-Encoding
+< X-Daiquiri-Instance: daiquiri:42814002:st44p00it-hyhk16044801:7987:20E24
+< Content-Length: 78
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Apple-Partner: origin.0
+< X-Apple-Jingle-Correlation-Key: AXDYGZFEDED6Y5GYWHQB33W7GQ
+< Date: Thu, 30 Apr 2020 21:28:22 GMT
+< X-Cache: TCP_MISS from a125-56-222-157.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Set-Cookie: geo=IN; path=/; domain=.apple.com
+< Content-Type: text/plain; charset=utf-8
+< X-True-Cache-Key: /L/podcasts.apple.com/Browser vcd=2897
+
+Found. Redirecting to https://apps.apple.com/us/app/apple-podcasts/id525463029

@@ -1,0 +1,24 @@
+http://roomeo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: roomeo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: mcmk7qk9uyuzq3VzvO7Aovw8ZLKIq4XKZqIswf3sRk0nxRnftmV6oA==
+< Server: CloudFront
+< Content-Type: text/html
+< Location: https://roomeo.netflix.com/
+< X-Amz-Cf-Pop: FRA6-C1
+< Date: Wed, 17 Jun 2020 05:38:54 GMT
+< Content-Length: 183
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 25c6baf0a31a5ef699c1e219b25ce7b9.cloudfront.net (CloudFront)
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

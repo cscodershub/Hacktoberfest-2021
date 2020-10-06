@@ -1,0 +1,16 @@
+https://gsp3-idms-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsp3-idms-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 501 Not Implemented
+< Content-Type: text/html
+< Date: Thu, 30 Apr 2020 21:31:11 GMT
+< Content-Length: 102
+
+<HTML><HEAD>
+<TITLE>501 Not Implemented</TITLE>
+</HEAD><BODY>
+<H1>Not Implemented</H1>
+</BODY></HTML>

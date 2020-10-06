@@ -1,0 +1,25 @@
+https://krah-enders-maintal.mini.de/
+
+> GET / HTTP/1.1
+> Host: krah-enders-maintal.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 248
+< Content-Type: text/html; charset=iso-8859-1
+< Server: Apache
+< Cache-Control: max-age=1800
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+< Location: https://www.krah-enders-maintal.mini.de/
+< Expires: Tue, 11 Aug 2020 05:24:26 GMT
+< Date: Tue, 11 Aug 2020 04:54:26 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.krah-enders-maintal.mini.de/">here</a>.</p>
+</body></html>

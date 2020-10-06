@@ -1,0 +1,18 @@
+https://nc1-origin-ns.mobileapp.apple.com/
+
+> GET / HTTP/1.1
+> Host: nc1-origin-ns.mobileapp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: MA-CLS
+< X-Ma-Urt: 1588282112.497
+< X-Ma-Usl: 0
+< Date: Thu, 30 Apr 2020 21:28:32 GMT
+< Connection: keep-alive
+< Cache-Control: no-cache
+< Location: upgrade://mobileapp.apple.com/oos/upgrade_en.json
+< X-Ma-Ucs: MISS
+< X-Ma-Uht: 0.000
+< Content-Length: 0
+

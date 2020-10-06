@@ -1,0 +1,17 @@
+https://assets.ads.instacart.com/
+
+> GET / HTTP/1.1
+> Host: assets.ads.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Cf-Id: Vidfd2jS8PmzS3A_QKazfffmdZ7tZL8WKm26m54Iiiz0B4_6GlcczQ==
+< Content-Type: application/xml
+< Server: AmazonS3
+< X-Cache: Error from cloudfront
+< Date: Tue, 04 Aug 2020 04:46:56 GMT
+< Via: 1.1 63caf32a099e15cdcff771322535c2d2.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>F48582396797BEE8</RequestId><HostId>C04HA3qmIzpi+Rt5WWDsTXLazrNJz5kFU1KQ/GY21FWyz1Vli/aH5F2yPbAQkRmARxhUdv93AUw=</HostId></Error>

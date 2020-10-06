@@ -1,0 +1,24 @@
+http://apple-tv-plus-press.apple.com/
+
+> GET / HTTP/1.1
+> Host: apple-tv-plus-press.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Thu, 30 Apr 2020 21:40:25 GMT
+< Age: 0
+< Via: http/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 sgsin3-edge-bx-015.ts.apple.com (ApacheTrafficServer/8.0.7)
+< X-Cache: miss, hit-stale
+< Content-Type: text/html
+< Content-Length: 162
+< Location: https://apple-tv-plus-press.apple.com
+< Server: ATS/8.0.7
+< Cdnuuid: ea1a15f7-3522-4c71-b774-5763c3095dbe-2876046089
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

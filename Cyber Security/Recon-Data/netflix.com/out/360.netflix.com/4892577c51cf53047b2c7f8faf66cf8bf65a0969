@@ -1,0 +1,20 @@
+http://360.netflix.com/
+
+> GET / HTTP/1.1
+> Host: 360.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Status: 302 Found
+< X-Xss-Protection: 1; mode=block
+< X-Request-Id: ed373fe1-f48a-4bda-a4dc-0218176626c2
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Date: Wed, 17 Jun 2020 05:33:33 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Runtime: 0.002032
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Cache-Control: no-cache
+< Location: https://360.netflix.net
+
+<html><body>You are being <a href="https://360.netflix.net">redirected</a>.</body></html>

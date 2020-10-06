@@ -1,0 +1,13 @@
+http://uts-api-siri.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: uts-api-siri.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Location: https://uts-api-siri.itunes.apple.com/
+< Cache-Control: no-cache
+< Pragma: no-cache
+< Content-Length: 0
+< Date: Thu, 30 Apr 2020 21:29:57 GMT
+

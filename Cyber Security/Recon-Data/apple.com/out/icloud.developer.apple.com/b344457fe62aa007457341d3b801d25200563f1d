@@ -1,0 +1,20 @@
+http://icloud.developer.apple.com/
+
+> GET / HTTP/1.1
+> Host: icloud.developer.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Thu, 30 Apr 2020 21:29:07 GMT
+< Content-Type: text/html
+< Content-Length: 201
+< Location: https://icloud.developer.apple.com/
+< Server: AppleHttpServer/ac9d40131a4d
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>AppleHttpServer/ac9d40131a4d</center>
+</body>
+</html>

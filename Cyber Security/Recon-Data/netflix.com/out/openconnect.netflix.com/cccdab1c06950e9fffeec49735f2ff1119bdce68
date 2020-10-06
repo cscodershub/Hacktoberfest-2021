@@ -1,0 +1,28 @@
+https://openconnect.netflix.com/
+
+> GET / HTTP/1.1
+> Host: openconnect.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Temporary Redirect
+< Access-Control-Allow-Headers: X-CSRF-Token
+< Access-Control-Allow-Origin: *
+< Cc-Fetch-Error: not-pinnable
+< Vary: Accept, Accept-Encoding
+< Cf-Ray: 5a4a6da33e12de86-BLR
+< Cc-Stable-Domain: vital-slipper.cloudvent.net
+< X-No-Cache: true
+< Cc-Cache-Status: MISS
+< Cf-Cache-Status: MISS
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< Alt-Svc: h3-27=":443"; ma=86400
+< Date: Wed, 17 Jun 2020 05:39:08 GMT
+< Location: /en/
+< Cf-Request-Id: 036262da040000de860e33c200000001
+< Content-Type: text/plain; charset=utf-8
+< Set-Cookie: __cfduid=d302e327a7cd9ca45aadb02f7cd70c72b1592372347; expires=Fri, 17-Jul-20 05:39:07 GMT; path=/; domain=.openconnect.netflix.com; HttpOnly; SameSite=Lax
+< Set-Cookie: locale=en; Max-Age=86400; Path=/; Expires=Thu, 18 Jun 2020 05:39:08 GMT
+< Set-Cookie: connect.sid=s%3AqdvxvhBC6HI8HQjB7KQNYOje-K43soxK.F209660%2Ba3Zv8YVFF0cOT3KdpmQv%2BvJZFDaDIwKych0; Path=/; Expires=Thu, 18 Jun 2020 05:39:08 GMT; HttpOnly
+
+Temporary Redirect. Redirecting to /en/

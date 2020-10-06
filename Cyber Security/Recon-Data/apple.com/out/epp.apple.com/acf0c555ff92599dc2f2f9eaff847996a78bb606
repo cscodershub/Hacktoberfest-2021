@@ -1,0 +1,16 @@
+http://epp.apple.com/
+
+> GET / HTTP/1.1
+> Host: epp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: AkamaiGHost
+< Cache-Control: max-age=0, no-cache, no-store
+< Content-Length: 0
+< Location: https://epp.apple.com/
+< Expires: Thu, 30 Apr 2020 21:28:37 GMT
+< Pragma: no-cache
+< Date: Thu, 30 Apr 2020 21:28:37 GMT
+< X-Cache: TCP_MISS from a202-88-191-117.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29323059) (-)
+

@@ -1,0 +1,15 @@
+https://fb.il.samsung.com/
+
+> GET / HTTP/1.1
+> Host: fb.il.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Location: http://www.samsung.com/il/
+< Date: Wed, 10 Jun 2020 05:37:11 GMT
+< Content-Length: 207
+< Set-Cookie: TS01ef6e9e=0130e8942aeaf9cba5dbaa7b2251654312b5a28be6b31b5c844a59f6ee01685a3ef274bdc8097045ef4199bc81b08aaa2dd8d1c55e; Path=/
+
+<head><title>문서가 이동되었습니다.</title></head>
+<body><h1>개체가 이동되었습니다.</h1><a HREF="http://www.samsung.com/il/">여기</a>에서 이 문서를 찾을 수 있습니다.</body>

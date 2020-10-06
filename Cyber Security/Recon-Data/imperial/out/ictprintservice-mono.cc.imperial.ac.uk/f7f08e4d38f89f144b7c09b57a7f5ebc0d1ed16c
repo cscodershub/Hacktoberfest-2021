@@ -1,0 +1,13 @@
+https://ictprintservice-mono.cc.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: ictprintservice-mono.cc.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Sat, 18 Jul 2020 13:54:48 GMT
+< Set-Cookie: CFID=36032; expires=Mon, 16-Jul-2029 13:54:48 GMT; path=/
+< Set-Cookie: CFTOKEN=AD028C96-383C-43BD-A324FAD8FDFD400A; expires=Mon, 16-Jul-2029 13:54:48 GMT; path=/
+< Location: https://ictprintservice-mono.cc.imperial.ac.uk/login.cfm?dest=index.cfm&
+< Server: Jetty(6.1.26)
+

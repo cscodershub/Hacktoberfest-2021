@@ -1,0 +1,19 @@
+http://sgsg.samsung.com/
+
+> GET / HTTP/1.1
+> Host: sgsg.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 10 Jun 2020 05:37:36 GMT
+< Location: https://sgsg.samsung.com/
+< Content-Length: 209
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://sgsg.samsung.com/">here</a>.</p>
+</body></html>

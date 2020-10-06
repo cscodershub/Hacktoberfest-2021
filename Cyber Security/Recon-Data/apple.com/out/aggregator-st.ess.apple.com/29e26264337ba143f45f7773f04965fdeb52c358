@@ -1,0 +1,19 @@
+https://aggregator-st.ess.apple.com/
+
+> GET / HTTP/1.1
+> Host: aggregator-st.ess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:40:13 GMT
+< X-Apple-Request-Uuid: 2072a400-7ec1-fc2f-a618-8d154b465ee8
+< X-Apple-Jingle-Correlation-Key: EBZKIAD6YH6C7JQYRUKUWRS65A
+< Apple-Seq: 0
+< Apple-Tk: false
+< Content-Length: 0
+< Apple-Originating-System: UnknownOriginatingSystem
+< X-Responding-Instance: AggregatorService:580000:magent1888.usuqo07.pie.apple.com:31026:2007B-132:nocommit
+< X-B3-Traceid: 3750d3362be9840d
+< Strict-Transport-Security: max-age=31536000
+

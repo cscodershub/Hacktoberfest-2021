@@ -1,0 +1,20 @@
+https://resources-eng.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: resources-eng.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 162
+< Connection: keep-alive
+< Server: nginx
+< Date: Thu, 30 Apr 2020 21:30:51 GMT
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body bgcolor="white">
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

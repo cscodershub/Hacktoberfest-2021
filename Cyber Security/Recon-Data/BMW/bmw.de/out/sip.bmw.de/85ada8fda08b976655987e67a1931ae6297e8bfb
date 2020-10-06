@@ -1,0 +1,16 @@
+https://sip.bmw.de/
+
+> GET / HTTP/1.1
+> Host: sip.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: RTC/6.0
+< X-Ms-Server-Fqdn: smucucpec22.bmwgroup.net
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Type: text/plain
+< Content-Length: 72
+
+Status: 404 Not Found
+Server: RTC/6.0
+FQDN: smucucpec22.bmwgroup.net

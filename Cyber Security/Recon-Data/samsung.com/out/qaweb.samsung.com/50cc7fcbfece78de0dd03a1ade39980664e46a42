@@ -1,0 +1,15 @@
+http://qaweb.samsung.com/
+
+> GET / HTTP/1.1
+> Host: qaweb.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: device_type=pc; path=/
+< Server-Timing: cdn-cache; desc=HIT
+< Server-Timing: edge; dur=1
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://qaweb.samsung.com/
+< Date: Wed, 10 Jun 2020 05:36:17 GMT
+

@@ -1,0 +1,24 @@
+http://embed.podcasts.apple.com/
+
+> GET / HTTP/1.1
+> Host: embed.podcasts.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Length: 163
+< X-Daiquiri-Instance: daiquiri:47117002:st44p00it-hyhk15104901:7987:20E24
+< Date: Thu, 30 Apr 2020 21:40:35 GMT
+< X-Cache: TCP_MISS from a49-44-118-194.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< X-Cache-Remote: TCP_MISS from a23-209-103-87.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< Server: daiquiri/3.0.0
+< Content-Type: text/html
+< Location: https://embed.podcasts.apple.com/
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+<hr><center>daiquiri/3.0.0</center>
+</body>
+</html>

@@ -1,0 +1,19 @@
+http://faq.bmw.de/
+
+> GET / HTTP/1.1
+> Host: faq.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< X-Xss-Protection: 1; mode=block
+< X-B3-Spanid: 5335e1175ca24465
+< Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+< Location: https://faq.bmw.de/
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Date: Tue, 11 Aug 2020 04:51:05 GMT
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: upgrade-insecure-requests
+< X-B3-Traceid: 5335e1175ca24465
+< X-B3-Sampled: 0
+

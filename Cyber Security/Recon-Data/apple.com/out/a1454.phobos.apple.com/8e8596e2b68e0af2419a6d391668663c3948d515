@@ -1,0 +1,32 @@
+https://a1454.phobos.apple.com/
+
+> GET / HTTP/1.1
+> Host: a1454.phobos.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found on Accelerator
+< Via: http/1.1 sgsin3-edge-bx-013.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Cache-Control: no-store
+< X-Cache: none
+< Content-Length: 287
+< Server: ATS/8.0.7
+< Content-Type: text/html
+< Content-Language: en
+< Cdnuuid: 9b42c72c-9065-4b8f-a969-7ef525673257-2876050300
+< Date: Thu, 30 Apr 2020 21:35:26 GMT
+
+<HTML>
+<HEAD>
+<TITLE>Not Found on Accelerator</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Not Found on Accelerator</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: Your request on the host was not found.
+Check the location and try again.
+</B></FONT>
+<HR>
+</BODY>

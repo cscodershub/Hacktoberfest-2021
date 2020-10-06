@@ -1,0 +1,14 @@
+http://desktop-music-legacy.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: desktop-music-legacy.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Date: Thu, 30 Apr 2020 21:30:33 GMT
+< Location: https://desktop-music-legacy.itunes.apple.com/
+< Content-Length: 0
+< Expires: Thu, 30 Apr 2020 21:30:33 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Pragma: no-cache
+

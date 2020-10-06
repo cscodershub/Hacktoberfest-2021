@@ -1,0 +1,25 @@
+https://groups.boozt.com/
+
+> GET / HTTP/1.1
+> Host: groups.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 525 Origin SSL Handshake Error
+< Cf-Request-Id: 047f7254ba00001a8ce4afb200000001
+< Server: cloudflare
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Date: Tue, 11 Aug 2020 14:07:48 GMT
+< Content-Type: text/html
+< Set-Cookie: __cfduid=dda7b3e08207d74839459e9148fd438541597154868; expires=Thu, 10-Sep-20 14:07:48 GMT; path=/; domain=.boozt.com; HttpOnly; SameSite=Lax; Secure
+< Cache-Control: no-store, no-cache
+< Content-Length: 207
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Cf-Ray: 5c1286679f311a8c-SIN
+
+<html>
+<head><title>525 Origin SSL Handshake Error</title></head>
+<body bgcolor="white">
+<center><h1>525 Origin SSL Handshake Error</h1></center>
+<hr><center>cloudflare-nginx</center>
+</body>
+</html>

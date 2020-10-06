@@ -1,0 +1,23 @@
+https://eu.mobilecare.svc.samsung.com/
+
+> GET / HTTP/1.1
+> Host: eu.mobilecare.svc.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Location: https://eu.mobilecare.svc.samsung.com/cust/portal
+< X-Powered-By: JSP/2.2
+< X-Amz-Cf-Id: _PGR0YcTBlOqQiew0fo0n3V1j_PfchgDUX-NH_AeK7wmCicGDh-gmQ==
+< Date: Wed, 10 Jun 2020 05:36:33 GMT
+< Cache-Control: no-cache="set-cookie"
+< Server: nginx
+< Set-Cookie: WMONID=j330z-mckV4; Expires=Thu, 10-Jun-2021 5:36:33 GMT; Path=/
+< Set-Cookie: EUSMCFRTSESSIONID=Duc1e0GvFYxUuBUHn2nkXZZs.PA1; Path=/
+< Set-Cookie: AWSELB=834B6FBF106A07D1CF7EF02113AD701736E3B67E9C10625137FAE1980A6E1CF776B744279A8BA8F0E1A1282CA9C5171832E7D3B717F2DFB52C1D372C9228757A6CFA53BD89;PATH=/;MAX-AGE=1800
+< Set-Cookie: AWSELBCORS=834B6FBF106A07D1CF7EF02113AD701736E3B67E9C10625137FAE1980A6E1CF776B744279A8BA8F0E1A1282CA9C5171832E7D3B717F2DFB52C1D372C9228757A6CFA53BD89;PATH=/;MAX-AGE=1800;SECURE;SAMESITE=None
+< Via: 1.1 d61836c8bf5eb04c5c89f74624c4775d.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< Content-Type: text/html;charset=UTF-8
+< X-Cache: Miss from cloudfront
+< Content-Length: 0
+

@@ -1,0 +1,11 @@
+http://rap-mr11.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: rap-mr11.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Location: https://rap-mr11.ls.apple.com/
+< Cache-Control: no-cache
+< Pragma: no-cache
+

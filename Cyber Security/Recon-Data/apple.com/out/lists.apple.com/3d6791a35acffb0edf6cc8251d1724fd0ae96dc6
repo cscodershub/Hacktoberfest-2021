@@ -1,0 +1,23 @@
+http://lists.apple.com/
+
+> GET / HTTP/1.1
+> Host: lists.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Server: Apache/2.4.41 (Unix) OpenSSL/1.0.2t
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Length: 232
+< Date: Thu, 30 Apr 2020 21:40:35 GMT
+< X-Xss-Protection: 1; mode=block
+< Location: https://lists.apple.com/
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://lists.apple.com/">here</a>.</p>
+</body></html>

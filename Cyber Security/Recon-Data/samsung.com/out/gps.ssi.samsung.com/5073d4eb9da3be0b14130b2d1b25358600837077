@@ -1,0 +1,23 @@
+https://gps.ssi.samsung.com/
+
+> GET / HTTP/1.1
+> Host: gps.ssi.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Cache-Control: private, must-revalidate, post-check=0, pre-check=0
+< Strict-Transport-Security: max-age=31536000;
+< Date: Wed, 10 Jun 2020 05:37:10 GMT
+< Pragma: private
+< Expires: 0
+< X-Frame-Options: DENY
+< X-Xss-Protection: 1; mode=block;
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; img-src * data:; style-src 'self' 'unsafe-inline';
+< Content-Length: 170
+
+<script LANGUAGE=JavaScript>
+window.location="/global-protect/login.esp"; 
+</script>
+<html><head></head><body><p>JavaScript must be enabled to continue!</p></body></html>

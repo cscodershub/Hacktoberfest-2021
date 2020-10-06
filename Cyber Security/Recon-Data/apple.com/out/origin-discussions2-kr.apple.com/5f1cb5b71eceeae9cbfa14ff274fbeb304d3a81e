@@ -1,0 +1,22 @@
+https://origin-discussions2-kr.apple.com/
+
+> GET / HTTP/1.1
+> Host: origin-discussions2-kr.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: bzsc=15d07f3139591a1d2f8cd96e6e6366c8; expires=Thu, 30-Apr-20 22:29:09 GMT; max-age=3600; domain=.discussionskorea.apple.com; secure; path=/
+< Location: https://discussions.apple.com/welcome?code=1001
+< X-Shield-Request-Id: 8a61372e2eaed2db27b5d500b9516dfd
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:29:09 GMT
+< Content-Type: text/html
+< Content-Length: 162
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

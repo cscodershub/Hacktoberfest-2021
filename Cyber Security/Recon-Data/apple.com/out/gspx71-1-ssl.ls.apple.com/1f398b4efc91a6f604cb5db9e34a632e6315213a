@@ -1,0 +1,15 @@
+http://gspx71-1-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspx71-1-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Via: http/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 sgsin3-edge-bx-019.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Server: ATS/8.0.7
+< Date: Thu, 30 Apr 2020 21:30:59 GMT
+< Age: 0
+< Cdnuuid: 81e93dda-4deb-4a6c-aba7-5bbc98fb2d1e-2622743325
+< X-Cache: miss, hit-stale
+
+Not found

@@ -1,0 +1,593 @@
+http://makeit.netflix.com/
+
+> GET / HTTP/1.1
+> Host: makeit.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Runtime: 0.007300
+< Date: Wed, 17 Jun 2020 05:36:50 GMT
+< Set-Cookie: _netflix_watch_better_web_session=UElmRFZzdU1Rb0VLbmNQU2NlLzQ3YzljL05YNE1HVXFaeHB1R3BsWWUybDROWEpkekJDQVZwd0lSS0gvMkJYb2c4RUovRlgwd3JzTHRLc21teEVSLzVFcDE1YTRjWWhnVXlFVXpMY3NKTjVFSm5WanduRzJWWmdZWTRsZ0hGMDhDQzdYVHZmQUJiSmJQcE11ZzFDd053PT0tLS9mMFBLMk1qR3BNTHhGeHhsbGpzQ0E9PQ%3D%3D--cde2cda4bf280f7c134669f7c97a0d5f4a1129be; path=/; HttpOnly
+< X-Powered-By: Phusion Passenger 4.0.59
+< X-Request-Id: a37bc338-3656-43a9-b790-965a0dc00628
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=utf-8
+< Server: nginx/1.8.0 + Phusion Passenger 4.0.59
+< Status: 200 OK
+< X-Content-Type-Options: nosniff
+< Cache-Control: max-age=0, private, must-revalidate
+< Etag: W/"56b408cdfce5c3b567f2c9e4c8afcde4"
+< X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Facebook -->
+  <meta property="og:url" content="http://makeit.netflix.com" />
+  <meta property="og:title" content="Turn your Netflix routine into a workout routine | Make It by Netflix" />
+  <meta property="og:description" content="The Netflix Personal Trainer transforms your favorite character into your coach. MakeIt.Netflix.com" />
+  <meta property="og:image" content="http://makeit.netflix.com/trainer_social.jpg" />
+  <meta property="og:image:width" content="630" />
+  <meta property="og:image:height" content="630" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@netflix">
+  <meta name="twitter:title" content="Turn your Netflix routine into a workout routine | Make It by Netflix">
+  <meta name="twitter:description" content="The Netflix Personal Trainer transforms your favorite character into your coach. MakeIt.Netflix.com">
+  <meta name="twitter:image:src" content="http://makeit.netflix.com/trainer_social.jpg">
+  <meta name="twitter:image" content="http://makeit.netflix.com/trainer_social.jpg">
+  <meta name="twitter:domain" content="netflix.com">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/nf-favicon.ico">
+
+  <title>Netflix Make It</title>
+  <link rel="stylesheet" media="all" href="/assets/application-f5e2afa983b7e58850b699c8f7f1b811194381ae11a4ffc1e2307be59ef2ff27.css" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="UmVFZ2kZF7dyIpGluljTWAyb1yuPMFu3Afp8B5nrzj7DfBYmddDXJCVp76/hkgMZTHFcbhMKrx64Vq6pJ+O58A==" />
+</head>
+<body
+  class="index""
+>
+
+  <header>
+    <nav>
+      <div class="logo"><a href="/"><img src="/assets/logo-7476a208113e0d32092cccdae999ccb86d9027e33631f87edac8dcc043154637.svg"></a></div>
+      <div class="links">
+        <ul class="pages">
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+        <ul class="social">
+          <li><a href="#" class="facebook-share" target="_blank"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg"></a></li>
+          <li><a target="_blank" href="https://twitter.com/intent/tweet?url=http://makeit.netflix.com"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg"></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="section-parent">
+  <div class="section dark hero home" stlyle="top:-100%;">
+    <div class="hero-text">
+      <h1 class="headline">Turn your Netflix routine into a workout routine.</h1>
+      <h2 class="headline-2 sub-head last">The DIY Netflix personal trainer transforms your favorite characters into your coach.</h2>
+    </div>
+    <div class="arrow">
+      <img src="/assets/arrow-3eeefb18e5f4e8772ec72aab12c4f2a1a4e015a45e4051f9937a2707402c8f2b.svg" />
+    </div>
+  </div>
+
+  <div class="section video campaign stacked">
+    <div class="stacked-white shadow"></div>
+    <div class="stacked-red shadow"></div>
+    <a href="https://www.youtube.com/watch?v=NIidTpFVfT4?playsinline=1" class="action-player">
+      <div class="play"></div>
+    </a>
+    <div class="player"></div>
+  </div>
+  <div class="player-close"><img src="/assets/close-a0d7ef24e14ca57bee3d95e9c0e3cff6a5ef9b301e1682cb98072c8aaad7785d.svg" /></div>
+</div>
+
+<div class="text-media reverse hero-2">
+  <div class="section text">
+    <div class="container">
+      <h3 class="headline-3 first">A fitness tracker that really speaks to you.</h3>
+      <p class="last">If committing to exercise was as easy as committing to Netflix, you'd probably have Daredevil's abs by now. Netflix personal trainer gives you that extra push, serving up motivational words from your favorite Netflix characters, right when you need them most. And if you’re watching during a workout, your coach will pause your show every time you stop moving.</p>
+    </div>
+  </div>
+  <div class="section media home-2">
+  </div>
+</div>
+
+<div class="section dark hero trainers-intro">
+  <div class="hero-text">
+    <h1 class="headline">Explore three coaching styles.</h1>
+  </div>
+  <div class="trainer-nav">
+    <div class="b-wrap"><button data-index="0" data-section="tough-love">Tough Love</button><img src="/assets/active-triangle-a7f991c50c17b5cb81f829ad29181532400ecac371f31616052e8404d771ca6e.svg" /></div>
+    <div class="b-wrap"><button data-index="1" data-section="comic-relief">Comic Relief</button><img src="/assets/active-triangle-a7f991c50c17b5cb81f829ad29181532400ecac371f31616052e8404d771ca6e.svg" /></div>
+    <div class="b-wrap"><button data-index="2" data-section="positive-reinforcement">Positive Reinforcement</button><img src="/assets/active-triangle-a7f991c50c17b5cb81f829ad29181532400ecac371f31616052e8404d771ca6e.svg" /></div>
+  </div>
+</div>
+<div class="section trainer-groups dark siema">
+
+  <div class="trainer-group tough-love" id="tough-love">
+    <div class="trainer-group-wrapper">
+      <div class="section dark trainers">
+        <div class="trainer-selector">
+          <h1 class="headline">Tough Love.</h1>
+          <div class="trainer-hero-bg terry first active"></div>
+          <div class="trainer-hero-bg narcos"></div>
+          <div class="trainer-hero-bg jessica-jones"></div>
+          <div class="trainer-hero-bg frank"></div>
+          <div class="trainer-hero-bg red"></div>
+          <div class="trainer-hero">
+            <div class="trainer-info">
+              <p class="trainer-device tough"></p>
+              <p class="trainer-device animation-placeholder tough"></p>
+              <div class="info-container terry active">
+                <p class="trainer-name">Terry Crews</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80095299" target="_blank">Ultimate <br>Beastmaster</a></p>
+              </div>
+              <div class="info-container narcos">
+                <p class="trainer-name">Pablo Escobar</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80025172" target="_blank">NARCOS</a></p>
+              </div>
+              <div class="info-container jessica-jones">
+                <p class="trainer-name">Jessica Jones</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80002311" target="_blank">MARVEL'S<br>JESSICA JONES</a></p>
+              </div>
+              <div class="info-container frank">
+                <p class="trainer-name">Frank Underwood</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/70178217" target="_blank">HOUSE OF CARDS</a></p>
+              </div>
+              <div class="info-container red">
+                <p class="trainer-name">Red Reznikov</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/70242311" target="_blank">ORANGE IS THE<br />NEW BLACK</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="trainer-grid terry">
+            <div class="trainer-grid-item active" data-trainer="terry">
+              <div class="trainer-thumb terry"></div>
+              <p>ULTIMATE<br />BEASTMASTER</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="narcos">
+              <div class="trainer-thumb narcos"></div>
+              <p>NARCOS</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="jessica-jones">
+              <div class="trainer-thumb jessica-jones"></div>
+              <p>MARVEL'S<br>JESSICA JONES</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="frank">
+              <div class="trainer-thumb frank"></div>
+              <p>HOUSE OF CARDS</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="red">
+              <div class="trainer-thumb red"></div>
+              <p>ORANGE IS THE<br />NEW BLACK</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trainer-group comic-relief">
+    <div class="trainer-group-wrapper">
+      <div class="section dark trainers">
+        <div class="trainer-selector">
+          <h1 class="headline">Comic Relief.</h1>
+          <div class="trainer-hero-bg dustin first active"></div>
+          <div class="trainer-hero-bg bojack"></div>
+          <div class="trainer-hero-bg titus"></div>
+          <div class="trainer-hero-bg dynamite"></div>
+          <div class="trainer-hero-bg steph"></div>
+          <div class="trainer-hero">
+            <div class="trainer-info">
+              <p class="trainer-device comic"></p>
+              <p class="trainer-device animation-placeholder comic"></p>
+              <div class="info-container dustin active">
+                <p class="trainer-name">Dustin Henderson</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80057281" target="_blank">STRANGER<br/>THINGS</a></p>
+              </div>
+              <div class="info-container bojack">
+                <p class="trainer-name">BoJack Horseman</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/70300800" target="_blank">BOJACK<br />HORSEMAN</a></p>
+              </div>
+              <div class="info-container titus">
+                <p class="trainer-name">Titus Andromedon</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80025384" target="_blank">UNBREAKABLE<br/>KIMMY SCHMIDT</a></p>
+              </div>
+              <div class="info-container dynamite">
+                <p class="trainer-name">Maria Bamford</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80046193" target="_blank">LADY DYNAMITE</a></p>
+              </div>
+              <div class="info-container steph">
+                <p class="trainer-name">Stephanie Tanner</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80051137" target="_blank">FULLER HOUSE</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="trainer-grid dustin">
+            <div class="trainer-grid-item active" data-trainer="dustin">
+              <div class="trainer-thumb dustin"></div>
+              <p>STRANGER<br/>THINGS</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="bojack">
+              <div class="trainer-thumb bojack"></div>
+              <p>BOJACK<br />HORSEMAN</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="titus">
+              <div class="trainer-thumb titus"></div>
+              <p>UNBREAKABLE<br/>KIMMY SCHMIDT</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="dynamite">
+              <div class="trainer-thumb dynamite"></div>
+              <p>LADY DYNAMITE</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="steph">
+              <div class="trainer-thumb steph"></div>
+              <p>FULLER HOUSE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trainer-group positive-reinforcement">
+    <div class="trainer-group-wrapper">
+      <div class="section dark trainers">
+        <div class="trainer-selector">
+          <h1 class="headline">Positive <br>Reinforcement.</h1>
+          <div class="trainer-hero-bg kimmy first active"></div>
+          <div class="trainer-hero-bg frankie"></div>
+          <div class="trainer-hero-bg kimmy-gib"></div>
+          <div class="trainer-hero-bg queen"></div>
+          <div class="trainer-hero-bg taystee"></div>
+          <div class="trainer-hero">
+            <div class="trainer-info">
+              <p class="trainer-device positive"></p>
+              <p class="trainer-device animation-placeholder positive"></p>
+              <div class="info-container kimmy active">
+                <p class="trainer-name">Kimmy Schmidt</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80025384" target="_blank">UNBREAKABLE<br/>KIMMY SCHMIDT</a></p>
+              </div>
+              <div class="info-container frankie">
+                <p class="trainer-name">Frankie Bergstein</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80017537" target="_blank">GRACE &<br/>FRANKIE</a></p>
+              </div>
+              <div class="info-container kimmy-gib">
+                <p class="trainer-name">Kimmy Gibbler</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80051137" target="_blank">FULLER HOUSE</a></p>
+              </div>
+              <div class="info-container queen">
+                <p class="trainer-name">Queen Elizabeth II</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/80025678" target="_blank">THE CROWN</a></p>
+              </div>
+              <div class="info-container taystee">
+                <p class="trainer-name">Taystee Jefferson</p>
+                <p class="trainer-show"><a href="https://www.netflix.com/title/70242311" target="_blank">ORANGE IS<br/>THE NEW BLACK</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="trainer-grid kimmy">
+            <div class="trainer-grid-item active" data-trainer="kimmy">
+              <div class="trainer-thumb kimmy"></div>
+              <p class="redline">UNBREAKABLE<br/>KIMMY SCHMIDT</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="frankie">
+              <div class="trainer-thumb frankie"></div>
+              <p>GRACE &<br/>FRANKIE</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="kimmy-gib">
+              <div class="trainer-thumb kimmy-gib"></div>
+              <p>FULLER HOUSE</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="queen">
+              <div class="trainer-thumb queen"></div>
+              <p>THE CROWN</p>
+            </div>
+            <div class="trainer-grid-item" data-trainer="taystee">
+              <div class="trainer-thumb taystee"></div>
+              <p>ORANGE IS<br/>THE NEW BLACK</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="section dark hero home-5">
+  <div class="hero-text">
+    <h1 class="headline">Two ways to <br>work it.</h1>
+    <h2 class="headline-2 sub-head last">Netflix personal trainer is customizable, so you can pick the vibe and choose your coach.</h2>
+  </div>
+</div>
+
+<div class="text-media">
+  <div class="section media home-6 mobile">
+    <img class="mobile lazy ways-gif" id="gif0" src="/assets/blank-86f7a19fd76a93ba40cf5dc4e593920468b0311ed0c4a8502ab71fa377584e5a.png" data-src="/assets/two-ways-1-4f841544fd796e41ac4e0f3491bee31c2247a715a44410bf181c2a2df6599b93.jpg">
+  </div>
+  <div class="section text no-container home-6-text">
+      <h3 class="headline-3 first">Hear words of motivation.</h3>
+      <p class="last">Need an extra kick in the pants? Choose the Netflix character you want as your coach, then set the threshold for your activity level. Any time you start slacking during a workout, your coach will momentarily mute or pause your music to give you a little pep talk.</p>
+  </div>
+  <div class="section media home-6 desktop">
+    <div class="vid-wrapper" id="vid0">
+    </div>
+  </div>
+</div>
+<div class="text-media reverse">
+  <div class="section media home-6 mobile">
+    <img class="mobile lazy ways-gif" id="gif1" src="/assets/blank-86f7a19fd76a93ba40cf5dc4e593920468b0311ed0c4a8502ab71fa377584e5a.png" data-src="/assets/two-ways-2-fb6f53cae466195a6116a27be2e4d57c153a39d1c9c22212066c0118729b5704.jpg">
+  </div>
+  <div class="section text no-container home-6-text">
+      <h3 class="headline-3 first">Power Netflix with your movement.</h3>
+      <p class="first">Like to sweat it out to your favorite shows while on the elliptical or treadmill? Connect your personal trainer to your tablet or phone via Bluetooth, cue up Netflix, then start your workout. Your show will pause anytime you stop and resume when you do.</p>
+      <a class="button" href="/projects/personal-trainer">Get Instructions</a>
+  </div>
+  <div class="section media home-6 desktop">
+    <div class="vid-wrapper" id="vid1">
+    </div>
+  </div>
+</div>
+
+<div class="section media-gallery dark">
+  <h1 class="headline">Give your friends <br>that extra push.</h1>
+  <div class="media-grid">
+    <div class="media-slide-control right"><img class="lazy" src="/assets/blank-86f7a19fd76a93ba40cf5dc4e593920468b0311ed0c4a8502ab71fa377584e5a.png" data-src="/assets/arrow-3eeefb18e5f4e8772ec72aab12c4f2a1a4e015a45e4051f9937a2707402c8f2b.svg"></div>
+    <div class="media-slide-control left"><img class="lazy" src="/assets/blank-86f7a19fd76a93ba40cf5dc4e593920468b0311ed0c4a8502ab71fa377584e5a.png" data-src="/assets/arrow-3eeefb18e5f4e8772ec72aab12c4f2a1a4e015a45e4051f9937a2707402c8f2b.svg"></div>
+   <div class="container">
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/taystee.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="ot" data-title="Taystee"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=ot&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/taystee.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/bojack.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="b" data-title="Bojack"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=b&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/bojack.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/dustin.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="str" data-title="Dustin"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=str&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/dustin.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/frank.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="hoc" data-title="Frank"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=hoc&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/frank.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/frankie.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="gf" data-title="Frankie"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=gf&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/frankie.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/jessica.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="jj" data-title="Jessica"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=jj&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/jessica.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/kimmy-gib.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="fhk" data-title="KimmyGib"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=fhk&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/kimmy-gib.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/terry.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="bm" data-title="Terry"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=bm&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/terry.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/maria.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="dy" data-title="Maria"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=dy&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/maria.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/pablo.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="n" data-title="Pablo"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=n&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/pablo.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/red.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="or" data-title="Red"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=or&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/red.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/steph.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="fs" data-title="Steph"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=fs&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/steph.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/queen.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="q" data-title="Queen"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=q&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/queen.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/titus.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="kt" data-title="Titus"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=kt&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/titus.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="media-container">
+        <div class="media">
+          <img src="/trainer-gifs/kimmy-schmidt.gif" />
+        </div>
+        <div class="action-bar">
+          <p class="action-label">Share</p>
+          <div class="action-icons">
+            <a class="action-icon facebook-gif-share" data-param="kk" data-title="KimmyS"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg" /></a>
+            <a class="action-icon" href="https://twitter.com/intent/tweet?status=Turn your favorite character into your %23NetflixPersonalTrainer. http://makeit.netflix.com?g=kk&via=Netflix&"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg" /></a>
+            <a class="action-icon" href="/trainer-gifs/kimmy-schmidt.gif" download><img src="/assets/download-f6dd71974ce94d1ab7b423ea5014da098cde50593118a6fcc9c23f71f6fdbd74.svg" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+ <footer>
+    <div class="container">
+      <ul>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></li>
+        <li><a href="https://help.netflix.com/legal/privacy">Privacy Statement</a></li>
+        <li><a href="https://www.netflix.com/originals">Netflix Originals</a></li>
+        <li>
+          <div class="social-share">
+            <div class="share-buttons">
+              <a href="#" class="facebook-share" target="_blank"><img src="/assets/facebook-e096221762718e8931961c320a5afe01da06d0e5d6a779cd4cbfe8b1e3532769.svg"></a>
+
+              <a href="https://twitter.com/intent/tweet?url=http://makeit.netflix.com"><img src="/assets/twitter-fc0bd2b70fe321c00e1ffc12d85e05ad891cc11f29bbb022279894642701922a.svg"></a>
+
+<!--               <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://makeit.netflix.com&title=Turn your Netflix routine into a workout routine | Make It by Netflix&summary=&The Netflix Personal Trainer transforms your favorite character into your coach. MakeIt.Netflix.com&source=Netflix Make it" target="_blank"><img src="/assets/social-linkedin-e390ef29cfcbf8665c06478141c15f84b927a27f1f1dbaa3d7b0da6b0e51007e.svg" alt="Social linkedin e390ef29cfcbf8665c06478141c15f84b927a27f1f1dbaa3d7b0da6b0e51007e" /></a> -->
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="logo">
+        <img src="/assets/logo-7476a208113e0d32092cccdae999ccb86d9027e33631f87edac8dcc043154637.svg" />
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="/assets/application-3bc7e4b6efd57f88944da3a13064dbd91d9daa5dc37e664363c69b4813f90bf4.js"></script>
+  <script type="text/javascript">
+    var onYouTubeIframeAPIReady = MakeIt.onYouTubeIframeAPIReady;
+      MakeIt.init();
+  MakeIt.initLanding();
+
+  </script>
+  <script media="all" src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-57273491-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

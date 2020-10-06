@@ -1,0 +1,23 @@
+https://caffemacs-aa-uat2-alt.apple.com/
+
+> GET / HTTP/1.1
+> Host: caffemacs-aa-uat2-alt.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 0
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+< Location: https://idmsac-uat.corp.apple.com/IDMSWebAuth/login?appIdKey=343db8192d28d6d1dd96f4ca339339e02e274650585e365e062f5b8ad688e785&rv=24&baseURL=idmsac-uat.corp.apple.com
+< Server: Apple
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Date: Thu, 30 Apr 2020 21:41:09 GMT
+< Set-Cookie: upstreamcookie=674abe2ea1a6237223f6e90159afcb17; expires=Thu, 30-Apr-20 22:41:08 GMT; max-age=3600; domain=.apple.com; httponly; secure; path=/
+< Set-Cookie: JSESSIONID=SessionIdManagerWorker1syindnsl8dmg14ujm5r6qvezl.SessionIdManagerWorker;Path=/;Secure
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+

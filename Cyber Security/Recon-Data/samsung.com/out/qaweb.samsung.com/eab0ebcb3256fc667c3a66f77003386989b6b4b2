@@ -1,0 +1,22 @@
+https://qaweb.samsung.com/
+
+> GET / HTTP/1.1
+> Host: qaweb.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Date: Wed, 10 Jun 2020 05:36:14 GMT
+< Location: http://qaweb.samsung.com/apps/samsungp5/login/content/login.html?resource=%2Fglobal%2Fcommon%2Fsamsung.html&$$login$$=%24%24login%24%24&j_reason=unknown&j_reason_code=unknown
+< Cache-Control: no-cache="set-cookie"
+< Server: nginx
+< Server-Timing: cdn-cache; desc=MISS
+< Server-Timing: edge; dur=335
+< Server-Timing: origin; dur=36
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: WMONID=QtiIdxaNDDi; Expires=Thu, 10-Jun-2021 14:36:14 GMT; Path=/
+< Set-Cookie: AWSELB=FD39B5C118C271986EE9681D20D038BD2470B34DDAB521D9FE61A489815E1AE0C01FE819A5272FC492CBB8710213BE8F3648004F07FE42D1E5F99C6A9BD085BDBE0F9678A0;PATH=/;MAX-AGE=300
+< Set-Cookie: AWSELBCORS=FD39B5C118C271986EE9681D20D038BD2470B34DDAB521D9FE61A489815E1AE0C01FE819A5272FC492CBB8710213BE8F3648004F07FE42D1E5F99C6A9BD085BDBE0F9678A0;PATH=/;MAX-AGE=300;SECURE;SAMESITE=None
+< Set-Cookie: device_type=pc; path=/
+

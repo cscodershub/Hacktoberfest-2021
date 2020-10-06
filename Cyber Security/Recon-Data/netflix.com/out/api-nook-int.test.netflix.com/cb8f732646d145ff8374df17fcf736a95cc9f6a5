@@ -1,0 +1,17 @@
+http://api-nook-int.test.netflix.com/
+
+> GET / HTTP/1.1
+> Host: api-nook-int.test.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Netflix.nfstatus: 1_2
+< Content-Length: 7
+< Server: api-int UNKNOWN
+< Set-Cookie: nfvdid=BQFmAAEBEOiRXYYv3pkgc63YVT2yT0ZAwnpl8ch0Y10vs-hw-KduZSJ8GtgGLrqRPyzqtyMEvwEh4UAHU7IhaCNWRf2Wb8ocbdUwP2nFxbcT_-NRZwpM1A%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=6d134e35-6d9d-4e03-a428-9cfc46cab4c3; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:37:14 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0c628b1dd4a0145c4 (us-east-1)
+< X-Netflix.proxy.execution-Time: 27601
+< X-Originating-Url: http://api-nook-int.test.netflix.com/
+
+BLOCKED

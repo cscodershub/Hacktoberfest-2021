@@ -1,0 +1,12 @@
+http://partners.sec.samsung.com/
+
+> GET / HTTP/1.1
+> Host: partners.sec.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://partners.sec.samsung.com/irj/portal
+< Server: BigIP
+< Connection: close
+< Content-Length: 0
+

@@ -1,0 +1,31 @@
+https://appleteacher.apple.com/
+
+> GET / HTTP/1.1
+> Host: appleteacher.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Thu, 30 Apr 2020 21:29:00 GMT
+< Last-Modified: Wed, 29 Apr 2020 21:49:32 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Xss-Protection: 1; mode=block
+< Server: Apple
+< Etag: W/"2468-1588196972453"
+< Host: appleteacher.apple.com
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+
+<!doctype html> <html class="no-js" lang="{{metaLangCode}}" ng-app="seed"> <head> <meta charset="utf-8"> <title>Apple Teacher Learning Center</title> <meta name="apple-mobile-web-app-title" content="Apple Teacher"> <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"> <meta name="description" content="Sign in to the Apple Teacher Learning Center. Discover great learning resources and learn new skills to become an Apple Teacher."> <link rel="apple-touch-icon" href="images/apple-touch-icon.png" sizes="180x180"> <link rel="icon" href="images/apple-icon.png" sizes="80x80"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/debb1f7d.styles.css" media="screen"> <link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro+Icons,v1|SF+Pro+Display,v1|SF+Pro+Text,v1|SF+Pro+JP,v1|SF+Pro+SC,v1|SF+Pro+TH,v1|SF+Pro+TC,v1"> </head> <!-- class: isIOS conditionally added in the case of iOS devices to refer styles for content-player --> <body class="desktop" ng-class="{'isIE' : isIE , 'stagingEnabled' :  Profile.isStagingEnabled }" auto-outline> <div id="shell-view-wrapper"> <div class="deepLink loading" id="loading-spinner" role="img" aria-label="Busy"> <span on-hide-message="Loading complete" acc-polite-message="Loading..."></span> </div> <ui-view ng-if="l"> <div class="loading"> <div class="error-msg" style="display: none"></div> </div> </ui-view> <div id="notify" role="alert"></div> <div id="notifynonalert" role="status"></div> </div> <script> FileAPI = {};
+  var isIgnored = localStorage.getItem('isIgnored') == 'true' ? true : false, nav = navigator.userAgent.toLowerCase(),
+    browserName, version;
+  var isIE = function () {
+    return (nav.indexOf('msie') != -1) ? parseInt(nav.split('msie')[1]) : false;
+  };
+
+  if (isIgnored) {
+    console.log('Not supported browser and redirecting to home');
+  } else if (isIE() && isIE() < 10) {
+    console.log('Not supported browser and redirecting to the Error page with message');
+    window.location.href = 'error.html';
+  } </script> <script src="scripts/a81d2244.vendor.js"></script> <script src="scripts/5d0e5486.templates.js"></script> <script src="scripts/ef4f0770.scripts.js"></script> <!-- For Auth Widget --> <!-- Set dynamically on build --> <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/authService.latest.min.js"></script> 

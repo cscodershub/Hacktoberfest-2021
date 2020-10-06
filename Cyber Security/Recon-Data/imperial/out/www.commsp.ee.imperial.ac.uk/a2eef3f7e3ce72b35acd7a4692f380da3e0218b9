@@ -1,0 +1,18 @@
+https://www.commsp.ee.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.commsp.ee.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 315
+< Content-Type: text/html; charset=us-ascii
+< Server: Microsoft-HTTPAPI/2.0
+< Date: Sat, 18 Jul 2020 13:54:46 GMT
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Not Found</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Not Found</h2>
+<hr><p>HTTP Error 404. The requested resource is not found.</p>
+</BODY></HTML>

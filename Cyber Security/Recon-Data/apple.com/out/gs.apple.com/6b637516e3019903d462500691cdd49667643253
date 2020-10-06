@@ -1,0 +1,23 @@
+http://gs.apple.com/
+
+> GET / HTTP/1.1
+> Host: gs.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:30:41 GMT
+< Content-Type: text/html
+< Content-Length: 138
+< Location: http://www.apple.com/404
+< Host: gs.apple.com
+< X-Frame-Options: SAMEORIGIN
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

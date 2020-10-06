@@ -1,0 +1,13 @@
+http://support-sp.apple.com/
+
+> GET / HTTP/1.1
+> Host: support-sp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://support-sp.apple.com/
+< Date: Thu, 30 Apr 2020 21:28:45 GMT
+< X-Cache: TCP_MISS from a49-44-136-135.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+

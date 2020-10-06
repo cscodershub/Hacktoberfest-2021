@@ -1,0 +1,120 @@
+https://api.prodclone.boomi.com/
+
+> GET / HTTP/1.1
+> Host: api.prodclone.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Server: Boomi AtomSphere
+< Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Date: Sat, 15 Aug 2020 09:16:09 GMT
+< X-Frame-Options: sameorigin
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Screen</title>
+    <script type="text/javascript" language="javascript" src="Welcome/Welcome.nocache.js"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(
+                ['_setAccount', 'UA-229489-1'],
+                ['_setDomainName', '.boomi.com'],
+                ['_setCustomVar', 1, 'Client', 'True', 1],
+                ['_trackPageview']
+        );
+    </script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.typekit.net/glj6vlc.css">
+</head>
+
+<body>
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+    <noscript>
+        <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; border: 1px solid red; padding: 4px; font-family: sans-serif">
+            Your web browser must have JavaScript enabled
+            in order for this application to display correctly.
+        </div>
+    </noscript>
+    <div id="app" style="background: url(&quot;./app_preloader.gif&quot;) no-repeat scroll 0 0 transparent; display: block; height: 72px; margin: 200px auto; width: 72px;"> </div>
+</body>
+<script type="text/javascript">
+
+    if( document.location.toString().indexOf("salesforce") < 0 ) {
+
+        var loadedGoogleAnalytics = false;
+        var isGoogleAnalyticsDisabled = false;
+        var gaNode;
+
+        _gaq.push(function ()
+        {
+            loadedGoogleAnalytics = true;
+        });
+
+        (function ()
+        {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+
+            gaNode = ga;
+
+        })();
+
+        setTimeout(function ()
+        {
+            if( !loadedGoogleAnalytics ) {
+                isGoogleAnalyticsDisabled = true;
+                gaNode.parentNode.removeChild(gaNode);
+            }
+        }, 30000);
+    }
+
+</script>
+
+<script type="text/javascript">
+
+    function manuallyTrackPageView(category, action, label) {
+        if( document.location.toString().indexOf("salesforce") < 0  && !isGoogleAnalyticsDisabled ) {
+            _gaq.push(['_trackEvent', category, action, label])
+        }
+    }
+
+    function manuallyTrackPageViewWithValue(category, action, label, value) {
+        if( document.location.toString().indexOf("salesforce") < 0  && !isGoogleAnalyticsDisabled ) {
+            _gaq.push(['_trackEvent', category, action, label, value])
+        }
+    }
+</script>
+
+<script>
+    /**
+     * Immediately-invoked function expression to prevent scope pollution.
+     */
+    (function(apiKey){
+        /**
+         * Bootstrap the `pendo` namespace for deferred execution of common methods until the Agent is fully loaded
+         * from the CDN. The deferred methods are: a) initialize b) identify c) updateOptions d) pageLoad.
+         */
+        (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
+            v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
+                o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+            y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
+            z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+    })('6f621fb5-a115-4088-7d59-9bad314c05dd');
+</script>
+
+</html>

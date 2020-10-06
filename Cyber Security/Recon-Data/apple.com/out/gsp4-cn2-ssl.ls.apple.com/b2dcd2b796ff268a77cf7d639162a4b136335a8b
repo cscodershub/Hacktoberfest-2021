@@ -1,0 +1,37 @@
+http://gsp4-cn2-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsp4-cn2-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< Content-Length: 597
+< Server: Tengine
+< Date: Thu, 30 Apr 2020 21:31:02 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>http://gsp4-cn2-ssl.ls.apple.com/</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>snowman-search-api011186077106.center.su18</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2020/05/01 05:31:02</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>

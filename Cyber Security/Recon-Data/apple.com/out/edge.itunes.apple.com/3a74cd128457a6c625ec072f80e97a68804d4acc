@@ -1,0 +1,13 @@
+http://edge.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: edge.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Pragma: no-cache
+< Date: Thu, 30 Apr 2020 21:29:53 GMT
+< X-Cache: TCP_MISS from a125-99-55-121.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< Location: https://edge.itunes.apple.com/
+< Cache-Control: no-cache
+

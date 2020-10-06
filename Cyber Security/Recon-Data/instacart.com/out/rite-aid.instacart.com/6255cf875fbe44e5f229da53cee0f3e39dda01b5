@@ -1,0 +1,24 @@
+http://rite-aid.instacart.com/
+
+> GET / HTTP/1.1
+> Host: rite-aid.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 b0811affe008637127caf78a69b558a4.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: r_9mrM6Ny9_M5eos5KUPulIYa5hC8QOj-VFjiOuVn6aD2nPVCYpkyA==
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:30 GMT
+< Content-Length: 183
+< Location: https://rite-aid.instacart.com/
+< X-Amz-Cf-Pop: MAA50-C1
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

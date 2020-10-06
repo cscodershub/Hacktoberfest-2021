@@ -1,0 +1,52 @@
+https://partneranalytics.apple.com/
+
+> GET / HTTP/1.1
+> Host: partneranalytics.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Referrer-Policy: no-referrer-when-downgrade
+< Content-Security-Policy-Report-Only: connect-src * https://*.tiles.mapbox.com https://api.mapbox.com; default-src blob:; font-src * data:; frame-src * data:; img-src * data: blob:; object-src data:; report-uri /vizql/csp-report; script-src * blob:; style-src * 'unsafe-inline'
+< Content-Type: text/html; charset=utf-8
+< Accept-Ranges: bytes
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Host: partneranalytics.apple.com
+< Pragma: no-cache
+< Server: Apple
+< Etag: "948-59f1e20d1aa00-gzip"
+< Expires: -1
+< Vary: Accept-Encoding
+< P3p: CP="NON"
+< X-Ua-Compatible: IE=Edge
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-cache, no-store, must-revalidate
+< Date: Thu, 30 Apr 2020 21:29:21 GMT
+< X-Tableau: Tableau Server
+< Content-Security-Policy: frame-ancestors https://*.apple.com;
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Last-Modified: Fri, 21 Feb 2020 23:10:32 GMT
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+
+<!DOCTYPE html>
+<html xmlns:ng="" xmlns:tb="">
+  <head ng-csp>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=2, width=device-width, height=device-height, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+  <meta name="vizportal-config" data-buildId="2020_1_43_j3g4u8iq7ap" data-staticAssetsUrlPrefix=""><link href="vendors~vizportal.css?ddc7bc98a88f36bd01ea" rel="stylesheet"><link href="vizportal.css?ddc7bc98a88f36bd01ea" rel="stylesheet"><script type="text/javascript" src="/javascripts/api/tableau-2.min.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="jquery.min.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="angular.min.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="angular-cookies.min.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="angular-sanitize.min.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="angular-ui-router.min.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="rsa.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="underscore-min.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="q.min.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="canvas-to-blob.min.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="js.cookie.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="mousetrap.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="core.min.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="vendors~vizportal.js?ddc7bc98a88f36bd01ea"></script><script type="text/javascript" src="vizportal.js?ddc7bc98a88f36bd01ea"></script></head>
+  <body class="tb-body">
+    <div class="tb-app" ng-app="VizPortalRun" id="ng-app" tb-window-resize>
+      <tb:app></tb:app>
+      <tb:react-toaster></tb:react-toaster>
+      <script type="text/ng-template" id="inline_stackedElement.html">
+        <div class="tb-absolute" tb-window-resize tb-left="left" tb-top="top" tb-right="right" tb-bottom="bottom" tb-visible="visible"></div>
+      </script>
+      <tb:stacked-elements></tb:stacked-elements>
+    </div>
+  <script src="add_status_button.js"></script> 
+  </body>
+</html>

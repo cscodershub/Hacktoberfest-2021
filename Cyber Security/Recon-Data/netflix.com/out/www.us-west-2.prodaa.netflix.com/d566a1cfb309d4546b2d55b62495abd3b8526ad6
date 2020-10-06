@@ -1,0 +1,32 @@
+https://www.us-west-2.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.us-west-2.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Length: 0
+< Content-Type: text/html
+< Edge-Control: no-cache, no-store
+< Location: https://www.us-west-2.prodaa.netflix.com/in/
+< Set-Cookie: flwssn=5729a287-ba18-44cd-9bb7-7140696a75c5; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:25 GMT
+< Set-Cookie: clSharedContext=b2749e6e-00ea-46fe-a022-ad3643fff956; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEHZKaz5WB3yluR8wQGeZKTFAtudsLt7KxwXacdzKg0Im3XqAzUkuNMIdKFLvsfPuIGfmQL9U_Zc1bObOMVDXpwZoqd0-0eHY6pK8vaRuU24fKg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABQLM4Riy5h09AbFNr-aS7l3-Vo1FdWep0o.%26dt%3D1592372065094; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:25 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEGrNaGaT3jN0tKyCbLUen82A8OSfXqDxHfvXAQXcZNOxpX5E8eodOajpfUIGjThPBzTOKxHywWii9R_U6uixF99SzPb0vvTnYgECE-66A24wVhWYPjyQJiVm2gKj16j5cGofOlhKtzwY843rb2lq7YoN39vT2fWqLP1hCA0Jmv8dq_QMVK8L2exJW2lflZ1bv9UXP2GCz3_dOv-IVQkvfPVOj92BHRl-Cenc84Fu2sKAC2ljfrscOZnuF4MrQjQOZk42AD5knL1ku4bVkhqxavQc7jIO4Q6A-AsEZtpma0EJvtSvp_tG6LUCgB2U9sYzm9lT68qz82uy9EtfDZyGkDlF-Q..%26bt%3Ddev%26mac%3DAQEAEAABABQNtg3WaWVh2-yAIXXXIrm8KPJaB1u_Cgk.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:25 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=8802f520-b686-473e-a551-c1b9212736c8; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:25 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.proxy.execution-Time: 148
+< X-Robots-Tag: index
+< X-Netflix.nfstatus: 1_1
+< Server: nq_website_nonmember-prod-release 5306e08d-e3e2-416e-9d67-3f91737857d1
+< Via: 1.1 i-081b45d49637bd00a (us-west-2)
+< X-Frame-Options: DENY
+< X-Originating-Url: https://www.us-west-2.prodaa.netflix.com/
+< Cache-Control: no-cache, no-store
+< Date: Wed, 17 Jun 2020 05:34:25 GMT
+< Expires: 0
+

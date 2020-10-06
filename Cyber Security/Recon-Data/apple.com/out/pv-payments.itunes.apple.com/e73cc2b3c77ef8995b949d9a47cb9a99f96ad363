@@ -1,0 +1,18 @@
+https://pv-payments.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: pv-payments.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Nncoection: close
+< X-Apple-Jingle-Correlation-Key: XGN3JB6G3Y65JC55TTN7N7STZQ
+< Content-Type: application/json
+< Content-Length: 43
+< Date: Thu, 30 Apr 2020 21:30:15 GMT
+< X-Apple-Request-Uuid: b99bb487-c6de-3dd4-8bbd-9cdbf6fe53cc
+< Apple-Seq: 0
+< Apple-Tk: false
+< Apple-Originating-System: UnknownOriginatingSystem
+
+{"code":404,"message":"HTTP 404 Not Found"}

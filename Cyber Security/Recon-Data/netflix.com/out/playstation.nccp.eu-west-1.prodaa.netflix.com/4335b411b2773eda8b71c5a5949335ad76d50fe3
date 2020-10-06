@@ -1,0 +1,25 @@
+http://playstation.nccp.eu-west-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: playstation.nccp.eu-west-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Via: 1.1 i-0fb94a4e1c233093a (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< Server: nccp-modern i-0e9a663884ecd0aee
+< Set-Cookie: memclid=b3a5e1cb-3b57-452c-b4c8-3b89a4ef559b; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:43 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEBbytBwJAz5t%2BSHZi4GemPNAZWNLK8dNuKxBtjCN%2F3r9wvvWVgGUqsi3xY26kIB8%2B2M0cPlPq5O6fRtmthsoC2E%2BAQeTI8eQ6YR8CVzVGN7RRg%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:35:43 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.proxy.execution-Time: 3
+< X-Originating-Url: http://playstation.nccp.eu-west-1.prodaa.netflix.com/
+< Content-Length: 199
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 17 Jun 2020 05:35:43 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

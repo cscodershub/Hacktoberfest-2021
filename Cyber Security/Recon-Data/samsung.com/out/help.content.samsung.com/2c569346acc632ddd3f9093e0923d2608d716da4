@@ -1,0 +1,16 @@
+https://help.content.samsung.com/
+
+> GET / HTTP/1.1
+> Host: help.content.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Wed, 10 Jun 2020 05:35:42 GMT
+< Content-Length: 0
+< Content-Type: text/html;charset=utf-8
+< Server-Info: wsite22
+< Set-Cookie: JSESSIONID=LX1UHtdiSSlmLHQGt2HumYaFo0b1Ium0CaBWG30l.wsite22; path=/; secure; HttpOnly
+< Set-Cookie: SCOUTER=z2ps2kf2kt6fai; path=/; Max-Age=2147483647; Expires=Mon, 28-Jun-2088 08:49:49 GMT
+< Set-Cookie: TS01166133=01c4a40a5ee819c0f93d1d600b600a1b04a9eaec3a4b36e3017360a671bb5e37cc704b849314ebea3cb9cbd8772a953ab1098c87a4f8be2d15f4adc131bd9071232490df608cb4dedae345611ab2843e4c91401b5e; Path=/
+< Location: https://help.content.samsung.com/csweb
+

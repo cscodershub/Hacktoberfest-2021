@@ -1,0 +1,49 @@
+https://horse.samsung.com/
+
+> GET / HTTP/1.1
+> Host: horse.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Wed, 10 Jun 2020 05:36:45 GMT
+< Content-Length: 965
+< Content-Type: text/html
+< Last-Modified: Wed, 22 Apr 2020 22:53:50 GMT
+< Accept-Ranges: bytes
+< Set-Cookie: INGRESSCOOKIE=d4102cac880438245f57ca3355ca73ea; Path=/; HttpOnly
+< Set-Cookie: TS015af882=01baedfe8e1ca7d9d6837b96186c952ffe5cb36a726d22bc51784279f865f83626bf184f9aaaa851a1dff51f5335aa594b285e958bb3be8960841f378836f8888badd03ae3; Path=/
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>삼성전자 승마단</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript">
+var dt = new Date();
+
+var month = dt.getMonth()+1; // 0遺��� �����대�� ���� ����..   
+var day = dt.getDate();
+var year = dt.getFullYear();
+var hour = dt.getHours();
+
+if(month == 12 && day == 11 && year == 2016) {
+	// ����以� 遺�湲�  
+	if(hour > 8 && hour < 14) {
+		document.location.href = "/index_system_notice.html";
+	}
+	else{
+		document.location.href = "/main/Main.Svlt";
+	}
+}
+else{
+	document.location.href = "/main/Main.Svlt";
+}
+//<![CDATA[
+//document.location.href = "/main/Main.Svlt";
+//]]>
+</script>		
+
+</body>
+</html>

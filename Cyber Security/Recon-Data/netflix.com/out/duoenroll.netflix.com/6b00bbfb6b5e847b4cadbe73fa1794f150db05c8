@@ -1,0 +1,22 @@
+http://duoenroll.netflix.com/
+
+> GET / HTTP/1.1
+> Host: duoenroll.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: AWSALB=hy4J7HK7fFqMUGEg+BGqXEuTyGzEvu+Qg0TTiOsszH6BZnqcwdGGZBpCGk6LSDJ8o/8ViO+G/RVjEdrWS7GLPOtACEV7VLCozSFx/9zW2PHWrHyeLWCPki1WiaRL; Expires=Wed, 24 Jun 2020 05:35:29 GMT; Path=/
+< Set-Cookie: AWSALBCORS=hy4J7HK7fFqMUGEg+BGqXEuTyGzEvu+Qg0TTiOsszH6BZnqcwdGGZBpCGk6LSDJ8o/8ViO+G/RVjEdrWS7GLPOtACEV7VLCozSFx/9zW2PHWrHyeLWCPki1WiaRL; Expires=Wed, 24 Jun 2020 05:35:29 GMT; Path=/; SameSite=None
+< Server: Apache
+< Location: https://duoenroll.prod.netflix.net
+< Date: Wed, 17 Jun 2020 05:35:29 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 242
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://duoenroll.prod.netflix.net">here</a>.</p>
+</body></html>

@@ -1,0 +1,11 @@
+http://class.coursera.org/
+
+> GET / HTTP/1.1
+> Host: class.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 10 Aug 2020 04:51:43 GMT
+< Location: https://class.coursera.org/
+< Content-Length: 0
+

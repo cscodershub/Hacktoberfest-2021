@@ -1,0 +1,25 @@
+https://faq.stage.mini.de/
+
+> GET / HTTP/1.1
+> Host: faq.stage.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Content-Type: text/html;charset=UTF-8
+< Server: Apache
+< X-Cache: Error from cloudfront
+< Via: 1.1 100385c151f051b6982bfdd5dfcd5bbd.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MRS52-C1
+< X-Amz-Cf-Id: Q-Stqqu49pWAOgYZkKuzqafpU8lKPwbVXIMN4ntSUvvSjA2Y0gL9Ow==
+< Content-Length: 167
+< Date: Tue, 11 Aug 2020 04:54:44 GMT
+< Set-Cookie: AWSALB=h/ebDjPR11nSFL8nZNyTD6GBnGCCbAFGskxhSrnW+ElACkvOgs2j4+t0DCGxwOpYEJE3jVQa+gOcemRCRS22dLXYC3A//pPOEDS6dyv0EGBWn6ECNQUKRj6/CAlr; Expires=Tue, 18 Aug 2020 04:54:44 GMT; Path=/
+< Set-Cookie: AWSALBCORS=h/ebDjPR11nSFL8nZNyTD6GBnGCCbAFGskxhSrnW+ElACkvOgs2j4+t0DCGxwOpYEJE3jVQa+gOcemRCRS22dLXYC3A//pPOEDS6dyv0EGBWn6ECNQUKRj6/CAlr; Expires=Tue, 18 Aug 2020 04:54:44 GMT; Path=/; SameSite=None; Secure
+< Www-Authenticate: Basic realm="Lithium"
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>401 Authorization Required</title>
+</head><body>
+<h1>Authorization Required</h1>
+</body></html>

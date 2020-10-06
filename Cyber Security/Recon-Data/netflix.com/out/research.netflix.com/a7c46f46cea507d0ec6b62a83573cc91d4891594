@@ -1,0 +1,31 @@
+http://research.netflix.com/
+
+> GET / HTTP/1.1
+> Host: research.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 51
+< Content-Type: text/plain; charset=utf-8
+< X-Content-Type-Options: nosniff
+< Location: https://research.netflix.com/
+< Surrogate-Control: no-store
+< Vary: Accept
+< X-Netflix.nfstatus: 1_1
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+< Date: Wed, 17 Jun 2020 05:35:23 GMT
+< Strict-Transport-Security: max-age=15552000; includeSubDomains
+< Via: 1.1 i-0e8651f1581f75075 (us-east-1)
+< X-Netflix.proxy.execution-Time: 43516
+< X-Originating-Url: http://research.netflix.com/
+< Expires: 0
+< Server: researchml 09055abc-6aec-4391-a86b-314fc6371612
+< X-Dns-Prefetch-Control: off
+< X-Download-Options: noopen
+< X-Frame-Options: SAMEORIGIN
+< Pragma: no-cache
+< Set-Cookie: memclid=17ac8d80-5bc4-4198-9174-9c5ba5feb9f7; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:23 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEM4deXu3us3%2F4usODA0ScU1AWQ84CRy7UoUExqCBscvJwAVyrpZjiZDWiGwIHonfqyn5nscqXGkvBdpk6Z%2B%2BWVdpUAgziBa8vXu%2F16VJGuUUEg%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:35:23 GMT; Path=/; Domain=.netflix.com
+
+Found. Redirecting to https://research.netflix.com/

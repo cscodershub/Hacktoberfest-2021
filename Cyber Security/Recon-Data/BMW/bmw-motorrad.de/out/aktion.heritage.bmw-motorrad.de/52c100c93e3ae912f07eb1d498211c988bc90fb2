@@ -1,0 +1,207 @@
+https://aktion.heritage.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: aktion.heritage.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=utf-8
+< X-Aspnetmvc-Version: 5.2
+< X-Aspnet-Version: 4.0.30319
+< Date: Tue, 11 Aug 2020 04:45:34 GMT
+< Cache-Control: private
+< X-Powered-By: ASP.NET
+< Content-Length: 11811
+< Server: Microsoft-IIS/10.0
+
+<!DOCTYPE html>
+<html class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+<head>
+    <!-- Matomo Tag Manager -->
+    <script type="text/javascript">
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+        var hasAccepted = getCookie("herWinCookieConsent");
+
+        if (hasAccepted) {
+            var _mtm = _mtm || [];
+            _mtm.push({ 'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start' });
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = 'https://cdn.matomo.cloud/bmwmotorradheritagereg.matomo.cloud/container_Zbv15Eha.js'; s.parentNode.insertBefore(g, s);
+        }
+
+    </script>
+    <!-- End Matomo Tag Manager -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Heritage | BMW Motorrad</title>
+    <link href="/Content/css?v=clMOO-unDBcqIZRcHZt36HbMoDiw8V0h0WTTS1vbMDQ1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=y-wc4Zwb1pqTVWUchSELX9bCZvrMM5N3H0IL8aDh9aU1"></script>
+
+    <script src="/bundles/jquery?v=8Oos0avDZyPg-cbyVzvkIfERIE1DGSe3sRQdCSYrgEQ1"></script>
+
+    <script src="/bundles/jqueryval?v=ewwbEwxCzNIunbw9c2Y5X5_ldbOkIBIkUo-LvchX7I81"></script>
+
+    <script src="/bundles/bootstrap?v=MxPitFP37iZCg-iSBEeTZixMw6gIc1cRr9yofmSfNzE1"></script>
+
+    <script src="/Scripts/js?v=yxT0PwND50N91x-8cgphvHhtX3hy3wCWy48lCBbn_Uk1"></script>
+
+    <script src="/bundles/main?v=G2u1f5jPXH1JFVDcww3tDPiR6Xef7Oc_mZo1-uud1Cw1"></script>
+
+    <script src="/bundles/start?v=pqgaSN-PWtAcTwhHkSRbpjvyw9OLwOTxlspLjrDeuOE1"></script>
+
+
+    <!-- Matomo -->
+    <div id="matomoScript"></div>
+
+    <noscript id="matomoCode"></noscript>
+    <!-- End Matomo Code -->
+
+</head>
+<body onload="">
+    <header>
+        <div class="container-fluid">
+            <img src="/Content/Images/bmw_logo_international_de.svg" class="logo" />
+        </div>
+    </header>
+    <div id="cookieMessage" class="cookielayer__layer" style="display:none;">
+        <div class="cookielayer__layercontent">
+            <div class="headline">Cookies auf dieser BMW Motorrad Website.</div>
+            <div class="cookielayer__copy">
+                Diese Webseite verwendet Cookies, um Dir ein bestmögliches Surf-Erlebnis zu ermöglichen. Diese Daten werden anonym erhoben und dienen nicht für die Erstellung von Nutzungsprofilen oder anderer weiterführender Verwendung. Mehr über die Datenschutzrichtlinien findest Du hier:
+                <a class="textlink mnm-tracking-link" href="/Cookies" tabindex="0" role="link">Cookie Informationen und Einstellungen.</a>
+            </div>
+        </div>
+
+        <div class="cookielayer__optinbtn">
+            <a class="btn btn--secondary" tabindex="0" role="button" onclick="declineCookies();">Ablehnen</a>
+            <a class="btn btn--primary" tabindex="0" role="button" onclick="acceptCookies();">Akzeptieren</a>
+        </div>
+    </div>
+    <div id="main">
+        
+<div id="winClosed" name="winClosed">
+    <div onload="checkCookie();" class="step-header">
+        <img src="/Content/Images/GWS_Header_6.jpg" class="img-fluid w-100 index-image" />
+    </div>
+    <div class="below-image-text">
+        <div class="justify-content-center mb-5">
+            <div class="below-image-text-box">
+                <div class="headline mb-5 text-center">
+                    <h1 class="bmw-headline closed-h1">DEIN GET-TOGETHER MIT BMW MOTORRAD.</h1>
+                </div>
+                <div class="mb-5 text-center">
+                    <h2 class="cookies-h2">Das Event für Heritage-Fans.</h2>
+                </div>
+                <div class="closed-h2-box">
+                    <h3 class="closed-h2">Aktion ist leider abgelaufen.</h3>
+                </div>
+                <div class="closed-text-box">
+                    <p class="mt-3 mytopp closed-text mb-5">
+                        Leider kommst Du etwas zu spät. Die Anmeldefrist zum BMW Motorrad Event des Jahres ist leider am 22.10.2019 um 23.59 Uhr abgelaufen. Eine Teilnahme an unserer Aktion ist jetzt nicht mehr möglich.<br /><br />
+
+                        Aber das heißt nicht, dass Du auf die neuesten Informationen und die nächsten spannenden Highlights aus der BMW Motorrad Heritage Community verzichten musst. Falls Du Dich noch nicht zu unserem BMW Motorrad Heritage Newsletter angemeldet hast, solltest Du das jetzt mit einem Klick nachholen. So entgeht Dir künftig einfach nichts mehr.<br /><br />
+
+                        Wir freuen uns darauf, Dich bei unserer nächsten Aktion dabei zu haben!<br />
+                    </p>
+                </div>
+                <div>
+                    <a class="btn btn-primary p-3 btn-blue" style="width:auto" href="https://www.bmw-motorrad-heritage-registrierung.de">Jetzt BMW Motorrad Heritage Newsletter abonnieren</a>
+                </div>
+                <div>
+                    <p class="mt-5">
+                        MAKE LIFE A RIDE.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Matomo post-tracking start -->
+    <script>
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+        var hasAccepted = getCookie("herWinCookieConsent");
+
+        if (hasAccepted) {
+            sendFormData();
+        }
+
+        function sendFormData() {
+            //trigger event Registration form
+            _paq.push(['trackEvent', 'Formularaktion', 'WIN Closed Seite aufgerufen']);
+        }
+    </script>
+    <!-- Matomo post-tracking ende -->
+</div>
+    </div>
+    <footer>
+        <div class="container">
+            <div id="layoutFooter" class="row justify-content-center">
+                <div class="footernavigation__social" role="navigation">        
+                    <a href="https://www.facebook.com/BMW.Motorrad.Deutschland" class="footernavigation__socialitem facebook" data-name="Facebook" data-auto-target="" target="_blank"></a>
+                    <a href="https://twitter.com/bmwmotorrad" class="footernavigation__socialitem twitter" data-name="Twitter" data-auto-target="" target="_blank"></a>
+                    <a href="https://www.youtube.com/user/bmwmotorrad" class="footernavigation__socialitem youtube" data-name="Youtube" data-auto-target="" target="_blank"></a>
+                    <a href="https://www.instagram.com/bmwmotorradde/" class="footernavigation__socialitem instagram" data-name="Instagram" data-auto-target="" target="_blank"></a>
+                </div>
+
+                <div class="footernavigation__extern" role="navigation">        
+                    <a href="http://www.bmw.de/de/home.html" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">BMW Automobil</a>
+                    <a href="http://www.mini.com" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">MINI</a>
+                    <a href="https://www.bmwgroup.com/" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">BMW Group</a>
+                    <a href="https://www.bmw-motorrad-authorities.com/" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">Behördenfahrzeuge</a>
+                    <a href="http://www.bmw-welt.com/" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">BMW Museum</a>
+                    <a href="https://www.bmw-motorrad.de/de/vertragshaendler-werden.html" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label" data-auto-target="" data-external-link-class="externalLink" target="_blank">BMW Motorrad Partner werden</a>
+                    <a href="http://www.bmw-werk-berlin.de/index_ie.html" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">BMW Werk Berlin</a>
+                </div>
+
+
+                <div class="col-12 metamenu footernavigation__meta">
+                    
+                    <a href="/Cookies" class="infotrack footerlink" target="_blank">Cookies</a>
+                    <a href="https://www.bmw-motorrad.de/de/public-pool/content-pool/privacy.html" class="infotrack footerlink" target="_blank">Datenschutz</a>
+                    <a href="https://www.bmw-motorrad.de/de/public-pool/content-pool/imprint.html" class="infotrack footerlink" target="_blank">Impressum</a>
+                    <a href="https://www.bmw-motorrad.de/de/public-pool/content-pool/legalnotice.html" class="infotrack footerlink" target="_blank">Rechtlicher Hinweis</a>
+                    <a href="https://www.bmw-motorrad.de/de/public-pool/content-pool/contact.html" class="infotrack footerlink" target="_blank">Kontakt</a>
+                    <a href="https://www.global.bmw-motorrad.com/en/reach/reach-de.html" class="infotrack footerlink externalLink" target="_blank">REACH</a>
+                </div>
+                <div class="footernavigation__disclaimer" role="contentinfo">
+                    © BMW AG  2019
+                    <br>Hinweis: Alle Motorräder werden nur mit der gesetzlich vorgeschriebenen Ausstattung (z.B. Reflektoren nach Euro 4 Standard) ausgeliefert. Die Motorräder auf den Bildern und Videos dieser Website können davon gegebenenfalls abweichen. Abbildungen können Sonderzubehör enthalten.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        checkCookie();
+    </script>
+</body>
+</html>

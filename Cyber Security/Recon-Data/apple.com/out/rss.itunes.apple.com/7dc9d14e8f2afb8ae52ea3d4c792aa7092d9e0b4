@@ -1,0 +1,25 @@
+https://rss.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: rss.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Server: nginx/1.12.2
+< X-Request-Id: dd880566-0ab3-4683-9f95-c0be03ff3735
+< Date: Thu, 30 Apr 2020 21:30:13 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Runtime: 0.002646
+< Expires: Thu, 30 Apr 2020 21:30:13 GMT
+< Location: https://rss.itunes.apple.com/en-us
+< Vary: Accept-Encoding
+< Pragma: no-cache
+< Set-Cookie: locale=en-us; path=/
+< Status: 302 Found
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: max-age=0, no-cache, no-store
+< Strict-Transport-Security: max-age=0
+< X-Content-Type-Options: nosniff
+
+<html><body>You are being <a href="https://rss.itunes.apple.com/en-us">redirected</a>.</body></html>

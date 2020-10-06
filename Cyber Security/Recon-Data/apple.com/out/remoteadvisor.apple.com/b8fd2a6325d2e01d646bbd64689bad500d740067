@@ -1,0 +1,271 @@
+https://remoteadvisor.apple.com/
+
+> GET / HTTP/1.1
+> Host: remoteadvisor.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-cache, no-store
+< Set-Cookie: ns_s=3e0dc34da710777ac66c2a8b9d7274e8; path=/; secure; HttpOnly
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< Date: Thu, 30 Apr 2020 21:29:12 GMT
+< X-Ua-Compatible: IE=edge
+< Pragma: no-cache
+< Vary: Accept-Encoding,X-Requested-With
+< Strict-Transport-Security: max-age=31536000
+< X-Xss-Protection: 1; mode=block
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html;charset=utf-8">
+      <meta http-equiv="Cache-Control" content="no-siteapp">
+      <head>
+         
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<link href="/content/common.css" rel="stylesheet" type="text/css" />
+<link href="/content/public.css" rel="stylesheet" type="text/css" />
+<link href="/content/mobile.css" rel="stylesheet" type="text/css" />
+<link href="/content/portal-customizations.css?_c=0" rel="stylesheet" type="text/css" />
+
+         <link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/globalnav/2.0/en_US/styles/ac-globalnav.built.css">
+         <link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/globalfooter/2.0/en_US/styles/ac-globalfooter.built.css">
+         <link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/localnav/3.0/styles/ac-localnav.built.css">
+         <style>
+            html {font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;quotes: "“" "”";font-size: 24px;}
+            body {line-height: 1.3542;font-weight: 300;letter-spacing: normal;background-color: #fff;color: #333;font-style: normal} 
+            ul, ol {
+            margin: 1em 0 1em 1.1111em;
+            list-style-type: disc;
+            }
+            ul ul, ul ol, ol ul, ol ol {
+            margin-top: 0;
+            margin-bottom: 0
+            }
+            .clear { clear:both; }
+            .clearer { clear: both; display: block; margin: 0; padding: 0; height: 0;line-height: 1px; font-size: 1px; }
+            #container { width: 800px;position: relative;margin: 100px auto -50px; min-height: 100%; height: auto !important; }
+            .notes	 {font-size: 12px;}
+            .notes .intro {
+            font-size: 24px;
+            line-height: 1.3542;
+            font-weight: 200;
+            letter-spacing: normal;
+            display:block;
+            }
+            a {color: #08c}
+            a:visited, a:link, a:active {text-decoration: none}   
+            .sectionTitle{display:none}
+            #sessionKeyBox{ border: 0px;}
+            .contentBox{margin:0;padding: 0px 0px 10px 0px;}
+            h1{ font-size: 32px;line-height: 1.0625;font-weight: 200;letter-spacing: -0.02em}
+            input[type="text"]{
+            box-shadow: none;
+            height: 31px;
+            line-height: 1.5 padding: 5px 10px;
+            font-size: 13px;
+            border-radius: 3px;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #c6c6c6;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            }
+            input[type="submit"]{
+            -webkit-appearance: button;
+            cursor: pointer;
+            padding: 5px 10px;
+            font-size: 13px;
+            line-height: 1.5;
+            border-radius: 3px;
+            color: #fff;
+            background-color: #0179b5;
+            border-color: #0179b5
+            }
+            @media screen and (max-device-width: 480px) { html { -webkit-text-size-adjust: none; } }
+         </style>
+         <link rel="stylesheet" href="https://images.apple.com/support/css/support.css" type="text/css" charset="utf-8">
+         <!--[if lt IE 8]>
+         <link rel="stylesheet" href="https://images.apple.com/support/css/ie7.css" type="text/css" charset="utf-8">
+         <![endif]-->
+         <link rel="stylesheet" href="https://images.apple.com/support/css/suggest2.css" type="text/css" charset="utf-8">
+         <!-- end css -->
+         <!-- start scripts -->	
+   </head>
+   <body>
+      <nav id="ac-globalnav" class="js no-touch svg no-ie7 no-ie8" role="navigation" aria-label="Global Navigation" data-hires="false" data-analytics-region="global nav" lang="en-US" data-store-key="SFX9YPYY9PPXCU9KH" data-store-locale="us" data-store-api="/[storefront]/shop/bag/status" data-search-locale="en_US" data-search-api="/search-services/suggestions/">
+         <div class="ac-gn-content">
+            <ul class="ac-gn-header">
+               <li class="ac-gn-item ac-gn-menuicon">
+                  <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true"> <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+                  <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span> </span> <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+                  <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span> </span>
+                  </label>
+                  <a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open" data-analytics-click="prop3:t@Open Menu" onclick="s_objectID=&quot;http://www.apple.com/#ac-gn-menustate_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-menuanchor-label">Open Menu</span> </a>
+                  <a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close" data-analytics-click="prop3:t@Close Menu" onclick="s_objectID=&quot;http://www.apple.com/#_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-menuanchor-label">Close Menu</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-apple">
+                  <a class="ac-gn-link ac-gn-link-apple" href="http://www.apple.com" data-analytics-title="apple home" id="ac-gn-firstfocus-small" onclick="s_objectID=&quot;http://www.apple.com/_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">Apple</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+                  <a class="ac-gn-link ac-gn-link-bag" href="http://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="prop3:t@Shopping Bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with Items" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content" onclick="s_objectID=&quot;http://www.apple.com/us/shop/goto/bag_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">Shopping Bag</span> <span class="ac-gn-bag-badge"></span> </a> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span> 
+               </li>
+            </ul>
+            <ul class="ac-gn-list">
+               <li class="ac-gn-item ac-gn-apple">
+                  <a class="ac-gn-link ac-gn-link-apple" href="http://www.apple.com" data-analytics-title="apple home" id="ac-gn-firstfocus" onclick="s_objectID=&quot;http://www.apple.com/_2&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">Apple</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+                  <a class="ac-gn-link ac-gn-link-mac" href="http://www.apple.com/mac/" data-analytics-title="mac" data-analytics-click="prop3:t@Mac" onclick="s_objectID=&quot;http://www.apple.com/mac/_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">Mac</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+                  <a class="ac-gn-link ac-gn-link-ipad" href="http://www.apple.com/ipad/" data-analytics-title="ipad" data-analytics-click="prop3:t@iPad" onclick="s_objectID=&quot;http://www.apple.com/ipad/_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">iPad</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+                  <a class="ac-gn-link ac-gn-link-iphone" href="http://www.apple.com/iphone/" data-analytics-title="iphone" data-analytics-click="prop3:t@iPhone" onclick="s_objectID=&quot;http://www.apple.com/iphone/_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">iPhone</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+                  <a class="ac-gn-link ac-gn-link-watch" href="http://www.apple.com/watch/" data-analytics-title="watch" data-analytics-click="prop3:t@Watch" onclick="s_objectID=&quot;http://www.apple.com/watch/_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">Watch</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+                  <a class="ac-gn-link ac-gn-link-tv" href="http://www.apple.com/tv/" data-analytics-title="tv" data-analytics-click="prop3:t@TV" onclick="s_objectID=&quot;http://www.apple.com/tv/_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">TV</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+                  <a class="ac-gn-link ac-gn-link-music" href="http://www.apple.com/music/" data-analytics-title="music" data-analytics-click="prop3:t@Music" onclick="s_objectID=&quot;http://www.apple.com/music/_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">Music</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+                  <a class="ac-gn-link ac-gn-link-support" href="http://www.apple.com/support/" data-analytics-title="support" data-analytics-click="prop3:t@Support" onclick="s_objectID=&quot;http://www.apple.com/support/_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">Support</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+                  <a class="ac-gn-link ac-gn-link-search" href="http://www.apple.com/us/search" data-analytics-title="search" data-analytics-click="prop3:t@Search apple.com" aria-label="Search apple.com" role="button" aria-haspopup="true" onclick="s_objectID=&quot;http://www.apple.com/us/search_1&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-search-placeholder" aria-hidden="true">Search apple.com</span> </a>
+               </li>
+               <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+                  <a class="ac-gn-link ac-gn-link-bag" href="http://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="prop3:t@Shopping Bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with Items" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content" onclick="s_objectID=&quot;http://www.apple.com/us/shop/goto/bag_2&quot;;return this.s_oc?this.s_oc(e):true"> <span class="ac-gn-link-text">Shopping Bag</span> <span class="ac-gn-bag-badge" aria-hidden="true"></span> </a> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span> 
+               </li>
+            </ul>
+            <aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+               <div class="ac-gn-searchview-content">
+                  <form id="ac-gn-searchform" class="ac-gn-searchform" action="/us/search" method="get">
+                     <div class="ac-gn-searchform-wrapper">
+                        <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" placeholder="Search apple.com" data-placeholder-long="Search for Products, Stores, and Help" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false">
+                        <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav">
+                        <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled="" aria-label="Submit"></button>
+                        <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled="" aria-label="Clear Search"></button>
+                     </div>
+                  </form>
+                  <aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults="Hit enter to search."></aside>
+               </div>
+               <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search"> <span class="ac-gn-searchview-close-wrapper">
+               <span class="ac-gn-searchview-close-left"></span> <span class="ac-gn-searchview-close-right"></span> </span>
+               </button>
+            </aside>
+            <aside class="ac-gn-bagview" data-analytics-region="bag">
+               <div class="ac-gn-bagview-scrim"> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span> </div>
+               <div class="ac-gn-bagview-content" id="ac-gn-bagview-content"> </div>
+            </aside>
+         </div>
+      </nav>
+      <div id="container" style="padding: 60px 0px">
+         <div style="border: 0px solid #d6d6d6; padding: 20px 20px 20px 20px" >
+            <h1>Share your screen</h1>
+            <p>Enter your session key to share your screen with Apple support:</p>
+            <div>
+               <!--  /************* This information is the Session Key ! **************/  -->
+               
+
+	
+
+
+
+
+
+<div class="contentBox" id="sessionKeyBox">
+	<h1 class="sectionTitle">
+		<span>
+		Session Key
+		</span>
+			&nbsp;
+	
+	</h1>
+	<div>
+	
+<form action="/check_access_key" method="get"
+      id="access_key_form">
+	<label id="access_key_pretty:label" for="access_key_pretty"
+		class="accessible">Session Key</label>
+	<input type="text" name="access_key_pretty" id="access_key_pretty" value=""
+		size="12" maxlength="7" autocomplete="off" />
+	<input type="submit" name="access_key_submit" id="access_key_submit"
+		value="Submit" />
+	<img src="/content/loading.gif" alt="" class="hidden"
+		id="session_key_loading_gif" />
+	<div id="access_key_error" class="hidden error"></div>
+</form>
+
+
+
+<span class="params"
+	id="access_key_params"
+	data-disable-clickonce="true"
+	data-chat-enabled="false"
+	data-current-locale="en-us"
+></span>
+<span class="params"
+	id="access_key_strings"
+	data-invalid-key="The key that you entered is not valid."
+	data-validation-error="Error validating access key."
+></span>
+
+
+
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="/content/lib/jquery.js"></script>
+<script type="text/javascript" src="/content/portal.js"></script>
+<!--[if lt IE 10]>
+<script type="text/javascript" src="/content/ie9_public.js"></script>
+<![endif]-->
+
+
+<script type="text/javascript" src="/api/start_session.js"></script>
+<script type="text/javascript" src="/api/content/core.js"></script>
+<script type="text/javascript" src="/content/access_key_input.js"></script>
+
+
+               <!--  /************* The above information is the Session Key ! **************/  -->
+            </div>
+            <div class="notes">
+               <p>
+                  Screen sharing is not required by Apple and you can end the session at any time. After you download the application, Apple Support will be able to see your screen, but cannot access your files or control your computer. If there is anything that you don't want Apple to see on your screen, remove it from view before your session begins. This session will be recorded for quality purposes.
+               </p>
+               See the screen sharing <a href="http://www.apple.com/legal/remotesupport/">Terms & Conditions</a>  for more information.
+            </div>
+            <!--/sidebar-->
+         </div>
+         <!--/pad15-->
+      </div>
+      <!--/#main-->
+      </div>
+      <!--/#container-->
+      <footer id="ac-globalfooter" class="js no-touch svg no-ie7 no-ie8" lang="en-US" data-analytics-region="global footer" role="contentinfo" aria-labelledby="ac-gf-label">
+         <div class="ac-gf-content">
+            <section class="ac-gf-footer" vocab="http://schema.org/" typeof="Organization">
+               <div class="ac-gf-footer-legal">
+                  <div class="ac-gf-footer-legal-copyright">Copyright © 2016 Apple Inc. All rights reserved.</div>
+                  <div class="ac-gf-footer-legal-links"> <a class="ac-gf-footer-legal-link" href="http://www.apple.com/privacy/privacy-policy/" onclick="s_objectID=&quot;http://www.apple.com/privacy/privacy-policy/_1&quot;;return this.s_oc?this.s_oc(e):true">Privacy Policy</a> <a class="ac-gf-footer-legal-link" href="http://www.apple.com/legal/internet-services/terms/site.html" onclick="s_objectID=&quot;http://www.apple.com/legal/internet-services/terms/site.html_1&quot;;return this.s_oc?this.s_oc(e):true">Terms of Use</a> <a class="ac-gf-footer-legal-link" href="http://www.apple.com/us/shop/goto/help/sales_refunds" onclick="s_objectID=&quot;http://www.apple.com/us/shop/goto/help/sales_refunds_1&quot;;return this.s_oc?this.s_oc(e):true">Sales and Refunds</a> <a class="ac-gf-footer-legal-link" href="http://www.apple.com/sitemap/" onclick="s_objectID=&quot;http://www.apple.com/sitemap/_1&quot;;return this.s_oc?this.s_oc(e):true">Site Map</a> </div>
+               </div>
+               <meta content="Apple" property="name">
+               <meta content="1-800-692-7753" property="telephone">
+            </section>
+            <script type="text/javascript" src="https://www.apple.com/ac/globalfooter/2.0/en_US/scripts/ac-globalfooter.built.js"></script>
+         </div>
+      </footer>
+      <!--  -->
+   </body>
+</html>

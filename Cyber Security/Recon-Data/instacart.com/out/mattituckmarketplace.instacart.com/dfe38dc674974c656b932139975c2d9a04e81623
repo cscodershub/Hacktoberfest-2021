@@ -1,0 +1,24 @@
+http://mattituckmarketplace.instacart.com/
+
+> GET / HTTP/1.1
+> Host: mattituckmarketplace.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Pop: MAA50-C1
+< X-Amz-Cf-Id: 2TrhPL2OkR911hiqqvApP2u0iZI7GEGFg-eX9zRzOcPkEF7Uh-QgJw==
+< Server: CloudFront
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 0ea4ba2686c947264397b51111282703.cloudfront.net (CloudFront)
+< Date: Tue, 04 Aug 2020 04:47:23 GMT
+< Content-Length: 183
+< Location: https://mattituckmarketplace.instacart.com/
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

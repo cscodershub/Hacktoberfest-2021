@@ -1,0 +1,26 @@
+https://webservice.bmw.de/
+
+> GET / HTTP/1.1
+> Host: webservice.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 11 Aug 2020 04:51:16 GMT
+< Last-Modified: Fri, 13 Mar 2020 21:31:59 GMT
+< Etag: "69-5a0c33313d2bf"
+< Accept-Ranges: bytes
+< Content-Length: 105
+< Cache-Control: public, max-age=3600
+< Server: Apache
+
+<html>
+    <head>
+        <title>.</title>
+    </head>
+    <body>
+        <h1>.</h1>
+    </body>
+</html>

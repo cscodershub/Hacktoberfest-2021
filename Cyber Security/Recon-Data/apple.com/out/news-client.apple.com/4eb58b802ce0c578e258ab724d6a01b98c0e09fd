@@ -1,0 +1,16 @@
+https://news-client.apple.com/
+
+> GET / HTTP/1.1
+> Host: news-client.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< X-B3-Traceid: b517bfd07e274313
+< Server: AppleHttpServer/62e237dc531d
+< Request-Id: 4fba3780-8b2b-11ea-9941-834c7a23b7a7
+< X-Request-Id: 4fba3780-8b2b-11ea-9941-834c7a23b7a7
+< X-Test-Source-Environment: prod
+< Strict-Transport-Security: max-age=31536000
+< Date: Thu, 30 Apr 2020 21:41:12 GMT
+
+Unauthorized

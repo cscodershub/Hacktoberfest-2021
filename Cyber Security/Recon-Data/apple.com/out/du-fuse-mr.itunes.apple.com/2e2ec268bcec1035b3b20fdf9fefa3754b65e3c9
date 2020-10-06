@@ -1,0 +1,29 @@
+http://du-fuse-mr.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: du-fuse-mr.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Nncoection: close
+< X-Apple-Jingle-Correlation-Key: 5U75RWQZDF6YTBGLWMIRUZJ24U
+< B3: ed3fd8da19197d8984cbb3111a653ae5-05f1395ced3916a8
+< Cache-Control: must-revalidate,no-cache,no-store
+< Apple-Tk: false
+< Apple-Originating-System: MZDirectUploader
+< Content-Type: text/html;charset=iso-8859-1
+< Content-Length: 171
+< X-Apple-Request-Uuid: ed3fd8da-1919-7d89-84cb-b3111a653ae5
+< X-B3-Traceid: ed3fd8da19197d8984cbb3111a653ae5
+< X-B3-Spanid: 05f1395ced3916a8
+< Apple-Seq: 0
+< Server: Jetty(9.4.18.v20190429)
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h1>404: Not Found</h1>
+</body>
+</html>

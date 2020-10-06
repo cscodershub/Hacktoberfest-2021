@@ -1,0 +1,27 @@
+https://p43-buy.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: p43-buy.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cneonction: close
+< Server: Apache
+< X-Xss-Protection: 1; mode=block
+< Etag: "6f-5a469ddc2541b"
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: public,max-age=3600,no-transform
+< Strict-Transport-Security: max-age=31536000
+< Accept-Ranges: bytes
+< Content-Length: 111
+< Last-Modified: Wed, 29 Apr 2020 08:38:02 GMT
+< X-Server: (null)
+< Date: Thu, 30 Apr 2020 21:30:32 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: default-src 'self'  *.apple.com;
+
+<html>
+<body>
+<p><a href="/WebObjects/MZAdmin.woa/">DJ</a>
+<p><a href="/WebObjects/iTunesConnect.woa/">iTC</a>

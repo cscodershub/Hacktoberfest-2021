@@ -1,0 +1,24 @@
+http://enterprise-status.instacart.com/
+
+> GET / HTTP/1.1
+> Host: enterprise-status.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Referrer-Policy: strict-origin-when-cross-origin
+< Cache-Control: no-cache
+< X-Request-Id: f45580c3-eb73-43b1-b5fe-e8e0e62e9366
+< X-Content-Type-Options: nosniff
+< X-Statuspage-Version: 7cc4b692549dbb0942ae416c1b1434b39b77bb64
+< X-Statuspage-Skip-Logging: true
+< Vary: Accept,Accept-Encoding,X-Forwarded-Host,X-Forwarded-Scheme,X-Forwarded-Proto,Fastly-SSL
+< Content-Type: text/html; charset=utf-8
+< Location: https://enterprise-status.instacart.com/
+< Strict-Transport-Security: max-age=259200
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+< X-Download-Options: noopen
+< X-Runtime: 0.084252
+< X-Frame-Options: SAMEORIGIN
+
+<html><body>You are being <a href="https://enterprise-status.instacart.com/">redirected</a>.</body></html>

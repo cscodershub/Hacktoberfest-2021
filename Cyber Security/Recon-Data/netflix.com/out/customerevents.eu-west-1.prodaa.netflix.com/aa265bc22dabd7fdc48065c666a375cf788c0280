@@ -1,0 +1,16 @@
+http://customerevents.eu-west-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: customerevents.eu-west-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Originating-Url: http://customerevents.eu-west-1.prodaa.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:34:16 GMT
+< Server: beacon i-0b5e9ba7529bb2312
+< X-Netflix.proxy.execution-Time: 59460
+< Via: 1.1 i-05d77893ffa0e7921 (eu-west-1)
+< X-Netflix.nfstatus: 1_3
+< Content-Length: 0
+

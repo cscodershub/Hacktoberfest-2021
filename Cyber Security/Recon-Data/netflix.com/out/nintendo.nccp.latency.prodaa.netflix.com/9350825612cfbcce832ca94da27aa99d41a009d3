@@ -1,0 +1,25 @@
+https://nintendo.nccp.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: nintendo.nccp.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 199
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 17 Jun 2020 05:34:45 GMT
+< Server: nccp-modern i-0c1e934eca7ac16b1
+< Set-Cookie: memclid=aa115a43-d491-4b0f-b4c1-f1987e53248f; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:45 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEOM73k%2FYzdaWGE0P2FwWtfFAv7tgsQm%2BnMZMCz%2FUMigjRxiqXb6Pl%2B9B%2FHZ3lheEaZM6NruZOGuyFPwuNh4RKMRMV2n8dMpTXbl6SbNBPgX9Fg%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:45 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0b12a9583b65265df (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 4
+< X-Originating-Url: https://nintendo.nccp.latency.prodaa.netflix.com/
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

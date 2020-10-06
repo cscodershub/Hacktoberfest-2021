@@ -1,0 +1,24 @@
+http://contactus.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: contactus.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: memclid=c53c150e-8d69-4fe7-b631-eba8a18e212d; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:22 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEDKOZeSG41VqzwTc6Y7mv%2BRA%2FDKnuddy%2FMYRdPrbAVl1J5p%2Fhlmd2vOuZHVw3TB3zJNPHc64vy2XF8aqoGW6ssCRi8eNZ8yd7lFt%2Bu1WTXgE4g%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:22 GMT; Path=/; Domain=.netflix.com
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Expires: Tue, 16 Jun 2020 05:36:22 GMT
+< X-Netflix.nfstatus: 1_1
+< Pragma: no-cache
+< X-Netflix.proxy.execution-Time: 45824
+< Date: Wed, 17 Jun 2020 05:36:22 GMT
+< Location: https://contactus.geo.netflix.com/
+< Server: padme i-0752393c2205cab39
+< Via: 1.1 i-0301f4702fd112226 (eu-west-1)
+< X-Originating-Url: http://contactus.geo.netflix.com/
+< Content-Length: 34
+< Cache-Control: public
+< Content-Type: text/html;charset=UTF-8
+
+https://contactus.geo.netflix.com/

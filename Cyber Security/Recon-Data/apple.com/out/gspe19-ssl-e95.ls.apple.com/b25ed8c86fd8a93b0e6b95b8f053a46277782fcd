@@ -1,0 +1,23 @@
+http://gspe19-ssl-e95.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe19-ssl-e95.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Thu, 30 Apr 2020 21:30:50 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 289
+< Expires: Thu, 30 Apr 2020 21:30:50 GMT
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;gspe19&#45;ssl&#45;e95&#46;ls&#46;apple&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;cc8c2c31&#46;1588282250&#46;673d37f5
+</BODY>
+</HTML>

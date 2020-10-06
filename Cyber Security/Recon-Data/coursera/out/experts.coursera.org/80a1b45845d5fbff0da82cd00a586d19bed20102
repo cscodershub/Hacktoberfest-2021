@@ -1,0 +1,11 @@
+http://experts.coursera.org/
+
+> GET / HTTP/1.1
+> Host: experts.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 10 Aug 2020 04:51:56 GMT
+< Location: https://experts.coursera.org/
+< Content-Length: 0
+

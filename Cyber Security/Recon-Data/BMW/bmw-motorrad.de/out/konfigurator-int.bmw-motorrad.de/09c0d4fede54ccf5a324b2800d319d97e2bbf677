@@ -1,0 +1,12 @@
+http://konfigurator-int.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: konfigurator-int.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: BigIP
+< Connection: close
+< Content-Length: 0
+< Location: https://konfigurator-int.bmw-motorrad.de/
+

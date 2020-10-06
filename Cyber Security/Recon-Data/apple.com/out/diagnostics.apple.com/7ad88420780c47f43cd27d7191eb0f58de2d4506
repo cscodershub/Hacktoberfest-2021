@@ -1,0 +1,19 @@
+https://diagnostics.apple.com/
+
+> GET / HTTP/1.1
+> Host: diagnostics.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Location: https://idmsa.apple.com/IDMSWebAuth/login?appIdKey=d2fbe852ad28439f314115117c62caa4fb11101040d7a507e043666937f07854&language=en_US&view=100&rv=0&baseURL=https:/diagnostics.apple.com/
+< Host: diagnostics.apple.com
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Date: Thu, 30 Apr 2020 21:29:20 GMT
+< Content-Length: 0
+< X-Frame-Options: DENY
+< Content-Security-Policy-Report-Only: default-src 'self' 'unsafe-inline' https://*.apple.com https://*.icloud.com data: wss:
+< Server: Apple
+< Set-Cookie: JSESSIONID=4C4A79F97A859C47D077B33199E14CC4; Path=/; Secure; HttpOnly
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+

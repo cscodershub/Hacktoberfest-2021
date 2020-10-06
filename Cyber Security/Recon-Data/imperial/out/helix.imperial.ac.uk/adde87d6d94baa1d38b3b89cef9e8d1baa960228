@@ -1,0 +1,20 @@
+https://helix.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: helix.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Access-Control-Expose-Headers: Date, Server, Content-Type, Content-Length
+< Cache-Control: no-cache
+< Access-Control-Allow-Methods: OPTIONS, GET, POST, HEAD
+< Connection: Keep-Alive
+< Date: Sat, 18 Jul 2020 13:54:38 GMT
+< Content-Type: text/html
+< Content-Length: 198
+< Server: WowzaStreamingEngine/4.7.7
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Headers: Content-Type, User-Agent, If-Modified-Since, Cache-Control, Range
+
+<html><head><title>Wowza Streaming Engine 4 Perpetual Pro Edition 4.7.7 build20181108145350</title></head><body>Wowza Streaming Engine 4 Perpetual Pro Edition 4.7.7 build20181108145350</body></html>

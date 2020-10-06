@@ -1,0 +1,24 @@
+https://tips.apple.com/
+
+> GET / HTTP/1.1
+> Host: tips.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Cache: TCP_MISS from a49-44-130-58.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_REFRESH_MISS from a104-122-94-203.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (S)
+< Cache-Control: no-siteapp
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< Content-Length: 146
+< Date: Thu, 30 Apr 2020 21:40:03 GMT
+< Server: Apple
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

@@ -1,0 +1,28 @@
+https://staging-partnertools.nrd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: staging-partnertools.nrd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Sat, 18 Oct 2014 01:09:53 GMT
+< Server: AmazonS3
+< Date: Wed, 17 Jun 2020 03:59:52 GMT
+< Content-Type: text/html
+< X-Amz-Version-Id: KbhdLSmWg.EKfuwgAdtwgr1iumB7OcUk
+< Etag: "4093af0308314b0da47d6ebc3b43e255"
+< X-Amz-Cf-Pop: FRA53-C1
+< X-Amz-Cf-Id: Fe3XTaBv1pesTx_MDwUNOqdHvCb2YBW2m_KsAT0yoD5yEhb3Rho81Q==
+< Age: 5713
+< Content-Length: 79
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< X-Cache: Hit from cloudfront
+< Via: 1.1 8d31bbd9d6638cdacab37047b8045da4.cloudfront.net (CloudFront)
+
+<html>
+<body>
+<script>
+    window.location = "/home";
+</script>
+</body>
+</html>

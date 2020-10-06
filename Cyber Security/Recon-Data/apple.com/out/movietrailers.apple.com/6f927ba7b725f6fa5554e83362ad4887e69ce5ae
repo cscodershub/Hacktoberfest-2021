@@ -1,0 +1,644 @@
+https://movietrailers.apple.com/
+
+> GET / HTTP/1.1
+> Host: movietrailers.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Thu, 30 Apr 2020 21:40:06 GMT
+< Vary: Accept-Encoding
+< X-Cache-Remote: TCP_REFRESH_MISS from a49-44-95-29.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (S)
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: max-age=891
+< Expires: Thu, 30 Apr 2020 21:54:57 GMT
+< X-Cache: TCP_MISS from a49-44-130-63.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Access-Control-Expose-Headers: Content-Range, Content-Length, Accept-Ranges
+< Accept-Ranges: bytes
+< Access-Control-Allow-Origin: *
+< Strict-Transport-Security: max-age=31536000;
+< Server: Apache
+< Access-Control-Allow-Headers: Range
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.apple.com" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.apple.com" r (n 0 s 0 v 0 l 0))' />
+	<meta name="Author" content="Apple Inc." />
+	<meta name="viewport" content="width=device-height" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+	<title>iTunes Movie Trailers</title>
+	<meta name="Category" content="downloads,trailers">
+	<meta name="Description" content="View the latest movie trailers for many current and upcoming releases.  Many trailers are available in high-quality HD, iPod, and iPhone versions.">
+	<meta name="Keywords" content="movies,trailers,previews,theaters,theatres,quicktime">
+	<meta charset="utf-8">
+	<meta name="apple-itunes-app" content="app-id=471966214, app-argument=movietrailers://tab/featured">
+	<script type="text/javascript" charset="utf-8">
+		if (navigator.userAgent.match(/iTunes/i)) {
+	  		window.location.replace('https://trailers.apple.com/itunes/us/');
+	  	}
+	</script>
+	
+	<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=Myriad+Set+Pro&amp;v=1" type="text/css" media="all" />
+	<!-- New updates for header/footer 3/3/2020 -->
+	<link rel="stylesheet" href="https://trailers.apple.com/ac/globalnav/5/en_US/styles/ac-globalnav.fixed.built.css" type="text/css" />
+	<link rel="stylesheet" href="https://trailers.apple.com/ac/globalfooter/5/en_US/styles/ac-globalfooter.fixed.built.css" type="text/css" charset="utf-8">
+
+	<!-- Global Scripts -->
+	<script src="https://trailers.apple.com/trailers/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://trailers.apple.com/trailers/global/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://images.apple.com/global/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://trailers.apple.com/trailers/global/scripts/lib/apple_core_new.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://trailers.apple.com/trailers/global/scripts/lib/event_mixins.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://trailers.apple.com/trailers/global/scripts/lib/swap_view.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="https://trailers.apple.com/trailers/global/scripts/lib/sizzle.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://trailers.apple.com/trailers/global/scripts/lib/ac_base.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://trailers.apple.com/trailers/global/scripts/lib/ac_retina.js" type="text/javascript" charset="utf-8"></script>
+
+	<!--/ Global Scripts -->
+
+	<script src="https://trailers.apple.com/trailers/global/scripts/bootstrapper.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://trailers.apple.com/trailers/global/scripts/crossfade.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://trailers.apple.com/trailers/home/scripts/trailerthumbs.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/global/nav/scripts/globalnav.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://trailers.apple.com/trailers/home/scripts/trailerapp.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+		// Bootstrap includes based on device/browser
+		AC.bootstrap = new AC.bootstrapper({
+			calls: [
+				'productheaders'
+			],
+	
+			includes: {
+				productheaders: {
+					container: 'productheader',
+					paths: {
+						'ipad': '/trailers/global/includes/productheader_ipad.inc',
+						'else': '/trailers/global/includes/productheader.inc'
+					}
+				}
+			}		
+		});
+
+    var init = function() {
+
+        $('trailers').addClassName('loading');
+        $('trailers').addClassName('init');
+        $('trailers').innerHTML = "Loading Trailers Application.";
+		var trailerApp;
+        try {
+            trailerApp = new Trailers.Gallery('views');
+
+            var sections = [
+                new Trailers.PosterSection('justadded', '/trailers/home/feeds/just_added.json'),
+                new Trailers.PosterSection('exclusive', '/trailers/home/feeds/exclusive.json'),
+                new Trailers.PosterSection('justhd', '/trailers/home/feeds/just_hd.json'),
+                new Trailers.PosterSection('mostpopular', '/trailers/home/feeds/most_pop.json'),
+                new Trailers.GenreSection('genres', '/trailers/home/feeds/genres.json'),
+                new Trailers.StudioSection('moviestudios', '/trailers/home/feeds/studios.json'),
+                new Trailers.SearchSection('quickfind', '/trailers/home/scripts/quickfind.php?callback=searchCallback&q=')];
+
+            for (var i = 0, section; (section = sections[i]); i++) {
+                trailerApp.addSection(section);
+            }
+        } catch(e) {
+            Trailers.reportError("Error initializing Trailers Application", e);
+        }
+
+        $('trailers').innerHTML = "Loading Trailers Data.";
+
+        if (trailerApp.initialSection || document.location.hash) {
+            if (document.location.hash) {
+                var initial = document.location.hash.replace('#', '').toQueryParams();
+
+                var iSection = trailerApp.sections.get(initial.section);
+                if (iSection) trailerApp.initialSection = iSection;
+
+                var page = initial.page;
+                if (page) trailerApp.initialSection.currentPageIndex = page-1;
+            }
+
+            trailerApp.sectionMaster.show(trailerApp.initialSection);
+        }
+
+        newsoundtracksTag = 'WWW-NAUS-ITMS-TRAILERS-SOUNDTRACKS';
+		rentalsTag = 'WWW-NAUS-ITMS-TRAILERS-TOPRENTALS';
+		moviesTag = 'WWW-NAUS-ITMS-TRAILERS-TOPMOVIES';
+
+        if ($('newsoundtracks') && typeof(newsoundtracksTag) != 'undefined') {
+            AC.Tracking.tagLinksWithin('newsoundtracks', 'v0', newsoundtracksTag, function(link) {
+                if (link.href) {
+					return !!(link.href.match(/itms:\/\/|phobos|\/\/itunes\.apple\.com/));
+                    } else {
+                        return false;
+                    }
+                });
+        }
+
+		if ($('topmovierentals') && typeof(rentalsTag) != 'undefined') {
+			AC.Tracking.tagLinksWithin('topmovierentals', 'v0', rentalsTag, function(link) {
+				if (link.href) {
+					return !!(link.href.match(/itms:\/\/|phobos|\/\/itunes\.apple\.com/));
+				} else {
+					return false;
+				}
+			});
+		}
+
+		if ($('topmoviesales') && typeof(moviesTag) != 'undefined') {
+			AC.Tracking.tagLinksWithin('topmoviesales', 'v0', moviesTag, function(link) {
+				if (link.href) {
+					return !!(link.href.match(/itms:\/\/|phobos|\/\/itunes\.apple\.com/));
+				} else {
+					return false;
+				}
+			});
+		}
+
+    };
+
+	document.observe('bootstrap:finished', init);
+
+	var truncateLength = 20;
+	window.mobileAndTabletcheck = function() {
+		var check = false;
+		(function(a){
+			if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4))){
+				check = true;
+			}
+		})(navigator.userAgent||navigator.vendor||window.opera);
+		return check;
+	};
+	
+	Event.onDOMReady(function() {
+		// calculate the height of the element and divides that by two to center it
+		// the value is inversed so as to pull the window above the target
+		// the offset of 12 is added to account for the height of the field form element
+	
+		function truncate(trunkee, maxLength) {
+			if(trunkee.length <= maxLength) return trunkee;
+		
+			for (var i = maxLength - 1; i >= 0; i--){
+				if (trunkee.charAt(i) == ' ') return trunkee.substring(0, i) + '...';
+			}
+		
+			return trunkee;
+		}
+	
+		new Ajax.Request('/trailers/home/feeds/popular/most_pop.json', {
+			method:'get',
+		
+			onSuccess: function(result) {
+			
+				var mostPopular = 0;
+				var weekendBoxOffice = 1;
+				var topRentals = 3;
+				var topSales = 3;
+				
+				var counterTopTen = 10;
+				var counterTopCharts = 10;
+				
+			
+				var response = result.responseText.evalJSON();
+				var i;
+				for (i=0; (i < response.items[weekendBoxOffice].thumbnails.length)&&(i < counterTopTen); i++) {
+					var boTrunk = truncate(response.items[weekendBoxOffice].thumbnails[i].title, truncateLength);
+					var bo = '<li><a onclick=\'s_objectID=\"' + response.items[weekendBoxOffice].thumbnails[i].showtimesurl.replace('http:', 'https:') + '\";return this.s_oc?this.s_oc(e):true\' class=\"title\" href=\"' + response.items[weekendBoxOffice].thumbnails[i].showtimesurl.replace('http:', 'https:') + '\" title=\"' + response.items[weekendBoxOffice].thumbnails[i].title + '\">' + (i+1) + '. <span class=\"truncate\">' + boTrunk + '</span>';
+					bo += '<span class=\"no-truncate\">' + (mobileAndTabletcheck()? boTrunk : response.items[weekendBoxOffice].thumbnails[i].title) + '<span>';
+					bo += '</a></li>';
+					$('box-office').insert(bo);
+				}
+			
+				for (i=0; (i < response.items[topSales].thumbnails.length)&&(i < counterTopCharts); i++) {
+					var tsTrunk = truncate(response.items[topSales].thumbnails[i].title, truncateLength);
+					var ts = '<li><a onclick=\'s_objectID=\"' + response.items[topSales].thumbnails[i].itunesurl.replace('http:', 'https:') + '\";return this.s_oc?this.s_oc(e):true\' class=\"title\" href=\"' + response.items[topSales].thumbnails[i].itunesurl.replace('http:', 'https:') + '\" title=\"' + response.items[topSales].thumbnails[i].title + '\">' + (i+1) + '. <strong class=\"truncate\">' + tsTrunk  + '</strong>';
+					ts += '<strong class=\"no-truncate\">' + (mobileAndTabletcheck() ? tsTrunk : response.items[topSales].thumbnails[i].title) + '</strong>';
+					ts += '</a></li>';
+					$('top-sold').insert(ts);
+				}
+				
+				//for (var i=0; (i < response.items[topRentals].thumbnails.length)&&(i < counterTopCharts); i++) {
+				//	$('top-rentals').insert('<li><a onclick=\'s_objectID=\"' + response.items[topRentals].thumbnails[i].itunesurl + '\";return this.s_oc?this.s_oc(e):true\' class=\"title\" href=\"' + response.items[topRentals].thumbnails[i].itunesurl + '\" title=\"' + response.items[topRentals].thumbnails[i].title + '\">' + (i+1) + '. <strong class=\"truncate\">' + truncate(response.items[topRentals].thumbnails[i].title, truncateLength)  + '</strong><strong class=\"no-truncate\">' + response.items[topRentals].thumbnails[i].title + '</strong></a></li>');				
+				//};
+			}
+		});
+		
+		new Ajax.Request('/trailers/home/feeds/opening.json', {
+			method:'get',
+		
+			onSuccess: function(result) {
+				var weekendBoxOffice = 0;
+			
+				var response = result.responseText.evalJSON();
+
+				var postedMajor = 0;
+				var i = 0;
+				for (i=0; (i < response.items[weekendBoxOffice].thumbnails.length); i++) {
+					if( response.items[weekendBoxOffice].thumbnails[i].url.indexOf('/independent/') == -1 ) {
+						var wboTrunk = truncate(response.items[weekendBoxOffice].thumbnails[i].title, truncateLength);
+						var wbo = '<li><a onclick=\'s_objectID=\"' + response.items[weekendBoxOffice].thumbnails[i].showtimesurl.replace('http:', 'https:') + '\";return this.s_oc?this.s_oc(e):true\' class=\"title\" href=\"' + response.items[weekendBoxOffice].thumbnails[i].showtimesurl.replace('http:', 'https:') + '\" title=\"' + response.items[weekendBoxOffice].thumbnails[i].title + '\"><span class=\"truncate\">' + wboTrunk + '</span>';
+						wbo += '<span class=\"no-truncate\">' + (mobileAndTabletcheck() ? wboTrunk : response.items[weekendBoxOffice].thumbnails[i].title) + '<span>';
+						wbo+='</a></li>';
+						$('openings').insert(wbo);
+
+						postedMajor++;
+					}
+				}
+
+				$('openings').insert('<li><a onclick=\'s_objectID=\"https://trailers.apple.com/_2\";return this.s_oc?this.s_oc(e):true\' class=\"line\" href=\"\"></a></li>');				
+				
+				var postedIndependent = 0;
+				for (i=0; (i < response.items[weekendBoxOffice].thumbnails.length); i++) {
+					if( response.items[weekendBoxOffice].thumbnails[i].url.indexOf('/independent/') >= 0 ) {
+						var indTrunk = truncate(response.items[weekendBoxOffice].thumbnails[i].title, truncateLength);
+						var indStr = '<li><a onclick=\'s_objectID=\"' + response.items[weekendBoxOffice].thumbnails[i].showtimesurl.replace('http:', 'https:') + '\";return this.s_oc?this.s_oc(e):true\' class=\"title\" href=\"' + response.items[weekendBoxOffice].thumbnails[i].showtimesurl.replace('http:', 'https:') + '\" title=\"' + response.items[weekendBoxOffice].thumbnails[i].title + '\"><span class=\"truncate\">' + indTrunk  + '</span>';
+						indStr += '<span class=\"no-truncate\">' + (mobileAndTabletcheck() ? indTrunk : response.items[weekendBoxOffice].thumbnails[i].title) + '<span>';
+						indStr += '</a></li>';	
+
+						$('openings').insert(indStr);
+						postedIndependent++;
+					}
+				}
+			}
+		});
+	});
+
+	</script>
+	<link rel="stylesheet" href="https://trailers.apple.com/trailers/global/styles/base.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="https://trailers.apple.com/trailers/global/styles/shared.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="https://trailers.apple.com/trailers/home/styles/trailers.css" type="text/css" charset="utf-8">
+	<style type="text/css" media="all">
+	#main #bigpromo { position:relative; background:#fff; width:980px; height: 200px; margin-bottom: 10px;}
+
+	.moretrailers {margin: 20px 0px 0px .7em;}
+	#rentrak .sosumi {margin: 1em 0 0 .7em; color: #888;}
+	#promos {padding-bottom: 0.1em;}
+	#titles {height: 40px;}
+	#titles a {
+		
+		position: absolute;
+		top: 17px;
+	}
+	#weekendboxoffice a span.no-truncate { display:none; }
+	#weekendboxoffice a:hover span.no-truncate { display:inline; }
+	#weekendboxoffice a:hover span.truncate { display:none; }
+
+	#topmoviesales a strong.truncate { display:inline !important; }
+	#topmoviesales a strong.no-truncate { display:none !important; }
+	#topmoviesales a:hover strong.no-truncate { display:inline !important; }
+	#topmoviesales a:hover strong.truncate { display:none !important; }
+	#promofader15 {margin-bottom: 242px;}
+	#main .sidebox#weekendboxoffice ul li { overflow:hidden; }
+
+	</style>
+</head>
+<body class="trailers" id="index">
+<script type="text/javascript">
+	var searchSection = 'global';
+	var searchCountry = 'us';
+</script>
+
+	<aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="en-US" dir="ltr" data-strings="{ 'exit': 'Exit', 'view': '{%STOREFRONT%} Store Home', 'segments': { 'smb': 'Business Store Home', 'eduInd': 'Education Store Home', 'other': 'Store Home' } }">
+</aside>
+<input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Global" data-hires="false" data-analytics-region="global nav" lang="en-US" dir="ltr" data-www-domain="www.apple.com" data-store-locale="us" data-store-root-path="/us" data-store-api="https://www.apple.com/[storefront]/shop/bag/status" data-search-locale="en_US" data-search-locale="en_US" data-search-suggestions-api="https://www.apple.com/search-services/suggestions/" data-search-defaultlinks-api="https://www.apple.com/search-services/suggestions/defaultlinks/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon">
+				<label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" role="button" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					<span class="ac-gn-menuanchor-label">Global Nav Open Menu</span>
+				</a>
+				<a href="#" role="button" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					<span class="ac-gn-menuanchor-label">Global Nav Close Menu</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus-small">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<div class="ac-gn-bag-wrapper">
+					<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with item count :">
+						<span class="ac-gn-link-text">Shopping Bag</span>
+					</a>
+					<span class="ac-gn-bag-badge">
+						<span class="ac-gn-bag-badge-separator"></span>
+					<span class="ac-gn-bag-badge-number"></span>
+					<span class="ac-gn-bag-badge-unit">+</span>
+					</span>
+				</div>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<div class="ac-gn-search-placeholder-container" role="search">
+			<div class="ac-gn-search ac-gn-search-small">
+				<a id="ac-gn-link-search-small" class="ac-gn-link" href="https://www.apple.com/us/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link aria-label="Search apple.com">
+					<div class="ac-gn-search-placeholder-bar">
+						<div class="ac-gn-search-placeholder-input">
+							<div class="ac-gn-search-placeholder-input-text" aria-hidden="true">
+								<div class="ac-gn-link-search ac-gn-search-placeholder-input-icon"></div>
+								<span class="ac-gn-search-placeholder">Search apple.com</span>
+							</div>
+						</div>
+						<div class="ac-gn-searchview-close ac-gn-searchview-close-small ac-gn-search-placeholder-searchview-close">
+							<span class="ac-gn-searchview-close-cancel" aria-hidden="true">Cancel</span>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus">
+						<span class="ac-gn-link-text">Apple</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="https://www.apple.com/mac/" data-analytics-title="mac">
+						<span class="ac-gn-link-text">Mac</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="https://www.apple.com/ipad/" data-analytics-title="ipad">
+						<span class="ac-gn-link-text">iPad</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="https://www.apple.com/iphone/" data-analytics-title="iphone">
+						<span class="ac-gn-link-text">iPhone</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="https://www.apple.com/watch/" data-analytics-title="watch">
+						<span class="ac-gn-link-text">Watch</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="https://www.apple.com/tv/" data-analytics-title="tv">
+						<span class="ac-gn-link-text">TV</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="https://www.apple.com/music/" data-analytics-title="music">
+						<span class="ac-gn-link-text">Music</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com" data-analytics-title="support">
+						<span class="ac-gn-link-text">Support</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a id="ac-gn-link-search" class="ac-gn-link ac-gn-link-search" href="https://www.apple.com/us/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link aria-label="Search apple.com"></a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+				<div class="ac-gn-bag-wrapper">
+					<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with item count : {%BAGITEMCOUNT%}">
+							<span class="ac-gn-link-text">Shopping Bag</span>
+						</a>
+					<span class="ac-gn-bag-badge" aria-hidden="true">
+								<span class="ac-gn-bag-badge-separator"></span>
+					<span class="ac-gn-bag-badge-number"></span>
+					<span class="ac-gn-bag-badge-unit">+</span>
+					</span>
+				</div>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<div class="ac-gn-searchview-bar">
+					<div class="ac-gn-searchview-bar-wrapper">
+						<form id="ac-gn-searchform" class="ac-gn-searchform" action="https://www.apple.com/us/search" method="get">
+							<div class="ac-gn-searchform-wrapper">
+								<input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Search apple.com" placeholder="Search apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-owns="quicklinks suggestions" />
+								<input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav" />
+								<button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Submit Search"></button>
+								<button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Clear Search">
+										<span class="ac-gn-searchform-reset-background"></span>
+									</button>
+							</div>
+						</form>
+						<button id="ac-gn-searchview-close-small" class="ac-gn-searchview-close ac-gn-searchview-close-small" aria-label="Cancel Search">
+								<span class="ac-gn-searchview-close-cancel" aria-hidden="true">
+									Cancel
+								</span>
+							</button>
+					</div>
+				</div>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults=""></aside>
+			</div>
+			<button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Cancel Search">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button>
+		</aside>
+		<aside class="ac-gn-bagview" data-analytics-region="bag">
+			<div class="ac-gn-bagview-scrim">
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+			</div>
+			<div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+			</div>
+		</aside>
+	</div>
+</nav>
+<div class="ac-gn-blur"></div>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+
+	<script type="text/javascript" src="https://trailers.apple.com/ac/globalnav/5/en_US/scripts/ac-globalnav.built.js"></script>
+	<div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+<script type="text/javascript">
+/* RSID: */
+var s_account="appleglobal,appleustrailers"
+</script>
+
+
+<script type="text/javascript" src="https://images.apple.com/global/metrics/js/s_code_h.js"></script>
+
+<script type="text/javascript">
+s.pageName=AC.Tracking.pageName()+" (US)";
+s.server=""
+s.channel="www.us.trailers"
+s.pageType=""
+s.prop1=""
+s.prop2=""
+s.prop3=""
+s.prop4=document.URL;
+s.prop5=""
+
+/* E-commerce Variables */
+s.campaign=""
+s.state=""
+s.zip=""
+s.events=""
+s.products=""
+s.purchaseID=""
+s.eVar1=""
+s.eVar2=""
+s.eVar3=""
+s.eVar4=""
+s.eVar5=""
+
+s.linkInternalFilters="javascript:,apple.com"
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+
+	<div id="container">
+		<div id="main" data-hires="true">
+			<div id="content">
+					<div>
+						<div id="productheader" class="trailers">
+						</div>
+						<div id="promos" data-hires="false">
+								<div class="promo promo1" id="promofader1"><a class="first" href="/trailers/samuel_goldwyn/endings-beginnings/"><img src="http://trailers.apple.com/trailers/home/promos/images/WebSpot1_1585930419.jpg" alt="Endings, Beginnings" width="460" height="228" border="0"></a><a class="first" href="/trailers/magnolia/slay-the-dragon/"style="opacity:0"><img src="http://trailers.apple.com/trailers/home/promos/images/WebSpot1_1585955637.jpg" alt="Slay the Dragon" width="460" height="228" border="0"></a><a class="first" href="/trailers/apple/beastie-boys-story/"style="opacity:0"><img src="http://trailers.apple.com/trailers/home/promos/images/WebSpot1_1583982743.jpg" alt="Beastie Boys Story" width="460" height="228" border="0"></a><a class="first" href="/trailers/marvel/black-widow/"style="opacity:0"><img src="http://trailers.apple.com/trailers/home/promos/images/WebSpot1_1575391183.jpg" alt="Black Widow" width="460" height="228" border="0"></a></div><script type="text/javascript" charset="utf-8">Event.observe(window, 'load', function() { var promoChildren = $A($$('#promofader1 a')); new AC.CrossfadeQueue(promoChildren, 'promofader1', 8, 'fader1', .5, .5); });</script>
+
+	<div class="promo promo2" id="promofader2"><a class="first" href="/trailers/lions_gate/the-quarry/"><img src="http://trailers.apple.com/trailers/home/promos/images/WebSpot2_1585853921.jpg" alt="The Quarry" width="310" height="228" border="0"></a><a class="first" href="/trailers/samuel_goldwyn/stray-dolls/"style="opacity:0"><img src="http://trailers.apple.com/trailers/home/promos/images/WebSpot2_1586278524.jpg" alt="Stray Dolls" width="310" height="228" border="0"></a><a class="first" href="/trailers/independent/human-capital/"style="opacity:0"><img src="http://trailers.apple.com/trailers/home/promos/images/WebSpot2_1585784656.jpg" alt="Human Capital" width="310" height="228" border="0"></a><a class="first" href="/trailers/ifcfilms/the-other-lamb/"style="opacity:0"><img src="http://trailers.apple.com/trailers/home/promos/images/WebSpot2_1585774177.jpg" alt="The Other Lamb" width="310" height="228" border="0"></a><a class="first" href="/trailers/apple/the-banker/"style="opacity:0"><img src="http://trailers.apple.com/trailers/home/promos/images/WebSpot2_1580880761.jpg" alt="The Banker" width="310" height="228" border="0"></a></div><script type="text/javascript" charset="utf-8">Event.observe(window, 'load', function() { var promoChildren = $A($$('#promofader2 a')); new AC.CrossfadeQueue(promoChildren, 'promofader2', 8, 'fader2', .5, .5); });</script>
+
+
+						</div>
+					</div>	
+					
+					<div class="grid2col">
+						<div class="column first">
+							<div class="box trailers">
+							<div class="bottombox">
+								<div id="sortnav">
+									<ul>
+										<li id="sn-justadded"><a class="trailers-link" href="#section=justadded">Just Added</a></li>
+										<li id="sn-mostpopular"><a class="trailers-link" href="#section=mostpopular">Most Popular</a></li>
+										<li id="sn-exclusive"><a class="trailers-link" href="#section=exclusive">Exclusive</a></li>
+										<li id="sn-genres"><a class="trailers-link" href="#section=genres">Genres</a></li>
+										<li id="sn-moviestudios"><a class="trailers-link" href="#section=moviestudios">Studios</a></li>
+									</ul>
+									
+									<div id="quickfind"><label><span class="prettyplaceholder" style="display:none;">Quick Find</span><input id="quickfind-box" class="prettysearch" value=""></label></div>
+									<div id="views"></div>
+								</div>
+								<div id="trailers" class="clearfix">
+								    <noscript>
+								    <p id="javascriptMessage">
+                                        Please enable JavaScript to view this page properly.
+							        </p>
+							        </noscript>
+								</div>
+							</div>
+						</div>
+						<div class="moretrailers">
+						More in Trailers:&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/itunestrailers/" target="_blank">Trailers on Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://trailers.apple.com/trailers/home/rss/newtrailers.rss"><img src="https://trailers.apple.com/trailers/home/images/rss_icon20080313-1.png" width="27" heigth="15" halt="RSS"></a>
+					
+						</div>
+						<div id="email">Comment, suggestion, or have a film trailer? email: <a href="mailto:&#116;&#114;&#097;&#105;&#108;&#101;&#114;&#115;&#064;&#109;&#097;&#099;&#046;&#099;&#111;&#109;">&#116;&#114;&#097;&#105;&#108;&#101;&#114;&#115;&#064;&#109;&#097;&#099;&#046;&#099;&#111;&#109;</a></div>
+						<div id="rentrak">
+							<p class="sosumi">Weekly box office data provided by Rentrak.</p>
+						</div>	
+
+					</div>
+					<div class="column last">
+						<div data-hires="false">
+						
+						
+						</div>
+						<div class="sidebox" id="weekendboxoffice">
+							<h2>In Theaters</h2>
+							<h3>Openings  <a onclick='s_objectID="https://trailers.apple.com/trailers/showtimes/_3";return this.s_oc?this.s_oc(e):true' href="https://trailers.apple.com/trailers/showtimes/">Showtimes</a> </h3>
+							<ul id="openings">
+
+							</ul>
+							<div class="bottomcap"></div>
+						</div>
+						<div class="sidebox light itmslist" id="topmoviesales">
+						
+							<h2>iTunes Top Movies</h2>
+							<div class="inside">
+	
+
+							<ol class="topitunes" id="top-sold">
+
+							</ol>
+		<a class="more" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=33&id=39&popId=15">Top Movies</a> 
+						<div class="clearer"></div>
+						<div class="bottomcap"></div>	
+						</div>
+					</div>
+						<p>
+<a href="/app/"><img src="http://trailers.apple.com/trailers/home/promos/images/newapp-v26-187x228.jpg" alt="iTunes Movie Trailers App" width="187" height="228"></a>
+</p>
+
+						
+<p><a href="/ca/"><img src="http://trailers.apple.com/trailers/home/promos/images/iTunesMovieTrailersnowforCanada.jpg" alt="iTunes Movie Trailers for Canada" width="187" height="228"></a>
+</p>
+
+
+
+
+						</div>
+						
+			</div><!--/content-->
+		</div><!--/main-->
+	</div><!--/container-->
+
+	<footer id="ac-globalfooter" class="no-js" lang="en-US" data-analytics-region="global footer" role="contentinfo" aria-labelledby="ac-gf-label">
+		<div class="ac-gf-content">
+			<h2 class="ac-gf-label" id="ac-gf-label">Apple Footer</h2>
+			<!-- Sosumi -->
+			<nav class="ac-gf-breadcrumbs" aria-label="Breadcrumbs" role="navigation">
+				<a href="https://www.apple.com/" class="home ac-gf-breadcrumbs-home">
+					<span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true"></span>
+					<span class="ac-gf-breadcrumbs-home-label">Apple</span>
+					<span class="ac-gf-breadcrumbs-home-chevron"></span>
+					<span class="ac-gf-breadcrumbs-home-mask"></span>
+				</a>
+				<div class="ac-gf-breadcrumbs-path">
+					<ol class="ac-gf-breadcrumbs-list" vocab="https://schema.org/" typeof="BreadcrumbList">
+						<li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem"><span property="name">iTunes Movie Trailers</span><meta property="position" content="1"></li>
+					</ol>
+				</div>
+				</nav>
+			<!-- Directory -->
+			<section class="ac-gf-footer">
+	<div class="ac-gf-footer-shop" x-ms-format-detection="none">
+		More ways to shop: <a href="https://www.apple.com/retail/" data-analytics-title="find an apple store">Find an Apple Store</a> or <a href="https://locate.apple.com/" data-analytics-title="other retailers or resellers" data-analytics-exit-link>other retailer</a> near you. <span class="nowrap">Or call 1-800-MY-APPLE.</span>
+	</div>
+	<div class="ac-gf-footer-locale">
+		<a class="ac-gf-footer-locale-link" href="https://www.apple.com/choose-country-region/" title="Choose your country or region" aria-label="United States. Choose your country or region" data-analytics-title="choose your country"><span class="ac-gf-footer-locale-flag" data-hires="false"></span>United States</a>
+	</div>
+	<div class="ac-gf-footer-legal">
+		<div class="ac-gf-footer-legal-copyright">Copyright ©
+			
+			2020
+			Apple Inc. All rights reserved.</div>
+		<div class="ac-gf-footer-legal-links">
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/privacy/" data-analytics-title="privacy policy">Privacy Policy</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/internet-services/terms/site.html" data-analytics-title="terms of use">Terms of Use</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/us/shop/goto/help/sales_refunds" data-analytics-title="sales and refunds">Sales and Refunds</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/" data-analytics-title="legal">Legal</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/sitemap/" data-analytics-title="site map">Site Map</a>
+		</div>
+	</div>
+</section>
+
+			</div>
+	</footer>
+	<script type="text/javascript" src="https://trailers.apple.com/ac/globalfooter/5/en_US/scripts/ac-globalfooter.built.js"></script>
+	
+</body>
+
+</html>

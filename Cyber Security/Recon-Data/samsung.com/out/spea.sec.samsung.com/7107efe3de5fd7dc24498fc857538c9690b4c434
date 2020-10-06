@@ -1,0 +1,11 @@
+http://spea.sec.samsung.com/
+
+> GET / HTTP/1.1
+> Host: spea.sec.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Date: Wed, 10 Jun 2020 05:36:21 GMT
+< Location: https://spea.sec.samsung.com/sales/login.do
+< Content-Length: 0
+

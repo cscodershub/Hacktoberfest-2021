@@ -1,0 +1,24 @@
+http://st11p01ad-cprcnt.apple.com/
+
+> GET / HTTP/1.1
+> Host: st11p01ad-cprcnt.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Thu, 30 Apr 2020 21:41:16 GMT
+< Server: Apache
+< Content-Length: 321
+< Content-Type: text/html; charset=iso-8859-1
+< Strict-Transport-Security: max-age=7776000
+< Set-Cookie: NSC_dqsdou-iuuq=ffffffff12aa4c7745525d5f4f58455e445a4a423660;expires=Thu, 30-Apr-2020 21:43:16 GMT;path=/;httponly
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /
+on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>

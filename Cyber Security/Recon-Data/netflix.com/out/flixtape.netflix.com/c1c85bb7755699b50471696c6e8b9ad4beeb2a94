@@ -1,0 +1,101 @@
+https://flixtape.netflix.com/
+
+> GET / HTTP/1.1
+> Host: flixtape.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=60; includeSubDomains
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=utf-8
+< Date: Wed, 17 Jun 2020 05:38:01 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Language: en
+< Server: Apache
+< Vary: Accept-Language,Cookie,Accept-Encoding,User-Agent
+
+<!DOCTYPE html>
+<!--
+ ____  _   _       _       _ _       _ _        _   _        _
+/ ___|| |_(_)_ __ | | ____| (_) __ _(_) |_ __ _| | | |      / \
+\___ \| __| | '_ \| |/ / _` | |/ _` | | __/ _` | | | |     / _ \
+ ___) | |_| | | | |   < (_| | | (_| | | || (_| | | | |___ / ___ \
+|____/ \__|_|_| |_|_|\_\__,_|_|\__, |_|\__\__,_|_| |_____/_/   \_\
+                               |___/
+
+https://flixtape.netflix.com/humans.txt
+!-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link type="text/plain" rel="author" href="http://flixtape.netflix.com/humans.txt" />
+  <title>Netflix Flixtape - Like a mixtape. But for Netflix.</title>
+  <style>
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f5f5f1;
+    color: #e50914;
+    font-family: Courier, monospace;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .button {
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: #f5f5f1;
+    background-color: #e50914;
+    display: inline;
+    border-radius: 2px;
+  }
+  #container {
+    position: relative;
+  }
+  #container img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 5% 10%;
+    color:#e50914;
+    text-decoration: none;
+  }
+  #container .error-msg {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #container a {
+    position: absolute;
+    left: 50%;
+    bottom: -14px;
+    transform: translateX(-50%);
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  @media (min-width: 800px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <img src="http://assets.itp.netflix.net/flixtape/public/404.png" />
+    <div class="error-msg">
+      <h1>404</h1>
+      <p>Oops. We can't seem to find the page you're looking for.</p>
+    </div>
+    <a href="http://flixtape.netflix.com/" class="button">Go Home</a>
+  </div>
+</body>
+</html>

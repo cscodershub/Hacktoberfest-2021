@@ -1,0 +1,20 @@
+https://imglegit.apple.com/
+
+> GET / HTTP/1.1
+> Host: imglegit.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Www-Authenticate: Basic realm="Protected Site"
+< Server: nginx/1.10.1
+< Date: Thu, 30 Apr 2020 20:55:25 GMT
+< Content-Type: text/html
+< Content-Length: 195
+
+<html>
+<head><title>401 Authorization Required</title></head>
+<body bgcolor="white">
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx/1.10.1</center>
+</body>
+</html>

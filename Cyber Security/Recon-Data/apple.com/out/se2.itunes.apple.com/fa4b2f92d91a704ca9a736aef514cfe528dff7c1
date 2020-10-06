@@ -1,0 +1,213 @@
+https://se2.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: se2.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Thu, 30 Apr 2020 21:29:40 GMT
+< X-Apple-Request-Uuid: bb9f71e9-fedc-1581-e4eb-d3de56de35ea
+< X-B3-Spanid: c150d8c79f33c345
+< X-Apple-Lokamai-No-Cache: true
+< X-B3-Traceid: bb9f71e9fedc1581e4ebd3de56de35ea
+< Apple-Originating-System: MZStoreElements2
+< Apple-Tk: false
+< Apple-Seq: 0
+< X-Apple-Application-Site: ST11
+< Vary: Accept-Encoding
+< X-Apple-Jingle-Correlation-Key: XOPXD2P63QKYDZHL2PPFNXRV5I
+< Strict-Transport-Security: max-age=31536000
+< Apple-Timing-App: 2 ms
+< X-Apple-Asset-Version: 0
+< X-Apple-Date-Generated: Thu, 30 Apr 2020 21:29:40 GMT
+< X-Apple-Request-Store-Front: <null>
+< X-Apple-Application-Instance: 201164
+< Content-Type: text/html; charset=utf-8
+< B3: bb9f71e9fedc1581e4ebd3de56de35ea-c150d8c79f33c345
+< Cache-Control: max-age=0
+< X-Webobjects-Loadaverage: 0
+< Access-Control-Allow-Origin: *
+< Turnaroundtime: 256
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+  <HEAD>
+    <meta name="robots" content="noindex,nofollow">
+    <TITLE>Connecting to the iTunes Store.</TITLE>
+    <meta name="description" content="Connecting to the iTunes Store."></meta>
+    <meta name="keywords" content="iTunes Store"></meta>
+
+    <script type="text/javascript" charset="utf-8" src="/htmlResources/3d61/web-storefront-base.js"></script>
+<script type="text/javascript" charset="utf-8" src="/htmlResources/3d61/web-storefront-preview.js"></script>
+
+    <link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/3d61/web-storefront-base.css" />
+<link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/3d61/web-storefront-preview.css" />
+
+    <script type="text/javascript">itms.PageData.itunesDownloadUrl='http://www.apple.com/itunes/download/';</script>
+    
+
+    <STYLE type="text/css">
+
+        body {
+        text-align: center;
+        height: 100%;
+        }
+
+        body.rtl {
+            direction: rtl !important;
+            text-align: right !important;
+        }
+
+        html , body {
+        background:white !important;
+        }
+
+        img {
+        border-width: 0px; /* need this for firefox */
+        }
+
+        div.loadingbox {
+        width: 800px;
+        margin: 0 auto;
+        padding: 0px;
+        text-align: left;
+        border:0;
+
+        position: absolute;
+        top: 50%;
+        margin-top: -135px;
+        width: 100%;
+        }
+
+        table.info {
+        width: 270px;
+        }
+
+        div.cover {
+        width: 100px;
+        text-align: right;
+        }
+
+        div.loadingbox div.cover img {
+        margin-top: 40px;
+        }
+
+        div.loadingbox p {
+        color: #999;
+        font: 14px;
+        font-family: "Myriad Set Pro", "Helvetica Neue", "sans-serif";
+        margin: 0;
+        padding: 1px 10px 0px 10px;
+        }
+
+        div.loadingbox p.title {
+        color: #333;
+        font-size: 54px;
+        line-height:58px;
+        font-weight:100;
+        padding: 0px 20px 3px 20px;
+        text-align: center;
+        }
+
+        div.loadingbox p.subtitle {
+        color: #666;
+        font-size: 15px;
+        padding: 0px 20px;
+        }
+
+        div.loadingbox p.heading {
+        color: #666;
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        font-weight: bold;
+        }
+
+        div.loadingbox p.footer {
+        color: #666;
+        font-size: 12px;
+        text-align: center;
+        padding: 20px 20px 0px 20px;
+        width: 400px;
+        margin: 0 auto;
+        }
+
+        img.corner {
+        width: 13px;
+        height: 13px;
+        border: none;
+        display: block !important;
+        position: relative;
+        left: -6px;
+        }
+
+        div.clear {
+        clear: both;
+        }
+
+        p.dark {
+        color: #333;
+        }
+
+        a {
+        text-decoration: none;
+        border-width: 0px;
+        }
+
+        span#test {
+        content: "foo";
+        display: inline-block;
+        width: 100px;
+        }
+
+        span#loading-dots {
+        position: absolute;
+        }
+
+        div#loadingbox-wrapper {
+        position: relative;
+        height: 100%;
+        }
+    </STYLE>
+     <script type="text/javascript">
+        $(document).ready( function() {
+          var x=0; setInterval(function() {
+            var dots = ""; x++; for (var y=0; y < x%3; y++) {dots+=".";} $("#loading-dots").text(dots);
+          } , 500);
+        });
+     </script>
+      <link  charset="utf-8" rel="stylesheet" href="https://s.mzstatic.com/fonts/fonts.css" />
+  </HEAD>
+
+  <body onload="return its.detect.openItunes('https://se2.itunes.apple.com/?ign-mscache=1');">
+
+  
+  <object classID="CLSID:D719897A-B07A-4C0C-AEA9-9B663A28DFCB" width="1" height="1" id="iTunesDetectorIE" ></object>
+   <div id="loadingbox-wrapper">
+   <div class="loadingbox">
+      <p class="title">Connecting to the iTunes Store.<span id="loading-dots">...</span></p>
+
+       <div class="clear"></div>
+
+         
+         <div id="itunes-client-required" style="display:block;">
+          <center><br>
+           <p style="color: red;">
+            We are unable to find iTunes on your computer.
+           </p><br>
+            <a onclick="its.detect.userOverrideSetItunesInstalled(); its.detect.openItunes(); return true;" href="#">
+             <input type="submit" value="I have iTunes" />
+            </a>
+           <a href="http://www.apple.com/itunes/download/?itunesInstalled=unknown"><input type="submit" value="Download iTunes" /></a>
+          </center>
+          <script type="text/javascript">
+            document.getElementById('itunes-client-required').style.display='none';
+          </script>
+         </div>
+         
+
+      <p class="footer">If you don't have iTunes, <a href="http://www.apple.com/itunes/download/">download it for free</a>. If you have iTunes and it doesn't open automatically, try opening it from your dock or Windows task bar.</p>
+   </div></div>
+  </body>
+</HTML>

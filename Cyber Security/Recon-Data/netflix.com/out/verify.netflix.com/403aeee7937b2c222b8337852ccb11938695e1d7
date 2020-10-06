@@ -1,0 +1,14 @@
+http://verify.netflix.com/
+
+> GET / HTTP/1.1
+> Host: verify.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Content-Length: 0
+< Content-Type: text/plain
+< Date: Wed, 17 Jun 2020 05:37:19 GMT
+< Location: https://www.netflix.com/verifyphone?ss=true
+

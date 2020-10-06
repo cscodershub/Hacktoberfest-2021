@@ -1,0 +1,23 @@
+http://account.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: account.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Set-Cookie: nfvdid=BQFmAAEBECOLJqiqatVgprcFFMnwe4xAr-EbP1EVG0vkUtOpobn1dZ2jvZBDtz16Dneqm3P4v2qeXQMDLesGBO_O_Djd8wQFYvrDJ9Qqm1uwzxrh_QMLtw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=3e0d5491-2ca5-424e-9419-95e0010b0b41; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:23 GMT; Path=/; Domain=.netflix.com
+< Content-Length: 0
+< Edge-Control: no-cache, no-store
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: http://account.geo.netflix.com/
+< Date: Wed, 17 Jun 2020 05:36:23 GMT
+< Via: 1.1 i-0cd52f33924f8c27b (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.proxy.execution-Time: 26
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Cache-Control: no-cache, no-store
+< Location: https://account.geo.netflix.com/
+< Server: nq_website_core-prod-release 991b6792-4985-411b-93ee-a0dcf6cf3afc
+

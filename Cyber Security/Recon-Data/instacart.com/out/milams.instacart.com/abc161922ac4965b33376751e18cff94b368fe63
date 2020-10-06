@@ -1,0 +1,24 @@
+http://milams.instacart.com/
+
+> GET / HTTP/1.1
+> Host: milams.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Via: 1.1 bae54c9df29d44a26d5e0fd3d2c61c9c.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: vaFb7lsk-fdTdIljGdLDcf2wJiLzOycCwo7oJxcgy2ZItY1lk_1ItQ==
+< Date: Tue, 04 Aug 2020 04:47:24 GMT
+< Content-Type: text/html
+< Content-Length: 183
+< Location: https://milams.instacart.com/
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

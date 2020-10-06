@@ -1,0 +1,19 @@
+http://gspe72-3-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe72-3-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: ATS/8.0.7
+< Via: http/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 sgsin3-edge-bx-019.ts.apple.com (ApacheTrafficServer/8.0.7)
+< X-Cache: miss, hit-stale
+< X-Amz-Request-Id: E137119917839A64
+< Content-Type: application/xml
+< Date: Thu, 30 Apr 2020 21:31:02 GMT
+< X-Amz-Id-2: KoyJYmH6100UvzifzerkKVzX/dCsyu4KYxeip6XjU8npU8A07DXSR55LIilO/FsrxBWfyaOrDyE=
+< Age: 1
+< Cdnuuid: 81e93dda-4deb-4a6c-aba7-5bbc98fb2d1e-2622746846
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>InvalidAccessKeyId</Code><Message>The AWS Access Key Id you provided does not exist in our records.</Message><AWSAccessKeyId>AKIAIOELD43FI44GSCGA</AWSAccessKeyId><RequestId>E137119917839A64</RequestId><HostId>KoyJYmH6100UvzifzerkKVzX/dCsyu4KYxeip6XjU8npU8A07DXSR55LIilO/FsrxBWfyaOrDyE=</HostId></Error>

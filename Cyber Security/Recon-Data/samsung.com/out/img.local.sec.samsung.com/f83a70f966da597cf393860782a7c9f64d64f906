@@ -1,0 +1,16 @@
+https://img.local.sec.samsung.com/
+
+> GET / HTTP/1.1
+> Host: img.local.sec.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 409 Conflict
+< Server: PWS/8.3.1.0.8
+< Via: 1.1 PShgseSEL6mz85:12 (W)
+< X-Px: -
+< X-Exp: false
+< Date: Wed, 10 Jun 2020 05:36:26 GMT
+< Content-Length: 0
+< X-Ws-Request-Id: 5ee0715a_PShgseSEL6ow82_10268-50658
+< X-Cc: false
+

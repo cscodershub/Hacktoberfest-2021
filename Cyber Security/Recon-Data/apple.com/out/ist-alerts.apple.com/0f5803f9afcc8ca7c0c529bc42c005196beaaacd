@@ -1,0 +1,24 @@
+https://ist-alerts.apple.com/
+
+> GET / HTTP/1.1
+> Host: ist-alerts.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Date: Thu, 30 Apr 2020 21:40:29 GMT
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Content-Type-Options: nosniff
+< Server: Apple
+< Content-Length: 138
+< Location: https://idmsac.apple.com/IDMSWebAuth/login?appIdKey=f7504459ba44d94fd5c5cd3aacf28456ed1c857b3a9dc85ae1b044cd553d6d82&path=https%3A%2F%2Fist-alerts.apple.com&rv=1
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

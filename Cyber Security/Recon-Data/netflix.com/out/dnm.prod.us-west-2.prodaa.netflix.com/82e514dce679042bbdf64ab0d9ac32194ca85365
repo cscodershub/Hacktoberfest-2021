@@ -1,0 +1,13 @@
+http://dnm.prod.us-west-2.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: dnm.prod.us-west-2.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Netflix.nfstatus: 1_5
+< X-Netflix.proxy.execution-Time: 3
+< Content-Length: 0
+< Server: zuul i-02ca984b3ff58f0f8
+< Via: 1.1 i-02ca984b3ff58f0f8 (us-west-2)
+

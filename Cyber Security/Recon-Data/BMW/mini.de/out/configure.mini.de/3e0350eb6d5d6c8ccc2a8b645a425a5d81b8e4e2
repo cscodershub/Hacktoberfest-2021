@@ -1,0 +1,18 @@
+http://configure.mini.de/
+
+> GET / HTTP/1.1
+> Host: configure.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: http://configure.mini.de/de_DE/model-ranges
+< Date: Tue, 11 Aug 2020 04:54:45 GMT
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Origin: *
+< Server: AkamaiGHost
+< Access-Control-Max-Age: 86400
+< Access-Control-Allow-Headers: *
+< Access-Control-Allow-Methods: GET
+< X-Frame-Options: DENY
+

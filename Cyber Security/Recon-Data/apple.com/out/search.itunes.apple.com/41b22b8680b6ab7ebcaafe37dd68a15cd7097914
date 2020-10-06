@@ -1,0 +1,32 @@
+https://search.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: search.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Akamai-Age-Ms: 1588282190233
+< Server: Apache
+< Accept-Ranges: bytes
+< X-Cache-Remote: TCP_REFRESH_MISS from a125-99-55-107.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (S)
+< X-Apple-Partner: origin.0
+< Strict-Transport-Security: max-age=31536000
+< Content-Security-Policy: default-src 'self'  *.apple.com;
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< Date: Thu, 30 Apr 2020 21:29:50 GMT
+< Cache-Control: public, no-transform, max-age=3600
+< X-Cache: TCP_MISS from a125-99-55-105.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< X-True-Cache-Key: /L/search.itunes.apple.com/ vcd=2897
+< Last-Modified: Wed, 29 Apr 2020 08:38:02 GMT
+< Etag: "6f-5a469ddc2541b"
+< X-Server: (null)
+< Vary: Accept-Encoding
+< Vary: X-Apple-Store-Front, Cookie, Accept-Encoding
+
+<html>
+<body>
+<p><a href="/WebObjects/MZAdmin.woa/">DJ</a>
+<p><a href="/WebObjects/iTunesConnect.woa/">iTC</a>

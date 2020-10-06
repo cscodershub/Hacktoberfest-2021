@@ -1,0 +1,32 @@
+https://www.eu-west-1.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.eu-west-1.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Edge-Control: no-cache, no-store
+< Expires: 0
+< Pragma: no-cache
+< X-Netflix.proxy.execution-Time: 136
+< X-Robots-Tag: index
+< X-Originating-Url: https://www.eu-west-1.netflix.com/
+< Cache-Control: no-cache, no-store
+< Content-Type: text/html
+< Server: nq_website_core-prod-release 6d5e04f9-9de0-475e-bccc-a4401a1a192d
+< Set-Cookie: flwssn=da1fe4d4-0d20-487f-a1ff-05daf2327c19; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:33:34 GMT
+< Set-Cookie: clSharedContext=83ff7ebb-f0e3-40ce-8c11-dc3ff9e5d20d; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEPJGRUhFp-j39w5-_HzNndVA-V-UcRdGwgiR80CfFD3wNb1gRygjiMYPOrzT7dX-60rXTy8gQb5-htUQ5J_x5pRyGjZIcnwzS5CWS8TIdUPqbw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABS2fb2B4KaAn9l3U7zRiTBWJ4uyOpfqqzI.%26dt%3D1592372014744; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:33:34 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEPaONgmUUrDxOFr4n_nqkfeA8B76jHeydH3Vnhus-RxER2f-ysbY13t4vpb8ILsrPJ2_GaBm69nN7GGU8JxTD0E1ZxRKZDhmcK9ymr30Qog_HhABomOXTs9tRdqW0IIi7kFpZCAvwFx_1AVELYK34M2SmuDHKjTGaELOMC__aROL01vtPovuxf4so4khPMhZ2lE4IR4KiF70wJ5yjzEa0bkgxSPNR4aqpyWEDR6bcZaU73JAU9DDX74DavmIBVIV64xinKSLH7zWBz_TxpL52eGn8PhTFBtNt-4NfjGI9i3QO4JMz1-lsLRA521rvWHV-yKJ83T1JaEJGWcSmKsV-YqqGw..%26bt%3Ddev%26mac%3DAQEAEAABABSEGF_g_1_QedAPt6wD-3dKQx8yLhgdqNw.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:33:34 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=fc1457d7-d83c-47ba-ab96-a80caec8480e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:33:34 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 i-0e2108102e335da85 (eu-west-1)
+< X-Content-Type-Options: nosniff
+< Content-Length: 0
+< Date: Wed, 17 Jun 2020 05:33:34 GMT
+< Location: https://www.eu-west-1.netflix.com/in/
+< X-Frame-Options: DENY
+< X-Netflix.nfstatus: 1_1
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+

@@ -1,0 +1,20 @@
+https://icloud.developer.apple.com/
+
+> GET / HTTP/1.1
+> Host: icloud.developer.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: AppleHttpServer/ac9d40131a4d
+< Cache-Control: no-cache, no-store, private
+< Pragma: no-cache
+< Location: https://icloud.developer.apple.com/dashboard/
+< Via: 49ed01272a7e88a19263fc26c7d05c4e:68976c40ae9eb64803e2fb500f5d575c:Singapore
+< Date: Thu, 30 Apr 2020 21:29:02 GMT
+< Content-Length: 17
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Apple-Request-Uuid: cf8548bb-7bff-468b-8bc7-6d40f336bb25
+< Access-Control-Expose-Headers: X-Apple-Request-UUID
+< Access-Control-Expose-Headers: Via
+
+Moved Temporarily

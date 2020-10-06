@@ -1,0 +1,16 @@
+http://ichnaea-web.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ichnaea-web.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 3
+< Content-Length: 0
+< Server: clingest-secure i-0f67aca4fa8b5782e
+< Location: https://ichnaea-web.latency.prodaa.netflix.com/
+< Via: 1.1 i-049a3951f5e7b8bf4 (eu-west-1)
+< X-Originating-Url: http://ichnaea-web.latency.prodaa.netflix.com/
+< Date: Wed, 17 Jun 2020 05:34:45 GMT
+

@@ -1,0 +1,26 @@
+http://faq.stage.mini.de/
+
+> GET / HTTP/1.1
+> Host: faq.stage.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: Apache
+< Location: https://faq.stage.mini.de/
+< X-Cache: Miss from cloudfront
+< Via: 1.1 6539a76bb06cb86ff6a4a036edfec007.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MRS52-C1
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 210
+< Date: Tue, 11 Aug 2020 04:54:48 GMT
+< Set-Cookie: AWSALB=O1oKXDmIgJv4i8E+KQ1Dw7gjk/maOjgU8jUFLDt0qWY7bvF1srxEy4VlmuRAUaUuZpfUjpEFRhZEvHGrIGghaQVRyTKhL9H6cCWcy2CQMejhhGf28kpe8EXbnn4a; Expires=Tue, 18 Aug 2020 04:54:48 GMT; Path=/
+< Set-Cookie: AWSALBCORS=O1oKXDmIgJv4i8E+KQ1Dw7gjk/maOjgU8jUFLDt0qWY7bvF1srxEy4VlmuRAUaUuZpfUjpEFRhZEvHGrIGghaQVRyTKhL9H6cCWcy2CQMejhhGf28kpe8EXbnn4a; Expires=Tue, 18 Aug 2020 04:54:48 GMT; Path=/; SameSite=None
+< X-Amz-Cf-Id: EQVYVO4rp-NMEgElEdBafXwcpZtjEYnJQ_N1aZwQj-zCXwnIysRdEA==
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://faq.stage.mini.de/">here</a>.</p>
+</body></html>

@@ -1,0 +1,206 @@
+https://staging-remote-data-sources.apple.com/
+
+> GET / HTTP/1.1
+> Host: staging-remote-data-sources.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Strict-Transport-Security: max-age=31536000
+< X-B3-Traceid: b5a22b11c86c2108
+< Vary: Accept-Encoding
+< Cache-Control: max-age=0, no-cache, no-store
+< Content-Type: text/html;charset=utf-8
+< X-Xss-Protection: 1; mode=block
+< Expires: Thu, 30 Apr 2020 21:29:29 GMT
+< Pragma: no-cache
+< Server: AppleHttpServer/62e237dc531d
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+< X-Application-Context: remote-data-source:staging:31122
+< Content-Language: en-US
+< Date: Thu, 30 Apr 2020 21:29:29 GMT
+< X-Cache: TCP_MISS from a23-57-69-180.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>News: remote-data-source</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="webjars/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <!-- comments below are left in place for local development support -->
+    <!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+    <style>
+        .server-info {
+            padding: 0 20px 1px 20px;
+        }
+        .server-info tr {
+            white-space: nowrap;
+        }
+        .server-info th {
+            padding-right: 10px;
+        }
+        .server-info th,
+        .server-info td{
+            padding-bottom: 3px;
+            padding-bottom: 2px;
+        }
+
+    </style>
+</head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">News: remote-data-source</a>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-info-sign"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="server-info">
+                                    <div>
+                                        <script>
+                                            /*<![CDATA[*/
+
+                                            const elapsedTime = () =>
+                                            {
+                                                'use strict';
+                                                var startTime = new Date(0);
+                                                var utcSeconds = {'epochSecond':1588133911,'nano':955204000}.epochSecond;
+                                                startTime.setUTCSeconds(utcSeconds);
+                                                const since = startTime.getTime(),
+                                                    elapsed = (new Date().getTime() - since) / 1000;
+
+                                                let message = '';
+                                                if (elapsed >= 0) {
+                                                    const diff = {};
+
+                                                    diff.days = Math.floor(elapsed / 86400);
+                                                    diff.hours = Math.floor(elapsed / 3600 % 24);
+                                                    diff.minutes = Math.floor(elapsed / 60 % 60);
+                                                    diff.seconds = Math.floor(elapsed % 60);
+
+                                                    message = `${diff.days}d ${diff.hours}h ${diff.minutes}m ${diff.seconds}s.`;
+                                                    message = message.replace(/(?:0. )+/, '');
+                                                }
+                                                document.getElementById("runtime").innerHTML = message;
+                                            }
+                                            ;
+
+                                            /*]]>*/
+
+                                            setInterval(elapsedTime, 1000);
+
+                                        </script>
+                                        <table class="small">
+                                            <tbody>
+                                            <tr>
+                                                <th class="text-right">Version</th>
+                                                <td class="text-left text-info"><span class="text-info">1.27.0</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-right">Package Version</th>
+                                                <td class="text-left text-info"><span class="text-info">unknown</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-right">Build Time</th>
+                                                <td class="text-left text-info"><span class="text-info">2018-04-06T22:40:43Z</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-right">Build Branch</th>
+                                                <td class="text-left text-info"><span class="text-info">unknown</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-right">Build Number</th>
+                                                <td class="text-left text-info"><span class="text-info">unknown</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-right">Commit ID</th>
+                                                <td class="text-left text-info">
+                                                    <span>c9b2eed</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-right">Commit Time</th>
+                                                <td class="text-left text-info"><span class="text-info">2020-04-16T00:16:59Z</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-right">Start Time</th>
+                                                <td class="text-left text-info"><span class="text-info">2020-04-29T04:18:31.955204Z</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-right">Runtime</th>
+                                                <td class="text-left text-info"><span class="text-info" id="runtime"></span></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                    <li><a href="mappings" target="mappings">mappings</a></li>
+                                
+                                
+                                    <li><a href="env" target="env">env</a></li>
+                                
+                                
+                                    <li><a href="health" target="health">health</a></li>
+                                
+                                
+                                    <li><a href="beans" target="beans">beans</a></li>
+                                
+                                
+                                    <li><a href="info" target="info">info</a></li>
+                                
+                                
+                                    <li><a href="loggers" target="loggers">loggers</a></li>
+                                
+                                
+                                    <li><a href="metrics" target="metrics">metrics</a></li>
+                                
+                                
+                                    <li><a href="trace" target="trace">trace</a></li>
+                                
+                                
+                                    <li><a href="dump" target="dump">dump</a></li>
+                                
+                                
+                                    <li><a href="autoconfig" target="autoconfig">autoconfig</a></li>
+                                
+                                
+                                    <li><a href="configprops" target="configprops">configprops</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="content" class="container">
+            <!--content here-->
+        </div>
+        <script src="webjars/jquery/3.3.1/jquery.min.js"></script>
+        <script src="webjars/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <!-- comments below are left in place for local development support -->
+        <!--<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>-->
+        <!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>-->
+    </body>
+</html>

@@ -1,0 +1,18 @@
+http://www.partner.gebrauchtwagen.mini.de/
+
+> GET / HTTP/1.1
+> Host: www.partner.gebrauchtwagen.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: PXC-Webserver
+< Cache-Control: no-cache
+< Content-Type: text/html; charset=UTF-8
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 11 Aug 2020 04:54:21 GMT
+< Content-Length: 172
+< Location: https://www.mini.de
+< X-Content-Type-Options: nosniff
+
+<head><title>Dokument verschoben</title></head>
+<body><h1>Objekt verschoben</h1>Dieses Dokument befindet sich möglicherweise <a HREF="https://www.mini.de">hier</a>.</body>

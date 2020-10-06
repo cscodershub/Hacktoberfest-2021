@@ -1,0 +1,23 @@
+http://medlearn.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: medlearn.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: no-store, no-cache, must-revalidate
+< X-Redirect-By: WordPress
+< Location: https://medlearn.imperial.ac.uk/wp-login.php?privacy=1&redirect_to=http%3A%2F%2Fmedlearn.imperial.ac.uk%2F
+< Date: Sat, 18 Jul 2020 13:54:36 GMT
+< Set-Cookie: PHPSESSID=c14e48123c55e95e783e8fb05cf3b148; path=/
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Pragma: no-cache
+< X-Kinsta-Cache: HIT
+< X-Edge-Location-Klb: G7YCbD51gWtAqBp5JUkAUWTe3890fb420211762814fc024db944a570
+< Server: nginx
+
+    <script type="text/javascript">
+        window.location = 'https://medlearn.imperial.ac.uk/wp-login.php?privacy=1&redirect_to=http%3A%2F%2Fmedlearn.imperial.ac.uk%2F';
+    </script>
+    

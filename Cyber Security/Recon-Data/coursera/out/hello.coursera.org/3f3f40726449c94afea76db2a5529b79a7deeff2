@@ -1,0 +1,20 @@
+http://hello.coursera.org/
+
+> GET / HTTP/1.1
+> Host: hello.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 308 Permanent Redirect
+< Location: https://hello.coursera.org/
+< Server: nginx/1.17.10
+< Date: Mon, 10 Aug 2020 04:51:55 GMT
+< Content-Type: text/html
+< Content-Length: 172
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx/1.17.10</center>
+</body>
+</html>

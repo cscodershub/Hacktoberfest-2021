@@ -1,0 +1,14 @@
+http://sdk.pushmessage.samsung.com/
+
+> GET / HTTP/1.1
+> Host: sdk.pushmessage.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: ZENEDGE
+< X-Cache-Status: NOTCACHED
+< Date: Wed, 10 Jun 2020 05:35:49 GMT
+< X-Zen-Fury: bb60f6ed69e09cf5768cc464c3ea8850c36abc11
+< Content-Type: application/json;charset=UTF-8
+
+{"timestamp":1591767349269,"status":404,"error":"Not Found","message":"No message available","path":"/"}

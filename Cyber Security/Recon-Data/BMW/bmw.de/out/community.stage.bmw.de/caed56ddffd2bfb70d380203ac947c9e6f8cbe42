@@ -1,0 +1,26 @@
+http://community.stage.bmw.de/
+
+> GET / HTTP/1.1
+> Host: community.stage.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 215
+< Date: Tue, 11 Aug 2020 04:51:26 GMT
+< Set-Cookie: AWSALB=i74XW6gmj41B+XwND/QSNyaebUL+nnDRfKKMLQa0bypVpg9t7GWDdRTIKHTOCXio3JpuPjevTB6aciBgeHBQ9DwEuYNKn61O+S2Zs6GTRlvfDBO1RobhPXhQand+; Expires=Tue, 18 Aug 2020 04:51:26 GMT; Path=/
+< Set-Cookie: AWSALBCORS=i74XW6gmj41B+XwND/QSNyaebUL+nnDRfKKMLQa0bypVpg9t7GWDdRTIKHTOCXio3JpuPjevTB6aciBgeHBQ9DwEuYNKn61O+S2Zs6GTRlvfDBO1RobhPXhQand+; Expires=Tue, 18 Aug 2020 04:51:26 GMT; Path=/; SameSite=None
+< Server: Apache
+< X-Amz-Cf-Pop: MRS52-C1
+< X-Amz-Cf-Id: D0SguXr2Xwrtz3B_5AwMBrVeJ5gJO6dS57R7jMVALM6jKAg9-DMWxQ==
+< Location: https://community.stage.bmw.de/
+< X-Cache: Miss from cloudfront
+< Via: 1.1 d8ba22a2a925887b5431a679476593d8.cloudfront.net (CloudFront)
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://community.stage.bmw.de/">here</a>.</p>
+</body></html>

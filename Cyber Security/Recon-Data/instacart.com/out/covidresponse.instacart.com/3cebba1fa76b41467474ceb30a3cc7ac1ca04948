@@ -1,0 +1,13 @@
+http://covidresponse.instacart.com/
+
+> GET / HTTP/1.1
+> Host: covidresponse.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://covidresponse.instacart.com/
+< X-Proxy-Backend: page-server
+< Date: Tue, 04 Aug 2020 04:47:03 GMT
+< Content-Length: 0
+< P3p: CP="This is not a privacy policy."
+

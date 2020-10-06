@@ -1,0 +1,52 @@
+https://appboot.us-east-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: appboot.us-east-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Last-Modified: Tue, 02 Jun 2020 12:06:04 GMT
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Content-Length: 487
+< Set-Cookie: memclid=b41ca771-0784-4e93-8919-65afb62fb344; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:10 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEOf67%2FuPbVplbi%2BbVGIBoxJAXi8oQ7HjiQKN%2BEBqnJUHD3V6i1RueHrImKh1pxEtu59pzXcCWceCI8FLUrtkGJDfb0MKb2yw4BHbxb7nJ%2FgEGQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:10 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-056f39d839b68ac45 (us-east-1)
+< X-Netflix.nfstatus: 1_1
+< Etag: W/"487-1591099564000"
+< Date: Wed, 17 Jun 2020 05:34:10 GMT
+< Server: appboot- i-06e20eac14b12fdea
+< X-Netflix.proxy.execution-Time: 4
+< X-Originating-Url: https://appboot.us-east-1.prodaa.netflix.com/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix Appboot</title>
+  <!-- CSS -->
+  <style type="text/css">
+    body {
+      margin: 0px auto;
+      width: 100%;
+    }
+    div.container {
+      margin: 0px auto;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    div.header1 {
+      font-size: 300%;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header1">
+    Netflix appboot
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+https://www.ch.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.ch.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Length: 298
+< Content-Type: text/html; charset=UTF-8
+< Date: Sat, 18 Jul 2020 13:54:25 GMT
+< Server: Apache/2.2.15 (Oracle)
+< Last-Modified: Fri, 26 Nov 2010 17:10:45 GMT
+< Etag: "68068f-12a-495f7cd8eef40"
+< Accept-Ranges: bytes
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head> 
+	<meta name="generator" content="HTML Tidy for Mac OS X (vers 14 February 2006), see www.w3.org"> 
+	<meta http-equiv="Refresh" content="0; URL=http://www.ch.imperial.ac.uk/wiki/"> 
+	<title>Wiki</title>
+</head>
+<body>
+</body>
+</html>

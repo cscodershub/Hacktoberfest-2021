@@ -1,0 +1,19 @@
+http://itsliveradiobackup.apple.com/
+
+> GET / HTTP/1.1
+> Host: itsliveradiobackup.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Bucket-Region: us-east-1
+< X-Amz-Request-Id: 3E7A104DE0E5436C
+< X-Amz-Id-2: pBKAN5Eo54088KBp+3LgTrQvoIfiGqOq/5WIOp4aJ134gCc3PgEKRyL6tl7XIUB22BGh/kpOO2k=
+< Date: Thu, 30 Apr 2020 21:28:46 GMT
+< X-Cache-Remote: TCP_MISS from a49-44-113-79.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29323059) (-)
+< Content-Type: application/xml
+< Server: AmazonS3
+< Content-Length: 243
+< X-Cache: TCP_MISS from a116-74-255-6.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29323059) (-)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>3E7A104DE0E5436C</RequestId><HostId>pBKAN5Eo54088KBp+3LgTrQvoIfiGqOq/5WIOp4aJ134gCc3PgEKRyL6tl7XIUB22BGh/kpOO2k=</HostId></Error>

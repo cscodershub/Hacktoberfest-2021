@@ -1,0 +1,24 @@
+http://food-4-less-kroger.instacart.com/
+
+> GET / HTTP/1.1
+> Host: food-4-less-kroger.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 183
+< Via: 1.1 e1160873130352c78075acaa2f164c82.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: 5dYi_GtPh4MBSUESAroxbDkFq782DWZHsqcD15J4Q4E4HpqRvYseUg==
+< Date: Tue, 04 Aug 2020 04:47:09 GMT
+< Location: https://food-4-less-kroger.instacart.com/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: MAA50-C1
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

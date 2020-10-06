@@ -1,0 +1,18 @@
+http://otteytest2.sandbox.boomi.com/
+
+> GET / HTTP/1.1
+> Host: otteytest2.sandbox.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Temporarily Unavailable
+< Server: awselb/2.0
+< Date: Sat, 15 Aug 2020 09:16:16 GMT
+< Content-Type: text/html
+< Content-Length: 178
+
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+</body>
+</html>

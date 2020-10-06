@@ -1,0 +1,24 @@
+http://developers.apple.com/
+
+> GET / HTTP/1.1
+> Host: developers.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 162
+< Location: https://developer.apple.com/
+< X-Cache: hit-stale, hit-stale
+< Date: Thu, 30 Apr 2020 21:40:10 GMT
+< Server: Apple
+< Age: 0
+< Via: http/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 sgsin3-edge-bx-005.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Cdnuuid: 7f6d6715-b128-4321-9763-3036bc9d4bf3-3168990632
+< Content-Type: text/html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

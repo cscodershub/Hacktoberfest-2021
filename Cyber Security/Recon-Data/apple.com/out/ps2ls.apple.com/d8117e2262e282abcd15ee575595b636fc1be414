@@ -1,0 +1,19 @@
+https://ps2ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: ps2ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Date: Thu, 30 Apr 2020 21:31:16 GMT
+< Apple-Originating-System: UnknownOriginatingSystem
+< X-Responding-Instance: Init:1:magent0045.usprz06.pie.apple.com:31997:2009A-55:nocommit
+< Strict-Transport-Security: max-age=31536000
+< Server: AppleHttpServer/62e237dc531d
+< X-Apple-Request-Uuid: df0f266b-31f6-16af-d283-128eea2ecce9
+< X-Apple-Jingle-Correlation-Key: 34HSM2ZR6YLK7UUDCKHOULWM5E
+< Apple-Seq: 0
+< Apple-Tk: false
+< X-B3-Traceid: c60e9d0b9d819cbc
+< Content-Length: 0
+

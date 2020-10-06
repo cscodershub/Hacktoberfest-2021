@@ -1,0 +1,12 @@
+http://gspe1-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe1-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 9
+< Content-Type: text/html; charset=ISO-8859-1
+< Date: Thu, 30 Apr 2020 21:31:01 GMT
+
+Not Found

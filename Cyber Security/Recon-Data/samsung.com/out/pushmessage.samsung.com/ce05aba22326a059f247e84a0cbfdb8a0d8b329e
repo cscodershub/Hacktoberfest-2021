@@ -1,0 +1,68 @@
+https://pushmessage.samsung.com/
+
+> GET / HTTP/1.1
+> Host: pushmessage.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Xss-Protection: 1; mode=block
+< X-Cache-Status: NOTCACHED
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Content-Language: en-US
+< Last-Modified: Wed, 27 May 2020 00:51:15 GMT
+< Date: Wed, 10 Jun 2020 05:36:41 GMT
+< X-Cdn: Served-By-Zenedge
+< X-Zen-Fury: ac43799b3ca9d477e7f398712032549ec1694799
+< X-Content-Type-Options: nosniff
+< Expires: 0
+< X-Application-Context: PeppermintPortal:prd:10080
+< Content-Type: text/html;charset=utf-8
+< Accept-Ranges: bytes
+< Server: ZENEDGE
+< Pragma: no-cache
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta name="description" content="admin-themes-lab">
+    <meta name="author" content="themes-lab">
+    <link rel="shortcut icon" href="content/images/favicon-33ed13aaaa.png" type="image/png">
+    <title>SMP | Samsung Messaging Platform</title>
+
+    <link rel="stylesheet" href="content/css/vendor-65acf4e5e5.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+    <link rel="stylesheet" href="content/css/main-5de6683287.css">
+
+</head>
+<!--<body ng-app="peppermintPortalApp" ng-cloak>-->
+<body ng-app="peppermintPortalApp" ng-class="{'gray-bg fixed-topbar fixed-sidebar sidebar-hover' : isSignIn, 'fixed-topbar fixed-sidebar theme-sdtd' : !isSignIn, 'sidebar-hover' : sideHidden}" class="">
+    <section ng-hide="isSignIn">
+        <div class="main-content">
+            <div class="topbar topbar-condensed" ui-view="topBar"></div>
+            <div ui-view="sideBar" class="sidebar"></div>
+            <div class="page-content" ui-view="content" ng-class="{'type2' : isSignUp}"></div>
+        </div>
+        <!--<spinner ng-hide="stateResolved"></spinner>-->
+    </section>
+    <div ui-view="signin-content"></div>
+    <page-ribbon></page-ribbon>
+
+    <a href="#" class="scrollup"><i class="fa fa-arrow-up"></i> Top</a>
+    <script src="app/vendor-e5ac9b25cb.js"></script>
+    <script src="app/app-7b4f46a124.js"></script>
+
+    <div class="loading" style="display: none">
+        <div class="txt">
+            <i class="fa fa-spinner fa-spin"></i>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+</body>
+</html>

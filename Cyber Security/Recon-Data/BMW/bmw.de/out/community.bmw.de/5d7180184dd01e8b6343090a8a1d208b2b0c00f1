@@ -1,0 +1,18 @@
+https://community.bmw.de/
+
+> GET / HTTP/1.1
+> Host: community.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Pop: MRS52-C1
+< X-Amz-Cf-Id: lGYcUKTx8_CYvcH02LxSBDia0kCK9wj911wzxgz3cVN5ntIjiOCCkQ==
+< Content-Length: 0
+< Date: Tue, 11 Aug 2020 04:51:18 GMT
+< Set-Cookie: AWSALB=GfS1SUzkeg6jmF/DgpJdoAlbcDXzKKoXndNe2hTVPQUJw/k/+JXl1ud7pFuY1Rtc/DHTKoWOaalBDgGMRiMIjxHe9oFuLL37sMw8qUzPXeMG9Nwo52aM4BQBoj/0; Expires=Tue, 18 Aug 2020 04:51:18 GMT; Path=/
+< Set-Cookie: AWSALBCORS=GfS1SUzkeg6jmF/DgpJdoAlbcDXzKKoXndNe2hTVPQUJw/k/+JXl1ud7pFuY1Rtc/DHTKoWOaalBDgGMRiMIjxHe9oFuLL37sMw8qUzPXeMG9Nwo52aM4BQBoj/0; Expires=Tue, 18 Aug 2020 04:51:18 GMT; Path=/; SameSite=None; Secure
+< X-Cache: Miss from cloudfront
+< Server: Apache
+< Location: https://community.bmw.com/
+< Via: 1.1 fb465ef388ebb25e5a872213f9ac3e9d.cloudfront.net (CloudFront)
+

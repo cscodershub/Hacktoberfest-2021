@@ -1,0 +1,31 @@
+https://online.mini.de/
+
+> GET / HTTP/1.1
+> Host: online.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: nginx
+< Cache-Control: no-cache, private
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 11 Aug 2020 04:54:31 GMT
+< Location: http://www.bmw.de
+< Set-Cookie: XSRF-TOKEN=eyJpdiI6IjVzXC9yVGF5emNnSWp4cmpESGpMbmxBPT0iLCJ2YWx1ZSI6IlNRWHpZOWl0RkZuSlc4V0I3TUNRZU5nXC9ZWE5jWkdNRkFrZ2dtT0MzSHgrMU4yNkpWUUlHbzN2WFp4OFZPbGJxIiwibWFjIjoiOTlmNTBmMjVjN2MxMWFlNDA4MzllZTE1OTdlNzk3NmQ3NmI2M2I4NDIwNDA1MzI3NTliNWM5NDE5MTBhMmRlNyJ9; expires=Tue, 11-Aug-2020 06:54:31 GMT; Max-Age=7200; path=/
+< Set-Cookie: onlinevkl_session=eyJpdiI6IncxbGdNME9FYzQwcExFbk94YlhEbkE9PSIsInZhbHVlIjoiWDV0ZmtWXC93cjdPOENPdDk2cTN0Z1ZrXC94TlBhaFE3VHNxSTlcL2dvWEVZcXVWd2tWaCtzNmZ3WHlqUVlXc0YyViIsIm1hYyI6IjdmM2VmODE4MDcyY2NlMThlNTg5NjNlM2IxZDM2MmI5MzQ5Y2Q3NzhiODA4MTI1Y2Y0NjczNmM4YjU4MjIzNjgifQ%3D%3D; expires=Tue, 11-Aug-2020 06:54:31 GMT; Max-Age=7200; path=/; httponly
+< Strict-Transport-Security: max-age=15768000
+< X-Xss-Protection: 1; mode=block
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url=http://www.bmw.de" />
+
+        <title>Redirecting to http://www.bmw.de</title>
+    </head>
+    <body>
+        Redirecting to <a href="http://www.bmw.de">http://www.bmw.de</a>.
+    </body>
+</html>

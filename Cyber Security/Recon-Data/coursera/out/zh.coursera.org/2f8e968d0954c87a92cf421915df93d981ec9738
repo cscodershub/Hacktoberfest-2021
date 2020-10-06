@@ -1,0 +1,24 @@
+http://zh.coursera.org/
+
+> GET / HTTP/1.1
+> Host: zh.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 183
+< X-Cache: Redirect from cloudfront
+< Date: Mon, 10 Aug 2020 04:52:21 GMT
+< Location: https://zh.coursera.org/
+< Via: 1.1 88ef9daba5ec890da3d24906c2a6a906.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: yVlBnhtIlWJ79FCxd5Fna1ZU9Up_ByhQHKWl0bQUEC4cIhaUcLi-rw==
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

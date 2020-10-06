@@ -1,0 +1,67 @@
+https://roomeo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: roomeo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Thu, 29 Sep 2016 15:39:21 GMT
+< Accept-Ranges: bytes
+< Server: AmazonS3
+< X-Cache: Miss from cloudfront
+< Via: 1.1 8e04f5d6c745b231c10fce7c2aa9c70f.cloudfront.net (CloudFront)
+< Content-Type: text/html
+< Content-Length: 3348
+< X-Amz-Cf-Pop: FRA6-C1
+< Date: Wed, 17 Jun 2020 05:36:23 GMT
+< Etag: "ed4ea065f3a69ffb5497c95e53aeb52c"
+< X-Amz-Cf-Id: x1nYoaW5cejuNt0fyiTxLP9HB-1F7u9K3akL8rjkhZe4o14VLHJZ9g==
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Roomeo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- start Mixpanel -->
+    <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);mixpanel.init("0987b5950a334252004cb1ee7a11024d");</script>
+  <!-- end Mixpanel -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="robin-container">
+        <div class="robin">
+          <img src="img/robin_white.svg" alt="Robin Logo" class="brand">
+          <div class="illustration-container">
+            <img srcset="img/robin-graphic@2x.png 2x" src="img/robin-graphic.png " alt="Robin Illustration" class="illustration">
+          </div>
+          <p class="sub">Book & Find Meeting Rooms</p>
+          <a class="btn" href="https://dashboard.robinpowered.com/" id="get-robin">Get Robin</a>
+        </div>
+      </section>
+      <section class="whitepages-container">
+        <div class="whitepages">
+          <img src="img/whitepages_brand.svg" alt="Whitepages Logo" class="brand">
+          <div class="illustration-container">
+            <img srcset="img/whitepages-graphic@2x.png 2x" src="img/whitepages-graphic.png " alt="Whitepages Illustration" class="illustration">
+          </div>
+          <p class="sub">Look up Netflix Employees</p>
+          <a href="http://whitepages.prod.netflix.net/" class="btn" id="whitepages">Go to Whitepages</a>
+          <p class="warn">
+            * must be on VPN
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+      mixpanel.track_links("#get-robin", "robin", {});
+      mixpanel.track_links("#whitepages", "whitepages", {});
+      mixpanel.track_links("#roomeo", "roomeo", {});
+    </script>
+  </body>
+</html>

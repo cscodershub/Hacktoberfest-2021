@@ -1,0 +1,47 @@
+https://aoschat.apple.com/
+
+> GET / HTTP/1.1
+> Host: aoschat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< Set-Cookie: aoschat=934bc184247c3995935b741d67952323; expires=Fri, 01-May-20 05:40:40 GMT; max-age=28800; httponly; secure; path=/
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:40:40 GMT
+< Content-Length: 906
+< Etag: "5dd30ea6-38a"
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="X-Frame-Options" content="deny">
+<link id="en" rel="stylesheet" href="https://www.apple.com/wss/fonts?family=Myriad+Set+Pro&amp;v=1">
+<title>RCC Chat</title>
+	<style>
+		html {
+    		display: table;
+    		margin: auto;
+    		height: 100%;
+		}
+		
+		body {
+			overflow: hidden;
+			line-height: 1.5em;
+			color: #333;
+			font-size: 16px;
+			font-family: "Myriad Set Pro", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+			text-align: center;
+			height: 100%;
+			display: table-cell;
+			vertical-align: middle;
+			padding: 0 20px;
+		}
+	</style>
+</head>
+<body>
+	<noscript class="jsDisabled">Please activate Javascript in browser settings.</noscript>
+	<p>It looks like we are having some technical difficulties connecting through text chat. Still want to chat? Call 1-800-MY-APPLE</p>
+</body>
+</html>

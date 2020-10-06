@@ -1,0 +1,28 @@
+https://audittool.bmw.de/
+
+> GET / HTTP/1.1
+> Host: audittool.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: nginx/1.1.19
+< Last-Modified: Fri, 31 Jul 2020 13:53:21 GMT
+< Accept-Ranges: bytes
+< Date: Tue, 11 Aug 2020 04:51:20 GMT
+< Content-Type: text/html
+< Content-Length: 682
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BMW Audit Tool</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.99c542948d2e1420e872.css"></head>
+<body>
+  <app-root></app-root>
+<script src="runtime.a2b892612efaa308e46c.js" defer></script><script src="polyfills-es5.3f4ba99e8664baec3115.js" nomodule defer></script><script src="polyfills.16fad902ad0c89cf0872.js" defer></script><script src="scripts.03e042f1f102bf0e2ed8.js" defer></script><script src="main.0c9d92745c36756312b4.js" defer></script></body>
+</html>

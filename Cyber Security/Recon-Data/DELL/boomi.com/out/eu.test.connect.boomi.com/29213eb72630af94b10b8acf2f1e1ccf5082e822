@@ -1,0 +1,13 @@
+http://eu.test.connect.boomi.com/
+
+> GET / HTTP/1.1
+> Host: eu.test.connect.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Sat, 15 Aug 2020 09:15:53 GMT
+< Content-Type: text/html
+< Etag: W/"5ecfeec1-47"
+< Server: nginx
+
+This web server only allows AS2 client connections under the /as2 path

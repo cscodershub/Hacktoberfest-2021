@@ -1,0 +1,27 @@
+http://amp-api-search.apps.apple.com/
+
+> GET / HTTP/1.1
+> Host: amp-api-search.apps.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Mime-Version: 1.0
+< Expires: Thu, 30 Apr 2020 21:40:09 GMT
+< Date: Thu, 30 Apr 2020 21:40:09 GMT
+< X-Cache: TCP_MISS from a49-44-95-93.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Server: AkamaiGHost
+< Content-Length: 271
+< X-Cache-Remote: TCP_MISS from a38-29-169-103.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a23-216-6-29.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a23-216-6-29.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a23-216-6-29.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Content-Type: text/html
+
+<HTML><HEAD>
+<TITLE>Service Unavailable - Fail to connect</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;6&#46;1d06d817&#46;1588282809&#46;cc3aebe
+</BODY></HTML>

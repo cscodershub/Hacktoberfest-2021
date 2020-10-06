@@ -1,0 +1,55 @@
+https://das.nrd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: das.nrd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Access-Control-Allow-Credentials: true
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Content-Type: text/html
+< Last-Modified: Mon, 18 May 2020 02:45:32 GMT
+< Set-Cookie: memclid=bf665305-f387-4642-98e9-f9e4857ec81e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:05 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEGNQByqR9SA6SqjZztnwectAN56JYecStYhl4najDtJ3%2FyDBZXyiCitbshFMAcKlDhvFwTn8cbnmt7nb0a5GjvrtHhGzd9Mf2NWAb8019bT5Zg%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:05 GMT; Path=/; Domain=.netflix.com
+< Vary: Accept-Encoding,Origin
+< Access-Control-Allow-Headers: X-Requested-With, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding, api_key
+< Date: Wed, 17 Jun 2020 05:36:05 GMT
+< Via: 1.1 i-0890c5f132794650a (us-east-1)
+< X-Netflix.nfstatus: 1_1
+< Access-Control-Allow-Methods: POST, PUT, GET, HEAD, DELETE, OPTIONS
+< Etag: W/"507-1589769932000-gzip"
+< Server: dasproxyserviceprod i-0720d87bd479257ed
+< X-Netflix.proxy.execution-Time: 6
+< X-Originating-Url: https://das.nrd.netflix.com/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix das-proxy-service</title>
+  <!-- CSS -->
+  <style type="text/css">
+    body {
+      margin: 0px auto;
+      width: 100%;
+    }
+    div.container {
+      margin: 0px auto;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    div.header1 {
+      font-size: 300%;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header1">
+    Netflix das-proxy-service
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+http://vpp.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: vpp.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Apple WebObjects
+< X-Apple-Request-Uuid: 7bf3e3f1-21f1-2a4a-0b81-27e956d02d21
+< Content-Type: text/html; charset=UTF-8
+< Location: http://vpp.itunes.apple.com/?l=en
+< X-Webobjects-Loadaverage: 0
+< Apple-Originating-System: MZStore
+< Date: Thu, 30 Apr 2020 21:30:09 GMT
+< Apple-Timing-App: 2 ms
+< X-Apple-Translated-Wo-Url: /WebObjects/MZStore.woa/wa/topLevelCountry?urlDesc=
+< X-Apple-Lokamai-No-Cache: true
+< Cache-Control: private, no-cache, no-store, no-transform, must-revalidate, max-age=0
+< X-Apple-Aka-Ttl: Generated Thu Apr 30 14:30:09 PDT 2020, Expires Thu Apr 30 14:30:09 PDT 2020, TTL 0s
+< X-Apple-Orig-Url: http://vpp.itunes.apple.com/
+< X-Apple-Application-Site: MR22
+< X-Apple-Application-Instance: 3004304
+< Nncoection: close
+< X-B3-Spanid: 55a8e7cfd8ccd5aa
+< Edge-Control: cache-maxage=0s
+< Apple-Seq: 0
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 30 Apr 2020 21:30:09 GMT
+< Access-Control-Allow-Origin: *
+< Content-Length: 0
+< X-Apple-Jingle-Correlation-Key: PPZ6H4JB6EVEUC4BE7UVNUBNEE
+< Apple-Tk: false
+< B3: 7bf3e3f121f12a4a0b8127e956d02d21-55a8e7cfd8ccd5aa
+< X-B3-Traceid: 7bf3e3f121f12a4a0b8127e956d02d21
+

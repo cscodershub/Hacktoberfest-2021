@@ -1,0 +1,19 @@
+https://spam.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: spam.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Moved Temporarily
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 162
+< Content-Type: text/html; charset=UTF-8
+< Location: https://spam.imperial.ac.uk/SpamConsole
+< Server: Microsoft-IIS/8.5
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Date: Sat, 18 Jul 2020 13:54:55 GMT
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://spam.imperial.ac.uk/SpamConsole">here</a></body>

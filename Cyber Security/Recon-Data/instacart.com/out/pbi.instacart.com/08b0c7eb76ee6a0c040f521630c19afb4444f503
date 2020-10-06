@@ -1,0 +1,24 @@
+http://pbi.instacart.com/
+
+> GET / HTTP/1.1
+> Host: pbi.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: euzedv1Q1mJgGRR34Bg9CbtlDEhc4RVhacrPkoOqcHr3HAN-Er5nUw==
+< Date: Tue, 04 Aug 2020 04:47:27 GMT
+< Location: https://pbi.instacart.com/
+< Content-Length: 183
+< Via: 1.1 88ef9daba5ec890da3d24906c2a6a906.cloudfront.net (CloudFront)
+< Server: CloudFront
+< Content-Type: text/html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

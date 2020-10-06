@@ -1,0 +1,26 @@
+https://npca.netflix.com/
+
+> GET / HTTP/1.1
+> Host: npca.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/plain; charset=utf-8
+< Access-Control-Allow-Origin: *
+< Cf-Cache-Status: HIT
+< Cf-Request-Id: 03625ef3e10000de8eaf8e3200000001
+< Set-Cookie: __cfduid=d1cfece373ee359f3775b9eaee3a657421592372091; expires=Fri, 17-Jul-20 05:34:51 GMT; path=/; domain=.npca.netflix.com; HttpOnly; SameSite=Lax
+< Location: https://npca.gpc.netflix.net/
+< Age: 1523
+< Cc-Cache-Status: HIT
+< Server: cloudflare
+< Date: Wed, 17 Jun 2020 05:34:51 GMT
+< Cc-Fetch-Error: no-files
+< Access-Control-Allow-Headers: X-CSRF-Token
+< Vary: Accept, Accept-Encoding
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Cf-Ray: 5a4a67663b47de8e-BLR
+< Alt-Svc: h3-27=":443"; ma=86400
+< Cc-Stable-Domain: right-soap.cloudvent.net
+
+Moved Permanently. Redirecting to https://npca.gpc.netflix.net/

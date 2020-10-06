@@ -1,0 +1,16 @@
+https://auth.dta.netflix.com/
+
+> GET / HTTP/1.1
+> Host: auth.dta.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Wed, 17 Jun 2020 05:35:58 GMT
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 254
+< Server: Apache
+< Location: https://meechum.netflix.com/as/authorization.oauth2?response_type=code&client_id=dta-auth&redirect_uri=https%3A%2F%2Fauth.dta.netflix.net%2F&scope=default&state=884fce3d2fe6423b8b18f5f6bd997e0f&nonce=e7465315428a44219cda10f462fc1b44
+< Vary: Accept
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+
+Found. Redirecting to https://meechum.netflix.com/as/authorization.oauth2?response_type=code&client_id=dta-auth&redirect_uri=https%3A%2F%2Fauth.dta.netflix.net%2F&scope=default&state=884fce3d2fe6423b8b18f5f6bd997e0f&nonce=e7465315428a44219cda10f462fc1b44

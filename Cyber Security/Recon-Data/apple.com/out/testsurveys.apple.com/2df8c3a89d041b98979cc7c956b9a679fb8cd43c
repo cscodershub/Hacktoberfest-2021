@@ -1,0 +1,24 @@
+https://testsurveys.apple.com/
+
+> GET / HTTP/1.1
+> Host: testsurveys.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 162
+< P3p: CP="CAO PSA OUR"
+< Date: Thu, 30 Apr 2020 21:40:39 GMT
+< Content-Type: text/html
+< Location: https://www.penunderwritingsurveys.com/
+< Strict-Transport-Security: max-age=31536000
+< Traceid: 7ffe57a8b08b1a0a47814b98395fabc3
+< Spanid: 47814b98395fabc3
+< Server: nginx
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

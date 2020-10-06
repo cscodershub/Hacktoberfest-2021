@@ -1,0 +1,20 @@
+http://signup.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: signup.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Via: 1.1 i-0b5fcd9564de7a654 (eu-west-1)
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: http://signup.latency.prodaa.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Set-Cookie: nfvdid=BQFmAAEBEPct6QTrfgDdC741fWt2h7FAV-07PCrifWsUygz6VhBeVSmnRIVp6WME5pq_m2cNFVhntQoBJ3c1ZaV3SCmJG_6Cjpkw3K-E-lrvDdF36IqrbQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=69279b4c-e549-4225-a8de-37b48b99c00a; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:51 GMT; Path=/; Domain=.netflix.com
+< Server: nq_website_core-prod-release UNKNOWN
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 5
+< Content-Length: 0
+< Location: https://www.netflix.com/
+

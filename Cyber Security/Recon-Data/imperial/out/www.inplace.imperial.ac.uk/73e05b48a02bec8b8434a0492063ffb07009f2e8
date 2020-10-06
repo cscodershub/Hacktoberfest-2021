@@ -1,0 +1,18 @@
+http://www.inplace.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.inplace.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: SAMEORIGIN
+< Date: Sat, 18 Jul 2020 13:54:56 GMT
+< Content-Length: 158
+< Location: https://www.inplace.imperial.ac.uk/
+< Server: 
+< X-Powered-By: 
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=15552001; includeSubDomains
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.inplace.imperial.ac.uk/">here</a></body>

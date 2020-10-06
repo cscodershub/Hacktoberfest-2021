@@ -1,0 +1,13 @@
+http://itunesconnect.apple.com/
+
+> GET / HTTP/1.1
+> Host: itunesconnect.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://itunesconnect.apple.com/
+< Date: Thu, 30 Apr 2020 21:40:57 GMT
+< X-Cache: TCP_MISS from a23-212-50-145.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+

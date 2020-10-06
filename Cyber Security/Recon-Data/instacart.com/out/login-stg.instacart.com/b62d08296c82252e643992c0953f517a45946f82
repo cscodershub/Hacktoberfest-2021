@@ -1,0 +1,13 @@
+https://login-stg.instacart.com/
+
+> GET / HTTP/1.1
+> Host: login-stg.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 3
+< Server: awselb/2.0
+< Date: Tue, 04 Aug 2020 04:47:16 GMT
+< Content-Type: text/plain; charset=utf-8
+
+404

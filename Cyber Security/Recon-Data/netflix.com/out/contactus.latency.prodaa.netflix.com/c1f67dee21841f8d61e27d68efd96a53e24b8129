@@ -1,0 +1,23 @@
+https://contactus.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: contactus.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: public
+< Date: Wed, 17 Jun 2020 05:34:47 GMT
+< Pragma: no-cache
+< Server: padme i-09add7d613424df21
+< Set-Cookie: memclid=da2ad452-067e-4721-b13e-eb9b964f0bc9; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:47 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEPUVSTunLPwEuLL%2Bg01wM1RAwm6lDP2e6KFkPV8nJL3xZ%2BMYrtyLxl%2Frj69EMVLTgoDBGTx3Fb%2B2zwPiDQmswhtm6di3lz%2FAMssIDMWeZY8lew%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:47 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0e9f358cbfab849b4 (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 6
+< Expires: Tue, 16 Jun 2020 05:34:47 GMT
+< Location: https://help.netflix.com/en
+< X-Originating-Url: https://contactus.latency.prodaa.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Content-Length: 0
+< Content-Type: text/html;charset=UTF-8
+

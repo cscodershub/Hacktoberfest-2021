@@ -1,0 +1,21 @@
+https://nl-muenchen.bmw.de/
+
+> GET / HTTP/1.1
+> Host: nl-muenchen.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: SERVERID=bodhi; path=/
+< Date: Tue, 11 Aug 2020 04:51:15 GMT
+< Server: Apache
+< Location: https://www.bmw-muenchen.de/
+< Content-Length: 236
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.bmw-muenchen.de/">here</a>.</p>
+</body></html>

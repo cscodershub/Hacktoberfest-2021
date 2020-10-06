@@ -1,0 +1,18 @@
+https://www.partner.gebrauchtwagen.bmw.de/
+
+> GET / HTTP/1.1
+> Host: www.partner.gebrauchtwagen.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.pixelconcept.de
+< Date: Tue, 11 Aug 2020 04:50:45 GMT
+< Content-Length: 180
+< Cache-Control: no-cache
+< Content-Type: text/html; charset=UTF-8
+< Server: PXC-Webserver
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+
+<head><title>Dokument verschoben</title></head>
+<body><h1>Objekt verschoben</h1>Dieses Dokument befindet sich möglicherweise <a HREF="https://www.pixelconcept.de">hier</a>.</body>

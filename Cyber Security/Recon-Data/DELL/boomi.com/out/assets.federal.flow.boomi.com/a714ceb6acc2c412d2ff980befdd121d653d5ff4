@@ -1,0 +1,18 @@
+https://assets.federal.flow.boomi.com/
+
+> GET / HTTP/1.1
+> Host: assets.federal.flow.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Cf-Id: iCwOxHusvRur1Guu1RrWTH9XQ8Nbp1nXEYM4efSZQbw6_S9-VR56Qw==
+< X-Cache: Error from cloudfront
+< X-Amz-Bucket-Region: us-east-1
+< Date: Sat, 15 Aug 2020 09:16:01 GMT
+< Server: AmazonS3
+< Via: 1.1 49317c89e71f1d23e742e06dfa8aa3be.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: CCU50-C1
+< Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6183CAFD547E9308</RequestId><HostId>i9HIKjL8mdqR0tR+XhWGsi46gg62pL4F+umhETDn4arPAQqHzCD5yQP2kgHQkUPDtWmq7gTHj8g=</HostId></Error>

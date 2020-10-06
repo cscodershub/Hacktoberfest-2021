@@ -1,0 +1,23 @@
+https://shop.union.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: shop.union.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sat, 18 Jul 2020 13:54:54 GMT
+< Server: Apache
+< Location: http://www.imperial.ac.uk/
+< Content-Length: 310
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: BIGipServerPOOL-LINUXFARM2011-443-v4=!dfDsWPA9TAEqunsw9zyYKRlaA4tr3t3Zlj5wy3L1tz29/K5lWzRc1cS6SxCwXvVVhmVlk+6vvl4uE1Xj47ta5TRCrj/jQ8twLOZiw3RF2Vc=; path=/; Httponly; Secure
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.imperial.ac.uk/">here</a>.</p>
+<hr>
+<address>Apache Server at shop.union.imperial.ac.uk Port 443</address>
+</body></html>

@@ -1,0 +1,22 @@
+http://web-cell6.prod.ftl.netflix.com/
+
+> GET / HTTP/1.1
+> Host: web-cell6.prod.ftl.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Edge-Control: no-cache, no-store
+< Strict-Transport-Security: max-age=31536000
+< X-Originating-Url: http://web-cell6.prod.ftl.netflix.com/
+< Server: nq_website_core-prod-release 3fd13f4a-488a-4ca5-8989-556ff5be0b79
+< X-Netflix.proxy.execution-Time: 16
+< Date: Wed, 17 Jun 2020 05:35:32 GMT
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Cache-Control: no-cache, no-store
+< Location: https://web-cell6.prod.ftl.netflix.com/
+< Set-Cookie: nfvdid=BQFmAAEBEKOggG_WTqGzoL_0NqJR-ZxAphRixTZ4BS3KIu0MNaQvuQXBQ2D8lrO-w0cf64foGGOGoIpAd3XuQ4J32H57L0hnfBmg6ZhiH4W5V-_gjZduNQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=b8764820-cc7e-4fe7-beaa-ffd89645ec14; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:32 GMT; Path=/; Domain=.netflix.com
+< Via: 2 i-07334c8516cee01ca (eu-west-1), 1.1 c000.bom001.ix.nflxvideo.net (FTL-z8zc)
+< X-Content-Type-Options: nosniff
+< X-Netflix.nfstatus: 1_1
+

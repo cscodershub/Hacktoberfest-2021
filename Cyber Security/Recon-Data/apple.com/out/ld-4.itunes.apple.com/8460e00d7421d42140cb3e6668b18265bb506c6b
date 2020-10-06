@@ -1,0 +1,14 @@
+https://ld-4.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: ld-4.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Apple WebObjects
+< Apple-Timing-App: 1 ms
+< X-Apple-Application-Instance: 209106
+< Date: Wed, 29 Apr 2020 22:38:05 GMT
+< Reasons: signature
+< Content-Length: 0
+< Connection: Keep-Alive
+

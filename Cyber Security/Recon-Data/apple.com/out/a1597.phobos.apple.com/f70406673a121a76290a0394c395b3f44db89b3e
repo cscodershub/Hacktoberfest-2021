@@ -1,0 +1,13 @@
+http://a1597.phobos.apple.com/
+
+> GET / HTTP/1.1
+> Host: a1597.phobos.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Thu, 30 Apr 2020 21:37:57 GMT
+< X-Akamai-Request-Id: c98b0a4
+< Accept-Ranges: bytes
+< Content-Length: 0
+< Server: AkamaiNetStorage
+

@@ -1,0 +1,14 @@
+https://mgs.instacart.com/
+
+> GET / HTTP/1.1
+> Host: mgs.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 21
+< Vary: Origin
+< X-Request-Id: 016a06b1-51f8-41ea-8018-9768296877ac
+< Date: Tue, 04 Aug 2020 04:47:19 GMT
+
+{"error":"not found"}

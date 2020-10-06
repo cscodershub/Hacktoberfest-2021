@@ -1,0 +1,26 @@
+https://sp.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: sp.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Apple-Timing-App: 0 ms
+< X-Apple-Request-Uuid: c0cdda3b-d995-8f31-8fd0-ecbead3ed6b0
+< Apple-Tk: false
+< X-Apple-Application-Instance: 2202702
+< X-Apple-Jingle-Correlation-Key: YDG5UO6ZSWHTDD6Q5S7K2PWWWA
+< X-Apple-Application-Site: ST11
+< X-B3-Spanid: 2e7e037500d71a94
+< Apple-Seq: 0.0
+< Apple-Originating-System: MZStorePlatform
+< Server: daiquiri/3.0.0
+< Content-Length: 43
+< X-B3-Traceid: c0cdda3bd9958f318fd0ecbead3ed6b0
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:42814002:st44p00it-hyhk16044801:7987:20E24
+< Date: Thu, 30 Apr 2020 21:30:03 GMT
+< Content-Type: application/json
+< B3: c0cdda3bd9958f318fd0ecbead3ed6b0-2e7e037500d71a94
+
+{"code":404,"message":"HTTP 404 Not Found"}

@@ -1,0 +1,14 @@
+https://bmw-grouparchiv-int.bmw.de/
+
+> GET / HTTP/1.1
+> Host: bmw-grouparchiv-int.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 
+< Content-Length: 106
+< Date: Tue, 11 Aug 2020 04:51:00 GMT
+< Set-Cookie: BIGipServersa3next-i.bmwgroup.com_pool_12017=184102560.61742.0000; path=/; Httponly; Secure
+
+403 Forbidden
+FQDN missmatch: true
+Not in Array  : (bmw-grouparchiv-int.bmw.de, [sa3next-i.bmwgroup.com])

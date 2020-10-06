@@ -1,0 +1,16 @@
+https://office.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: office.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Moved Temporarily
+< Location: https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000006-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3dHiUOACb3cjpg7WiQIEDfANaYB0guyNZR2CkJmsToHDGJwM2aACQL-oEB8vi51AYg2RBYvyPbcT8zpgpKEfrq-Ce220lpMiQhMPGLmTi7u2T22HoQ8wRBSW7SvD6QT_9ydHfcPKkU2h2Z9Sg1dvZyTT5fJFycDTAFPpDfgPpQTZJVkOP6G3-0mgvRKMOriPrO&nonce=636542076394327190.NTY1ZTNmZTUtZDAwOS00MjA5LTk1MmItNTdmYTg1Njc4ODI0NDcwZTc0MGQtODhmMi00ZDMyLTg2ZGQtNDZkMjJjODBhMDUx&redirect_uri=https://portal.office.com/landing&ui_locales=en-US&domain_hint=ic.ac.uk&mkt=en-US&client-request-id=0759b82f-3b4d-406e-a35e-39df6456c2b6&msafed=0&sso_reload=true
+< Server: Microsoft-IIS/10.0
+< X-Arr-Server: ICRP8
+< Date: Sat, 18 Jul 2020 13:54:51 GMT
+< Content-Length: 885
+< Content-Type: text/html; charset=UTF-8
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000006-0000-0ff1-ce00-000000000000&amp;response_mode=form_post&amp;response_type=code+id_token&amp;scope=openid+profile&amp;state=OpenIdConnect.AuthenticationProperties%3dHiUOACb3cjpg7WiQIEDfANaYB0guyNZR2CkJmsToHDGJwM2aACQL-oEB8vi51AYg2RBYvyPbcT8zpgpKEfrq-Ce220lpMiQhMPGLmTi7u2T22HoQ8wRBSW7SvD6QT_9ydHfcPKkU2h2Z9Sg1dvZyTT5fJFycDTAFPpDfgPpQTZJVkOP6G3-0mgvRKMOriPrO&amp;nonce=636542076394327190.NTY1ZTNmZTUtZDAwOS00MjA5LTk1MmItNTdmYTg1Njc4ODI0NDcwZTc0MGQtODhmMi00ZDMyLTg2ZGQtNDZkMjJjODBhMDUx&amp;redirect_uri=https://portal.office.com/landing&amp;ui_locales=en-US&amp;domain_hint=ic.ac.uk&amp;mkt=en-US&amp;client-request-id=0759b82f-3b4d-406e-a35e-39df6456c2b6&amp;msafed=0&amp;sso_reload=true">here</a></body>

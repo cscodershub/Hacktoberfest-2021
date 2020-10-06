@@ -1,0 +1,22 @@
+http://configuration-carry.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: configuration-carry.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 268
+< Expires: Thu, 30 Apr 2020 21:31:21 GMT
+< Date: Thu, 30 Apr 2020 21:31:21 GMT
+< Server: AkamaiGHost
+
+<HTML><HEAD>
+<TITLE>Service Unavailable - Fail to connect</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;6&#46;5f822c31&#46;1588282281&#46;80ab
+</BODY></HTML>

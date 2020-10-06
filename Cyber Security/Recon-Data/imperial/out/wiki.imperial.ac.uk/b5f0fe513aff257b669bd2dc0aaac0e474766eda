@@ -1,0 +1,23 @@
+http://wiki.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: wiki.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Server: Apache/2.2.15 (Oracle)
+< X-Content-Type-Options: nosniff
+< Location: https://wiki.imperial.ac.uk/
+< Content-Length: 212
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Sat, 18 Jul 2020 13:54:47 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://wiki.imperial.ac.uk/">here</a>.</p>
+</body></html>

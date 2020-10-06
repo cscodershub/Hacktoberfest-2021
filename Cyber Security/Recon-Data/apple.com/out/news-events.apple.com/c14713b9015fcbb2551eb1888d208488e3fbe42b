@@ -1,0 +1,14 @@
+https://news-events.apple.com/
+
+> GET / HTTP/1.1
+> Host: news-events.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< X-Application-Context: application:prod,news:31063
+< X-B3-Traceid: c4de159e27a17186
+< Strict-Transport-Security: max-age=31536000
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:40:26 GMT
+
+401

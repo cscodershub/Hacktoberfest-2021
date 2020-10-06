@@ -1,0 +1,25 @@
+https://entenmann-ostfildern.mini.de/
+
+> GET / HTTP/1.1
+> Host: entenmann-ostfildern.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< Cache-Control: max-age=1800
+< Expires: Tue, 11 Aug 2020 05:24:17 GMT
+< Date: Tue, 11 Aug 2020 04:54:17 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+< Location: https://www.entenmann-ostfildern.mini.de/
+< Content-Length: 249
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.entenmann-ostfildern.mini.de/">here</a>.</p>
+</body></html>

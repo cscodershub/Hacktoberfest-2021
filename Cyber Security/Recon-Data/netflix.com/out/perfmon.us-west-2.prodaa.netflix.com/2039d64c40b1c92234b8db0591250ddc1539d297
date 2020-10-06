@@ -1,0 +1,14 @@
+https://perfmon.us-west-2.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: perfmon.us-west-2.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: application/json
+< Content-Length: 3
+< Server: gunicorn/19.9.0
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:35:44 GMT
+
+{}

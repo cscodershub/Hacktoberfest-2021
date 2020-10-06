@@ -1,0 +1,21 @@
+https://ats-api.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ats-api.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< X-Request-Id: 38d51608-adcf-45b6-b376-e8e41912ca72
+< Vary: Origin
+< Date: Wed, 17 Jun 2020 05:35:19 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: max-age=0, private, must-revalidate
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< Etag: W/"1c37f714d680390b142855e7e6ab6095"
+< Status: 200 OK
+< X-Runtime: 0.002231
+
+Site Check Passsed @ 2020-06-17 05:35:19 UTC

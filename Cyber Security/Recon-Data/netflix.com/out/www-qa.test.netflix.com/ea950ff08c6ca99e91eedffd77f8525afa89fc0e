@@ -1,0 +1,20 @@
+https://www-qa.test.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www-qa.test.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Via: 1.1 i-06d74155a8a0e4876 (us-east-1)
+< Server: shakti UNKNOWN
+< Set-Cookie: nfvdid=BQFmAAEBECkYEt1OZXD8adpcRd6wU4JAfGVLCDJdAbj7Sk_pGAqzUWL98uTg6B5oRJb9nHkBUKPp6A9uT4JkrQi9DeJ6l9oL60ON5JPxpT5K2ln8pB0xCQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=d18769bb-4fb5-4656-bf6d-fc57a6b55d3b; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:52 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_2
+< Content-Length: 7
+< X-Xss-Protection: 1; mode=block; report=https://www-qa.test.netflix.com/ichnaea/log/freeform/xssreport
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< X-Originating-Url: http://www-qa.test.netflix.com/
+< X-Netflix.proxy.execution-Time: 1366
+
+BLOCKED

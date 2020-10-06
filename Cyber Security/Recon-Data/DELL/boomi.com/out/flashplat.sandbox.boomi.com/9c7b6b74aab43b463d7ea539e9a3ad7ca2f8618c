@@ -1,0 +1,13 @@
+http://flashplat.sandbox.boomi.com/
+
+> GET / HTTP/1.1
+> Host: flashplat.sandbox.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Content-Type-Options: nosniff
+< Date: Sat, 15 Aug 2020 09:16:00 GMT
+< Content-Length: 19
+< Content-Type: text/plain; charset=utf-8
+
+404 page not found

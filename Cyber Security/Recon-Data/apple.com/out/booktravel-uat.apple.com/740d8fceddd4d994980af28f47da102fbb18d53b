@@ -1,0 +1,24 @@
+http://booktravel-uat.apple.com/
+
+> GET / HTTP/1.1
+> Host: booktravel-uat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 10b6154fbfce67ec1a1a0d4358b0c219.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: DEL54-C3
+< X-Amz-Cf-Id: 2D2ZpXuBatjDd-R1hcoijFK8MWqw65WQaPuKSOVfdLfv0rGAZCtAaA==
+< Server: CloudFront
+< Date: Thu, 30 Apr 2020 21:40:50 GMT
+< Location: https://booktravel-uat.apple.com/
+< Content-Type: text/html
+< Content-Length: 183
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

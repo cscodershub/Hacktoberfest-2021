@@ -1,0 +1,14 @@
+http://wdirect.apple.com/
+
+> GET / HTTP/1.1
+> Host: wdirect.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Thu, 30.Apr 2020 21:40:59 GMT
+< Referer: http://wdirect.apple.com/
+< Location: https://www.apple.com?cid=oas-us-domains-wdirect.apple.com
+< Content-Type: text/html
+< Content-Length: 0
+< Server: red 3.7
+

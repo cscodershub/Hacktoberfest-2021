@@ -1,0 +1,18 @@
+http://club.samsung.com/
+
+> GET / HTTP/1.1
+> Host: club.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html; charset=us-ascii
+< Date: Wed, 10 Jun 2020 05:36:16 GMT
+< Content-Length: 315
+< Set-Cookie: TS01e2dd33=01ce6936948d6806b262a390580784adc13cee5d30fc54c35fb9caae3ac6bf58075a4e90f8aaf975c66e496835526e2b1c60d3c0e9; Path=/
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Not Found</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Not Found</h2>
+<hr><p>HTTP Error 404. The requested resource is not found.</p>
+</BODY></HTML>

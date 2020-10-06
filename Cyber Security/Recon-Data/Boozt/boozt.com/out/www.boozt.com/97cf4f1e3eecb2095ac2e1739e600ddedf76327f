@@ -1,0 +1,17 @@
+http://www.boozt.com/
+
+> GET / HTTP/1.1
+> Host: www.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 11 Aug 2020 14:07:48 GMT
+< Location: https://www.boozt.com/
+< Server: cloudflare
+< Cache-Control: max-age=3600
+< Expires: Tue, 11 Aug 2020 15:07:48 GMT
+< Cf-Request-Id: 047f7253800000189f86ab9200000001
+< Vary: Accept-Encoding
+< Cf-Ray: 5c1286659fd3189f-SIN
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+

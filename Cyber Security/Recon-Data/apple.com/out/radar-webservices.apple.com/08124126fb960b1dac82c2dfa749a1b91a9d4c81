@@ -1,0 +1,26 @@
+https://radar-webservices.apple.com/
+
+> GET / HTTP/1.1
+> Host: radar-webservices.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: Apple
+< Content-Type: text/html;charset=iso-8859-1
+< Set-Cookie: JSESSIONID=node01ppg1jsr81dx41hnsu28vwc13k81372.node0;Path=/;Expires=Thu, 30-Apr-2020 23:31:27 GMT;Max-Age=7320;Secure;HttpOnly
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Location: https://radar-webservices.apple.com/home
+< Content-Length: 0
+< Pragma: no-cache
+< X-Frame-Options: SAMEORIGIN
+< Date: Thu, 30 Apr 2020 21:29:27 GMT
+< X-Api-Version: 1.0
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Host: radar-webservices.apple.com
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Content-Language: en-US
+

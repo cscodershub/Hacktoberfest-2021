@@ -1,0 +1,32 @@
+https://wwws.netflix.com/
+
+> GET / HTTP/1.1
+> Host: wwws.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_1
+< Content-Type: text/html
+< Pragma: no-cache
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< X-Originating-Url: http://wwws.netflix.com/
+< Edge-Control: no-cache, no-store
+< Cache-Control: no-cache, no-store
+< Date: Wed, 17 Jun 2020 05:38:24 GMT
+< Expires: 0
+< Location: https://wwws.netflix.com/in/
+< Via: 1.1 i-01de7952d17179641 (eu-west-1)
+< X-Content-Type-Options: nosniff
+< Set-Cookie: flwssn=16a8baa0-9281-4b2d-afaa-f14f43a48b16; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:38:24 GMT
+< Set-Cookie: clSharedContext=fe64b902-aa8c-4b75-b8cf-6d50cdb82988; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBENqIUjTmZRUaP9A_8OuemJtAbmJqpbn9PHLKJmuQaELo5VTIBZtBU0YEK-X5hVuDMwTwkVGt-I1wyJ4JKGzjSnF0GWqvzysqYp-TseeqkCytQw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABRMTmSTXhOvPW9EM4K6YkInwU4PqvEqSrk.%26dt%3D1592372304748; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:38:24 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEHuAjj6YdndrZY7KnR6Pl7CA8AS4NsUfiBi9My4TSa5XHRWkahlXqMJu1a0KTPdXW4Ppe_C9IjkHSMgbw74D9lJRh42Bo-pKIi3n8bW9g_sNcMsnGvubtzbpe02qwIpYG_i4ja9D5vnfUaI0jKP9mMXrWepcrO55MMgE6gRzr8rhg0XdVkekfs6d22Y0ftHVN4PdSWZy_OgZ4Ei0QUYMuEVVJMpseMRAu3S_Glf6hKszhKyBJS5sVkK2IdGT2s1ZjygZYa-4giREQICKBeAJNHyF8SefvgUrcJ5i3EKa3D1uPdfaDZq-__jTQPDDo11zwPRtIGTZHFKuxHAYd69SFQ6A5w..%26bt%3Ddev%26mac%3DAQEAEAABABREmhor5T1aJu_kCwLmHznbSsrIk7Ezl44.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:38:24 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: pref_origins=1592372304749::nq_website_core-prod-release>100.116.16.199:7001&
+< Set-Cookie: memclid=22dd93a4-ab88-431c-961f-d4e1c1b9452a; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:38:24 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.proxy.execution-Time: 577
+< Server: nq_website_core-prod-release 50a4c25c-746c-4798-8e42-705d6eefbe74
+< X-Frame-Options: DENY
+< X-Robots-Tag: index
+

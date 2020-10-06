@@ -1,0 +1,47 @@
+https://www.epost-int.bmw.de/
+
+> GET / HTTP/1.1
+> Host: www.epost-int.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Xss-Protection: 1; mode=block
+< X-Content-Security-Policy: default-src 'self'
+< Last-Modified: Mon, 02 Jul 2018 13:42:30 GMT
+< Strict-Transport-Security: max-age=31556926;includeSubDomains
+< X-Frame-Options: SAMEORIGIN
+< Etag: "307-570045e6e0a9d"
+< Content-Security-Policy: default-src 'self'
+< Content-Length: 775
+< X-Content-Type-Options: nosniff
+< Accept-Ranges: bytes
+< X-Webkit-Csp: default-src 'self'
+< Content-Type: text/html
+< Date: Tue, 11 Aug 2020 04:51:14 GMT
+< Server: Apache
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+ <title>BMW Group - no content deployed</title>
+ <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+ <style type="text/css">
+    body       { vertical-align: middle; }
+    p          { font-family: Verdana, Arial, Helvetica, sans-serif;
+                 text-align: center;
+                 font-size: 10pt; }
+    .bold      { font-weight: bold; }
+ </style>
+ </head>
+
+ <body>
+  <div>
+    <p style="margin-top: 150px;"/>
+    <p><img src="/webops-global-icons/bmw/bmw_group.png" alt="BMW Group"/></p>
+    <p class="bold">BMW - New Installation (ML6)</p>
+    <p>This project didn't deploy any content yet.</p>
+  </div>
+
+ </body>
+</html>

@@ -1,0 +1,16 @@
+https://anycast.ftl.netflix.com/
+
+> GET / HTTP/1.1
+> Host: anycast.ftl.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Via: 1.1 c000.bom001.ix.nflxvideo.net (FTL-Sv9Z)
+< Date: Wed, 17 Jun 2020 05:36:01 GMT
+< Content-Length: 88
+< Content-Type: application/xml
+
+<status>
+  <status_code>403</status_code>
+  <message>Invalid Request</message>
+</status>

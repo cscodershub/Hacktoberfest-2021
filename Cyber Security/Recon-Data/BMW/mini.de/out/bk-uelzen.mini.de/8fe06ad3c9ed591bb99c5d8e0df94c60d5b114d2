@@ -1,0 +1,22 @@
+https://bk-uelzen.mini.de/
+
+> GET / HTTP/1.1
+> Host: bk-uelzen.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Length: 209
+< Expires: Tue, 11 Aug 2020 04:54:13 GMT
+< Date: Tue, 11 Aug 2020 04:54:13 GMT
+< Connection: close
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+
+<HTML><HEAD>
+<TITLE>Invalid URL</TITLE>
+</HEAD><BODY>
+<H1>Invalid URL</H1>
+The requested URL "&#91;no&#32;URL&#93;", is invalid.<p>
+Reference&#32;&#35;9&#46;f7772c31&#46;1597121653&#46;3530e400
+</BODY></HTML>

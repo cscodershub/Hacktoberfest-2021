@@ -1,0 +1,12 @@
+https://proxy.advp.apple.com/
+
+> GET / HTTP/1.1
+> Host: proxy.advp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Strict-Transport-Security: max-age=7776000
+< Date: Thu, 30 Apr 2020 21:28:44 GMT
+< Server: Apache-Coyote/1.1
+

@@ -1,0 +1,17 @@
+https://ads.us-east-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ads.us-east-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: heisenberg i-0ed3d5bc586baf94b
+< Via: 1.1 i-00827889a7168b955 (us-east-1)
+< X-Netflix.nfstatus: 1_3
+< Content-Length: 12
+< Set-Cookie: memclid=f5f61e56-9b3f-4021-b177-e8340f6a86a7; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:02 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEON6I9bOlrMHHZzNIqAlqztA3BsVI29GkPfE%2BHsKOiryQWQ7%2BmcZF5qmoXmu6csV2%2Bb0pZXKzn%2BSAFG4N8SCrKoR%2Bu2tWWsvjklIL6HeLZSZJQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:02 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.proxy.execution-Time: 53383
+< X-Originating-Url: https://ads.us-east-1.prodaa.netflix.com/
+
+Unknown Path

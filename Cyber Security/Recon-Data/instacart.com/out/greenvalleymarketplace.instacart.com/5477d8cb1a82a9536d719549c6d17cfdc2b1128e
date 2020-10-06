@@ -1,0 +1,24 @@
+http://greenvalleymarketplace.instacart.com/
+
+> GET / HTTP/1.1
+> Host: greenvalleymarketplace.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Content-Type: text/html
+< Via: 1.1 20eddc312f5fafe3d85effa2fe22f9e6.cloudfront.net (CloudFront)
+< Location: https://greenvalleymarketplace.instacart.com/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: uS7Ww3e_AWMmyo93N1K32eBY3P_wTEuOWjtKjE9tgm9gXZUxSFLGAQ==
+< Date: Tue, 04 Aug 2020 04:47:14 GMT
+< Content-Length: 183
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

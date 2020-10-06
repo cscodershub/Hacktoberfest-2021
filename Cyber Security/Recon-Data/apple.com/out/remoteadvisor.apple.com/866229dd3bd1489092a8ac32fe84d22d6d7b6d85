@@ -1,0 +1,21 @@
+http://remoteadvisor.apple.com/
+
+> GET / HTTP/1.1
+> Host: remoteadvisor.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: Apache
+< Cache-Control: no-store, no-cache, must-revalidate
+< Pragma: no-cache
+< Set-Cookie: ns_s=c7d9c107cb300cc097a6586b77033936; path=/; HttpOnly
+< Strict-Transport-Security: max-age=31536000
+< Location: https://remoteadvisor.apple.com/
+< Vary: Accept-Encoding,X-Requested-With
+< X-Content-Type-Options: nosniff
+< Date: Thu, 30 Apr 2020 21:29:16 GMT
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< X-Ua-Compatible: IE=edge
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=utf-8
+

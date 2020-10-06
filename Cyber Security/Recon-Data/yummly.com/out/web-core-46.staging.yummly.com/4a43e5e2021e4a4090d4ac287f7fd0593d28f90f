@@ -1,0 +1,20 @@
+http://web-core-46.staging.yummly.com/
+
+> GET / HTTP/1.1
+> Host: web-core-46.staging.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apache/2.4.39 (Amazon) PHP/7.0.33
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Date: Sat, 15 Aug 2020 14:57:37 GMT
+< Set-Cookie: 9481989sdjs28snaag37e1a7541=nauh1he5cs84j4oqb5gsb1f0l2; path=/
+< Set-Cookie: 9489lsj238fjsa437e1233a7541=0; expires=Mon, 24-Apr-2034 14:57:37 GMT; Max-Age=432000000; path=/; HttpOnly
+< Set-Cookie: 9489d2231206329b0sdk1238hsa1=0; expires=Mon, 24-Apr-2034 14:57:37 GMT; Max-Age=432000000; path=/; HttpOnly
+< Cache-Control: no-store, no-cache, must-revalidate
+< Pragma: no-cache
+< X-Powered-By: PHP/7.0.33
+< Vary: Accept-Encoding
+< Content-Type: text/html; charset=UTF-8
+
+Por motivos de segurança, o acesso foi bloqueado. (01)

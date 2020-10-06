@@ -1,0 +1,23 @@
+https://js.gleam.io/
+
+> GET / HTTP/1.1
+> Host: js.gleam.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< G-Host: meepo12
+< Server: NetDNA-cache/2.2
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-Ua-Compatible: IE=Edge,chrome=1
+< X-Runtime: 0.008845
+< Date: Thu, 30 Jul 2020 04:27:07 GMT
+< Content-Type: text/html; charset=utf-8
+< Access-Control-Allow-Origin: *
+< X-Cache: MISS
+< X-Xss-Protection: 1; mode=block
+< X-Request-Id: cb89cbfd-94c8-46c6-82e1-45dfacecbacf
+< Location: https://gleam.io/
+< Cache-Control: no-cache
+
+<html><body>You are being <a href="https://gleam.io/">redirected</a>.</body></html>

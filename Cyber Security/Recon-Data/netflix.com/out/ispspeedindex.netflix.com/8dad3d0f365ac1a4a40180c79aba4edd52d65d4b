@@ -1,0 +1,3926 @@
+https://ispspeedindex.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ispspeedindex.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: gunicorn/19.7.1
+< Set-Cookie: csrftoken=xcL2N5qzITVqPGlRB5Sf4YtlKn8yRk0D; expires=Wed, 16-Jun-2021 05:37:14 GMT; Max-Age=31449600; Path=/
+< X-Frame-Options: SAMEORIGIN
+< Vary: Cookie, Accept-Language, Accept-Encoding
+< Content-Type: text/html; charset=utf-8
+< Content-Language: en
+< Via: 1.1 vegur
+< Date: Wed, 17 Jun 2020 05:37:14 GMT
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" ng-app="netflixispApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Home</title>
+
+    <meta name="google-site-verification" content="dArk4xSgOJBbftASWfFuMgm_f4gRf5E05hxPVzgtaDU" />
+
+    <link rel="shortcut icon" href="https://assets.nflxext.com/en_us/icons/nficon2014.4.ico">
+
+    <!---------STYLESHEETS--------------------->
+
+    <link rel="stylesheet" type="text/css" media="all" href="//netflixisp.s3.amazonaws.com/css/main.min.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+    
+    <!--<link rel="stylesheet" type="text/css" media="all" href="//netflixisp.s3.amazonaws.com/css/jquery.bxslider.css"/>-->
+
+
+
+    <!--[if lt IE 9]>
+    <script src="//netflixisp.s3.amazonaws.com/js/html5shiv.js"></script>
+    <script src="//netflixisp.s3.amazonaws.com/js/respond.js"></script>
+    <link href="//netflixisp.s3.amazonaws.com/cdn/proxy.html" id="respond-proxy" rel="respond-proxy" />
+    <link href="/cdn/" id="respond-redirect" rel="respond-redirect" />
+    <script src="/cdn/" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="//netflixisp.s3.amazonaws.com/css/ie8.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <![endif]-->
+
+
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/feeds/rss/">
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="/blog/feeds/atom/">
+    
+
+
+
+    
+    
+
+</head>
+
+<body class="home">
+
+        <!-- Navigation -->
+        <div class="top-nav-wrapper">
+        <nav class="top-nav container">
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <a href="/"><img class="brand-image" src="//netflixisp.s3.amazonaws.com/img/logo.png"></a>
+                </div>
+
+                <div class="col-sm-9 text-right hidden-xs form-dropdown-container">
+
+                     <!-- Country Search -->
+                    <form action="/global/search/" method="post" class="country-form">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='xcL2N5qzITVqPGlRB5Sf4YtlKn8yRk0D' />
+                        <div id="headerLocationSearch" class="search-input-container">
+                          <input class="typeahead search location-search" type="text" placeholder="Enter country/region" name="country">
+                          <button type="submit" value="Submit" class="country-submit"></button>
+                        </div>
+                    </form>
+
+                    <form action="/i18n/setlang/" method="post" class="language-form"><input type='hidden' name='csrfmiddlewaretoken' value='xcL2N5qzITVqPGlRB5Sf4YtlKn8yRk0D' />
+                        <input name="next" type="hidden" value="">
+                        <select name="language">
+                            
+                                <option value="en"
+                                        selected>
+                                    English (en)
+                                </option>
+                            
+                                <option value="es">
+                                    Español (es)
+                                </option>
+                            
+                                <option value="pt-br">
+                                    Português Brasileiro (pt-br)
+                                </option>
+                            
+                                <option value="nl">
+                                    Nederlands (nl)
+                                </option>
+                            
+                                <option value="fr">
+                                    Français (fr)
+                                </option>
+                            
+                                <option value="de">
+                                    Deutsch (de)
+                                </option>
+                            
+                                <option value="ja">
+                                    日本語 (ja)
+                                </option>
+                            
+                                <option value="it">
+                                    Italiano (it)
+                                </option>
+                            
+                                <option value="ko">
+                                    한국어 (ko)
+                                </option>
+                            
+                                <option value="zh-cn">
+                                    简体中文 (zh-cn)
+                                </option>
+                            
+                                <option value="zh-tw">
+                                    繁體中文 (zh-tw)
+                                </option>
+                            
+                        </select>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+        </nav>
+        </div>
+
+
+        <!-- Page Content -->
+
+        
+
+    
+    
+    
+
+    <div class="header-container">
+        <!-- Current Language en -->
+
+        <form action="/i18n/setlang/" method="post" class="language-form"><input type='hidden' name='csrfmiddlewaretoken' value='xcL2N5qzITVqPGlRB5Sf4YtlKn8yRk0D' />
+            <input name="next" type="hidden" value="">
+            <select name="language">
+                
+                    <option value="en" selected>
+                        English (en)
+                    </option>
+                
+                    <option value="es">
+                        Español (es)
+                    </option>
+                
+                    <option value="pt-br">
+                        Português Brasileiro (pt-br)
+                    </option>
+                
+                    <option value="nl">
+                        Nederlands (nl)
+                    </option>
+                
+                    <option value="fr">
+                        Français (fr)
+                    </option>
+                
+                    <option value="de">
+                        Deutsch (de)
+                    </option>
+                
+                    <option value="ja">
+                        日本語 (ja)
+                    </option>
+                
+                    <option value="it">
+                        Italiano (it)
+                    </option>
+                
+                    <option value="ko">
+                        한국어 (ko)
+                    </option>
+                
+                    <option value="zh-cn">
+                        简体中文 (zh-cn)
+                    </option>
+                
+                    <option value="zh-tw">
+                        繁體中文 (zh-tw)
+                    </option>
+                
+            </select>
+        </form>
+
+        <!--<ul id="mainImgCarousel" class="main-carousel">
+            <li><!--<img src="//netflixisp.s3.amazonaws.com/img/slides/slide1.jpg" class="img-responsive">-->
+                <!--<div class="img-holder" style="background-image: url(//netflixisp.s3.amazonaws.com/img/slides/slide1.jpg)"></div>
+            </li>
+            <li><!--<img src="//netflixisp.s3.amazonaws.com/img/slides/slide2.jpg" class="img-responsive">-->
+                <!--<div class="img-holder" style="background-image: url(//netflixisp.s3.amazonaws.com/img/slides/slide2.jpg)"></div>
+            </li>
+        </ul>-->
+        <div class="video-container">
+            <!--<video autoplay id="bgvid">
+                <source data-src="//netflixisp.s3.amazonaws.com/video/netflix-bg-15s.mp4" src="" />
+            </video>-->
+        </div>
+
+        <div class="home-header-content">
+
+            <img class="brand-image" src="//netflixisp.s3.amazonaws.com/img/logo-with-shadow.png" alt="Netflix"/>
+            <h1>ISP Speed Index</h1>
+
+            <!-- Country Search -->
+            <form action="/global/search/" method="POST">
+                <input type='hidden' name='csrfmiddlewaretoken' value='xcL2N5qzITVqPGlRB5Sf4YtlKn8yRk0D' />
+                <label for="locationSearch">Enter location</label>
+                <div id="locationSearch" class="search-input-container">
+                  <input class="typeahead search location-search" type="text" placeholder="Enter country or region" name="country">
+                  <input type="text" style="display: none;" disabled="disabled" size="20" value="Ignore field. IE bug fix" />
+                  <button type="submit" value="Submit" class="country-submit"></button>
+                </div>
+            </form>
+
+            <div class="hidden-xs"><p>or select from the map below</p>
+            <a class="scroll-down-icon" href="#map_div">
+                <i class="fa fa-angle-down"></i>
+            </a>
+            </div>
+
+        </div>
+
+        <div class="header-accent"></div>
+    </div>
+
+    <div class="main-content">
+
+
+
+
+        <div class="container text-container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>The Netflix ISP Speed Index</h2>
+
+
+
+                    <p>We are suspending the monthly Netflix ISP Speed Index for now, in light of the recent work we've been doing with governments and ISPs to temporarily reduce strain on telecommunications networks around the world.</p>
+
+                      <a href="/about" class="btn btn-default" type="button">
+                        How we calculate the rankings
+                      </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-container hidden-xs">
+            <div class="map-div hidden-xs" id="map_div"></div>
+            
+                <div class="hot-spot hong-kong" data-high-speed="4.68" data-low-speed="3.79" data-average-speed="4.17" data-name="Hong Kong" data-cid="HKG"><a class="dot" href="/country/hong-kong/"></a></div>
+            
+            <div class="map-key">
+                <p><i class="fa fa-square fa-fw index"></i> Netflix available, country/region indexed</p>
+                <p><i class="fa fa-square fa-fw noindex"></i> Netflix available, country/region not currently indexed</p>
+                <p><i class="fa fa-square fa-fw none"></i> Netflix not available</p>
+            </div>
+        </div>
+
+        <div class="muted">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <h2 class="non-brand text-center">Expand your region for a performance overview</h2>
+
+                    
+                        
+                            
+                                <div class="expandable-section open">
+                                    <div class="expandable-header">
+                                        <a href="#">Americas<span
+                                                class="latest-date hidden"> -
+                                            
+                                                February 2020</span></a>
+                                    </div>
+                                    <div class="expandable-body" id="americas">
+
+                                        <table class="general-table" data-page-size="200">
+                                            <thead>
+                                            <tr>
+                                                
+                                                <th>Country/Region</th>
+                                                <th data-type="numeric"
+                                                    data-hide="phone">Highest <br>Speed <span class="units">Mbps</span></th>
+                                                <th data-type="numeric"
+                                                    data-hide="phone">Lowest <br>Speed <span class="units">Mbps</span></th>
+                                                <th data-type="numeric">Average <br>Speed <span class="units">Mbps</span></th>
+                                                <th data-sort-ignore="true">View All Data</th>
+                                            </tr>
+                                            </thead>
+
+                                            <tbody>
+                                            
+                                                <tr class='clickable-row'
+                                                    data-href='/country/us/'>
+                                                    <td data-value="United States"
+                                                        class="country-title">United States</td>
+                                                    <td data-value="
+
+                                                            4.73">Verizon - FiOS
+                                                        4.73</td>
+                                                    <td data-value="
+
+                                                            3.49">AT&amp;T - DSL
+                                                        3.49</td>
+                                                    <td>4.44</td>
+                                                    <td>
+                                                        <a href="/country/us/">View data</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/argentina/'>
+                                                        <td data-value="Argentina"
+                                                            class="country-title">Argentina</td>
+                                                        <td data-value="
+
+                                                                3.98">TeleCentro
+                                                            3.98</td>
+                                                        <td data-value="2.87">
+                                                            Telecom - Arnet
+                                                            2.87
+                                                            
+                                                        </td>
+                                                        <td>3.49</td>
+                                                        <td>
+                                                            <a href="/country/argentina/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/bolivia/'>
+                                                        <td data-value="Bolivia"
+                                                            class="country-title">Bolivia</td>
+                                                        <td data-value="
+
+                                                                3.65">Tigo
+                                                            3.65</td>
+                                                        <td data-value="2.79">
+                                                            COMTECO
+                                                            2.79
+                                                            
+                                                        </td>
+                                                        <td>3.39</td>
+                                                        <td>
+                                                            <a href="/country/bolivia/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/brazil/'>
+                                                        <td data-value="Brazil"
+                                                            class="country-title">Brazil</td>
+                                                        <td data-value="
+
+                                                                4.10">Vivo Fibra
+                                                            4.10</td>
+                                                        <td data-value="2.69">
+                                                            Oi Internet
+                                                            2.69
+                                                            
+                                                        </td>
+                                                        <td>3.42</td>
+                                                        <td>
+                                                            <a href="/country/brazil/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/canada/'>
+                                                        <td data-value="Canada"
+                                                            class="country-title">Canada</td>
+                                                        <td data-value="
+
+                                                                4.48">Telus - Fiber Optic
+                                                            4.48</td>
+                                                        <td data-value="2.28">
+                                                            Xplornet
+                                                            2.28
+                                                            
+                                                        </td>
+                                                        <td>3.91</td>
+                                                        <td>
+                                                            <a href="/country/canada/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/chile/'>
+                                                        <td data-value="Chile"
+                                                            class="country-title">Chile</td>
+                                                        <td data-value="
+
+                                                                4.93">GTD Fiber
+                                                            4.93</td>
+                                                        <td data-value="2.17">
+                                                            Entel
+                                                            2.17
+                                                            
+                                                        </td>
+                                                        <td>3.90</td>
+                                                        <td>
+                                                            <a href="/country/chile/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/colombia/'>
+                                                        <td data-value="Colombia"
+                                                            class="country-title">Colombia</td>
+                                                        <td data-value="
+
+                                                                3.83">Claro
+                                                            3.83</td>
+                                                        <td data-value="2.47">
+                                                            DIRECTV
+                                                            2.47
+                                                            
+                                                        </td>
+                                                        <td>3.42</td>
+                                                        <td>
+                                                            <a href="/country/colombia/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/costa-rica/'>
+                                                        <td data-value="Costa Rica"
+                                                            class="country-title">Costa Rica</td>
+                                                        <td data-value="
+
+                                                                3.38">Tigo Star
+                                                            3.38</td>
+                                                        <td data-value="2.55">
+                                                            Kolbi
+                                                            2.55
+                                                            
+                                                        </td>
+                                                        <td>2.94</td>
+                                                        <td>
+                                                            <a href="/country/costa-rica/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/dominican-republic/'>
+                                                        <td data-value="Dominican Republic"
+                                                            class="country-title">Dominican Republic</td>
+                                                        <td data-value="
+
+                                                                2.97">Altice
+                                                            2.97</td>
+                                                        <td data-value="1.32">
+                                                            WIND
+                                                            1.32
+                                                            
+                                                        </td>
+                                                        <td>2.53</td>
+                                                        <td>
+                                                            <a href="/country/dominican-republic/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/ecuador/'>
+                                                        <td data-value="Ecuador"
+                                                            class="country-title">Ecuador</td>
+                                                        <td data-value="
+
+                                                                4.00">CNT Fibra
+                                                            4.00</td>
+                                                        <td data-value="1.95">
+                                                            ETAPA DSL/WiMAX
+                                                            1.95
+                                                            
+                                                        </td>
+                                                        <td>3.09</td>
+                                                        <td>
+                                                            <a href="/country/ecuador/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/el-salvador/'>
+                                                        <td data-value="El Salvador"
+                                                            class="country-title">El Salvador</td>
+                                                        <td data-value="
+
+                                                                3.31">Tigo Star
+                                                            3.31</td>
+                                                        <td data-value="2.70">
+                                                            Turbonett
+                                                            2.70
+                                                            
+                                                        </td>
+                                                        <td>2.92</td>
+                                                        <td>
+                                                            <a href="/country/el-salvador/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/guatemala/'>
+                                                        <td data-value="Guatemala"
+                                                            class="country-title">Guatemala</td>
+                                                        <td data-value="
+
+                                                                3.74">Tigo Star
+                                                            3.74</td>
+                                                        <td data-value="2.77">
+                                                            Turbonett
+                                                            2.77
+                                                            
+                                                        </td>
+                                                        <td>3.10</td>
+                                                        <td>
+                                                            <a href="/country/guatemala/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/honduras/'>
+                                                        <td data-value="Honduras"
+                                                            class="country-title">Honduras</td>
+                                                        <td data-value="
+
+                                                                3.37">Tigo Star
+                                                            3.37</td>
+                                                        <td data-value="1.67">
+                                                            Reytel
+                                                            1.67
+                                                            
+                                                        </td>
+                                                        <td>2.89</td>
+                                                        <td>
+                                                            <a href="/country/honduras/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/jamaica/'>
+                                                        <td data-value="Jamaica"
+                                                            class="country-title">Jamaica</td>
+                                                        <td data-value="
+
+                                                                3.56">Digicel Play
+                                                            3.56</td>
+                                                        <td data-value="2.58">
+                                                            Flow
+                                                            2.58
+                                                            
+                                                        </td>
+                                                        <td>2.70</td>
+                                                        <td>
+                                                            <a href="/country/jamaica/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/mexico/'>
+                                                        <td data-value="Mexico"
+                                                            class="country-title">Mexico</td>
+                                                        <td data-value="
+
+                                                                4.33">Totalplay
+                                                            4.33</td>
+                                                        <td data-value="3.28">
+                                                            Telmex DSL
+                                                            3.28
+                                                            
+                                                        </td>
+                                                        <td>3.46</td>
+                                                        <td>
+                                                            <a href="/country/mexico/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/panama/'>
+                                                        <td data-value="Panama"
+                                                            class="country-title">Panama</td>
+                                                        <td data-value="
+
+                                                                3.72">Cable Onda
+                                                            3.72</td>
+                                                        <td data-value="2.71">
+                                                            Cable &amp; Wireless
+                                                            2.71
+                                                            
+                                                        </td>
+                                                        <td>3.58</td>
+                                                        <td>
+                                                            <a href="/country/panama/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/paraguay/'>
+                                                        <td data-value="Paraguay"
+                                                            class="country-title">Paraguay</td>
+                                                        <td data-value="
+
+                                                                3.52">Personal Paraguay
+                                                            3.52</td>
+                                                        <td data-value="1.33">
+                                                            Copaco
+                                                            1.33
+                                                            
+                                                        </td>
+                                                        <td>3.24</td>
+                                                        <td>
+                                                            <a href="/country/paraguay/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/peru/'>
+                                                        <td data-value="Peru"
+                                                            class="country-title">Peru</td>
+                                                        <td data-value="
+
+                                                                3.89">Claro
+                                                            3.89</td>
+                                                        <td data-value="3.84">
+                                                            Movistar
+                                                            3.84
+                                                            
+                                                        </td>
+                                                        <td>3.78</td>
+                                                        <td>
+                                                            <a href="/country/peru/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/trinidad-and-tobago/'>
+                                                        <td data-value="Trinidad and Tobago"
+                                                            class="country-title">Trinidad and Tobago</td>
+                                                        <td data-value="
+
+                                                                3.94">Digicel Play
+                                                            3.94</td>
+                                                        <td data-value="2.31">
+                                                            Blink
+                                                            2.31
+                                                            
+                                                        </td>
+                                                        <td>3.69</td>
+                                                        <td>
+                                                            <a href="/country/trinidad-and-tobago/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/uruguay/'>
+                                                        <td data-value="Uruguay"
+                                                            class="country-title">Uruguay</td>
+                                                        <td data-value="
+
+                                                                3.12">Antel
+                                                            3.12</td>
+                                                        <td data-value="3.12">
+                                                            Antel
+                                                            3.12
+                                                            
+                                                        </td>
+                                                        <td>3.12</td>
+                                                        <td>
+                                                            <a href="/country/uruguay/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/venezuela/'>
+                                                        <td data-value="Venezuela"
+                                                            class="country-title">Venezuela</td>
+                                                        <td data-value="
+
+                                                                1.66">Meganet
+                                                            1.66</td>
+                                                        <td data-value="0.97">
+                                                            Aba
+                                                            0.97
+                                                            
+                                                        </td>
+                                                        <td>1.03</td>
+                                                        <td>
+                                                            <a href="/country/venezuela/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                            </tbody>
+                                        </table>
+
+                                        
+                                        <br>
+                                        <div class="text-center">
+                                            <a href="/global/regional/americas"
+                                               class="btn btn-default btn-more">
+                                                View regional averages for Americas</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            
+                        
+                    
+                        
+                            
+                                <div class="expandable-section open">
+                                    <div class="expandable-header">
+                                        <a href="#">Europe - Middle East - Africa<span
+                                                class="latest-date hidden"> -
+                                            
+                                                February 2020</span></a>
+                                    </div>
+                                    <div class="expandable-body" id="europe-middle-east-africa">
+
+                                        <table class="general-table" data-page-size="200">
+                                            <thead>
+                                            <tr>
+                                                
+                                                <th>Country/Region</th>
+                                                <th data-type="numeric"
+                                                    data-hide="phone">Highest <br>Speed <span class="units">Mbps</span></th>
+                                                <th data-type="numeric"
+                                                    data-hide="phone">Lowest <br>Speed <span class="units">Mbps</span></th>
+                                                <th data-type="numeric">Average <br>Speed <span class="units">Mbps</span></th>
+                                                <th data-sort-ignore="true">View All Data</th>
+                                            </tr>
+                                            </thead>
+
+                                            <tbody>
+                                            
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/austria/'>
+                                                        <td data-value="Austria"
+                                                            class="country-title">Austria</td>
+                                                        <td data-value="
+
+                                                                4.94">kabelplus
+                                                            4.94</td>
+                                                        <td data-value="3.01">
+                                                            A1
+                                                            3.01
+                                                            
+                                                        </td>
+                                                        <td>3.76</td>
+                                                        <td>
+                                                            <a href="/country/austria/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/belgium/'>
+                                                        <td data-value="Belgium"
+                                                            class="country-title">Belgium</td>
+                                                        <td data-value="
+
+                                                                4.37">Orange
+                                                            4.37</td>
+                                                        <td data-value="4.27">
+                                                            Proximus (Belgacom)
+                                                            4.27
+                                                            
+                                                        </td>
+                                                        <td>4.30</td>
+                                                        <td>
+                                                            <a href="/country/belgium/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/denmark/'>
+                                                        <td data-value="Denmark"
+                                                            class="country-title">Denmark</td>
+                                                        <td data-value="
+
+                                                                4.62">YouSee - Cable
+                                                            4.62</td>
+                                                        <td data-value="3.80">
+                                                            Telenor
+                                                            3.80
+                                                            
+                                                        </td>
+                                                        <td>4.19</td>
+                                                        <td>
+                                                            <a href="/country/denmark/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/finland/'>
+                                                        <td data-value="Finland"
+                                                            class="country-title">Finland</td>
+                                                        <td data-value="
+
+                                                                4.24">DNA
+                                                            4.24</td>
+                                                        <td data-value="4.15">
+                                                            TeliaSonera
+                                                            4.15
+                                                            
+                                                        </td>
+                                                        <td>4.18</td>
+                                                        <td>
+                                                            <a href="/country/finland/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/france/'>
+                                                        <td data-value="France"
+                                                            class="country-title">France</td>
+                                                        <td data-value="
+
+                                                                4.16">SFR THD
+                                                            4.16</td>
+                                                        <td data-value="3.33">
+                                                            SFR
+                                                            3.33
+                                                            
+                                                        </td>
+                                                        <td>3.62</td>
+                                                        <td>
+                                                            <a href="/country/france/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/germany/'>
+                                                        <td data-value="Germany"
+                                                            class="country-title">Germany</td>
+                                                        <td data-value="
+
+                                                                4.58">Unitymedia KabelBW
+                                                            4.58</td>
+                                                        <td data-value="3.91">
+                                                            Vodafone Germany
+                                                            3.91
+                                                            
+                                                        </td>
+                                                        <td>4.35</td>
+                                                        <td>
+                                                            <a href="/country/germany/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/greece/'>
+                                                        <td data-value="Greece"
+                                                            class="country-title">Greece</td>
+                                                        <td data-value="
+
+                                                                3.99">OTE
+                                                            3.99</td>
+                                                        <td data-value="2.82">
+                                                            Cyta Hellas
+                                                            2.82
+                                                            
+                                                        </td>
+                                                        <td>3.74</td>
+                                                        <td>
+                                                            <a href="/country/greece/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/hungary/'>
+                                                        <td data-value="Hungary"
+                                                            class="country-title">Hungary</td>
+                                                        <td data-value="
+
+                                                                4.90">Telekom
+                                                            4.90</td>
+                                                        <td data-value="3.43">
+                                                            invitel
+                                                            3.43
+                                                            
+                                                        </td>
+                                                        <td>4.76</td>
+                                                        <td>
+                                                            <a href="/country/hungary/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/iceland/'>
+                                                        <td data-value="Iceland"
+                                                            class="country-title">Iceland</td>
+                                                        <td data-value="
+
+                                                                4.62">Siminn
+                                                            4.62</td>
+                                                        <td data-value="3.86">
+                                                            Hringidan
+                                                            3.86
+                                                            
+                                                        </td>
+                                                        <td>4.54</td>
+                                                        <td>
+                                                            <a href="/country/iceland/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/ireland/'>
+                                                        <td data-value="Ireland"
+                                                            class="country-title">Ireland</td>
+                                                        <td data-value="
+
+                                                                4.29">Virgin Media
+                                                            4.29</td>
+                                                        <td data-value="3.68">
+                                                            Imagine
+                                                            3.68
+                                                            
+                                                        </td>
+                                                        <td>3.99</td>
+                                                        <td>
+                                                            <a href="/country/ireland/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/israel/'>
+                                                        <td data-value="Israel"
+                                                            class="country-title">Israel</td>
+                                                        <td data-value="
+
+                                                                4.52">Partner
+                                                            4.52</td>
+                                                        <td data-value="2.27">
+                                                            099.net
+                                                            2.27
+                                                            
+                                                        </td>
+                                                        <td>4.13</td>
+                                                        <td>
+                                                            <a href="/country/israel/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/italy/'>
+                                                        <td data-value="Italy"
+                                                            class="country-title">Italy</td>
+                                                        <td data-value="
+
+                                                                4.30">Vodafone Italy
+                                                            4.30</td>
+                                                        <td data-value="3.23">
+                                                            Linkem
+                                                            3.23
+                                                            
+                                                        </td>
+                                                        <td>4.03</td>
+                                                        <td>
+                                                            <a href="/country/italy/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/kuwait/'>
+                                                        <td data-value="Kuwait"
+                                                            class="country-title">Kuwait</td>
+                                                        <td data-value="
+
+                                                                3.99">Zain
+                                                            3.99</td>
+                                                        <td data-value="2.89">
+                                                            BOnline
+                                                            2.89
+                                                            
+                                                        </td>
+                                                        <td>3.58</td>
+                                                        <td>
+                                                            <a href="/country/kuwait/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/luxembourg/'>
+                                                        <td data-value="Luxembourg"
+                                                            class="country-title">Luxembourg</td>
+                                                        <td data-value="
+
+                                                                5.10">Eltrona - Orange
+                                                            5.10</td>
+                                                        <td data-value="4.37">
+                                                            Numericable
+                                                            4.37
+                                                            
+                                                        </td>
+                                                        <td>4.53</td>
+                                                        <td>
+                                                            <a href="/country/luxembourg/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/netherlands/'>
+                                                        <td data-value="Netherlands"
+                                                            class="country-title">Netherlands</td>
+                                                        <td data-value="
+
+                                                                4.64">Ziggo
+                                                            4.64</td>
+                                                        <td data-value="3.85">
+                                                            Tele2
+                                                            3.85
+                                                            
+                                                        </td>
+                                                        <td>4.52</td>
+                                                        <td>
+                                                            <a href="/country/netherlands/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/norway/'>
+                                                        <td data-value="Norway"
+                                                            class="country-title">Norway</td>
+                                                        <td data-value="
+
+                                                                4.61">Altibox
+                                                            4.61</td>
+                                                        <td data-value="3.95">
+                                                            Broadnet
+                                                            3.95
+                                                            
+                                                        </td>
+                                                        <td>4.40</td>
+                                                        <td>
+                                                            <a href="/country/norway/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/poland/'>
+                                                        <td data-value="Poland"
+                                                            class="country-title">Poland</td>
+                                                        <td data-value="
+
+                                                                4.68">Orange Światlowód
+                                                            4.68</td>
+                                                        <td data-value="2.44">
+                                                            Plus
+                                                            2.44
+                                                            
+                                                        </td>
+                                                        <td>3.68</td>
+                                                        <td>
+                                                            <a href="/country/poland/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/portugal/'>
+                                                        <td data-value="Portugal"
+                                                            class="country-title">Portugal</td>
+                                                        <td data-value="
+
+                                                                5.02">Vodafone
+                                                            5.02</td>
+                                                        <td data-value="3.61">
+                                                            MEO
+                                                            3.61
+                                                            
+                                                        </td>
+                                                        <td>3.76</td>
+                                                        <td>
+                                                            <a href="/country/portugal/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/romania/'>
+                                                        <td data-value="Romania"
+                                                            class="country-title">Romania</td>
+                                                        <td data-value="
+
+                                                                4.74">Digi
+                                                            4.74</td>
+                                                        <td data-value="2.94">
+                                                            Vodafone
+                                                            2.94
+                                                            
+                                                        </td>
+                                                        <td>4.53</td>
+                                                        <td>
+                                                            <a href="/country/romania/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/saudi-arabia/'>
+                                                        <td data-value="Saudi Arabia"
+                                                            class="country-title">Saudi Arabia</td>
+                                                        <td data-value="
+
+                                                                3.79">Mobily
+                                                            3.79</td>
+                                                        <td data-value="3.21">
+                                                            Zain
+                                                            3.21
+                                                            
+                                                        </td>
+                                                        <td>3.45</td>
+                                                        <td>
+                                                            <a href="/country/saudi-arabia/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/south-africa/'>
+                                                        <td data-value="South Africa"
+                                                            class="country-title">South Africa</td>
+                                                        <td data-value="
+
+                                                                4.23">CoolIdeas
+                                                            4.23</td>
+                                                        <td data-value="1.93">
+                                                            Neotel
+                                                            1.93
+                                                            
+                                                        </td>
+                                                        <td>3.00</td>
+                                                        <td>
+                                                            <a href="/country/south-africa/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/spain/'>
+                                                        <td data-value="Spain"
+                                                            class="country-title">Spain</td>
+                                                        <td data-value="
+
+                                                                4.79">Vodafone Fibra
+                                                            4.79</td>
+                                                        <td data-value="3.44">
+                                                            MASMOVIL DSL
+                                                            3.44
+                                                            
+                                                        </td>
+                                                        <td>4.30</td>
+                                                        <td>
+                                                            <a href="/country/spain/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/sweden/'>
+                                                        <td data-value="Sweden"
+                                                            class="country-title">Sweden</td>
+                                                        <td data-value="
+
+                                                                4.64">Telenor
+                                                            4.64</td>
+                                                        <td data-value="3.40">
+                                                            Tele2
+                                                            3.40
+                                                            
+                                                        </td>
+                                                        <td>4.34</td>
+                                                        <td>
+                                                            <a href="/country/sweden/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/switzerland/'>
+                                                        <td data-value="Switzerland"
+                                                            class="country-title">Switzerland</td>
+                                                        <td data-value="
+
+                                                                5.28">Salt Fiber
+                                                            5.28</td>
+                                                        <td data-value="4.27">
+                                                            iWay
+                                                            4.27
+                                                            
+                                                        </td>
+                                                        <td>4.74</td>
+                                                        <td>
+                                                            <a href="/country/switzerland/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/turkey/'>
+                                                        <td data-value="Turkey"
+                                                            class="country-title">Turkey</td>
+                                                        <td data-value="
+
+                                                                3.83">Tüksat Kablo
+                                                            3.83</td>
+                                                        <td data-value="3.26">
+                                                            D Smart
+                                                            3.26
+                                                            
+                                                        </td>
+                                                        <td>3.47</td>
+                                                        <td>
+                                                            <a href="/country/turkey/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/uk/'>
+                                                        <td data-value="United Kingdom"
+                                                            class="country-title">United Kingdom</td>
+                                                        <td data-value="
+
+                                                                4.68">Virgin
+                                                            4.68</td>
+                                                        <td data-value="3.48">
+                                                            TalkTalk DSL
+                                                            3.48
+                                                            
+                                                        </td>
+                                                        <td>4.44</td>
+                                                        <td>
+                                                            <a href="/country/uk/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                            </tbody>
+                                        </table>
+
+                                        
+                                        <br>
+                                        <div class="text-center">
+                                            <a href="/global/regional/emea"
+                                               class="btn btn-default btn-more">
+                                                View regional averages for Europe - Middle East - Africa</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            
+                        
+                    
+                        
+                            
+                                <div class="expandable-section open">
+                                    <div class="expandable-header">
+                                        <a href="#">Asia-Pacific<span
+                                                class="latest-date hidden"> -
+                                            
+                                                February 2020</span></a>
+                                    </div>
+                                    <div class="expandable-body" id="asia-pacific">
+
+                                        <table class="general-table" data-page-size="200">
+                                            <thead>
+                                            <tr>
+                                                
+                                                <th>Country/Region</th>
+                                                <th data-type="numeric"
+                                                    data-hide="phone">Highest <br>Speed <span class="units">Mbps</span></th>
+                                                <th data-type="numeric"
+                                                    data-hide="phone">Lowest <br>Speed <span class="units">Mbps</span></th>
+                                                <th data-type="numeric">Average <br>Speed <span class="units">Mbps</span></th>
+                                                <th data-sort-ignore="true">View All Data</th>
+                                            </tr>
+                                            </thead>
+
+                                            <tbody>
+                                            
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/australia/'>
+                                                        <td data-value="Australia"
+                                                            class="country-title">Australia</td>
+                                                        <td data-value="
+
+                                                                4.72">Telstra NBN
+                                                            4.72</td>
+                                                        <td data-value="3.29">
+                                                            MyRepublic Non-NBN
+                                                            3.29
+                                                            
+                                                        </td>
+                                                        <td>4.28</td>
+                                                        <td>
+                                                            <a href="/country/australia/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/hong-kong/'>
+                                                        <td data-value="Hong Kong"
+                                                            class="country-title">Hong Kong</td>
+                                                        <td data-value="
+
+                                                                4.68">Netvigator - Fiber
+                                                            4.68</td>
+                                                        <td data-value="3.79">
+                                                            i-Cable - Cable modem
+                                                            3.79
+                                                            
+                                                        </td>
+                                                        <td>4.17</td>
+                                                        <td>
+                                                            <a href="/country/hong-kong/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/india/'>
+                                                        <td data-value="India"
+                                                            class="country-title">India</td>
+                                                        <td data-value="
+
+                                                                3.86">Jio Giga Fiber
+                                                            3.86</td>
+                                                        <td data-value="1.79">
+                                                            Tata Communications
+                                                            1.79
+                                                            
+                                                        </td>
+                                                        <td>3.12</td>
+                                                        <td>
+                                                            <a href="/country/india/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/indonesia/'>
+                                                        <td data-value="Indonesia"
+                                                            class="country-title">Indonesia</td>
+                                                        <td data-value="
+
+                                                                3.84">Indosat - Fibre
+                                                            3.84</td>
+                                                        <td data-value="2.50">
+                                                            MNC Play
+                                                            2.50
+                                                            
+                                                        </td>
+                                                        <td>3.27</td>
+                                                        <td>
+                                                            <a href="/country/indonesia/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/japan/'>
+                                                        <td data-value="Japan"
+                                                            class="country-title">Japan</td>
+                                                        <td data-value="
+
+                                                                4.18">au Hikari (KDDI)
+                                                            4.18</td>
+                                                        <td data-value="2.47">
+                                                            Freebit
+                                                            2.47
+                                                            
+                                                        </td>
+                                                        <td>3.18</td>
+                                                        <td>
+                                                            <a href="/country/japan/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/malaysia/'>
+                                                        <td data-value="Malaysia"
+                                                            class="country-title">Malaysia</td>
+                                                        <td data-value="
+
+                                                                4.16">Time
+                                                            4.16</td>
+                                                        <td data-value="3.77">
+                                                            Telekom Malaysia Berhad
+                                                            3.77
+                                                            
+                                                        </td>
+                                                        <td>3.78</td>
+                                                        <td>
+                                                            <a href="/country/malaysia/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/new-zealand/'>
+                                                        <td data-value="New Zealand"
+                                                            class="country-title">New Zealand</td>
+                                                        <td data-value="
+
+                                                                4.49">Spark - Fiber
+                                                            4.49</td>
+                                                        <td data-value="3.93">
+                                                            MyRepublic - DSL
+                                                            3.93
+                                                            
+                                                        </td>
+                                                        <td>4.10</td>
+                                                        <td>
+                                                            <a href="/country/new-zealand/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/philippines/'>
+                                                        <td data-value="Philippines"
+                                                            class="country-title">Philippines</td>
+                                                        <td data-value="
+
+                                                                3.59">Converge ICT Solution
+                                                            3.59</td>
+                                                        <td data-value="1.33">
+                                                            Bayan
+                                                            1.33
+                                                            
+                                                        </td>
+                                                        <td>2.77</td>
+                                                        <td>
+                                                            <a href="/country/philippines/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/singapore/'>
+                                                        <td data-value="Singapore"
+                                                            class="country-title">Singapore</td>
+                                                        <td data-value="
+
+                                                                4.51">MyRepublic
+                                                            4.51</td>
+                                                        <td data-value="4.18">
+                                                            Singtel DSL
+                                                            4.18
+                                                            
+                                                        </td>
+                                                        <td>4.13</td>
+                                                        <td>
+                                                            <a href="/country/singapore/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/south-korea/'>
+                                                        <td data-value="South Korea"
+                                                            class="country-title">South Korea</td>
+                                                        <td data-value="
+
+                                                                3.94">LG U+
+                                                            3.94</td>
+                                                        <td data-value="2.25">
+                                                            SK broadband
+                                                            2.25
+                                                            
+                                                        </td>
+                                                        <td>3.23</td>
+                                                        <td>
+                                                            <a href="/country/south-korea/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/taiwan/'>
+                                                        <td data-value="Taiwan"
+                                                            class="country-title">Taiwan</td>
+                                                        <td data-value="
+
+                                                                3.64">Taiwan Broadband
+                                                            3.64</td>
+                                                        <td data-value="2.69">
+                                                            Taiwan Mobile
+                                                            2.69
+                                                            
+                                                        </td>
+                                                        <td>3.51</td>
+                                                        <td>
+                                                            <a href="/country/taiwan/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='clickable-row'
+                                                        data-href='/country/thailand/'>
+                                                        <td data-value="Thailand"
+                                                            class="country-title">Thailand</td>
+                                                        <td data-value="
+
+                                                                4.61">AIS Fibre
+                                                            4.61</td>
+                                                        <td data-value="2.66">
+                                                            True Internet
+                                                            2.66
+                                                            
+                                                        </td>
+                                                        <td>3.94</td>
+                                                        <td>
+                                                            <a href="/country/thailand/">View data</a>
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                            </tbody>
+                                        </table>
+
+                                        
+                                        <br>
+                                        <div class="text-center">
+                                            <a href="/global/regional/asia-pacific"
+                                               class="btn btn-default btn-more">
+                                                View regional averages for Asia-Pacific</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            
+                        
+                    
+
+
+                    <div class="home-countries-actions clearfix">
+                        <a href="/global/" class="btn btn-default btn-more pull-left">View Global Averages</a>
+
+                        <div class="pull-right">
+                            
+                            <a href="/global/csv/" class="btn btn-file-download"><span class="format">CSV</span> Download</a>
+                            <a href="/global/img/" class="btn btn-file-download"><span class="format">JPG</span> Download</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+
+
+
+
+        <div class="container text-container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+
+                    
+                    <h2>About Netflix</h2>
+                    
+
+
+                    
+
+                        
+                            <p>
+                                Netflix is the world's leading internet entertainment service with over 183 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members can play, pause and resume watching, all without commercials or commitments.
+                            </p>
+                        
+
+
+                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ispspeedindex.netflix.com/" class="btn btn-dark">
+                        <i class="fa fa-facebook-square"></i> Share on Facebook</a>
+                    <a target="_blank" href="https://twitter.com/home?status=ispspeedindex.netflix.com/"
+                       class="btn btn-dark"><i class="fa fa-twitter"></i> Share on Twitter</a>
+
+                    <br class="visible-xs"/>
+
+                    <a target="_blank" class="fa-stack icon-dark" href="https://plus.google.com/share?url=http://ispspeedindex.netflix.com/">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                    </a>
+                    <a target="_blank" class="fa-stack icon-dark" href="https://www.linkedin.com/shareArticle?mini=true&url=http://ispspeedindex.netflix.com/&title=Netflix%20ISP%20Rankings&summary=&source=">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                    </a>
+                    <a target="_blank" class="fa-stack icon-dark" href="http://www.stumbleupon.com/submit?url=http://ispspeedindex.netflix.com/&title=Netflix%20ISP%20Rankings">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-stumbleupon fa-stack-1x fa-inverse"></i>
+                    </a>
+                    <a target="_blank" class="fa-stack icon-dark" href="http://pinterest.com/pin/create/link/?url=http://ispspeedindex.netflix.com/">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container text-center">
+                <div class="row">
+                    <h2>Our company</h2>
+                    <p><a href="/about/">How we calculate rankings</a> | <a href="http://media.netflix.com/">Media Center</a> | <a href="http://media.netflix.com/company-blog">Blog</a>
+                    | <a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a> | <a href="https://help.netflix.com/legal/privacy">Privacy</a> | <a href="https://help.netflix.com/legal/privacy#cookies">Cookie Preferences</a> </p>
+                </div>
+                <!--<div class="row small-text">
+                    <div class="col-sm-12"><p>The Netflix service and this Website are governed by our Terms of Use and Privacy Policy.</p></div>
+                </div>-->
+            </div>
+        </footer>
+
+        <!-- Cookie Disclosure -->
+        <div id="cookie-disclosure" class="clearfix" data-ip="27.6.68.76" data-lang-country-code="in-IN">
+            <p class="cookie-disclosure-message hidden-xs">
+
+                Netflix uses cookies for personalisation, to customise its online advertisements, and for other purposes.
+                    <a href="https://help.netflix.com/legal/privacy" target="_blank">Learn more</a> or <a href="https://ads.evidon.com/netflix/customlink.html?locale=in-IN" target="_blank">change your cookie preferences</a>.
+                    Netflix supports the Digital Advertising Alliance principles. By continuing to use our service, you agree to our use of cookies.
+            </p>
+            <p class="cookie-disclosure-message visible-xs">
+                We use cookies
+                (<a href="https://help.netflix.com/legal/privacy#cookies" target="_blank">why?</a>)
+
+                
+                You can <a href="https://ads.evidon.com/netflix/customlink.html?locale=in-IN" target="_blank">change cookie preferences</a>; continued site use signifies consent.
+                
+            </p>
+            <button class="btn close"><i class="fa fa-times-circle"></i> Close</button>
+        </div>
+
+<!-----------JAVASRCIPTS------------------------>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://s3.amazonaws.com/netflixisp/js/scripts.min.js"></script>
+<script src="https://s3.amazonaws.com/netflixisp/js/application.js"></script>
+
+<!-- Analytics Tracking -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70856290-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- /Analytics Tracking -->
+
+
+
+<script src="//netflixisp.s3.amazonaws.com/js/handlebars.js"></script>
+<script src="//netflixisp.s3.amazonaws.com/js/typeahead.bundle.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+      var charMap = {
+        "à": "a",
+        "á": "a",
+        "â": "a",
+        "é": "e",
+        "è": "e",
+        "ê": "e",
+        "ë": "e",
+        "É": "e",
+        "ï": "i",
+        "î": "i",
+        "ô": "o",
+        "ö": "o",
+        "û": "u",
+        "ù": "u",
+        "ü": "u",
+        "ñ": "n"
+      };
+
+      var normalize = function (input) {
+        $.each(charMap, function (unnormalizedChar, normalizedChar) {
+          var regex = new RegExp(unnormalizedChar, 'gi');
+          input = input.replace(regex, normalizedChar);
+        });
+        return input;
+      };
+
+
+        function customTokenizer(query) {
+
+            var query = normalize(query);
+
+            if (query.toLowerCase() == "us" || query.toLowerCase() == "usa"){
+                query = "United States"
+            }
+            if (query.toLowerCase() == "uk" || query.toLowerCase() == "britain" || query.toLowerCase() == "great britain"  || query.toLowerCase() == "great" ){
+                query = "United Kingdom"
+            }
+
+          return Bloodhound.tokenizers.whitespace(query);
+        }
+
+        function customDatumTokenizer(datum) {
+          console.log('datum tokenizer', datum);
+
+          return datum.tokens;
+        }
+
+        var links = [
+            
+             {name: "Argentina", tokens: ["Argentina", "Argentina"], link: "/country/argentina/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/argentina.jpg"},
+            
+             {name: "Australia", tokens: ["Australia", "Australia"], link: "/country/australia/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/australia.jpg"},
+            
+             {name: "Austria", tokens: ["Austria", "Austria"], link: "/country/austria/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/austria.jpg"},
+            
+             {name: "Belgium", tokens: ["Belgium", "Belgium"], link: "/country/belgium/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/belgium.jpg"},
+            
+             {name: "Bolivia", tokens: ["Bolivia", "Bolivia"], link: "/country/bolivia/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/bolivia.GIF"},
+            
+             {name: "Brazil", tokens: ["Brazil", "Brazil"], link: "/country/brazil/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/brazil.jpg"},
+            
+             {name: "Canada", tokens: ["Canada", "Canada"], link: "/country/canada/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/canada_SoiwodH.jpg"},
+            
+             {name: "Chile", tokens: ["Chile", "Chile"], link: "/country/chile/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/chile.jpg"},
+            
+             {name: "Colombia", tokens: ["Colombia", "Colombia"], link: "/country/colombia/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/columbia.jpg"},
+            
+             {name: "Costa Rica", tokens: ["Costa Rica", "Costa Rica"], link: "/country/costa-rica/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/costarica.jpg"},
+            
+             {name: "Denmark", tokens: ["Denmark", "Denmark"], link: "/country/denmark/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/denmark.jpg"},
+            
+             {name: "Dominican Republic", tokens: ["Dominican Republic", "Dominican Republic"], link: "/country/dominican-republic/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/dominicanrepublic.png"},
+            
+             {name: "Ecuador", tokens: ["Ecuador", "Ecuador"], link: "/country/ecuador/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/ecuador.jpg"},
+            
+             {name: "El Salvador", tokens: ["El Salvador", "El Salvador"], link: "/country/el-salvador/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/elsalvador.png"},
+            
+             {name: "Finland", tokens: ["Finland", "Finland"], link: "/country/finland/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/finland.jpg"},
+            
+             {name: "France", tokens: ["France", "France"], link: "/country/france/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/france.jpg"},
+            
+             {name: "Germany", tokens: ["Germany", "Germany"], link: "/country/germany/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/germany.jpg"},
+            
+             {name: "Greece", tokens: ["Greece", "Greece"], link: "/country/greece/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/GREC0001.GIF"},
+            
+             {name: "Guatemala", tokens: ["Guatemala", "Guatemala"], link: "/country/guatemala/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/guatemala.png"},
+            
+             {name: "Honduras", tokens: ["Honduras", "Honduras"], link: "/country/honduras/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/honduras.png"},
+            
+             {name: "Hong Kong", tokens: ["Hong Kong", "Hong Kong"], link: "/country/hong-kong/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/hongkong.png"},
+            
+             {name: "Hungary", tokens: ["Hungary", "Hungary"], link: "/country/hungary/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/HUNG0001.GIF"},
+            
+             {name: "Iceland", tokens: ["Iceland", "Iceland"], link: "/country/iceland/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/ICEL0001.GIF"},
+            
+             {name: "India", tokens: ["India", "India"], link: "/country/india/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/india_1tKtSlR.png"},
+            
+             {name: "Indonesia", tokens: ["Indonesia", "Indonesia"], link: "/country/indonesia/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/indonesia_QaCt0OZ.png"},
+            
+             {name: "Ireland", tokens: ["Ireland", "Ireland"], link: "/country/ireland/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/ireland.jpg"},
+            
+             {name: "Israel", tokens: ["Israel", "Israel"], link: "/country/israel/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/ISRA0001.GIF"},
+            
+             {name: "Italy", tokens: ["Italy", "Italy"], link: "/country/italy/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/italy.jpg"},
+            
+             {name: "Jamaica", tokens: ["Jamaica", "Jamaica"], link: "/country/jamaica/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/jamaica.jpg"},
+            
+             {name: "Japan", tokens: ["Japan", "Japan"], link: "/country/japan/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/japan.jpg"},
+            
+             {name: "Kuwait", tokens: ["Kuwait", "Kuwait"], link: "/country/kuwait/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/KUWA0001.GIF"},
+            
+             {name: "Luxembourg", tokens: ["Luxembourg", "Luxembourg"], link: "/country/luxembourg/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/luxembourgh.jpg"},
+            
+             {name: "Malaysia", tokens: ["Malaysia", "Malaysia"], link: "/country/malaysia/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/malaysia_PwTtB2T.png"},
+            
+             {name: "Mexico", tokens: ["Mexico", "Mexico"], link: "/country/mexico/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/mexico.jpg"},
+            
+             {name: "Netherlands", tokens: ["Netherlands", "Netherlands"], link: "/country/netherlands/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/netherlands.jpg"},
+            
+             {name: "New Zealand", tokens: ["New Zealand", "New Zealand"], link: "/country/new-zealand/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/new_zealand.jpg"},
+            
+             {name: "Norway", tokens: ["Norway", "Norway"], link: "/country/norway/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/norway.jpg"},
+            
+             {name: "Panama", tokens: ["Panama", "Panama"], link: "/country/panama/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/panama.jpg"},
+            
+             {name: "Paraguay", tokens: ["Paraguay", "Paraguay"], link: "/country/paraguay/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/paraguay.png"},
+            
+             {name: "Peru", tokens: ["Peru", "Peru"], link: "/country/peru/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/peru.jpg"},
+            
+             {name: "Philippines", tokens: ["Philippines", "Philippines"], link: "/country/philippines/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/philippines_Zs7oXEA.png"},
+            
+             {name: "Poland", tokens: ["Poland", "Poland"], link: "/country/poland/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/POLA0001.GIF"},
+            
+             {name: "Portugal", tokens: ["Portugal", "Portugal"], link: "/country/portugal/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/portugal.jpg"},
+            
+             {name: "Romania", tokens: ["Romania", "Romania"], link: "/country/romania/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/RMNA0001.GIF"},
+            
+             {name: "Saudi Arabia", tokens: ["Saudi Arabia", "Saudi Arabia"], link: "/country/saudi-arabia/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/SAAR0001_nVITTMC.GIF"},
+            
+             {name: "Singapore", tokens: ["Singapore", "Singapore"], link: "/country/singapore/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/singapore_gVPe0dr.png"},
+            
+             {name: "South Africa", tokens: ["South Africa", "South Africa"], link: "/country/south-africa/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/SOAF0001.GIF"},
+            
+             {name: "South Korea", tokens: ["South Korea", "South Korea"], link: "/country/south-korea/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/southkorea_szyUIC3.png"},
+            
+             {name: "Spain", tokens: ["Spain", "Spain"], link: "/country/spain/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/spain.jpg"},
+            
+             {name: "Sweden", tokens: ["Sweden", "Sweden"], link: "/country/sweden/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/sweden.jpg"},
+            
+             {name: "Switzerland", tokens: ["Switzerland", "Switzerland"], link: "/country/switzerland/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/switzerland.jpg"},
+            
+             {name: "Taiwan", tokens: ["Taiwan", "Taiwan"], link: "/country/taiwan/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/taiwan_AanAbAF.png"},
+            
+             {name: "Thailand", tokens: ["Thailand", "Thailand"], link: "/country/thailand/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/thailand_m1t9vOL.png"},
+            
+             {name: "Trinidad and Tobago", tokens: ["Trinidad and Tobago", "Trinidad and Tobago"], link: "/country/trinidad-and-tobago/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/trinidadtobago.png"},
+            
+             {name: "Turkey", tokens: ["Turkey", "Turkey"], link: "/country/turkey/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/TURK0001.GIF"},
+            
+             {name: "United Kingdom", tokens: ["United Kingdom", "United Kingdom"], link: "/country/uk/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/uk.jpg"},
+            
+             {name: "United States", tokens: ["United States", "United States"], link: "/country/us/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/us.jpg"},
+            
+             {name: "Uruguay", tokens: ["Uruguay", "Uruguay"], link: "/country/uruguay/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/uruguay.jpg"},
+            
+             {name: "Venezuela", tokens: ["Venezuela", "Venezuela"], link: "/country/venezuela/", flag: "//netflixisp.s3.amazonaws.com/media/countries/flags/venezuala.png"}
+            ];
+
+        var source = new Bloodhound({
+          datumTokenizer: customDatumTokenizer,
+          queryTokenizer: customTokenizer,
+          local: links
+        });
+
+        source.initialize();
+
+        $('#locationSearch .typeahead, #headerLocationSearch .typeahead, #bodyLocationSearch .typeahead').typeahead(null, {
+          name: 'matched-links',
+          displayKey: 'name',
+          autoselect: true,
+          source: source.ttAdapter(),
+          templates: {
+            empty: [
+              '<div class="empty-message">',
+              'No countries matching current query',
+              '</div>'
+            ].join('\n'),
+              suggestion: Handlebars.compile('<p><a href="{{link}}">{{name}}</a></p>')
+          }
+        }).bind('typeahead:select', function(e, suggestion){
+            $(this).val(suggestion.name);
+            console.log($(this));
+            $(this).parents('form:first').submit();
+        });
+
+
+
+    /* Cookies message */
+    /* Mimics the netflix.com cookies, so a user does not encounter the message more than once */
+    var cookie_bar = $('#cookie-disclosure');
+
+    if (Cookies.get('dcsa')){
+        //Do nothing
+    } else {
+        //Show the cookie bar
+        cookie_bar.show()
+    }
+
+    // If user closes cookie bar, create the cookie
+    cookie_bar.find('.close').click(function(){
+        //Cookies.set('dcsa', 'customer', { domain: '.netflix.com', expires: Infinity });  // A cookie for netflix.com is not required.
+        Cookies.set('dcsa', 'customer', { expires: Infinity });
+        cookie_bar.hide();
+    });
+
+
+
+    });
+</script>
+
+
+
+    <script src="//netflixisp.s3.amazonaws.com/js/typeahead.bundle.min.js"></script>
+    <script src="//netflixisp.s3.amazonaws.com/js/handlebars.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+
+    <script type="text/javascript">
+
+       $(document).ready(function(){
+            $(".clickable-row").click(function() {
+                window.document.location = $(this).data("href");
+            });
+            $("[data-asterisk]").click(function(e){
+                e.stopPropagation();
+                $.scrollTo( $(this).closest('.expandable-body').find('.support-content'), 200, {offset:-50});
+            })
+
+            $('a[href=#map_div]').click(function(e){
+                e.preventDefault();
+                $.scrollTo($(this).attr('href'), 500);
+            });
+        });
+
+    </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="//netflixisp.s3.amazonaws.com/js/datamaps.world.min.js"></script>
+    <script>
+        var map = new Datamap({
+            element: document.getElementById('map_div'),
+            responsive: true,
+            projection: 'mercator',
+            fills: {
+                INDEX: '#e82c2a',
+                NOINDEX: '#ffcac9',
+                defaultFill: '#ffcac9',
+                NOTAVAILABLE: '#d7dcdb',
+            },
+            data: {
+        
+            AFG: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Afganistan'
+                },
+        
+            ALA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Aland Islands'
+                },
+        
+            ALB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Albania'
+                },
+        
+            DZA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Algeria'
+                },
+        
+            ASM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'American Samoa'
+                },
+        
+            AND: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Andorra'
+                },
+        
+            AGO: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Angola'
+                },
+        
+            AIA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Anguilla'
+                },
+        
+            ATA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Antarctica'
+                },
+        
+            ARG: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.98',
+                    averageSpeed: '3.49',
+                    lowSpeed: '2.87',
+                    URL: '/country/argentina/',
+            
+                countryName: 'Argentina'
+                },
+        
+            ARM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Armenia'
+                },
+        
+            ABW: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Aruba'
+                },
+        
+            AUS: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.72',
+                    averageSpeed: '4.28',
+                    lowSpeed: '3.29',
+                    URL: '/country/australia/',
+            
+                countryName: 'Australia'
+                },
+        
+            AUT: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.94',
+                    averageSpeed: '3.76',
+                    lowSpeed: '3.01',
+                    URL: '/country/austria/',
+            
+                countryName: 'Austria'
+                },
+        
+            AZE: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Azerbaijan'
+                },
+        
+            BHS: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Bahamas'
+                },
+        
+            BHR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Bahrain'
+                },
+        
+            BGD: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Bangladesh'
+                },
+        
+            BRB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Barbados'
+                },
+        
+            BLR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Belarus'
+                },
+        
+            BEL: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.37',
+                    averageSpeed: '4.3',
+                    lowSpeed: '4.27',
+                    URL: '/country/belgium/',
+            
+                countryName: 'Belgium'
+                },
+        
+            BLZ: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Belize'
+                },
+        
+            BEN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Benin'
+                },
+        
+            BMU: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Bermuda'
+                },
+        
+            BTN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Bhutan'
+                },
+        
+            BOL: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.65',
+                    averageSpeed: '3.39',
+                    lowSpeed: '2.79',
+                    URL: '/country/bolivia/',
+            
+                countryName: 'Bolivia'
+                },
+        
+            BIH: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Bosnia and Herzegovina'
+                },
+        
+            BWA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Botswana'
+                },
+        
+            BRA: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.1',
+                    averageSpeed: '3.42',
+                    lowSpeed: '2.69',
+                    URL: '/country/brazil/',
+            
+                countryName: 'Brazil'
+                },
+        
+            VGB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'British Virgin Islands'
+                },
+        
+            BRN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Brunei Darussalam'
+                },
+        
+            BGR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Bulgaria'
+                },
+        
+            BFA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Burkina Faso'
+                },
+        
+            BDI: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Burundi'
+                },
+        
+            KHM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Cambodia'
+                },
+        
+            CMR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Cameroon'
+                },
+        
+            CAN: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.48',
+                    averageSpeed: '3.91',
+                    lowSpeed: '2.28',
+                    URL: '/country/canada/',
+            
+                countryName: 'Canada'
+                },
+        
+            CPV: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Cape Verde'
+                },
+        
+            CYM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Cayman Islands'
+                },
+        
+            CAF: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Central African Republic'
+                },
+        
+            TCD: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Chad'
+                },
+        
+            CHL: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.93',
+                    averageSpeed: '3.9',
+                    lowSpeed: '2.17',
+                    URL: '/country/chile/',
+            
+                countryName: 'Chile'
+                },
+        
+            CHN: {
+            fillKey: 'NOTAVAILABLE',
+            
+                countryName: 'China'
+                },
+        
+            CXR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Christmas Island'
+                },
+        
+            CCK: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Cocos Islands'
+                },
+        
+            COL: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.83',
+                    averageSpeed: '3.42',
+                    lowSpeed: '2.47',
+                    URL: '/country/colombia/',
+            
+                countryName: 'Colombia'
+                },
+        
+            COM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Comoros'
+                },
+        
+            COG: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Congo'
+                },
+        
+            COK: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Cook Islands'
+                },
+        
+            CRI: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.38',
+                    averageSpeed: '2.94',
+                    lowSpeed: '2.55',
+                    URL: '/country/costa-rica/',
+            
+                countryName: 'Costa Rica'
+                },
+        
+            HRV: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Croatia'
+                },
+        
+            CUB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Cuba'
+                },
+        
+            CUW: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Curaçao (NE)'
+                },
+        
+            CYP: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Cyprus'
+                },
+        
+            CZE: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Czech Republic'
+                },
+        
+            COD: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Democratic Republic of Congo'
+                },
+        
+            DNK: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.62',
+                    averageSpeed: '4.19',
+                    lowSpeed: '3.8',
+                    URL: '/country/denmark/',
+            
+                countryName: 'Denmark'
+                },
+        
+            DJI: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Djibouti'
+                },
+        
+            DMA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Dominica'
+                },
+        
+            DOM: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '2.97',
+                    averageSpeed: '2.53',
+                    lowSpeed: '1.32',
+                    URL: '/country/dominican-republic/',
+            
+                countryName: 'Dominican Republic'
+                },
+        
+            TLS: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'East Timor'
+                },
+        
+            ECU: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.0',
+                    averageSpeed: '3.09',
+                    lowSpeed: '1.95',
+                    URL: '/country/ecuador/',
+            
+                countryName: 'Ecuador'
+                },
+        
+            EGY: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Egypt'
+                },
+        
+            SLV: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.31',
+                    averageSpeed: '2.92',
+                    lowSpeed: '2.7',
+                    URL: '/country/el-salvador/',
+            
+                countryName: 'El Salvador'
+                },
+        
+            GNQ: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Equatorial Guinea'
+                },
+        
+            ERI: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Eritrea'
+                },
+        
+            EST: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Estonia'
+                },
+        
+            ETH: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Ethiopia'
+                },
+        
+            FLK: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Falkland Islands'
+                },
+        
+            FRO: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Faroe Islands'
+                },
+        
+            FSM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Federated States of Micronesia'
+                },
+        
+            FJI: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Fiji'
+                },
+        
+            FIN: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.24',
+                    averageSpeed: '4.18',
+                    lowSpeed: '4.15',
+                    URL: '/country/finland/',
+            
+                countryName: 'Finland'
+                },
+        
+            FRA: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.16',
+                    averageSpeed: '3.62',
+                    lowSpeed: '3.33',
+                    URL: '/country/france/',
+            
+                countryName: 'France'
+                },
+        
+            GUF: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'French Guiana'
+                },
+        
+            PYF: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'French Polynesia'
+                },
+        
+            ATF: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'French Southern Territories'
+                },
+        
+            GAB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Gabon'
+                },
+        
+            GMB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Gambia'
+                },
+        
+            GEO: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Georgia'
+                },
+        
+            DEU: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.58',
+                    averageSpeed: '4.35',
+                    lowSpeed: '3.91',
+                    URL: '/country/germany/',
+            
+                countryName: 'Germany'
+                },
+        
+            GHA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Ghana'
+                },
+        
+            GIB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Gibraltar'
+                },
+        
+            GRC: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.99',
+                    averageSpeed: '3.74',
+                    lowSpeed: '2.82',
+                    URL: '/country/greece/',
+            
+                countryName: 'Greece'
+                },
+        
+            GRL: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Greenland (Denmark)'
+                },
+        
+            GRD: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Grenada'
+                },
+        
+            GLP: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Guadeloupe (FR)'
+                },
+        
+            GUM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Guam'
+                },
+        
+            GTM: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.74',
+                    averageSpeed: '3.1',
+                    lowSpeed: '2.77',
+                    URL: '/country/guatemala/',
+            
+                countryName: 'Guatemala'
+                },
+        
+            GGY: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Guernsey (Baliwick of)'
+                },
+        
+            GIN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Guinea'
+                },
+        
+            GNB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Guinea-Bissau'
+                },
+        
+            GUY: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Guyana'
+                },
+        
+            GUY: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Guyana'
+                },
+        
+            HTI: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Haiti'
+                },
+        
+            VAT: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Holy See'
+                },
+        
+            HND: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.37',
+                    averageSpeed: '2.89',
+                    lowSpeed: '1.67',
+                    URL: '/country/honduras/',
+            
+                countryName: 'Honduras'
+                },
+        
+            HKG: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.68',
+                    averageSpeed: '4.17',
+                    lowSpeed: '3.79',
+                    URL: '/country/hong-kong/',
+            
+                countryName: 'Hong Kong'
+                },
+        
+            HUN: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.9',
+                    averageSpeed: '4.76',
+                    lowSpeed: '3.43',
+                    URL: '/country/hungary/',
+            
+                countryName: 'Hungary'
+                },
+        
+            ISL: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.62',
+                    averageSpeed: '4.54',
+                    lowSpeed: '3.86',
+                    URL: '/country/iceland/',
+            
+                countryName: 'Iceland'
+                },
+        
+            IND: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.86',
+                    averageSpeed: '3.12',
+                    lowSpeed: '1.79',
+                    URL: '/country/india/',
+            
+                countryName: 'India'
+                },
+        
+            IDN: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.84',
+                    averageSpeed: '3.27',
+                    lowSpeed: '2.5',
+                    URL: '/country/indonesia/',
+            
+                countryName: 'Indonesia'
+                },
+        
+            IRN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Iran'
+                },
+        
+            IRQ: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Iraq'
+                },
+        
+            IRL: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.29',
+                    averageSpeed: '3.99',
+                    lowSpeed: '3.68',
+                    URL: '/country/ireland/',
+            
+                countryName: 'Ireland'
+                },
+        
+            IMN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Isle of Man'
+                },
+        
+            ISR: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.52',
+                    averageSpeed: '4.13',
+                    lowSpeed: '2.27',
+                    URL: '/country/israel/',
+            
+                countryName: 'Israel'
+                },
+        
+            ITA: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.3',
+                    averageSpeed: '4.03',
+                    lowSpeed: '3.23',
+                    URL: '/country/italy/',
+            
+                countryName: 'Italy'
+                },
+        
+            CIV: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Ivory Coast'
+                },
+        
+            JAM: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.56',
+                    averageSpeed: '2.7',
+                    lowSpeed: '2.58',
+                    URL: '/country/jamaica/',
+            
+                countryName: 'Jamaica'
+                },
+        
+            JPN: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.18',
+                    averageSpeed: '3.18',
+                    lowSpeed: '2.47',
+                    URL: '/country/japan/',
+            
+                countryName: 'Japan'
+                },
+        
+            JEY: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Jersey (Baliwick of)'
+                },
+        
+            JOR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Jordan'
+                },
+        
+            KAZ: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Kazakhstan'
+                },
+        
+            KEN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Kenya'
+                },
+        
+            KIR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Kiribati'
+                },
+        
+            KWT: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.99',
+                    averageSpeed: '3.58',
+                    lowSpeed: '2.89',
+                    URL: '/country/kuwait/',
+            
+                countryName: 'Kuwait'
+                },
+        
+            KGZ: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Kyrgyzstan'
+                },
+        
+            LAO: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Lao'
+                },
+        
+            LVA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Latvia'
+                },
+        
+            LBN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Lebanon'
+                },
+        
+            LSO: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Lesotho'
+                },
+        
+            LBR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Liberia'
+                },
+        
+            LBY: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Libya'
+                },
+        
+            LIE: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Liechtenstein'
+                },
+        
+            LTU: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Lithuania'
+                },
+        
+            LUX: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '5.1',
+                    averageSpeed: '4.53',
+                    lowSpeed: '4.37',
+                    URL: '/country/luxembourg/',
+            
+                countryName: 'Luxembourg'
+                },
+        
+            MAC: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Macau'
+                },
+        
+            MKD: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Macedonia'
+                },
+        
+            MDG: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Madagascar'
+                },
+        
+            MWI: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Malawi'
+                },
+        
+            MYS: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.16',
+                    averageSpeed: '3.78',
+                    lowSpeed: '3.77',
+                    URL: '/country/malaysia/',
+            
+                countryName: 'Malaysia'
+                },
+        
+            MDV: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Maldives'
+                },
+        
+            MLI: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Mali'
+                },
+        
+            MLT: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Malta'
+                },
+        
+            MHL: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Marshall Islands'
+                },
+        
+            MTQ: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Martinique (FR)'
+                },
+        
+            MRT: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Mauritania'
+                },
+        
+            MUS: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Mauritius'
+                },
+        
+            MYT: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Mayotte'
+                },
+        
+            MEX: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.33',
+                    averageSpeed: '3.46',
+                    lowSpeed: '3.28',
+                    URL: '/country/mexico/',
+            
+                countryName: 'Mexico'
+                },
+        
+            FSM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Micronesia'
+                },
+        
+            MDA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Moldova'
+                },
+        
+            MCO: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Monaco'
+                },
+        
+            MNG: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Mongolia'
+                },
+        
+            MNE: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Montenegro'
+                },
+        
+            MSR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Montserrat (UK)'
+                },
+        
+            MAR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Morocco'
+                },
+        
+            MOZ: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Mozambique'
+                },
+        
+            MMR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Myanmar'
+                },
+        
+            NAM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Namibia'
+                },
+        
+            NRU: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Nauru'
+                },
+        
+            NPL: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Nepal'
+                },
+        
+            NLD: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.64',
+                    averageSpeed: '4.52',
+                    lowSpeed: '3.85',
+                    URL: '/country/netherlands/',
+            
+                countryName: 'Netherlands'
+                },
+        
+            NCL: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'New Caledonia'
+                },
+        
+            NZL: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.49',
+                    averageSpeed: '4.1',
+                    lowSpeed: '3.93',
+                    URL: '/country/new-zealand/',
+            
+                countryName: 'New Zealand'
+                },
+        
+            NIC: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Nicaragua'
+                },
+        
+            NER: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Niger'
+                },
+        
+            NGA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Nigeria'
+                },
+        
+            NIU: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Niue'
+                },
+        
+            MNP: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Northern Mariana Islands'
+                },
+        
+            PRK: {
+            fillKey: 'NOTAVAILABLE',
+            
+                countryName: 'North Korea'
+                },
+        
+            NOR: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.61',
+                    averageSpeed: '4.4',
+                    lowSpeed: '3.95',
+                    URL: '/country/norway/',
+            
+                countryName: 'Norway'
+                },
+        
+            OMN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Oman'
+                },
+        
+            PAK: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Pakistan'
+                },
+        
+            PLW: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Palau'
+                },
+        
+            PSE: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Palestine'
+                },
+        
+            PAN: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.72',
+                    averageSpeed: '3.58',
+                    lowSpeed: '2.71',
+                    URL: '/country/panama/',
+            
+                countryName: 'Panama'
+                },
+        
+            PNG: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Papua New Guinea'
+                },
+        
+            PRY: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.52',
+                    averageSpeed: '3.24',
+                    lowSpeed: '1.33',
+                    URL: '/country/paraguay/',
+            
+                countryName: 'Paraguay'
+                },
+        
+            PER: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.89',
+                    averageSpeed: '3.78',
+                    lowSpeed: '3.84',
+                    URL: '/country/peru/',
+            
+                countryName: 'Peru'
+                },
+        
+            PHL: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.59',
+                    averageSpeed: '2.77',
+                    lowSpeed: '1.33',
+                    URL: '/country/philippines/',
+            
+                countryName: 'Philippines'
+                },
+        
+            PCN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Pitcairn Island'
+                },
+        
+            POL: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.68',
+                    averageSpeed: '3.68',
+                    lowSpeed: '2.44',
+                    URL: '/country/poland/',
+            
+                countryName: 'Poland'
+                },
+        
+            PRT: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '5.02',
+                    averageSpeed: '3.76',
+                    lowSpeed: '3.61',
+                    URL: '/country/portugal/',
+            
+                countryName: 'Portugal'
+                },
+        
+            PRI: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Puerto Rico'
+                },
+        
+            QAT: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Qatar'
+                },
+        
+            REU: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Reunion Island'
+                },
+        
+            ROU: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.74',
+                    averageSpeed: '4.53',
+                    lowSpeed: '2.94',
+                    URL: '/country/romania/',
+            
+                countryName: 'Romania'
+                },
+        
+            RUS: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Russian Federation'
+                },
+        
+            RWA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Rwanda'
+                },
+        
+            WSM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Samoa'
+                },
+        
+            STP: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Sao Tome and Principe'
+                },
+        
+            SAU: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.79',
+                    averageSpeed: '3.45',
+                    lowSpeed: '3.21',
+                    URL: '/country/saudi-arabia/',
+            
+                countryName: 'Saudi Arabia'
+                },
+        
+            SEN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Senegal'
+                },
+        
+            SRB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Serbia'
+                },
+        
+            SYC: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Seychelles'
+                },
+        
+            SLE: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Sierra Leone'
+                },
+        
+            SGP: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.51',
+                    averageSpeed: '4.13',
+                    lowSpeed: '4.18',
+                    URL: '/country/singapore/',
+            
+                countryName: 'Singapore'
+                },
+        
+            SXM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Sint Maarten (NE)'
+                },
+        
+            SVK: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Slovakia'
+                },
+        
+            SVN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Slovenia'
+                },
+        
+            SLB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Solomon Islands'
+                },
+        
+            SOM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Somalia'
+                },
+        
+            ZAF: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.23',
+                    averageSpeed: '3.0',
+                    lowSpeed: '1.93',
+                    URL: '/country/south-africa/',
+            
+                countryName: 'South Africa'
+                },
+        
+            KOR: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.94',
+                    averageSpeed: '3.23',
+                    lowSpeed: '2.25',
+                    URL: '/country/south-korea/',
+            
+                countryName: 'South Korea'
+                },
+        
+            SSD: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'South Sudan'
+                },
+        
+            ESP: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.79',
+                    averageSpeed: '4.3',
+                    lowSpeed: '3.44',
+                    URL: '/country/spain/',
+            
+                countryName: 'Spain'
+                },
+        
+            LKA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Sri Lanka'
+                },
+        
+            BLM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'St. Barthélemy (FR)'
+                },
+        
+            KNA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'St. Kitts and Nevis'
+                },
+        
+            LCA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'St. Lucia'
+                },
+        
+            MAF: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'St. Martin (Collectivity of)(FR)'
+                },
+        
+            VCT: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'St. Vincent and the Grenadines'
+                },
+        
+            SDN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Sudan'
+                },
+        
+            SUR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Suriname'
+                },
+        
+            SWZ: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Swaziland'
+                },
+        
+            SWE: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.64',
+                    averageSpeed: '4.34',
+                    lowSpeed: '3.4',
+                    URL: '/country/sweden/',
+            
+                countryName: 'Sweden'
+                },
+        
+            CHE: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '5.28',
+                    averageSpeed: '4.74',
+                    lowSpeed: '4.27',
+                    URL: '/country/switzerland/',
+            
+                countryName: 'Switzerland'
+                },
+        
+            SYR: {
+            fillKey: 'NOTAVAILABLE',
+            
+                countryName: 'Syria'
+                },
+        
+            TWN: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.64',
+                    averageSpeed: '3.51',
+                    lowSpeed: '2.69',
+                    URL: '/country/taiwan/',
+            
+                countryName: 'Taiwan'
+                },
+        
+            TJK: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Tajikstan'
+                },
+        
+            TZA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Tanzania'
+                },
+        
+            THA: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.61',
+                    averageSpeed: '3.94',
+                    lowSpeed: '2.66',
+                    URL: '/country/thailand/',
+            
+                countryName: 'Thailand'
+                },
+        
+            TCA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'The Turks and Caicos Islands (UK)'
+                },
+        
+            TLS: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Timor-Leste'
+                },
+        
+            TGO: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Togo'
+                },
+        
+            TKL: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Tokelau'
+                },
+        
+            TON: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Tonga'
+                },
+        
+            TTO: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.94',
+                    averageSpeed: '3.69',
+                    lowSpeed: '2.31',
+                    URL: '/country/trinidad-and-tobago/',
+            
+                countryName: 'Trinidad and Tobago'
+                },
+        
+            TUN: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Tunisia'
+                },
+        
+            TUR: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.83',
+                    averageSpeed: '3.47',
+                    lowSpeed: '3.26',
+                    URL: '/country/turkey/',
+            
+                countryName: 'Turkey'
+                },
+        
+            TKM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Turkmenistan'
+                },
+        
+            TUV: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Tuvalu'
+                },
+        
+            UGA: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Uganda'
+                },
+        
+            UKR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Ukraine'
+                },
+        
+            ARE: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'United Arab Emirates'
+                },
+        
+            GBR: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.68',
+                    averageSpeed: '4.44',
+                    lowSpeed: '3.48',
+                    URL: '/country/uk/',
+            
+                countryName: 'United Kingdom'
+                },
+        
+            USA: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '4.73',
+                    averageSpeed: '4.44',
+                    lowSpeed: '3.49',
+                    URL: '/country/us/',
+            
+                countryName: 'United States'
+                },
+        
+            URY: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '3.12',
+                    averageSpeed: '3.12',
+                    lowSpeed: '3.12',
+                    URL: '/country/uruguay/',
+            
+                countryName: 'Uruguay'
+                },
+        
+            VIR: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'US Virgin Islands'
+                },
+        
+            UZB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Uzbekistan'
+                },
+        
+            VUT: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Vanuatu'
+                },
+        
+            VEN: {
+            fillKey: 'INDEX',
+                    noIndex: false,
+                    highSpeed: '1.66',
+                    averageSpeed: '1.03',
+                    lowSpeed: '0.97',
+                    URL: '/country/venezuela/',
+            
+                countryName: 'Venezuela'
+                },
+        
+            VNM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Vietnam'
+                },
+        
+            WLF: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Wallis and Futuna Islands'
+                },
+        
+            PSE: {
+            fillKey: 'NOTAVAILABLE',
+            
+                countryName: 'West Bank'
+                },
+        
+            ESH: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Western Sahara'
+                },
+        
+            YEM: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Yemen'
+                },
+        
+            ZMB: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Zambia'
+                },
+        
+            ZWE: {
+            fillKey: 'NOINDEX', noIndex: true,
+            
+                countryName: 'Zimbabwe'
+                }
+        
+
+            // Puerto Rican Override
+            , PRI: {
+                noIndex: false,
+                fillKey: 'INDEX',
+                specialMessage: "As a US overseas territory, Puerto Rican providers are detailed on the expanded USA list. Click to view.",
+                URL: '/country/us/?small=True',
+                countryName: 'Puerto Rico',
+            }
+
+            },
+            geographyConfig: {
+                borderColor: 'rgba(0,0,0,0.3)',
+                borderWidth: 0.75,
+                highlightOnHover: false,
+
+                popupTemplate: function(geo, data) {
+
+                    console.log(geo.properties, data);
+
+                    if (data) {
+                        if (data.specialMessage) {
+                            return [
+                               "<div class='google-visualization-tooltip "+ geo.id +"'>" +
+                                "<h3>" + data.countryName + "</h3>" +
+                                "<table class='map-data-table'><thead><tr>" +
+                                "<th>" + data.specialMessage + "</th>" +
+                                "</tr>" +
+                                "</table>" +
+                                "</div>"].join('');
+                        }
+                        else if (data.noIndex == false) {
+                            return [
+                                "<div class='google-visualization-tooltip "+ geo.id +"'>" +
+                                "<h3>" + data.countryName + "</h3>" +
+                                "<table class='map-data-table'><thead><tr>" +
+                                "<th>Speed</th>" +
+                                "<th>Mbps</th>" +
+                                "</tr></thead><tbody>" +
+                                "<tr class='high'><td>High</td><td>" + data.highSpeed + "</td></tr>" +
+                                "<tr class='average'><td>Average</td><td>" + data.averageSpeed + "</td></tr>" +
+                                "<tr class='low'><td>Low</td><td>" + data.lowSpeed + "</td></tr>" +
+                                "</tbody></table>" +
+                                "</div>"].join('');
+                        } else if (data.noIndex == true) {
+                            return [
+                                "<div class='google-visualization-tooltip "+ geo.id +"'>" +
+                                "<h3>" + data.countryName + "</h3>" +
+                                "<table class='map-data-table'><thead><tr>" +
+                                "<th>Not currently indexed</th>" +
+                                "</tr>" +
+                                "</table>" +
+                                "</div>"].join('');
+                        }
+                    }
+                }
+
+            },
+            done: function(datamap) {
+                datamap.svg.selectAll('.datamaps-subunit').on('click', function(geography, data) {
+                    if (map.options.data[geography.id]) {
+                        if (map.options.data[geography.id].noIndex == false) {
+                            window.location = (map.options.data[geography.id].URL);
+                        }
+                    }
+                });
+            }
+        });
+
+        window.addEventListener('resize', function() {
+            map.resize();
+        });
+
+        $('.hot-spot').hover(function(e){
+            // Hover in
+            //console.log($(this).data());
+
+            var popup = $('<div />').addClass('google-visualization-tooltip').attr('id', $(this).data('cid') );
+
+            popup.css('top', e.pageY+10).css('left', e.pageX+10);
+
+            if ($(this).data('highSpeed')) {
+                popup.html(
+                        "<h3>" + $(this).data('name') + "</h3>" +
+                        "<table class='map-data-table'><thead><tr>" +
+                        "<th>Speed</th>" +
+                        "<th>Mbps</th>" +
+                        "</tr></thead><tbody>" +
+                        "<tr class='high'><td>High</td><td>" + $(this).data('highSpeed') + "</td></tr>" +
+                        "<tr class='average'><td>Average</td><td>" + $(this).data('averageSpeed') + "</td></tr>" +
+                        "<tr class='low'><td>Low</td><td>" + $(this).data('lowSpeed') + "</td></tr>" +
+                        "</tbody></table>");
+            } else {
+                popup.html(
+                        "<h3>" + $(this).data('name') + "</h3>" +
+                        "<table class='map-data-table'><thead><tr>" +
+                        "<th>" + $(this).data('description') + "</th>" +
+                        "</tr>" +
+                        "</table>" +
+                        "</div>"
+                )
+            }
+
+           $('body').append(popup);
+
+        }, function(e){
+            // Hover Out
+            $('#'+ $(this).data('cid')).remove();
+
+        });
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+https://smarttools.ssi.samsung.com/
+
+> GET / HTTP/1.1
+> Host: smarttools.ssi.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: no-cache, no-store
+< Content-Type: text/html; charset=utf-8
+< Expires: -1
+< Location: /LoginPage.aspx?ReturnUrl=https://smarttools.ssi.samsung.com/default.aspx
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=1yy2ycymm0x4og4o5ogurvss; path=/; HttpOnly; SameSite=Lax
+< Pragma: no-cache
+< X-Aspnet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Date: Wed, 10 Jun 2020 05:37:09 GMT
+< Content-Length: 204
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="%2fLoginPage.aspx%3fReturnUrl%3dhttps%3a%2f%2fsmarttools.ssi.samsung.com%2fdefault.aspx">here</a>.</h2>
+</body></html>

@@ -1,0 +1,32 @@
+https://rpass.apple.com/
+
+> GET / HTTP/1.1
+> Host: rpass.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Redirect
+< Date: Thu, 30 Apr 2020 21:40:09 GMT
+< Via: http/1.1 sgsin3-edge-bx-001.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Cache-Control: no-store
+< Location: https://apple.com/filenotfound
+< Content-Length: 257
+< Server: ATS/8.0.7
+< Content-Type: text/html
+< Content-Language: en
+< Cdnuuid: af1db9b2-ebec-43e9-bea9-95c70051ef81-3169390430
+< X-Cache: none
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.
+</B></FONT>
+<HR>
+</BODY>

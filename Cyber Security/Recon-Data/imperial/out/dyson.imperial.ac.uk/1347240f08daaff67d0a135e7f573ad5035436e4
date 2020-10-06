@@ -1,0 +1,23 @@
+http://dyson.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: dyson.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sat, 18 Jul 2020 13:54:32 GMT
+< Server: Apache
+< Location: https://dyson.imperial.ac.uk/
+< Content-Length: 307
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: BIGipServerPOOL-LINUXFARM2011-80-v4=!5YJPwxp4wn0BMm0w9zyYKRlaA4tr3odhAYDGWsxTVe/Py5jx0LR+yvQYzX4g0wpLRO1PfkkWtJSVexHIEmIFGLbC6kGqMx1+Cnu0Ug8BoA==; path=/; Httponly
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://dyson.imperial.ac.uk/">here</a>.</p>
+<hr>
+<address>Apache Server at dyson.imperial.ac.uk Port 80</address>
+</body></html>

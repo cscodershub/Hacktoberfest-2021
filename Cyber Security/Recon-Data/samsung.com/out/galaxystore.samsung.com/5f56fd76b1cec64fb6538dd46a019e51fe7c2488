@@ -1,0 +1,15 @@
+http://galaxystore.samsung.com/
+
+> GET / HTTP/1.1
+> Host: galaxystore.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Location: https://galaxystore.samsung.com/
+< Via: 1.0 jpin44:5 (W)
+< X-Px: -
+< X-Ws-Request-Id: 5ee07175_PSxjpSin1un220_52699-17990
+< Date: Wed, 10 Jun 2020 05:36:53 GMT
+< Content-Length: 0
+< Server: PWS/8.3.1.0.8
+

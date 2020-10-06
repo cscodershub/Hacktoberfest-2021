@@ -1,0 +1,65 @@
+https://secure-new.belux.bmw.de/
+
+> GET / HTTP/1.1
+> Host: secure-new.belux.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Thu, 27 Feb 2020 13:00:58 GMT
+< Content-Length: 2383
+< X-Webkit-Csp: default-src 'self'
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 11 Aug 2020 04:51:15 GMT
+< Content-Type: text/html
+< Etag: "6d14af46dedd51:0"
+< X-Powered-By: ASP.NET
+< Server: Microsoft-IIS/10.0
+< Accept-Ranges: bytes
+< X-Content-Type-Options: nosniff
+< X-Content-Security-Policy: default-src 'self'
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31556926;includeSubDomains
+< Content-Security-Policy: default-src 'self'
+
+<html>
+
+<head>
+<title>BMW</title>
+<noscript>
+<meta http-equiv="refresh" content="2; URL=http://www.bmw.be">
+</noscript>
+<script language="JavaScript">
+<!--
+var sTargetURL = "http://www.bmw.be";
+
+function doRedirect()
+{
+    window.location.href = sTargetURL
+}
+
+//-->
+</script>
+
+<script language="JavaScript1.1">
+<!--
+function doRedirect()
+{
+    window.location.replace( sTargetURL );
+}
+
+doRedirect();
+
+//-->
+</script>
+
+</head>
+
+<body onload="doRedirect()">
+
+<p>Loading</p>
+<p>In approx. 2 seconds the redirection target page should load.<br>
+If it doesn't please  <a href="http://www.bmw.be">click here</a>.</p>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </body>
+
+</html>

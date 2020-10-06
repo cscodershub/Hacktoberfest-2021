@@ -1,0 +1,32 @@
+https://account.eu-west-1.origin.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: account.eu-west-1.origin.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.proxy.execution-Time: 123
+< Set-Cookie: flwssn=2d14bd27-642a-45fa-b2e6-5245327623b2; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:36 GMT
+< Set-Cookie: clSharedContext=63206dbd-5470-424e-ac8b-eed0f887d4cf; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEOH01agEswZc83H0_FdyII5AukNJYy7tDlXLkxUhJEKoQBfNT75kPJsbWfKH1-JCPb2UZ2uSEoR3KYuz7ncZ_7Jsfmo09E4kh5-0QdV6gOjorw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABSO3xzKgQMC4rUgO8MtftIT0kchVyKnaGk.%26dt%3D1592372076749; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:36 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEKKxxDplGQyaNiFfagEXmzKA8Lp3LTHO474mpyxWyz5aocFM9j7O8OsV5f2jh3yx5p6-3WNDZyaBr9QMmfEPX3CdNZ5WSc2fKECTANrd3LHuzIN4eG-DPwbysGC0BmG0YHe1BqmcWpl6pXE4EoKHCOVnV8lgF09PKTbNj8T9h1VjgZfUPPAN2PJnmrH_p6TEm5aR_Vb4vrfjno7_2BDCLwC-lHamESwVDYN0XG2pVJB-yRLjaQmg59phtfxIrgJEKFvYBSR_0VN7IIC_nZO2jpFf21pK_sdhW2-tSDEhy88shf8PDWWbJtvn7Ug_PAxcTYo0o42CGlTTWEbAgTwLCCQ9KA..%26bt%3Ddev%26mac%3DAQEAEAABABSkpBoY7DlU6c_UIB0s1GQ7PS8yGWvGk_w.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:36 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=d77c36a4-4aa8-470d-afcd-d5854465f67e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:36 GMT; Path=/; Domain=.netflix.com
+< X-Originating-Url: https://account.eu-west-1.origin.prodaa.netflix.com/
+< Cache-Control: no-cache, no-store
+< Date: Wed, 17 Jun 2020 05:34:36 GMT
+< Location: https://account.eu-west-1.origin.prodaa.netflix.com/in/
+< X-Content-Type-Options: nosniff
+< Edge-Control: no-cache, no-store
+< Expires: 0
+< Server: nq_website_core-prod-release 275393ee-26cd-4da2-9a34-44ea16efac41
+< X-Netflix.nfstatus: 1_1
+< Content-Length: 0
+< Pragma: no-cache
+< Via: 1.1 i-04ae9b200bc84a9a8 (eu-west-1)
+< X-Frame-Options: DENY
+

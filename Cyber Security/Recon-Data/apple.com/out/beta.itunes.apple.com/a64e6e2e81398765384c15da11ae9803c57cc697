@@ -1,0 +1,184 @@
+https://beta.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: beta.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Xss-Protection: 1; mode=block
+< X-Content-Security-Policy: script-src 'self' *.apple.com
+< X-Cache: TCP_MISS from a23-212-50-103.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Set-Cookie: dc=mr;Version=1;Domain=.itunes.apple.com;Path=/;Max-Age=86400
+< Server: daiquiri/3.0.0
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Date: Thu, 30 Apr 2020 21:29:43 GMT
+< Content-Type: text/html;charset=utf-8
+< X-Daiquiri-Instance: daiquiri:15887002:mr85p00it-hyhk04103901:7987:20E24
+< X-Daiquiri-Instance: daiquiri:18493001:mr85p00it-hyhk03154801:7987:20E24
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Vary: Accept-Encoding
+< X-Apple-Jingle-Correlation-Key: NLGJNRTN7UGDQQOPKFGQ5BGDFQ
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
+
+    <!--[if lt IE 9]>
+        <script src="/scripts/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="https://www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="/styles/interstitial-main.css" />
+
+    <title>TestFlight - Apple</title>
+    <meta name="description" content="Using TestFlight is a great way to help developers test beta versions of their apps." />
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="apple-itunes-app" content="app-id=899247664, app-argument=" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TestFlight - Apple" />
+    <meta name="twitter:description" content="Using TestFlight is a great way to help developers test beta versions of their apps." />
+    <meta name="twitter:image" content="https://testflight.apple.com/images/testflight-1200.jpg" />
+    <meta property="og:title" content="TestFlight - Apple" />
+    <meta property="og:description" content="Using TestFlight is a great way to help developers test beta versions of their apps." />
+    <meta property="og:image" content="https://testflight.apple.com/images/testflight-1200.jpg" />
+    <meta property="og:image:secure_url" content="https://testflight.apple.com/images/testflight-1200.jpg" />
+    <link rel="apple-touch-icon" href="https://testflight.apple.com/images/testflight-1200.jpg" />
+
+</head>
+
+<body id="overview">
+
+    <main id="main" class="main" role="main">
+        <section class="section-header">
+            <div class="section-content">
+                <div class="row">
+                    <div class="column large-centered large-10 small-12 text-center">
+                            <div class="title-wrap">
+                                <div class="ac-logo"></div>
+                            </div>
+                                <div class="divider" style="margin-top:0;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <article>
+            <section class="section section-hero">
+                <div class="section-content">
+                    <div class="row">
+                        <header class="column large-centered large-10 small-12 text-center">
+                            <figure class="icon-hero center"></figure>
+                            
+                            <h1 class="typography-hero-headline">Testing Apps with TestFlight</h1>
+                            <p class="typography-intro">Help developers test beta versions of their apps using the <span class="nowrap">TestFlight app</span>. Download TestFlight on the <span class="nowrap">App Store</span> for iPhone, iPad, and <span class="nowrap">Apple TV.</span></p>
+                        </header>
+                    </div>
+                </div>
+            </section>
+
+                <section class="section section-getting-started" id="getting-started">
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="column large-centered large-10 small-12">
+<h2 class="typography-subsection-headline">Getting Started</h2><p>To test beta versions of apps using TestFlight, you’ll need to accept an email or public link invitation from the developer and have a device that you can use to test.</p><p>Members of the developer’s team in <span class="nowrap">App Store Connect</span> can be added and will have access to all builds of the app.</p><p>All other invited testers will have access to builds that the developer makes available to them. A developer can invite you to test with an email or a public link invitation.</p><p><strong>Required platforms.</strong></p><ul><li>iOS apps: iPhone, iPad, or <span class="nowrap">iPod touch</span> running <span class="nowrap">iOS 8</span> or later. iMessage apps and sticker packs require <span class="nowrap">iOS 10</span> or later.</li><li>tvOS apps: <span class="nowrap">Apple TV</span> running <span class="nowrap">tvOS 9</span> or later.</li><li>watchOS apps: <span class="nowrap">Apple Watch</span> running <span class="nowrap">watchOS 2</span> or later.</li></ul><p>TestFlight is not available for Mac apps.</p></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section section-installaton" id="installaton">
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="column large-centered large-10 small-12">
+<h2 class="typography-subsection-headline">Installation</h2><p>First, install the TestFlight app on the device you’ll use for testing. Then, accept your email or follow the public link invitation to install the beta app. You can install the beta app on up to 30 devices.</p><p id="installing-ios"><strong>Installing a Beta iOS App from an Email or Public Link Invitation</strong></p><ol><li><a href="https://itunes.apple.com/us/app/testflight/id899247664?mt=8">Install TestFlight</a> on the iOS device that you’ll use for testing.</li><li>Open your invitation email or tap on the public link on your iOS device.</li><li>Tap View in TestFlight or Start Testing; or tap Install or Update for the app you want to test.</li></ol><p id="installing-tvos-email"><strong>Installing a Beta tvOS App from an Email Invitation</strong></p><ol><li><a href="https://itunes.apple.com/us/app/testflight/id899247664?mt=8">Install TestFlight</a> on <span class="nowrap">Apple TV.</span></li><li>Open your invitation email on a mobile device or computer.</li><li>Click or tap Start Testing. You will be taken to a webpage with a redemption code.</li><li>Open TestFlight on <span class="nowrap">Apple TV.</span></li><li>Go to Redeem and enter the redemption code.</li></ol><p id="installing-tvos-public-link"><strong>Installing a Beta tvOS App from a Public Link Invitation</strong></p><ol><li><a href="https://itunes.apple.com/us/app/testflight/id899247664?mt=8">Install TestFlight</a> on an iOS device and <span class="nowrap">Apple TV</span> where you can sign in to the same <span class="nowrap">App Store</span> account.</li><li>Tap the public link on your iOS device.</li><li>Tap Accept for the app you want to test.</li><li>Open TestFlight on <span class="nowrap">Apple TV</span>. You must be signed in to the same <span class="nowrap">App Store</span> account you used on your iOS device.</li><li>Install the app you want to test.</li></ol><p id="installing-watchos"><strong>Installing a Beta watchOS App from an Email or Public Link Invitation</strong></p><ol><li><a href="https://itunes.apple.com/us/app/testflight/id899247664?mt=8">Install TestFlight</a> on the iOS device that you’ll use for testing.</li><li>Open your invitation email or tap on the public link on your iOS device.</li><li>Tap View in TestFlight or Start Testing.</li><li>If you are testing an app that’s for <span class="nowrap">Apple Watch</span> only, tap Install or Update from the Apps list.</li><li>If the app is an iOS app that includes an <span class="nowrap">Apple Watch</span> app, install the iOS app first, then from the App Details page under the Information section, you will see a Watch section. If the <span class="nowrap">Apple Watch</span> app is available and compatible with your watch, you’ll see a button to install it.</li></ol><p>If you already have the <span class="nowrap">App Store</span> version of the app installed on your device, the beta version of the app will replace that version. When you’ve downloaded the beta app, you’ll see an orange dot next to its name that identifies it as a beta.</p><p>When you accept a TestFlight invitation through a public link, your name and email address are not visible to the developer. However, they’ll be able to see your number of sessions and crashes, the day you installed their app, and the latest installed version.</p><p><strong>iMessage apps.</strong> If you’re testing an iOS app that includes an iMessage app, launch the beta app from the home screen as you would with any app. If you’re testing an app that’s for iMessage only or a sticker pack, you can launch it from inside Messages.</p></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section section-testing" id="testing">
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="column large-centered large-10 small-12">
+<h2 class="typography-subsection-headline">Testing</h2><p>Each build is available to test for up to 90 days, starting from the day the developer uploads their build. You can see how many days you have left for testing under the app name in TestFlight. TestFlight will notify you each time a new build is available and will include instructions on what you need to test.</p><p>All in-app purchases are free during the testing period.</p><h3 id="testing-multiple-builds" class="typography-label">Testing Multiple Builds</h3><p>When viewing an app in TestFlight, you will see the latest available build by default. You can still test all other builds that are available to you.</p><ol><li>Go to the app’s page in TestFlight.</li><li>Tap on Previous Builds.</li><li>Tap and install the build you want to test. The one you select will replace what you currently have installed.</li></ol></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section section-giving-feedback" id="giving-feedback">
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="column large-centered large-10 small-12">
+<h2 class="typography-subsection-headline">Giving Feedback</h2><p>While testing a beta version of an app, you can send the developer feedback about issues you experience or make suggestions for improvements based on the “What to Test” content. When you submit feedback through TestFlight, this information is also provided to Apple as part of the TestFlight service.</p>
+<h3 id="feedback-ios-apps" class="typography-label">iOS Apps</h3><p>If your device is running <span class="nowrap">iOS 12.4</span> or earlier, tap <span class="nowrap">Send Feedback</span> to compose an email to the developer. The feedback email contains detailed information about the app and about your iOS device. You can also provide additional information, such as necessary screenshots and steps required to reproduce any issues. Your email address will be visible to the developer when you send email feedback through the TestFlight app.</p><p>If your device is running <span class="nowrap">iOS 13 or later</span>, you can send feedback through the TestFlight app or directly from the beta app by taking a screenshot, and you can report a crash after it occurs. If you were invited to test an app with a public link, you can choose not to provide your email address or other personal information to the developer.  Apple will also receive all feedback you submit and will be able to tie it to your Apple ID.</p>
+<p id="feedback-testflight"><strong>Sending Feedback through the TestFlight App <span class="nowrap">(iOS 13 or later)</span></strong></p><ol><li>Open the TestFlight app on your device.</li><li>From the Apps list, tap the app.</li><li>Tap Send Beta Feedback.</li><li>In the share dialog, tap <span class="nowrap">Include Screenshot</span> to choose a screenshot. If you don’t want to send an attachment, tap <span class="nowrap">Don't Include Screenshot.</span></li><li>Add your comments (up to <span class="nowrap">2,000</span> characters), and optionally enter your email address if you were invited with a public link.</li><li>Tap Submit.</li></ol>
+<p id="feedback-beta-app"><strong>Sending Feedback through the Beta App <span class="nowrap">(iOS 13 or later)</span></strong></p><p>When you take a screenshot while testing a beta app, you can send the screenshot with feedback directly to the developer without leaving the app. Developers can opt out of receiving this type of feedback, so this option is only available if the developer has it enabled.</p><ol><li>Take a screenshot on your device. For details, see <a href="https://support.apple.com/en-us/HT200289">How to take a screenshot on your iPhone, iPad, and iPod touch</a>.</li><li>A thumbnail of your screenshot appears in the lower-left corner of your device. Tap the thumbnail and, if needed, add drawings and text with <a href="https://support.apple.com/kb/HT206885">Markup</a>. Then tap on the Done button.</li><li>Tap the <span class="nowrap">Share Beta Feedback</span>.</li><li>Optionally, you can add comments (up to <span class="nowrap">2,000</span> characters), and your email address if you were invited with a public link.</li><li>Tap Submit.</li></ol>
+<p id="sending-crash-information"><strong>Sending Crash Information <span class="nowrap">(iOS 13 or later)</span></strong></p><p>If you experience a crash while testing a beta app, you’ll see an alert asking if you want to send crash details to the developer through TestFlight. Developers can opt out of receiving this type of feedback, so this option is only available if the developer has it enabled.</p><p>When the crash alert displays, tap Share, add any additional comments, and tap Submit.</p>
+<p id="contacting-developer"><strong>Contacting the Developer</strong></p><p>If you need to contact the developer while you’re testing their beta app for reasons other than feedback, you can view their email address. From an app’s page in the TestFlight app, tap App Details from the Information section to view the developer’s email address.</p>
+<h3 id="feedback-tvos-apps" class="typography-label">tvOS Apps</h3><p>To provide feedback on a tvOS app, go to the Information section on the app’s page in TestFlight to find the developer’s email address and send them an email. You can also provide additional information, such as necessary screenshots and steps required to reproduce any issues. Your email address will be visible to the developer when you send email feedback through the TestFlight app.</p></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section section-after-testing" id="after-testing">
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="column large-centered large-10 small-12">
+<h2 class="typography-subsection-headline">After Testing</h2><p>When the testing period is over, you will no longer be able to open the beta build. To install the <span class="nowrap">App Store</span> version of the app, download or purchase the app from the <span class="nowrap">App Store</span>. In-app purchases are free only during beta testing, and any in-app purchases made during testing will not carry over to <span class="nowrap">App Store</span> versions.</p></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section section-privacy-data" id="privacy-data">
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="column large-centered large-10 small-12">
+<h2 class="typography-subsection-headline">Your Privacy and Data</h2><p>When you test beta apps with TestFlight, Apple will collect and send crash logs, your personal information such as name and email address, usage information, and any feedback you submit to the developer. Information that is emailed to the developer directly is not shared with Apple. The developer is permitted to use this information only to improve their App and is not permitted to share it with a third party. Apple may use this information to improve our products and services.</p><p>Apple retains TestFlight data for one year. To view and manage your data with Apple, including your data that is sent to Apple through TestFlight, visit <a href="https://privacy.apple.com">Data and Privacy</a>. For more information about the developer’s handling of your data, you should consult their privacy policy. For requests to access or delete your TestFlight data, you should contact the developer directly.</p>
+<h3 id="information-shared-feedback" class="typography-label">Information Shared by Using TestFlight</h3><p>The following data is collected by Apple and shared with the developer when you use TestFlight. If you accepted an invitation through a public link only, your email address and name are not visible to the developer.</p><div class="table-wrapper"><table><thead><tr><th style="width: 150px;">Data</th><th>Description</th></tr></thead><tbody><tr><td>Email address</td><td>The email address with which you were invited to test the app with. This may or may not be the same as the Apple ID associated with your device. If you were invited with a public link, this information is not displayed to the developer.</td></tr><tr><td>Name</td><td>Your first and last name as entered by the developer when they invited you to test the app using your email address. If you were invited with a public link, this information does not display.</td></tr><tr><td>Invitation Type</td><td>Whether you were invited by email or through a public link.</td></tr><tr><td>Status</td><td>The status of your invitation. This can be Invited, Accepted, or Installed. This changes based on your status, and is refreshed when you accept or install a beta build.</td></tr><tr><td>Installs</td><td>The number of times you've installed a beta app build.</td></tr><tr><td>Sessions</td><td>The number of times you have used a beta app build.</td></tr><tr><td>Crashes</td><td>The number of crashes per beta app build.</td></tr></tbody></table></div>
+<h3 id="data-shared-feedback" class="typography-label">Data Shared when Sending Feedback (iOS only)</h3><p>When you send feedback from the TestFlight app or send crashes or screenshots from the beta app, the following additional information is shared. If your device is running <span class="nowrap">iOS 12.4</span> or earlier, this information is only shared with the developer. If your device is running <span class="nowrap">iOS 13 or later</span> or later, this information is collected by Apple and shared with developers. This data is retained by Apple for one year.</p><div class="table-wrapper"><table><thead><tr><th style="width: 150px;">Data</th><th>Description</th><th style="width: 200px;">When this data is included</th></tr></thead><tbody><tr><td>App Name</td><td>The name of the app you are testing.</td><td>Included in all feedback</td></tr><tr><td>App Version</td><td>The most recent version and build that you have access to. This is the number that displays under the app name in the list of apps in TestFlight.</td><td>Included in all feedback</td></tr><tr><td>Installed App Version</td><td>The version and build you have installed on your device.</td><td>Included in all feedback</td></tr><tr><td>Device</td><td>The model of your device.</td><td>Included in all feedback</td></tr><tr><td>iOS Version</td><td>The version of iOS your device is running. </td><td>Included in all feedback</td></tr><tr><td>Language</td><td>Your device language.</td><td>Included in all feedback</td></tr><tr><td>Carrier</td><td>Your wireless service provider.</td><td>Included in all feedback</td></tr><tr><td>Timezone</td><td>The timezone your device is set to.</td><td>Included in all feedback</td></tr><tr><td>Architecture</td><td>The type of Central Processing Unit (CPU) for your device.</td><td>Included in all feedback</td></tr><tr><td>Connection Type</td><td>Whether you were connected to Wi-Fi, cellular, or not connected at the time that the feedback was sent and your network type.</td><td>Included in all feedback</td></tr><tr><td>Paired Apple Watch</td><td>If there is an <span class="nowrap">Apple Watch</span> app, the <span class="nowrap">Apple Watch</span> model and watchOS version is shared with the developer.</td><td>Included in all feedback</td></tr><tr><td>Screenshot</td><td>The screenshots you share when providing feedback.</td><td>Only on devices running <span class="nowrap">iOS 13</span> or later</td></tr><tr><td>Comments</td><td>The comments you share when providing feedback.</td><td>Only on devices running <span class="nowrap">iOS 13</span> or later</td></tr><tr><td>App uptime</td><td>The length of time the app was open and running at the time the feedback was sent.</td><td>Only on devices running <span class="nowrap">iOS 13</span> or later</td></tr><tr><td>Disk Free</td><td>The amount of disk space you have available at the time the feedback was sent.</td><td>Only on devices running <span class="nowrap">iOS 13</span> or later</td></tr><tr><td>Battery</td><td>Your battery level at the time the feedback was sent.</td><td>Only on devices running <span class="nowrap">iOS 13</span> or later</td></tr><tr><td>Screen Resolution</td><td>The screen resolution of your device.</td><td>Only on devices running <span class="nowrap">iOS 13</span> or later</td></tr><tr><td>Crash Log</td><td>Symbolicated crash logs. This includes information about how long the app was running before it crashed.</td><td>Only on devices running <span class="nowrap">iOS 13</span> or later</td></tr></tbody></table></div></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section section-opting-out" id="opting-out">
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="column large-centered large-10 small-12">
+<h2 class="typography-subsection-headline">Opting Out</h2><p>If you do not accept your email invitation, the beta app will not be installed and you will not be listed as a tester, and Apple will not take any action with respect to your email address. Additionally, you can unsubscribe using the link at the bottom of the invitation email to notify the developer that you’d like to be removed from their list. If you accepted the invitation and no longer wish to test the app, you can delete yourself as a tester in the app’s Information page in TestFlight by tapping Stop Testing.</p></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section section-available-languages" id="available-languages">
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="column large-centered large-10 small-12">
+<h2 class="typography-subsection-headline">Available Languages</h2><p>TestFlight for iOS is available in Arabic, Catalan, Croatian, Czech, Danish, Dutch, English (Australian), English (British), English (U.S.), Finnish, French (Canadian), French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Malaysian, Norwegian, Polish, Portuguese (Brazilian), Portuguese (Portugal), Romanian, Russian, Simplified Chinese, Slovak, Spanish, Spanish (Lat. America), Swedish, Thai, Traditional Chinese (Hong Kong), Traditional Chinese (Taiwan), Turkish, Ukrainian, and Vietnamese.</p><p>TestFlight for tvOS is available in English (U.S.).</p></div>
+                        </div>
+                    </div>
+                </section>
+
+        </article>
+    </main>
+
+    <footer id="footer" class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="row">
+                <div class="column large-centered large-10 small-12">
+                    <section class="footer-mini">
+                        <div class="footer-mini-legal">
+                            <div class="footer-mini-legal-copyright">Copyright &copy; 2020 Apple Inc. All rights reserved.</div>
+                            <div class="footer-mini-legal-links">
+                                <a class="footer-mini-legal-link" href="https://www.apple.com/legal/internet-services/itunes/" target="_blank" rel="noopener">Terms of Service</a>
+                                <a class="footer-mini-legal-link" href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

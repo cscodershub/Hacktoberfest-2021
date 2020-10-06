@@ -1,0 +1,7 @@
+http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd
+http://www.w3.org/1999/xhtml
+text/css
+/icons/ubuntu-logo.png
+/manual
+http://httpd.apache.org/docs/2.4/mod/mod_userdir.html
+https://bugs.launchpad.net/ubuntu/+source/apache2

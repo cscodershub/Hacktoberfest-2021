@@ -1,0 +1,61 @@
+http://www.hep.ph.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.hep.ph.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Date: Sat, 18 Jul 2020 13:54:31 GMT
+< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_auth_kerb/5.4 PHP/5.4.16
+< Last-Modified: Wed, 22 Jan 2020 17:31:11 GMT
+< Etag: "8f9-59cbde3f9289d"
+< Accept-Ranges: bytes
+< Content-Length: 2297
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>HEP Group Research Pages</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="hep_style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>HEP Group Research Web Pages</h1>
+<p>Welcome to the Imperial College HEP Research Group web server. The information 
+  on this server is intended primarily for HEP group members and our external 
+  collaborators. Some of the pages are restricted to group members only.</p>
+<hr>
+<h2>Local Pages</h2>
+<p><a href="/seminars.html">Seminars</a> <a href="https://www.hep.ph.ic.ac.uk/webmail/">Webmail</a>
+<a href="machine-learning/">Machine Learning</a>
+<!-- <a href="/lhccooldown.html">LHC Cooldown Status</a> --> </p>
+<h3>Research</h3>
+<p><a href="/AION-Project/">AION Project</a> <a href="/calice/">Calice</a> <a
+href="https://twiki.cern.ch/twiki/bin/view/CMS/ImperialCollegeLondon">CMS</a>
+<a href="http://www.gridpp.ac.uk">e-science</a> 
+  <a href="/LHCb/">LHCb</a></p>
+<p><a href="https://www.ids-nf.org/wiki/FrontPage">Neutrino Factory</a> <a href="/pamela/">PAMELA</a> <a href="http://www.t2kuk.org/">T2K</a> 
+  <a href="/ZEPLIN-III-Project/">ZEPLIN-III</a></p>
+<p>For our research pages on the College web server see <a
+href="https://www.imperial.ac.uk/a-z-research/high-energy-physics/research/">here</a>.</p>
+<p>
+  Links to external <a href="safety.html">Health and Safety</a> pages.
+</p>
+<h3>Restricted Information</h3>
+<ul>
+  <li><a href="/private/computing/">Computing</a></li>
+  <li><a
+  href="https://www.google.com/calendar/embed?src=opnbolc9q08cncup0cgmvrj43c%40group.calendar.google.com&ctz=Europe/London">PG Timetable</a></li>
+  <li><a href="/private/PG_Courses/">PG course material</a></li>
+  <li> <a href="/private/1styearReports/">First Year PG Reports</a></li>
+  <li> <a href="/private/HEP.tel.html">Group Telephone Directory (html)</a>
+       <a href="/private/HEP.tel.pdf"> (pdf)</a></li>
+</ul>
+<h2>External Pages</h2>
+<p><a href="https://www.imperial.ac.uk/a-z-research/high-energy-physics/">Official Public Pages</a>
+   <a href="https://www.imperial.ac.uk/a-z-research/high-energy-physics/people/">Group Directory</a>
+   <a href="http://www.imperialhep.blogspot.com/">Group Blog</a></p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+https://events-uat.apple.com/
+
+> GET / HTTP/1.1
+> Host: events-uat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Age: 2
+< X-Cache: miss, hit-stale
+< Date: Thu, 30 Apr 2020 21:40:49 GMT
+< Content-Length: 277
+< Set-Cookie: domain=.apple.com=d4b9ee699a6b11b67a854008bf33a932; expires=Thu, 30-Apr-20 22:10:48 GMT; max-age=1800; path=/
+< X-Frame-Options: SAMEORIGIN
+< Cdnuuid: ea1a15f7-3522-4c71-b774-5763c3095dbe-2876069051
+< Server: ATS/8.0.7
+< Content-Type: text/html; charset=iso-8859-1
+< Location: https://events-uat.corp.apple.com/content/events/education/us/en.html
+< Via: https/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), https/1.1 sgsin3-edge-bx-015.ts.apple.com (ApacheTrafficServer/8.0.7)
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://events-uat.corp.apple.com/content/events/education/us/en.html">here</a>.</p>
+</body></html>

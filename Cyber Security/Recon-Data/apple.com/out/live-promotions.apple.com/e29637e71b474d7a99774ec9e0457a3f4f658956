@@ -1,0 +1,18 @@
+http://live-promotions.apple.com/
+
+> GET / HTTP/1.1
+> Host: live-promotions.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: application/xml
+< Server: AmazonS3
+< Date: Thu, 30 Apr 2020 21:31:32 GMT
+< X-Amz-Bucket-Region: us-east-1
+< X-Amz-Request-Id: 8F0A18B5CD0DFC57
+< Content-Length: 243
+< X-Amz-Id-2: f+KEQ1nzLUiE0B1eXiZ/yeyjW0vHgzhkIiOjqzo8mTVKJnaAPjOUD/hI75AqoGkE44ozsHrvUdQ=
+< Akamai-Age-Ms: 1588282292797
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8F0A18B5CD0DFC57</RequestId><HostId>f+KEQ1nzLUiE0B1eXiZ/yeyjW0vHgzhkIiOjqzo8mTVKJnaAPjOUD/hI75AqoGkE44ozsHrvUdQ=</HostId></Error>

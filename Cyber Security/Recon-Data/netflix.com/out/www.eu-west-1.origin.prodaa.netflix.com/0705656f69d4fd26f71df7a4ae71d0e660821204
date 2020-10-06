@@ -1,0 +1,32 @@
+https://www.eu-west-1.origin.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.eu-west-1.origin.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Via: 1.1 i-0a3f537bd4b449096 (eu-west-1)
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Cache-Control: no-cache, no-store
+< Content-Type: text/html
+< Expires: 0
+< Location: https://www.eu-west-1.origin.prodaa.netflix.com/in/
+< X-Frame-Options: DENY
+< X-Originating-Url: https://www.eu-west-1.origin.prodaa.netflix.com/
+< Content-Length: 0
+< Edge-Control: no-cache, no-store
+< Server: nq_website_core-prod-release 25e7eca2-7bc2-488d-96f3-36a6005224d0
+< Set-Cookie: flwssn=059987d9-8eff-43eb-9ed1-a0af8882cc66; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:36 GMT
+< Set-Cookie: clSharedContext=6a0e8e60-693e-40fc-b90d-50661e6e19bd; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEHhm3esy7EC2-ifwJUxCmZhA7EsF-Bzvb4ulIJj9Uoc_5y6_BXHd_fqoSXDTUUu96xTMDs6FKKKtuybHAiHMYAfIkXfuvHQ4bmQE1FHIp-Js7w%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABQDLVl6sb7hBzik3DO0SlvcO9E6hFuuJFw.%26dt%3D1592372076263; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:36 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEDwg_lquE3mn-9mX_9T8odeA8Nfby7iSC1pPU8sa4Eww7ZZmk-jZE3Btv87D2Ij16cHhMuJlf3k97mlXW31vopXWLjrHlN4rTpvqedrP0Rc92Hes5j4ZfsHoSzLXl34hYFixB6F9yRSCKRWA8VFfpbamgq0ebV_x4v4tP-uUaqBJXQa9p-i8zijFzuIl9I7U0e4MYe99bxwteO1RSZtfh8yILgYdd3usTRf18VJoS6ZZRdkxUcyf_PHGC0f0SdoT1OOH-OYNFJwCZXUWX42XzHWovdJ7UByf03rjEw9vYPkRfGQy9W_jYzz7pSJAvF6ekdfN1JRFb_djp7qI1-EtJpgaiw..%26bt%3Ddev%26mac%3DAQEAEAABABQTd01vv6tMZhovHJZtNaxAi29XrhIGunU.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:36 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=bb5e51f7-fb96-4a97-8132-104e943b3110; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:36 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 144
+< Date: Wed, 17 Jun 2020 05:34:36 GMT
+< Pragma: no-cache
+< X-Content-Type-Options: nosniff
+< X-Robots-Tag: index
+

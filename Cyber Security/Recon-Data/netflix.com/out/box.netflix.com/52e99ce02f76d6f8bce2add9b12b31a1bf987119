@@ -1,0 +1,12 @@
+https://box.netflix.com/
+
+> GET / HTTP/1.1
+> Host: box.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 17 Jun 2020 05:37:12 GMT
+< Content-Type: text/html; charset=UTF-8
+< Location: https://www.box.com/
+< Strict-Transport-Security: max-age=31536000
+

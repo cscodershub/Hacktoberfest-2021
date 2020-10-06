@@ -1,0 +1,218 @@
+https://fons-question-and-answer.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: fons-question-and-answer.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Sat, 18 Jul 2020 13:54:59 GMT
+< Content-Type: text/html; charset=UTF-8
+< Server: Apache
+< X-Powered-By: PHP/7.2.32
+< Set-Cookie: anspress_session=e2bf821e898c2b8057af152218d77564; expires=Sun, 19-Jul-2020 13:55:00 GMT; Max-Age=86400; path=/
+< Link: <https://fons-question-and-answer.imperial.ac.uk/wp-json/>; rel="https://api.w.org/"
+< Vary: Accept-Encoding
+< X-Web-Server: icwf05
+
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://fons-question-and-answer.imperial.ac.uk/xmlrpc.php" />
+	
+	<script type="text/javascript"
+		src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	
+	<!-- <script type="text/x-mathjax-config"> MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}}); </script> -->
+	
+	
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		tex2jax: {
+			inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+			processEscapes: true
+		}
+		});
+	</script>
+
+	<title>FONS Question and Answer &#8211; Demo of a Q&amp;A Forum</title>
+<script type="text/javascript">var ajaxurl = "https://fons-question-and-answer.imperial.ac.uk/wp-admin/admin-ajax.php",ap_nonce 	= "f8e5b95151",apTemplateUrl = "https://fons-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/templates/js-template";apQuestionID = "";aplang = {"loading":"Loading..","sending":"Sending request","file_size_error":"File size is bigger than 0.48 MB","attached_max":"You have already attached maximum numbers of allowed attachments","commented":"commented","comment":"Comment","cancel":"Cancel","update":"Update","your_comment":"Write your comment...","notifications":"Notifications","mark_all_seen":"Mark all as seen","search":"Search","no_permission_comments":"Sorry, you don't have permission to read comments."};disable_q_suggestion = "";</script><meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="FONS Question and Answer &raquo; Feed" href="https://fons-question-and-answer.imperial.ac.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="FONS Question and Answer &raquo; Comments Feed" href="https://fons-question-and-answer.imperial.ac.uk/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/fons-question-and-answer.imperial.ac.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='login-with-ajax-css'  href='https://fons-question-and-answer.imperial.ac.uk/wp-content/plugins/login-with-ajax/widget/widget.css?ver=3.1.10' type='text/css' media='all' />
+<link rel='stylesheet' id='anspress-fonts-css'  href='https://fons-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/templates/css/fonts.css?ver=4.1.18' type='text/css' media='all' />
+<link rel='stylesheet' id='anspress-main-css'  href='https://fons-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/templates/css/main.css?ver=4.1.18' type='text/css' media='all' />
+<style id='anspress-main-inline-css' type='text/css'>
+
+		#anspress .ap-q-cells{
+				margin-left: 60px;
+		}
+		#anspress .ap-a-cells{
+				margin-left: 60px;
+		}
+</style>
+<link rel='stylesheet' id='ap-overrides-css'  href='https://fons-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/templates/css/overrides.css?v=4.1.18&#038;ver=4.1.18' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://fons-question-and-answer.imperial.ac.uk/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='academica-style-css'  href='https://fons-question-and-answer.imperial.ac.uk/wp-content/themes/academica/style.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='academica-style-mobile-css'  href='https://fons-question-and-answer.imperial.ac.uk/wp-content/themes/academica/media-queries.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='academica-google-font-default-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%7CRoboto+Condensed%3A400%2C700&#038;subset=latin%2Ccyrillic-ext%2Cgreek-ext&#038;ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://fons-question-and-answer.imperial.ac.uk/wp-includes/css/dashicons.min.css?ver=5.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://fons-question-and-answer.imperial.ac.uk/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://fons-question-and-answer.imperial.ac.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LWA = {"ajaxurl":"https:\/\/fons-question-and-answer.imperial.ac.uk\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://fons-question-and-answer.imperial.ac.uk/wp-content/plugins/login-with-ajax/widget/login-with-ajax.js?ver=3.1.10'></script>
+<link rel='https://api.w.org/' href='https://fons-question-and-answer.imperial.ac.uk/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fons-question-and-answer.imperial.ac.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://fons-question-and-answer.imperial.ac.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+
+</head>
+
+<body data-rsssl=1 class="home blog column-double">
+
+	
+	<div id="header" class="clearfix" >
+
+		
+			<div class="inner-wrap">
+
+				<div id="logo" class="logo-left">
+					 <h1 id="site-title"> 
+						<a href="https://fons-question-and-answer.imperial.ac.uk" title="FONS Question and Answer - Demo of a Q&amp;A Forum" rel="home">
+
+							FONS Question and Answer
+						</a>
+
+					 </h1> 
+					<p id="site-description">Demo of a Q&amp;A Forum</p>
+				</div><!-- end #logo -->
+
+			</div><!-- end .inner-wrap -->
+
+			<div id="main-nav">
+
+				<div class="inner-wrap">
+
+					<nav class="main-navbar" role="navigation">
+
+	                    <div class="navbar-header">
+	                        
+	                           <a class="navbar-toggle" href="#menu-main-slide">
+	                               <span class="icon-bar"></span>
+	                               <span class="icon-bar"></span>
+	                               <span class="icon-bar"></span>
+	                           </a>
+
+
+	                           <div id="menu-main-slide" class="menu-main-nav-container"><ul id="menu-main-nav" class="menu"><li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://fons-question-and-answer.imperial.ac.uk/questions/">Home</a></li>
+<li id="menu-item-37" class="anspress-menu-ask menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="https://fons-question-and-answer.imperial.ac.uk/questions/ask/">Ask a question</a></li>
+</ul></div>
+	                    </div>
+
+
+	                    <div id="navbar-main">
+
+	                        <div class="menu-main-nav-container"><ul id="menu-main-nav-1" class="nav navbar-nav dropdown sf-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://fons-question-and-answer.imperial.ac.uk/questions/">Home</a></li>
+<li class="anspress-menu-ask menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="https://fons-question-and-answer.imperial.ac.uk/questions/ask/">Ask a question</a></li>
+</ul></div>
+
+	                    </div><!-- #navbar-main -->
+
+	                </nav><!-- .navbar -->
+
+					<div id="search">
+						<form method="get" id="searchform" action="https://fons-question-and-answer.imperial.ac.uk/">
+	<label for="s" class="assistive-text hidden">Search</label>
+	<input id="s" type="text" name="s" placeholder="Search">
+	<button id="searchsubmit" name="submit" type="submit">Search</button>
+</form>					</div><!-- end #search -->
+
+				</div><!-- end .inner-wrap -->
+
+			</div><!-- end #main-nav -->
+
+		
+	</div><!-- end #header -->
+
+	<div id="wrap">
+<div id="content" class="clearfix">
+
+        	<div class="column column-narrow">
+    		<!--
+Plugin: Custom Meta Widget
+Plugin URL: http://shinraholdings.com/plugins/custom-meta-widget/
+-->
+<div id="custommetawidget-2" class="widget clearfix customMetaWidget"><h3 class="heading">Log in/out</h3>		<ul>
+
+		
+					<li><a href="https://fons-question-and-answer.imperial.ac.uk/wp-login.php">Log in</a></li>
+		
+		
+
+		
+				</ul>
+
+	</div>    	</div><!-- end .column-narrow -->
+    
+	<div id="column-content" class="column column-content posts">
+
+		
+<div id="post-1" class="clearfix post-1 post type-post status-publish format-standard hentry category-uncategorised">
+
+	<h2><a href="https://fons-question-and-answer.imperial.ac.uk/blog/2019/09/06/hello-world/" rel="bookmark">FoNS Question and Answer Tool</a></h2>
+	<p class="entry-meta">
+		<a href="https://fons-question-and-answer.imperial.ac.uk/blog/2019/09/06/hello-world/" title="Permanent Link to FoNS Question and Answer Tool" rel="bookmark">6th September 2019 </a> <span class="sep">/ </span> <a href="https://fons-question-and-answer.imperial.ac.uk/blog/2019/09/06/hello-world/#comments">1 Comment<span class="screen-reader-text"> on FoNS Question and Answer Tool</span></a>	</p><!-- end .entry-meta -->
+	<div class="entry-summary">
+<p>A Stack Exchange-like question and answer forum where students can ask and answer questions, comment on and upvote answers.</p>
+</div>
+
+</div><!-- end #post-## -->
+	</div><!-- end .column-content -->
+
+	
+</div><!-- end #content -->
+
+			<div id="footer" class="clearfix">
+				
+								<p class="copy">
+ 					Powered by <a href="http://wordpress.org">WordPress</a> / Academica WordPress Theme by <a href="http://www.wpzoom.com" rel="nofollow">WPZOOM</a>				</p>
+			</div><!-- end #footer -->
+		</div><!-- end #wrap -->
+
+		<script type='text/javascript' src='https://fons-question-and-answer.imperial.ac.uk/wp-content/themes/academica/js/jquery.mmenu.min.all.js?ver=20150325'></script>
+<script type='text/javascript' src='https://fons-question-and-answer.imperial.ac.uk/wp-content/themes/academica/js/superfish.min.js?ver=20150325'></script>
+<script type='text/javascript' src='https://fons-question-and-answer.imperial.ac.uk/wp-content/themes/academica/js/functions.js?ver=20150325'></script>
+<script type='text/javascript' src='https://fons-question-and-answer.imperial.ac.uk/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=default&#038;ver=1.3.11'></script>
+	</body>
+</html>

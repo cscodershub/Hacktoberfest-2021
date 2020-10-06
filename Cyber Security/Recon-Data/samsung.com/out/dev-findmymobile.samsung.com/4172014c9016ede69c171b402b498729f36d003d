@@ -1,0 +1,19 @@
+http://dev-findmymobile.samsung.com/
+
+> GET / HTTP/1.1
+> Host: dev-findmymobile.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Location: https://dev-findmymobile.samsung.com/
+< Server: Apache
+< X-Frame-Options: DENY
+< X-Amz-Cf-Pop: MAA50-C2
+< Date: Wed, 10 Jun 2020 05:37:26 GMT
+< Vary: Accept-Encoding
+< X-Cache: Miss from cloudfront
+< Via: 1.1 2990a2176f65b9b6f86f8ec00050fa00.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: EiRvtKo4yJx70XqZQwxMK60HnsNECyryhbE2ugK0YnT65T51evgb_A==
+
+ 

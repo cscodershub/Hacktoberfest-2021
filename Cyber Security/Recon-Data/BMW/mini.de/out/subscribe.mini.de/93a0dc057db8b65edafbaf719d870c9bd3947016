@@ -1,0 +1,21 @@
+http://subscribe.mini.de/
+
+> GET / HTTP/1.1
+> Host: subscribe.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Tue, 11 Aug 2020 04:54:49 GMT
+< Server: Apache
+< X-Frame-Options: DENY, DENY
+< Location: https://subscribe.mini.de/
+< Content-Length: 210
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://subscribe.mini.de/">here</a>.</p>
+</body></html>

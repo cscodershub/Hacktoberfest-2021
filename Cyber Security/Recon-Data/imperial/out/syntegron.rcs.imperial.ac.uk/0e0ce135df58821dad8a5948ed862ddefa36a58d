@@ -1,0 +1,16 @@
+http://syntegron.rcs.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: syntegron.rcs.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Date: Sat, 18 Jul 2020 13:55:05 GMT
+< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16
+< Last-Modified: Wed, 08 May 2019 11:28:21 GMT
+< Etag: "42-5885ea182ddf3"
+< Accept-Ranges: bytes
+< Content-Length: 66
+
+<a href="http://www.syntegron.org/R20/R20/R20.html">Syntegron</a>

@@ -1,0 +1,20 @@
+https://embed.develop-stage.netflix.com/
+
+> GET / HTTP/1.1
+> Host: embed.develop-stage.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Via: 1.1 i-0ce0f5503262df44d (eu-west-1)
+< Content-Length: 7
+< Set-Cookie: nfvdid=BQFmAAEBEHxHuNCcKWaZPsWfqnysCf9AIU9VsL7czuDFZolFe2zoySCClDnHvze_FOuvkDs0E06Y_ottcBqHe8QN6OiEp9W2TDaqwv-TMdGWdQLmOT8-Kw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=36f6990a-a15d-4afa-b5b1-cb233306187b; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:09 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Netflix.nfstatus: 1_2
+< X-Netflix.proxy.execution-Time: 7
+< X-Originating-Url: https://embed.develop-stage.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Server: nq_website_core-staging-develop UNKNOWN
+
+BLOCKED

@@ -1,0 +1,32 @@
+https://www.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: no-cache, no-store
+< Content-Type: text/html
+< Server: nq_website_core-prod-release fa4c9dc1-7311-4990-9ebb-e92248f28c92
+< X-Originating-Url: https://www.netflix.com/
+< X-Netflix.nfstatus: 1_1
+< X-Robots-Tag: index
+< Set-Cookie: flwssn=df5f81dc-9b7e-48fb-a9b9-e2510b449932; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:37:19 GMT
+< Set-Cookie: clSharedContext=6994c370-6457-4d9a-be1f-447c58f82caf; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBELXJJ0pyM70ySWW4HgeXD7dA7nLk-ocgWMsn11zv7Q1tbXqXO6IkFm31QaOdsoS6m-B44WFmKjcFJP7K5ANzYxLf4WVrIZ4PTAq0nmLi1olRQw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABS-oXCXVEOlMBPIh--tVtw9MdpvusE1oR8.%26dt%3D1592372239679; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:37:19 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEO0nlaBtx6vs7boJzkT7kyWA8FfIcG-dpq7K6xaru-h-oXu5jNfajHWp_HLhsvkmv0yxDk3ZMrxCR61SWcC0W5A1kWw8PfzaAQV75XCntUDeRlz6L3QjxBBJbcTlGV9M-IbshhltD76YoF_9EOWeWZx4PelrfFDPntbAHwIi-0Qgj1kLrEa3gH2LhI1zs2HxNSxTJMr8aKVSyAER--rIU0PcwRiVhnqnOmSDu-lf875KUohSDf_MuJQxFLMh2lKKRCNSGnBn6Qrzrh3YThJDDoKOsfKLz5NW3gtsB_XKTi3eeJg8uYJI_hQegyWg5pcYV32HsFTc3-6jdPt3UQhUMvHmhQ..%26bt%3Ddev%26mac%3DAQEAEAABABTo9_IpPM42v041f0lE6QKMj2x9mYBlrMw.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:37:19 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=c7eaf2c5-e889-417c-90c1-a0837fd8c788; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:37:19 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 i-027ac7538cfe0f68b (eu-west-1)
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Edge-Control: no-cache, no-store
+< Expires: 0
+< Location: https://www.netflix.com/in/
+< Pragma: no-cache
+< Date: Wed, 17 Jun 2020 05:37:19 GMT
+< X-Frame-Options: DENY
+< X-Netflix.proxy.execution-Time: 117
+< Content-Length: 0
+

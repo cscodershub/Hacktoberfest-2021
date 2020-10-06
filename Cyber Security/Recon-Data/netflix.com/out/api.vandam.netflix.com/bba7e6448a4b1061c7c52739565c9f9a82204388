@@ -1,0 +1,19 @@
+https://api.vandam.netflix.com/
+
+> GET / HTTP/1.1
+> Host: api.vandam.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< X-Frame-Options: DENY
+< Date: Wed, 17 Jun 2020 05:36:04 GMT
+< Content-Length: 71
+< Pragma: no-cache
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Expires: 0
+< Content-Type: application/json
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+
+{"message":"Full authentication is required to access this resource"}

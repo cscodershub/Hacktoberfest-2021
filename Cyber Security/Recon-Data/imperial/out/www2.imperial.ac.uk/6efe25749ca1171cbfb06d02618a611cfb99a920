@@ -1,0 +1,23 @@
+https://www2.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www2.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Sat, 18 Jul 2020 13:54:15 GMT
+< Server: Apache
+< Location: https://wwwf.imperial.ac.uk/
+< Content-Length: 282
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: BIGipServerPOOL-LINUXFARM2011-443-v4=!XBgPHny6WLVwZjgw9zyYKRlaA4tr3vEq3A4wQblIVb88B8s3q01BtkNlDkIpWGsXp8414AHZ9Zkb6KUtWl+R9z1XjVQevUz6tknNrjI0D40=; path=/; Httponly; Secure
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://wwwf.imperial.ac.uk/">here</a>.</p>
+<hr>
+<address>Apache Server at www2.imperial.ac.uk Port 443</address>
+</body></html>

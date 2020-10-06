@@ -1,0 +1,24 @@
+https://en.coursera.org/
+
+> GET / HTTP/1.1
+> Host: en.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.coursera.org/
+< Set-Cookie: CSRF3-Token=1597899103.0qOCva0qEsVeecpW; Max-Age=864000; Expires=Thu, 20 Aug 2020 04:51:43 GMT; Path=/; Domain=.coursera.org
+< Set-Cookie: __204u=4813017878-1597035103811; Max-Age=31536000; Expires=Tue, 10 Aug 2021 04:51:43 GMT; Path=/; Domain=.coursera.org
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Coursera-Request-Id: MBGyStrFEeqjFxJR4OA-JQ
+< X-Amz-Cf-Id: ZJY26B2QRjsZv_U7bV6KgnMUGFj-eUVkj94vnJaJVXG8ljh5-fsH_Q==
+< Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+< X-Xss-Protection: 1; mode=block
+< X-Amz-Cf-Pop: MAA50-C2
+< Vary: Accept-Encoding
+< X-Coursera-Trace-Id-Hex: d6b7d12c64e59ecd
+< X-Frame-Options: SAMEORIGIN
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< Via: 1.1 fb48eeb7301982f41e149472d2c6b666.cloudfront.net (CloudFront)
+< Date: Mon, 10 Aug 2020 04:51:43 GMT
+

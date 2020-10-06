@@ -1,0 +1,24 @@
+http://windsorfarms.instacart.com/
+
+> GET / HTTP/1.1
+> Host: windsorfarms.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Content-Length: 183
+< Location: https://windsorfarms.instacart.com/
+< Via: 1.1 3579213845e783a90df82b40f2d1f602.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: 0YNQ3ZYkmfsvZ8ktyXMkAmM41mBg008eb97_7E9lysGIBRH-OATuIg==
+< Date: Tue, 04 Aug 2020 04:47:39 GMT
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

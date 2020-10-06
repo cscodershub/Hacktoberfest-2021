@@ -1,0 +1,12 @@
+http://partner.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: partner.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Object Moved
+< Location: https://partner.itunes.apple.com/
+< Content-Type: text/html
+< Cache-Control: private
+
+<head><body> This object may be found <a HREF="https://partner.itunes.apple.com/">here</a> </body>

@@ -1,0 +1,19 @@
+http://ls.advp.apple.com/
+
+> GET / HTTP/1.1
+> Host: ls.advp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Date: Thu, 30 Apr 2020 21:28:49 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 175
+< Expires: Thu, 30 Apr 2020 21:28:49 GMT
+< Akamai-Age-Ms: -1
+
+<HTML><HEAD><TITLE>Error</TITLE></HEAD><BODY>
+An error occurred while processing your request.<p>
+Reference&#32;&#35;102&#46;c10e8ac&#46;1588282129&#46;1db3465
+</BODY></HTML>

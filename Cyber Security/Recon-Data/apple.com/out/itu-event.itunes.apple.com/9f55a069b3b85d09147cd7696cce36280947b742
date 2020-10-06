@@ -1,0 +1,25 @@
+https://itu-event.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: itu-event.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Cneonction: close
+< Date: Thu, 30 Apr 2020 21:30:18 GMT
+< Cache-Control: must-revalidate,no-cache,no-store
+< Content-Type: text/html; charset=ISO-8859-1
+< Content-Length: 278
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+<title>Error 404 </title>
+</head>
+<body>
+<h2>HTTP ERROR: 404</h2>
+<p>Problem accessing /. Reason:
+<pre>    Not Found</pre></p>
+<hr /><i><small>Powered by Jetty://</small></i>
+</body>
+</html>

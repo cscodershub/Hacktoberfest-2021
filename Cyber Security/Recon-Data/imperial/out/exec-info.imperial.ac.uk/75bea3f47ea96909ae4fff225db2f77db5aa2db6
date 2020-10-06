@@ -1,0 +1,20 @@
+http://exec-info.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: exec-info.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Sat, 18 Jul 2020 13:54:36 GMT
+< Set-Cookie: pardot=rufff2nkiqbscdos9n9490farj; path=/
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< X-Pardot-Route: 32427ff3465437d362f61c790f7d2406
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< Pragma: no-cache
+< Location: http://www.imperial.ac.uk
+< Vary: User-Agent
+< Server: PardotServer
+< X-Pardot-Lb: a083ac6fc1531fb089982e922db67d20
+

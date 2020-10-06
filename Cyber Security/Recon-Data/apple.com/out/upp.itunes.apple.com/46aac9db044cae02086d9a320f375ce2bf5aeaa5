@@ -1,0 +1,22 @@
+http://upp.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: upp.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Expires: Thu, 30 Apr 2020 21:30:07 GMT
+< Date: Thu, 30 Apr 2020 21:30:07 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 271
+
+<HTML><HEAD>
+<TITLE>Service Unavailable - Fail to connect</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;6&#46;6a37637d&#46;1588282207&#46;b7c1824
+</BODY></HTML>

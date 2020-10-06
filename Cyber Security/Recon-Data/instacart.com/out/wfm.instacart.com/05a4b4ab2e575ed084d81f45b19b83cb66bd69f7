@@ -1,0 +1,24 @@
+http://wfm.instacart.com/
+
+> GET / HTTP/1.1
+> Host: wfm.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Location: https://wfm.instacart.com/
+< Via: 1.1 c51bb4488dcd431eb62ae41f6aaf9108.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< X-Amz-Cf-Id: _8bUc0bFLzKb7u9CokcJHOjrNowBXTe_hsHNlquKwimlPDagIuTUPQ==
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:39 GMT
+< Content-Length: 183
+< X-Cache: Redirect from cloudfront
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

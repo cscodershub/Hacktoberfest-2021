@@ -1,0 +1,17 @@
+http://codex-prbuilder.netflix.com/
+
+> GET / HTTP/1.1
+> Host: codex-prbuilder.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Netflix.nfstatus: 1_2
+< X-Netflix.proxy.execution-Time: 3
+< Content-Length: 7
+< Set-Cookie: nfvdid=BQFmAAEBEA5jfylri6eFnRyj9W3-b1ZAIR3iVgD9o5adG0mxgdumbQZ0RFCAhksXsm7avh0ZBS22mqgiXGZ5SUtFbgbw1mEImCuGF3qGSIuTC79EIrFSDw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=dae07298-90a7-4be4-bb3c-caf8f4e4ee98; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:38:22 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-06c63e3ca0fbc1430 (us-east-1)
+< X-Originating-Url: http://codex-prbuilder.netflix.com/
+< Server: api-test UNKNOWN
+
+BLOCKED

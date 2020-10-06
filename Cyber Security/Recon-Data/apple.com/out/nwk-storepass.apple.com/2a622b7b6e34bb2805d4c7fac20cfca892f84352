@@ -1,0 +1,60 @@
+https://nwk-storepass.apple.com/
+
+> GET / HTTP/1.1
+> Host: nwk-storepass.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 
+< Date: Thu, 30 Apr 2020 21:40:09 GMT
+< Strict-Transport-Security: max-age=31536000;includeSubDomains
+< X-Xss-Protection: 1;mode=block
+< Vary: accept-encoding
+< Content-Type: text/html;charset=ISO-8859-1
+< Content-Language: en-US
+< X-Ma-P: nkp-01-6000
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+
+
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Apple</title>
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width">
+
+
+	
+<link rel="stylesheet" href="/resources/css/main_compressed.css">
+
+<script>
+	/* Read value of s_account from environment. This var needs to be set inside this script tag to be able 
+	   to read spring eval result. Cant be done in a js file */
+	var s_account = "";
+</script>
+<script type="text/javascript"
+	src="/resources//js/omniture_compressed.js"></script>
+<script type="text/javascript">
+	Omniture.init({
+		fire : [ {
+			pageName : "storepass - Unsupported Device",
+			prop20 : "AOS: US Consumer Mobile"
+		} ],
+		click : [ 'a.learnmore', {
+			eVar5 : "storepass: Unsupported Device : Learn More"
+		} ]
+	});
+</script>
+</head>
+
+<body>
+	<div class="content error_message">
+		<div class="block"><p class="soft">Sorry, this device does not support Wallet.</p><p><a href="http://www.apple.com/ios/whats-new/#passbook">Learn more</a></p></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,243 @@
+https://remotehelp.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: remotehelp.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache, no-store
+< Vary: Accept-Encoding,X-Requested-With
+< Set-Cookie: ns_s=19027567238350cde25fd1e95f91fe6a; path=/; secure; HttpOnly
+< X-Ua-Compatible: IE=edge
+< Server: Apache
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< X-Content-Type-Options: nosniff
+< Feature-Policy: accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; camera 'none'; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; speaker 'none'; sync-xhr 'none'; usb 'none'; vr 'none'
+< Date: Sat, 18 Jul 2020 13:54:32 GMT
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: no-referrer-when-downgrade
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">
+<body style="background-color:#ffffff; text="#003263"; font-family:verdana>
+
+<head>
+<title>Imperial College London Remote Support Portal</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<link href="/content/common.css" rel="stylesheet" type="text/css" />
+<link href="/content/public.css" rel="stylesheet" type="text/css" />
+<link href="/content/mobile.css" rel="stylesheet" type="text/css" />
+<link href="/content/portal-customizations.css?_c=0" rel="stylesheet" type="text/css" />
+
+<link href="https://imperialcollegelondon.beyondtrustcloud.com/files/2020common.css?view=1" rel="stylesheet" type="text/css" />
+<link href="https://www.imperial.ac.uk/assets/website/stylesheets/css/screen.1.16.5.css?view=1" rel="stylesheet" type="text/css" />
+
+<style>
+a:link {color: #003263;font-size:100%;font-family:verdana;}
+a:visited {color: #003263;font-size:100%;font-family:verdana;}
+a:hover {color: #003263;font-size:100%;font-family:verdana;}
+a:active {color: #003263;font-size:100%;font-family:verdana;}
+
+table {
+  font-family: verdana;
+  font-size: 20px;
+text-align: right
+}
+
+h3 {
+  font-family: verdana;
+  font-size: 16px;
+text-align: center
+background-color: #f3ffba;
+}
+
+h4 {
+  font-family: arial;
+  font-size: 16px;
+text-align: center
+background-color: #f3ffba;
+}
+td {
+  font-family: verdana;
+  font-size: 14px;
+text-align: right
+}
+boxTitle {
+	font-size: 1em;
+	color: #f3ffba;
+	text-decoration: none;
+	font-weight: bold;
+}
+div.container5 {
+  align-items: center
+  boxTitle: color: #f3ffba;
+}
+</style>
+</head>
+
+
+<body>
+<div id="container" >
+<div id="header" class="contentBox">
+	<div style="margin: 10px 0; border-style: dotted>
+		<span style="height: 41px; float: left;">
+			<a href="https://www.imperial.ac.uk/admin-services/ict/" target="_blank">
+				<img id="logo" src="/files/iclogo5.jpg" alt="Imperial College London" width="231" height="62" />
+			</a>
+		</span>
+		<div class="pageTitle" style="text-align: justify; line-height: 1.00em; color:#003263;"><br>
+			Welcome to the ICT Remote Support Portal</br>
+<br><p><font face="verdana" size="3" color="#003263" text-align:justify>BeyondTrust Remote Support is used by ICT to assist College staff and students with technical issues directly on their computer. Using a secure connection, we can troubleshoot and resolve issues in real-time without having to physically visit you.</p>
+<p>To begin your support session, enter the <b>Session Key</b> given to you by ICT below, then click <b>Submit</b>.
+          Your browser will prompt you to download and run a small application, then you'll see a chat
+          window, where you accept the request to share your screen.</font></p>
+</span>
+</div>
+</div>
+</div>
+
+<div id="container5">
+<h3>
+
+
+
+
+
+
+
+<div class="contentBox" id="sessionKeyBox">
+	<h1 class="sectionTitle">
+		<span>
+		Session Key
+		</span>
+			&nbsp;
+	
+	</h1>
+	<div>
+	<form action="/check_access_key" method="get"
+      id="access_key_form">
+	<label id="access_key_pretty:label" for="access_key_pretty"
+		class="accessible">Session Key</label>
+	<input type="text" name="access_key_pretty" id="access_key_pretty" value=""
+		size="12" maxlength="7" autocomplete="off" />
+	<input type="submit" name="access_key_submit" id="access_key_submit"
+		value="Submit" />
+	<img src="/content/loading.gif" alt="" class="hidden"
+		id="session_key_loading_gif" />
+	<div id="access_key_error" class="hidden error"></div>
+</form>
+
+
+<span class="params"
+	id="access_key_params"
+	data-disable-clickonce="false"
+	data-chat-enabled="false"
+	data-current-locale="en-us"
+></span>
+<span class="params"
+	id="access_key_strings"
+	data-invalid-key="The key that you entered is not valid."
+	data-validation-error="Error validating access key."
+></span>
+
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="/content/lib/jquery.js"></script>
+<script type="text/javascript" src="/content/portal.js"></script>
+<!--[if lt IE 10]>
+<script type="text/javascript" src="/content/ie9_public.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/api/start_session.js"></script>
+<script type="text/javascript" src="/api/content/core.js"></script>
+<script type="text/javascript" src="/content/access_key_input.js"></script>
+
+</h3>
+</div>
+
+
+
+
+
+<div id="userinfo2" class="contentBox">
+<div style="margin: 10px 0";text-color:yellow>
+
+
+<table style="width:100%">
+<caption>User Guides for Windows and Mac Users</caption>
+  <tr>
+    <th valign="top">Accepting Sessions by Browser</th>
+    <th style="vertical-align:top;text-align:left">Security Settings for Mac OS 10.14+</th>       
+  </tr>
+
+<td><a href="/files/chrome.html?view=1" target="_blank">Google Chrome</a>
+<br>
+<a href="/files/iexplore.html?view=1" target="_blank">Internet Explorer</a>
+<br>
+<a href="/files/edge.html?view=1" target="_blank">Microsoft Edge</a>
+<br>
+<a href="/files/firefox.html?view=1" target="_blank">Mozilla Firefox</a>
+<br>
+<a href="/files/safari.html?view=1" target="_blank">Safari
+</a></td>   
+  
+<td style="vertical-align:top;text-align:left"><a href="/files/macscreen.html?view=1" target="_blank">Allow Screen Sharing</a><br>
+<a href="/files/macsystem.html?view=1" target="_blank">Allow System Access</a>
+</td>
+
+  </tr>
+</table>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center>
+		<a id="powered_by_text" href="https://www.beyondtrust.com/remote-support" class="inverse" target="_blank">BeyondTrust Remote Support</a>
+</center>
+</body>
+</html>

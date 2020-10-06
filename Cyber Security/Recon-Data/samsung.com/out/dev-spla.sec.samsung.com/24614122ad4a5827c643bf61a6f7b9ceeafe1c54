@@ -1,0 +1,14 @@
+http://dev-spla.sec.samsung.com/
+
+> GET / HTTP/1.1
+> Host: dev-spla.sec.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 10 Jun 2020 05:36:25 GMT
+< Content-Length: 156
+< Content-Type: text/html; charset=UTF-8
+< Location: https://dev-spla.sec.samsung.com/
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://dev-spla.sec.samsung.com/">here</a></body>

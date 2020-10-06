@@ -1,0 +1,20 @@
+https://planon.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: planon.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Location: https://lo-authprod.planoncloud.com/auth/realms/imperialcollegelondon-prod/protocol/openid-connect/auth?response_type=code&client_id=Planon&redirect_uri=https%3A%2F%2Fplanon.imperial.ac.uk%2F&state=9e4063f0-575a-4e4f-95ba-c93bf50e6cdc&login=true&scope=openid
+< Date: Sat, 18 Jul 2020 13:54:57 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Server: webserver
+< Content-Security-Policy: frame-ancestors 'self';
+< Content-Length: 0
+< Set-Cookie: JSESSIONID=C97628A30E3BE3674983FD586C43A616; Path=/; Secure; HttpOnly
+< Set-Cookie: OAuth_Token_Request_State=9e4063f0-575a-4e4f-95ba-c93bf50e6cdc; Version=1; Secure; HttpOnly
+

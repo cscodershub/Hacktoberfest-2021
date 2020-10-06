@@ -1,0 +1,16 @@
+http://education.med.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: education.med.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 160
+< Content-Type: text/html; charset=UTF-8
+< Location: https://education.med.imperial.ac.uk/
+< Server: Microsoft-IIS/10.0
+< X-Arr-Server: icrp12
+< Date: Sat, 18 Jul 2020 13:54:24 GMT
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://education.med.imperial.ac.uk/">here</a></body>

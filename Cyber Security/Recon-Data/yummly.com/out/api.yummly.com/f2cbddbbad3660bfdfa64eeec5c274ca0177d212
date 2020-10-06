@@ -1,0 +1,12 @@
+https://api.yummly.com/
+
+> GET / HTTP/1.1
+> Host: api.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Server: nginx
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Date: Sat, 15 Aug 2020 14:57:37 GMT
+

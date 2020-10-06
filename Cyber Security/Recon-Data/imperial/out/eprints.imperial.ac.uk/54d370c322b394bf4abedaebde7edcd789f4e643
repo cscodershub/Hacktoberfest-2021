@@ -1,0 +1,13 @@
+http://eprints.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: eprints.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Expires: Thu, 01 Jan 1970 01:00:00 GMT
+< Location: https://eprints.imperial.ac.uk:8443/
+< Content-Length: 0
+< Date: Sat, 18 Jul 2020 13:54:39 GMT
+

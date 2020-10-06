@@ -1,0 +1,20 @@
+http://api-us.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: api-us.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Via: 1.1 i-0389bc72dd07710b3 (us-east-1)
+< X-Netflix.nfstatus: 1_3
+< Content-Type: text/html;charset=utf-8
+< Date: Wed, 17 Jun 2020 05:36:26 GMT
+< Set-Cookie: nfvdid=BQFmAAEBECRF8buHUoIzAOgwHEnDaQNA9fWwAX4c7-NYimhAMj5kN_oQglbx_Bew5Kgv5dS__sSE1bW-3wMr9BcOrob4MOMoam25ZsmSAoiNFrIcUnYQ9g%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=856770bf-1717-4ee0-88dd-9c6fdab12e30; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:26 GMT; Path=/; Domain=.netflix.com
+< X-Originating-Url: http://api-us.geo.netflix.com/
+< Content-Length: 796
+< Content-Language: en
+< Server: api-prod i-0bc7deba300dd3b7e
+< X-Netflix.proxy.execution-Time: 5
+
+<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1></body></html>

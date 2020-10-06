@@ -1,0 +1,24 @@
+http://wildbynature.instacart.com/
+
+> GET / HTTP/1.1
+> Host: wildbynature.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:39 GMT
+< Content-Type: text/html
+< Location: https://wildbynature.instacart.com/
+< Via: 1.1 7481bcdf6b6da90f13b7b947bc6dbb6e.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< X-Amz-Cf-Id: YPS1-7btvBWJ8FMXepEbV3TZVS7NzV5LFKMhQPfyq6tENHHIh5KMxA==
+< Content-Length: 183
+< X-Cache: Redirect from cloudfront
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

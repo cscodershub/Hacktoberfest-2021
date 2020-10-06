@@ -1,0 +1,25 @@
+https://mein.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: mein.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+< Access-Control-Allow-Headers: Content-Type
+< X-Xss-Protection: 0
+< Date: Tue, 11 Aug 2020 04:45:29 GMT
+< Location: https://konfigurator.bmw-motorrad.de/index_de_DE.html#/configurator/configUrl/a1b2c3d4
+< Content-Length: 294
+< Content-Type: text/html; charset=iso-8859-1
+< Access-Control-Allow-Credentials: true
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://konfigurator.bmw-motorrad.de/index_de_DE.html#/configurator/configUrl/a1b2c3d4">here</a>.</p>
+</body></html>

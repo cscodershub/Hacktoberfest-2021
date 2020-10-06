@@ -1,0 +1,13 @@
+http://metadata.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: metadata.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://metadata.itunes.apple.com/
+< Server: nginx/1.4.6 (Ubuntu)
+< Content-Length: 0
+< Date: Thu, 30 Apr 2020 21:29:47 GMT
+< Content-Type: text/html
+

@@ -1,0 +1,31 @@
+https://web-cell5.prod.ftl.netflix.com/
+
+> GET / HTTP/1.1
+> Host: web-cell5.prod.ftl.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Pragma: no-cache
+< X-Content-Type-Options: nosniff
+< Date: Wed, 17 Jun 2020 05:35:27 GMT
+< Location: https://web-cell5.prod.ftl.netflix.com/in/
+< X-Frame-Options: DENY
+< X-Netflix.proxy.execution-Time: 185
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: flwssn=e5ef888e-1b18-4f1a-9c81-82ccc329cdc3; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:35:27 GMT
+< Set-Cookie: clSharedContext=0fd8a728-ae16-4390-98c2-819e21956052; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEMf99nKGyZ-Wl2RgpFmkdEhAKmZOHfM9TdvvSfaXXvthUgECLs1vanV1ZNTHG6EzIgZV17YonNJ5UDZFD6ChmuntOVWz8TDG3rvISi82nu6rZA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABSaQNhAejQEun6Gcltc3hBuJRNtIEeFKfo.%26dt%3D1592372127100; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:35:27 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEIF9Y1xVR9qFgzbs-cjrcqiA8OdVoHV8Tu2KjDgfjwj5mRtb7cbVoYDOPPYUY_a_L9A6hhYx66_5XoY6foULFjMNB7bvXsTcT1JcCTNQKW8jxBbTc6U7twXdvk4qlX8LSU-g1eOPgklFIRiT1EhNuYhBOX26HyTQBz7JCu1iFNi5F7MWvHjgdYuWtPt8KrA4POVR9NKCAN_iBrKENkjKADQrNqKB5dyiKgEKRELzBl7swrR7lHK-vZAXyp72sMS-c-VL23OgBPc7z05R0jFiIv_G61cd3q9IhGzZT2d5pw5Cyr0Fi2moxzimIlwycHFMEr89_GQfiK4hC2GisPbYIVq2Pw..%26bt%3Ddev%26mac%3DAQEAEAABABSky6BElUmUVJ-cxfYZlHluQ23Qty94iHU.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:35:27 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=9c8b381f-eba9-4dd3-8616-bb5f08d16700; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:27 GMT; Path=/; Domain=.netflix.com
+< Via: 2 i-0daf7e3fa473b68d4 (eu-west-1), 1.1 c000.bom001.ix.nflxvideo.net (FTL-FQAE)
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Cache-Control: no-cache, no-store
+< Expires: 0
+< X-Netflix.nfstatus: 1_1
+< X-Originating-Url: https://web-cell5.prod.ftl.netflix.com/
+< Edge-Control: no-cache, no-store
+< Server: nq_website_core-prod-release 0cb4edf3-485f-44f4-9b63-bd2088eff9be
+

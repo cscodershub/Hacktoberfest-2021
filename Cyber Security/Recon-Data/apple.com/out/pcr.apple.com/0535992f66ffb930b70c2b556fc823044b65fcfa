@@ -1,0 +1,14 @@
+https://pcr.apple.com/
+
+> GET / HTTP/1.1
+> Host: pcr.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Date: Thu, 30 Apr 2020 21:28:47 GMT
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/plain;charset=utf-8
+

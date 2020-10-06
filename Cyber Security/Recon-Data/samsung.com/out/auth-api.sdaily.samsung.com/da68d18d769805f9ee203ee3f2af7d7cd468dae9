@@ -1,0 +1,11 @@
+https://auth-api.sdaily.samsung.com/
+
+> GET / HTTP/1.1
+> Host: auth-api.sdaily.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 
+< Content-Type: application/json;charset=UTF-8
+< Date: Wed, 10 Jun 2020 05:35:41 GMT
+
+{"result":{"code":401,"message":"Unauthorized"}}

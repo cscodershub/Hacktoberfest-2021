@@ -1,0 +1,13 @@
+https://swcdnlocator.apple.com/
+
+> GET / HTTP/1.1
+> Host: swcdnlocator.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 501 Not Implemented
+< Server: Apple Software Update Server
+< Date: Thu, 30 Apr 2020 21:29:11 GMT
+< Content-Length: 15
+< Content-Type: text/plain; charset=UTF-8
+
+NOT_IMPLEMENTED

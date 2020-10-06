@@ -1,0 +1,15 @@
+https://ivpn-3pclient.apple.com/
+
+> GET / HTTP/1.1
+> Host: ivpn-3pclient.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Temporary moved
+< Connection: Close
+< Date: Thu, 30 Apr 2020 21:41:13 GMT
+< X-Frame-Options: SAMEORIGIN
+< Location: https://ussjc2-3pclient-vpn2.apple.com/
+< Content-Length: 0
+< Cache-Control: no-cache
+< Pragma: no-cache
+

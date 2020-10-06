@@ -1,0 +1,23 @@
+http://www.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Length: 0
+< Set-Cookie: nfvdid=BQFmAAEBEJsbxD4GljLn3ir3vgDcYBlAL1HjBgm8gb1i3XQS1yGnm54oAN_Y5BIekBuwoz4IYY3khx1n1QfTrYwjmF-dsn1E8fj2jqZgoLxgKGgAgUb53Q%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=c4547650-bb55-4f49-8834-ce299861e48b; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:55 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 i-0c6421169eafef282 (eu-west-1)
+< X-Netflix.proxy.execution-Time: 7
+< Edge-Control: no-cache, no-store
+< Location: https://www.latency.prodaa.netflix.com/
+< X-Netflix.nfstatus: 1_1
+< Cache-Control: no-cache, no-store
+< Date: Wed, 17 Jun 2020 05:34:55 GMT
+< Server: nq_website_core-prod-release d33f447c-9ff4-4126-9c70-195ed8a9948d
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: http://www.latency.prodaa.netflix.com/
+

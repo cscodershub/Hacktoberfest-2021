@@ -1,0 +1,24 @@
+http://shealth.samsung.com/
+
+> GET / HTTP/1.1
+> Host: shealth.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Location: https://shealth.samsung.com/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: BOM51-C2
+< X-Amz-Cf-Id: wVC2RFXm1ySH9R9EQ1pXXU6ksmixg2XJzCadhdmqXsO5jE4GWOZ2QQ==
+< Date: Wed, 10 Jun 2020 05:37:03 GMT
+< Content-Length: 183
+< Via: 1.1 0869d033d6ab88323bb6abd532cae0d8.cloudfront.net (CloudFront)
+< Server: CloudFront
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

@@ -1,0 +1,25 @@
+http://marketing.boomi.com/
+
+> GET / HTTP/1.1
+> Host: marketing.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Cf-Cache-Status: DYNAMIC
+< Server: cloudflare
+< Cf-Ray: 5c31d0d22bb7de96-BLR
+< Date: Sat, 15 Aug 2020 09:16:15 GMT
+< Set-Cookie: __cfduid=db5337170778d2a1030f28a7ef32d91281597482975; expires=Mon, 14-Sep-20 09:16:15 GMT; path=/; domain=.marketing.boomi.com; HttpOnly; SameSite=Lax
+< Set-Cookie: __cf_bm=e4fee0214a87fca1bca4d23b5d577599c1950002-1597482975-1800-AX+tdW3T0bc+Ss4oO89M3+7UsvBHv+NEVkPAlS8JGrpfwFA8Cw9DENKSTBH+0npWPRSeHQmJ4Oq9cMJQkV3RUYs=; path=/; expires=Sat, 15-Aug-20 09:46:15 GMT; domain=.marketing.boomi.com; HttpOnly; SameSite=None
+< Location: https://marketing.boomi.com/
+< Vary: Accept-Encoding
+< Cf-Request-Id: 049300d7550000de9686377200000001
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://marketing.boomi.com/">here</a>.</p>
+</body></html>

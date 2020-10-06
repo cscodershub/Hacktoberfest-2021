@@ -1,0 +1,172 @@
+https://stats.boomi.com/
+
+> GET / HTTP/1.1
+> Host: stats.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Via: 1.1 varnish
+< Cache-Control: public, max-age=600
+< Content-Type: text/html; charset=UTF-8
+< X-Content-Type-Options: nosniff
+< X-Timer: S1597482963.412956,VS0,VE1
+< Vary: Accept-Encoding, Cookie, Cookie
+< Server: nginx
+< Strict-Transport-Security: max-age=31536000;
+< Strict-Transport-Security: max-age=300
+< X-Xss-Protection: 1; mode=block
+< X-Cache-Hits: 0, 1
+< Link: <https://stats.boomi.com/wp-json/>; rel="https://api.w.org/"
+< Link: <https://stats.boomi.com/>; rel=shortlink
+< X-Served-By: cache-mdw17322-MDW, cache-bom4721-BOM
+< X-Cache: MISS, HIT
+< Age: 391
+< Accept-Ranges: bytes
+< X-Frame-Options: DENY
+< X-Pantheon-Styx-Hostname: styx-fe3-a-76b768f59f-l6jkr
+< X-Styx-Req-Id: 081c9d4f-ded7-11ea-abeb-3e91f348ae64
+< Date: Sat, 15 Aug 2020 09:16:03 GMT
+
+
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+
+<head>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://stats.boomi.com/xmlrpc.php" />
+
+	<title>Stats &#8211; Boomi</title>
+<meta name='robots' content='noindex,nofollow' />
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Statistics - Stats - Boomi">
+<meta name="author" content="">
+<link rel='dns-prefetch' href='//stats.boomi.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Stats &raquo; Feed" href="https://stats.boomi.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Stats &raquo; Comments Feed" href="https://stats.boomi.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/stats.boomi.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://stats.boomi.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='roboto-google-font-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C700&#038;ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://stats.boomi.com/wp-content/themes/boomi-trust/inc/css/bootstrap.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='boomi-trust-theme-style-css'  href='https://stats.boomi.com/wp-content/themes/boomi-trust/style.css?ver=5.4.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://stats.boomi.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://stats.boomi.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://stats.boomi.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://stats.boomi.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://stats.boomi.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.1" />
+<link rel="canonical" href="https://stats.boomi.com/" />
+<link rel='shortlink' href='https://stats.boomi.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://stats.boomi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstats.boomi.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://stats.boomi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstats.boomi.com%2F&#038;format=xml" />
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script><link rel="icon" href="https://stats.boomi.com/wp-content/uploads/2019/09/Boomi_Logo_Icon_Navy-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://stats.boomi.com/wp-content/uploads/2019/09/Boomi_Logo_Icon_Navy-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://stats.boomi.com/wp-content/uploads/2019/09/Boomi_Logo_Icon_Navy-300x300.png" />
+<meta name="msapplication-TileImage" content="https://stats.boomi.com/wp-content/uploads/2019/09/Boomi_Logo_Icon_Navy-300x300.png" />
+</head>
+
+<body class="home page-template-default page page-id-9">
+	
+	<div class="wrapper">
+	
+		<div class="container-fluid primary-nav">
+			<div class="container">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+        				<a href="https://status.boomi.com"><img src="https://cdn.brandfolder.io/2E9KWBX8/at/pxxs0g-f7e6u8-eyegt1/Boomi_Dell_Logo_Monochrome_White.svg" height="" width="" alt="boomi-logo" /></a>
+					</div>
+					<div class="navbar-collapse primary-menu">
+	<ul id="menu-primary-nav" class="nav navbar-nav pull-left"><li id="menu-item-19" class="separator menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-19"><a href="https://stats.boomi.com/" aria-current="page">Statistics</a></li>
+<li id="menu-item-17" class="separator menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="https://stats.boomi.com/notifications/">Notifications</a></li>
+<li id="menu-item-17780" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17780"><a target="_blank" rel="noopener noreferrer" href="http://manywho.com/status">Flow Status</a></li>
+</ul></div> <!-- .primary-menu -->				</nav>
+			</div><!-- .container -->
+		</div><!-- .navigation -->
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 heading-title">
+    			<h1>Statistics</h1>			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12">
+	
+									
+<article id="post-9" class="post-9 page type-page status-publish hentry">
+	<div class="entry-content">
+		<div class="row row-eq-height statistics"><div class="col-xs-12 col-sm-6 col-md-3"><div class="row stat-wrap"><div class="stat-number">2,126,571,964</div><div class="stat-title">Integrations Processed</div><div class="stat-description">Total integrations that have been processed in the last 30 days.</div></div></div><div class="col-xs-12 col-sm-6 col-md-3"><div class="row stat-wrap"><div class="stat-number">83,272</div><div class="stat-title">Atoms Deployed</div><div class="stat-description">Total Atoms deployed in the Cloud and on-premise.</div></div></div><div class="col-xs-12 col-sm-6 col-md-3"><div class="row stat-wrap"><div class="stat-number">127,937,976</div><div class="stat-title">Mappings Indexed</div><div class="stat-description">Total number of mappings indexed by Boomi Suggest.</div></div></div><div class="col-xs-12 col-sm-6 col-md-3"><div class="row stat-wrap"><div class="stat-number">591,782</div><div class="stat-title">Functions Indexed</div><div class="stat-description">Total number of functions indexed by Boomi Suggest.</div></div></div></div>
+
+
+<div class="row"><div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4"><div class="support-info"><div class="report-text">To report <span>Severity 1</span> issues, please call:</div><div class="phone-number"><a href="tel:1-888-297-5808">1-888-297-5808</a> (Toll free in US)</div><div class="phone-number"><a href="tel:1-512-513-7117">1-512-513-7117</a> (International)</div></div></div></div>
+
+
+
+	</div><!-- .entry-content -->
+
+</article><!-- #post-## -->								
+			</div>
+		</div>
+	</div><!-- .container -->
+
+			<footer>	
+    			<div class="container footer-menu">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul class="menu">
+                                <li class="menu-item"><a href="http://boomi.com/" target="_blank">Boomi</a></li>
+                                <li class="menu-item"><a href="http://boomi.com/services/support/" target="_blank">Boomi Support</a></li>
+                                <li class="menu-item twitter">
+                                    <a href="https://twitter.com/boomi?ref_src=twsrc%5Etfw" 
+                                    class="twitter-follow-button" 
+                                    data-show-count="false">Follow @boomi</a>
+                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </li>
+                            </ul>
+                        </div> 			
+                    </div>
+    			</div>
+    						
+				<div class="copyright">
+					&copy; 2020 Boomi, Inc.. All rights reserved.
+				</div>
+			</footer>
+	
+			<a href="#0" class="boomi-trust-back-to-top"></a><script type='text/javascript' src='https://stats.boomi.com/wp-content/themes/boomi-trust/inc/js/bootstrap.js?ver=3.3.7'></script>
+<script type='text/javascript' src='https://stats.boomi.com/wp-content/themes/boomi-trust/inc/js/jquery.actual.js?ver=1.0.16'></script>
+<script type='text/javascript' src='https://stats.boomi.com/wp-content/themes/boomi-trust/inc/js/theme.js?ver=1.0.2'></script>
+<script type='text/javascript' src='https://stats.boomi.com/wp-includes/js/comment-reply.min.js?ver=5.4.1'></script>
+<script type='text/javascript' src='https://stats.boomi.com/wp-includes/js/wp-embed.min.js?ver=5.4.1'></script>
+		
+		</div><!-- .wrapper -->
+	</body>
+</html>

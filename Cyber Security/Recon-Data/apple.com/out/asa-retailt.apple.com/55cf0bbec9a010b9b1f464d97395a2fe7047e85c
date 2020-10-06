@@ -1,0 +1,22 @@
+http://asa-retailt.apple.com/
+
+> GET / HTTP/1.1
+> Host: asa-retailt.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 162
+< Location: https://asa-retailt-stg.apple.com/
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:41:15 GMT
+< X-Cache: TCP_REFRESH_MISS from a23-212-50-145.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (S)
+< X-Cache-Remote: TCP_MISS from a96-17-150-239.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

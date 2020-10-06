@@ -1,0 +1,19 @@
+http://origin-discussions-us.apple.com/
+
+> GET / HTTP/1.1
+> Host: origin-discussions-us.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 502 Bad Gateway
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:40:37 GMT
+< Content-Type: text/html
+< Content-Length: 150
+
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

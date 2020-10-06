@@ -1,0 +1,25 @@
+https://community.stage.bmw.de/
+
+> GET / HTTP/1.1
+> Host: community.stage.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Content-Length: 167
+< Date: Tue, 11 Aug 2020 04:51:21 GMT
+< X-Amz-Cf-Id: pWnsUHrLVszfN0cUJdLN4jVhzme57fMSGYeabefXre7K6ScqYgsYfw==
+< X-Cache: Error from cloudfront
+< Via: 1.1 57afc3afaf29c0b4ca5612b2e5de1391.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MRS52-C1
+< Content-Type: text/html;charset=UTF-8
+< Set-Cookie: AWSALB=V9pvDR66We1t/OWY+R6wObUbRQVpbmzMC1pnFTnC/blv9BfOW809FDuIkfjdbHMmx+fW9hFX38AjF2MekchHirusWL6hTGfzO7/HN5RRDjimwpiQ7GNXYta6vdqV; Expires=Tue, 18 Aug 2020 04:51:21 GMT; Path=/
+< Set-Cookie: AWSALBCORS=V9pvDR66We1t/OWY+R6wObUbRQVpbmzMC1pnFTnC/blv9BfOW809FDuIkfjdbHMmx+fW9hFX38AjF2MekchHirusWL6hTGfzO7/HN5RRDjimwpiQ7GNXYta6vdqV; Expires=Tue, 18 Aug 2020 04:51:21 GMT; Path=/; SameSite=None; Secure
+< Server: Apache
+< Www-Authenticate: Basic realm="Lithium"
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>401 Authorization Required</title>
+</head><body>
+<h1>Authorization Required</h1>
+</body></html>

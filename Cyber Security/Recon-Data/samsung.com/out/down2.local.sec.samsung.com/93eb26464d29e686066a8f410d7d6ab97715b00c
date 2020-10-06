@@ -1,0 +1,21 @@
+http://down2.local.sec.samsung.com/
+
+> GET / HTTP/1.1
+> Host: down2.local.sec.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Wed, 10 Jun 2020 05:36:27 GMT
+< Content-Type: text/html
+< Last-Modified: Tue, 28 Apr 2015 08:21:57 GMT
+< Via: 1.1  PShgseSEL3cr149:2 (W)[21 200 2], 1.1  PShgseSEL6kq75:4 (W)[26 200 2]
+< Server: PWS/8.3.1.0.8
+< Content-Length: 1301
+< Accept-Ranges: bytes
+< Etag: "bed86a648c81d01:0"
+< Set-Cookie: TS0168b30d=01baedfe8e3b8206ffb00f6af93befcdc90f133b24e2e64db5d432b7a2b3fae1c54ee59d6fe81627f3514aa86f88a2938ddb880f44; Path=/
+< X-Px: ms PShgseSEL6kq75none,ms PShgseSEL3cr149none(origin)
+
+<html>
+<meta name="robots" content="all" />
+<meta name="resource-type" content="document" /><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><!--[if IE ]>	<meta http-equiv="imagetoolbar" content="no" /><![endif]--><link type="text/css" rel="stylesheet" href="http://www.samsung.com/sec/common/css/samsung.css" /><link type="text/css" rel="stylesheet" href="http://www.samsung.com/sec/css/p2consumer.css" /><!--[if gte IE 8]><link rel="stylesheet" type="text/css" href="http://www.samsung.com/sec/common/css/ie8gte.css" /><![endif]--><!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="http://www.samsung.com/sec/common/css/ie7lte.css" /><![endif]--><!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://www.samsung.com/sec/common/css/ie6.css" /><![endif]--><html><head><meta http-equiv="X-UA-Compatible" content="IE=Edge" />    <title></title></head><body><div id="content" class="notFound">		<div class="compWrap">			<div class="desc flowType">				<div class="account">					<h2>요청하신 페이지를 표시할 수 없습니다.</h2>					<p>죄송합니다, 고객님의 요청을 실행하는데 문제가 발생했습니다.<br />링크 정보를 다시 확인하세요.</p>					<p class="moreLink"><a href="#none" onclick="history.back();">이전 페이지로 돌아가기</a></p>				</div>			</div>		</div></div></body></html>

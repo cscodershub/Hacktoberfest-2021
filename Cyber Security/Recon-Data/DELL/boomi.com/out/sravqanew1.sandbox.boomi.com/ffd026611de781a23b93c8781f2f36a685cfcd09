@@ -1,0 +1,587 @@
+https://sravqanew1.sandbox.boomi.com/
+
+> GET / HTTP/1.1
+> Host: sravqanew1.sandbox.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Pragma: no-cache
+< X-Gh-Instanceid: Not Specified
+< Date: Sat, 15 Aug 2020 09:16:03 GMT
+< Content-Type: text/html; charset=UTF-8
+< Server: nginx/1.17.4
+< Set-Cookie: GHSID=on11hla9c6igumejt6tv9ds69n; path=/; domain=.gethired.com; secure; HttpOnly
+< Set-Cookie: rinfo=LmfQmOQF48c9mPxRs%2BgPiBEbVrqQFqhsVCEM6nCDK2fE5IwqAruESbFQ598eTdONBOKC4st9prXZbj9ljZIzRg%3D%3D; expires=Mon, 14-Sep-2020 09:16:03 GMT; Max-Age=2592000; secure; HttpOnly
+< Set-Cookie: country=us; expires=Thu, 15-Aug-2030 09:16:03 GMT; Max-Age=315532800; path=/; domain=.gethired.com; secure; HttpOnly
+< Set-Cookie: cookiesEnabled=valid; path=/; domain=.gethired.com; secure; HttpOnly
+< Cache-Control: no-store, no-cache, must-revalidate
+< P3p: policyref="/p3p.xml",CP="ALL ADM DEV PSAi COM OUR OTR STP IND ONL"
+< X-Gh-Performancetimer: 169
+
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="description" content="Hiring and Onboarding, Time and Attendance, Benefits Administration. GetHired's HR product suite is designed to help your business run efficiently, save money, and stay compliant." ><link rel="icon" type="image/png" href="https://gethired.com/images/favicon.png?r=162" />
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+<!-- GetHired Pie -->
+<link rel="stylesheet" href="https://gethired.com/pie/css/ghpie.css?r=162">
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript">var JSDictionary = {invalid_routing:"Routing number is invalid",enter_date:"Please enter a valid date",enter_date_format:"Please enter a valid date in MM/DD/YYYY",enter_phone:"Please enter a valid phone number in the XXXX-XX-XXXX format",enter_ssn:"Please enter a valid SSN in the XXX-XX-XXXX format",checkout_incomplete:"Form Incomplete",please_apply:"Please apply your coupon code, and then click \"Submit Order\" again to continue.",coupon_not_applied:"Oops! You entered a coupon code, but have not applied it yet.",message_sent:"Your message has been sent successfully.",message_failed:"Failed to send your message, please try again.",message_delete_error:"Failed to delete your message, please try again.<br>Error: ",clcik_add_cat:"Click to add job categories",expand_all:"Expand All",collapse_all:"Collapse All",choose:"Choose",save:"Save",close:"Close",see_more:"See More",see_less:"See Less",create_modal:"Create Modal",create_schedule:"Create Schedule",create_unavailability:"Create Unavailability",total:"Total",schedule_options:"Options",bulk_assign:"Bulk Assign",schedule_settings:"Schedule Settings",current_schedule:"Current",print_schedule:"Download Schedule",schedule_week:"Week",schedule_month:"Month",open_shifts:"OPEN SHIFTS",open_shift:"Open Shift",all_location:"All location",filter_employee_by_location:"Filter employees by location",employee_view:"Employee View",shift_view:"Shift View",job_view:"Job View",display_schedule_user:"Display scheduled user only",total_shifts:"Total Shifts",total_hours:"Total Hours",schedule_published:"Schedule published",begin_week:"Beginning of Week",schedule_start_day:"Which day of the week does your schedule start?",select_employee_required:"Please select an employee.",recently_used_timezones:"Recently used timezones",number_of_shifts:"Number of Shifts",open_shift_number_required:"Number of Shifts is required and should be larger then 1.",sun:"Sun",mon:"Mon",tue:"Tue",wed:"Wed",thu:"Thu",fri:"Fri",sat:"Sat",jan:"Jan",feb:"Feb",mar:"Mar",apr:"Apr",may:"May",jun:"Jun",jul:"Jul",aug:"Aug",sep:"Sep",oct:"Oct",nov:"Nov",dec:"Dec",default_time:"Default Start and End Time",show_breaks:"Show Breaks",show_jobs:"Show Jobs",employee:"Employee",shift_name:"Shift Name",job_name:"Job Name",delete_shift:"Delete Shift",delete_shift_confirm:"Are you sure you want to delete the following shift on",delete_item_confirm:"Are you sure you want to delete the following shift",on:"on",for:"for",delete:"Delete",shift:"Shift",add_unavail:"Add Unavailability",unavailable:"Unavailable",time_off:"Time Off",shift_start_date:"Start Date(UTC)",start_date:"Start Date",template:"Template",start_time:"Start Time",end_time:"End Time",location:"Location",select:"select",select_cap:"Select",create_new:"Create New",timezone:"Time Zone",HEX:"HEX",timezone_requried:"Timezone is required.",color_format_required:"Schedule color with correct format is required",break:"Break",type:"type",add_shift_note:"Add Shift Note",current_date:"Current Date",current_week_day:"Current Week Day",repeat_end_value_more:"Repeat ends by times value must be more than 0",repeat_every_value_more:"Repeat every value must be more than 0",swap_shift_status_remind:"This shift is in swap process. Deletion would cause swap process interruption.",drop_shift_status_remind:"This shift is in drop process. Deletion would cause drop process interruption.",claim_shift_status_remind:"This shift is in claim process. Deletion would cause claim process interruption.",choose_job:"Please choose a job",jobs:"Jobs",endtime_required:"Schedule end time is required and must be different from the start time",starttime_invalid:"Schedule start time is invalid",repeat:"Repeat",none:"None",ends_never:"Never",ends_on:"On",ends_after:"After",repeat_weeks:"Week(s)",repeat_months:"Month(s)",save_template:"Save as template",add_break:"Add Break",shift_notes:"Shift Notes",repeat_every:"Repeat every",repeat_unit:"unit",repeat_on:"Repeat on",repeat_on_required:"Repeat on option is required",break_type_required:"Break type is required",ends:"ends",date:"Date",times:"Times",create:"Create",update:"Update",all_day_check:"All day check",all_day:"All Day",unavail_start_time_invalid:"Unavailability start time is invalid",unavail_end_time_required:"Unavailability end time is required",update_to_timezone:"Update to employee timezone",color:"Color",resolve_conflict_request:"Your current schedule has a conflict. You can:",move_change:"Move your schedule to an open shift",keep_change:"Ignore conflict and proceed",cancel_change:"Discard changes",how_to_send_notice:"How do you want to send notifications?",notify_all:"Notify all users of new schedule",notify_partial:"Notify employees with changes only",no_notification:"Don't send notifications",conflict_schedule_message:"Shift is in conflict with other shifts. If the shifts are not in your schedule, please contact your supervisor or admin to check if there are any unpublished shifts.",conflict_unavail_schedule_message:"Unavailability is in conflict with other shifts. If the shifts are not in your schedule, please contact your supervisor or admin to check if there are any unpublished shifts.",update_current_shift:"Keep change and update current shift.",change_confirm_front:"Your schedule has ",change_confirm:"day off due to changing to employee timezone, please make sure the change is correct before submit",unavail_change_confirm_front:"Your unavailability has",update_current_unavail_shift:"Keep change and update current unavailability.",warning:"Warning",delete_schedule:"Delete schedule",send_deleted_schedule_confirm:"Do you want to send email to the employee whose published schedule is deleted?",send_email_confirm:"Send email to that employee.",no_send_email:"Don't send email.",publish_schedule:"Publish the schedule",choose_update_mode:"Please choose the update mode",this_event:"This Event",this_and_following:"This and Following",all:"All",all_lowercase:"all",open:"Open",unpublished:"Unpublished",choose_delete_mode:"Please choose the delete mode",today_and_following:"Today and Following",total_labor_cost:"Total Labor Cost",title_publish:"Publish",current_timeoff_timezone:"Current time off timezone ",publish_disabled_tooltip_title:"Please update/discard the current changes before publish this shift.",this_timeoff:"this time off is",different_employee_timezone:"is different with employee timezone",firstname_asc:"First Name: A to z",firstname_dec:"First Name: z to A",lastname_asc:"Last Name: A to z",lastname_dec:"Last Name: z to A",name_asc:"Job Name: A to z",name_dec:"Job Name: z to A",assigned_task_asc:"Assigned Jobs",assigned_task_dec:"Unassigned Jobs",employee_lower:"employee",group_lower:"group",select_one_bulk_update_employee:"Please select at least one employee to bulk update schedule",select_one_bulk_update_group:"Please select at least one group to bulk update schedule",select_one_bulk_assign_employee:"Please select at least one employee to bulk assign schedule",select_one_bulk_assign_group:"Please select at least one group to bulk assign schedule",select_one_bulk_copy_employee:"Please select at least one employee to bulk copy & paste schedule",select_one_bulk_copy_group:"Please select at least one group to bulk copy & paste schedule",select_one_bulk_delete_employee:"Please select at least one employee to bulk delete schedule",select_one_bulk_delete_group:"Please select at least one group to bulk delete schedule",of:"of",employees:"employees",hide_cost:"Hide cost amount when printing",include_cost:"Include cost amount when printing",invalid_routing:"Routing number is invalid",enter_date:"Please enter a valid date",enter_date_format:"Please enter a valid date in MM/DD/YYYY",enter_phone:"Please enter a valid phone number in the XXXX-XX-XXXX format",enter_ssn:"Please enter a valid SSN in the XXX-XX-XXXX format",alphabetic_only:"Only alphabetic characters accepted",checkout_incomplete:"Form Incomplete",please_apply:"Please apply your coupon code, and then click \"Submit Order\" again to continue.",coupon_not_applied:"Oops! You entered a coupon code, but have not applied it yet.",message_sent:"Your message has been sent successfully.",message_failed:"Failed to send your message, please try again.",message_delete_error:"Failed to delete your message, please try again.<br>Error: ",clcik_add_cat:"Click to add job categories",expand_all:"Expand All",collapse_all:"Collapse All",choose:"Choose",save:"Save",close:"Close",error:"Error",see_more:"See More",see_less:"See Less",search:"Search",loading:"Loading",no_match_employee:"No matched employees found",no_match_task:"No matched jobs found",drop_requested:"Drop Requested",swap_requested:"Swap Requested",this_field_required:"This field is required",this_field_invalid:"This field is invalid",template_error:"Cannot find template with id:",schedule_template_error:"Cannot find schedule template by id",repeat_date_rule:"Schedule repeat end date should be later than start date.",select_employees:"Step 1: Select Employees",select_by_name:"Select by name",select_by_group:"Select by group",clear_search:"Clear Search",select_shift:"Step 2: Select Shift",shift_template:"Shift Template",bulk_assignment:"Bulk Assignment",bulk_delete:"Bulk Delete",bulk_update:"Bulk Update",bulk_copy:"Bulk Copy & Paste",copy_paste_assignment:"Copy & Paste Assignments",bulk_update_assignment:"Bulk Update Assignments",bulk_delete_date_rule:"Bulk delete end date should be later than start date.",bulk_update_date_rule:"Bulk update end date should be later than start date.",recalculate:"Recalculate",date_range:"Date Range",copy_from:"Copy From",paste_to:"Paste To",repeat_times:"Repeat Times",repeat_times_more:"Repeat times must be more than 1",copy_assignments_with:"Copy Assignments with",select_shift_to_update:"Step 2: Select a Shift to Update",which_shift_template_update:"Which shift template would you like to update?",select_shift_template_to_update:"Please select the shift template you want to update",dates_to_apply_change:"For what dates do you want to apply this change to?",step3_update_shift:"Step 3: Update Selected Shift to",schedule_start_time_required:"Schedule start time is required",schedule_end_time_required:"Schedule end time is required",sync_pos_data:"Sync POS Data",to:"To",delete_assignments_with:"Delete Assignments with",all_shifts:"All Shifts",any_shifts:"Any Shifts",show_filter:"Show Filter",apply:"Apply",cancel:"Cancel",shift_template_id_required:"Shift template is required",generate_file:"Generating print file...",suffixAgo:"ago",suffixFromNow:"from now",seconds:"less than a minute",minute:"about a minute",minutes:"%d " + "minutes",hour:"about an hour",hours:"about 0 hours",day:"a day",day_upper:"Day",days:"%d " + "days",month:"about a month",months:"%d " + "months",year:"about a year",years:"%d " + "years",acct_val_fail:"Sorry. Account validation failed.",token_submit:"Please make sure complete validation token string<br /> was submitted.",email_validated:"Email Account Validated! Thank you.",redirect_login:"You will now be redirected to our login page.",acct_validated:"Account Validation",password_rule:"Password must 8-20 chars long, include at least 1 upper case letter, 1 lower case letter and 1 numeric character, and cannot have greater than 3 repeating characters.",password_not_match:"Passwords do NOT match.",password_change_fail:"Password change failed.",forgot_password:"Forgot password?? Try <a href='/auth/passwordresetrequest'>PASSWORD RESET</a> option.",password_changed:"Password Successfully Changed.",close_redirect:"Upon closing this dialog you will be directed to our login page.",password_change:"Password Change",email_invalid:"Email entered is invalid.",password_email:"Password cannot be the same as email.",agree:"Please agree to the Terms of Service and Privacy Policy.",password_reset_fail:"Sorry. Password reset failed.",password_set:"New Password Successfully Set.",password_reset:"Password Reset",password_reset_fail:"Sorry. Password reset request failed.",password_sent:"Your password reset link was successfully sent to your e-mail inbox.",password_rest_request:"Password Reset Request",check_folder:"Please check your junk-mail folder if the reset message does not appear shortly.",errors:"ERRORS",fix_errors:"Oops! Please fix the following errors",fix_error:"Oops! Please fix the following error",prompt:"Prompt",ok:"Ok",cancel:"Cancel",confirm:"Confirm",clear:"Clear",change_font:"Change Font",draw_signature:"Draw your signature",or:"or",type_name:"Type your name",understand_legal:"I understand this is a legal representation of my signature",form_incomplete:"Form Incomplete",photo_upload_fail:"Photo upload failed - Please try again.",accept_jpg:"Accepted file types are jpg, png, gif",upload_photo:"Upload Photo",file_too_large:"Your file has exceeded the 10M upload size limit.",how_about:"How about",reason_cancel:"Please select a reason for caneling this interview",reason_decline:"Please select a reason for declining this candidate",interview_canceled:"This interview has been successfully canceled.",candidate_declined:"This candidate has been declined.",error_occurred:"An error occurred. Please try again, or contact customer support.",error_message:"Error Message",will_not_notify:"This candidate will not be notified that he or she has been declined due to your selection.",select_notify:"Please select whether you want to notify the applicant that they have been declined or not",decline_reason:"Decline Reason",select_reason:"Please select a reason for declining this candidate in order to preview the decline message.",fail_decline:"Failed in declining this candidate. Please try again",set_interview_date:"Please set interview date before adding additional times",field_required:"Field Required",set_interview_time:"Please set the correct interview time",show_search:"Show Search",hide_search:"Hide Search",recommend_remove:"We recommend that you <strong>remove your email address</strong> from your job post. Including your email will reduce the amount of job boards that will display your posting and decrease the total number of applicants you receive. <br><br>Job seekers who apply will be directed to your <strong>GetHired applicant tracking system</strong> and you will be alerted when you receive candidates.",enter_description:"Please enter a job description.",enter_category:"Please add a job category.",fix_resubmit:"Oops! Please correct the errors outlined above and resubmit.",thank_feedback:"Thank you for your valuable feedback!",score_required:"Score is required",complete_all:"Please complete all fields",video_conferencing:"Instant Video Conferencing",expand:"Expand",collapse:"Collapse",replace_question:"Are you sure you want to replace your current question with",choose_format:"Please choose format for answer.",incomplete_question:"Incomplete Question",choose_mc:"Please choose whether single or multiple answers are allowed.",add_option_mc:"Please add options for your multiple choice question.",provide_mc:"Please provide at least 2 choices.",enter_question:"Please enter a question.",message_sent:"Your message has been sent successfully.",message_sent_fail:"Failed to send your message, please try again.",message_delete_fail:"Failed to delete your message, please try again.",enter_valid_phone:"Please enter a valid phone number.",enter_valid_code:"Please enter a valid verification code.",complete_profile:"Certain profile information is required by our search engine to ensure employers can find the right candidates. Please complete your profile so employers can find you!",hiccup:"We experienced a hiccup and were unable to remove your requested item.  Please contact customer support.",confirm_remove:"Confirm to remove",click_to_remove:"Click OK to confirm your REMOVE request",fail_remove:"Failed to Remove!",caution:"Caution!",resume_upload_fail:"Resume upload failed - Please try again.",resume_upload_status:"Resume Upload Status",come_join:"Come and Join me at GetHired.com!",get_hired:"Get hired with GetHired.com",invlaid_captcha:"Invalid Captcha. Please Try Again.",install_flash:"Please install Flash Player for a better experience.",upgrade_flash:"Please ugrade your flash player version.",tell_how_heard:"Please tell us how you heard about us...",click_record:"Click on the Record button to start recording",click_stop:"Recording: Click on the Stop button when you are done.",click_play:"Click on the Play button to listen, Submit button to save.",audio_saved:"Your audio response saved successfully.",audio_save_fail:"Failed to save  your audio response. Please try again.",failed:"Failed: ",enter_ssn_format:"Please enter SSN in the format XXX-XX-XXXX",enter_date_format:"Please enter a date in the format MM/DD/YYYY.",specify_valid_SSN:"Please specify a valid SSN or use 000-00-0000 for unknown SSN",specify_valid_SIN:"Please specify a valid SIN or use 000-000-000 for unknown SIN",specify_valid_NINO:"Please specify a valid NI Number or use AA000000 for unknown NI Number",specify_valid_PPS:"Please specify a valid PPS number or use 0000000A for unknown PPS number",search_query_length_more:"The length of search query must be more than one character.",color_format_invalid:"Color format is not valid",enter_different_value:"Please enter a different value.",no_special_char:"No special characters(<>/&?...) are allowed in this field.",file_size_no_greater:"File size cannot greater than ",must_greater_than_zero:"Must be greater than {0}.",updated_policy:"We have recently updated our <span class='font_blue'>Terms of Service</span> and <span class='font_blue'>Privacy Policy</span>",click_agree:"We have made several revisions, including a change to the dispute resolution mechanism and your rights for bringing a claim under the Terms of Service and Privacy Policy. By clicking 'I agree' below, you are indicating your acceptance to the modified Terms of Service and Privacy Policy.",terms:"Terms of Service",privacy:"Privacy Policy",i_agree:"Yes, I Agree",no_log_out:"No, Log out",schedule_interview:"Schedule Interview",reschedule_interview:"Reschedule Interview",font_size:"Font Size",path:"Path",more_colors:"More Colors...",underline_c:"Underline (Ctrl+U)",italic_c:"Italic (Ctrl+I)",bold_c:"Bold (Ctrl+B)",justifyfull_desc:"Align Full",justifyright_desc:"Align Right",justifycenter_desc:"Align Center",justifyleft_desc:"Align Left",backcolor_desc:"Select Background Color",forecolor_desc:"Select Text Color",numlist_desc:"Insert/Remove Numbered List",bullist_desc:"Insert/Remove Bulleted List",image_desc:"Insert/Edit Image",unlink_desc:"Unlink",link_desc:"Insert/Edit Link",quebec:"Quebec",facebook_domain:"www.facebook.com",please_enter:"Please enter",or_more_char:"or more characters",min_8_chars:"8 characters long",one_upper:"at least one upper case letter",one_lower:"at least one lower case letter",one_numeric:"at least one numeric character",no_repeat:"no more than 3 repeating characters",diff_from_email:"different from email",document_delete_confirm:"Are you sure you want to delete this document?",yes:"Yes",no:"No",please_choose_your_categories:"Please select your preferred categories",next:"Next",click_to_select:"Click to select",session_about_to_expire:"Your session is about to expire in 5 minutes. Would you like to extend it so you may continue working?",created:"created",alert:"Alert",display_employee_only:"Display scheduled employees only",confirm_discard_change:"Are you sure you want to cancel? Cancel will discard all the changes",discard:"Discard",};</script>
+<script src="https://gethired.com//js/jq/plugins/jquery.mask.js?r=163" type="text/javascript"></script>
+<script src="https://gethired.com//js/jq/plugins/jquery.validate.min.js?r=163" type="text/javascript"></script>
+<script src="https://gethired.com//js/custom.validate.js?r=163" type="text/javascript"></script>
+<script src="https://gethired.com//v3/js/gethired.js?r=163" type="text/javascript"></script>
+
+<title>Beautiful, Effective, Easy-To-Use HR Software for Growing Businesses | GetHired.com</title>
+<!-- Google Tag Manager -->
+                    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-NR5THTJ');</script>
+                    <!-- End Google Tag Manager --></head>
+
+<body>
+    <div class="nav white">
+        <div class="container">
+            <div class="row">
+                <div class="col-4"><a href="/"><img src="https://gethired.com/pie/images/gh_logo_blue.svg?r=162"/></a></div>
+                <div class="col-8 text-right">
+                    <div class="fullmenu">
+                        <div class="link submenu" href="#">
+                            <span>Products</span>
+                            <div>
+                                <a href="/product/hiring" class="link">Hiring &amp; Onboarding</a>
+                                <a href="/product/time" class="link">Time &amp; Attendance</a>
+                                <a href="/product/benefits" class="link">Benefits Administration</a>
+                            </div>
+                        </div>
+                        <a class="link" href="/product/brokers">Partners</a>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-login"><i class="far fa-user"></i> Sign In</a>
+                    </div>
+                    <a href="#" data-target="#vertical-menu" id="vertical-menu-trigger"><i class="fas fa-bars"></i></a>
+                </div>
+                <div class="vertical-menu" id="vertical-menu">
+                    <ul>
+                        <li>
+                            <a class="sub-vertical-menu expand" href="#">Products<i class="fas fa-angle-up"></i></a>
+                            <ul>
+                                <li><a href="/product/hiring">Hiring &amp; Onboarding</a></li>
+                                <li><a href="/product/time">Time &amp; Attendance</a></li>
+                                <li><a href="/product/benefits">Benefits Administration</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/product/brokers">Partners</a></li>
+                        <li>
+                            <div>&nbsp;</div>
+                            <button class="btn btn-primary width_100p" id="btn-menu-signin" data-toggle="modal" data-target="#modal-login"><i class="far fa-user"></i> Sign In</button>
+                            <div>&nbsp;</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="header">
+    <div class="container">
+        <div class="main">
+            <div class="brief">
+                <h1>Beautiful, Effective, Easy-To-Use HR Software for Growing Businesses</h1>
+                <h5>GetHired is designed to help your business run efficiently, save money, and stay compliant. Request a demo today!</h5>
+                <div>
+                    <a href="#" class="btn btn-info btn-lg margin_right_15"  data-toggle="modal" data-target="#modal-request-demo">Request Demo</a>
+                    <a href="#" class="btn btn-trans btn-lg link-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section suite">
+    <div class="container">
+        <h3 class="text-center">GetHired's Software Suite includes</h3>
+        <div class="separator">&nbsp;</div>
+        <div class="row suite-list">
+            <div>
+                <span><img src="https://gethired.com/pie/images/hiring.svg?r=162" /></span>
+                <label>Hiring and Onboarding</label>
+            </div>
+            <div>
+                <span><img src="https://gethired.com/pie/images/time.svg?r=162" /></span>
+                <label>Time and Attendance</label>
+            </div>
+            <div>
+                <span><img src="https://gethired.com/pie/images/benefits.svg?r=162" /></span>
+                <label>Benefits Administration</label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section gray">
+    <div class="container">
+        <div class="introduction" id="intro-hiring">
+            <div class="img"><img src="https://gethired.com/pie/images/hiring_overlay.png?r=162" /></div>
+            <div class="text">
+                <div>
+                    <h4 class="margin_bottom_30">Hiring and Onboarding</h4>
+                    <div class="margin_bottom_30">Post a job to top job boards and social media sites in one click, ask optional pre-screening questions using video and audio, automatically send interview requests and quickly find the perfect
+    fit for you position.</div>
+                    <div><a class="btn btn-info btn-lg width_180" href="/product/hiring">Learn More</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="introduction reverse" id="intro-time">
+            <div class="text">
+                <div>
+                    <h4 class="margin_bottom_30">Time and Attendance</h4>
+                    <div class="margin_bottom_30">Manage employee schedules, track work time, manage employee requests and much more. GetHired’s Time and Attendance solution can be accessible through your mobile phone, desktop, or with an iPad.</div>
+                    <div><a class="btn btn-info btn-lg width_180" href="/product/time">Learn More</a></div>
+                </div>
+            </div>
+            <div class="img text-right"><img src="https://gethired.com/pie/images/time_overlay.png?r=162" /></div>
+        </div>
+    </div>
+</div>
+
+<div class="section gray tea">
+    <div class="container">
+        <div class="introduction" id="intro-benefits">
+            <div class="img"><img src="https://gethired.com/pie/images/benefits_overlay.png?r=162" /></div>
+            <div class="text">
+                <div>
+                    <h4 class="margin_bottom_30">Benefits Administration</h4>
+                    <div class="margin_bottom_30">Easy-to-use benefits administration system allows brokers and employers to offer benefits, streamline plan selections during onboarding, and
+track open enrollments.</div>
+                    <div><a class="btn btn-info btn-lg width_180" href="/product/benefits">Learn More</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section demo">
+    <div class="container text-center">
+        <h1 class="margin_bottom_30">Got a Minute?</h1>
+        <p class="margin_bottom_30">Schedule a demo and learn how GetHired can help your business grow.</p>
+        <div><div><a class="btn btn-primary btn-lg width_180" data-toggle="modal" data-target="#modal-request-demo">Request Demo</a></div></div>
+    </div>
+</div>
+
+<script>
+    (function($) {
+        var sections = {};
+
+        $(document).ready(function(e) {
+            var scroll_top = $(document).scrollTop();
+
+            ["#intro-hiring", "#intro-time", "#intro-benefits"].map(function(section) {
+                var rect = $(section)[0].getBoundingClientRect();
+
+                sections[section] = {"top": (rect.y + scroll_top), "bottom": (rect.y + rect.height + scroll_top)};
+            });
+
+            triggerAnimation(scroll_top);
+        });
+
+        var triggerAnimation = function(scroll_top) {
+            var window_height = $(window).height();
+
+            for( var section in sections) {
+                var container = $(section);
+
+                if(sections[section]["top"] < (scroll_top + window_height - 100)) {
+                    if(!container.hasClass("shown")) {
+                        container.addClass("shown");
+                        return;
+                    }
+                }
+            }
+        };
+
+        $(document).on("scroll", function(e) {
+            var scroll_top = $(e.currentTarget).scrollTop();
+            triggerAnimation(scroll_top);
+        });
+
+        $(document).on("click", ".link-more", function(e) {
+            e.preventDefault();
+
+            var body = $("html, body");
+            body.stop().animate({scrollTop: sections["#intro-hiring"]["top"] - 100}, 500, 'swing');
+        });
+    })(jQuery);
+</script>
+    
+    <div class="section foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="margin_bottom_30">Products</h5>
+                    <p><a href="/product/hiring">Hiring and Onboarding</a></p>
+                    <p><a href="/product/time">Time and Attendance</a></p>
+                    <p><a href="/product/benefits">Benefits Administration</a></p>
+                </div>
+                <div class="col-md-6 contact">
+                    <h5 class="margin_bottom_30">Contact</h5>
+                    <p>540 University Ave, Palo Alto, CA 94301</p>
+                    <p>888.320.4456</p>
+                    <p><a href="email:support@gethired.zendesk.com">support@gethired.zendesk.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2020 GetHired All Right Reserved
+                </div>
+                <div class="col-sm-6 tos">
+                    <a href="/site/privacy-policy" target="_blank" class="margin_right_15">Privacy Policy</a>
+                    <a href="/site/terms-of-service" target="_blank">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade modal-login" id="modal-login" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close" data-dismiss="modal" aria-label="Close"></button>
+                <h3 class="margin_bottom_30">Login</h3>
+                <form id="signin-form" method="post" action="/login">
+                    <div class="margin_bottom_30">
+                        <div id="signin-error" class="no_display alert alert-danger"></div>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Email/Username" name="username" data-rule-required="true" value=""/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="password" placeholder="Password" name="password" data-rule-required="true" />
+                        </div>
+                    </div>
+                    <div class="buttons-container">
+                        <div class="margin_bottom_15"><button type="submit" class="btn btn-lg btn-info btn-signin width_100p" id="btn-login">Sign In</button></div>
+                        <div class="text-center"><a href="#" class="forgot-password" data-dismiss="modal" data-toggle="modal" data-target="#forgotPassword">Forgot Password?</a></div>
+                    </div>
+                </form>
+                <div class="separator"></div>
+                <div class="text-center regular">
+                    <span class="padding_right_15 padding_left_15">Not a customer yet?</span>
+                    <span><button class="btn btn-primary trans" id="link-request-demo" data-dismiss="modal" data-toggle="modal" data-target="#modal-request-demo">Request a Demo</button></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="forgotPassword" class="modal fade modal-login" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close" data-dismiss="modal" aria-label="Close"></button>
+                <h3 class="margin_bottom_30">Forgot Password</h3>
+                <form method="post" id="forgot-password-form">
+                    <input type="hidden" name="GHCSRF" value="aIoww3fc4+OSb2S373J7HCRxlG0=" />                    <h5 class="font_normal">Enter your email address. You will receive an email with a link to reset your password.</h5>
+                    <div class="form-group margin_bottom_30">
+                        <input type="email" name="email" placeholder="Email" data-rule-required="true" class="form-control" >
+                    </div>
+                    <input type="hidden" name="role" value="partner" />
+                    <div class="text-right">
+                        <button type="button" class="btn btn-lg btn-info" id="btn-forgotpwd">Send Password Reset Link</button>
+                        <div id="forgot-password-error"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="no_display" id="password-reset-confirm">
+    <div class="text-center">
+        <h1 class="margin_bottom_30"><i class="fas fa-check-circle c_info"></i></h1>
+        <p class="margin_bottom_30 regular">We've sent you an email with a link to reset your password. If you don't receive it soon, please check your spam folder or go back to the previous step and try entering your email again.</p>
+        <div><button class="btn btn-default" data-dismiss="modal" aria-label="Close">Close</button></div>
+    </div>
+</div>
+
+
+<script>
+    (function($) {
+        var SignIn = {
+            onSubmitSignInForm: function () {
+                var self = this;
+                var form = $('#signin-form');
+
+                $('#btn-login').off('click');
+                $('#btn-login').on('click', function (e) {
+                    e.preventDefault();
+                    
+                    $('#signin-error').hide();
+                    var modal = $(e.currentTarget).parents(".modal-body:first");
+                    
+                    if (form.valid()) {
+                        GH.showLoader(modal);
+                        $.post('/login', form.serialize(), function(response) {
+                            if (response.status == 'succeeded') {
+                                location.reload();
+                            } else {
+                                GH.hideLoader(modal);
+                                $('#signin-error').text(response.message).show();
+                            }
+                        }, 'JSON');
+                    }
+                });
+            },
+            onSubmitForgotPasswordForm: function() {
+                var self = this;
+                var modal = $('#forgotPassword');
+                var modalbody = modal.find(".modal-body:first");
+                var success = false;
+
+                $(document).off('click', '#btn-forgotpwd');
+                $(document).on('click', '#btn-forgotpwd', function (e) {
+                    var form = $('#forgot-password-form');
+                    $('#forgot-password-error').hide();
+                    if (form.valid()) {
+                        
+                        GH.showLoader(modalbody);
+                        
+                        $.post('auth/passwordresetrequest/format/json', form.serialize(), function(response) {
+                            GH.hideLoader(modalbody);
+                            if (response.status == 'succeeded') {
+                                var confirm = $('#password-reset-confirm').html();
+                                $('#password-reset-confirm').html(modalbody.html());
+                                modalbody.html(confirm);
+                                success = true;
+                            } else {                                
+                                $('#forgot-password-error').text(response.message).show();
+                            }
+                        }, 'JSON');
+
+                    }
+                });
+
+                modal.on('hide.bs.modal', function (e) {
+                    if(success) {
+                        var confirm = $('#password-reset-confirm').html();
+                        $('#password-reset-confirm').html(modalbody.html());
+                        modalbody.html(confirm);
+                    }else {
+                        var form = $('#forgot-password-form');
+                        form.trigger("reset");
+                        $('#forgot-password-error').text("").hide();
+                    }
+                });
+
+            },
+            init: function () {
+                this.onSubmitSignInForm();
+                this.onSubmitForgotPasswordForm();
+            }
+        };
+
+        SignIn.init();
+    })(jQuery);
+</script>    <div class="modal fade modal-padding-top" id="modal-request-demo" tabindex="-1" role="dialog" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close" data-dismiss="modal" aria-label="Close"></button>
+                
+                <div class="image-header margin_bottom_30">
+                    <div><img src="https://gethired.com/pie/images/monitor.png?r=162"></div>
+                    <div>
+                        <h4>Request Demo</h4>
+                        <div class="small">Please Complete the Information Below.</div>
+                    </div>
+                </div>
+                
+                <form id="request-demo-form" method="post" class="regular">
+                    <input type="hidden" name="partner" value="gethired" />
+                    
+                    <input type=hidden name="oid" value="00D3i000000oYrG">
+                    <input type=hidden name="retURL" value="https://gethired.com/">
+
+                    <input  id="utm_source" maxlength="255" name="00N3i00000BjI1S" size="20" type="hidden" />
+                    <input  id="utm_medium" maxlength="255" name="00N3i00000BjI1X" size="20" type="hidden" />
+                    <input  id="utm_campaign" maxlength="255" name="00N3i00000BjI1c" size="20" type="hidden" />
+                    <input  id="utm_term" maxlength="255" name="00N3i00000BjI1h" size="20" type="hidden" />
+                    <input  id="utm_content" maxlength="255" name="00N3i00000BjI1m" size="20" type="hidden" />
+
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" name="fullname" data-rule-required="true" placeholder="Your Name" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" name="company" data-rule-required="true" placeholder="Company Name" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" name="email" data-rule-email="true" data-rule-required="true" placeholder="Business Email" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" name="phone" data-rule-required="true" placeholder="Phone Number" />
+                        </div>
+                    </div>
+                    
+                    <div class="separator">&nbsp;</div>
+                    
+                    <div class="margin_bottom_30 padding_top_15">
+                        <h5 class="margin_bottom_15">Select Products you are interested in:</strong></h5>
+                        <div class="margin_bottom_15">
+                            <label class="checkbox">
+                                <input type="checkbox" name="products[]" value="Hiring and Onboarding" />
+                                <span></span>
+                                Hiring and Onboarding
+                            </label>
+                        </div>
+                        <div class="margin_bottom_15">
+                            <label class="checkbox">
+                                <input type="checkbox" name="products[]" value="Time and Attendance" />
+                                <span></span>
+                                Time and Attendance
+                            </label>
+                        </div>
+                        <div class="margin_bottom_15">
+                            <label class="checkbox">
+                                <input type="checkbox" name="products[]" value="Benefits Administration" />
+                                <span></span>
+                                Benefits Administration
+                            </label>
+                        </div>
+                    </div>
+                    <div class="buttons-container align_center">
+                        <button type="button" class="btn btn-lg btn-info width_100p" id="btn-request-demo">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="no_display" id="demo-request-confirm">
+    <div class="text-center">
+        <h1 class="margin_bottom_30"><i class="fas fa-check-circle c_info"></i></h1>
+        <h3>Thank you!</h3>
+        <p class="margin_bottom_30">One of our representatives will be in touch with you shortly.</p>
+        <div><button class="btn btn-default" data-dismiss="modal" aria-label="Close">Close</button></div>
+    </div>
+</div>
+
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LfP9pYUAAAAADRMPmg29n6i53wJ3HN52D-6teAY"></script>
+<script>
+    $('#btn-request-demo').off('click');
+    $('#btn-request-demo').on('click', function (e) {
+        var form = $('#request-demo-form');
+        if (form.valid()) {
+            
+            var modalbody = form.parents(".modal-body:first");
+            GH.showLoader(modalbody);
+            
+            $.post('/demo', form.serialize(), function (response) {
+                GH.hideLoader(modalbody);
+                if (response.status ==1) {
+                    modalbody.html($('#demo-request-confirm').html());
+                } else {
+                    modalbody.html(response.msg);
+                }
+            }, 'JSON');
+        }
+    });
+
+    $('#modal-request-demo').on('hidden.bs.modal', function () {
+        $('label.error').hide();
+        $('.error').removeClass('error');
+    });
+    
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LfP9pYUAAAAADRMPmg29n6i53wJ3HN52D-6teAY', {action: 'homepage'}).then(function(token) {
+            $('<input type="hidden" name="captcha" />').val(token).appendTo($('form'));
+        });
+    });
+
+    function parseGET(param) {
+        var searchStr = document.location.search;
+        try {
+            var match = searchStr.match('[?&]' + param + '=([^&]+)');
+            if (match) {
+                var result = match[1];
+                result = result.replace(/\+/g, '%20');
+                result = decodeURIComponent(result);
+                return result;
+            } else {
+                return '';
+            }
+        } catch (e) {
+            return '';
+        }
+    }
+     
+    document.getElementById('utm_source').value = parseGET('utm_source');
+    document.getElementById('utm_medium').value = parseGET('utm_medium');
+    document.getElementById('utm_campaign').value = parseGET('utm_campaign');
+    document.getElementById('utm_term').value = parseGET('utm_term');
+    document.getElementById('utm_content').value = parseGET('utm_content');
+</script>
+
+    
+    <script type="text/javascript">
+        (function($) {
+            $(document).on("click", '#vertical-menu-trigger', function(e) {
+                e.preventDefault();
+                
+                var menu = $($(e.currentTarget).data('target'));
+                if(menu.hasClass("expand")) {
+                    menu.removeClass("expand");
+                }
+                else {
+                    menu.addClass("expand");
+                }
+            });
+            
+            $(document).on("click", '.sub-vertical-menu', function(e) {
+                e.preventDefault();
+                
+                var link = $(e.currentTarget);
+                if(link.hasClass("expand")) {
+                    link.removeClass("expand");
+                }
+                else {
+                    link.addClass("expand");
+                }
+            });
+            
+            $(document).on("click", '#btn-menu-signin', function(e) {
+                $($('#vertical-menu-trigger').data("target")).removeClass("expand");
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>

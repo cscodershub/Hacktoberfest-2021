@@ -1,0 +1,13 @@
+http://kroger-stg.instacart.com/
+
+> GET / HTTP/1.1
+> Host: kroger-stg.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: awselb/2.0
+< Date: Tue, 04 Aug 2020 04:47:18 GMT
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 3
+
+404

@@ -1,0 +1,15 @@
+https://dyson.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: dyson.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 303 See Other
+< Content-Type: text/html; charset=UTF-8
+< Set-Cookie: BIGipServerPOOL-LINUXFARM2011-443-v4=!A3fZlbhl4a6d/zYw9zyYKRlaA4tr3o1JEs7S3Z46fY5hHiCZ+t7iNycR/Jj+F/fkeW9URTmvC2jkm4kTgVqZlOeoBUXb+YDgqJ/kK5MKGZQ=; path=/; Httponly; Secure
+< Date: Sat, 18 Jul 2020 13:54:27 GMT
+< Server: Apache
+< Location: https://www.imperial.ac.uk/design-engineering/
+< Customid: iclwf-lfe02
+< Content-Length: 0
+

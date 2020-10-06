@@ -1,0 +1,25 @@
+https://aktion.bmw.de/
+
+> GET / HTTP/1.1
+> Host: aktion.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Tue, 11 Aug 2020 04:51:21 GMT
+< Content-Type: text/html
+< Server: Apache
+< X-Powered-By: PleskLin
+< Ms-Author-Via: DAV
+< Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<script>
+			window.top.location.href = 'https://aktion.bmw.de/bmwm/';
+		</script>
+	</body>
+</html>

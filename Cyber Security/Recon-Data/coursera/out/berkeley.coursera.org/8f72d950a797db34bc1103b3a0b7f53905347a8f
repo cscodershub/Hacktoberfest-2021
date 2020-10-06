@@ -1,0 +1,72 @@
+http://berkeley.coursera.org/
+
+> GET / HTTP/1.1
+> Host: berkeley.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< Date: Mon, 10 Aug 2020 04:51:38 GMT
+< Content-Length: 20247
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Opensans-Light';
+      }
+      a {
+        text-decoration: none;
+        color: #4a90e2;
+      }
+      .coursera-logo img {
+        width: 127px;
+        height: 32px;
+        vertical-align: middle;
+        margin: 16.25px;
+      }
+      svg {
+        width: 80vw;
+        height: 350px;
+        margin: 0 auto;
+        display: block;
+        max-width: 700px;
+        overflow: visible;
+        padding-left: 80px
+      }
+      .notfound-message {
+        width: 80vw;
+        max-width: 500px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+      }
+      @media screen and (max-width: 480px) {
+        svg {
+          padding-left: 20vw;
+          transform: scale(1.3);
+        }
+        .notfound-message {
+          width: 90vw;
+        }
+        .coursera-logo img {
+          display: block;
+          margin: 0 auto;
+          padding-top: 16.25px;
+        }
+      }
+    </style>
+    <link rel="prefetch" href="/browse" />
+    <link rel="prefetch" href="/courses" />
+    <link rel="prefetch" href="/degrees" />
+    <link rel="prefetch" href="/enterprise" />
+</head>
+<body style="margin: 0; background-color: #f5f5f5" style="font-family: 'OpenSans-light, Arial, sans-serif'">
+<div style="height: 100vh; width: 100vw; overflow-x: hidden">
+    <div style="height: 65px; background-color: #fff"><!-- page header -->
+        <a href="/" class="coursera-logo">
+            <img
+                    alt="Coursera-logo"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICB3aWR0aD0iMTA4cHgiIGhlaWdodD0iMTdweCIgdmlld0JveD0iMCAwIDEwOCAxNyIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTA4IDE3IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0iIzRhODlkYyIgZD0iTTU0LjI4MSw1Ljc3M2MwLjA2Ni0xLjI2OSwwLjUyMS0yLjMwNiwxLjIzMi0zLjExNVYxLjU4aC0wLjk0NWMtMS45MSwwLTMu

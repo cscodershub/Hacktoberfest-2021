@@ -1,0 +1,11 @@
+https://secure2-ns.mobileapp.apple.com/
+
+> GET / HTTP/1.1
+> Host: secure2-ns.mobileapp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: no-cache
+< Content-Length: 0
+< Location: upgrade://mobileapp.apple.com/oos/upgrade_en.json
+

@@ -1,0 +1,21 @@
+https://source-uat.apple.com/
+
+> GET / HTTP/1.1
+> Host: source-uat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: Apple
+< Location: https://idmsac-uat.corp.apple.com/IDMSWebAuth/login?appIdKey=aea4b5f447371df899670fe9bebfcae54a873a17fe03b5eddbbf3d9dafe661f0&baseURL=https%3A//source-uat.apple.com/&path=/
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 0
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Date: Thu, 30 Apr 2020 21:40:44 GMT
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Host: source-uat.apple.com
+

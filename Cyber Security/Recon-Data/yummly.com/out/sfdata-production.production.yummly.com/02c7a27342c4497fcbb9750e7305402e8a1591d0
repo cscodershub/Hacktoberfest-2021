@@ -1,0 +1,16 @@
+https://sfdata-production.production.yummly.com/
+
+> GET / HTTP/1.1
+> Host: sfdata-production.production.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< Date: Sat, 15 Aug 2020 14:57:37 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 0
+< Server: gunicorn/20.0.4
+< Location: /accounts/login/?next=/
+< X-Frame-Options: DENY
+< Vary: Cookie
+

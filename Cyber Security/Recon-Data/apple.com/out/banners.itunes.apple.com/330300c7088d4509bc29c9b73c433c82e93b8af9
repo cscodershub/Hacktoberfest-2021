@@ -1,0 +1,18 @@
+http://banners.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: banners.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Server: AmazonS3
+< Vary: Accept-Encoding
+< X-Amz-Request-Id: 187DB4C46BBDF369
+< Last-Modified: Tue, 26 Mar 2019 19:39:23 GMT
+< Accept-Ranges: bytes
+< Date: Thu, 30 Apr 2020 21:30:17 GMT
+< X-Amz-Id-2: 5m1iG9Hw4IZicHX614DPCUGIsr7TzR89JatLSy/s/0Ex7s9oo1sx9lGP3RWudIEKKHMU6msOARc=
+< Etag: "3a3405d2c75c11d916fbcf1f4d6b68bf"
+
+<!DOCTYPE HTML><html><head><meta http-equiv="Content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9"><meta name="viewport" content="width=device-width,initial-scale=1"><title>iTunes Banner Builder</title><link rel="icon" type="image/png" href="/images/favicon.ico"><link rel="stylesheet" type="text/css" href="/css/main.min.css"><script data-main="/js/main-built" async src="/js/vendor/requirejs/require.js"></script></head><body class="itunes overview app" id="overview"></body></html>

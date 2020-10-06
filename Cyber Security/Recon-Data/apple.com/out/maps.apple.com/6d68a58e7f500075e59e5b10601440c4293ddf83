@@ -1,0 +1,16 @@
+https://maps.apple.com/
+
+> GET / HTTP/1.1
+> Host: maps.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Server: AkamaiGHost
+< Content-Length: 0
+< Expires: Thu, 30 Apr 2020 21:39:57 GMT
+< Strict-Transport-Security: max-age=31536000
+< Location: https://www.apple.com/ios/maps/
+< Cache-Control: max-age=0, no-cache, no-store
+< Pragma: no-cache
+< Date: Thu, 30 Apr 2020 21:39:57 GMT
+

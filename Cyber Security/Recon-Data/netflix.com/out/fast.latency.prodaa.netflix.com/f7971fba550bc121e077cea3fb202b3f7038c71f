@@ -1,0 +1,14 @@
+https://fast.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: fast.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: application/xml
+< Content-Length: 88
+
+<status>
+  <status_code>403</status_code>
+  <message>Invalid Request</message>
+</status>

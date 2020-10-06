@@ -1,0 +1,24 @@
+https://gspe-nossl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe-nossl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Cache-Control: max-age=0, no-cache, no-store
+< Date: Thu, 30 Apr 2020 21:31:07 GMT
+< Server: AkamaiGHost
+< Expires: Thu, 30 Apr 2020 21:31:07 GMT
+< Pragma: no-cache
+< Content-Length: 266
+
+<HTML><HEAD>
+<TITLE>Service Unavailable</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable - DNS failure</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;11&#46;47732c31&#46;1588282267&#46;1cb15
+</BODY></HTML>

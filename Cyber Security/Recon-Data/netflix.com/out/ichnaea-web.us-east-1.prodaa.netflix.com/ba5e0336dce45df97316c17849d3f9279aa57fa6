@@ -1,0 +1,16 @@
+http://ichnaea-web.us-east-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ichnaea-web.us-east-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Wed, 17 Jun 2020 05:33:58 GMT
+< Via: 1.1 i-04fce3c20b2ca8661 (us-east-1)
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 4
+< X-Originating-Url: http://ichnaea-web.us-east-1.prodaa.netflix.com/
+< Content-Length: 0
+< Location: https://ichnaea-web.us-east-1.prodaa.netflix.com/
+< Server: clingest-secure i-071981d47cdae6269
+

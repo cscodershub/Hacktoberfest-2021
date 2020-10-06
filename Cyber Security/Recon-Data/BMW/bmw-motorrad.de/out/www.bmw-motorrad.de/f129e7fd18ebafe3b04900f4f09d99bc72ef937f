@@ -1,0 +1,31 @@
+https://www.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: www.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Access-Control-Allow-Headers: *
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-cache, no-store, must-revalidate
+< Expires: Tue, 11 Aug 2020 04:45:33 GMT
+< Access-Control-Max-Age: 86400
+< Location: https://www.bmw-motorrad.de/de/home.html
+< Content-Length: 224
+< Access-Control-Allow-Origin: https://myaccount-staging.bmw-motorrad.com https://myaccount-final.bmw-motorrad.com https://contact-staging.bmw-motorrad.com https://contact-final.bmw-motorrad.com http://crm-form-client.localhost https://myaccount.bmw-motorrad.com https://contact.bmw-motorrad.com
+< X-Xss-Protection: 1; mode=block
+< Pragma: no-cache
+< Date: Tue, 11 Aug 2020 04:45:33 GMT
+< Access-Control-Allow-Methods: GET,POST
+< Server: Apache
+< Content-Type: text/html; charset=iso-8859-1
+< Access-Control-Allow-Credentials: false
+< Strict-Transport-Security: max-age=15768000
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.bmw-motorrad.de/de/home.html">here</a>.</p>
+</body></html>

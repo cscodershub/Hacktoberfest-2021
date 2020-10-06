@@ -1,0 +1,21 @@
+https://wiki.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: wiki.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Confluence-Request-Time: 1595080483427
+< Set-Cookie: JSESSIONID=58569B9B174D1A0907BF879BCAF2AD0C; Path=/; Secure; HttpOnly
+< Content-Type: text/html;charset=UTF-8
+< X-Asen: SEN-136286
+< X-Xss-Protection: 1; mode=block
+< Location: /login.action?os_destination=%2Findex.action&permissionViolation=true
+< Date: Sat, 18 Jul 2020 13:54:43 GMT
+< Cache-Control: private
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Length: 0
+

@@ -1,0 +1,48 @@
+https://desktop-music-legacy.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: desktop-music-legacy.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Apple-Request-Uuid: 5a4656cb-be76-03ac-861f-9c9e5ace35
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Cache-Control: no-transform, max-age=60
+< Server: daiquiri/3.0.0
+< X-Apple-Version-Number: 1738.0.0
+< Etag: f91f3da3997672e1872abeb39b66c0f2
+< X-Responding-Instance: silverbullet-external:3012:mr28p00it-ztdg08092401:8301:19J10
+< X-Apple-Jingle-Correlation-Key: LJDFNS56OYB2ZBQ7TSPFVTRV
+< Apple-Seq: 0.0
+< Apple-Originating-System: UnknownOriginatingSystem
+< Date: Thu, 30 Apr 2020 21:30:28 GMT
+< Vary: Accept-Encoding
+< X-Daiquiri-Instance: daiquiri:15887002:mr85p00it-hyhk04103901:7987:19O24
+< Apple-Tk: false
+< Last-Modified: Wed, 4 Oct 2017 02:06:26 GMT
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{document.title}}</title>
+    <meta name="version" content="1738.0.0-legacy">
+
+    <base href="/" />
+<meta name="desktop-music-app/config/environment" content="%7B%22contentSecurityPolicy%22%3A%7B%22img-src%22%3A%22'self'%20*.mzstatic.com%20data%3A%22%2C%22style-src%22%3A%22'self'%20'unsafe-inline'%22%2C%22font-src%22%3A%22'self'%20data%3A%22%2C%22report-uri%22%3A%22'self'%22%2C%22connect-src%22%3A%22'self'%20https%3A%2F%2F*.itunes.apple.com%20https%3A%2F%2Fitunes.apple.com%20https%3A%2F%2F*.apple.com%22%2C%22script-src%22%3A%22'self'%20'unsafe-inline%22%2C%22default-src%22%3A%22'none'%22%2C%22media-src%22%3A%22'self'%22%7D%2C%22modulePrefix%22%3A%22desktop-music-app%22%2C%22podModulePrefix%22%3A%22desktop-music-app%2Fpods%22%2C%22environment%22%3A%22production%22%2C%22baseURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22desktop-music-app%22%2C%22version%22%3A%22v1738.0.0-legacy%22%7D%2C%22MUSIC%22%3A%7B%22BAG_DEEP_LINKS%22%3A%5B%22redeem%22%5D%7D%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy-Report-Only%22%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+
+    <link rel="stylesheet" href="assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css" integrity="sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==" >
+    <link rel="stylesheet" href="assets/desktop-music-app-fc7363aa7265397fe48e86a208ff2da0.css">
+
+    
+  </head>
+  <body>
+    
+
+    <script src="assets/vendor-fe45412852dfd2f9bf2b5155fa7008d8.js"></script>
+    <script src="assets/desktop-music-app-fde56d2ab8a07c67e6adcbeda35fce8b.js"></script>
+
+    
+  </body>
+</html>

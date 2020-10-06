@@ -1,0 +1,14 @@
+https://as-images.apple.com/
+
+> GET / HTTP/1.1
+> Host: as-images.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:29:30 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 53
+< X-Shred: f340cc55c250dd6255eb4270aa596af4
+
+<html><body><h1>Resource not found</h1></body></html>

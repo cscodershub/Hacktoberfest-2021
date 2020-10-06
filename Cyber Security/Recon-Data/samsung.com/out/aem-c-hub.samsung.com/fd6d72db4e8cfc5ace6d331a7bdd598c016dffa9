@@ -1,0 +1,22 @@
+http://aem-c-hub.samsung.com/
+
+> GET / HTTP/1.1
+> Host: aem-c-hub.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Date: Wed, 10 Jun 2020 05:36:18 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 270
+< Expires: Wed, 10 Jun 2020 05:36:18 GMT
+
+<HTML><HEAD>
+<TITLE>Service Unavailable - Fail to connect</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;6&#46;42e3717&#46;1591767378&#46;ddae612
+</BODY></HTML>

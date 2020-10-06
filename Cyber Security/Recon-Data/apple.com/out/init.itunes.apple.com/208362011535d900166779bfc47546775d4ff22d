@@ -1,0 +1,34 @@
+http://init.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: init.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Pragma: no-cache
+< X-Cache-Remote: TCP_MISS from a104-122-94-201.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< Server: daiquiri/3.0.0
+< X-Apple-Jingle-Correlation-Key: CRAZXXMI5W54U7Z3ZZ6PKRNOWM
+< B3: 14419bdd88edbbca7f3bce7cf545aeb3-49e201eb14c32c0b
+< X-B3-Traceid: 14419bdd88edbbca7f3bce7cf545aeb3
+< X-B3-Spanid: 49e201eb14c32c0b
+< Apple-Timing-App: 0 ms
+< X-Apple-Partner: origin.0
+< Content-Length: 43
+< Apple-Seq: 0.0
+< X-Apple-Application-Site: MR22
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Thu, 30 Apr 2020 21:30:20 GMT
+< X-Apple-Request-Uuid: 14419bdd-88ed-bbca-7f3b-ce7cf545aeb3
+< Apple-Originating-System: MZInit2
+< X-Apple-Application-Instance: 41200
+< X-Daiquiri-Instance: daiquiri:15761002:mr85p00it-tygc04183301:7987:20E24
+< Cache-Control: max-age=0, no-cache, no-store
+< Content-Type: application/json
+< Apple-Tk: false
+< Expires: Thu, 30 Apr 2020 21:30:20 GMT
+< X-Cache: TCP_MISS from a125-99-55-107.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-True-Cache-Key: /L/init.itunes.apple.com/ vcd=2897 ci2=__
+< Vary: X-Apple-Store-Front, Cookie, User-Agent, Accept-Encoding
+
+{"code":404,"message":"HTTP 404 Not Found"}

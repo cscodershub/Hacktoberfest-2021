@@ -1,0 +1,18 @@
+https://mobile.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: mobile.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Length: 148
+< Etag: W/"94-KqM+vYC6phDtOGHw06NYW5es/QI"
+< Vary: Accept-Encoding
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 18 Jul 2020 13:54:52 GMT
+< Set-Cookie: a=e05cd8ca3739be12VGVpj6FXnhTrM8smnj0OrzUCuD6fSh1EcdWa6pjbgRs%3D; Max-Age=31536000; Path=/; Expires=Sun, 18 Jul 2021 13:54:52 GMT; HttpOnly
+< Set-Cookie: __a=ffd4db89b7aa545dc3c3f10913395fd9; Max-Age=31536000; Path=/; Expires=Sun, 18 Jul 2021 13:54:52 GMT
+< Set-Cookie: X-Persist=2fe01dcc166d077c6415f4c83e394d9b;Path=/;SameSite=None;Secure
+
+<!DOCTYPE html><html manifest="/campusm/index.appcache"><head><meta charset="utf-8"><script>location.replace("/campusm/home")</script></head></html>

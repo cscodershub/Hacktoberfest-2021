@@ -1,0 +1,32 @@
+https://www.sandbox.us-east-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.sandbox.us-east-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html
+< Expires: 0
+< Location: https://www.sandbox.us-east-1.prodaa.netflix.com/in/
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 127
+< X-Originating-Url: https://www.sandbox.us-east-1.prodaa.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:34:04 GMT
+< Pragma: no-cache
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Content-Length: 0
+< Edge-Control: no-cache, no-store
+< Server: nq_website_core-prod-release fc04572d-4494-45da-9848-dd98ac04eba2
+< Via: 1.1 i-094b524724cf77860 (us-east-1)
+< X-Robots-Tag: index
+< Cache-Control: no-cache, no-store
+< Set-Cookie: flwssn=4f4344c1-44bd-406a-9d05-2c1f53bcd288; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:04 GMT
+< Set-Cookie: clSharedContext=c0f009a4-9c2f-4d6f-9eea-80e2c8597adb; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEI_3ijs03JdYvh-8Hup9-xVA0A1NLmmxkmTSOPARFoSOqp5MFdlbCwXQ2hjrZPHSTtqIc04oEAk7m79s3x99c-oslEPUlpLcdAPB7T47VnH6og%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABRXlN9xbdXoF7e8P_T4nS73RKbWLKLw8qM.%26dt%3D1592372044529; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:04 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEEbPsZ3dEWT0Q997XpiV3o2A8H4BsMsypWL123JHD7u_KEW-Gaq5e4w4ECW1OWgo1r8KUWvBWh029d4xzing7UxErz4VrBd-jIbWzTSIOfBbchfpUcYlzthACItKydT7Ci5onyH-uKKYeOZAopWe3VeJcKLhGEv1imfU4kfknQRLNXhM5wVQoL5VXpH9k4uKeTKQul5yci9PFL8JiPcaQZuTcwBuMQ-BRhfQNpl82jYqmyRlglUjwrJpPlEsSSWnZ21Dm-0P273iJU8OoaCR2wu2fzfdr-PNjI-ueFLllxgiOP3eP6pQMp2Z8kxgAZnfX85ozO0ZWbgbWTtFQYlPkkW7RQ..%26bt%3Ddev%26mac%3DAQEAEAABABRHO-EbveV_e1T7r4kJX5KUOjJO50RsDSQ.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:04 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=17cff264-2006-428f-a70d-4581dc6b9adb; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:04 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+

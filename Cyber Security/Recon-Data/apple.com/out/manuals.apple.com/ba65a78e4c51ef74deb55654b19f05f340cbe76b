@@ -1,0 +1,228 @@
+http://manuals.apple.com/
+
+> GET / HTTP/1.1
+> Host: manuals.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html; charset=UTF-8
+< Last-Modified: Thu, 11 Oct 2018 05:30:11 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Vary: Accept-Encoding
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Date: Thu, 30 Apr 2020 21:31:21 GMT
+< X-Cache: TCP_MISS from a49-44-194-13.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< X-Cache-Remote: TCP_MISS from a49-44-118-98.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< Server: Apple
+< Etag: W/"30f2-577ed43bd7ec0"
+
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>Page Not Found - Apple Support</title>
+		<link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1" type="text/css">
+		<link rel="stylesheet" href="https://www.apple.com/ac/globalnav/2.0/en_US/styles/ac-globalnav.built.css" type="text/css" media="all">
+		 	<link rel="stylesheet" href="https://www.apple.com/ac/globalfooter/2.0/en_US/styles/ac-globalfooter.built.css" type="text/css" media="all">
+		 	<link rel="stylesheet" href="https://support.apple.com/static_resources/css/footer.css" type="text/css" media="all">
+		 	<style>
+		 	body {
+    font-size: 17px;
+    line-height: 1.52947;
+    font-weight: 400;
+    letter-spacing: -0.021em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial";
+    background-color: white;
+    color: #333333;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+		 	body, #content {
+   					 font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+				}
+		 	#main {
+		 		width: 980px;
+				margin: 0 auto;
+				/* box-shadow: 5px 5px 5px 5px #f2f2f2;	 */
+		 	}
+		 	#errorbox {
+		 		width: 940px;
+				padding: 0 20px;
+				text-align: center;
+				margin: 180px 20px;
+				height: 222px;
+				box-shadow: 1px 5px 5px 5px #f2f2f2;
+		 	}
+		 	#errorbox h1 {
+    font-size: 40px;
+    line-height: 1.05;
+    font-weight: 500;
+    letter-spacing: 0.008em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial";
+    margin-top: 1.2em;
+    font-style: normal;
+    margin-bottom: 18px;
+        padding-top: 40px;
+}
+#errorbox p {
+    font-size: 17px;
+    line-height: 1.52947;
+    font-weight: 400;
+    letter-spacing: -0.021em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 13px;
+    margin-bottom: .5em;
+    color: #767676;
+}
+a{
+color: #0070c9;}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+		 	@media only screen and (max-width: 980px) {
+		 		#main , #errorbox {
+		 			width : auto;
+		 			height : auto;
+		 		}
+		 	}
+
+
+
+		 	</style>
+</head>
+
+<body class="ac-gn-current-support">
+<meta name="ac-gn-store-key" content="S2A49YFKJF2JAT22K" />
+<meta name="ac-gn-search-action" content="https://support.apple.com/kb/index" />
+<meta name="ac-gn-search-input" content="q" />
+<meta name="ac-gn-search-field[src]" content="globalnav_support" />
+<meta name="ac-gn-search-field[type]" content="organic" />
+<meta name="ac-gn-search-field[page]" content="search" />
+<meta name="ac-gn-search-field[locale]" content="en_US" />
+<aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="en-US" dir="ltr" data-strings="{ 'exit': 'Exit', 'view': '{%STOREFRONT%} Store Home', 'segments': { 'smb': 'Business Store Home', 'eduInd': 'Education Store Home', 'other': 'Store Home' } }"></aside> <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Global Navigation" data-hires="false" data-analytics-region="global nav" lang="en-US" dir="ltr" data-store-locale="us" data-store-api="https://www.apple.com/[storefront]/shop/bag/status" data-search-locale="en_US" data-search-api="https://www.apple.com/search-services/suggestions/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon"> <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open"> <span class="ac-gn-menuanchor-label">Open Menu</span> </a>
+				<a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close"> <span class="ac-gn-menuanchor-label">Close Menu</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus-small"> <span class="ac-gn-link-text">Apple</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with Items"> <span class="ac-gn-link-text">Shopping Bag</span> <span class="ac-gn-bag-badge"></span> </a> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span> </li>
+		</ul>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus"> <span class="ac-gn-link-text">Apple</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="https://www.apple.com/mac/" data-analytics-title="mac"> <span class="ac-gn-link-text">Mac</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="https://www.apple.com/ipad/" data-analytics-title="ipad"> <span class="ac-gn-link-text">iPad</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="https://www.apple.com/iphone/" data-analytics-title="iphone"> <span class="ac-gn-link-text">iPhone</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="https://www.apple.com/watch/" data-analytics-title="watch"> <span class="ac-gn-link-text">Watch</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="https://www.apple.com/tv/" data-analytics-title="tv"> <span class="ac-gn-link-text">TV</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="https://www.apple.com/music/" data-analytics-title="music"> <span class="ac-gn-link-text">Music</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com/" data-analytics-title="support"> <span class="ac-gn-link-text">Support</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a class="ac-gn-link ac-gn-link-search" href="https://support.apple.com/kb/index?page=search&amp;locale=en_US" data-analytics-title="search" data-analytics-click="search" aria-label="Search support.apple.com"> <span class="ac-gn-search-placeholder" aria-hidden="true">Search support.apple.com</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+				<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with Items"> <span class="ac-gn-link-text">Shopping Bag</span> <span class="ac-gn-bag-badge" aria-hidden="true"></span> </a> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span> </li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<form id="ac-gn-searchform" class="ac-gn-searchform" action="https://www.apple.com/us/search" method="get">
+					<div class="ac-gn-searchform-wrapper"> <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Search apple.com" placeholder="Search apple.com" data-placeholder-long="Search for Products, Stores, and Help" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" /> <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav" /> <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Submit"></button> <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Clear Search"></button> </div>
+				</form>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults="Hit enter to search."></aside>
+			</div> <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button> </aside>
+		<aside class="ac-gn-bagview" data-analytics-region="bag">
+			<div class="ac-gn-bagview-scrim"> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span> </div>
+			<div class="ac-gn-bagview-content" id="ac-gn-bagview-content"> </div>
+		</aside>
+	</div>
+</nav>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+
+<div id="main">
+
+	<div id="errorbox">
+			<h1>The page you're looking for can't be found.</h1>
+			<p>Please return to the <a href="https://support.apple.com">Apple Support homepage</a>.</p>
+	</div>
+
+		</div><!--/main-->
+
+<div class="footer-wrapper">
+<footer id="ac-globalfooter" lang="en-US" class="js no-touch svg no-ie7 no-ie8 footer-global" data-analytics-region="global footer" role="contentinfo" aria-labelledby="ac-gf-label">
+<div class="ac-gf-content">
+<h2 class="ac-gf-label" id="ac-gf-label">Apple Footer</h2>
+<nav class="ac-gf-breadcrumbs" aria-label="Breadcrumbs" role="navigation">
+<a href="https://www.apple.com" class="home ac-gf-breadcrumbs-home">
+	<span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true"></span>
+	<span class="ac-gf-breadcrumbs-home-label">Apple</span>
+	<span class="ac-gf-breadcrumbs-home-chevron"></span>
+	<span class="ac-gf-breadcrumbs-home-mask"></span>
+</a>
+<div class="ac-gf-breadcrumbs-path">
+			 <ol class="ac-gf-breadcrumbs-list" vocab="http://schema.org/" typeof="BreadcrumbList">
+				<li class='first-child ac-gf-breadcrumbs-item'property="itemListElement" typeof="ListItem"><span property="name">Support</span><meta property="position" content="1" /></li>
+				</ol>
+		</div>
+
+</nav>
+	  <section class="ac-gf-footer" vocab="http://schema.org/" typeof="Organization">
+      <div class="ac-gf-footer-shop" x-ms-format-detection="none"> More ways to shop: Visit an <a href ="https://www.apple.com/retail/">Apple Store</a>, <span class="nowrap">call 1-800-MY-APPLE, or <a
+      href="https://locate.apple.com"
+      >find a reseller</a></span>. </div>
+      <div class="ac-gf-footer-legal">
+          <div class="ac-gf-footer-legal-copyright">
+              Copyright © <script type="text/javascript">var currentTime = new Date()
+		var year = currentTime.getFullYear()
+		document.write(year)</script> Apple Inc. All rights reserved.
+          </div>
+          <div class="ac-gf-footer-legal-links"> <a class="ac-gf-footer-legal-link" href ="https://www.apple.com/privacy/privacy-policy/">Privacy Policy</a> <a class="ac-gf-footer-legal-link" href ="https://www.apple.com/legal/">Terms of Use</a> <a class="ac-gf-footer-legal-link" href ="https://www.apple.com/shop/goto/help/sales_refunds/">Sales and Refunds</a>                    <a class="ac-gf-footer-legal-link" href ="https://www.apple.com/sitemap/">Site Map</a> <a class="ac-gf-footer-legal-link" href ="https://www.apple.com/contact/">Contact Apple</a> </div>
+      </div>
+      <meta content="Apple" property="name" />
+      <meta content="1-800-692-7753" property="telephone" />
+  </section></div>
+</footer>
+</div>
+
+</body>
+<script src="https://www.apple.com/ac/globalnav/2.0/en_US/scripts/ac-globalnav.built.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/support/assets/ac-globalfooter/1/en_US/scripts/ac-globalfooter.built.js" type="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,20 @@
+https://crunch.gleam.io/
+
+> GET / HTTP/1.1
+> Host: crunch.gleam.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Server: nginx/1.14.0 (Ubuntu)
+< Date: Thu, 30 Jul 2020 04:27:07 GMT
+< Content-Type: text/html
+< Content-Length: 204
+< Www-Authenticate: Basic realm="Restricted Access"
+
+<html>
+<head><title>401 Authorization Required</title></head>
+<body bgcolor="white">
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx/1.14.0 (Ubuntu)</center>
+</body>
+</html>

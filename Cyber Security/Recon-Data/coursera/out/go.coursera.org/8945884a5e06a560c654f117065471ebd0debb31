@@ -1,0 +1,24 @@
+https://go.coursera.org/
+
+> GET / HTTP/1.1
+> Host: go.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Length: 62
+< Etag: "d72290d36b9563aa7a4ea9413ea7cd77"
+< X-Cache: Hit from cloudfront
+< X-Amz-Cf-Pop: BLR50-C3
+< Content-Type: text/html
+< Date: Sun, 09 Aug 2020 08:46:18 GMT
+< Last-Modified: Wed, 08 Mar 2017 22:07:59 GMT
+< Server: AmazonS3
+< Via: 1.1 6a039a69a6880b65f7456a87f099ab66.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: YCDwfHQSSv2jUBlbKeIUtLpBiQNE1Xlpl0VEIlX1mvsPwDQ9REZcxg==
+< Age: 72333
+
+<html>
+  <body>
+    Coursera link shortener
+  </body>
+</html>

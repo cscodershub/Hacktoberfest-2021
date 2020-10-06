@@ -1,0 +1,18 @@
+https://gsi4-cn2-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsi4-cn2-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Length: 176
+< Expires: Thu, 30 Apr 2020 21:31:00 GMT
+< Date: Thu, 30 Apr 2020 21:31:00 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+
+<HTML><HEAD><TITLE>Error</TITLE></HEAD><BODY>
+An error occurred while processing your request.<p>
+Reference&#32;&#35;30&#46;36f80760&#46;1588282260&#46;2b51921d
+</BODY></HTML>

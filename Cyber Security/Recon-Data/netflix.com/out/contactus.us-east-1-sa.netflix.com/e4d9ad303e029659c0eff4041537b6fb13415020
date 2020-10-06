@@ -1,0 +1,23 @@
+https://contactus.us-east-1-sa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: contactus.us-east-1-sa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Pragma: no-cache
+< Set-Cookie: memclid=cc6ea3e5-3838-4f6c-baee-4ac171abdda5; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:54 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEAMIwWpS47ScOV0BTPoQQytAVKTkOOZ2ps94h%2FIl9HDrwMXb1JjJ22RmEYyusLQCllZOzLPHMAOqB5mU8OE6TEdXKe2%2FsnYXqodjC2pe8KpKLg%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:54 GMT; Path=/; Domain=.netflix.com
+< Content-Length: 0
+< Cache-Control: public
+< Via: 1.1 i-00c202a583a2d2204 (us-east-1)
+< Server: padme i-05c119cd013fe7d7c
+< X-Originating-Url: https://contactus.us-east-1-sa.netflix.com/
+< Content-Type: text/html;charset=UTF-8
+< Date: Wed, 17 Jun 2020 05:34:54 GMT
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 46577
+< Expires: Tue, 16 Jun 2020 05:34:54 GMT
+< Location: https://help.netflix.com/en
+

@@ -1,0 +1,14 @@
+https://silverbullet.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: silverbullet.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Nncoection: close
+< Date: Thu, 30 Apr 2020 21:30:16 GMT
+< Content-Type: application/json
+< Vary: Accept-Encoding
+< X-Responding-Instance: silverbullet-external:1202:nk11p00it-ztbu24184301:8301:20REL3
+
+{"message":"HTTP 404 Not Found"}

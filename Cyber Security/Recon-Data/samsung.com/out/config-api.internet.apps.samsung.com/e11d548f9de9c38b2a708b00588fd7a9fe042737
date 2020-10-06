@@ -1,0 +1,17 @@
+http://config-api.internet.apps.samsung.com/
+
+> GET / HTTP/1.1
+> Host: config-api.internet.apps.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: CloudFront
+< Via: 1.1 9c958dcd7cfe69b7305581ffd7680ca3.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: wJkq-zNqxmwA4KuYyfi9FCsTfaYL9tD8eiWsfq5GRPKLCEUnaLCuYA==
+< Date: Wed, 10 Jun 2020 05:35:46 GMT
+< Content-Type: text/xml
+< Content-Length: 146
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Pop: MAA50-C1
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>

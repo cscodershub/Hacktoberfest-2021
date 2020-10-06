@@ -1,0 +1,27 @@
+https://partnertools.nrd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: partnertools.nrd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Thu, 19 Jun 2014 19:23:03 GMT
+< Etag: "4093af0308314b0da47d6ebc3b43e255"
+< Via: 1.1 fd7dd62f4633795455abae08375954b6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: K3HCS8d3hLHlW0YcXOrwNn5twQ8NvBjzQ9ZPxmus8j_U_uzv-5iV_A==
+< Content-Type: text/html
+< Server: AmazonS3
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< Date: Wed, 17 Jun 2020 05:35:03 GMT
+< X-Cache: Hit from cloudfront
+< X-Amz-Cf-Pop: MAA50-C1
+< Age: 1
+< Content-Length: 79
+
+<html>
+<body>
+<script>
+    window.location = "/home";
+</script>
+</body>
+</html>

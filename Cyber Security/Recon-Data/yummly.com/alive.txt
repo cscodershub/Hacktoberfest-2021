@@ -1,0 +1,10 @@
+
+http://aa-16.development.yummly.com 
+http://api-autostaging-10.development.yummly.com 
+http://api-autostaging-270.development.yummly.com 
+http://api-autostaging-280.development.yummly.com 
+http://api-autostaging-296.development.yummly.com 
+http://api-autostaging-311.development.yummly.com 
+https://api-autostaging-42.development.yummly.com 
+https://www.yummly.com 
+http://web-core-46.staging.yummly.com

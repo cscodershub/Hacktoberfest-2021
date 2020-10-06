@@ -1,0 +1,9 @@
+https://mr11p01ad-sandbox-api-searchads.apple.com/
+
+> GET / HTTP/1.1
+> Host: mr11p01ad-sandbox-api-searchads.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+
+Client: 27.6.70.19 is not authorized to access URL:/

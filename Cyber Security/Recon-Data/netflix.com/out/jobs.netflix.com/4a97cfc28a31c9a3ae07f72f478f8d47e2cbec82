@@ -1,0 +1,23 @@
+http://jobs.netflix.com/
+
+> GET / HTTP/1.1
+> Host: jobs.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 3
+< Date: Wed, 17 Jun 2020 05:36:37 GMT
+< X-Powered-By: Express
+< Set-Cookie: memclid=ee8cb10e-b5ee-4ef5-a72b-98a031f9f2c1; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:37 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEFeq5G0FNvmyzqO%2BdxCGOi5AkdquZRz6ECACl9lfCZEQi9Cb7mdcE210S3yYwiOQhXb2K6WgG5d5GvH%2BPJl2answo23BZKuAqKTakW%2BxvSDb%2BQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:37 GMT; Path=/; Domain=.netflix.com
+< Content-Type: text/plain; charset=utf-8
+< Server: atsjobsiteui-production-version2 i-03279e48efb52abf5
+< Location: https://jobs.netflix.com/
+< Vary: Accept
+< Via: 1.1 i-01790bf6c1b41a7ef (us-west-2)
+< Content-Length: 47
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< X-Originating-Url: http://jobs.netflix.com/
+
+Found. Redirecting to https://jobs.netflix.com/

@@ -1,0 +1,12 @@
+http://auth.samsung.com/
+
+> GET / HTTP/1.1
+> Host: auth.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Temporarily Unavailable
+< Server: awselb/2.0
+< Date: Wed, 10 Jun 2020 05:37:05 GMT
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 0
+

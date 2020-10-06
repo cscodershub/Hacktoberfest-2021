@@ -1,0 +1,10 @@
+https://docsqa.ayco.com 
+https://docsqp.ayco.com 
+https://apiqa.ayco.com 
+https://uat.accounts.ayco.com 
+https://docs.ayco.com 
+https://qa.protect.ayco.com
+https://qa.portal.ayco.com [200] 
+https://uat.protect.ayco.com [200] 
+https://portal.ayco.com 
+https://apiqp.ayco.com 

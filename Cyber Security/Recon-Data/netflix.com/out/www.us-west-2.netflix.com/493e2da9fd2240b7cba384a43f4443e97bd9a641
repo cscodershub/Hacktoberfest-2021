@@ -1,0 +1,32 @@
+https://www.us-west-2.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.us-west-2.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Pragma: no-cache
+< Server: nq_website_nonmember-prod-release 74e5c0fb-2763-4d64-b8c8-4f41efae776f
+< Set-Cookie: flwssn=9d60814a-f157-4f78-9883-4b4dcd41ca1b; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:33:46 GMT
+< Set-Cookie: clSharedContext=bf25d1bf-e24c-4f18-918b-cb23ae925353; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBELT74iMthre0x-NTri3A7JJAuS-kOB0wDcpmBFjhWjRk9680OZndFYRSq8r-fC3cbmT0aKG1quxESFRDXkf8GEahUeSI_zjvlSI6rvJ2JxSiPg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABQvAlpM5pgvkhD4B4hu0zjC--TYPFzIaSE.%26dt%3D1592372026232; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:33:46 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEMTxFDDMI3XcG-HaMNUQTOmA8C8XEgnYT9Iiv_n_z65AdAEjS3TR-Mau89xyuxwOPPsqgiMyhcLp062LFVR6gv5P1jwDCUGLxLLZu7lLqlkFfjff9cIK7JxxQ2L1QRxlyhLW7vR-NGVx8JbutZNR2Gb0ZMyU3AiT01PUuPV1qehtlQG5k0R7GLOF97bhJaUUNP8VaintpZNqA8OG392s6LJ8ysiJK4h7EL2A5ul3QPtAyKzwWMli-5BuOr32676A_pzBxkrj-dL7wcjs9UcuRLYEpgBqn6Smw0YlsY3e0q00-4J7Tw6WlwjzP158Kwsztv4csK6xHc9vkJ7yW3V78bSn8Q..%26bt%3Ddev%26mac%3DAQEAEAABABQe16vLS0C-O4Hjn5l3v9v4IEpsl6-p7mY.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:33:46 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=0bb87d83-6cdc-4483-af05-5d29db515405; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:33:46 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: DENY
+< Location: https://www.us-west-2.netflix.com/in/
+< Edge-Control: no-cache, no-store
+< X-Originating-Url: https://www.us-west-2.netflix.com/
+< X-Robots-Tag: index
+< Content-Length: 0
+< Cache-Control: no-cache, no-store
+< X-Content-Type-Options: nosniff
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 322
+< Via: 1.1 i-0db1b783eaa23fa82 (us-west-2)
+< Date: Wed, 17 Jun 2020 05:33:46 GMT
+< Expires: 0
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Type: text/html
+

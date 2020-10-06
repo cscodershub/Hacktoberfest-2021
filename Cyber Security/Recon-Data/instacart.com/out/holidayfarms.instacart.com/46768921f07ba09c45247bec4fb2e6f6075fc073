@@ -1,0 +1,24 @@
+http://holidayfarms.instacart.com/
+
+> GET / HTTP/1.1
+> Host: holidayfarms.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 183
+< X-Amz-Cf-Pop: MAA50-C1
+< X-Amz-Cf-Id: q3KaVfZCCF4vLP0hf4NDQKnk4IZ8KHq-Sq7tZvM5L63rZ5tpGj1yBg==
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:15 GMT
+< Content-Type: text/html
+< Location: https://holidayfarms.instacart.com/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 d61836c8bf5eb04c5c89f74624c4775d.cloudfront.net (CloudFront)
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

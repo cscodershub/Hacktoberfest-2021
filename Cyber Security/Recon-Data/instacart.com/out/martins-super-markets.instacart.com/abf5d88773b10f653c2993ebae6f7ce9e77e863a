@@ -1,0 +1,24 @@
+http://martins-super-markets.instacart.com/
+
+> GET / HTTP/1.1
+> Host: martins-super-markets.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 ffbf7c0814126647d720044d9f5a41cd.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+< Location: https://martins-super-markets.instacart.com/
+< X-Amz-Cf-Id: bb5CNWvhHfDNL6ccI0wAy_5g1kP5wcQXc_twxDgp3upk-QevCVfTTA==
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:22 GMT
+< Content-Length: 183
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

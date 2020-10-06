@@ -1,0 +1,21 @@
+https://gg-mr.apple.com/
+
+> GET / HTTP/1.1
+> Host: gg-mr.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Content-Length: 172
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:29:10 GMT
+< Content-Type: text/html
+
+<html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

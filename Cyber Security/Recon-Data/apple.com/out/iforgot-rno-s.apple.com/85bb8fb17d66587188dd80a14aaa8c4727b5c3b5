@@ -1,0 +1,32 @@
+https://iforgot-rno-s.apple.com/
+
+> GET / HTTP/1.1
+> Host: iforgot-rno-s.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Location: /password/verify/appleid
+< X-Apple-I-Request-Id: 1b79a6ef-c431-4b2e-8dc1-c6891af51d76
+< X-Buildversion: R8-2
+< X-Content-Type-Options: nosniff
+< Content-Language: en-US-x-lvariant-USA
+< Server: Apple
+< Pragma: no-cache
+< Cache-Control: no-cache
+< Cache-Control: no-store
+< Vary: Accept-Encoding
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< Host: iforgot-rno-s.apple.com
+< Content-Location: /
+< Set-Cookie: idclient=web; Domain=iforgot.apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: dslang=US-EN; Domain=apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: site=USA; Domain=apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: X-Apple-I-Web-Token=AAAAKjJ8MzI0NjY4NjE1NDhiMzgzMGRiZTJjYWJlMzJkNTQzYjgAAAFxzQwgj8GuJQ7TNLF08gTcjGtrCUT/P7ksSjuLX9c2gtFQYCCbVtMCJCFQACCHsue7aPsFgcT6vxUgonJD5JN022G7FUNZaEWzc23kJ2bB2U2eYA==; Max-Age=900; Expires=Thu, 30-Apr-2020 21:44:16 GMT; Domain=apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: ifssp=9497C43EB055041A58C36147713F910DB7E08951B54023002BD395A30C98EAC282AABB50B745655099E55B4D357E54A4839AD256D154776707E6A1A4AD245B5E8A6AD3CAE1E2259C8BCF15F0702FB88C137C3BD94C8BE96E315320F0EE36C4606122E0AB9B903CF51B6C6C199020BB9F9C72CA00A493B3CA; Domain=iforgot.apple.com; Path=/; Secure; HttpOnly
+< Date: Thu, 30 Apr 2020 21:29:16 GMT
+< Content-Security-Policy: default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.apple.com https://*.cdn-apple.com http://*.apple-mapkit.com https://*.apple-mapkit.com ; object-src 'self' http://*.apple-mapkit.com https://*.apple-mapkit.com; style-src 'unsafe-inline' https://*.apple.com https://*.cdn-apple.com http://*.apple-mapkit.com https://*.apple-mapkit.com ; img-src 'self' data: https://*.apple.com https://*.cdn-apple.com https://*.icloud.com https://*.mzstatic.com http://*.apple-mapkit.com https://*.apple-mapkit.com ; media-src * data:; connect-src 'self' http://*.apple-mapkit.com https://*.apple-mapkit.com;
+

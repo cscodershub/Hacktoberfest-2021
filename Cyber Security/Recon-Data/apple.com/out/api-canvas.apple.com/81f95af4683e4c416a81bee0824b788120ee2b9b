@@ -1,0 +1,22 @@
+https://api-canvas.apple.com/
+
+> GET / HTTP/1.1
+> Host: api-canvas.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 
+< Date: Thu, 30 Apr 2020 21:29:17 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< Expires: 0
+< X-B3-Traceid: a4ee17a62fac7be6
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Content-Length: 0
+< Vary: Origin
+< Vary: Access-Control-Request-Method
+< Vary: Access-Control-Request-Headers
+< Server: AppleHttpServer/62e237dc531d
+< Pragma: no-cache
+< X-Frame-Options: SAMEORIGIN
+

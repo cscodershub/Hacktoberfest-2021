@@ -1,0 +1,34 @@
+https://skillsfuture.coursera.org/
+
+> GET / HTTP/1.1
+> Host: skillsfuture.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://skillsfuture.coursera-wordpress.org/
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Ac: pressable _atomic_dca
+< X-Coursera-Trace-Id-Hex: 798c4ea95ad81dbb
+< X-Frame-Options: SAMEORIGIN
+< Via: 1.1 f36cc3262cf9894d2ccc23f5af36a811.cloudfront.net (CloudFront)
+< Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+< Server: nginx
+< X-Content-Type-Options: nosniff
+< X-Coursera-Request-Id: OpKaANrFEeqGUQoV8e-nPQ
+< X-Xss-Protection: 1; mode=block
+< X-Amz-Cf-Pop: MAA50-C2
+< Date: Mon, 10 Aug 2020 04:52:01 GMT
+< Set-Cookie: CSRF3-Token=1597899121.jnaJofxnxgXnaDab; Max-Age=864000; Expires=Thu, 20 Aug 2020 04:52:01 GMT; Path=/; Domain=.coursera.org
+< Set-Cookie: __204u=5143134493-1597035121433; Max-Age=31536000; Expires=Tue, 10 Aug 2021 04:52:01 GMT; Path=/; Domain=.coursera.org
+< Vary: Accept-Encoding
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: K-4ED5Fo4DdL6sM4GsrCoXAvJq9o8Hxhaw01BwBzDrS9zinr8U2eCA==
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

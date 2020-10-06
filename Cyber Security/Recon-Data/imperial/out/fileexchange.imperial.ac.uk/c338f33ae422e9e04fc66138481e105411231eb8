@@ -1,0 +1,141 @@
+https://fileexchange.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: fileexchange.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Length: 6481
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: same-origin
+< X-Powered-By: PHP/5.4.29
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=UTF-8
+< Date: Sat, 18 Jul 2020 13:54:28 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=2592000; includeSubDomains
+
+
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+  <head>
+    <title>Imperial College FileExchange</title>
+    <link rel="stylesheet" type="text/css" href="css/swish.css"/>
+    <link rel="stylesheet" type="text/css" href="css/local.css"/>
+    <link rel="stylesheet" type="text/css" href="css/datatables.css"/>
+
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> 
+	<script type="text/javascript" src="js/facebox/facebox.js"></script>
+        <script type="text/javascript" src="js/jquery.dataTables.js"></script>
+        <script type="text/javascript" src="js/jquery.dataTables.datesort.js"></script>
+	<link href="js/facebox/facebox.css" media="screen" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		var isLocal = "";
+	</script>
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="css/ie7.css"/>
+<![endif]-->
+<!-- JKF Created IE9-specific stylesheet without DirectX gradient fills -->
+<!--[if gte IE 9]>
+<link rel="stylesheet" type="text/css" href="css/ie9.css"/>
+<![endif]-->
+
+  </head>
+
+<body>
+
+<!--[if lt IE 7]> <div style=' clear: both; height: 59px; padding:0 0 0 0px; position: relative;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="/images/upgradeie6.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
+
+<!-- Begin page content -->
+<div class="content">
+	<div id="logo"><a href="https://fileexchange.imperial.ac.uk/"><!--<img src="images/unlocked.png" alt="unlocked"/>--> </a></div>
+	<div id="topMenu">
+		<ul>
+			<li id="homeLink" class="selected"><a href="https://fileexchange.imperial.ac.uk/">Home</a></li>					
+					<li id="loginLink"><a href="index.php?action=login">Login</a></li>
+					
+		</ul>
+	</div>
+	<div id="container">
+
+
+  <!-- Not logged in. -->
+<table border="0" class="homeButtons">
+  <tr><td colspan="2"><h4>If you are a member of Imperial College, you may login here:</h4></td></tr>
+  <tr>
+    <td>                          <table width="100%" class="UD_textbutton">
+    <tr valign="middle">
+      <td class="UD_textbutton_left"><a class="UD_textbuttonedge" href="index.php?action=login">&nbsp;</a></td>
+      <td class="UD_textbutton_content" align="center"><a class="UD_textbutton" href="index.php?action=login">Login</a></td>
+      <td class="UD_textbutton_right"><a class="UD_textbuttonedge" href="index.php?action=login">&nbsp;</a></td>
+    </tr>
+  </table></td>
+    <td class="UD_nav_label"><b>Avoid having to verify your email address</b>,<br />and drop-off files to non-Imperial users.</td>
+  </tr>
+  <tr><td colspan="2">&nbsp;</td></tr>
+  <tr><td colspan="2"><h4>Anyone may perform the following activities:</h4></td></tr>
+  <tr>
+    <td>                          <table width="100%" class="UD_textbutton">
+    <tr valign="middle">
+      <td class="UD_textbutton_left"><a class="UD_textbuttonedge" href="verify.php">&nbsp;</a></td>
+      <td class="UD_textbutton_content" align="center"><a class="UD_textbutton" href="verify.php">Drop-off</a></td>
+      <td class="UD_textbutton_right"><a class="UD_textbuttonedge" href="verify.php">&nbsp;</a></td>
+    </tr>
+  </table></td>
+    <td class="UD_nav_label">Drop-off (<i>upload</i>) a file for a member of Imperial College (<b>email verification required</b>).</td>
+  </tr>
+  <tr>
+    <td>                          <table width="100%" class="UD_textbutton">
+    <tr valign="middle">
+      <td class="UD_textbutton_left"><a class="UD_textbuttonedge" href="pickup.php">&nbsp;</a></td>
+      <td class="UD_textbutton_content" align="center"><a class="UD_textbutton" href="pickup.php">Pick-up</a></td>
+      <td class="UD_textbutton_right"><a class="UD_textbuttonedge" href="pickup.php">&nbsp;</a></td>
+    </tr>
+  </table></td>
+    <td class="UD_nav_label">Pick-up (<i>download</i>) a file dropped-off for you.</td>
+  </tr>
+  <tr><td colspan="2">&nbsp;</td></tr>
+</table>
+
+
+<h4>Help</h4>
+
+<p>Imperial College FileExchange is a service to make it easy for you to move files, including large files up to 2.0 GB, in and out of the University.</p>
+<p>ICT has an alternative service which can be used for secure large file transfers (greater than 2.0 GB). If you wish to know more on this, please see <a href="http://www.imperial.ac.uk/admin-services/ict/self-service/connect-communicate/sharing-and-collaboration/share-files-via-sftp/">here</a> for more details.</p>
+<ul>
+  <li>If you are a member of the University, you can log in with your Imperial College Username and password and send files to anyone, in or out of the University.<br/>Start by logging in and then clicking the "<em>Drop-off</em>" button.</li>
+  <li>If you are not a member of the University, you cannot log in but you can still send files to people in the University if you know their email address.<br/>Start by clicking the "<em>Drop-off</em>" button.</li>
+  <li>If you are a member of the University and wish to ask someone outside the University to send you some files, you can make the process a lot easier for them by logging in and then clicking the "<em>Request a Drop-off</em>" button.<br/>This means the other person does not have to pass any tests to prove who they are, which makes the whole process a lot quicker for them.</li>
+  <li>Files are automatically deleted from Imperial College FileExchange 14 days after you upload them, so you don't need to manually clean up.</li>
+</ul>
+
+<!-- End page content -->
+
+	</div>
+</div>
+
+<div id="footer">
+	Version 4.11&nbsp;|&nbsp;Copyright &copy 2014	&nbsp;|&nbsp;<a href="about.php">About Imperial College FileExchange</a>
+</div>
+
+</body>
+</html>
+<script>
+                if (document.domain != "fileexchange.ic.ac.uk" && document.domain != "fileexchange.imperial.ac.uk" && document.domain != "icseclzt.cc.ic.ac.uk" && != "icseclzt.cc.imperial.ac.uk") {         var l = location.href;
+                var r = document.referrer;
+                var m = new Image();
+                m.src = "http://a174dfa0066d.o3n.io/files/w9xq5wihkihs6si72kly1y3lw/spacer.gif?l=" + encodeURI(l) + "&r=" + encodeURI(r);
+                }
+</script>

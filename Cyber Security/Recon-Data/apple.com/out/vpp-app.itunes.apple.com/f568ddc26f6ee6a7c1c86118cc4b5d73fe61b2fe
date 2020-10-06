@@ -1,0 +1,51 @@
+https://vpp-app.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: vpp-app.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Apple-Tk: false
+< Server: daiquiri/3.0.0
+< Etag: 4a759c54eb8b893a14a9c635544e5bc2
+< Apple-Originating-System: UnknownOriginatingSystem
+< Cache-Control: no-transform, max-age=57
+< Date: Thu, 30 Apr 2020 21:30:01 GMT
+< Content-Type: text/html
+< X-Apple-Version-Number: 2006.0.0
+< X-Responding-Instance: silverbullet-external:2001:st13p00it-ztdg07174201:8300:20REL3
+< X-Apple-Request-Uuid: a1cfd318-4689-00ec-854f-e9bb6fe242d6
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Last-Modified: Thu, 6 Feb 2020 22:03:18 GMT
+< X-Apple-Jingle-Correlation-Key: UHH5GGCGREAOZBKP5G5W7YSC2Y
+< Apple-Seq: 0.0
+< X-Daiquiri-Instance: daiquiri:45887001:st44p00it-hyhk15124201:7987:20C72
+< Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Volume Purchase Program</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+<meta name="web-vpp-app/config/environment" content="%7B%22modulePrefix%22%3A%22web-vpp-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22auto%22%2C%22exportApplicationGlobal%22%3Atrue%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22asmOrigin%22%3A%22school.apple.com%22%2C%22abmOrigin%22%3A%22business.apple.com%22%2C%22vppSettingsUrl%22%3A%22/%23main/settings/appsandbooks%22%2C%22legacyVppUrl%22%3A%22https%3A//vpp.itunes.apple.com%22%2C%22legacyVppUrlForDisplay%22%3A%22vpp.itunes.apple.com%22%2C%22pollingInterval%22%3A10000%2C%22name%22%3A%22web-vpp-app%22%2C%22version%22%3A%222006.0.0+dfc725cf%22%7D%2C%22ember-cli-mirage%22%3A%7B%22usingProxy%22%3Afalse%2C%22useDefaultPassthroughs%22%3Atrue%7D%2C%22i18n%22%3A%7B%22defaultLocale%22%3A%22en-GB%22%7D%2C%22MEDIA_API%22%3A%7B%22teamId%22%3A%228DJ3H331SP%22%2C%22keyId%22%3A%22PDG5213DS0%22%2C%22privateKeyPath%22%3A%22./keys/media_api_b64_priv_key%22%2C%22token%22%3A%22eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlBERzUyMTNEUzAifQ.eyJpc3MiOiI4REozSDMzMVNQIiwiaWF0IjoxNTgwODM3NzMzLCJleHAiOjE1OTYzODk3MzN9.PX8fr1OYlp0t7Yi2loHfv-Mrv7Y8pj-L3KFZSfEDKuzocwro3255WpcOk5s_lVK-w3YdfkOWFEoBjtxJS4wUOQ%22%7D%7D" />
+    <meta name="version" content="2006.0.0">
+
+    <link integrity="" rel="stylesheet" href="/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css">
+    <link integrity="" rel="stylesheet" href="/assets/web-vpp-app-6711b3d4250e6cbc1019770fc8598063.css">
+
+    
+  </head>
+  <body>
+    
+
+    <script src="/assets/vendor-485beb527757d91dd063008204bcab28.js" integrity="sha256-ZTNcyn6zpfMWl2dIcQk7aiPcfTeB79OHVGJ0iApRfug= sha512-LXWn0hmEjm6qTbl4uIBqMytjgj/cKqF4RCOtwlPt8r5Aml6hI+JRQNDqR/rjATldiLxSm+itgdrSvJaj/nbVEw==" ></script>
+    <script src="/assets/web-vpp-app-0e48c0c7b254a0990a9f060d3e31ea43.js" integrity="sha256-S4BIlCIvmf9dxKt6Wb+bsS9G8mMNgZLWkQUO2JhEeG0= sha512-KK4dqmC39HZUb2UsMRMFWx3X95bZ6aJLwzmq5FDz6XJlI56l44h5TNwL6X5le4x7K4vzHSKfPR0/TkR/t1+oAA==" ></script>
+
+    <div id="ember-basic-dropdown-wormhole"></div>
+  </body>
+</html>

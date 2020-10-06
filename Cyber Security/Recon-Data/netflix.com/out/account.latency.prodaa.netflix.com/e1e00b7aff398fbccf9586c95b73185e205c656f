@@ -1,0 +1,32 @@
+https://account.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: account.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html
+< Location: https://account.latency.prodaa.netflix.com/in/
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Netflix.proxy.execution-Time: 129
+< Edge-Control: no-cache, no-store
+< Server: nq_website_core-prod-release fa4c9dc1-7311-4990-9ebb-e92248f28c92
+< Set-Cookie: flwssn=d57cb579-7376-4da0-95ad-1c036ed91681; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:48 GMT
+< Set-Cookie: clSharedContext=7b96ee2d-c23b-4c4c-ad14-68a5247f737e; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEGyQ9vLNpORnDWPrAsqMJU5A66W9-FEh9jeAAYnTJ0-lS54HyPPsnCii32zEgfebe9giEimxKJM_hS8QtUNveLG5yiQFQkiLMC_NonPfJph-rQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABQwjv8PS_Ak2vneiGYd6EjMzvS99PBrgUs.%26dt%3D1592372088040; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:48 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEGWjTRTBRUI5wDBw9x0C4bCA8CcVTfQuuiI6sB7N6WuOuFIyAJMA_Bghd0UIh5tVVN54xl9JGDyqYsZRXAo97m9BR6tdv4lOderhH-pYbEypyliZCPfNJoPhsXLOur35r5HuJqspX7gZ3PsagxzoYJvtepzaDijp5R-EypwaHY7irYG2-EcZUVsVXo_dC4K0V6EKlR2PdDR4oQ0LhfnqyNhjE3bEB9kg8wfrzp6zb3rBXjknaKG0EqotUK4SGYBFYXVpRlAbgkgfKjNiNj5ClgOgslOAvdpAuAYr0_0hWXzZUYuGJUdyWBpTzk75Qy6q5Ag9cEBiIfIMwWeze_fBMi_FaQ..%26bt%3Ddev%26mac%3DAQEAEAABABTbpR2Ft3fNKWiqJWlVur0-9_BWkbGCAEg.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:48 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=4ed08b81-9c3d-4d09-9a08-3987d4581fa3; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:48 GMT; Path=/; Domain=.netflix.com
+< X-Frame-Options: DENY
+< X-Netflix.nfstatus: 1_1
+< Cache-Control: no-cache, no-store
+< Expires: 0
+< Via: 1.1 i-051e433b7fe58af6a (eu-west-1)
+< X-Originating-Url: https://account.latency.prodaa.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Length: 0
+< Date: Wed, 17 Jun 2020 05:34:48 GMT
+< Pragma: no-cache
+< X-Robots-Tag: index
+

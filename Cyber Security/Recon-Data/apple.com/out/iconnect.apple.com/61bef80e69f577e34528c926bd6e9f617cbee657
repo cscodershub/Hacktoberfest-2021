@@ -1,0 +1,15 @@
+https://iconnect.apple.com/
+
+> GET / HTTP/1.1
+> Host: iconnect.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Temporary moved
+< Date: Thu, 30 Apr 2020 21:50:21 GMT
+< X-Frame-Options: SAMEORIGIN
+< Location: https://sgsin3-corpclient-vpn2.asia.apple.com/
+< Content-Length: 0
+< Cache-Control: no-cache
+< Pragma: no-cache
+< Connection: Close
+

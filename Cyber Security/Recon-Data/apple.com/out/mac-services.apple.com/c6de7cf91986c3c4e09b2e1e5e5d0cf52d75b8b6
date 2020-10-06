@@ -1,0 +1,10 @@
+https://mac-services.apple.com/
+
+> GET / HTTP/1.1
+> Host: mac-services.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Rid: 83057e43-1b8f-48f2-9501-8acac41c1e68
+
+Not Found

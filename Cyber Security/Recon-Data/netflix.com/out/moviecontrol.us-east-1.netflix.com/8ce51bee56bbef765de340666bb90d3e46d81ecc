@@ -1,0 +1,25 @@
+https://moviecontrol.us-east-1.netflix.com/
+
+> GET / HTTP/1.1
+> Host: moviecontrol.us-east-1.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Via: 1.1 i-08e5c2b501b0268e9 (us-east-1)
+< Content-Length: 199
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 17 Jun 2020 05:33:32 GMT
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 57423
+< X-Originating-Url: https://moviecontrol.us-east-1.netflix.com/
+< Server: nccp-modern i-05bab8a8f8137f9bd
+< Set-Cookie: memclid=76e750c2-74e1-4792-86fb-0d824188388b; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:33:32 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEA98PYf9Ky%2FOyE3eRK7cUl9ABO%2FNVhZr4xwKlMyfHmNMD%2B%2BRw7HOLVYwWdixD5iJbzwUDQ09zcmanvmeYdQ44uYPWO5whPhwRff9hFATXxwqrA%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:33:32 GMT; Path=/; Domain=.netflix.com
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

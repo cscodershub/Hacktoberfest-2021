@@ -1,0 +1,16 @@
+http://pv-trackingshipment.apple.com/
+
+> GET / HTTP/1.1
+> Host: pv-trackingshipment.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 142
+< Server: Apache
+< Date: 
+< Location: http://www.apple.com/
+< Content-Type: text/html
+
+<HTML><HEAD><TITLE>Found</TITLE></HEAD><BODY><H1>Found</H1>
+This document has moved <a href="http://www.apple.com/">here</a>. </BODY></HTML>
+

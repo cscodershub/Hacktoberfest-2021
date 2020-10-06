@@ -1,0 +1,19 @@
+http://eraes.apple.com/
+
+> GET / HTTP/1.1
+> Host: eraes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Vary: Accept-Encoding
+< Set-Cookie: ns_s=61f5b11e2f6c10ca8fa8f328418426f7820ea1c0; path=/; HttpOnly
+< Content-Type: text/html; charset=utf-8
+< Date: Thu, 30 Apr 2020 21:29:30 GMT
+< X-Ua-Compatible: IE=edge
+< Server: Bomgar
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000
+< Location: https://eraes.apple.com/
+

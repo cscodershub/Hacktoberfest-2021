@@ -1,0 +1,21 @@
+http://train.boomi.com/
+
+> GET / HTTP/1.1
+> Host: train.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 141
+< Cache-Control: private
+< Date: Sat, 15 Aug 2020 09:15:56 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Lms-Server: USE1-PRD-WEB-AA
+< X-Response-For: /
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=utf-8
+< Location: https://train.boomi.com/
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://train.boomi.com/">here</a>.</h2>
+</body></html>

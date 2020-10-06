@@ -1,0 +1,12 @@
+http://smstqc-interface-integration.bmw.de/
+
+> GET / HTTP/1.1
+> Host: smstqc-interface-integration.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://smstqc-interface-integration.bmw.de/
+< Server: BigIP
+< Connection: close
+< Content-Length: 0
+

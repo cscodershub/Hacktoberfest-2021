@@ -1,0 +1,16 @@
+https://podcastsconnect.apple.com/
+
+> GET / HTTP/1.1
+> Host: podcastsconnect.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Apple-Jingle-Correlation-Key: HACM4XE5YZK5XGZQD3ARS2JTRE
+< X-Daiquiri-Instance: daiquiri:48493001:st44p00it-hyhk15034601:7987:20E24
+< Server: daiquiri/3.0.0
+< Date: Thu, 30 Apr 2020 21:40:55 GMT
+< Set-Cookie: dq-auth-retry:gcLGuro5LT87tbjieLG9Hv5N3E0=1; Max-Age=10; Expires=Thu, 30 Apr 2020 21:41:05 GMT; Path=/; Secure; HTTPOnly
+< Location: https://itunesconnect.apple.com/login?module=PodcastsConnect&hostname=podcastsconnect.apple.com&cf=1&targetUrl=%2F&authResult=FAILED
+
+

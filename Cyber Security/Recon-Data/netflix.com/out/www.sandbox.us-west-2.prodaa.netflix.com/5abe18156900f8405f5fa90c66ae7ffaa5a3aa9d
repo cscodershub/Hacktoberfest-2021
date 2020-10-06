@@ -1,0 +1,32 @@
+https://www.sandbox.us-west-2.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.sandbox.us-west-2.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: no-cache, no-store
+< Pragma: no-cache
+< Content-Length: 0
+< X-Frame-Options: DENY
+< X-Netflix.nfstatus: 1_1
+< X-Robots-Tag: index
+< Date: Wed, 17 Jun 2020 05:35:46 GMT
+< Set-Cookie: flwssn=73cf1e24-ae75-4e71-84c2-0df7ab458a52; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:35:46 GMT
+< Set-Cookie: clSharedContext=56d9eaf2-4dc0-4995-93cb-e6c119b82d1a; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEExQJ7GMQjDAZJ2Fzj9eHw9ATRIWK6f61yzm9x2frAayNHJuUfsIoOXeaA82usR46dv5JKepCq67AodmP7aBMDdhZf5AYE6QShtF__BRUC_9Wg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABQRR5dPKXUh8KFsKSo2Z_ZT5fPMVJ3jbBc.%26dt%3D1592372146173; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:35:46 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEEyWsrDLIcWEzGE58MDFU2uA8BE5i_kiMWqZrm4HFv0C1gmeD6MFZZM1_znelg2NzxgXHr-IfkHgAAFu6cJ0nK57eMwA2sQF-V4jdrdUAAhXjtpzz094tQfpK1mOo6xJ9_fqVii0AQCmkmroBsZst2Ft3u4w-F9IPiz4WXyGjSDshjMh0JTbX8soBEflA1W1mzBz3B1bJGufhs3jD2WNLawnLN54dA7FcqVI9_AxkCcOYZ5FbM3wy-pPcf4sFfqF64taQ99l56YPedWCJuyO6jblpYF_aWbixfAw9VDsm6_9Rfu2QcI09hgb1eQ4-AfhCstB5TlK-rlUK-b1mDqgYdbkyA..%26bt%3Ddev%26mac%3DAQEAEAABABSgYPVm4egB_rSrq_TZKJ5HnjI3j5hRCm4.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:35:46 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=504b5cca-7436-4102-b599-62d2f5ad73ef; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:46 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: https://www.sandbox.us-west-2.prodaa.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Edge-Control: no-cache, no-store
+< Expires: 0
+< Location: https://www.sandbox.us-west-2.prodaa.netflix.com/in/
+< X-Netflix.proxy.execution-Time: 3777
+< Content-Type: text/html
+< Server: nq_website_core-prod-release 5d58b042-f414-4ff8-a4b2-629dcb7ec677
+< Via: 1.1 i-0bdd0e9c171e2f93a (us-west-2)
+

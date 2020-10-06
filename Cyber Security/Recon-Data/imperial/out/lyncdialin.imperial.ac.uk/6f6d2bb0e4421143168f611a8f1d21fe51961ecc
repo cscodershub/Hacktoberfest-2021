@@ -1,0 +1,17 @@
+http://lyncdialin.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: lyncdialin.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Redirect
+< Date: Sat, 18 Jul 2020 13:54:35 GMT
+< Content-Length: 157
+< Content-Type: text/html; charset=UTF-8
+< Location: https://lyncdialin.imperial.ac.uk/
+< Server: Microsoft-IIS/8.0
+< X-Powered-By: ARR/2.5
+< X-Powered-By: ASP.NET
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://lyncdialin.imperial.ac.uk/">here</a></body>

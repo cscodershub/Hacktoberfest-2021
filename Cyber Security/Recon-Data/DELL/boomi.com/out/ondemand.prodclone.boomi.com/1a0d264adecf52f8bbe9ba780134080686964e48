@@ -1,0 +1,20 @@
+http://ondemand.prodclone.boomi.com/
+
+> GET / HTTP/1.1
+> Host: ondemand.prodclone.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sat, 15 Aug 2020 09:15:54 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 245
+< Server: Apache/2.4.6 (Red Hat Enterprise Linux) PHP/5.4.16
+< Location: https://ondemand.prodclone.boomi.com/
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://ondemand.prodclone.boomi.com/">here</a>.</p>
+</body></html>

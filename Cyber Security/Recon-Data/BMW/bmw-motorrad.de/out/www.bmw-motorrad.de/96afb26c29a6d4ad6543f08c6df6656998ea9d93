@@ -1,0 +1,19 @@
+http://www.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: www.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: SAMEORIGIN
+< Access-Control-Allow-Credentials: false
+< Access-Control-Allow-Methods: GET,POST
+< X-Xss-Protection: 1; mode=block
+< Access-Control-Max-Age: 86400
+< Access-Control-Allow-Headers: *
+< Access-Control-Allow-Origin: https://myaccount-staging.bmw-motorrad.com https://myaccount-final.bmw-motorrad.com https://contact-staging.bmw-motorrad.com https://contact-final.bmw-motorrad.com http://crm-form-client.localhost https://myaccount.bmw-motorrad.com https://contact.bmw-motorrad.com
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://www.bmw-motorrad.de/
+< Date: Tue, 11 Aug 2020 04:45:38 GMT
+

@@ -1,0 +1,20 @@
+https://dchain-isp-1-2930-9999.prod.ftl.netflix.com/
+
+> GET / HTTP/1.1
+> Host: dchain-isp-1-2930-9999.prod.ftl.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Language: en
+< Date: Wed, 17 Jun 2020 05:35:30 GMT
+< Server: api-prod i-04decc408ac388195
+< X-Netflix.nfstatus: 1_3
+< X-Originating-Url: https://dchain-isp-1-2930-9999.prod.ftl.netflix.com:15274/
+< Content-Length: 796
+< Content-Type: text/html;charset=utf-8
+< Set-Cookie: nfvdid=BQFmAAEBELHuWUPTM4iD0TnGr1o6h2tA8cBGuXtncJXkBGlF_JvnhQATLKWHPKwtRtQ5HVTTJHNzqmXwX4_4e-GKlitIJRhbz9iaIrXxBCLLCVxU_NK43w%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=028c92d1-93ff-4f39-8229-747949365301; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:30 GMT; Path=/; Domain=.netflix.com
+< Via: 2 i-062b48d3f14936b63 (eu-west-1), 2 c000.ams001.ix.nflxvideo.net (FTL-0cxP), 1.1 c000.ath001.forthnet.isp.nflxvideo.net (FTL-Wsxb)
+< X-Netflix.proxy.execution-Time: 5
+
+<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1></body></html>

@@ -1,0 +1,14 @@
+https://sravcloud1.sandbox.boomi.com/
+
+> GET / HTTP/1.1
+> Host: sravcloud1.sandbox.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.a-writer.org/
+< X-Frame-Options: SAMEORIGIN
+< Server: nginx
+< Date: Sat, 15 Aug 2020 09:16:16 GMT
+< Content-Type: text/html; charset=UTF-8
+< X-Redirect-By: WordPress
+

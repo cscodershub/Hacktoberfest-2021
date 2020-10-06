@@ -1,0 +1,25 @@
+https://creativeservices.netflix.com/
+
+> GET / HTTP/1.1
+> Host: creativeservices.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Alt-Svc: h3-27=":443"; ma=86400
+< Access-Control-Allow-Headers: X-CSRF-Token
+< Cf-Cache-Status: HIT
+< Cf-Request-Id: 0362608b790000de9ef79b6200000001
+< Vary: Accept, Accept-Encoding
+< Cc-Cache-Status: HIT
+< Server: cloudflare
+< Date: Wed, 17 Jun 2020 05:36:36 GMT
+< Content-Type: text/plain; charset=utf-8
+< Cc-Stable-Domain: purple-ship.cloudvent.net
+< Location: https://gpc.netflix.net/
+< Cf-Ray: 5a4a69f25c39de9e-BLR
+< Age: 1357
+< Access-Control-Allow-Origin: *
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Set-Cookie: __cfduid=d522cf4522c1e6f254f0dd3e1b9c986dc1592372196; expires=Fri, 17-Jul-20 05:36:36 GMT; path=/; domain=.creativeservices.netflix.com; HttpOnly; SameSite=Lax
+
+Moved Permanently. Redirecting to https://gpc.netflix.net/

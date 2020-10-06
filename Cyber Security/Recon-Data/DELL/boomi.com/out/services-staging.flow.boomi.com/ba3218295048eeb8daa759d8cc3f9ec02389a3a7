@@ -1,0 +1,14 @@
+https://services-staging.flow.boomi.com/
+
+> GET / HTTP/1.1
+> Host: services-staging.flow.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 21
+< Strict-Transport-Security: max-age=15724800; includeSubDomains
+< Server: nginx/1.17.8
+< Date: Sat, 15 Aug 2020 09:16:13 GMT
+
+default backend - 404

@@ -1,0 +1,19 @@
+https://confluenceprodwest.itp.netflix.com/
+
+> GET / HTTP/1.1
+> Host: confluenceprodwest.itp.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Server: awselb/2.0
+< Date: Wed, 17 Jun 2020 05:36:30 GMT
+< Content-Type: text/html
+< Content-Length: 126
+< Location: https://meechum.netflix.com/as/authorization.oauth2?client_id=confluence&redirect_uri=https%3A%2F%2Fconfluenceprodwest.itp.netflix.com%2Foauth2%2Fidpresponse&response_type=code&scope=default confluence&state=SZmnDNkScsluOSVDa7Dweb62VGcwCmi70%2Fbholf4a6hyXWCyZ3nIgIaGg1qC1AGRt0ACfMaptaENXZW55DUxfr%2BJl3fV%2Flwj750uNrklS3W0zJ2qFDKmjFL8X1q2LD38MxLDFWTZ%2Fw%2BE8oFCIDv6XHMheOl5hCF86mM8UPdrDsDa2ex%2FXK6rJVLQqGSg2mJiHX2zx%2Fw%3D&auth_strategy=BidirectionGoogleLogin&class=java.util.HashMap&prompt=login&display=page
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+</body>
+</html>

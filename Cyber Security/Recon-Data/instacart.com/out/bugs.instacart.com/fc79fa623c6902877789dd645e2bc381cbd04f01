@@ -1,0 +1,17 @@
+https://bugs.instacart.com/
+
+> GET / HTTP/1.1
+> Host: bugs.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: NFxt9RDnZ7HuAtxQv8KQH1uhdxaj7SdaaGvURiT8H_ltgUK3HrWIfA==
+< Content-Length: 0
+< Date: Tue, 04 Aug 2020 03:32:26 GMT
+< Location: https://bugs.instacart.tools/
+< Via: 1.1 b3b2246718edab5bd24a8e54e98fa4e0.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+< Server: AmazonS3
+< X-Cache: Hit from cloudfront
+< Age: 4469
+

@@ -1,0 +1,15 @@
+https://gspe72-staging.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe72-staging.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Via: ap-southeast-1
+< X-Akamai-Staging: EdgeSuite
+< Content-Type: text/html
+< Content-Length: 9
+< Date: Thu, 30 Apr 2020 21:30:53 GMT
+< X-Cache: TCP_MISS from a23-50-52-7.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+
+Forbidden

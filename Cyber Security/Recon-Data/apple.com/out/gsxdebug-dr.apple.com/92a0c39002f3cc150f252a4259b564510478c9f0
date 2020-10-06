@@ -1,0 +1,42 @@
+https://gsxdebug-dr.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsxdebug-dr.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: no-cache, no-store
+< Pragma: no-cache
+< Expiresdefault: access plus 1 minutes
+< Accept-Ranges: bytes
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Host: gsxdebug-dr.apple.com
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+< Expiresactive: On
+< Last-Modified: Tue, 02 Jul 2019 00:31:28 GMT
+< Etag: "15d-58ca7dd96a155-gzip"
+< Vary: Accept-Encoding
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:50 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+
+<script type='text/javascript'>
+
+
+var dt = new Date();
+document.cookie = "dstimeoffset="+dt.getTimezoneOffset()+";path=/;domain=apple.com;";
+
+
+</script>
+<html>
+<body>
+<!--Wait for 5 seconds; Redirects to GSX Base URL without Akamai Cookie-->
+<meta http-equiv="refresh" content="0;url=https://gsxdebug-dr.apple.com/WebApp/login.htm">
+</body>
+</html>

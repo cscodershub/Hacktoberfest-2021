@@ -1,0 +1,40 @@
+https://cloppenburg-lahr-service.mini.de/
+
+> GET / HTTP/1.1
+> Host: cloppenburg-lahr-service.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Tue, 11 Aug 2020 04:54:13 GMT
+< Server: Apache
+< Last-Modified: Fri, 28 Dec 2018 09:48:48 GMT
+< Etag: "307-57e11f83f628b"
+< Accept-Ranges: bytes
+< Content-Length: 775
+< Content-Type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+ <title>BMW Group - no content deployed</title>
+ <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+ <style type="text/css">
+    body       { vertical-align: middle; }
+    p          { font-family: Verdana, Arial, Helvetica, sans-serif;
+                 text-align: center;
+                 font-size: 10pt; }
+    .bold      { font-weight: bold; }
+ </style>
+ </head>
+
+ <body>
+  <div>
+    <p style="margin-top: 150px;"/>
+    <p><img src="/webops-global-icons/bmw/bmw_group.png" alt="BMW Group"/></p>
+    <p class="bold">BMW - New Installation (ML6)</p>
+    <p>This project didn't deploy any content yet.</p>
+  </div>
+
+ </body>
+</html>

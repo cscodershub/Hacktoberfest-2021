@@ -1,0 +1,20 @@
+http://mediaupload.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: mediaupload.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Aspnetmvc-Version: 5.2
+< Cache-Control: private
+< Location: http://mediaupload.imperial.ac.uk/Account/Login?ReturnUrl=%2f
+< X-Aspnet-Version: 4.0.30319
+< X-Media-Server: 2
+< Date: Sat, 18 Jul 2020 13:54:45 GMT
+< Content-Length: 178
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="http://mediaupload.imperial.ac.uk/Account/Login?ReturnUrl=%2f">here</a>.</h2>
+</body></html>

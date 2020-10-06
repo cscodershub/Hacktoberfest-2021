@@ -1,0 +1,19 @@
+http://configure.bmw.de/
+
+> GET / HTTP/1.1
+> Host: configure.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Access-Control-Max-Age: 86400
+< Access-Control-Allow-Methods: GET
+< X-Frame-Options: DENY
+< Server: AkamaiGHost
+< Cache-Control: max-age=3600
+< Date: Tue, 11 Aug 2020 04:51:22 GMT
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Headers: *
+< Access-Control-Allow-Origin: *
+< Content-Length: 0
+< Location: http://www.bmw.de/de/konfigurator.html
+

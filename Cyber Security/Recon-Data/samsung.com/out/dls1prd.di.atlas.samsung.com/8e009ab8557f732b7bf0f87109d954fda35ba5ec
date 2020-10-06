@@ -1,0 +1,11 @@
+https://dls1prd.di.atlas.samsung.com/
+
+> GET / HTTP/1.1
+> Host: dls1prd.di.atlas.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/json; charset=UTF-8
+< Content-Length: 38
+
+{"lv":78,"qv":525,"rc":"2001","et":""}

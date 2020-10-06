@@ -1,0 +1,17 @@
+http://ads.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ads.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 12
+< Server: heisenberg i-04265a5b6ad8862dd
+< Via: 1.1 i-053586154dd75c9b4 (eu-west-1)
+< X-Netflix.proxy.execution-Time: 42134
+< X-Originating-Url: http://ads.geo.netflix.com/
+< Set-Cookie: memclid=d7335844-87ea-403d-a789-0c7f9982453d; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:20 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEHXiY2MxS9gBmsQoDrDRAoxA%2FQGsckBxZXy0cs%2FO4KcsC%2BYm%2BF5loS2cVS%2BTevt5lyrugTKMaaKrw39yR5BZI%2BDb5gvCw%2Fy2cAroj9X8FadUCA%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:20 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_3
+
+Unknown Path

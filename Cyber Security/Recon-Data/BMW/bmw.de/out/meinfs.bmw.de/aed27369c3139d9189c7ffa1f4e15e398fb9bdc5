@@ -1,0 +1,16 @@
+http://meinfs.bmw.de/
+
+> GET / HTTP/1.1
+> Host: meinfs.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: https://meinfs.bmw.de/
+< Server-Timing: cdn-cache; desc=HIT
+< Server-Timing: edge; dur=1
+< Server: AkamaiGHost
+< Cache-Control: max-age=0
+< Expires: Tue, 11 Aug 2020 04:51:25 GMT
+< Date: Tue, 11 Aug 2020 04:51:25 GMT
+

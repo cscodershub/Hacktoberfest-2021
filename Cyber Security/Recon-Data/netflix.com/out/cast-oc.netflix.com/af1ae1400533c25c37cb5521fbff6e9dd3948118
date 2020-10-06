@@ -1,0 +1,25 @@
+http://cast-oc.netflix.com/
+
+> GET / HTTP/1.1
+> Host: cast-oc.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Access-Control-Expose-Headers: X-TCP-Info
+< Server: nginx
+< Date: Wed, 17 Jun 2020 05:35:01 GMT
+< Content-Length: 146
+< Access-Control-Allow-Origin: *
+< X-Tcp-Info: addr=27.6.68.76;port=56331
+< Content-Type: text/html
+< Timing-Allow-Origin: *
+< Cache-Control: no-store
+< Pragma: no-cache
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

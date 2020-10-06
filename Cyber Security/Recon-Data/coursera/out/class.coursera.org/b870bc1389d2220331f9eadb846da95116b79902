@@ -1,0 +1,49 @@
+https://class.coursera.org/
+
+> GET / HTTP/1.1
+> Host: class.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Set-Cookie: CSRF3-Token=1597899096.AwgrhCa7mNFiMLc1; Max-Age=864000; Expires=Thu, 20 Aug 2020 04:51:36 GMT; Path=/; Domain=.coursera.org
+< Set-Cookie: __204u=3116735410-1597035096601; Max-Age=31536000; Expires=Tue, 10 Aug 2021 04:51:36 GMT; Path=/; Domain=.coursera.org
+< X-Amz-Id-2: D1Y4+S1xUhjmKCi40m9b089gWpB+V1NcN7JC6VxEIrIoPsqHJDiEkphSZHcukrj1gIJSDxDN32I=
+< Access-Control-Allow-Origin: *
+< Last-Modified: Thu, 21 Mar 2019 01:08:14 GMT
+< X-Coursera-Trace-Id-Hex: 244bec8852e7c52
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Access-Control-Allow-Methods: GET
+< Date: Mon, 10 Aug 2020 04:51:37 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Amz-Request-Id: 482D310B730B68E3
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+< Content-Type: text/html
+< Vary: Origin, Accept-Encoding
+< X-Content-Type-Options: nosniff
+< X-Coursera-Request-Id: K8WKJtrFEeqTxArJP685tw
+< Etag: "f50f896510cd47aae9351781612b8958"
+< Server: AmazonS3
+
+<html>
+  <head>
+    <title>Coursera</title>
+    <script type="text/javascript">
+      window.location.href = "https://www.coursera.org/course/" + window.location.pathname.split("/")[1].split("-")[0];
+    </script>
+  </head>
+  <body style="background-color:#e4e4e4">
+    <div style="position:absolute; top:0; bottom:0; left:0; right:0; margin:auto; height:200px; width: 700px">
+      <div style="text-align:center">
+        <img src="https://coursera.s3.amazonaws.com/error_pages/coursera-logo.svg" width="400">
+      </div>
+      <h1 style="text-align:center; font-family:Helvetica, Arial, sans-serif; font-weight:100; color: #555">
+        This page is no longer available.
+      </h1>
+      <div style="text-align:center; font-family:Helvetica, Arial, sans-serif; font-weight:300; font-size:13pt; color: #555">
+        This page was hosted on our old technology platform. We've moved to our new platform at <a href="https://www.coursera.org/">www.coursera.org</a>. Explore our <a href="https://www.coursera.org/browse">catalog</a> to see if this course is available on our new platform, or learn more about the platform transition <a href="https://learner.coursera.help/hc/en-us/articles/209818623">here</a>.
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1251 @@
+https://gleam.io/
+
+> GET / HTTP/1.1
+> Host: gleam.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Set-Cookie: XSRF-TOKEN=iiK%2ByLLPLv7PGQTYCkf%2F%2F80Iu4GwkgT88nd4fgWkiCclK%2BHdT3XlulSyfOTjQ5C5AaV5rTOI2qOg%2BYGou2sBzQ%3D%3D; path=/; secure
+< Set-Cookie: _app_session=T07HxKV%2Fg9UwNQzQqpBVJGLM7hKTywVL2xZSAawR68V021tPdCxudK800x0uEIysjOJNQRi6Asu5TG8vCJBS1jyrrCW3%2B3vkwk1Y7M7fYnNBIHlu6zFo9YNckgSp3SApAl6FwAkd49cUXAJBo%2BXwg8Oa%2FY9%2BDNbRC137a68g7Z2Bx2T0Juc7NKVjNTvH53nKraoISjjmlTc%2BwlIw2R5rGFOXSu81hIlkIrHikSk3CE9eSlY8SeDvacKhrBhqPoc4rU5tATg2r380ngp1KOItkdJB16M6NTZncg%3D%3D--P404xT2ISZIpl9qy--e5hbMIKDgrv6BgEtOIMVkg%3D%3D; path=/; expires=Thu, 27 Aug 2020 04:27:12 GMT; secure; HttpOnly
+< X-Runtime: 0.067562
+< G-Host: meepo9
+< P3p: policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT", CP="CAO PSA OUR"
+< Server: nginx
+< X-Xss-Protection: 1; mode=block
+< Etag: W/"f5ff7c1ff04d373370a38e1aeab9a25a"
+< Cache-Control: max-age=0, private, must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< X-Ua-Compatible: IE=Edge,chrome=1
+< Date: Thu, 30 Jul 2020 04:27:12 GMT
+< X-Content-Type-Options: nosniff
+< X-Request-Id: 8662d5b5-3c8d-4521-bfed-672323325e5c
+< Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html lang="en" class="default" xmlns:ng="http://angularjs.org" xmlns:fb="http://www.facebook.com/2008/fbml"><head>
+<meta charset='utf-8'>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"6fcc9884b2","applicationID":"4348758","transactionName":"Il1YFhNXCA9cRxoTVA1RWQ8EFw0NXVBN","queueTime":0,"applicationTime":67,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"6fcc9884b2",applicationID:"4348758"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1173.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='notranslate' name='google'>
+<meta content='693353452' property='fb:admins'>
+<title>Grow Your Business With Contests &amp; Social Marketing Apps</title>
+<link href='https://gleam.io' rel='canonical'>
+<meta content='Mqt6LB8YixoNmUrYX15T1wBhmC21gdvDey2B1l_tZUo' name='google-site-verification'>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="kogBhahXs3c7lLYsFTktl0BI2rcwOsgnTUX8T0VEFdw9gV6QVe14M6A/zhD8PULRjOUYm7MgFngfywWZ+4ucNg==" />
+<meta content='eaa97cdd967719105e689cf87ee3fd42fb349c58779d989f1de64c00a6aabe7c' name='ahrefs-site-verification'>
+<meta content='Over 1M+ businesses use Gleam&#39;s marketing apps to grow and engage customers via Contests, Giveaways, Email Forms &amp; Collecting User Generated Content.' name='description'>
+<meta content='website' property='og:type'>
+<meta content='https://gleam.io/open-graph/main.png' property='og:image'>
+<meta content='Gleam: Business Growth Platform' property='og:title'>
+<meta content='Over 1M+ businesses use Gleam&#39;s marketing apps to grow and engage customers via Contests, Giveaways, Email Forms &amp; Collecting User Generated Content.' property='og:description'>
+<meta content='summary_large_image' property='twitter:card'>
+<meta content='@Gleamapp' property='twitter:site'>
+<meta content='https://gleam.io/open-graph/main.png' property='twitter:image'>
+<meta content='Gleam: Business Growth Platform' property='twitter:title'>
+<meta content='Over 1M+ businesses use Gleam&#39;s marketing apps to grow and engage customers via Contests, Giveaways, Email Forms &amp; Collecting User Generated Content.' property='twitter:description'>
+<meta content='https://gleam.io' property='twitter:url'>
+
+<link rel="stylesheet" media="all" href="https://js.gleam.io/assets/content-98eb862cccf9ff2b61442d84edc375f398b1ea216aa6f0d1b2e510f1bf6ddd09.css" />
+<link href='//fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;display=swap' rel='stylesheet' type='text/css'>
+<link href='/favicon.ico' rel='shortcut icon'>
+<script>
+  window.actionMarketingAppName = "Gleam";
+  window.baseHost = "https://gleam.io";
+  window.previewHost = "https://preview.gleam.io";
+  window.assetHost = "https://js.gleam.io";
+  window.widgetName = "Gleam";
+</script>
+<script src="https://js.gleam.io/assets/content-80b5fd666a4322564fa5259cb8b2773707935223317df9c7cb1d32dcdbeb44a3.js" defer="defer"></script>
+<script async='true' crossorigin='anonymous' defer='true' src='https://kit.fontawesome.com/5f8a1d1a60.js'></script>
+<link crossorigin href='https://kit-pro.fontawesome.com' rel='preconnect'>
+<link href='https://kit-pro.fontawesome.com' rel='dns-prefetch'>
+<link crossorigin href='https://www.google-analytics.com' rel='preconnect'>
+<link href='https://www.google-analytics.com' rel='dns-prefetch'>
+</head>
+
+<body ng-non-bindable>
+<div class='o-flash-message'>
+
+</div>
+<div class='u-page-wrapper'>
+<nav class='navbar'>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12'>
+<a class="navbar__logo" href="/"><div class='u-screenreader'>Home</div>
+</a><ul class='navbar__list'>
+<li class='navbar__item navbar__item--special-hover navbar__item--has-more o-popover-parent '>
+<a data-turbolinks="false" class="navbar__link" href="javascript:void(0)">Apps
+</a><div class='o-popover js-popover navbar__popover navbar__popover--apps' data-popover-click-hover='true' data-popover-clickable-content='true'>
+<div class='o-popover__inner'>
+<ul class='navbar-apps'>
+<li class='navbar-apps__item '>
+<a data-turbolinks="false" href="/app/competitions"><img class="navbar-apps__icon" width="50" height="50" alt="Competitions" src="https://js.out.sh/assets/content/icons/competition-303b691a584762e4a7124ba820799b1df45057223fb76bba3ad5eb3f15e6e373.svg" />
+<div class='navbar-apps__content'>
+<h6 class='navbar-apps__title'>
+Competitions
+</h6>
+<p class='navbar-apps__description'>
+Build powerful competitions for your business or clients
+</p>
+</div>
+</a></li>
+<li class='navbar-apps__item '>
+<a data-turbolinks="false" href="/app/rewards"><img class="navbar-apps__icon" width="50" height="50" alt="Rewards" src="https://js.out.sh/assets/content/icons/reward-b63fd414a5e3e88c255b2f0078af18666d09854b4d6525f0a50b54dc944e76e6.svg" />
+<div class='navbar-apps__content'>
+<h6 class='navbar-apps__title'>
+Rewards
+</h6>
+<p class='navbar-apps__description'>
+Instant redeem embeddable rewards in exchange for actions
+</p>
+</div>
+</a></li>
+<li class='navbar-apps__item '>
+<a data-turbolinks="false" href="/app/gallery"><img class="navbar-apps__icon" width="50" height="50" alt="Gallery" src="https://js.out.sh/assets/content/icons/gallery-09098e424bbf3c7b94975aef796c546cc40279566d6957868884ed68e984e7f6.svg" />
+<div class='navbar-apps__content'>
+<h6 class='navbar-apps__title'>
+Gallery
+</h6>
+<p class='navbar-apps__description'>
+Create a stunning responsive gallery to display your content
+</p>
+</div>
+</a></li>
+<li class='navbar-apps__item '>
+<a data-turbolinks="false" href="/app/capture"><img class="navbar-apps__icon" width="50" height="50" alt="Capture" src="https://js.out.sh/assets/content/icons/capture-bca3dcb8bd39412a55c17ff81199bb673f1449573c9a477641b19f3834ef488f.svg" />
+<div class='navbar-apps__content'>
+<h6 class='navbar-apps__title'>
+Capture
+</h6>
+<p class='navbar-apps__description'>
+The smartest way to build your email list
+</p>
+</div>
+</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class='navbar__item navbar__item--special-hover '>
+<a data-turbolinks="false" class="navbar__link" href="/examples">Examples
+</a></li>
+<li class='navbar__item navbar__item--special-hover navbar__item--has-more o-popover-parent '>
+<a data-turbolinks="false" class="navbar__link" href="javascript:void(0)">Learn
+</a><div class='o-popover js-popover navbar__popover' data-popover-click-hover='true' data-popover-clickable-content='true'>
+<div class='o-popover__inner'>
+<ul class='navbar-dropdown'>
+<li class='navbar-dropdown__item '>
+<a data-turbolinks="false" class="navbar-dropdown__link navbar-dropdown__link--success-stories" href="/success">Success Stories</a>
+</li>
+<li class='navbar-dropdown__item '>
+<a data-turbolinks="false" class="navbar-dropdown__link navbar-dropdown__link--docs" href="/docs">Docs</a>
+</li>
+<li class='navbar-dropdown__item '>
+<a data-turbolinks="false" class="navbar-dropdown__link navbar-dropdown__link--faq" href="/faq">Faq</a>
+</li>
+<li class='navbar-dropdown__item '>
+<a data-turbolinks="false" class="navbar-dropdown__link navbar-dropdown__link--guides" href="/guides">Guides</a>
+</li>
+<li class='navbar-dropdown__item '>
+<a data-turbolinks="false" class="navbar-dropdown__link navbar-dropdown__link--blog" href="/blog/">Growth Blog</a>
+</li>
+<li class='navbar-dropdown__item '>
+<a data-turbolinks="false" class="navbar-dropdown__link navbar-dropdown__link--integrations" href="/integrations">Integrations</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class='navbar__item navbar__item--special-hover '>
+<a data-turbolinks="false" class="navbar__link" href="/pricing">Pricing
+</a></li>
+</ul>
+<div class='u-pull-right'>
+<ul class='navbar__list'>
+<li class='navbar__item navbar__item--margin navbar__item--has-more navbar__item--loginout o-popover-parent'>
+<a data-track-pageview="/login" class="navbar__login" href="/login">Login</a>
+</li>
+<li class='navbar__item'>
+<a data-turbolinks="false" data-signup="" class="o-btn o-btn--small o-btn--bordered navbar__signup" href="/signup">Sign Up</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<div class='mobile-menu'>
+<div class='menu-toggle js-menu-toggle'>
+<span class='menu-toggle__default'>
+Menu
+</span>
+<span class='menu-toggle__close'>
+Close
+</span>
+<div class='menu-toggle__lines'>
+<span class='menu-toggle__line'></span>
+<span class='menu-toggle__line menu-toggle__line--middle'></span>
+<span class='menu-toggle__line menu-toggle__line--last'></span>
+</div>
+</div>
+<div class='mobile-menu__inner'>
+<div class='mobile-menu__header'>
+<h5 class='mobile-menu__heading'>
+Apps
+</h5>
+<ul class='mobile-menu__apps'>
+<li class='mobile-menu__app mobile-menu__app--competition'>
+<a class="mobile-menu__app-link" href="/app/competitions"><span class='mobile-menu__app-info'>
+Competitions
+<p class='mobile-menu__app-description'>
+Build powerful competitions for your business or clients
+</p>
+</span>
+</a></li>
+<li class='mobile-menu__app mobile-menu__app--reward'>
+<a class="mobile-menu__app-link" href="/app/rewards"><span class='mobile-menu__app-info'>
+Rewards
+<p class='mobile-menu__app-description'>
+Instant redeem embeddable rewards in exchange for actions
+</p>
+</span>
+</a></li>
+<li class='mobile-menu__app mobile-menu__app--gallery'>
+<a class="mobile-menu__app-link" href="/app/gallery"><span class='mobile-menu__app-info'>
+Gallery
+<p class='mobile-menu__app-description'>
+Create a stunning responsive gallery to display your content
+</p>
+</span>
+</a></li>
+<li class='mobile-menu__app mobile-menu__app--capture'>
+<a class="mobile-menu__app-link" href="/app/capture"><span class='mobile-menu__app-info'>
+Capture
+<p class='mobile-menu__app-description'>
+The smartest way to build your email list
+</p>
+</span>
+</a></li>
+</ul>
+</div>
+<div class='mobile-menu__content'>
+<ul class='mobile-menu__list'>
+<li class='mobile-menu__item '>
+<a href="/examples">Examples</a>
+</li>
+<li class='mobile-menu__item '>
+<a href="/success">Success Stories</a>
+</li>
+<li class='mobile-menu__item '>
+<a href="/docs">Docs</a>
+</li>
+<li class='mobile-menu__item '>
+<a href="/faq">FAQ</a>
+</li>
+<li class='mobile-menu__item '>
+<a href="/guides">Guides</a>
+</li>
+<li class='mobile-menu__item '>
+<a href="/integrations">Integrations</a>
+</li>
+<li class='mobile-menu__item '>
+<a href="/blog/">Growth Blog</a>
+</li>
+<li class='mobile-menu__item '>
+<a href="/pricing">Pricing</a>
+</li>
+<li class='mobile-menu__item '>
+<a href="/login">Login</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class='u-content-wrapper'>
+
+
+<script>if(document.querySelectorAll('.o-flash-message')[0] && !document.querySelectorAll('.o-flash-message')[0].textContent.match(/^\s*$/)) { window.hasFlashMessage = function() {return true;} }</script>
+
+<header class='hero hero--home'>
+<div class='hero__bg'></div>
+<div class='hero__inner'>
+<div class='hero__content'>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12 hero__content-inner'>
+<h1 class='hero__heading'>
+The <strong>Business
+<br class="u-visible-xxs-inline-block" />
+Gro
+<span class="u-w-growth"></span>
+th</strong> Platform
+
+</h1>
+<h2 class='hero__subheading'>
+Marketing apps designed to help you <br/> grow your
+
+<span class='o-word-rotator js-word-rotator'>
+<span class='o-word-rotator__item o-word-rotator__item--default'>
+Business
+</span>
+<span class='o-word-rotator__item'>
+Email List
+</span>
+<span class='o-word-rotator__item'>
+E-commerce Store
+</span>
+<span class='o-word-rotator__item'>
+SaaS Business
+</span>
+<span class='o-word-rotator__item'>
+Facebook Audience
+</span>
+<span class='o-word-rotator__item'>
+iPhone App
+</span>
+<span class='o-word-rotator__item'>
+Band
+</span>
+<span class='o-word-rotator__item'>
+Customer Engagement
+</span>
+<span class='o-word-rotator__item'>
+Sales
+</span>
+<span class='o-word-rotator__item'>
+Podcast
+</span>
+<span class='o-word-rotator__item'>
+Physical Store
+</span>
+<span class='o-word-rotator__item'>
+YouTube Engagement
+</span>
+<span class='o-word-rotator__item'>
+Kickstarter
+</span>
+<span class='o-word-rotator__item'>
+Twitch Followers
+</span>
+</span>
+<span>
+.
+</span>
+</h2>
+<div class='hero__btns'>
+<a class="o-btn o-btn--green hero__btn" href="/signup">Start Now
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<div class='customers '>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12 grid__col--md-10 grid__col--md-offset-1 grid__col--lg-12 grid__col--lg-offset-0'>
+<h3 class='customers__heading'>
+Powering growth for
+<br class="u-visible-xxs-inline-block" />
+5,000+ Customers
+
+</h3>
+<ul class='customers__list'>
+<li class='customers__item'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/logos/lootcrate-27fa7ddcc6a464b1a6c9248caddf1534c37ae5e283c0bb4275fa9cd1467d6f57.webp, https://js.out.sh/assets/content/logos/lootcrate@2x-845bcb7fe04c2ab6507a83d87f259f6f654522cf066cf78196ec7856d5338777.webp 2x"><img class="customers__logo" alt="lootcrate logo" srcset="https://js.out.sh/assets/content/logos/lootcrate-567d41b48cb0dac68221c817d2959ec84e9ce3652274f05a21fd7bd455500dfc.png, https://js.out.sh/assets/content/logos/lootcrate@2x-e9b0798e116b9e5768095671b74a4442097d6294420606d9b4131750d03beec2.png 2x" src="https://js.out.sh/assets/content/logos/lootcrate-567d41b48cb0dac68221c817d2959ec84e9ce3652274f05a21fd7bd455500dfc.png" /></picture>
+</li>
+<li class='customers__item'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/logos/hubspot-fbbce65de66a3e212242e93db24ae4b74a88eaa08ea427b253a236b298ba484b.webp, https://js.out.sh/assets/content/logos/hubspot@2x-2e34fe3a4bef4768753c5f11c5b27b50640b40e71b9a603b9b00cc4d92c7eefb.webp 2x"><img class="customers__logo" alt="hubspot logo" srcset="https://js.out.sh/assets/content/logos/hubspot-fcb911b268eb013b166a649b1aaa8998c76d7f3cdbb124ab9576f7eab893b71e.png, https://js.out.sh/assets/content/logos/hubspot@2x-2e34fe3a4bef4768753c5f11c5b27b50640b40e71b9a603b9b00cc4d92c7eefb.png 2x" src="https://js.out.sh/assets/content/logos/hubspot-fcb911b268eb013b166a649b1aaa8998c76d7f3cdbb124ab9576f7eab893b71e.png" /></picture>
+</li>
+<li class='customers__item'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/logos/beardbrand-8ee66cee394c3bce86bb543be2dc74032ec6f20fe4273c2a9dd572f15dc1306d.webp, https://js.out.sh/assets/content/logos/beardbrand@2x-c8a8311c2f9d2079e972d54be454c1d59d93bbefdfa82718e91f07c7b645276d.webp 2x"><img class="customers__logo" alt="beardbrand logo" srcset="https://js.out.sh/assets/content/logos/beardbrand-bf28ba2b57a7b97b2bc3bd01be3341d4cb81ee78d918bd8fc44519f78acf85f5.png, https://js.out.sh/assets/content/logos/beardbrand@2x-c8a8311c2f9d2079e972d54be454c1d59d93bbefdfa82718e91f07c7b645276d.png 2x" src="https://js.out.sh/assets/content/logos/beardbrand-bf28ba2b57a7b97b2bc3bd01be3341d4cb81ee78d918bd8fc44519f78acf85f5.png" /></picture>
+</li>
+<li class='customers__item'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/logos/sitepoint-9e9bcb2933ccc24f84634978fced79001c66ae62138a7e5a46410a2ab84584f2.webp, https://js.out.sh/assets/content/logos/sitepoint@2x-099be70a7ad7249b478d3d41370e51357b8bc4fd01e317a0369afe012a23fe3a.webp 2x"><img class="customers__logo" alt="sitepoint logo" srcset="https://js.out.sh/assets/content/logos/sitepoint-2406c5617ddc62fc8f65015b993bbe39fc127c903e4973369826c1e208c5e841.png, https://js.out.sh/assets/content/logos/sitepoint@2x-099be70a7ad7249b478d3d41370e51357b8bc4fd01e317a0369afe012a23fe3a.png 2x" src="https://js.out.sh/assets/content/logos/sitepoint-2406c5617ddc62fc8f65015b993bbe39fc127c903e4973369826c1e208c5e841.png" /></picture>
+</li>
+<li class='customers__item'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/logos/fullscreen-4121818e26837f0e8f82ef64b22aebe00a5c2b84297aaa0cbf97dcc23032297f.webp, https://js.out.sh/assets/content/logos/fullscreen@2x-cdace89f0162a69fac65305e9235202f21962e1c2c954770baf8797f8e609bf9.webp 2x"><img class="customers__logo" alt="fullscreen logo" srcset="https://js.out.sh/assets/content/logos/fullscreen-4121818e26837f0e8f82ef64b22aebe00a5c2b84297aaa0cbf97dcc23032297f.png, https://js.out.sh/assets/content/logos/fullscreen@2x-cdace89f0162a69fac65305e9235202f21962e1c2c954770baf8797f8e609bf9.png 2x" src="https://js.out.sh/assets/content/logos/fullscreen-4121818e26837f0e8f82ef64b22aebe00a5c2b84297aaa0cbf97dcc23032297f.png" /></picture>
+</li>
+<li class='customers__item'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/logos/makeuseof-eb007edde129ba195174c8352caff65ff6a261dcd07ec9161756a474a2e47d7d.webp, https://js.out.sh/assets/content/logos/makeuseof@2x-1fbe2118f9011d5b180f83f3de09279584e076fb6f67d85afd3cb1bc90b3053d.webp 2x"><img class="customers__logo" alt="makeuseof logo" srcset="https://js.out.sh/assets/content/logos/makeuseof-199fc049a0978c20691dc570ed22a0549d18327d0882980bb93792d036a5701b.png, https://js.out.sh/assets/content/logos/makeuseof@2x-dcbe1566c94bf01e9d3d4e233939d072f32298554f1f3b449f582ab749c9fc38.png 2x" src="https://js.out.sh/assets/content/logos/makeuseof-199fc049a0978c20691dc570ed22a0549d18327d0882980bb93792d036a5701b.png" /></picture>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class='apps'>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12'>
+<h1 class='apps__heading'>
+Four Awesome Apps.
+<br class="u-visible-xxs-inline-block" />
+<strong>One Dashboard.</strong>
+
+</h1>
+<div class='js-apps-slider'>
+<ul class='apps__list js-apps'>
+<li class='grid__col--xs-12 grid__col--sm-6 grid__col--md-3 apps__item js-app-item is-active-app'>
+<div class='u-hidden-xs'>
+<a class="apps__link" data-turbolinks="false" href="/app/competitions"><img class="apps__icon" alt="App Icon" src="https://js.out.sh/assets/content/icons/competition-303b691a584762e4a7124ba820799b1df45057223fb76bba3ad5eb3f15e6e373.svg" />
+<h4 class='apps__type'>
+Run Competitions
+</h4>
+<p class='apps__description'>
+Add your prize, choose your actions. Embed on your site, all in under 3 minutes.
+</p>
+</a></div>
+<div class='u-visible-xs-block'>
+<img class="apps__icon" alt="App Icon" src="https://js.out.sh/assets/content/icons/competition-303b691a584762e4a7124ba820799b1df45057223fb76bba3ad5eb3f15e6e373.svg" />
+<h4 class='apps__type'>
+Run Competitions
+</h4>
+<p class='apps__description'>
+Add your prize, choose your actions. Embed on your site, all in under 3 minutes.
+</p>
+<a class="u-text-uppercase o-link o-link--green o-link--arrow apps__link" href="/app/competitions">Learn more
+<i class='u-inline-icon o-link__arrow'>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20"><path fill="#4edd9e" d="M4.038 11.362c-.573 0-1.038-.46-1.038-1.038 0-.573.46-1.038 1.038-1.038h9.698L9.22 4.768a1.034 1.034 0 0 1 .002-1.466 1.043 1.043 0 0 1 1.466-.002L17 9.615a.999.999 0 0 1 .177.236 1.043 1.043 0 0 1-.056 1.402l-6.314 6.315a1.034 1.034 0 0 1-1.466-.002A1.043 1.043 0 0 1 9.34 16.1l4.737-4.738H4.037z" fill-rule="evenodd"></path></svg>
+</i>
+
+</a></div>
+</li>
+<li class='grid__col--xs-12 grid__col--sm-6 grid__col--md-3 apps__item js-app-item'>
+<div class='u-hidden-xs'>
+<a class="apps__link" data-turbolinks="false" href="/app/rewards"><img class="apps__icon" alt="App Icon" src="https://js.out.sh/assets/content/icons/reward-b63fd414a5e3e88c255b2f0078af18666d09854b4d6525f0a50b54dc944e76e6.svg" />
+<h4 class='apps__type'>
+Instant Rewards
+</h4>
+<p class='apps__description'>
+Drive more sales, ask users to complete predefined actions to unlock an instant reward.
+</p>
+</a></div>
+<div class='u-visible-xs-block'>
+<img class="apps__icon" alt="App Icon" src="https://js.out.sh/assets/content/icons/reward-b63fd414a5e3e88c255b2f0078af18666d09854b4d6525f0a50b54dc944e76e6.svg" />
+<h4 class='apps__type'>
+Instant Rewards
+</h4>
+<p class='apps__description'>
+Drive more sales, ask users to complete predefined actions to unlock an instant reward.
+</p>
+<a class="u-text-uppercase o-link o-link--green o-link--arrow apps__link" href="/app/rewards">Learn more
+<i class='u-inline-icon o-link__arrow'>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20"><path fill="#4edd9e" d="M4.038 11.362c-.573 0-1.038-.46-1.038-1.038 0-.573.46-1.038 1.038-1.038h9.698L9.22 4.768a1.034 1.034 0 0 1 .002-1.466 1.043 1.043 0 0 1 1.466-.002L17 9.615a.999.999 0 0 1 .177.236 1.043 1.043 0 0 1-.056 1.402l-6.314 6.315a1.034 1.034 0 0 1-1.466-.002A1.043 1.043 0 0 1 9.34 16.1l4.737-4.738H4.037z" fill-rule="evenodd"></path></svg>
+</i>
+
+</a></div>
+</li>
+<span class='u-clearfix u-visible-sm-block'></span>
+<li class='grid__col--xs-12 grid__col--sm-6 grid__col--md-3 apps__item js-app-item'>
+<div class='u-hidden-xs'>
+<a class="apps__link" data-turbolinks="false" href="/app/gallery"><img class="apps__icon" alt="App Icon" src="https://js.out.sh/assets/content/icons/gallery-09098e424bbf3c7b94975aef796c546cc40279566d6957868884ed68e984e7f6.svg" />
+<h4 class='apps__type'>
+Social Galleries
+</h4>
+<p class='apps__description'>
+Build beautiful, responsive user driven content and photo galleries in minutes.
+</p>
+</a></div>
+<div class='u-visible-xs-block'>
+<img class="apps__icon" alt="App Icon" src="https://js.out.sh/assets/content/icons/gallery-09098e424bbf3c7b94975aef796c546cc40279566d6957868884ed68e984e7f6.svg" />
+<h4 class='apps__type'>
+Social Galleries
+</h4>
+<p class='apps__description'>
+Build beautiful, responsive user driven content and photo galleries in minutes.
+</p>
+<a class="u-text-uppercase o-link o-link--green o-link--arrow apps__link" href="/app/gallery">Learn more
+<i class='u-inline-icon o-link__arrow'>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20"><path fill="#4edd9e" d="M4.038 11.362c-.573 0-1.038-.46-1.038-1.038 0-.573.46-1.038 1.038-1.038h9.698L9.22 4.768a1.034 1.034 0 0 1 .002-1.466 1.043 1.043 0 0 1 1.466-.002L17 9.615a.999.999 0 0 1 .177.236 1.043 1.043 0 0 1-.056 1.402l-6.314 6.315a1.034 1.034 0 0 1-1.466-.002A1.043 1.043 0 0 1 9.34 16.1l4.737-4.738H4.037z" fill-rule="evenodd"></path></svg>
+</i>
+
+</a></div>
+</li>
+<li class='grid__col--xs-12 grid__col--sm-6 grid__col--md-3 apps__item js-app-item'>
+<div class='u-hidden-xs'>
+<a class="apps__link" data-turbolinks="false" href="/app/capture"><img class="apps__icon" alt="App Icon" src="https://js.out.sh/assets/content/icons/capture-bca3dcb8bd39412a55c17ff81199bb673f1449573c9a477641b19f3834ef488f.svg" />
+<h4 class='apps__type'>
+Email Capture
+</h4>
+<p class='apps__description'>
+Rules based email capture forms that integrate directly with your email provider.
+</p>
+</a></div>
+<div class='u-visible-xs-block'>
+<img class="apps__icon" alt="App Icon" src="https://js.out.sh/assets/content/icons/capture-bca3dcb8bd39412a55c17ff81199bb673f1449573c9a477641b19f3834ef488f.svg" />
+<h4 class='apps__type'>
+Email Capture
+</h4>
+<p class='apps__description'>
+Rules based email capture forms that integrate directly with your email provider.
+</p>
+<a class="u-text-uppercase o-link o-link--green o-link--arrow apps__link" href="/app/capture">Learn more
+<i class='u-inline-icon o-link__arrow'>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20"><path fill="#4edd9e" d="M4.038 11.362c-.573 0-1.038-.46-1.038-1.038 0-.573.46-1.038 1.038-1.038h9.698L9.22 4.768a1.034 1.034 0 0 1 .002-1.466 1.043 1.043 0 0 1 1.466-.002L17 9.615a.999.999 0 0 1 .177.236 1.043 1.043 0 0 1-.056 1.402l-6.314 6.315a1.034 1.034 0 0 1-1.466-.002A1.043 1.043 0 0 1 9.34 16.1l4.737-4.738H4.037z" fill-rule="evenodd"></path></svg>
+</i>
+
+</a></div>
+</li>
+</ul>
+<ul class='apps__nav'>
+<li class='apps__bullet is-active js-app-bullet'></li>
+<li class='apps__bullet js-app-bullet'></li>
+<li class='apps__bullet js-app-bullet'></li>
+<li class='apps__bullet js-app-bullet'></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='app app--competition app--dark'>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12 grid__col--sm-10 grid__col--sm-offset-1 grid__col--md-6 grid__col--md-offset-0 grid__col--md-push-6'>
+<div class='app__content'>
+<div class='app__content-inner'>
+<h1 class='app__heading'>
+Run Competitions
+</h1>
+<p class='app__description'>
+Build powerful competitions and sweepstakes for your business or clients. Our huge range of action combinations, integrations and widget features help you build a wide variety of campaigns.
+
+</p>
+<button class='app__btn js-competition-example-popup o-btn o-btn--black' data-example-url='https://gleam.io/iR0GQ/run-competitions'>
+See Example
+</button>
+<a class="o-btn o-btn--green app__btn" href="/app/competitions">Learn More
+</a></div>
+</div>
+</div>
+<div class='grid__col--xs-12 grid__col--md-6 grid__col--md-pull-6 app__img-columns js-app-competition'>
+<div class='app__img-container'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/widget-competition-d3c1e272a5876085616b371c9a7f5a7c3da5b010426a413e12e33bb3029c1e59.webp, https://js.out.sh/assets/content/homepage/widget-competition@2x-1626a0bdb626aa11ee667361694d3c6535eeeeacd8c2073250e313f03aba6eb7.webp 2x"><img class="app__img app__img--left" srcset="https://js.out.sh/assets/content/homepage/widget-competition-81482ede2d0514bc6b98e3f43016f55ca4c95e260be4126bf32e89a65675d739.png, https://js.out.sh/assets/content/homepage/widget-competition@2x-6b17af7556af53dec6d2445714e66ac7b352e26851f817aaef9df08db5665d54.png 2x" src="https://js.out.sh/assets/content/homepage/widget-competition-81482ede2d0514bc6b98e3f43016f55ca4c95e260be4126bf32e89a65675d739.png" /></picture>
+<div class='app-competition-entry js-app-competition-entry'>
+<div class='app-competition-entry__type'></div>
+<div class='app-competition-entry__text'>
+Visit
+<a class="o-link o-link--green u-text-underline" target="_blank" href="https://facebook.com/Gleamapp/">Gleam</a>
+on Facebook
+</div>
+<span class='app-competition-entry__check js-app-competition-check is-app-competition-plus'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='section section--integrations section--auto-height js-section ' id=''>
+<div class='grid grid--fluid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12 grid__col--sm-10 grid__col--sm-offset-1 grid__col--md-8 grid__col--md-offset-2 section__content-columns section__content-columns--centered'>
+<div class='section__content'>
+<div class='section__content-inner'>
+<h1 class='section__heading'>
+Over 100+ Integrations
+</h1>
+<h2 class='section__description'>
+Integrate with all the marketing & social apps you use everyday.
+
+</h2>
+</div>
+</div>
+</div>
+<div class='grid__col--xs-12 section__img-columns section__img-columns--centered'>
+<div class='section__img'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/shared/integrations-6b3143b069d9fdcfbd09b2ca0a12e0e369f93aa180b8658d14bdf06ae082cc2c.webp, https://js.out.sh/assets/content/shared/integrations@2x-376a5e761aed00199367af69b94c67f73b50796bc8d9cd229948045e99611438.webp 2x"><img width="958" height="126" class="" srcset="https://js.out.sh/assets/content/shared/integrations-df03651559af58490bc7ee1bd80dae62c98ab6728a7a5dc82c7df5c03713489c.png, https://js.out.sh/assets/content/shared/integrations@2x-5a651e15d3fbfba7d06a5c7234c75d4c763d1d4d39959abe00e5d61fbed1695d.png 2x" src="https://js.out.sh/assets/content/shared/integrations-df03651559af58490bc7ee1bd80dae62c98ab6728a7a5dc82c7df5c03713489c.png" /></picture>
+</div>
+<div class='section-integrations'>
+<ul class='section-integrations__list'>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/amazon' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/amazon-hero-b04deb02c6e1337ea337e005fc084cdaff91b63a40864e3214e03b73995a0f39.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Amazon
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/twitter' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/twitter-hero-95e42bba5bd316ddb37dddeb76ec5cbfe2f0ac20fb179e3a9e8e5667e9739466.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Twitter
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/app/capture/mailchimp' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/mailchimp-hero-61288aee3f38fe2be17ba7c420cddf45d8ab63ad30d205b2a26cf55751f02700.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Mailchimp
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/youtube' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/youtube-hero-38342bb484fb46ca58a77983e2060b6da652eb973e599d8582ac9d55d3fa73ba.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+YouTube
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/docs/integrations/bitly' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/bitly-hero-bd81207d41a3a4527080056584be881cd8b299571af084da59ee65f538b74035.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Bitly
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/facebook' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/facebook-hero-0a8d52c0be504da466af70a8324a79d242aaf5cdbabfa6b31ebc412a1fc4f960.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Facebook
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/crowd' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/kickstarter-hero-61448218d6714effbd7ad9db821d45db5fa750eb329aefedb295e8b2f1bfdca9.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Kickstarter
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='https://apps.shopify.com/gleam' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/shopify-hero-dbdf2985fd15859778dc9450d76a6bd2a5fc549b28268e419660af030a8f8ddf.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Shopify
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/instagram' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/instagram-hero-633338f568428a410cd30f9acd308e1ba2893390e094ebca1c477a5c0f384fde.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Instagram
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/app/capture/salesforce' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/salesforce-hero-2002c9524b7506870e3f8d3c55a4fb374fe508f42cc3fa36f4a37e38a9a771e6.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Salesforce
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/docs/actions/product-hunt' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/product-hunt-hero-a4bece1cb90c3f3b0d7d6ea9646e84c33b1709617f6aa845c2a60e276e889e77.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Product Hunt
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/twitch' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/twitch-hero-36283b4a1a54355ae296d3ef145da257fd634dc063e20c4cc4e2de32a18b4a5b.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Twitch
+</div>
+</div>
+</li>
+<li class='section-integrations__item o-popover-parent js-integration-item'>
+<a class='section-integrations__item-trigger' href='/docs/actions/spotify' style='background-image: url(&#39;https://js.out.sh/assets/content/integration/spotify-hero-09084ac9833bb82600afcbf89509c36fcd2a3c27719cb375d8378a9e6912d6db.svg&#39;)'></a>
+<div class='o-popover o-popover--dark o-popover--tip js-popover' data-popover-on-hover='true' data-popover-position='top'>
+<div class='o-popover__inner'>
+Spotify
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class='grid__col--xs-12 grid__col--sm-10 grid__col--sm-offset-1 grid__col--md-8 grid__col--md-offset-2 section__content-columns section__content-columns--centered'>
+<a class="o-btn o-btn--green section__btn " href="https://gleam.io/integrations/competitions">View integrations
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class='app app--light app--reward'>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12 grid__col--sm-10 grid__col--sm-offset-1 grid__col--md-6 grid__col--md-offset-0'>
+<div class='app__content'>
+<div class='app__content-inner'>
+<h1 class='app__heading'>
+Instant Redeem Rewards
+</h1>
+<p class='app__description'>
+Easily craft instantly redeemable rewards in exchange for
+actions from your users. Perfect for coupons, game keys, content upgrades, music or downloads.
+
+</p>
+<button class='app__btn js-competition-example-popup o-btn o-btn--bordered-gray' data-example-url='https://gleam.io/phdQ8/isntant-redeem-rewards'>
+See Example
+</button>
+<a class="o-btn o-btn--green app__btn" href="/app/rewards">Learn More
+</a></div>
+</div>
+</div>
+<div class='grid__col--xs-12 grid__col--md-6 app__img-columns js-app-reward'>
+<div class='app__img-container'>
+<div class='app-reward-widget'>
+<div class='app-reward-widget__header'></div>
+<div class='app-reward-widget__photo-container js-app-reward-widget is-reward-widget-item-1'>
+<div class='js-app-reward-widget-item'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/rewards/app-download-aad6b88d6d503c4c53568cf0aaf5eeb0aed8b9174052b4ba7c16fe0b3a98af48.webp, https://js.out.sh/assets/content/homepage/rewards/app-download@2x-f87e8fd2fab232d5c9177732426bcae45909dda92983669ba63b1b55068b7310.webp 2x"><img class="app-reward-widget__photo app-reward-widget__photo--app-download" alt="App download" srcset="https://js.out.sh/assets/content/homepage/rewards/app-download-c90249ab05d44934390dd2860efba914230dcf8e7e2d1c8b03db25d0d683ba60.png, https://js.out.sh/assets/content/homepage/rewards/app-download@2x-d9d04fdd480c161b1521d4bae3598b01508659ca318fe5bc8c0f401a54eb4c5c.png 2x" src="https://js.out.sh/assets/content/homepage/rewards/app-download-c90249ab05d44934390dd2860efba914230dcf8e7e2d1c8b03db25d0d683ba60.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/rewards/ribbon--app-download-d82ee0aba79a56c5b2c8233e0f8120cbc8d53dd1e021bff243aad5b41dd61585.webp, https://js.out.sh/assets/content/homepage/rewards/ribbon--app-download@2x-5f77f52ca37e6b6af8d36b3b02f65ba02d2ed8dc14dfe0b38d738174b2486802.webp 2x"><img width="177" height="55" class="app-reward-widget__ribbon app-reward-widget__ribbon--app-download js-app-reward-ribbon" alt="App download" srcset="https://js.out.sh/assets/content/homepage/rewards/ribbon--app-download-721ca9bb55b70ee56f968cef7f7430a591586f54dff63f979214a30adb0fbc3d.png, https://js.out.sh/assets/content/homepage/rewards/ribbon--app-download@2x-c072ab9cda0eab42efea4a57b82b89087aa91c3fba8d0980db20f7c65b57bec1.png 2x" src="https://js.out.sh/assets/content/homepage/rewards/ribbon--app-download-721ca9bb55b70ee56f968cef7f7430a591586f54dff63f979214a30adb0fbc3d.png" /></picture>
+</div>
+<div class='js-app-reward-widget-item'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/rewards/game-key-cc277b646e6a5a3848c56dcbdd19d5184db27f42e25f9b3235debb7b5ca4a286.webp, https://js.out.sh/assets/content/homepage/rewards/game-key@2x-7b96218bf023e16556a0261214b41cf2674abbd355453086514f71cc736feb0d.webp 2x"><img class="app-reward-widget__photo app-reward-widget__photo--game-key" alt="Game Key" srcset="https://js.out.sh/assets/content/homepage/rewards/game-key-c904173d500d474a87bee5648f64a410f26ca6ba88cec05bf98095a78a1f730d.png, https://js.out.sh/assets/content/homepage/rewards/game-key@2x-b850e0b17c1d38c51afda791dd02d298aa645d8c8013af7b051532fa1f124d2a.png 2x" src="https://js.out.sh/assets/content/homepage/rewards/game-key-c904173d500d474a87bee5648f64a410f26ca6ba88cec05bf98095a78a1f730d.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/rewards/ribbon--game-key-362d231de2525fa8063595720da17547fce0cbf413f69085a0f428721888d978.webp, https://js.out.sh/assets/content/homepage/rewards/ribbon--game-key@2x-b352838ff3f8c253e0785d6d938bb9e26e16ddc516ef74d7d3caaf1c8ed24f95.webp 2x"><img width="194" height="55" class="app-reward-widget__ribbon app-reward-widget__ribbon--game-key js-app-reward-ribbon" alt="Game key unlock" srcset="https://js.out.sh/assets/content/homepage/rewards/ribbon--game-key-3008cafe86c93f2fcc12b1c33297cb88fb02e1a7ac4bbf4fcb01a7fb4ec6bce2.png, https://js.out.sh/assets/content/homepage/rewards/ribbon--game-key@2x-a384f96aecdbcfcb7e5d25ac13c7f9747d878ef7fda333b89898de5472403b00.png 2x" src="https://js.out.sh/assets/content/homepage/rewards/ribbon--game-key-3008cafe86c93f2fcc12b1c33297cb88fb02e1a7ac4bbf4fcb01a7fb4ec6bce2.png" /></picture>
+</div>
+<div class='js-app-reward-widget-item'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/rewards/off-everything-ecb852d3e5b3011a0a59bc2dd7b49819718c7ecb4e3de438e07414f8fd19808a.webp, https://js.out.sh/assets/content/homepage/rewards/off-everything@2x-300908f65457e7b1295526ead73d46c31be32891ebcc1d5ee78ea2a25b38896f.webp 2x"><img class="app-reward-widget__photo app-reward-widget__photo--off-everything" alt="Example prizes" srcset="https://js.out.sh/assets/content/homepage/rewards/off-everything-aada2e28b7b051cafaa3091ca27821124c2f94919202f81c7fba21290e8eede8.png, https://js.out.sh/assets/content/homepage/rewards/off-everything@2x-0fa6464018cebd2053f1e7f1878df4838a3b5d88227fc809ade675d751bcf85b.png 2x" src="https://js.out.sh/assets/content/homepage/rewards/off-everything-aada2e28b7b051cafaa3091ca27821124c2f94919202f81c7fba21290e8eede8.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/rewards/ribbon--off-everything-5bce635ed47f72027e490fd519a381776fdb34b92b8f277bdcffb0981e1827fd.webp, https://js.out.sh/assets/content/homepage/rewards/ribbon--off-everything@2x-c3caf3080ad9aeb8ad7358c24892d545f742e9fd65777c9839a3ee11b0cda6f5.webp 2x"><img width="212" height="55" class="app-reward-widget__ribbon app-reward-widget__ribbon--off-everything js-app-reward-ribbon" alt="10% off everything" srcset="https://js.out.sh/assets/content/homepage/rewards/ribbon--off-everything-92aa605f11482e74a95b27c0b8788307a4cb5630baf45dc472445f4caacab5df.png, https://js.out.sh/assets/content/homepage/rewards/ribbon--off-everything@2x-864a4258f9596d9d20cdf73eed7130cfc707678c0a459ab6455b9bfa59497dab.png 2x" src="https://js.out.sh/assets/content/homepage/rewards/ribbon--off-everything-92aa605f11482e74a95b27c0b8788307a4cb5630baf45dc472445f4caacab5df.png" /></picture>
+</div>
+<div class='js-app-reward-widget-item'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/rewards/discover-hidden-post-d13cad62d9c8dc6aecaa4e930f86c0f04ca61c05714b95fa6190cadc5f8feb3b.webp, https://js.out.sh/assets/content/homepage/rewards/discover-hidden-post@2x-2a92213a5bfeb91820b3de46f6ec0459b23673ce28c96077a0dcbc3255a2e76e.webp 2x"><img class="app-reward-widget__photo app-reward-widget__photo--discover-hidden-post" alt="Hidden post" srcset="https://js.out.sh/assets/content/homepage/rewards/discover-hidden-post-1d9e93ef7903b06b8a9568120fe10767c9789ab4e6f08fb5ec1db5fd9308e460.png, https://js.out.sh/assets/content/homepage/rewards/discover-hidden-post@2x-f52f81e84ed550869f692acc5e30d4cd8700b40f7723b5eaa9dcfa03554012f2.png 2x" src="https://js.out.sh/assets/content/homepage/rewards/discover-hidden-post-1d9e93ef7903b06b8a9568120fe10767c9789ab4e6f08fb5ec1db5fd9308e460.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/rewards/ribbon--discover-hidden-post-da88d5de6b16c125b06106be8392ae02f9a5d96c0066a7e87041d00c0a88200a.webp, https://js.out.sh/assets/content/homepage/rewards/ribbon--discover-hidden-post@2x-401952b5b16f92f4ed79a796a29bcc1d07539b2f77088cb8349e62e696cc7ea6.webp 2x"><img width="230" height="55" class="app-reward-widget__ribbon app-reward-widget__ribbon--discover-hidden-post js-app-reward-ribbon" alt="Discover hidden post" srcset="https://js.out.sh/assets/content/homepage/rewards/ribbon--discover-hidden-post-a7d8a8e1e697708ac53c9b4c39cecd6bd5f24e63833dfb68cbc17d0e2b8645b8.png, https://js.out.sh/assets/content/homepage/rewards/ribbon--discover-hidden-post@2x-3ff45b80f8f69ac390c39814e9cfbf0defd30bb4c98180a84bd73ea382123516.png 2x" src="https://js.out.sh/assets/content/homepage/rewards/ribbon--discover-hidden-post-a7d8a8e1e697708ac53c9b4c39cecd6bd5f24e63833dfb68cbc17d0e2b8645b8.png" /></picture>
+</div>
+</div>
+<div class='app-reward-widget__description'></div>
+<ul class='app-reward-widget__list'>
+<li class='app-reward-widget__item app-reward-widget__item--instagram'>
+<span class='app-reward-widget__question-mark'></span>
+</li>
+<li class='app-reward-widget__item app-reward-widget__item--snapchat'>
+<span class='app-reward-widget__question-mark'></span>
+</li>
+<li class='app-reward-widget__item app-reward-widget__item--disqus'>
+<span class='app-reward-widget__question-mark'></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='gallery'>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12'>
+<h1 class='gallery__heading'>
+Social Galleries
+</h1>
+<h2 class='gallery__subheading'>
+Import, curate and display content from social networks or run engaging photo competitions with our beautiful Gallery app.
+
+</h2>
+<a data-turbolinks="false" class="o-btn o-btn--bordered-gray gallery__btn" href="https://gleam.io/g/i2CQG">See Example
+</a><a data-turbolinks="false" class="o-btn o-btn--green gallery__btn" href="/app/gallery">Learn More
+</a><div class='gallery__content js-app-gallery'>
+<div class='gallery__content-inner'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--1-e30b130822d643c51290059383bc94a8a618257275c0e8af50092a0a6ef817ea.webp, https://js.out.sh/assets/content/homepage/galleries/gallery--1@2x-272f3f61d13dd8703ce13ceb8a9307448a8cef48c49b5decf35c99d3834a5b88.webp 2x"><img class="gallery__item gallery__item--1 js-app-gallery-item " alt="Example Gallery Item" width="258" height="326" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--1-a7374e250583c401cf8f8f632faf51cba5c07f289d89668308612af60cfab76a.png, https://js.out.sh/assets/content/homepage/galleries/gallery--1@2x-98611f6464ba60ad9d41e8ff6cc6c49fd4e257698c154520099964149e4960ec.png 2x" src="https://js.out.sh/assets/content/homepage/galleries/gallery--1-a7374e250583c401cf8f8f632faf51cba5c07f289d89668308612af60cfab76a.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--2-58e2636ef0b3d94f7742b2373ebe1b9b0446234cfcc5aea223906e08408e1036.webp, https://js.out.sh/assets/content/homepage/galleries/gallery--2@2x-247e88e08c8696e1b72b64d6b318dfb64aec2bd0b1e94e6a0fd493b129a4a0a0.webp 2x"><img class="gallery__item gallery__item--2 js-app-gallery-item " alt="Example Gallery Item" width="258" height="326" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--2-edcddc986dabd846c0160ad7ec93ac208bd9df5251baea368dea19608d958a41.png, https://js.out.sh/assets/content/homepage/galleries/gallery--2@2x-6222b24e04c6a6e627d6dac480990bf9c06f19ae39da7d73fe395ae979a2b0f3.png 2x" src="https://js.out.sh/assets/content/homepage/galleries/gallery--2-edcddc986dabd846c0160ad7ec93ac208bd9df5251baea368dea19608d958a41.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--3-7d7cc768399d95650d72bbde1f8bb3f0a1ae57a5b1b6df45440774025e3de5d1.webp, https://js.out.sh/assets/content/homepage/galleries/gallery--3@2x-e21eb44f5e4505ed7d806eca7ca765572877910ddd099b1095130d572dee1c0f.webp 2x"><img class="gallery__item gallery__item--3 js-app-gallery-item " alt="Example Gallery Item" width="258" height="326" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--3-85fd84c276dab5b13cacb3ec293528566cc10ad4a733c3f11e7ff266cec3bec1.png, https://js.out.sh/assets/content/homepage/galleries/gallery--3@2x-900a2fd182acb23fe90a955bf7db06716bedb270c5543d1c2f5d9f0477b09fa2.png 2x" src="https://js.out.sh/assets/content/homepage/galleries/gallery--3-85fd84c276dab5b13cacb3ec293528566cc10ad4a733c3f11e7ff266cec3bec1.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--4-f21b86a9421542bf7b3083c1580b387ae2ff66cc9fea87d256dd027f969d5028.webp, https://js.out.sh/assets/content/homepage/galleries/gallery--4@2x-3609c6acb9c0f5220acca828bcda8e3be9c2313cfc326a21ebcd2035763cd27a.webp 2x"><img class="gallery__item gallery__item--4 js-app-gallery-item " alt="Example Gallery Item" width="258" height="326" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--4-de2b0d987d60d1e803d2aa70d6ec032ce3d173018f3003d6cd9151c61b0612f2.png, https://js.out.sh/assets/content/homepage/galleries/gallery--4@2x-6a3c0ca98459330bb683a5544de3b4a5340c50c4c8aa60fcd2a7c01954f0b0e3.png 2x" src="https://js.out.sh/assets/content/homepage/galleries/gallery--4-de2b0d987d60d1e803d2aa70d6ec032ce3d173018f3003d6cd9151c61b0612f2.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--5-4dd6cd4826b19dffe11706a0feb1b4f949e240b953c86b3d06f976b5d12c863e.webp, https://js.out.sh/assets/content/homepage/galleries/gallery--5@2x-501854a6a6eca1d338995b52b0ec02c1069ee0d02da8aa1134499d4c3e8d380d.webp 2x"><img class="gallery__item gallery__item--5 js-app-gallery-item " alt="Example Gallery Item" width="258" height="326" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--5-f549e0c73c70eaa62b1b3f53d4f15bc3b0c81ceb3906ee66bb150de763324ebf.png, https://js.out.sh/assets/content/homepage/galleries/gallery--5@2x-4b8b8eef94631dd183219688cd5faf74608e8763079fec4371e2f8b8699bd3c8.png 2x" src="https://js.out.sh/assets/content/homepage/galleries/gallery--5-f549e0c73c70eaa62b1b3f53d4f15bc3b0c81ceb3906ee66bb150de763324ebf.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--6-9755db9e75fc97e5bbab828aaffec5796eed987244d6fb818092c7df58c6ce7f.webp, https://js.out.sh/assets/content/homepage/galleries/gallery--6@2x-db772ee619478ebd33b889197c8f12a505fe7673be0e55ef050a4e3505fdaacf.webp 2x"><img class="gallery__item gallery__item--6 js-app-gallery-item hidden-xs" alt="Example Gallery Item" width="258" height="326" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--6-e1dbdbe5e754cc371965040885f02fb2597a67e718037ab739a4c1fe31aae2ba.png, https://js.out.sh/assets/content/homepage/galleries/gallery--6@2x-79f5de3379ae94aeb7965d0a233f9a62b1e159e9ef6911c22a2bae8951ce12d7.png 2x" src="https://js.out.sh/assets/content/homepage/galleries/gallery--6-e1dbdbe5e754cc371965040885f02fb2597a67e718037ab739a4c1fe31aae2ba.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--7-344dd471c620cf0ac95c0f874302f0057adc45df0c9772c21bf5e2d88559ca4f.webp, https://js.out.sh/assets/content/homepage/galleries/gallery--7@2x-6aa49fe433c46cd07b2e3433e9bb78eb34db12ec32548f0309f572883c9136c4.webp 2x"><img class="gallery__item gallery__item--7 js-app-gallery-item hidden-xs" alt="Example Gallery Item" width="258" height="326" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--7-1a32db93dbc6be0f79c5e19eebaf99a67e519d7e4879d0b5ef772cf1c86d6b9c.png, https://js.out.sh/assets/content/homepage/galleries/gallery--7@2x-f84e8762b594b68de6854d214c688b70ba643426e3c6d76d93f264a4ffff98ba.png 2x" src="https://js.out.sh/assets/content/homepage/galleries/gallery--7-1a32db93dbc6be0f79c5e19eebaf99a67e519d7e4879d0b5ef772cf1c86d6b9c.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--8-c54603a7567f89083abe8ee5001a0f10550c17293cb9290a57bc3e9dd835bd8f.webp, https://js.out.sh/assets/content/homepage/galleries/gallery--8@2x-5c44e3a825a4480c17f7562f0d091406e3082698d4aca453ff313f09c3b3ac28.webp 2x"><img class="gallery__item gallery__item--8 js-app-gallery-item hidden-xs" alt="Example Gallery Item" width="258" height="326" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--8-16f3d5658fe425c7a4253e2cdf2cdcaa9d172c92d0e1e1e184750bb94e879a9a.png, https://js.out.sh/assets/content/homepage/galleries/gallery--8@2x-9d4f73667934239596dbd20ee582df30e441f30b560d46834b37a90c2deaf660.png 2x" src="https://js.out.sh/assets/content/homepage/galleries/gallery--8-16f3d5658fe425c7a4253e2cdf2cdcaa9d172c92d0e1e1e184750bb94e879a9a.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--9-82086a084d64a2663b94ba1d4049252f941aed5e3a7dd0452c42ed7497ebc828.webp, https://js.out.sh/assets/content/homepage/galleries/gallery--9@2x-242881fc9d63b9c853e5cd4a78c76797269876bbeaf9b6c27bed3dc170db498e.webp 2x"><img class="gallery__item gallery__item--9 js-app-gallery-item hidden-xs" alt="Example Gallery Item" width="258" height="326" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--9-c54791468910716b43358e4e324d7f840b8cdf1d81d882043db0a2c24005f2a2.png, https://js.out.sh/assets/content/homepage/galleries/gallery--9@2x-c9a66820c7a5d9b777a3dbbf75c16df87ad5ba2841e371d1961388b7fa40b4f3.png 2x" src="https://js.out.sh/assets/content/homepage/galleries/gallery--9-c54791468910716b43358e4e324d7f840b8cdf1d81d882043db0a2c24005f2a2.png" /></picture>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--10-341da7fcf40b15dcdda6442745cce1de4d35826b1ff5411c0a1a8ded545b3069.webp, https://js.out.sh/assets/content/homepage/galleries/gallery--10@2x-c3e023179b8c36e5777ecd3375e93d3e2b1e6003706ecc40ed2fe395b6fcec58.webp 2x"><img class="gallery__item gallery__item--10 js-app-gallery-item hidden-xs" alt="Example Gallery Item" width="258" height="326" srcset="https://js.out.sh/assets/content/homepage/galleries/gallery--10-489f594f0e53ba9f8fa1271c8f5e46a89395bbd0505d1f65a85ce4cbdca275c3.png, https://js.out.sh/assets/content/homepage/galleries/gallery--10@2x-f7acad440a1a8d76bce81a7c05f1f17534e619bd771811e1a7647efb2789aa49.png 2x" src="https://js.out.sh/assets/content/homepage/galleries/gallery--10-489f594f0e53ba9f8fa1271c8f5e46a89395bbd0505d1f65a85ce4cbdca275c3.png" /></picture>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='counter'>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12'>
+<h1 class='counter__heading'>
+<strong class="u-text-green">Billions</strong>
+of Actions
+<br class="u-visible-xxs-inline-block" />
+& Counting
+
+</h1>
+<h2 class='counter__subheading'>
+The average Gleam campaign drives 1.2 actions completed for every unique impression.
+
+</h2>
+<div class='counter__digits'>
+<span class='counter__digit'>
+<span class='counter__value'>2</span>
+<span class='counter__divider'></span>
+</span>
+<span class='counter__comma'>,</span>
+<span class='counter__digit'>
+<span class='counter__value'>8</span>
+<span class='counter__divider'></span>
+</span>
+<span class='counter__digit'>
+<span class='counter__value'>2</span>
+<span class='counter__divider'></span>
+</span>
+<span class='counter__digit'>
+<span class='counter__value'>8</span>
+<span class='counter__divider'></span>
+</span>
+<span class='counter__comma'>,</span>
+<span class='counter__digit'>
+<span class='counter__value'>8</span>
+<span class='counter__divider'></span>
+</span>
+<span class='counter__digit'>
+<span class='counter__value'>5</span>
+<span class='counter__divider'></span>
+</span>
+<span class='counter__digit'>
+<span class='counter__value'>8</span>
+<span class='counter__divider'></span>
+</span>
+<span class='counter__comma'>,</span>
+<span class='counter__digit'>
+<span class='counter__value'>6</span>
+<span class='counter__divider'></span>
+</span>
+<span class='counter__digit'>
+<span class='counter__value'>5</span>
+<span class='counter__divider'></span>
+</span>
+<span class='counter__digit'>
+<span class='counter__value'>0</span>
+<span class='counter__divider'></span>
+</span>
+</div>
+<a class="u-text-uppercase o-link o-link--green counter__more" href="/success">Check Out Our Case Studies
+<i class='u-inline-icon counter__arrow'>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20"><path fill="#4edd9e" d="M4.038 11.362c-.573 0-1.038-.46-1.038-1.038 0-.573.46-1.038 1.038-1.038h9.698L9.22 4.768a1.034 1.034 0 0 1 .002-1.466 1.043 1.043 0 0 1 1.466-.002L17 9.615a.999.999 0 0 1 .177.236 1.043 1.043 0 0 1-.056 1.402l-6.314 6.315a1.034 1.034 0 0 1-1.466-.002A1.043 1.043 0 0 1 9.34 16.1l4.737-4.738H4.037z" fill-rule="evenodd"></path></svg>
+</i>
+
+</a></div>
+</div>
+</div>
+</div>
+
+<div class='app app--capture app--dark'>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12 grid__col--sm-10 grid__col--sm-offset-1 grid__col--md-6 grid__col--md-offset-0 grid__col--md-push-6'>
+<div class='app__content'>
+<div class='app__content-inner'>
+<h1 class='app__heading'>
+Email Capture
+</h1>
+<p class='app__description'>
+The smartest way to build your email list. Show targeted message or opt-in forms to the right person at the right time and sync them directly with your email provider.
+
+</p>
+<button class='app__btn js-competition-example-popup o-btn o-btn--black' onclick='_app.popup(&#39;VPB5u&#39;)'>
+View Example
+</button>
+<a class="o-btn o-btn--green app__btn" href="/app/capture">Learn More
+</a></div>
+</div>
+</div>
+<div class='grid__col--xs-12 grid__col--md-6 grid__col--md-pull-6 app__img-columns js-app-capture'>
+<div class='app__img-container'>
+<div class='app-capture-modal js-capture-modal'>
+<div class='app-capture-modal__photo lazy'></div>
+<div class='app-capture-modal__info'>
+<div class='app-capture-modal__step app-capture-modal__step--1 js-capture-modal-step-1'>
+<h3 class='app-capture-modal__heading'>
+Subscribe newsletter
+</h3>
+<p class='app-capture-modal__description'>
+Subscribe to our newsletter
+<br>
+and get 10 % discount!
+</p>
+<label class='app-capture-modal__label u-screenreader' for='capture-component-name'>Name</label>
+<input class='app-capture-modal__input js-capture-modal-name' id='capture-component-name' placeholder='Full name'>
+<label class='app-capture-modal__label u-screenreader' for='capture-component-email'>Email</label>
+<input class='app-capture-modal__input js-capture-modal-email' id='capture-component-email' placeholder='Email'>
+<button class='app-capture-modal__action js-capture-modal-action'>
+Subscribe
+</button>
+<button class='app-capture-modal__cancel'>
+No, thanks
+</button>
+</div>
+<div class='app-capture-modal__step app-capture-modal__step--2 js-capture-modal-step-2'>
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/homepage/captures/check-mark-643333350f84050f873bb4770c427b00af418d5f717409e1307478306ee627dc.webp, https://js.out.sh/assets/content/homepage/captures/check-mark@2x-8757648684cec36095028926db284803a9bc7c02cc1d1edd71cd853e396d1454.webp 2x"><img width="40" height="40" class="app-capture-modal__img js-capture-modal-img" alt="Check mark" srcset="https://js.out.sh/assets/content/homepage/captures/check-mark-643333350f84050f873bb4770c427b00af418d5f717409e1307478306ee627dc.png, https://js.out.sh/assets/content/homepage/captures/check-mark@2x-8757648684cec36095028926db284803a9bc7c02cc1d1edd71cd853e396d1454.png 2x" src="https://js.out.sh/assets/content/homepage/captures/check-mark-643333350f84050f873bb4770c427b00af418d5f717409e1307478306ee627dc.png" /></picture>
+<h3 class='app-capture-modal__heading js-capture-modal-heading-2'>
+Subscribed
+</h3>
+<p class='app-capture-modal__description js-capture-modal-description-2'>
+Check your email address to retrieve the 10% discount!
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='testimonials '>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12'>
+<h1 class='testimonials__heading'>
+What Our Customers Are Saying
+</h1>
+</div>
+<div class='grid__col--xxs-12 grid__col--xs-10 grid__col--xs-offset-1 grid__col--sm-8 grid__col--sm-offset-2 grid__col--md-6 grid__col--md-offset-3'>
+<div class='swiper-container testimonials__inner js-testimonials'>
+<ul class='testimonials__list swiper-wrapper'>
+<li class='swiper-slide testimonials__item is-active-slide'>
+<div class='testimonials__item-inner'>
+<div class='blockquote testimonials__quote'>
+<p class='testimonials__text'>
+"Gleam has helped us reach people all around the world, that would have been impossible otherwise! Gleam helps us build our email and social subscribers, so we can grow!"
+</p>
+</div>
+<footer class='testimonials__info'>
+<div class="testimonials__avatar js-with-responsive-bg"><picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/adam-jacobson-5c7247fbc6cff99071d59042c9ae2dbfa4d2d794a488c92a09da4728915388ba.webp, https://js.out.sh/assets/content/testimonials/adam-jacobson@2x-91913fd75a6fc5541cf3907bfdbc590902da7ddde1dba3d6fc4e83f8ad5e1765.webp 2x"><img class="bg-image u-hidden" srcset="https://js.out.sh/assets/content/testimonials/adam-jacobson-ddd382e3c38f49e346b12b67ec9fb2f0346eaa9cdbebb49097ea15990dfe4691.jpg, https://js.out.sh/assets/content/testimonials/adam-jacobson@2x-d0bc3d2688e5064310d3819e8eed65ceb81f0b2691da1d4e8054303390d2ca95.jpg 2x" src="https://js.out.sh/assets/content/testimonials/adam-jacobson-ddd382e3c38f49e346b12b67ec9fb2f0346eaa9cdbebb49097ea15990dfe4691.jpg" /></picture></div>
+<span class='testimonials__author'>
+Adam Jacobson,
+<br>
+Emergence Boardgame
+</span>
+</footer>
+</div>
+</li>
+<li class='swiper-slide testimonials__item'>
+<div class='testimonials__item-inner'>
+<div class='blockquote testimonials__quote'>
+<p class='testimonials__text'>
+"With 3 years of using Gleam to build Video Game community outreach programs, no other suite has provided more value to my campaigns."
+</p>
+</div>
+<footer class='testimonials__info'>
+<div class="testimonials__avatar js-with-responsive-bg"><picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/keith-weisglas-aac3d7102cf4e74a62da27b35a20e62616146b4433b5ec0f5dac762b2a2d0188.webp, https://js.out.sh/assets/content/testimonials/keith-weisglas@2x-c006a44c265630bf35feadb61cf00664daa210b66f768ff57f9de650a8b80c89.webp 2x"><img class="bg-image u-hidden" srcset="https://js.out.sh/assets/content/testimonials/keith-weisglas-a65a03ce97e438293af75ea1b894c21c5dfa6e4e36845009b9b1366c1b505660.jpg, https://js.out.sh/assets/content/testimonials/keith-weisglas@2x-ec4e3452c20fbdf58d5e686f5d40089eb66b2b7ae9c32c179b39e9999462b701.jpg 2x" src="https://js.out.sh/assets/content/testimonials/keith-weisglas-a65a03ce97e438293af75ea1b894c21c5dfa6e4e36845009b9b1366c1b505660.jpg" /></picture></div>
+<span class='testimonials__author'>
+Keith Weisglas,
+<br>
+Define Human
+</span>
+</footer>
+</div>
+</li>
+<li class='swiper-slide testimonials__item'>
+<div class='testimonials__item-inner'>
+<div class='blockquote testimonials__quote'>
+<p class='testimonials__text'>
+"Gleam has been pivotal in curating Protean&#39;s initial momentum. When we registered on the site, our email list was sitting at around 200, with even worse social media numbers. Through executing on Gleam&#39;s viral giveaway system, we&#39;ve grown to over 7,000 email subscribers and over 6,000 followers across social media."
+</p>
+</div>
+<footer class='testimonials__info'>
+<div class="testimonials__avatar js-with-responsive-bg"><picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/alex-darling-d5837a4ba9cf4cc00f35ecf43982cb978aa9c0558f3ae7f20048ace2dc604fbc.webp, https://js.out.sh/assets/content/testimonials/alex-darling@2x-e05006d528ddf4e832c5bdc663978035b324658e4a6f9207774db6d58e81834f.webp 2x"><img class="bg-image u-hidden" srcset="https://js.out.sh/assets/content/testimonials/alex-darling-0916cfbd5d17ab9472d3aeb8365143cf935a8fd99f349945cff72adfb47096b4.jpg, https://js.out.sh/assets/content/testimonials/alex-darling@2x-e00703f632fb8b578f259fb6a0f4c8547002483918af87bb0bc0e57065bd335b.jpg 2x" src="https://js.out.sh/assets/content/testimonials/alex-darling-0916cfbd5d17ab9472d3aeb8365143cf935a8fd99f349945cff72adfb47096b4.jpg" /></picture></div>
+<span class='testimonials__author'>
+Alex Darling,
+<br>
+Protean Case
+</span>
+</footer>
+</div>
+</li>
+<li class='swiper-slide testimonials__item'>
+<div class='testimonials__item-inner'>
+<div class='blockquote testimonials__quote'>
+<p class='testimonials__text'>
+"We love Gleam. What was taking us months and months to achieve in way of increased newsletter subscription we were able to do in days with Gleam. Great service, great product, just great altogether!"
+</p>
+</div>
+<footer class='testimonials__info'>
+<div class="testimonials__avatar js-with-responsive-bg"><picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/bruce-macnaughton-ec2d9cbd58eb409d67d3c2c1a8c920308a1c9eb2afddc30e17bb884e30bc2d3d.webp, https://js.out.sh/assets/content/testimonials/bruce-macnaughton@2x-773507dbcc773a45c47974d81fda445400c75434569ca57a756b3f3fcb707718.webp 2x"><img class="bg-image u-hidden" srcset="https://js.out.sh/assets/content/testimonials/bruce-macnaughton-d3a5591231a15f3c34e95acd3c819a5e2fa208843d4493a90e15733cdb543d5b.jpg, https://js.out.sh/assets/content/testimonials/bruce-macnaughton@2x-d9d547a5c41247b4d9cd098b2eec65563ef133b165a9d706bd6e2e63c58caec0.jpg 2x" src="https://js.out.sh/assets/content/testimonials/bruce-macnaughton-d3a5591231a15f3c34e95acd3c819a5e2fa208843d4493a90e15733cdb543d5b.jpg" /></picture></div>
+<span class='testimonials__author'>
+Bruce MacNaughton,
+<br>
+Prince Edward Island Preserve Company
+</span>
+</footer>
+</div>
+</li>
+<li class='swiper-slide testimonials__item'>
+<div class='testimonials__item-inner'>
+<div class='blockquote testimonials__quote'>
+<p class='testimonials__text'>
+"Gleam has been excellent as a growth tool for my small business. We&#39;ve been impressed and happy with how easy Gleam was to use and how intuitive campaigns were to run."
+</p>
+</div>
+<footer class='testimonials__info'>
+<div class="testimonials__avatar js-with-responsive-bg"><picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/jordan-woodward-9e88bddb14d3baa17bd28435e42a4b89cea6dde8ec4e488f3ad8734de1b48c2f.webp, https://js.out.sh/assets/content/testimonials/jordan-woodward@2x-5e1ba2c89a4ff5bd8d8d229eaa7258a5da387d622e785ef0796b9bf910eddd75.webp 2x"><img class="bg-image u-hidden" srcset="https://js.out.sh/assets/content/testimonials/jordan-woodward-3ba7bb1b5387fc4aa6997b156347ab6bbb2b2bca39a88a0f183967da13d2f2df.jpg, https://js.out.sh/assets/content/testimonials/jordan-woodward@2x-c03bba830cc5dcb677d59a5698fe5968e4fa6975a96f5e77e9003d5a77e23926.jpg 2x" src="https://js.out.sh/assets/content/testimonials/jordan-woodward-3ba7bb1b5387fc4aa6997b156347ab6bbb2b2bca39a88a0f183967da13d2f2df.jpg" /></picture></div>
+<span class='testimonials__author'>
+Jordan Woodward,
+<br>
+OMG PC
+</span>
+</footer>
+</div>
+</li>
+<li class='swiper-slide testimonials__item'>
+<div class='testimonials__item-inner'>
+<div class='blockquote testimonials__quote'>
+<p class='testimonials__text'>
+"Gleam has helped us to engage and connect with our site&#39;s community on a deeper level. We love Gleam and the people behind it."
+</p>
+</div>
+<footer class='testimonials__info'>
+<div class="testimonials__avatar js-with-responsive-bg"><picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/mckane-davis-4c7398154c78cc87ce0c62a0445ff7f21436bb836c0cb3c59f33683377c6dfff.webp, https://js.out.sh/assets/content/testimonials/mckane-davis@2x-b4cd2ea4a333f9aac305845085d3e800ab9b4b66052e6e9e75f720d13cf445ed.webp 2x"><img class="bg-image u-hidden" srcset="https://js.out.sh/assets/content/testimonials/mckane-davis-58258c84cf31b36207764273ec9b5908b17426091492fb90d9e6af87e10e0c8b.jpg, https://js.out.sh/assets/content/testimonials/mckane-davis@2x-f2c9010a224da651574eb534eca495954d4c8971bebb00b9c980af707bb7be8c.jpg 2x" src="https://js.out.sh/assets/content/testimonials/mckane-davis-58258c84cf31b36207764273ec9b5908b17426091492fb90d9e6af87e10e0c8b.jpg" /></picture></div>
+<span class='testimonials__author'>
+McKane Davis,
+<br>
+Scrapbook.com
+</span>
+</footer>
+</div>
+</li>
+<li class='swiper-slide testimonials__item'>
+<div class='testimonials__item-inner'>
+<div class='blockquote testimonials__quote'>
+<p class='testimonials__text'>
+"I use Gleam to gain thousands of email subscribers each month. But that&#39;s just the beginning. It&#39;s my #1 tool for growing my current full-time gig."
+</p>
+</div>
+<footer class='testimonials__info'>
+<div class="testimonials__avatar js-with-responsive-bg"><picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/todd-dosenberry-f5763d64c1785d58e74e69833f89c0495324a862858e38e84f4a36d5733ce3ee.webp, https://js.out.sh/assets/content/testimonials/todd-dosenberry@2x-b50d73b9aad3322e97a7d643027b2725d8fa511cbec36b9075f0a9393370b375.webp 2x"><img class="bg-image u-hidden" srcset="https://js.out.sh/assets/content/testimonials/todd-dosenberry-0f556adf07af1a543ffc0b1ed2c48e90847dea5511e2ddf5252053fa54a19cf3.jpg, https://js.out.sh/assets/content/testimonials/todd-dosenberry@2x-eb31a36fcb966e8cc5f966ae64fccbd9688116939298caa0b44c34a3dafe1489.jpg 2x" src="https://js.out.sh/assets/content/testimonials/todd-dosenberry-0f556adf07af1a543ffc0b1ed2c48e90847dea5511e2ddf5252053fa54a19cf3.jpg" /></picture></div>
+<span class='testimonials__author'>
+Todd Doesnberry,
+<br>
+PaleoEpic
+</span>
+</footer>
+</div>
+</li>
+<li class='swiper-slide testimonials__item'>
+<div class='testimonials__item-inner'>
+<div class='blockquote testimonials__quote'>
+<p class='testimonials__text'>
+"Gleam helped me amp up and get new email subscribers for an online course that I launched the week after my giveaway!"
+</p>
+</div>
+<footer class='testimonials__info'>
+<div class="testimonials__avatar js-with-responsive-bg"><picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/abbey-ashley-b5c4dfd0a8555fe4d445297638f9394ba77b3bfaa1c486e6c3a0617d6eda6d9d.webp, https://js.out.sh/assets/content/testimonials/abbey-ashley@2x-de09027bca4a004cd313e4b6444687f70223d9504939731bf0e683441bad8819.webp 2x"><img class="bg-image u-hidden" srcset="https://js.out.sh/assets/content/testimonials/abbey-ashley-9de6bde7e2c2cb644bfcb3dd95dd3162d2391b01be452a723253d9f5f536a7c6.jpg, https://js.out.sh/assets/content/testimonials/abbey-ashley@2x-d2c04a79f273d6532abac8fbb79902dbe32a9cf8efaa5477300bf7c910646eb8.jpg 2x" src="https://js.out.sh/assets/content/testimonials/abbey-ashley-9de6bde7e2c2cb644bfcb3dd95dd3162d2391b01be452a723253d9f5f536a7c6.jpg" /></picture></div>
+<span class='testimonials__author'>
+Abbey Ashley,
+<br>
+The Virtual Savvy
+</span>
+</footer>
+</div>
+</li>
+<li class='swiper-slide testimonials__item'>
+<div class='testimonials__item-inner'>
+<div class='blockquote testimonials__quote'>
+<p class='testimonials__text'>
+"Using Gleam to run a giveaway makes the process a breeze. Lots of entry options, an easy to use widget, positive feedback from my readers and a responsive helpful support team, who understand bloggers, makes using Gleam the obvious choice for me."
+</p>
+</div>
+<footer class='testimonials__info'>
+<div class="testimonials__avatar js-with-responsive-bg"><picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/helen-best-shaw-80613a89d43ad72bab457885fbb5d0e09f78fa179a5e465489273ccd192509c8.webp, https://js.out.sh/assets/content/testimonials/helen-best-shaw@2x-5075b0ed1e46477b6e700679e7f6e99f9b87c199cc727d01071cb1284128c94f.webp 2x"><img class="bg-image u-hidden" srcset="https://js.out.sh/assets/content/testimonials/helen-best-shaw-94a8339d1dc1d7cd4061e6e98622174c661d0e173cd33577af51bcc7a78d9fc2.jpg, https://js.out.sh/assets/content/testimonials/helen-best-shaw@2x-f65aba8580cdd883bc428402c586147c7d7c1d0060a83f00b02f9fc32b9198f5.jpg 2x" src="https://js.out.sh/assets/content/testimonials/helen-best-shaw-94a8339d1dc1d7cd4061e6e98622174c661d0e173cd33577af51bcc7a78d9fc2.jpg" /></picture></div>
+<span class='testimonials__author'>
+Helen Best-Shaw,
+<br>
+Fuss Free Flavours
+</span>
+</footer>
+</div>
+</li>
+<li class='swiper-slide testimonials__item'>
+<div class='testimonials__item-inner'>
+<div class='blockquote testimonials__quote'>
+<p class='testimonials__text'>
+"Gleam really helped us promote Speed Awareness Month 2013. It allowed our content partners to easily give away web performance services to help make the web faster. I highly recommend using Gleam if you need to promote an event or web service."
+</p>
+</div>
+<footer class='testimonials__info'>
+<div class="testimonials__avatar js-with-responsive-bg"><picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/justin-dorfman-4c903d1dcefebc1b5aed156a6ebd7b37f0a6a716567f267459c3fd334570c624.webp, https://js.out.sh/assets/content/testimonials/justin-dorfman@2x-684cc58378536fa53799d19d151b32bede1e1c9d38a221a9af1861538e09fd05.webp 2x"><img class="bg-image u-hidden" srcset="https://js.out.sh/assets/content/testimonials/justin-dorfman-d3a65fe16d63a787091832e1fce834108d3dda04b31ea3cc2d65a34a3273eafc.jpg, https://js.out.sh/assets/content/testimonials/justin-dorfman@2x-f31e43a6fb1d7a43205656bf4fb414ba18c78ed0c5b063ae8fd0fed30c064779.jpg 2x" src="https://js.out.sh/assets/content/testimonials/justin-dorfman-d3a65fe16d63a787091832e1fce834108d3dda04b31ea3cc2d65a34a3273eafc.jpg" /></picture></div>
+<span class='testimonials__author'>
+Justin Dorfman,
+<br>
+MaxCDN
+<picture><source type="image/webp" srcset="https://js.out.sh/assets/content/testimonials/maxcdn-aa92562a3d9597712e46469406ba7c7a4457e36ff016ab15459898975346db10.webp, https://js.out.sh/assets/content/testimonials/maxcdn@2x-0c4beab0295da3d2c41c0407e308b8ed536a488a5cab9719214a44d9a772d1af.webp 2x"><img class="testimonials__logo" alt="MaxCDN" srcset="https://js.out.sh/assets/content/testimonials/maxcdn-b84b9303cd7eaa4c037d909b8221e628e1b2a408b61a3cf36cb04cf84baddfc6.png, https://js.out.sh/assets/content/testimonials/maxcdn@2x-0c4beab0295da3d2c41c0407e308b8ed536a488a5cab9719214a44d9a772d1af.png 2x" src="https://js.out.sh/assets/content/testimonials/maxcdn-b84b9303cd7eaa4c037d909b8221e628e1b2a408b61a3cf36cb04cf84baddfc6.png" /></picture>
+</span>
+</footer>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="cta cta--green-blue js-sticky-element-stop">
+  <div class="cta__inner">
+    <div class="grid">
+      <div class="grid__row">
+        <div class="grid__col--xs-12">
+          <h1 class="cta__heading">
+            Ready to Grow Your Business?
+          </h1>
+            <a data-turbolinks="false" class="o-btn o-btn--white cta__btn" href="/signup">Start Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+<footer class='footer js-footer'>
+<div class='grid'>
+<div class='grid__row'>
+<div class='grid__col--xs-12 grid__col--sm-3 grid__col--md-2'>
+<h5 class='footer__title footer__title--collapsable js-collapse-trigger'>
+Growth Apps
+</h5>
+<ul class='footer__list o-collapse'>
+<li class=' footer__item footer__item--icon footer__item--capture'>
+<a data-turbolinks="false" class="footer__link" href="/app/capture">Capture</a>
+</li>
+<li class=' footer__item footer__item--icon footer__item--competition'>
+<a data-turbolinks="false" class="footer__link" href="/app/competitions">Competitions</a>
+</li>
+<li class=' footer__item footer__item--icon footer__item--gallery'>
+<a data-turbolinks="false" class="footer__link" href="/app/gallery">Gallery</a>
+</li>
+<li class=' footer__item footer__item--icon footer__item--reward'>
+<a data-turbolinks="false" class="footer__link" href="/app/rewards">Rewards</a>
+</li>
+</ul>
+</div>
+<div class='grid__col--xs-12 grid__col--sm-3 grid__col--md-2'>
+<h5 class='footer__title footer__title--collapsable js-collapse-trigger'>
+About Gleam
+</h5>
+<ul class='footer__list o-collapse'>
+<li class=' footer__item'>
+<a data-turbolinks="false" class="footer__link" href="https://gleam.io/blog/">Growth Blog</a>
+</li>
+<li class=' footer__item'>
+<a data-turbolinks="false" class="footer__link" href="https://gleam.io/blog/what-is-gleam/">What is Gleam?</a>
+</li>
+<li class=' footer__item'>
+<a data-turbolinks="false" class="footer__link" href="/about">About Us</a>
+</li>
+<li class=' footer__item'>
+<a data-turbolinks="false" class="footer__link" href="/jobs">Jobs</a>
+</li>
+<li class=' footer__item'>
+<a data-turbolinks="false" class="footer__link" href="/contact">Contact Us</a>
+</li>
+</ul>
+</div>
+<div class='grid__col--xs-12 grid__col--sm-3 grid__col--md-2'>
+<h5 class='footer__title footer__title--collapsable js-collapse-trigger'>
+More
+</h5>
+<ul class='footer__list o-collapse'>
+<li class=' footer__item'>
+<a data-turbolinks="false" class="footer__link" href="/docs/updates">Gleam Updates</a>
+</li>
+<li class=' footer__item'>
+<a data-turbolinks="false" class="footer__link" href="/success">Success Stories</a>
+</li>
+<li class=' footer__item'>
+<a data-turbolinks="false" class="footer__link" href="/privacy">Privacy</a>
+</li>
+<li class=' footer__item'>
+<a data-turbolinks="false" class="footer__link" href="/terms">Terms of Service</a>
+</li>
+</ul>
+</div>
+<div class='grid__col--xs-12 grid__col--sm-3 grid__col--md-2'>
+<h5 class='footer__title footer__title--social'>
+Connect with us
+</h5>
+<ul class='footer__social'>
+<li class=' footer__social-item'>
+<a data-turbolinks="false" class="footer__social-link" target="_blank" rel="noopener" href="https://www.facebook.com/Gleamapp/"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="19" viewbox="0 0 9 19" class="footer__social-image--facebook"><path fill="#FFF" fill-rule="evenodd" d="M2.297 19v-8.915H0v-3.21h2.297V4.132C2.297 1.978 3.655 0 6.782 0c1.266 0 2.202.125 2.202.125L8.91 3.122s-.954-.01-1.996-.01c-1.128 0-1.309.534-1.309 1.419v2.344H9l-.148 3.21H5.605V19H2.297z"></path></svg>
+
+</a></li>
+<li class=' footer__social-item'>
+<a data-turbolinks="false" class="footer__social-link" target="_blank" rel="noopener" href="https://twitter.com/gleamapp"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewbox="0 0 18 15" class="footer__social-image--twitter"><path fill="#FFF" fill-rule="evenodd" d="M15.88 2.372A3.778 3.778 0 0 0 17.503.277a7.273 7.273 0 0 1-2.346.918A3.642 3.642 0 0 0 12.462 0C10.424 0 8.77 1.696 8.77 3.787c0 .296.032.585.095.862-3.069-.158-5.79-1.664-7.612-3.958a3.856 3.856 0 0 0-.5 1.906c0 1.313.652 2.472 1.643 3.152a3.626 3.626 0 0 1-1.673-.473v.047c0 1.835 1.273 3.366 2.963 3.713-.31.089-.636.133-.973.133-.238 0-.47-.023-.695-.067.47 1.504 1.833 2.599 3.45 2.628A7.292 7.292 0 0 1 0 13.3 10.282 10.282 0 0 0 5.66 15c6.794 0 10.508-5.77 10.508-10.774 0-.164-.003-.329-.01-.49A7.58 7.58 0 0 0 18 1.776a7.213 7.213 0 0 1-2.12.596z"></path></svg>
+
+</a></li>
+<li class=' footer__social-item'>
+<a data-turbolinks="false" class="footer__social-link" target="_blank" rel="noopener" href="https://www.linkedin.com/company/gleam-io"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewbox="0 0 16 15" class="footer__social-image--linkedin"><path fill="#FFF" fill-rule="evenodd" d="M16 15h-3.536V9.727c0-1.38-.553-2.323-1.77-2.323-.93 0-1.448.636-1.688 1.25-.09.219-.077.525-.077.832V15H5.426s.045-9.34 0-10.19H8.93v1.6c.207-.7 1.327-1.698 3.113-1.698C14.26 4.712 16 6.178 16 9.334V15zM1.883 3.536h-.022C.73 3.536 0 2.756 0 1.769 0 .763.754 0 1.905 0c1.15 0 1.858.76 1.88 1.766 0 .988-.73 1.77-1.902 1.77zM.403 4.81h3.12V15H.402V4.81z"></path></svg>
+
+</a></li>
+</ul>
+</div>
+<div class='grid__col--xs-12 grid__col--md-3 grid__col--lg-4'>
+<div class='footer__copyright'>
+<a data-turbolinks="false" class="footer__logo" href="/"><img width="36" height="36" alt="Gleam Logo" src="https://js.out.sh/assets/content/logo-icon-c9d91770856feb04176ffe2ef297a7792a11d88a4c88b951a695d5946464cfd0.svg" />
+</a><p id='copyright' property='dc:rights'>
+©
+<span property='dc:dateCopyrighted'>
+2020
+</span>
+<span property='dc:publisher'>
+Gleam
+</span>
+<br>
+All rights reserved
+</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script async='' src='https://js.gleam.io/oi-7y0S5.js' type='text/javascript'></script>
+
+</div>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39718003-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-39718003-1', {"page_path":location.pathname,"page_title":document.title,"page_location":window.location.href.replace(/#.*/,""),"dimension1":"None","dimension2":"None"});
+</script>
+
+
+
+
+
+<script class='js-support-modal u-hidden' type='text/html'>
+<div data='{&quot;topics&quot;:{&quot;general&quot;:&quot;General Support&quot;,&quot;sales&quot;:&quot;Contact Sales&quot;,&quot;account&quot;:&quot;Account Issues&quot;,&quot;report&quot;:&quot;Report a Campaign&quot;,&quot;technical&quot;:&quot;Technical Issues&quot;},&quot;contestant&quot;:false,&quot;user&quot;:false}' id='contact-form'></div>
+</script>
+<script src="https://js.gleam.io/webpack/vue-pages.d963f4dd01c5e552232d.js"></script>
+<div class='o-side-panel js-side-panel'>
+<div class='o-side-panel__header'>
+<button aria-label='Close' class='o-side-panel__close js-side-panel-close'></button>
+<h3 class='o-side-panel__heading js-side-panel-heading'>Loading...</h3>
+</div>
+<div class='o-side-panel__inner'>
+<div class='o-github-md o-side-panel__content js-side-panel-content'></div>
+</div>
+</div>
+</body>
+</html>

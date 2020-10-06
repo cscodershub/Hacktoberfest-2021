@@ -1,0 +1,20 @@
+http://ah-auto-fischer.bmw.de/
+
+> GET / HTTP/1.1
+> Host: ah-auto-fischer.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: http://bmw-partner.bmw.de/autohaus-auto-fischer/de_DE/index.html
+< Content-Length: 248
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 11 Aug 2020 04:50:35 GMT
+< Server: Apache
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://bmw-partner.bmw.de/autohaus-auto-fischer/de_DE/index.html">here</a>.</p>
+</body></html>

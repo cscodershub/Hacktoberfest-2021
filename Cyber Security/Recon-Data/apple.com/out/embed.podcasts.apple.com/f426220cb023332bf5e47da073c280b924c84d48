@@ -1,0 +1,44 @@
+https://embed.podcasts.apple.com/
+
+> GET / HTTP/1.1
+> Host: embed.podcasts.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Apple-Seq: 0.0
+< Vary: Accept-Encoding
+< Server: daiquiri/3.0.0
+< X-Apple-Jingle-Correlation-Key: O5ODMM3MZLR66ZZK6BJTA6EJEQ
+< Date: Thu, 30 Apr 2020 21:40:30 GMT
+< X-Apple-Version-Number: 0.0.1569015730
+< X-Cache-Remote: TCP_REFRESH_HIT from a49-44-118-236.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (S)
+< X-Xss-Protection: 1; mode=block
+< Content-Security-Policy: 1; mode=block
+< Cache-Control: no-transform, max-age=120
+< X-Content-Type-Options: nosniff
+< X-Apple-Request-Uuid: 775c3633-6cca-e3ef-672a-f05330788924
+< Apple-Tk: false
+< X-Cache: TCP_MISS from a49-44-118-194.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< X-Responding-Instance: silverbullet-external:2022:st13p00it-ztdg07184001:8301:20REL3
+< Apple-Originating-System: UnknownOriginatingSystem
+< Expect-Ct: max-age=86400, enforce
+< Etag: 09f45258a5e119f420831c0562c7a961
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:45887002:st44p00it-hyhk16064801:7987:20E24
+< X-Daiquiri-Instance: daiquiri:48493001:st44p00it-hyhk15034601:7987:20E24
+< X-Daiquiri-Instance: daiquiri:42814002:st44p00it-hyhk16044801:7987:20E24
+< Content-Type: text/html
+< Last-Modified: Fri, 20 Sep 2019 21:43:35 GMT
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Podcasts</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>Podcasts</body>
+</html>
+

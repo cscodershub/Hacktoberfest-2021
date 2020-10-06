@@ -1,0 +1,28 @@
+https://dts-casper.apple.com/
+
+> GET / HTTP/1.1
+> Host: dts-casper.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0
+< Set-Cookie: JSESSIONID=1C0435E00401EF61F1324C59B4B6FBD8; Path=/; HttpOnly
+< Content-Length: 290
+< Date: Thu, 30 Apr 2020 21:29:06 GMT
+
+<html>
+	<body>
+		<table class="alignLeft" width="100%" border=0>
+			<tr>
+				<td align="left">
+					<h1>Web Application Disabled</h1>
+					<font class="assistantNote">
+						Your web application has been disabled.
+						<BR/><BR/>
+					</font>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

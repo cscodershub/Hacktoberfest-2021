@@ -1,0 +1,21 @@
+http://lyncdiscover.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: lyncdiscover.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache
+< Vary: Accept-Encoding
+< Client-Request-Id: b4d25f87-fe39-4a18-a872-8ba66ee341ec
+< Date: Sat, 18 Jul 2020 13:55:03 GMT
+< Pragma: no-cache
+< Content-Type: application/json
+< Server: Microsoft-IIS/8.0
+< X-Content-Type-Options: nosniff
+< Expires: -1
+< X-Powered-By: ARR/2.5
+< X-Powered-By: ASP.NET
+< X-Ms-Correlation-Id: 2147556366
+
+{"_links":{"self":{"href":"https://lyncweb.imperial.ac.uk/Autodiscover/AutodiscoverService.svc/root?originalDomain=imperial.ac.uk"},"user":{"href":"https://lyncweb.imperial.ac.uk/Autodiscover/AutodiscoverService.svc/root/oauth/user?originalDomain=imperial.ac.uk"},"xframe":{"href":"https://lyncweb.imperial.ac.uk/Autodiscover/XFrame/XFrame.html"}}}

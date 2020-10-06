@@ -1,0 +1,23 @@
+https://icmysql-dbadmin.cc.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: icmysql-dbadmin.cc.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: BIGipServerPOOL-LINUXFARM2011-443-v4=!YA1qn3ARYwmPSjgw9zyYKRlaA4tr3p6sWuzEKCf3YhaOpU0Ppbx56Xo6bexLMV1dWZuKfNj/6G7MFQy8R69eu0d0KZhSgoIoPOb9jSkaPms=; path=/; Httponly; Secure
+< Date: Sat, 18 Jul 2020 13:54:44 GMT
+< Server: Apache
+< Location: http://www.imperial.ac.uk/
+< Content-Length: 318
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.imperial.ac.uk/">here</a>.</p>
+<hr>
+<address>Apache Server at icmysql-dbadmin.cc.imperial.ac.uk Port 443</address>
+</body></html>

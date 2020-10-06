@@ -1,0 +1,26 @@
+https://em.boomi.com/
+
+> GET / HTTP/1.1
+> Host: em.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Sat, 15 Aug 2020 09:16:10 GMT
+< Cf-Cache-Status: DYNAMIC
+< Set-Cookie: __cfduid=d7a0279f749686710453403b3dc50bf4a1597482970; expires=Mon, 14-Sep-20 09:16:10 GMT; path=/; domain=.em.boomi.com; HttpOnly; SameSite=Lax
+< Cache-Control: private, no-cache, no-store, max-age=0
+< Vary: Accept-Encoding
+< Cf-Ray: 5c31d0b40d09deae-BLR
+< X-Content-Type-Options: nosniff
+< Cf-Request-Id: 049300c4880000deae37aa7200000001
+< Server: cloudflare
+< Content-Type: text/html
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>404 Not Found</h1>
+<p>The redirect url is empty</p>
+</body>
+</html>

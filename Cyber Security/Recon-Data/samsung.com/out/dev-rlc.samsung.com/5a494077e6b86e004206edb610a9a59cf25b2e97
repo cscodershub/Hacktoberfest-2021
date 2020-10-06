@@ -1,0 +1,183 @@
+https://dev-rlc.samsung.com/
+
+> GET / HTTP/1.1
+> Host: dev-rlc.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: Sameorigin
+< X-Powered-By: JSP/2.2
+< Content-Type: text/html;charset=utf-8
+< Vary: User-Agent,Accept-Encoding
+< Set-Cookie: WMONID=sxjyVXSPOIk; Expires=Thu, 10-Jun-2021 5:36:35 GMT; Path=/
+< Set-Cookie: JSESSIONID=Xm0xW7Hu2IFtwQ6DidZv9-Jc.rlc-dev-cns-2; Path=/; HttpOnly
+< Set-Cookie: ROUTEID=.cns2; path=/
+< Date: Wed, 10 Jun 2020 05:36:35 GMT
+
+
+
+
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Remote Mobile Manager | Samsung Electronics Content & Services</title>
+	<script>
+	var appVersion = "20190828113813";
+	</script>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?bust=20190828113813">
+	<link rel="stylesheet" type="text/css" href="css/style.css?bust=20190828113813">
+	<link rel="stylesheet" type="text/css" href="css/common.css?bust=20190828113813">
+	<link rel="stylesheet" type="text/css" href="css/button.css?bust=20190828113813">
+	<link rel="stylesheet" type="text/css" href="css/dropdown.css?bust=20190828113813">
+	<link rel="stylesheet" type="text/css" href="css/popup.css?bust=20190828113813">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css?bust=20190828113813">
+	<link rel="stylesheet" type="text/css" href="css/c3.min.css?bust=20190828113813">
+	<link rel="preload" as="image" href="images/bg_login.jpg?bust=20190828113813">
+	<link rel="preload" as="image" href="images/logo_rmm.png?bust=20190828113813">	
+		
+	<script src='js/lib/store.min.js?bust=20190828113813' type="text/javascript" charset="utf-8"></script>
+	<script src='js/lib/require.js?bust=20190828113813' type="text/javascript" charset="utf-8"></script>
+	<!--[if lt IE 9]>
+		<script type="text/JavaScript" src="../js/lib/pie.js"></script>
+		<script>
+		  $(document).ready( function() {
+		    if (window.PIE) {
+		      $('.pie').each(function() {
+		       PIE.attach(this);
+		      });
+		    }
+		  });
+		</script>
+		<![endif]-->
+	<!--[if lte IE 9]>
+		<script src="js/lib/placeholders.jquery.js"></script>
+	<![endif]-->
+
+
+	<script>
+		var jsBdpStg = 'DEV'; 
+		if (!window.console) {
+			 window.console = {};
+		}
+		if (!window.console.log) {
+			window.console.log = function () { };
+		}
+
+		if (jsBdpStg == 'PRD') {
+			if (window.console) {				
+				wcl = window.console.log;
+				wc = window.console;
+				window.console = {}; 
+				window.console.log = function(){};
+			}			
+		}
+		
+	</script>
+	
+	
+	
+	<script>
+	requirejs.config({
+		urlArgs: "bust=" + appVersion,
+		waitSeconds: 0, 
+	});
+	
+		var userId = 'null';
+		var agent_type_by_user = 'pc';
+
+		var globalLocale = getCookieByName('rlclocale');
+		if(globalLocale== undefined ||globalLocale== '')
+			globalLocale = "en_US";
+
+		var lan_ctry = globalLocale.split("_");
+		
+		var language = lan_ctry[0];
+		var country =  lan_ctry[1];
+		var csrfToken; 
+		
+		//TODO : get domainURL from BE
+		var domain = 'dev-rlc.samsung.com';
+		var domainUrl ='https://dev-rlc.samsung.com';
+		var ospStateValue = 'null'; 
+		
+		var globalDir='ltr'; 
+		var htmlTag = document.getElementsByTagName('html');
+		htmlTag[0].dir = 'ltr'; //For html validation purpose only.
+		htmlTag[0].lang = lan_ctry[0]; //For html validation purpose only.
+		var logIn;
+		var GlobalMessage;
+		var isLoginSuccess = 'null';
+		var isAgreement = 'N';
+		var agreementPath;
+		var protocol = 'https';
+		var mqttTopic;
+		var mqttWillTopic;
+		var isError = false;
+		var errorStatusCode;
+		var mqttUrl;
+		var nicePinEncData;
+		var niceTelEncData;
+		var notice;
+		var aboutUs = '';		
+
+		var mquserName;
+		var mquserCode;
+		var mqclientId;
+
+		var htmlTag = document.getElementsByTagName('html');
+		htmlTag[0].dir = globalDir;
+				
+		requirejs(['js/main'], function(main) {
+      		
+		}); 
+	    
+		function loadPrefetchItems(rel, itemType, url)
+	    {
+        	var link = document.createElement("link");
+		    link.type = itemType;
+		    link.rel = rel;
+		    link.href = url;
+		  	document.getElementsByTagName("head")[0].appendChild(link);
+		}
+		function getCookieByName(cname) {
+		    var name = cname + "=";
+		    var ca = document.cookie.split(';');
+		    for(var i=0; i<ca.length; i++) {
+		        var c = ca[i];
+		        while (c.charAt(0)==' ') c = c.substring(1);
+		        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+		    }
+		    return "";
+		}
+	</script>
+</head>
+
+<body onload=''>
+<form name="frm_test" method="post" action="https://account.samsung.com/account/check.do" >
+	<input type="hidden" name="actionID" value="startAP" />
+	<input type="hidden" name="serviceID" value="9fm95yr10p" />
+	<input type="hidden" name="serviceName" value="SamsungDive" />
+	<input type="hidden" name="GUID" value="null" />
+	<input type="hidden" name="countryCode" value="" />
+	<input type="hidden" name="languageCode" value="" />
+	<input type="hidden" name="goBackURL" value="https://dev-rlc.samsung.com" />
+</form>
+
+<form id="supportFrm" name="supportFrm" method="post">
+    <input type="hidden" id="countryCd" name="countryCd" value="" />
+    <input type="hidden" id="lang" name="lang" value="" />
+    <input type="hidden" id="Email" name="Email" value="" />
+    <input type="hidden" id="serviceCd" name="serviceCd" value="findmymobile" />
+    <input type="hidden" id="targetUrl" name="targetUrl" value="/faq/searchFaq.do" />
+    <input type="hidden" id="chnlCd" name="chnlCd" value="web" />
+    <input type="hidden" id="isChnr" name="isChnr" value="true" />
+    <input type="hidden" name="goBackURL" value="https://dev-rlc.samsung.com" />  
+</form>
+     <div id='viewport' class=""></div>
+</body>
+</html>

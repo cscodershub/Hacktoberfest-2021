@@ -1,0 +1,20 @@
+http://blog.gleam.io/
+
+> GET / HTTP/1.1
+> Host: blog.gleam.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 194
+< Location: https://gleam.io/blog/
+< Server: nginx/1.10.3 (Ubuntu)
+< Date: Thu, 30 Jul 2020 04:27:06 GMT
+< Content-Type: text/html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>

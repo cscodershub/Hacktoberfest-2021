@@ -1,0 +1,20 @@
+https://dsa-colo.ssi.samsung.com/
+
+> GET / HTTP/1.1
+> Host: dsa-colo.ssi.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: DENY
+< Content-Length: 170
+< Content-Type: text/html
+< Pragma: private
+< Cache-Control: private, must-revalidate, post-check=0, pre-check=0
+< Expires: Mon, 26 Jul 1997 05:00:00 GMT
+< Server: 
+< Date: Wed, 10 Jun 2020 05:37:09 GMT
+
+<script LANGUAGE=JavaScript>
+window.location="/global-protect/login.esp"; 
+</script>
+<html><head></head><body><p>JavaScript must be enabled to continue!</p></body></html>

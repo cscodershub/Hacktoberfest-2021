@@ -1,0 +1,22 @@
+https://artists-managment.apple.com/
+
+> GET / HTTP/1.1
+> Host: artists-managment.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 209
+< Expires: Thu, 30 Apr 2020 21:41:11 GMT
+< Date: Thu, 30 Apr 2020 21:41:11 GMT
+< Connection: close
+< Server: AkamaiGHost
+
+<HTML><HEAD>
+<TITLE>Invalid URL</TITLE>
+</HEAD><BODY>
+<H1>Invalid URL</H1>
+The requested URL "&#91;no&#32;URL&#93;", is invalid.<p>
+Reference&#32;&#35;9&#46;29453917&#46;1588282871&#46;447c65bc
+</BODY></HTML>

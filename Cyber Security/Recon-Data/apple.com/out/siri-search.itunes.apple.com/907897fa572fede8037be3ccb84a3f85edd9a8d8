@@ -1,0 +1,26 @@
+http://siri-search.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: siri-search.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Vary: Cookie, X-Apple-Store-Front
+< Server: daiquiri/3.0.0
+< Content-Type: text/html
+< Location: https://siri-search.itunes.apple.com/
+< Akamai-Age-Ms: 1588282196570
+< X-Cache: TCP_MISS from a125-99-55-105.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< X-Cache-Remote: TCP_REFRESH_MISS from a96-17-150-238.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (S)
+< Content-Length: 163
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:17691001:mr85p00it-hyhk04194801:7987:20E24
+< Date: Thu, 30 Apr 2020 21:29:56 GMT
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+<hr><center>daiquiri/3.0.0</center>
+</body>
+</html>

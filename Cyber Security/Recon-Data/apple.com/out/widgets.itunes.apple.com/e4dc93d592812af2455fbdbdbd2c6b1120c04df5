@@ -1,0 +1,40 @@
+https://widgets.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: widgets.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Etag: "b48100796b25c2cc6a60bf4089d7ca9b:1566923761"
+< Last-Modified: Tue, 27 Aug 2019 16:36:00 GMT
+< Server: AkamaiNetStorage
+< Vary: Accept-Encoding
+< Date: Thu, 30 Apr 2020 21:30:15 GMT
+
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="Author" content="Apple Inc."><meta name="viewport" content="width=1024"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9"><title>Apple - iTunes - Widget Builder</title><meta name="Description" content="iTunes is now music, movies, TV, shows, iTunes in the Cloud, and iTunes Match."><link rel="stylesheet" href="https://www.apple.com/global/styles/base.css" type="text/css"><link rel="stylesheet" href="https://www.apple.com/v/itunes/b/styles/itunes.css" type="text/css"><link rel="stylesheet" href="https://www.apple.com/itunes/styles/itunes.css" type="text/css"><link rel="stylesheet" href="https://www.apple.com/v/itunes/home/a/styles/home.css" type="text/css"><script type="text/javascript" src="js/builder.min.js"></script><link href="css/builder/builder.css?serial=999333" type="text/css" rel="stylesheet" media="screen"><!--[if lte IE 7]><link href="css/builder/ie_builder.css?serial=9999999" type="text/css" rel="stylesheet" media="screen" /><![endif]--></head><body class="itunes" id="overview"><div class="section-title"><a href="http://www.apple.com/itunes/" target="_blank"><img src="/images/image_title_itunes.png"></a><div id="tools-menu"><ul><li><a href="https://linkmaker.itunes.apple.com" id="linkmaker" target="_blank">Link Maker</a></li><li><a href="https://autolinkmaker.itunes.apple.com" id="autolinkmaker" target="_blank">Auto Link Maker</a></li><li><a href="/" id="widget-builder">Widget Builder</a></li><li><a href="https://banners.itunes.apple.com" id="banners-builder" target="_blank">Banner Builder</a></li><li><a href="https://rss.itunes.apple.com" id="rss-generator" target="_blank">RSS Generator</a></li></ul></div></div><div id="container"><div class="bottom clearfix"><div id="country_pick" style="display: none" class="payload clearfix"></div><div id="application"><img src="/images/ajax-loader.gif" class="spinner"></div></div></div><div id="footer"></div><div id="playlist_popup_background" style="display: none"></div><div id="playlist_container"></div><div id="widget_preview_area" style="display: none"></div><script id="country-picker-template" type="text/x-handlebars-template">{{#groupby countries "region"}}
+    <div class="section">
+      <h2>{{region}}</h2>
+      <ul>
+        {{#each countries}}
+        <li id="{{country_code}}">
+          <table>
+            <tr><td><span class="flag"></span></td><td><span class="code">{{country}}</span></td></tr>
+          </table>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+    {{/groupby}}</script><script>Handlebars.registerHelper('groupby', function(context, group_by, block){
+        var regions = _.groupBy(context, group_by);
+        return _.map(regions, function(r) {
+          var region = r[0].region
+          var countries = _.sortBy(r, function (c) {return c.country})
+       return block.fn({countries: countries, region: region})
+      }).join("\n")
+    })</script><script type="text/javascript">var iTunesWidgetBuilders;
+    $(document).ready(function() {
+      iTunesWidgetBuilders = new Builder("#application");
+      searchCountry = iTunesWidgetBuilders.getCountry();
+    });</script><script src="https://www.apple.com/global/scripts/itmsCheck.js" type="text/javascript" charset="utf-8"></script></body></html>

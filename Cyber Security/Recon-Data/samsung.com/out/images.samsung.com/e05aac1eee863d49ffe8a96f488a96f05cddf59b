@@ -1,0 +1,17 @@
+http://images.samsung.com/
+
+> GET / HTTP/1.1
+> Host: images.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: __COM_SPEED=L; expires=Thu, 11-Jun-2020 05:35:47 GMT; path=/; domain=.samsung.com
+< Timing-Allow-Origin: *
+< Access-Control-Allow-Origin: *
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://images.samsung.com/
+< Expires: Wed, 10 Jun 2020 05:35:47 GMT
+< Cache-Control: private, max-age=0
+< Date: Wed, 10 Jun 2020 05:35:47 GMT
+

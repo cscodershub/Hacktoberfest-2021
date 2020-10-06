@@ -1,0 +1,14 @@
+https://amp-api.podcasts.apple.com/
+
+> GET / HTTP/1.1
+> Host: amp-api.podcasts.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Expires: Thu, 30 Apr 2020 21:40:30 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Pragma: no-cache
+< Date: Thu, 30 Apr 2020 21:40:30 GMT
+< X-Cache: TCP_MISS from a49-44-95-93.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Location: https://developer.apple.com/musickit/
+

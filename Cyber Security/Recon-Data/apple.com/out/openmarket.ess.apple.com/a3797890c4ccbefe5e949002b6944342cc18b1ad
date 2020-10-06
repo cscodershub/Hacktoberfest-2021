@@ -1,0 +1,19 @@
+https://openmarket.ess.apple.com/
+
+> GET / HTTP/1.1
+> Host: openmarket.ess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Apple-Tk: false
+< X-B3-Traceid: 2e977026bab7cddb
+< Strict-Transport-Security: max-age=31536000
+< Content-Length: 0
+< X-Apple-Request-Uuid: f2c3e2ef-06f2-bc3e-f0d9-a34f4cf9da0c
+< X-Apple-Jingle-Correlation-Key: 6LB6F3YG6K6D54GZUNHUZ6O2BQ
+< Apple-Seq: 0
+< Apple-Originating-System: UnknownOriginatingSystem
+< X-Responding-Instance: SmsService:580000:magent1668.usuqo07.pie.apple.com:31030:2007B-132:nocommit
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:40:13 GMT
+

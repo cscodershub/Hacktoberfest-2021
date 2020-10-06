@@ -1,0 +1,22 @@
+https://loop.apple.com/
+
+> GET / HTTP/1.1
+> Host: loop.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Host: loop.apple.com
+< Location: https://idmsac.apple.com/IDMSWebAuth/login?appIdKey=e1ebe1e651fb69aead538180e4e4d81e8b16220a1818049505dfee2570b70505&path=/index.php
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: no-cache, must-revalidate
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:29 GMT
+< X-Drupal-Cache: MISS
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 0
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+

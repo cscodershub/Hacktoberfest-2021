@@ -1,0 +1,19 @@
+https://beatsbydre-dr.apple.com/
+
+> GET / HTTP/1.1
+> Host: beatsbydre-dr.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:50 GMT
+< Content-Type: text/html
+< Content-Length: 172
+
+<html>
+<head><title>401 Authorization Required</title></head>
+<body>
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

@@ -1,0 +1,21 @@
+https://gsx2-uat.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsx2-uat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 146
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:40:41 GMT
+< Content-Type: text/html
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

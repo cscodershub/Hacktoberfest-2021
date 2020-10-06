@@ -1,0 +1,24 @@
+https://applecareaccess.apple.com/
+
+> GET / HTTP/1.1
+> Host: applecareaccess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:40:19 GMT
+< Content-Length: 0
+< Set-Cookie: myaccess-mdn_epdm=f558dc0cd3be0d07d13a14b676c1b378; expires=Thu, 30-Apr-20 22:40:19 GMT; max-age=3600; domain=.apple.com; httponly; secure; path=/
+< Set-Cookie: JSESSIONID=D485A3EC1316CBE5D1368AAFD0055598; Path=/; HttpOnly; secure
+< Host: applecareaccess.apple.com
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Location: https://myaccess.apple.com/ur/portal/index.html
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+

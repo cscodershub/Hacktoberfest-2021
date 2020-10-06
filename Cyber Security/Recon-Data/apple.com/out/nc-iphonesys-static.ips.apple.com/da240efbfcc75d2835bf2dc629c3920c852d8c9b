@@ -1,0 +1,23 @@
+http://nc-iphonesys-static.ips.apple.com/
+
+> GET / HTTP/1.1
+> Host: nc-iphonesys-static.ips.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Frame-Options: SAMEORIGIN
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:40:06 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 209
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /
+on this server.<br />
+</p>
+</body></html>

@@ -1,0 +1,25 @@
+http://cbp-us.nccp.eu-west-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: cbp-us.nccp.eu-west-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: memclid=4cd92332-b080-4989-8f5c-ca8f5abbebd1; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:46 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEHdpyTG%2Bya0ASFoEtU5pL79A9NQh%2BOmkmtFedWuCQTRzCKoEkahbUZcHnaZEdXBCUoHcR6rHHRnFbBtuOwzNRH7h9k8vbQwO9q2JALfWJ9BwDA%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:35:46 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0c42ca779f33a8ec0 (us-east-1)
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 45839
+< Date: Wed, 17 Jun 2020 05:35:46 GMT
+< Server: nccp-modern i-0b356d0d435b7637c
+< X-Originating-Url: http://cbp-us.nccp.eu-west-1.prodaa.netflix.com/
+< Content-Length: 199
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

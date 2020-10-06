@@ -1,0 +1,21 @@
+https://marketing.boomi.com/
+
+> GET / HTTP/1.1
+> Host: marketing.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< Vary: Accept-Encoding
+< Location: https://www.boomi.com
+< Cf-Cache-Status: DYNAMIC
+< Content-Type: text/html; charset=UTF-8
+< Cf-Request-Id: 049300c5d80000de82853e2200000001
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< Set-Cookie: __cfduid=ddd71126db16ca9d7552ec88b1d3fcadf1597482970; expires=Mon, 14-Sep-20 09:16:10 GMT; path=/; domain=.marketing.boomi.com; HttpOnly; SameSite=Lax
+< Set-Cookie: BIGipServerabaweb-nginx-app_https=!malO0EJl90AJdZi5yiPNdgcigIaMSR3MjIrHTn2C44nTT3hr00xQZF4CWYkMQYp0ivKuonBzlyjm5Q==;Path=/;Version=1;Secure;Httponly
+< Cf-Ray: 5c31d0b62ba6de82-BLR
+< Date: Sat, 15 Aug 2020 09:16:11 GMT
+
+<html><head><meta http-equiv="refresh" content="0;url=https://www.boomi.com"/></head></html>

@@ -1,0 +1,27 @@
+http://status.boomi.com/
+
+> GET / HTTP/1.1
+> Host: status.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Vary: Accept,Accept-Encoding,X-Forwarded-Host,X-Forwarded-Scheme,X-Forwarded-Proto,Fastly-SSL
+< X-Request-Id: 7dfe9ead-2c71-4c64-b847-1f3064680f63
+< X-Download-Options: noopen
+< X-Runtime: 0.033537
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Cache: MISS
+< Date: Sat, 15 Aug 2020 09:16:17 GMT
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache
+< Strict-Transport-Security: max-age=259200
+< X-Permitted-Cross-Domain-Policies: none
+< X-Statuspage-Version: 12b20022b6a90017c3c053eb831e61b0f3d55e1d
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html; charset=utf-8
+< Location: https://status.boomi.com/
+< X-Content-Type-Options: nosniff
+< X-Statuspage-Skip-Logging: true
+< Age: 0
+
+<html><body>You are being <a href="https://status.boomi.com/">redirected</a>.</body></html>

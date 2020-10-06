@@ -1,0 +1,32 @@
+https://video-parent.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: video-parent.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found on Accelerator
+< Date: Thu, 30 Apr 2020 21:30:17 GMT
+< Cache-Control: no-store
+< Content-Language: en
+< Content-Length: 287
+< Via: http/1.1 usqas4-vp-vfe-002.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Server: ATS/8.0.7
+< Content-Type: text/html
+< Cdnuuid: ee673e11-a4ad-428e-8d7f-a65c9629b7c0-1472660547
+< X-Cache: none
+
+<HTML>
+<HEAD>
+<TITLE>Not Found on Accelerator</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Not Found on Accelerator</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: Your request on the host was not found.
+Check the location and try again.
+</B></FONT>
+<HR>
+</BODY>

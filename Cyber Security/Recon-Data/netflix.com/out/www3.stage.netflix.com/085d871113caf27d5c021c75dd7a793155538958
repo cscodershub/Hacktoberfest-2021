@@ -1,0 +1,24 @@
+http://www3.stage.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www3.stage.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: http://www3.stage.netflix.com/
+< Cache-Control: no-cache, no-store
+< X-Netflix.nfstatus: 1_1
+< Server: nq_website_core-staging-develop 633ab926-fcc2-4610-b1f6-b32e10538c78
+< Content-Length: 9
+< Date: Wed, 17 Jun 2020 05:35:14 GMT
+< Edge-Control: no-cache, no-store
+< X-Netflix.proxy.execution-Time: 13
+< Content-Type: application/json
+< Via: 1.1 i-04e5bd84c1c83d88e (us-west-2)
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: nfvdid=BQFmAAEBEMp8g6DWn2S3hmIG9_sBNMBArYhWlr7JUXWHroIh24Iqi-oUGlwZtf0hW-ff6bqvjSXoZdoRXG58-Xh3ESNUgo16d6kcFFUZyIR25ctkxsey5g%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=73ebf2b2-b061-45ca-b2f2-d7b0d6de1ce3; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:14 GMT; Path=/; Domain=.netflix.com
+
+"BLOCKED"

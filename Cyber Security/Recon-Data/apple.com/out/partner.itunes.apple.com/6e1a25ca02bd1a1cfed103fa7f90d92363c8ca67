@@ -1,0 +1,21 @@
+https://partner.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: partner.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< X-B3-Traceid: c42161ecfbf81bcf10b9d1ce4c736aae
+< Apple-Tk: false
+< Apple-Originating-System: SRVPartner
+< Nncoection: close
+< B3: c42161ecfbf81bcf10b9d1ce4c736aae-d9b8f9bbf4eba9a1
+< X-Apple-Request-Uuid: c42161ec-fbf8-1bcf-10b9-d1ce4c736aae
+< X-B3-Spanid: d9b8f9bbf4eba9a1
+< Apple-Seq: 0
+< Cache-Control: private, no-cache, no-store, no-transform, must-revalidate, max-age=0
+< X-Apple-Lokamai-No-Cache: true
+< Content-Length: 0
+< Date: Thu, 30 Apr 2020 21:30:06 GMT
+< X-Apple-Jingle-Correlation-Key: YQQWD3H37AN46EFZ2HHEY43KVY
+

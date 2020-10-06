@@ -1,0 +1,20 @@
+https://bachfrieder.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: bachfrieder.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.bachfrieder.bmw-motorrad.de/
+< Content-Length: 248
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 11 Aug 2020 04:45:25 GMT
+< Server: Apache
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.bachfrieder.bmw-motorrad.de/">here</a>.</p>
+</body></html>

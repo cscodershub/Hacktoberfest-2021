@@ -1,0 +1,16 @@
+http://ichnaea.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ichnaea.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Via: 1.1 i-0266ffb1c14db5de3 (eu-west-1)
+< X-Netflix.proxy.execution-Time: 4
+< Date: Wed, 17 Jun 2020 05:34:55 GMT
+< Location: https://ichnaea.netflix.com/
+< Server: clingest-secure i-018b91d1888496f05
+< X-Netflix.nfstatus: 1_1
+< X-Originating-Url: http://ichnaea.netflix.com/
+< Content-Length: 0
+

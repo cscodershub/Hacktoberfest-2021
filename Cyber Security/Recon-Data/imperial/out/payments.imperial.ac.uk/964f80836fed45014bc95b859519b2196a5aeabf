@@ -1,0 +1,60 @@
+https://payments.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: payments.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Pragma: no-cache
+< Server: CryoHost.NET/3.0
+< Date: Sat, 18 Jul 2020 13:54:38 GMT
+< Set-Cookie: et=675A61505F556E1B6D4A6967425B445F6264733A7F76547C6950421A546442000C1E146315067552474265030A0D07561F5E5C565E3E4F564D0674060C6041076809;path=/;HttpOnly;secure;SameSite=Lax;
+< Set-Cookie: 063594147C96533F720161FBE66D28F21B15380CA1D7EB6CFBF31900C5D748B4=434D-6893-4A4D-870F-261A"; path=/; HttpOnly; secure; expires=Thu, 01 Jan 1970 00:00:00 GMT;
+< Set-Cookie: 063594147C96533F720161FBE66D28F21B15380CA1D7EB6CFBF31900C5D748B4=A28EFBFDBE192B8D8F94B6DE71482BDCE9DF3D499E7D99A0CB6052C44F920362222A9294D515622FD9EF6856DB08BC5E0D39E5EEF212FB13CEF9E2BBCFCB6533; path=/; HttpOnly; secure;
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Cache-Control: no-cache,no-store,private
+< Content-Type: text/html
+< Expires: Sat, 18 Jul 2020 13:53:38 GMT
+
+<!doctype html><html lang="en"><head><title>Imperial College London | Student Invoice and Open Payment Pathway </title><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="Robots" content="NO FOLLOW" /><meta name="Language" content="english" /><meta name="Title" content="Student Invoice and Open Payment Pathway " /><meta name="Author" content="WPM Education - www.wpmeducation.com" /><meta name="Copyright" content="Copyright © WPM Education" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="icon" href="//cdn-edu.wpmhost.net/43454e/images/favicon.ico?619C-FD25-4AE3-9A49-87DA" type="image/x-icon" /><!--[if lt IE 8]><script type="text/javascript">window.location="/incompatible-browser";</script><meta http-equiv="refresh" content="0;URL=/incompatible-browser" /><![endif]--><script type="text/javascript" src="//cdn-edu.wpmhost.net/43454e/js/polyfills.js?619C-FD25-4AE3-9A49-87DA"></script><!--[if IE 8]><script type="text/javascript" src="//cdn-edu.wpmhost.net/43454e/js/ie8.js?619C-FD25-4AE3-9A49-87DA"></script><![endif]--><!--[if gte IE 9]> --><script type="text/javascript" src="//cdn-edu.wpmhost.net/43454e/js/jquery-3.1.0.min.js?619C-FD25-4AE3-9A49-87DA"></script><script type="text/javascript" src="//cdn-edu.wpmhost.net/43454e/js/jquery-ui.min.js?619C-FD25-4AE3-9A49-87DA"></script><!-- <![endif]--><script type="text/javascript" src="//cdn-edu.wpmhost.net/43454e/js/core.js?619C-FD25-4AE3-9A49-87DA"></script><script type="text/javascript" src="//cdn-edu.wpmhost.net/43454e/js/keyPad.js?619C-FD25-4AE3-9A49-87DA"></script><script type="text/javascript" src="//cdn-edu.wpmhost.net/504757/includes/js/wpm.js?619C-FD25-4AE3-9A49-87DA"></script><link href="//cdn-edu.wpmhost.net/504757/152316ce62/css_2_5A2A-AE6D-4EF3-B1D0-C10A.css?619C-FD25-4AE3-9A49-87DA" rel="stylesheet" type="text/css" /><link href="//cdn-edu.wpmhost.net/43454e/css/jquery-ui.min.css?619C-FD25-4AE3-9A49-87DA" rel="stylesheet" type="text/css" /><link href="//cdn-edu.wpmhost.net/43454e/css/normalize.css?619C-FD25-4AE3-9A49-87DA" rel="stylesheet" type="text/css" /><link href="//cdn-edu.wpmhost.net/43454e/css/skeleton.css?619C-FD25-4AE3-9A49-87DA" rel="stylesheet" type="text/css" /><link href="//cdn-edu.wpmhost.net/504757/includes/css/styles_v1.css?619C-FD25-4AE3-9A49-87DA" rel="stylesheet" type="text/css" /><!--[if gte IE 9]> --><link href="//cdn-edu.wpmhost.net/504757/includes/css/styles_v1_550.css?619C-FD25-4AE3-9A49-87DA" rel="stylesheet" type="text/css" media="screen and (max-width: 550px)" /><!-- <![endif]--><!--[if lte IE 9]><link href="//cdn-edu.wpmhost.net/504757/includes/css/lteie9.css?619C-FD25-4AE3-9A49-87DA" rel="stylesheet" type="text/css" /><![endif]--> <!--[if IE 8]><link href="//cdn-edu.wpmhost.net/504757/includes/css/ie8.css?619C-FD25-4AE3-9A49-87DA" rel="stylesheet" type="text/css" /><![endif]--><!--[if lt IE 9]><style type="text/css"><![endif]--></style><link href="//cdn-edu.wpmhost.net/504757/includes/css/print.css?619C-FD25-4AE3-9A49-87DA" rel="stylesheet" type="text/css" media="print" /></head><body id="body"><div id="wrapper"><div id="client-header" aria-hidden="true"><div id="ic_header"> <h1>Imperial College London - Online Payments</h1> <div id="ic_logo"> <a href="http://www.imperial.ac.uk"><img src="//cdn-edu.wpmhost.net/504757/152316ce62/0995-8711-4077-94ED-7827.png" alt="Imperial College London"></a> </div> </div></div><main class="container" id="container"><div id="content"><section class="panel">
+<div class="panel-heading-outer">
+<header class="panel-heading">
+<h2>Payment Login Details</h2>
+</header>
+</div>
+<div class="panel-body">
+<div data-dirty="true"><b>To pay for Tuition or Accommodation Fees <a href="https://payments.imperial.ac.uk/guest">please click here.</a> Your Student CID and Invoice Number are printed on the front of your invoice.</b>
+<br>
+<br>
+In anticipation of the new Imperial College London fees gateway, access to the student pathway for visibility of outstanding invoices has been removed. When our new service is live you will be notified via email once a new transaction is raised on your account with a link to My Imperial. The fee gateway will allow students to view, download or email copies of invoices or credit notes, check the latest account balance, and make payments by card or bank transfer. Please note that this is <u>not</u> anticipated for our 2019/20 intake.
+<br>
+<br>
+If you have any queries about making payments, you can contact us by emailing <a href="mailto:studentpay.queries@imperial.ac.uk">studentpay.queries@imperial.ac.uk</a>. Please ensure you quote your CID number in all correspondence.</div>
+</div>
+</section>
+<form action="/studentinvoice" method="post">
+<div class="row">
+<div id="running-footer" class="twelve columns">
+<div class="row">
+<div class="four columns"></div>
+<div class="four columns">
+<div class="button-container">
+<button type="submit" id="form-submit" tabindex="100" class="button-primary">
+<span>Continue</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="85D9B7F10929467798CA30B7C8E6F6C8" value="97A385DF581340A1A2428869F388818E" />
+</form>
+<script>(function(){"use strict";window.wpm.init({module:"default",schema:[],config:{}});}());</script>
+<div id="thawteseal" title="Click to Verify - This site chose Thawte SSL for secure e-commerce and confidential communications."><div><script type="text/javascript" src="https://seal.thawte.com/getthawteseal?host_name=payments.imperial.ac.uk&amp;size=S&amp;lang=en"></script></div><div><a href="http://www.thawte.com/products/" target="_blank">ABOUT SSL CERTIFICATES</a></div></div></div></main><footer id="wpm-footer"><div id="ic_footer"> <h2 class="sr-only">Address</h2> <div class="address"> <p itemtype="http://schema.org/PostalAddress" itemscope=""> <span itemprop="name">Imperial College London</span><br> <span itemprop="addressLocality">South Kensington Campus</span><br><span itemprop="addressLocality">London</span> <span itemprop="postalCode">SW7 2AZ</span>, <span itemprop="addressCountry">UK</span><br><span itemprop="telephone">tel: +44 (0)20 7589 5111</span> <br> <a class="location-link" href="https://www.imperial.ac.uk/visit/campuses/"> Campuses &amp; maps </a> </p> </div> </div></footer><script type="text/javascript">/*<![CDATA[*/  
+                            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                          ga('create', 'UA-125969-7', 'auto');ga('send', 'pageview');/*]]>*/</script></div></body></html>

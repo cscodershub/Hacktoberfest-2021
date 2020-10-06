@@ -1,0 +1,19 @@
+https://webservice.mini.de/
+
+> GET / HTTP/1.1
+> Host: webservice.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< Last-Modified: Mon, 23 Mar 2020 09:20:33 GMT
+< Etag: "c-5a18225aff9a9"
+< Content-Length: 12
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 11 Aug 2020 04:54:40 GMT
+< Accept-Ranges: bytes
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Cache-Control: public, max-age=3600
+
+Hallo Welt!

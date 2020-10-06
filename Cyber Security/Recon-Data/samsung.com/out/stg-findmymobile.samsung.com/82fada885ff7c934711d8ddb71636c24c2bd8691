@@ -1,0 +1,15 @@
+http://stg-findmymobile.samsung.com/
+
+> GET / HTTP/1.1
+> Host: stg-findmymobile.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Vary: Accept-Encoding
+< X-Frame-Options: DENY
+< Date: Wed, 10 Jun 2020 05:36:50 GMT
+< Location: https://stg-findmymobile.samsung.com/
+< Server: Apache
+
+ 

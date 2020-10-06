@@ -1,0 +1,26 @@
+https://metadata.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: metadata.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< X-Request-Id: 906aa29d-f2e8-45e4-aca7-e169a80d1ea8
+< Cache-Control: private, must-revalidate, max-age=0
+< Date: Thu, 30 Apr 2020 21:29:43 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Runtime: 0.011344
+< X-Xss-Protection: 1; mode=block
+< Server: nginx/1.4.6 (Ubuntu)
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body class=''></body>
+</html>

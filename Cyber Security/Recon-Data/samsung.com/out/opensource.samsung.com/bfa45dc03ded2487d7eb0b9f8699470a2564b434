@@ -1,0 +1,21 @@
+http://opensource.samsung.com/
+
+> GET / HTTP/1.1
+> Host: opensource.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: TS01be26c4=0130e8942a224f0e137ed62941a42f1a48e246776c126601edee115dca840744f0fdd1c40120b8d09d14531c0828c6a30890a7f53b; Path=/
+< Date: Wed, 10 Jun 2020 05:36:43 GMT
+< X-Frame-Options: SAMEORIGIN
+< Location: https://opensource.samsung.com/
+< Content-Length: 215
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://opensource.samsung.com/">here</a>.</p>
+</body></html>

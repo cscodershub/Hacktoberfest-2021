@@ -1,0 +1,23 @@
+https://ondemand.prodclone.boomi.com/
+
+> GET / HTTP/1.1
+> Host: ondemand.prodclone.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Sat, 15 Aug 2020 09:15:50 GMT
+< Content-Type: text/html; charset=UTF-8
+< Content-Length: 92
+< Server: Apache/2.4.6 (Red Hat Enterprise Linux) PHP/5.4.16
+< X-Powered-By: PHP/5.4.16
+
+<script type="text/javascript">
+
+<!--
+
+window.location = "/application/"
+
+//-->
+
+</script>
+

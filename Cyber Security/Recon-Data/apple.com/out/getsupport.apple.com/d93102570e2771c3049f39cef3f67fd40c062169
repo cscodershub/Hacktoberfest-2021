@@ -1,0 +1,105 @@
+https://getsupport.apple.com/
+
+> GET / HTTP/1.1
+> Host: getsupport.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Txnid: e3ffdb21-4e18-4b84-8c3b-5ecab82354bd
+< Set-Cookie: sh_getsupport=0a8b0ce1c89fe2daf529285679cf9324; domain=getsupport.apple.com; httponly; secure; path=/
+< Set-Cookie: JSESSIONID=node01tksxxgi676o41acriywskpd3y428286.node0; Path=/; Secure; HttpOnly
+< Set-Cookie: CASTR=23c6c864-5771-4c88-8b43-b0ea3d7b932a;Max-Age=1800;path=/;HttpOnly;Secure
+< Set-Cookie: ORG_AFFINITY=MDN-SH2; Path=/; Secure; HttpOnly
+< Set-Cookie: CAS=en~IN;Max-Age=31104000;path=/;HttpOnly;Secure
+< Set-Cookie: POD=in~en; Path=/; Domain=.apple.com; Expires=Sun, 25-Apr-2021 21:28:22 GMT; Max-Age=31104000
+< Set-Cookie: CASTR=c9837b27-87c1-4a46-a5f4-ec969a8557bc;Max-Age=1800;path=/;HttpOnly;Secure
+< Set-Cookie: ORG_AFFINITY=MDN-SH2; Path=/; Secure; HttpOnly
+< Content-Security-Policy: default-src 'self' *.apple.com *.cdn-apple.com *.apple-mapkit.com *.autonavi.com; img-src *.apple.com *.cdn-apple.com *.apple-mapkit.com *.autonavi.com  data: 'unsafe-inline'; script-src 'unsafe-inline' 'unsafe-eval' *.apple.com *.cdn-apple.com *.apple-mapkit.com *.autonavi.com; style-src 'unsafe-inline' *.apple.com *.cdn-apple.com *.apple-mapkit.com *.autonavi.com
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-cache,no-store
+< Server: Apple
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Date: Thu, 30 Apr 2020 21:28:22 GMT
+< X-Robots-Tag: noindex
+< X-Robots-Tag: noindex
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Pragma: no-cache
+< Vary: Accept-Encoding, User-Agent
+< Content-Language: en-US
+< X-Cache: TCP_MISS from a23-203-63-5.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Content-Type: text/html;charset=utf-8
+
+<!DOCTYPE html>
+
+<html lang="en-IN" dir="ltr">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contact Customer Support">
+<meta name="author" content="">
+<meta name="robots" content="noindex, follow" />
+<meta name="Baiduspider, 360Spider, HaoSouSpider, Sosospider, sogou spider, Daumoa" content="no archive" />
+
+<noscript><meta HTTP-EQUIV="refresh" CONTENT="0; url=/web/v1/noJSEnabled"></noscript>
+<link rel="shortcut icon" href="//www.apple.com/favicon.ico" />
+<base href="/">
+<title>Get Support </title> 
+<!--
+    Optimized_cas: true
+Landing page: null
+Current page: CAS1
+Product selection: null
+User logged in: null
+User logged in: null
+Locale mismatch: null
+Offered country mismatch: null
+Caller: null
+Cicd: null
+Campaign: null
+SG: null
+PFC: null
+PGF: null
+
+-->
+ 
+    
+<link rel="stylesheet" href="/build/css/index1j7o2jk.css"> 
+
+ 
+<script src="/build/js/vendor3jtkcjf.js" defer></script> 
+<script src="/build/js/index1qui3t1.js" defer></script> 
+<script src="/messageResources/1049421117.js" defer></script> 
+<script src="/build/js/ImageSource3huu2ol.js" defer></script> 
+
+
+    <script>
+        window._applemd = {
+            page : {
+                support_site: "us.support",
+                site_section: "tools",
+                content_type: "contact",
+                information_type: "tool"
+            }
+        };
+    </script>
+    <script src='/lib/internal/omniture/v5/step2_appleSatelliteLib.min.packager-20180302A.dtm-20181002A.prod.js'></script>
+    </head>
+
+<body>
+
+
+    <input type="hidden" value="Mon Apr 20 2020 17:42:17 GMT+0000 (GMT)"/>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            Class('CASService').initCAS({"locale":"en_IN","page":"CAS1","localeDetails":{"CAS":{"countryName":"India","countryCode":"IN","currentLang":"English","desc":"India (English)","locale":"en_IN","supportedLang":[{"code":"en","description":"English","isDefault":true}],"isRetailCountry":false,"pod":"in~en","DS_Format":"IN-EN","isCASSupported":true,"isCASPicker":false,"isSASOSupported":true,"isSASOPicker":false,"countryFlag":"flag flag-in","countryFlagPosition":"-250px -350px","isVoicePassLocale":false,"hfLocaleOverride":"en_IN","hfVersion":"v5.1","articleViewLocaleOverride":"en_US","exadCountry":"IN","doubleByteCharCtry":false,"isMySPLocale":false,"isGSALocale":false,"isRubixCountry":false,"timeFormat":"12","topicSearch":true,"exadCountryCode":"IND"}},"viewPref":"allproducts","productHierarchyRequest":{},"dynamicResources":{"cas1":{"__Welcome.Header":"el.exp0.welcome.header","__Welcome.Title":"el.exp1.welcome.body","__QP.Message":"el.shared.qpmessage.default"},"cas2":{"__Welcome.Header":"el.exp2.welcome.body","__Welcome.Title":"el.exp2.welcome.body","__HVT.Welcome.Title":"el.exp2.search.welcome.body","__QP.Message":"el.shared.qpmessage.default"},"cas3":{"__QP.Message":"el.shared.qpmessage.default"}},"retailInfo":false,"appleSupportUrl":"http://www.apple.com/support/","mspUrl":"https://supportprofile.apple.com","showCovOnWeb":false,"showAppBanner":false,"registeredProducts":true},[{"Validator.email":"^$|^([A-Za-z0-9._%+-]|.*[\\xC0-\\uFFFF])+@([A-Za-z0-9.-]|.*[\\xC0-\\uFFFF])+\\.([A-Za-z0-9]|.*[\\xC0-\\uFFFF]){2,}$"}, {"Validator.email.length":"255"}, {"Validator.fname":"(?=.*[A-Z]|.*[a-z]|.*[-,./\\\\@_\\d]|.*[\\xC0-\\uFFFF])[a-zA-Z0-9\\xC0-\\uFFFF'\\s\\-\\.\\,\\(\\)/\\\\@_\\d\\&\\`\\~\\:\\+]{1,31}"}, {"Validator.fname.length":"30"}, {"Validator.lname":"(?=.*[A-Z]|.*[a-z]|.*[-,./\\\\@_\\d]|.*[\\xC0-\\uFFFF])[a-zA-Z0-9\\xC0-\\uFFFF'\\s\\-\\.\\,\\(\\)/\\\\@_\\d\\&\\`\\~\\:\\+]{1,31}"}, {"Validator.lname.length":"30"}, {"Validator.phone":"^[0-9\\(\\)\\-\\/\\\\.\\+\\s]{1,20}$"}, {"Validator.phone.length":"20"}, {"Validator.serialNumber":"^[A-Za-z0-9]{10,40}$"}, {"Validator.serialNumber.length":"18"}, {"Validator.repairId":"^[a-zA-Z0-9]{1,15}$"}, {"Validator.repairId.length":"15"}, {"Validator.caseId":"^[0-9a-zA-Z]{1,15}$"}, {"Validator.caseId.length":"15"}, {"Validator.govtId":"^[0-9a-zA-Z]*$"}, {"Validator.govtId.length":"50"}, {"Validator.postalCode":"^[0-9a-zA-Z-]{1,12}$"}, {"Validator.postalCode.length":"12"}, {"Validator.location":"^[a-zA-Z\\xC0-\\uFFFF\\.\\w\\s,_-]*$"}, {"Validator.location.length":"50"}, {"Validator.firstName":"(?=.*[A-Z]|.*[a-z]|.*[-,./\\\\@_\\d]|.*[\\xC0-\\uFFFF])[a-zA-Z0-9\\xC0-\\uFFFF'\\s\\-\\.\\,\\(\\)/\\\\@_\\d\\&\\`\\~\\:\\+]{1,31}"}, {"Validator.firstName.length":"30"}, {"Validator.lastName":"(?=.*[A-Z]|.*[a-z]|.*[-,./\\\\@_\\d]|.*[\\xC0-\\uFFFF])[a-zA-Z0-9\\xC0-\\uFFFF'\\s\\-\\.\\,\\(\\)/\\\\@_\\d\\&\\`\\~\\:\\+]{1,31}"}, {"Validator.lastName.length":"30"}, {"Validator.answerText":"^[a-zA-Z\\xC0-\\uFFFF0-9\\pP\\_\\-\\.\\,\\&\\/\\?\\#\\:\\(\\)\\s\\pZ\\pS]*$"}, {"Validator.answerText.length":"251"}, {"Validator.customerComments":"^([\\p{Pd}\\p{Pi}\\p{Pf}\\p{Pc}\\p{Po}\\p{So}\\p{Sc}\\p{Sk}\\p{Z}\\p{M}\\p{N}\\p{C}\\pL0-9\\|\\(\\)\\[\\]\\{\\}\\=\\+\\~\\_\\-\\.\\,\\:\\;\\@\\&\\!\\$\\^\\*\\?\\/\\\\'\\`\\(\\)\\\"\\<\\>\\?])*$"}, {"Validator.customerComments.length":"2500"}, {"Validator.appleId":"^[a-zA-Z\\pL0-9\\_\\-\\.\\,\\@\\!\\s\\+]*$"}, {"Validator.appleId.length":"50"}],"");
+        });
+    </script>
+    </body>
+
+</html>
+
+
+    

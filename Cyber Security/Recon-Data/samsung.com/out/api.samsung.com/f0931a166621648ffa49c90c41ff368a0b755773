@@ -1,0 +1,24 @@
+http://api.samsung.com/
+
+> GET / HTTP/1.1
+> Host: api.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-J_http_tuid_: 0
+< X-Domainid: 3000
+< X-Agentid: 67538
+< Access-Control-Allow-Methods: POST, GET
+< Access-Control-Allow-Methods: POST, GET
+< Date: Wed, 10 Jun 2020 05:37:04 GMT
+< Set-Cookie: WMONID=NQhEGXgRweC; Expires=Thu, 10-Jun-2021 14:37:4 GMT; Path=/
+< Access-Control-Allow-Origin: *
+< Content-Type: text/html
+< Content-Length: 159
+< Server: Null
+
+<p>
+The page you requested is not available.<br>
+Sorry, we are having a problem executing your request.<br>
+The page you requested could not be found.
+</p>

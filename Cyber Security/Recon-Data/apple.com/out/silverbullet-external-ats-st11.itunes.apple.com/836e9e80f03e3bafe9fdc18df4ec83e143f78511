@@ -1,0 +1,11 @@
+http://silverbullet-external-ats-st11.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: silverbullet-external-ats-st11.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found : Moved Temporarily
+< Location: https://silverbullet-external-ats-st11.itunes.apple.com/
+< Cache-Control: no-cache
+< Pragma: no-cache
+

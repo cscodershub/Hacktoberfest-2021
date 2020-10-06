@@ -1,0 +1,21 @@
+https://test.connect.boomi.com/
+
+> GET / HTTP/1.1
+> Host: test.connect.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html; charset=iso-8859-1
+< Cache-Control: must-revalidate,no-cache,no-store
+< Content-Length: 238
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<title>Error 404 NOT_FOUND</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /. Reason:
+<pre>    NOT_FOUND</pre></p>
+</body>
+</html>

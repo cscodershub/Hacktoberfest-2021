@@ -1,0 +1,18 @@
+https://mta-sts.foo.bmw.de/
+
+> GET / HTTP/1.1
+> Host: mta-sts.foo.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Tue, 11 Aug 2020 04:51:05 GMT
+< Content-Type: text/html
+< Server: nginx
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body bgcolor="white">
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

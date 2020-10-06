@@ -1,0 +1,16 @@
+http://production.yummly.com/
+
+> GET / HTTP/1.1
+> Host: production.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Pragma: no-cache
+< Location: php/ebr_start.php
+< Content-Length: 0
+< Date: Sat, 15 Aug 2020 14:57:37 GMT
+< Server: Apache
+< Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+< Cache-Control: post-check=0, pre-check=0
+< Content-Type: text/html; charset=UTF-8
+

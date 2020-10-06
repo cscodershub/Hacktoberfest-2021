@@ -1,0 +1,23 @@
+http://invitation-pv.ess.apple.com/
+
+> GET / HTTP/1.1
+> Host: invitation-pv.ess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 201
+< Location: https://invitation-pv.ess.apple.com/
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:40:20 GMT
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000
+< X-B3-Traceid: 6003e4fb203a408b
+< Content-Type: text/html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>AppleHttpServer/62e237dc531d</center>
+</body>
+</html>

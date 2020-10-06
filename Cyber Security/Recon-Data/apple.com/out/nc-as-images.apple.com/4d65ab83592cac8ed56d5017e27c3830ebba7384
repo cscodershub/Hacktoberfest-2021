@@ -1,0 +1,13 @@
+https://nc-as-images.apple.com/
+
+> GET / HTTP/1.1
+> Host: nc-as-images.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 53
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:29:30 GMT
+
+<html><body><h1>Resource not found</h1></body></html>

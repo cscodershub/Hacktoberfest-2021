@@ -1,0 +1,24 @@
+https://faq.mini.de/
+
+> GET / HTTP/1.1
+> Host: faq.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 0
+< Date: Tue, 11 Aug 2020 04:54:40 GMT
+< Set-Cookie: AWSALB=NIn6SeCBXzl1DY6cA4YPFCqrT50BT+iN686IJxv33b2FEmGkpjb1Jxw0WDDiCZhXm90W39QBYusi9IR9YUClBwVhk98R2cTMZpZ8Z98HTXi1d8Pk9aFUlMo3tbwm; Expires=Tue, 18 Aug 2020 04:54:40 GMT; Path=/
+< Set-Cookie: AWSALBCORS=NIn6SeCBXzl1DY6cA4YPFCqrT50BT+iN686IJxv33b2FEmGkpjb1Jxw0WDDiCZhXm90W39QBYusi9IR9YUClBwVhk98R2cTMZpZ8Z98HTXi1d8Pk9aFUlMo3tbwm; Expires=Tue, 18 Aug 2020 04:54:40 GMT; Path=/; SameSite=None; Secure
+< Set-Cookie: LiSESSIONID=59426757C40B03D31600AA2480EC69EA; Path=/; Secure; HttpOnly
+< Set-Cookie: LithiumUserInfo=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+< Set-Cookie: LithiumUserSecure=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< X-Amz-Cf-Pop: MRS52-C1
+< X-Amz-Cf-Id: Y3lvwgIECsKsFfJ4iM48o8lG9J4CnsBcnHakeSu3Eq4Jv_NatYWcpg==
+< Server: Apache
+< Pragma: no-cache
+< Location: https://faq.mini.de/?domain-not-configured-for-any-community-category=faq.mini.de
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Cache: Miss from cloudfront
+< Via: 1.1 3749ce6257bda8968ddd48c7745a8570.cloudfront.net (CloudFront)
+

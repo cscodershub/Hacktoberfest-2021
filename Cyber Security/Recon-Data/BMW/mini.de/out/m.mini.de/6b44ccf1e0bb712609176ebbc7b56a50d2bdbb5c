@@ -1,0 +1,20 @@
+http://m.mini.de/
+
+> GET / HTTP/1.1
+> Host: m.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 0
+< Content-Type: text/html; charset=utf-8
+< Set-Cookie: JSESSIONID=node014stmaeomcxxd1nkwmj9zn4al2518738.node0;Path=/;HttpOnly
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Location: http://m.mini.de/content.html
+< Date: Tue, 11 Aug 2020 04:54:45 GMT
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+< Cache-Control: max-age=14400, must-revalidate
+

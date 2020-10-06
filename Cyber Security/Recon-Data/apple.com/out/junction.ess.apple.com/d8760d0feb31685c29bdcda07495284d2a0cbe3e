@@ -1,0 +1,19 @@
+https://junction.ess.apple.com/
+
+> GET / HTTP/1.1
+> Host: junction.ess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< X-Apple-Request-Uuid: 51fd5d2e-6845-5ac0-4d3c-30d9469ff1ff
+< X-B3-Traceid: 815c492e35eeac49
+< Strict-Transport-Security: max-age=31536000
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:40:11 GMT
+< Content-Length: 0
+< X-Responding-Instance: JunctionService:380000:magent1631.usspk05.pie.apple.com:31022:2007B-132:nocommit
+< X-Apple-Jingle-Correlation-Key: KH6V2LTIIVNMATJ4GDMUNH7R74
+< Apple-Seq: 0
+< Apple-Tk: false
+< Apple-Originating-System: UnknownOriginatingSystem
+

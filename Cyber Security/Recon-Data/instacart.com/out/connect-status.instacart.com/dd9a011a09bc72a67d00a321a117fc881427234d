@@ -1,0 +1,2565 @@
+https://connect-status.instacart.com/
+
+> GET / HTTP/1.1
+> Host: connect-status.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Runtime: 0.242166
+< Access-Control-Allow-Origin: *
+< Referrer-Policy: strict-origin-when-cross-origin
+< Age: 0
+< Vary: Accept,Accept-Encoding,X-Forwarded-Host,X-Forwarded-Scheme,X-Forwarded-Proto,Fastly-SSL
+< Content-Type: text/html; charset=utf-8
+< X-Download-Options: noopen
+< Strict-Transport-Security: max-age=259200
+< X-Statuspage-Skip-Logging: true
+< Date: Tue, 04 Aug 2020 04:46:58 GMT
+< X-Request-Id: 1efb1c5a-efc2-45fa-9769-f72ba8ec3e24
+< Accept-Ranges: bytes
+< X-Statuspage-Version: 7cc4b692549dbb0942ae416c1b1434b39b77bb64
+< X-Content-Type-Options: nosniff
+< Etag: W/"gz[78aba9be4fc1d7a628c07368d65c66ab]"
+< Cache-Control: max-age=0, private, must-revalidate
+< X-Cache: MISS
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- force IE browsers in compatibility mode to use their most aggressive rendering engine -->
+
+    <meta charset="utf-8">
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bc12d0ca7c","applicationID":"1887052,5587075","transactionName":"IlgMRUFXWFhWEE5CQwBDF0IcS0BVRxcSHl4PUwdJ","queueTime":0,"applicationTime":244,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"bc12d0ca7c",applicationID:"1887052"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1173.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+    <title>Instacart Connect Status</title>
+    <meta name="description" content="Welcome to Instacart Connect&#39;s home for real-time and historical data on system performance.">
+
+    <!-- Mobile viewport optimization h5bp.com/ad -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- Time this page was rendered - http://purl.org/dc/terms/issued -->
+    <meta name="issued" content="1596516418">
+
+    <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+    <meta http-equiv="cleartype" content="on">
+
+    <!-- Le fonts -->
+<style>
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaLight-f0b2f7c12b6b87c65c02d3c1738047ea67a7607fd767056d8a2964cc6a2393f7.eot?host=connect-status.instacart.com');
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaLight-f0b2f7c12b6b87c65c02d3c1738047ea67a7607fd767056d8a2964cc6a2393f7.eot?host=connect-status.instacart.com#iefix') format('embedded-opentype'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaLight-e642ffe82005c6208632538a557e7f5dccb835c0303b06f17f55ccf567907241.woff?host=connect-status.instacart.com') format('woff'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaLight-0f094da9b301d03292f97db5544142a16f9f2ddf50af91d44753d9310c194c5f.ttf?host=connect-status.instacart.com') format('truetype');
+    font-weight:300;
+    font-style:normal;
+  }
+   
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegular-366d17769d864aa72f27defaddf591e460a1de4984bb24dacea57a9fc1d14878.eot?host=connect-status.instacart.com');
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegular-366d17769d864aa72f27defaddf591e460a1de4984bb24dacea57a9fc1d14878.eot?host=connect-status.instacart.com#iefix') format('embedded-opentype'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegular-2ee4c449a9ed716f1d88207bd1094e21b69e2818b5cd36b28ad809dc1924ec54.woff?host=connect-status.instacart.com') format('woff'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegular-a40a469edbd27b65b845b8000d47445a17def8ba677f4eb836ad1808f7495173.ttf?host=connect-status.instacart.com') format('truetype');
+    font-weight:400;
+    font-style:normal;
+  }
+   
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegularIt-0bf83a850b45e4ccda15bd04691e3c47ae84fec3588363b53618bd275a98cbb7.eot?host=connect-status.instacart.com');
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegularIt-0bf83a850b45e4ccda15bd04691e3c47ae84fec3588363b53618bd275a98cbb7.eot?host=connect-status.instacart.com#iefix') format('embedded-opentype'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegularIt-0c394ec7a111aa7928ea470ec0a67c44ebdaa0f93d1c3341abb69656cc26cbdd.woff?host=connect-status.instacart.com') format('woff'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegularIt-9e43859f8015a4d47d9eaf7bafe8d1e26e3298795ce1f4cdb0be0479b8a4605e.ttf?host=connect-status.instacart.com') format('truetype');
+    font-weight:400;
+    font-style:italic;
+  }
+   
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaSemibold-09566917307251d22021a3f91fc646f3e45f8d095209bcd2cded8a1979f06e54.eot?host=connect-status.instacart.com');
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaSemibold-09566917307251d22021a3f91fc646f3e45f8d095209bcd2cded8a1979f06e54.eot?host=connect-status.instacart.com#iefix') format('embedded-opentype'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaSemibold-86724fb2152613d735ba47c3f47a9ad2424b898bea4bece213dacee40344f966.woff?host=connect-status.instacart.com') format('woff'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaSemibold-cf3e4eb7fbdf6fb83e526cc2a0141e55b01097e6e1abfd4cbdc3eda75d183f74.ttf?host=connect-status.instacart.com') format('truetype');
+    font-weight:500;
+    font-style:normal;
+  }
+   
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaBold-622ea489d20e12e691663f83217105e957e2d3d09703707d40155a29c06cc9d9.eot?host=connect-status.instacart.com');
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaBold-622ea489d20e12e691663f83217105e957e2d3d09703707d40155a29c06cc9d9.eot?host=connect-status.instacart.com#iefix') format('embedded-opentype'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaBold-c8dc577ff7f76d2fc199843e38c04bb2e9fd15889421358d966a9f846c2ed1cd.woff?host=connect-status.instacart.com') format('woff'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaBold-27177fe9242acbe089276ee587feef781446667ffe9b6fdc5b7fe21ad73e12f3.ttf?host=connect-status.instacart.com') format('truetype');
+    font-weight:700;
+    font-style:normal;
+  }
+</style>
+
+
+      <link rel="shortcut icon" type="image/x-icon" href="//dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/105027/favicon_final.png" />
+
+    <link rel="shortcut icon" href='//dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/105027/favicon_final.png'>
+
+    <link rel="alternate" type="application/atom+xml" href="https://connect-status.instacart.com/history.atom" title="Instacart Connect Status History - Atom Feed">
+    <link rel="alternate" type="application/rss+xml" href="https://connect-status.instacart.com/history.rss" title="Instacart Connect Status History - RSS Feed">
+
+      <!-- Canonical Link to ensure that only the custom domain is indexed when present -->
+      <link rel="canonical" href="https://connect-status.instacart.com">
+
+    <meta name="_globalsign-domain-verification" content="y_VzfckMy4iePo5oDJNivyYIjh8LffYa4jzUndm_bZ"/>
+
+      <meta name="robots" content="noindex,nofollow">
+
+    <link rel="alternate" type="application/atom+xml" title="ATOM" href="https://connect-status.instacart.com/history.atom" />
+
+    <!-- Le styles -->
+    <link rel="stylesheet" media="screen" href="https://dka575ofm4ao0.cloudfront.net/packs/0.e2a888875bbb084ed154.css" />
+    <link rel="stylesheet" media="all" href="https://dka575ofm4ao0.cloudfront.net/assets/status/status_manifest-98292317d4ed9415016c4d3a41c3e14b8def64e7b1849621d177c7837b6113a2.css" />
+
+    <script src="https://dka575ofm4ao0.cloudfront.net/assets/jquery-3.5.1.min-729e416557a365062a8a20f0562f18aa171da57298005d392312670c706c68de.js"></script>
+
+    <script>
+      window.pageColorData = {"blue":"#3498DB","border":"#E0E0E0","body_background":"#ffffff","font":"#333333","graph":"#3498db","green":"#2fcc66","light_font":"#AAAAAA","link":"#3498db","orange":"#e67e22","red":"#e74c3c","yellow":"#f1c40f","no_data":"#b3bac5"};
+    </script>
+    <style>
+  /* BODY BACKGROUND */ /* BODY BACKGROUND */ /* BODY BACKGROUND */ /* BODY BACKGROUND */ /* BODY BACKGROUND */
+  body,
+  .layout-content.status.status-api .section .example-container .example-opener .color-secondary,
+  .grouped-items-selector,
+  .layout-content.status.status-full-history .history-nav a.current,
+  div[id^="subscribe-modal"] .modal-footer,
+  div[id^="subscribe-modal"],
+  #uptime-tooltip .tooltip-box {
+    background-color:#ffffff;
+  }
+
+  #uptime-tooltip .pointer-container .pointer-smaller {
+    border-bottom-color:#ffffff;
+  }
+
+
+
+
+  /* PRIMARY FONT COLOR */ /* PRIMARY FONT COLOR */ /* PRIMARY FONT COLOR */ /* PRIMARY FONT COLOR */
+  body.status,
+  .color-primary,
+  .color-primary:hover,
+  .layout-content.status-index .status-day .update-title.impact-none a,
+  .layout-content.status-index .status-day .update-title.impact-none a:hover,
+  .layout-content.status-index .timeframes-container .timeframe.active,
+  .layout-content.status-full-history .month .incident-container .impact-none,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-none a,
+  .incident-history .impact-none,
+  .layout-content.status .grouped-items-selector.inline .grouped-item.active,
+  .layout-content.status.status-full-history .history-nav a.current,
+  .layout-content.status.status-full-history .history-nav a:not(.current):hover,
+  div[id^="subscribe-modal"] .modal-header .close,
+  #uptime-tooltip .tooltip-box .tooltip-content .related-events .related-event a.related-event-link {
+    color:#333333;
+  }
+
+  .layout-content.status.status-index .components-statuses .component-container .name {
+    color:#333333;
+    color:rgba(51,51,51,.8);
+  }
+
+
+
+
+  /* SECONDARY FONT COLOR */ /* SECONDARY FONT COLOR */ /* SECONDARY FONT COLOR */ /* SECONDARY FONT COLOR */
+  small,
+  .layout-content.status .table-row .date,
+  .color-secondary,
+  .layout-content.status .grouped-items-selector.inline .grouped-item,
+  .layout-content.status.status-full-history .history-footer .pagination a.disabled,
+  .layout-content.status.status-full-history .history-nav a,
+  #uptime-tooltip .tooltip-box .tooltip-content .related-events #related-event-header {
+    color:#AAAAAA;
+  }
+
+
+
+
+  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */
+  body.status .layout-content.status .border-color,
+  hr,
+  .tooltip-base,
+  .markdown-display table,
+  div[id^="subscribe-modal"],
+  #uptime-tooltip .tooltip-box {
+    border-color:#E0E0E0;
+  }
+
+  div[id^="subscribe-modal"] .modal-footer,
+  .markdown-display table td {
+    border-top-color:#E0E0E0;
+  }
+
+  div[id^="subscribe-modal"] .modal-header .close:hover {
+    color:#E0E0E0;
+  }
+
+  .markdown-display table td + td, .markdown-display table th + th {
+    border-left-color:#E0E0E0;
+  }
+
+  div[id^="subscribe-modal"] .modal-header,
+  #uptime-tooltip .pointer-container .pointer-larger {
+    border-bottom-color:#E0E0E0;
+  }
+
+  #uptime-tooltip .tooltip-box .outage-field {
+    /*
+      Generate the background-color for the outage-field from the css_body_background_color and css_border_color.
+
+      For the default background (#ffffff) and default css_border_color (#e0e0e0), use the luminosity of the default background with a magic number to arrive at
+      the original outage-field background color (#f4f5f7). I used the formula Target Color = Color * alpha + Background * (1 - alpha) to find the magic number of ~0.08.
+
+      For darker css_body_background_color, luminosity values are lower so alpha trends toward becoming transparent (thus outage-field background becomes same as css_body_background_color).
+    */
+    background-color: rgba(224,224,224,0.31);
+
+    /*
+      outage-field border-color alpha is inverse to the luminosity of css_body_background_color.
+      That is to say, with a default white background this border is transparent, but on a black background, it's opaque css_border_color.
+    */
+    border-color: rgba(224,224,224,0.0);
+  }
+
+
+
+
+  /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */
+  .layout-content.status.status-index .status-day .update-title.impact-critical a,
+  .layout-content.status.status-index .status-day .update-title.impact-critical a:hover,
+  .layout-content.status.status-index .page-status.status-critical,
+  .layout-content.status.status-index .unresolved-incident.impact-critical .incident-title,
+  .flat-button.background-red {
+    background-color:#e74c3c;
+  }
+
+  .layout-content.status-index .components-statuses .component-container.status-red:after,
+  .layout-content.status-full-history .month .incident-container .impact-critical,
+  .layout-content.status-incident .incident-name.impact-critical,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-critical a,
+  .status-red .icon-indicator,
+  .incident-history .impact-critical,
+  .components-container .component-inner-container.status-red .component-status,
+  .components-container .component-inner-container.status-red .icon-indicator {
+    color:#e74c3c;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-critical .updates {
+    border-color:#e74c3c;
+  }
+
+
+
+
+  /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */
+  .layout-content.status.status-index .status-day .update-title.impact-major a,
+  .layout-content.status.status-index .status-day .update-title.impact-major a:hover,
+  .layout-content.status.status-index .page-status.status-major,
+  .layout-content.status.status-index .unresolved-incident.impact-major .incident-title {
+    background-color:#e67e22;
+  }
+
+  .layout-content.status-index .components-statuses .component-container.status-orange:after,
+  .layout-content.status-full-history .month .incident-container .impact-major,
+  .layout-content.status-incident .incident-name.impact-major,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-major a,
+  .status-orange .icon-indicator,
+  .incident-history .impact-major,
+  .components-container .component-inner-container.status-orange .component-status,
+  .components-container .component-inner-container.status-orange .icon-indicator {
+    color:#e67e22;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-major .updates {
+    border-color:#e67e22;
+  }
+
+
+
+
+  /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */
+  .layout-content.status.status-index .status-day .update-title.impact-minor a,
+  .layout-content.status.status-index .status-day .update-title.impact-minor a:hover,
+  .layout-content.status.status-index .page-status.status-minor,
+  .layout-content.status.status-index .unresolved-incident.impact-minor .incident-title,
+  .layout-content.status.status-index .scheduled-incidents-container .tab {
+    background-color:#f1c40f;
+  }
+
+  .layout-content.status-index .components-statuses .component-container.status-yellow:after,
+  .layout-content.status-full-history .month .incident-container .impact-minor,
+  .layout-content.status-incident .incident-name.impact-minor,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-minor a,
+  .status-yellow .icon-indicator,
+  .incident-history .impact-minor,
+  .components-container .component-inner-container.status-yellow .component-status,
+  .components-container .component-inner-container.status-yellow .icon-indicator,
+  .layout-content.status.manage-subscriptions .confirmation-infobox .fa {
+    color:#f1c40f;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-minor .updates,
+  .layout-content.status.status-index .scheduled-incidents-container {
+    border-color:#f1c40f;
+  }
+
+
+
+
+  /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */
+  .layout-content.status.status-index .status-day .update-title.impact-maintenance a,
+  .layout-content.status.status-index .status-day .update-title.impact-maintenance a:hover,
+  .layout-content.status.status-index .page-status.status-maintenance,
+  .layout-content.status.status-index .unresolved-incident.impact-maintenance .incident-title,
+  .layout-content.status.status-index .scheduled-incidents-container .tab {
+    background-color:#3498DB;
+  }
+
+  .layout-content.status-index .components-statuses .component-container.status-blue:after,
+  .layout-content.status-full-history .month .incident-container .impact-maintenance,
+  .layout-content.status-incident .incident-name.impact-maintenance,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-maintenance a,
+  .status-blue .icon-indicator,
+  .incident-history .impact-maintenance,
+  .components-container .component-inner-container.status-blue .component-status,
+  .components-container .component-inner-container.status-blue .icon-indicator {
+    color:#3498DB;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-maintenance .updates,
+  .layout-content.status.status-index .scheduled-incidents-container {
+    border-color:#3498DB;
+  }
+
+
+
+
+  /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */
+  .layout-content.status.status-index .page-status.status-none {
+    background-color:#2fcc66;
+  }
+  .layout-content.status-index .components-statuses .component-container.status-green:after,
+  .status-green .icon-indicator,
+  .components-container .component-inner-container.status-green .component-status,
+  .components-container .component-inner-container.status-green .icon-indicator {
+    color:#2fcc66;
+  }
+
+
+
+
+  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */
+  a,
+  a:hover,
+  .layout-content.status-index .page-footer span a:hover,
+  .layout-content.status-index .timeframes-container .timeframe:not(.active):hover,
+  .layout-content.status-incident .subheader a:hover {
+    color:#3498db;
+  }
+
+  .flat-button,
+  .masthead .updates-dropdown-container .show-updates-dropdown,
+  .layout-content.status-full-history .show-filter.open  {
+    background-color:#3498db;
+  }
+
+
+
+
+  /* CUSTOM COLOR OVERRIDES FOR UPTIME SHOWCASE */
+  .components-section .components-uptime-link {
+    color: #aaaaaa;
+  }
+
+  .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .legend-item {
+    color: #aaaaaa;
+    opacity: 0.8;
+  }
+  .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .legend-item.light {
+    color: #aaaaaa;
+    opacity: 0.5;
+  }
+  .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .spacer {
+    background: #aaaaaa;
+    opacity: 0.3;
+  }
+</style>
+
+
+    <!-- custom css -->
+
+      <!-- polyfills -->
+      <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <!-- Le HTML5 shim -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- injection for static -->
+
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', escape("UA-141178701-1"), 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+
+
+    
+  </head>
+
+
+  <body class="status index status-none">
+
+    
+
+
+  <div class="layout-content status status-index starter">
+      <div class="masthead-container basic">
+
+    <div class="masthead has-logo">
+        <div class="logo-container">
+          <a href="https://news.instacart.com/"><img style="" src="//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/105027/instacart-connect-logo.png" /></a>
+        </div>
+
+        
+
+
+  <div class="updates-dropdown-container" data-js-hook="updates-dropdown-container">
+    <a href="#" data-js-hook="show-updates-dropdown" id="show-updates-dropdown" class="show-updates-dropdown">
+
+    </a>
+    <div class="updates-dropdown" data-js-hook="updates-dropdown" style="display:none">
+      <div class="updates-dropdown-nav nav-items-4">
+          <a href="#updates-dropdown-email" id="updates-dropdown-email-btn">
+            <span class="icon-container email">
+          </a>
+          <a href="#updates-dropdown-sms" id="updates-dropdown-sms-btn">
+            <span class="icon-container sms">
+          </a>
+          <a href="#updates-dropdown-support" id="updates-dropdown-support-btn">
+            <span class="icon-container support">
+          </a>
+        <a href="#" data-js-hook="updates-dropdown-close" id="updates-dropdown-close-btn">
+          x
+        </a>
+      </div>
+      <div class="updates-dropdown-sections-container">
+          <div class="updates-dropdown-section email" id="updates-dropdown-email" style="display:none">
+            <div class="directions">
+              Get email notifications whenever Instacart Connect <strong>creates</strong>,  <strong>updates</strong> or <strong>resolves</strong> an incident.
+            </div>
+            <form id="subscribe-form-email" action="/subscriptions/new-email" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                <!-- make sure not to put cookie values in here since this gets cached -->
+                <input name="email" id="email" type="text" placeholder="Email Address" class="full-width" data-js-hook="email-notification-field">
+                  <input type="hidden" name="captcha_error" id="captcha_error" value="false" />
+                  <input type="submit" value="Subscribe via Email" class="flat-button full-width g-recaptcha" id="subscribe-btn-email" data-disabled-text="Subscribing..." data-sitekey=6LdTS8AUAAAAAOIbCKoCAP4LQku1olYGrywPTaZz data-callback="submitNewEmailSubscriber" data-error-callback="emailSubscriberCaptchaError" >
+                  <div class="terms_and_privacy_information bottom small"><div class="privacy_policy_information small">By subscribing you agree to our <a target="_blank" rel="noopener" href="https://www.instacart.com/privacy">Privacy Policy</a>.</div> This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noopener" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noopener" href="https://policies.google.com/terms">Terms of Service</a> apply.</div>
+</form>          </div>
+
+          <div class="updates-dropdown-section phone" id="updates-dropdown-sms" style="display:none">
+            <div class="directions">
+                Get text message notifications whenever Instacart Connect <strong>creates</strong> or <strong>resolves</strong> an incident.
+            </div>
+            <form id="subscribe-form-sms" action="/subscriptions/new-sms" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+              <div class="control-group">
+                <div class="controls externalities-sms-container">
+                  <!-- make sure not to put cookie values in here since this gets cached -->
+                  <select name="phone_country" id="phone-country" data-js-hook="phone-country" class="phone-country"><option value="af">Afghanistan (+93)</option>
+<option value="al">Albania (+355)</option>
+<option value="dz">Algeria (+213)</option>
+<option value="as">American Samoa (+1)</option>
+<option value="ad">Andorra (+376)</option>
+<option value="ao">Angola (+244)</option>
+<option value="ai">Anguilla (+1)</option>
+<option value="ag">Antigua and Barbuda (+1)</option>
+<option value="ar">Argentina (+54)</option>
+<option value="am">Armenia (+374)</option>
+<option value="aw">Aruba (+297)</option>
+<option value="au">Australia/Cocos/Christmas Island (+61)</option>
+<option value="at">Austria (+43)</option>
+<option value="az">Azerbaijan (+994)</option>
+<option value="bs">Bahamas (+1)</option>
+<option value="bh">Bahrain (+973)</option>
+<option value="bd">Bangladesh (+880)</option>
+<option value="bb">Barbados (+1)</option>
+<option value="by">Belarus (+375)</option>
+<option value="be">Belgium (+32)</option>
+<option value="bz">Belize (+501)</option>
+<option value="bj">Benin (+229)</option>
+<option value="bm">Bermuda (+1)</option>
+<option value="bo">Bolivia (+591)</option>
+<option value="ba">Bosnia and Herzegovina (+387)</option>
+<option value="bw">Botswana (+267)</option>
+<option value="br">Brazil (+55)</option>
+<option value="bn">Brunei (+673)</option>
+<option value="bg">Bulgaria (+359)</option>
+<option value="bf">Burkina Faso (+226)</option>
+<option value="bi">Burundi (+257)</option>
+<option value="kh">Cambodia (+855)</option>
+<option value="cm">Cameroon (+237)</option>
+<option value="ca">Canada (+1)</option>
+<option value="cv">Cape Verde (+238)</option>
+<option value="ky">Cayman Islands (+1)</option>
+<option value="cf">Central Africa (+236)</option>
+<option value="td">Chad (+235)</option>
+<option value="cl">Chile (+56)</option>
+<option value="cn">China (+86)</option>
+<option value="co">Colombia (+57)</option>
+<option value="km">Comoros (+269)</option>
+<option value="cg">Congo (+242)</option>
+<option value="cd">Congo, Dem Rep (+243)</option>
+<option value="cr">Costa Rica (+506)</option>
+<option value="hr">Croatia (+385)</option>
+<option value="cy">Cyprus (+357)</option>
+<option value="cz">Czech Republic (+420)</option>
+<option value="dk">Denmark (+45)</option>
+<option value="dj">Djibouti (+253)</option>
+<option value="dm">Dominica (+1)</option>
+<option value="do">Dominican Republic (+1)</option>
+<option value="eg">Egypt (+20)</option>
+<option value="sv">El Salvador (+503)</option>
+<option value="gq">Equatorial Guinea (+240)</option>
+<option value="ee">Estonia (+372)</option>
+<option value="et">Ethiopia (+251)</option>
+<option value="fo">Faroe Islands (+298)</option>
+<option value="fj">Fiji (+679)</option>
+<option value="fi">Finland/Aland Islands (+358)</option>
+<option value="fr">France (+33)</option>
+<option value="gf">French Guiana (+594)</option>
+<option value="pf">French Polynesia (+689)</option>
+<option value="ga">Gabon (+241)</option>
+<option value="gm">Gambia (+220)</option>
+<option value="ge">Georgia (+995)</option>
+<option value="de">Germany (+49)</option>
+<option value="gh">Ghana (+233)</option>
+<option value="gi">Gibraltar (+350)</option>
+<option value="gr">Greece (+30)</option>
+<option value="gl">Greenland (+299)</option>
+<option value="gd">Grenada (+1)</option>
+<option value="gp">Guadeloupe (+590)</option>
+<option value="gu">Guam (+1)</option>
+<option value="gt">Guatemala (+502)</option>
+<option value="gn">Guinea (+224)</option>
+<option value="gy">Guyana (+592)</option>
+<option value="ht">Haiti (+509)</option>
+<option value="hn">Honduras (+504)</option>
+<option value="hk">Hong Kong (+852)</option>
+<option value="hu">Hungary (+36)</option>
+<option value="is">Iceland (+354)</option>
+<option value="in">India (+91)</option>
+<option value="id">Indonesia (+62)</option>
+<option value="iq">Iraq (+964)</option>
+<option value="ie">Ireland (+353)</option>
+<option value="il">Israel (+972)</option>
+<option value="it">Italy (+39)</option>
+<option value="jm">Jamaica (+1)</option>
+<option value="jp">Japan (+81)</option>
+<option value="jo">Jordan (+962)</option>
+<option value="ke">Kenya (+254)</option>
+<option value="kr">Korea, Republic of (+82)</option>
+<option value="kw">Kuwait (+965)</option>
+<option value="kg">Kyrgyzstan (+996)</option>
+<option value="la">Laos (+856)</option>
+<option value="lv">Latvia (+371)</option>
+<option value="lb">Lebanon (+961)</option>
+<option value="ls">Lesotho (+266)</option>
+<option value="lr">Liberia (+231)</option>
+<option value="ly">Libya (+218)</option>
+<option value="li">Liechtenstein (+423)</option>
+<option value="lt">Lithuania (+370)</option>
+<option value="lu">Luxembourg (+352)</option>
+<option value="mo">Macao (+853)</option>
+<option value="mk">Macedonia (+389)</option>
+<option value="mg">Madagascar (+261)</option>
+<option value="mw">Malawi (+265)</option>
+<option value="my">Malaysia (+60)</option>
+<option value="mv">Maldives (+960)</option>
+<option value="ml">Mali (+223)</option>
+<option value="mt">Malta (+356)</option>
+<option value="mq">Martinique (+596)</option>
+<option value="mr">Mauritania (+222)</option>
+<option value="mu">Mauritius (+230)</option>
+<option value="mx">Mexico (+52)</option>
+<option value="mc">Monaco (+377)</option>
+<option value="mn">Mongolia (+976)</option>
+<option value="me">Montenegro (+382)</option>
+<option value="ms">Montserrat (+1)</option>
+<option value="ma">Morocco/Western Sahara (+212)</option>
+<option value="mz">Mozambique (+258)</option>
+<option value="na">Namibia (+264)</option>
+<option value="np">Nepal (+977)</option>
+<option value="nl">Netherlands (+31)</option>
+<option value="nz">New Zealand (+64)</option>
+<option value="ni">Nicaragua (+505)</option>
+<option value="ne">Niger (+227)</option>
+<option value="ng">Nigeria (+234)</option>
+<option value="no">Norway (+47)</option>
+<option value="om">Oman (+968)</option>
+<option value="pk">Pakistan (+92)</option>
+<option value="ps">Palestinian Territory (+970)</option>
+<option value="pa">Panama (+507)</option>
+<option value="py">Paraguay (+595)</option>
+<option value="pe">Peru (+51)</option>
+<option value="ph">Philippines (+63)</option>
+<option value="pl">Poland (+48)</option>
+<option value="pt">Portugal (+351)</option>
+<option value="pr">Puerto Rico (+1)</option>
+<option value="qa">Qatar (+974)</option>
+<option value="re">Reunion/Mayotte (+262)</option>
+<option value="ro">Romania (+40)</option>
+<option value="ru">Russia/Kazakhstan (+7)</option>
+<option value="rw">Rwanda (+250)</option>
+<option value="ws">Samoa (+685)</option>
+<option value="sm">San Marino (+378)</option>
+<option value="sa">Saudi Arabia (+966)</option>
+<option value="sn">Senegal (+221)</option>
+<option value="rs">Serbia (+381)</option>
+<option value="sc">Seychelles (+248)</option>
+<option value="sl">Sierra Leone (+232)</option>
+<option value="sg">Singapore (+65)</option>
+<option value="sk">Slovakia (+421)</option>
+<option value="si">Slovenia (+386)</option>
+<option value="za">South Africa (+27)</option>
+<option value="es">Spain (+34)</option>
+<option value="lk">Sri Lanka (+94)</option>
+<option value="kn">St Kitts and Nevis (+1)</option>
+<option value="lc">St Lucia (+1)</option>
+<option value="vc">St Vincent Grenadines (+1)</option>
+<option value="sd">Sudan (+249)</option>
+<option value="sr">Suriname (+597)</option>
+<option value="sz">Swaziland (+268)</option>
+<option value="se">Sweden (+46)</option>
+<option value="ch">Switzerland (+41)</option>
+<option value="tw">Taiwan (+886)</option>
+<option value="tj">Tajikistan (+992)</option>
+<option value="tz">Tanzania (+255)</option>
+<option value="th">Thailand (+66)</option>
+<option value="tg">Togo (+228)</option>
+<option value="to">Tonga (+676)</option>
+<option value="tt">Trinidad and Tobago (+1)</option>
+<option value="tn">Tunisia (+216)</option>
+<option value="tr">Turkey (+90)</option>
+<option value="tc">Turks and Caicos Islands (+1)</option>
+<option value="ug">Uganda (+256)</option>
+<option value="ua">Ukraine (+380)</option>
+<option value="ae">United Arab Emirates (+971)</option>
+<option value="gb">United Kingdom (+44)</option>
+<option selected="selected" value="us">United States (+1)</option>
+<option value="uy">Uruguay (+598)</option>
+<option value="uz">Uzbekistan (+998)</option>
+<option value="ve">Venezuela (+58)</option>
+<option value="vn">Vietnam (+84)</option>
+<option value="vg">Virgin Islands, British (+1)</option>
+<option value="vi">Virgin Islands, U.S. (+1)</option>
+<option value="ye">Yemen (+967)</option>
+<option value="zm">Zambia (+260)</option>
+<option value="zw">Zimbabwe (+263)</option></select>
+                  <input name="phone_number" id="phone-number" type="text" placeholder="ex. 6505551234" class="prepend full-width" data-js-hook="sms-notification-field">
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+
+                <input type="hidden" name="captcha_error" id="captcha_error" value="false" />
+                <input type="submit" value="Subscribe via Text Message" class="flat-button full-width g-recaptcha" id="subscribe-btn-sms" data-disabled-text="Subscribing..." data-sitekey=6LcH-b0UAAAAACVQtMb14LBhflMA9y0Nmu7l_W6d data-callback="submitNewSmsSubscriber" data-error-callback="smsSubscriberCaptchaError">
+              <div class="terms_and_privacy_information bottom small">Message and data rates may apply. By subscribing you agree to our <a target="_blank" rel="noopener" href="https://www.instacart.com/privacy">Privacy Policy</a> and the Atlassian <a target="_blank" rel="noopener" href="https://www.atlassian.com/legal/cloud-terms-of-service">Cloud Terms of Service</a>. This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noopener" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noopener" href="https://policies.google.com/terms">Terms of Service</a> apply.</div>
+</form>          </div>
+
+
+
+
+          <div class="updates-dropdown-section support" id="updates-dropdown-support" style="display:none">
+            Visit our <a target="_blank" href="https://instacart.atlassian.net/servicedesk/customer/portal/1">support site</a>.
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+
+      <div class="clearfix"></div>
+    </div>
+
+</div>
+ <!-- this is outside of the .container so that the cover photo can go full width on mobile -->
+
+
+    <div class="container">
+        <div class="page-status status-none">
+          <span class="status font-large">
+            All Systems Operational
+          </span>
+          <span class="last-updated-stamp  font-small"></span>
+        </div>
+
+
+
+        <div class="components-section font-regular">
+      <i class="component-status hidden major_outage"></i>
+      <div class="components-uptime-link history-footer-link">
+        Uptime over the past <var data-var="num" data-pluralize="90">90</var> days. <a href="/uptime">View historical uptime.</a>
+      </div>
+    <div class="components-container one-column">
+          <div class="component-container border-color">
+            
+<div data-component-id="8m6nz6w2lkrl"
+     class="component-inner-container status-green showcased"
+     data-component-status="operational"
+     data-js-hook="">
+
+   <span class="name">
+      Connectivity
+   </span>
+
+
+  <span
+    class="component-status "
+    title=""
+  >
+    Operational
+  </span>
+
+  <span class="tool icon-indicator fa fa-check" title="Operational"></span>
+
+    <div class="shared-partial uptime-90-days-wrapper">
+  <svg class="availability-time-line-graphic" id="uptime-component-8m6nz6w2lkrl" preserveAspectRatio="none" height="34" viewBox="0 0 448 34">
+
+    <rect height="34" width="3" x="0" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-0" data-html="true" />
+    <rect height="34" width="3" x="5" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-1" data-html="true" />
+    <rect height="34" width="3" x="10" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-2" data-html="true" />
+    <rect height="34" width="3" x="15" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-3" data-html="true" />
+    <rect height="34" width="3" x="20" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-4" data-html="true" />
+    <rect height="34" width="3" x="25" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-5" data-html="true" />
+    <rect height="34" width="3" x="30" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-6" data-html="true" />
+    <rect height="34" width="3" x="35" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-7" data-html="true" />
+    <rect height="34" width="3" x="40" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-8" data-html="true" />
+    <rect height="34" width="3" x="45" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-9" data-html="true" />
+    <rect height="34" width="3" x="50" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-10" data-html="true" />
+    <rect height="34" width="3" x="55" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-11" data-html="true" />
+    <rect height="34" width="3" x="60" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-12" data-html="true" />
+    <rect height="34" width="3" x="65" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-13" data-html="true" />
+    <rect height="34" width="3" x="70" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-14" data-html="true" />
+    <rect height="34" width="3" x="75" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-15" data-html="true" />
+    <rect height="34" width="3" x="80" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-16" data-html="true" />
+    <rect height="34" width="3" x="85" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-17" data-html="true" />
+    <rect height="34" width="3" x="90" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-18" data-html="true" />
+    <rect height="34" width="3" x="95" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-19" data-html="true" />
+    <rect height="34" width="3" x="100" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-20" data-html="true" />
+    <rect height="34" width="3" x="105" y="0" fill="#98c837" class="uptime-day component-8m6nz6w2lkrl day-21" data-html="true" />
+    <rect height="34" width="3" x="110" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-22" data-html="true" />
+    <rect height="34" width="3" x="115" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-23" data-html="true" />
+    <rect height="34" width="3" x="120" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-24" data-html="true" />
+    <rect height="34" width="3" x="125" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-25" data-html="true" />
+    <rect height="34" width="3" x="130" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-26" data-html="true" />
+    <rect height="34" width="3" x="135" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-27" data-html="true" />
+    <rect height="34" width="3" x="140" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-28" data-html="true" />
+    <rect height="34" width="3" x="145" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-29" data-html="true" />
+    <rect height="34" width="3" x="150" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-30" data-html="true" />
+    <rect height="34" width="3" x="155" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-31" data-html="true" />
+    <rect height="34" width="3" x="160" y="0" fill="#abc72e" class="uptime-day component-8m6nz6w2lkrl day-32" data-html="true" />
+    <rect height="34" width="3" x="165" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-33" data-html="true" />
+    <rect height="34" width="3" x="170" y="0" fill="#aec72d" class="uptime-day component-8m6nz6w2lkrl day-34" data-html="true" />
+    <rect height="34" width="3" x="175" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-35" data-html="true" />
+    <rect height="34" width="3" x="180" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-36" data-html="true" />
+    <rect height="34" width="3" x="185" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-37" data-html="true" />
+    <rect height="34" width="3" x="190" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-38" data-html="true" />
+    <rect height="34" width="3" x="195" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-39" data-html="true" />
+    <rect height="34" width="3" x="200" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-40" data-html="true" />
+    <rect height="34" width="3" x="205" y="0" fill="#e75239" class="uptime-day component-8m6nz6w2lkrl day-41" data-html="true" />
+    <rect height="34" width="3" x="210" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-42" data-html="true" />
+    <rect height="34" width="3" x="215" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-43" data-html="true" />
+    <rect height="34" width="3" x="220" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-44" data-html="true" />
+    <rect height="34" width="3" x="225" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-45" data-html="true" />
+    <rect height="34" width="3" x="230" y="0" fill="#e8891f" class="uptime-day component-8m6nz6w2lkrl day-46" data-html="true" />
+    <rect height="34" width="3" x="235" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-47" data-html="true" />
+    <rect height="34" width="3" x="240" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-48" data-html="true" />
+    <rect height="34" width="3" x="245" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-49" data-html="true" />
+    <rect height="34" width="3" x="250" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-50" data-html="true" />
+    <rect height="34" width="3" x="255" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-51" data-html="true" />
+    <rect height="34" width="3" x="260" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-52" data-html="true" />
+    <rect height="34" width="3" x="265" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-53" data-html="true" />
+    <rect height="34" width="3" x="270" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-54" data-html="true" />
+    <rect height="34" width="3" x="275" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-55" data-html="true" />
+    <rect height="34" width="3" x="280" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-56" data-html="true" />
+    <rect height="34" width="3" x="285" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-57" data-html="true" />
+    <rect height="34" width="3" x="290" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-58" data-html="true" />
+    <rect height="34" width="3" x="295" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-59" data-html="true" />
+    <rect height="34" width="3" x="300" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-60" data-html="true" />
+    <rect height="34" width="3" x="305" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-61" data-html="true" />
+    <rect height="34" width="3" x="310" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-62" data-html="true" />
+    <rect height="34" width="3" x="315" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-63" data-html="true" />
+    <rect height="34" width="3" x="320" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-64" data-html="true" />
+    <rect height="34" width="3" x="325" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-65" data-html="true" />
+    <rect height="34" width="3" x="330" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-66" data-html="true" />
+    <rect height="34" width="3" x="335" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-67" data-html="true" />
+    <rect height="34" width="3" x="340" y="0" fill="#9ac836" class="uptime-day component-8m6nz6w2lkrl day-68" data-html="true" />
+    <rect height="34" width="3" x="345" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-69" data-html="true" />
+    <rect height="34" width="3" x="350" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-70" data-html="true" />
+    <rect height="34" width="3" x="355" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-71" data-html="true" />
+    <rect height="34" width="3" x="360" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-72" data-html="true" />
+    <rect height="34" width="3" x="365" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-73" data-html="true" />
+    <rect height="34" width="3" x="370" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-74" data-html="true" />
+    <rect height="34" width="3" x="375" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-75" data-html="true" />
+    <rect height="34" width="3" x="380" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-76" data-html="true" />
+    <rect height="34" width="3" x="385" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-77" data-html="true" />
+    <rect height="34" width="3" x="390" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-78" data-html="true" />
+    <rect height="34" width="3" x="395" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-79" data-html="true" />
+    <rect height="34" width="3" x="400" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-80" data-html="true" />
+    <rect height="34" width="3" x="405" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-81" data-html="true" />
+    <rect height="34" width="3" x="410" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-82" data-html="true" />
+    <rect height="34" width="3" x="415" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-83" data-html="true" />
+    <rect height="34" width="3" x="420" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-84" data-html="true" />
+    <rect height="34" width="3" x="425" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-85" data-html="true" />
+    <rect height="34" width="3" x="430" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-86" data-html="true" />
+    <rect height="34" width="3" x="435" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-87" data-html="true" />
+    <rect height="34" width="3" x="440" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-88" data-html="true" />
+    <rect height="34" width="3" x="445" y="0" fill="#2fcc66" class="uptime-day component-8m6nz6w2lkrl day-89" data-html="true" />
+</svg>
+  <div class="legend ">
+  <div class="legend-item light legend-item-date-range">
+    <span class="availability-time-line-legend-day-count">90</span> days ago
+  </div>
+  <div class="spacer"></div>
+  <div class="legend-item legend-item-uptime-value legend-item-8m6nz6w2lkrl">
+    <span id="uptime-percent-8m6nz6w2lkrl">
+      99.92
+    </span>
+    % uptime
+  </div>
+  <div class="spacer"></div>
+  <div class="legend-item light legend-item-date-range">Today</div>
+</div>
+
+</div>
+
+</div>
+
+          </div>
+          <div class="component-container border-color">
+            
+<div data-component-id="tqckxhkwpmj7"
+     class="component-inner-container status-green showcased"
+     data-component-status="operational"
+     data-js-hook="">
+
+   <span class="name">
+      Order Creation
+   </span>
+
+    <span class="tooltip-base tool" title="Orders are being created successfully">?</span>
+
+  <span
+    class="component-status "
+    title=""
+  >
+    Operational
+  </span>
+
+  <span class="tool icon-indicator fa fa-check" title="Operational"></span>
+
+    <div class="shared-partial uptime-90-days-wrapper">
+  <svg class="availability-time-line-graphic" id="uptime-component-tqckxhkwpmj7" preserveAspectRatio="none" height="34" viewBox="0 0 448 34">
+
+    <rect height="34" width="3" x="0" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-0" data-html="true" />
+    <rect height="34" width="3" x="5" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-1" data-html="true" />
+    <rect height="34" width="3" x="10" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-2" data-html="true" />
+    <rect height="34" width="3" x="15" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-3" data-html="true" />
+    <rect height="34" width="3" x="20" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-4" data-html="true" />
+    <rect height="34" width="3" x="25" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-5" data-html="true" />
+    <rect height="34" width="3" x="30" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-6" data-html="true" />
+    <rect height="34" width="3" x="35" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-7" data-html="true" />
+    <rect height="34" width="3" x="40" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-8" data-html="true" />
+    <rect height="34" width="3" x="45" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-9" data-html="true" />
+    <rect height="34" width="3" x="50" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-10" data-html="true" />
+    <rect height="34" width="3" x="55" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-11" data-html="true" />
+    <rect height="34" width="3" x="60" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-12" data-html="true" />
+    <rect height="34" width="3" x="65" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-13" data-html="true" />
+    <rect height="34" width="3" x="70" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-14" data-html="true" />
+    <rect height="34" width="3" x="75" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-15" data-html="true" />
+    <rect height="34" width="3" x="80" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-16" data-html="true" />
+    <rect height="34" width="3" x="85" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-17" data-html="true" />
+    <rect height="34" width="3" x="90" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-18" data-html="true" />
+    <rect height="34" width="3" x="95" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-19" data-html="true" />
+    <rect height="34" width="3" x="100" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-20" data-html="true" />
+    <rect height="34" width="3" x="105" y="0" fill="#98c837" class="uptime-day component-tqckxhkwpmj7 day-21" data-html="true" />
+    <rect height="34" width="3" x="110" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-22" data-html="true" />
+    <rect height="34" width="3" x="115" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-23" data-html="true" />
+    <rect height="34" width="3" x="120" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-24" data-html="true" />
+    <rect height="34" width="3" x="125" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-25" data-html="true" />
+    <rect height="34" width="3" x="130" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-26" data-html="true" />
+    <rect height="34" width="3" x="135" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-27" data-html="true" />
+    <rect height="34" width="3" x="140" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-28" data-html="true" />
+    <rect height="34" width="3" x="145" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-29" data-html="true" />
+    <rect height="34" width="3" x="150" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-30" data-html="true" />
+    <rect height="34" width="3" x="155" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-31" data-html="true" />
+    <rect height="34" width="3" x="160" y="0" fill="#abc72e" class="uptime-day component-tqckxhkwpmj7 day-32" data-html="true" />
+    <rect height="34" width="3" x="165" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-33" data-html="true" />
+    <rect height="34" width="3" x="170" y="0" fill="#aec72d" class="uptime-day component-tqckxhkwpmj7 day-34" data-html="true" />
+    <rect height="34" width="3" x="175" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-35" data-html="true" />
+    <rect height="34" width="3" x="180" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-36" data-html="true" />
+    <rect height="34" width="3" x="185" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-37" data-html="true" />
+    <rect height="34" width="3" x="190" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-38" data-html="true" />
+    <rect height="34" width="3" x="195" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-39" data-html="true" />
+    <rect height="34" width="3" x="200" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-40" data-html="true" />
+    <rect height="34" width="3" x="205" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-41" data-html="true" />
+    <rect height="34" width="3" x="210" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-42" data-html="true" />
+    <rect height="34" width="3" x="215" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-43" data-html="true" />
+    <rect height="34" width="3" x="220" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-44" data-html="true" />
+    <rect height="34" width="3" x="225" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-45" data-html="true" />
+    <rect height="34" width="3" x="230" y="0" fill="#e8891f" class="uptime-day component-tqckxhkwpmj7 day-46" data-html="true" />
+    <rect height="34" width="3" x="235" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-47" data-html="true" />
+    <rect height="34" width="3" x="240" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-48" data-html="true" />
+    <rect height="34" width="3" x="245" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-49" data-html="true" />
+    <rect height="34" width="3" x="250" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-50" data-html="true" />
+    <rect height="34" width="3" x="255" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-51" data-html="true" />
+    <rect height="34" width="3" x="260" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-52" data-html="true" />
+    <rect height="34" width="3" x="265" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-53" data-html="true" />
+    <rect height="34" width="3" x="270" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-54" data-html="true" />
+    <rect height="34" width="3" x="275" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-55" data-html="true" />
+    <rect height="34" width="3" x="280" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-56" data-html="true" />
+    <rect height="34" width="3" x="285" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-57" data-html="true" />
+    <rect height="34" width="3" x="290" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-58" data-html="true" />
+    <rect height="34" width="3" x="295" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-59" data-html="true" />
+    <rect height="34" width="3" x="300" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-60" data-html="true" />
+    <rect height="34" width="3" x="305" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-61" data-html="true" />
+    <rect height="34" width="3" x="310" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-62" data-html="true" />
+    <rect height="34" width="3" x="315" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-63" data-html="true" />
+    <rect height="34" width="3" x="320" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-64" data-html="true" />
+    <rect height="34" width="3" x="325" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-65" data-html="true" />
+    <rect height="34" width="3" x="330" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-66" data-html="true" />
+    <rect height="34" width="3" x="335" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-67" data-html="true" />
+    <rect height="34" width="3" x="340" y="0" fill="#9ac836" class="uptime-day component-tqckxhkwpmj7 day-68" data-html="true" />
+    <rect height="34" width="3" x="345" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-69" data-html="true" />
+    <rect height="34" width="3" x="350" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-70" data-html="true" />
+    <rect height="34" width="3" x="355" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-71" data-html="true" />
+    <rect height="34" width="3" x="360" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-72" data-html="true" />
+    <rect height="34" width="3" x="365" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-73" data-html="true" />
+    <rect height="34" width="3" x="370" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-74" data-html="true" />
+    <rect height="34" width="3" x="375" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-75" data-html="true" />
+    <rect height="34" width="3" x="380" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-76" data-html="true" />
+    <rect height="34" width="3" x="385" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-77" data-html="true" />
+    <rect height="34" width="3" x="390" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-78" data-html="true" />
+    <rect height="34" width="3" x="395" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-79" data-html="true" />
+    <rect height="34" width="3" x="400" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-80" data-html="true" />
+    <rect height="34" width="3" x="405" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-81" data-html="true" />
+    <rect height="34" width="3" x="410" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-82" data-html="true" />
+    <rect height="34" width="3" x="415" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-83" data-html="true" />
+    <rect height="34" width="3" x="420" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-84" data-html="true" />
+    <rect height="34" width="3" x="425" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-85" data-html="true" />
+    <rect height="34" width="3" x="430" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-86" data-html="true" />
+    <rect height="34" width="3" x="435" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-87" data-html="true" />
+    <rect height="34" width="3" x="440" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-88" data-html="true" />
+    <rect height="34" width="3" x="445" y="0" fill="#2fcc66" class="uptime-day component-tqckxhkwpmj7 day-89" data-html="true" />
+</svg>
+  <div class="legend ">
+  <div class="legend-item light legend-item-date-range">
+    <span class="availability-time-line-legend-day-count">90</span> days ago
+  </div>
+  <div class="spacer"></div>
+  <div class="legend-item legend-item-uptime-value legend-item-tqckxhkwpmj7">
+    <span id="uptime-percent-tqckxhkwpmj7">
+      99.96
+    </span>
+    % uptime
+  </div>
+  <div class="spacer"></div>
+  <div class="legend-item light legend-item-date-range">Today</div>
+</div>
+
+</div>
+
+</div>
+
+          </div>
+    </div>
+    <div class="component-statuses-legend font-small">
+  <div class="legend-item status-green">
+    <span class="icon-indicator fa fa-check"></span>
+    Operational
+  </div>
+  <div class="legend-item status-yellow">
+    <span class="icon-indicator fa fa-minus-square"></span>
+    Degraded Performance
+  </div>
+  <div class="legend-item status-orange">
+    <span class="icon-indicator fa fa-exclamation-triangle"></span>
+    Partial Outage
+  </div>
+  <div class="breaker"></div>
+  <div class="legend-item status-red">
+    <span class="icon-indicator fa fa-times"></span>
+    Major Outage
+  </div>
+  <div class="legend-item status-blue">
+    <span class="icon-indicator fa fa-wrench"></span>
+    Maintenance
+  </div>
+</div>
+
+  </div>
+
+    <script type="text/javascript" charset="utf-8">
+
+  function calculateViewbox (dayCount, rectWidth, rectPadding) {
+    var viewBox = [];
+    if (dayCount === 90) {
+      viewBox.push(0);
+    } else {
+      var offset = 90 - dayCount;
+      viewBox.push((offset * rectWidth) + (rectPadding * (offset))); // x origin
+    }
+    viewBox.push(0); // y origin
+    viewBox.push((rectWidth * dayCount) + (rectPadding * (dayCount - 1))); // svg width
+    viewBox.push(34); // svg height
+    return viewBox.join(' ');
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+
+    var MAX_WIDTH_30_DAYS = 600,
+        MAX_WIDTH_60_DAYS = 1024,
+        svgs = document.getElementsByClassName('availability-time-line-graphic'),
+        rects = svgs[0].getElementsByTagName('rect'),
+        rectWidth = parseInt(rects[0].getAttribute('width')),
+        rectPadding = parseInt(rects[1].getAttribute('x')) - parseInt(rects[0].getAttribute('x')) - rectWidth,
+        throttled = false,
+        delay = 150,
+        timeoutId;
+
+    function getKeyAndCount(width) {
+      if (width <= MAX_WIDTH_30_DAYS) {
+        return { dayCount: 30, uptimeKey: 'thirty'}
+      } else if (width <= MAX_WIDTH_60_DAYS) {
+        return { dayCount: 60, uptimeKey: 'sixty'}
+      } else {
+        return { dayCount: 90, uptimeKey: 'ninety'}
+      }
+    }
+
+    function setUptimeValue(values, uptimeKey) {
+      var queryID = '.legend-item-' + values.component;
+      var currentUptime = document.querySelector(queryID);
+      if (currentUptime) {
+        // Faster than setting innerHTML to "" then adding nodes
+        var clone = currentUptime.cloneNode(false);
+        var uptimeSpan = document.createElement('span');
+        uptimeSpan.id = 'uptime-percent-' + values.component
+        uptimeSpan.innerText = values[uptimeKey]
+        clone.appendChild(uptimeSpan);
+        var appendText = document.createTextNode(' % uptime');
+        clone.appendChild(appendText);
+        currentUptime.parentNode.replaceChild(clone, currentUptime);
+      }
+    }
+
+    function setDayCount(el, dayCount) {
+      // Faster than setting innerHTML to "" then adding nodes
+      var clone = el.cloneNode(false);
+      var dateSpan = document.createElement('span')
+      dateSpan.className = "availability-time-line-legend-day-count"
+      dateSpan.innerText= dayCount;
+      clone.appendChild(dateSpan);
+      var appendText = document.createTextNode(' days ago');
+      clone.appendChild(appendText);
+      el.parentNode.replaceChild(clone, el);
+    }
+
+    function resizeSvgViewBoxes () {
+      var width = window.innerWidth;
+      var columnInfo = getKeyAndCount(width);
+      var dayCount = columnInfo.dayCount,
+        uptimeKey = columnInfo.uptimeKey;
+      var newViewboxValue = calculateViewbox(dayCount, rectWidth, rectPadding);
+
+      // If a user quickly resizes from < 450 to > 900 without stopping,
+      // it will retain the same 30 day info as it wont have changed, but this only
+      // impacts 30 day display as it is the only one with shortened text
+      if (newViewboxValue !== svgs[0].getAttribute('viewBox')) {
+        for (var i = 0; i < svgs.length; i++) {
+          var el = svgs[i];
+          if (el.getAttribute('viewBox') !== newViewboxValue) {
+            el.setAttribute('viewBox', newViewboxValue);
+          }
+        }
+
+        var dayCountElements = document.querySelectorAll('.legend-item-date-range:first-of-type');
+
+        for (var i = 0; i < dayCountElements.length; i++) {
+          setDayCount(dayCountElements[i], dayCount);
+        }
+
+        uptimeValues = [{"component":"8m6nz6w2lkrl","ninety":99.92,"sixty":99.88,"thirty":99.99},{"component":"tqckxhkwpmj7","ninety":99.96,"sixty":99.94,"thirty":99.99}];
+
+        for (var i = 0; i < uptimeValues.length; i++) {
+          setUptimeValue(uptimeValues[i], uptimeKey)
+        }
+
+        const uptimeLinkVar = document.querySelector('.components-uptime-link > var')
+        if (uptimeLinkVar) {
+          uptimeLinkVar.innerHTML = dayCount;
+        }
+      }
+    }
+
+    window.addEventListener('resize', function () {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(function () {
+        resizeSvgViewBoxes();
+      }, delay);
+    });
+
+    resizeSvgViewBoxes();
+  });
+</script>
+
+    <div id="uptime-tooltip">
+  <div class="pointer-container">
+    <div class="pointer-larger"></div>
+    <div class="pointer-smaller"></div>
+  </div>
+  <div class="tooltip-box">
+    <div class="tooltip-content">
+      <div class="tooltip-close">
+        <i class="fa fa-times"></i>
+      </div>
+      <div class="date"></div>
+      <div class="outages">
+        <div class="outage-field major">
+          <span class="label">
+            <i class="component-status page-colors text-color major_outage"></i>
+            Major outage
+          </span>
+          <span class="value-hrs"></span>
+          <span class="value-mins"></span>
+        </div>
+        <div class="outage-field partial">
+          <span class="label">
+            <i class="component-status page-colors text-color partial_outage"></i>
+            Partial outage
+          </span>
+          <span class="value-hrs"></span>
+          <span class="value-mins"></span>
+        </div>
+        <div class="no-outages-msg">
+          No downtime recorded on this day.
+        </div>
+        <div class="no-data-msg">
+          No data exists for this day.
+        </div>
+        <div id="major-outage-group-count" class="outage-count">
+          <i class="component-status page-colors text-color major_outage"></i>
+          <span class="count"></span>
+          had a major outage
+        </div>
+        <div id="partial-outage-group-count" class="outage-count">
+          <i class="component-status page-colors text-color partial_outage"></i>
+          <span class="count"></span>
+          had a partial outage
+        </div>
+      </div>
+      <div class="related-events">
+        <h3 id="related-event-header">Related</h3>
+        <ul id="related-events-list"></ul>
+      </div>
+      <div class="no-related-msg">
+        <p>No incidents or maintenance related to this downtime.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://dka575ofm4ao0.cloudfront.net/assets/vendor/bowser-1643ca34a6d589b2d4d42163a891e4512d5d7657125e09bb5f3d44288114e6bd.js"></script>
+<script type="text/javascript">
+  /**
+    This file contains the code needed to handle display of the uptime tooltips on status.
+    Note: because it's in ERB, only ES5 syntax is allowed.
+  */
+
+  var uptimeData = {"8m6nz6w2lkrl":{"component":{"code":"8m6nz6w2lkrl","name":"Connectivity"},"days":[{"date":"2020-05-07","outages":{},"related_events":[]},{"date":"2020-05-08","outages":{},"related_events":[]},{"date":"2020-05-09","outages":{},"related_events":[]},{"date":"2020-05-10","outages":{},"related_events":[]},{"date":"2020-05-11","outages":{},"related_events":[]},{"date":"2020-05-12","outages":{},"related_events":[]},{"date":"2020-05-13","outages":{},"related_events":[{"name":"Elevated 5xx Error Rate","code":"5myxkrhs1941"},{"name":"Platform Maintenance","code":"dg80npq0vq26"}]},{"date":"2020-05-14","outages":{},"related_events":[{"name":"Platform Maintenance","code":"01wss8wxxv40"}]},{"date":"2020-05-15","outages":{},"related_events":[{"name":"Platform Maintenance","code":"w7kgqxyvh17j"},{"name":"Increased Latency","code":"fmvhrddxdbxw"}]},{"date":"2020-05-16","outages":{},"related_events":[{"name":"Platform Maintenance","code":"w7kgqxyvh17j"}]},{"date":"2020-05-17","outages":{},"related_events":[]},{"date":"2020-05-18","outages":{},"related_events":[]},{"date":"2020-05-19","outages":{},"related_events":[{"name":"Platform Maintenance","code":"vbpsf1j1nmzb"}]},{"date":"2020-05-20","outages":{},"related_events":[{"name":"Platform Maintenance","code":"b1y7cdk6cwl3"}]},{"date":"2020-05-21","outages":{},"related_events":[{"name":"Platform Maintenance","code":"06v4n55vkxkf"}]},{"date":"2020-05-22","outages":{},"related_events":[]},{"date":"2020-05-23","outages":{},"related_events":[]},{"date":"2020-05-24","outages":{},"related_events":[]},{"date":"2020-05-25","outages":{},"related_events":[]},{"date":"2020-05-26","outages":{},"related_events":[]},{"date":"2020-05-27","outages":{},"related_events":[]},{"date":"2020-05-28","outages":{"p":321},"related_events":[{"name":"Increased Latency and Elevated 5xx Error Rates","code":"h2ymsxqj16lt"},{"name":"Platform Maintenance","code":"hkttspzf35qn"}]},{"date":"2020-05-29","outages":{},"related_events":[]},{"date":"2020-05-30","outages":{},"related_events":[{"name":"Issues Calling Our Partners' API Endpoints","code":"j0sw4hlpxjjh"}]},{"date":"2020-05-31","outages":{},"related_events":[]},{"date":"2020-06-01","outages":{},"related_events":[]},{"date":"2020-06-02","outages":{},"related_events":[{"name":"Platform Maintenance","code":"r3zvn5xkk8yw"}]},{"date":"2020-06-03","outages":{},"related_events":[{"name":"Platform Maintenance","code":"g4vwpd75j2wm"}]},{"date":"2020-06-04","outages":{},"related_events":[{"name":"Elevated Latency","code":"b65shlddvm5g"}]},{"date":"2020-06-05","outages":{},"related_events":[{"name":"Platform Maintenance","code":"nnqrf7dmlyc2"}]},{"date":"2020-06-06","outages":{},"related_events":[]},{"date":"2020-06-07","outages":{},"related_events":[]},{"date":"2020-06-08","outages":{"p":1115},"related_events":[{"name":"Elevated 500s and Increased Latency","code":"fp8kq5x4hrs1"}]},{"date":"2020-06-09","outages":{},"related_events":[{"name":"Platform Maintenance","code":"sdk4jqxw4ysh"}]},{"date":"2020-06-10","outages":{"m":368},"related_events":[{"name":"Platform Outage","code":"dfyt10w3ztfc"}]},{"date":"2020-06-11","outages":{},"related_events":[]},{"date":"2020-06-12","outages":{},"related_events":[{"name":"Platform Maintenance","code":"mty6gh74j1cx"}]},{"date":"2020-06-13","outages":{},"related_events":[]},{"date":"2020-06-14","outages":{},"related_events":[]},{"date":"2020-06-15","outages":{},"related_events":[]},{"date":"2020-06-16","outages":{},"related_events":[{"name":"Missing Order Callbacks and Increased Marqeta Transaction Rate","code":"bdtgknt9s90q"}]},{"date":"2020-06-17","outages":{"m":3407},"related_events":[]},{"date":"2020-06-18","outages":{},"related_events":[]},{"date":"2020-06-19","outages":{},"related_events":[{"name":"Platform Maintenance","code":"dyvgmdgtlknd"}]},{"date":"2020-06-20","outages":{},"related_events":[]},{"date":"2020-06-21","outages":{},"related_events":[]},{"date":"2020-06-22","outages":{"p":684,"m":1655},"related_events":[{"name":"Increased Latency and Elevated 5xx Error Rates","code":"zycplsqmyy9p"},{"name":"Increased Latency and Elevated 5xx Error Rates","code":"9jj3sjx0ys1h"}]},{"date":"2020-06-23","outages":{},"related_events":[{"name":"Platform Maintenance","code":"zf1h855q9h4g"}]},{"date":"2020-06-24","outages":{},"related_events":[]},{"date":"2020-06-25","outages":{},"related_events":[]},{"date":"2020-06-26","outages":{},"related_events":[]},{"date":"2020-06-27","outages":{},"related_events":[]},{"date":"2020-06-28","outages":{},"related_events":[]},{"date":"2020-06-29","outages":{},"related_events":[]},{"date":"2020-06-30","outages":{},"related_events":[]},{"date":"2020-07-01","outages":{},"related_events":[]},{"date":"2020-07-02","outages":{},"related_events":[]},{"date":"2020-07-03","outages":{},"related_events":[]},{"date":"2020-07-04","outages":{},"related_events":[]},{"date":"2020-07-05","outages":{},"related_events":[]},{"date":"2020-07-06","outages":{},"related_events":[]},{"date":"2020-07-07","outages":{},"related_events":[{"name":"Platform Maintenance","code":"pbm1dybqkrk3"}]},{"date":"2020-07-08","outages":{},"related_events":[]},{"date":"2020-07-09","outages":{},"related_events":[{"name":"Platform Maintenance","code":"v23y8yf17zrt"}]},{"date":"2020-07-10","outages":{},"related_events":[]},{"date":"2020-07-11","outages":{},"related_events":[]},{"date":"2020-07-12","outages":{},"related_events":[]},{"date":"2020-07-13","outages":{},"related_events":[]},{"date":"2020-07-14","outages":{"p":400},"related_events":[{"name":"Increased Latency and Elevated 5xx Error Rates","code":"ybjz26qp7gsk"}]},{"date":"2020-07-15","outages":{},"related_events":[]},{"date":"2020-07-16","outages":{},"related_events":[]},{"date":"2020-07-17","outages":{},"related_events":[]},{"date":"2020-07-18","outages":{},"related_events":[]},{"date":"2020-07-19","outages":{},"related_events":[]},{"date":"2020-07-20","outages":{},"related_events":[]},{"date":"2020-07-21","outages":{},"related_events":[]},{"date":"2020-07-22","outages":{},"related_events":[{"name":"Platform Maintenance","code":"1t9lljk8s0v7"}]},{"date":"2020-07-23","outages":{},"related_events":[]},{"date":"2020-07-24","outages":{},"related_events":[]},{"date":"2020-07-25","outages":{},"related_events":[]},{"date":"2020-07-26","outages":{},"related_events":[]},{"date":"2020-07-27","outages":{},"related_events":[]},{"date":"2020-07-28","outages":{},"related_events":[]},{"date":"2020-07-29","outages":{},"related_events":[]},{"date":"2020-07-30","outages":{},"related_events":[{"name":"Platform Maintenance","code":"j3bnr96fhqy1"}]},{"date":"2020-07-31","outages":{},"related_events":[]},{"date":"2020-08-01","outages":{},"related_events":[]},{"date":"2020-08-02","outages":{},"related_events":[]},{"date":"2020-08-03","outages":{},"related_events":[]},{"date":"2020-08-04","outages":{},"related_events":[]}]},"tqckxhkwpmj7":{"component":{"code":"tqckxhkwpmj7","name":"Order Creation"},"days":[{"date":"2020-05-07","outages":{},"related_events":[]},{"date":"2020-05-08","outages":{},"related_events":[]},{"date":"2020-05-09","outages":{},"related_events":[]},{"date":"2020-05-10","outages":{},"related_events":[]},{"date":"2020-05-11","outages":{},"related_events":[]},{"date":"2020-05-12","outages":{},"related_events":[]},{"date":"2020-05-13","outages":{},"related_events":[{"name":"Elevated 5xx Error Rate","code":"5myxkrhs1941"},{"name":"Platform Maintenance","code":"dg80npq0vq26"}]},{"date":"2020-05-14","outages":{},"related_events":[{"name":"Platform Maintenance","code":"01wss8wxxv40"}]},{"date":"2020-05-15","outages":{},"related_events":[{"name":"Platform Maintenance","code":"w7kgqxyvh17j"},{"name":"Increased Latency","code":"fmvhrddxdbxw"}]},{"date":"2020-05-16","outages":{},"related_events":[{"name":"Platform Maintenance","code":"w7kgqxyvh17j"}]},{"date":"2020-05-17","outages":{},"related_events":[]},{"date":"2020-05-18","outages":{},"related_events":[]},{"date":"2020-05-19","outages":{},"related_events":[{"name":"Platform Maintenance","code":"vbpsf1j1nmzb"}]},{"date":"2020-05-20","outages":{},"related_events":[{"name":"Platform Maintenance","code":"b1y7cdk6cwl3"}]},{"date":"2020-05-21","outages":{},"related_events":[{"name":"Platform Maintenance","code":"06v4n55vkxkf"}]},{"date":"2020-05-22","outages":{},"related_events":[]},{"date":"2020-05-23","outages":{},"related_events":[]},{"date":"2020-05-24","outages":{},"related_events":[]},{"date":"2020-05-25","outages":{},"related_events":[]},{"date":"2020-05-26","outages":{},"related_events":[]},{"date":"2020-05-27","outages":{},"related_events":[]},{"date":"2020-05-28","outages":{"p":321},"related_events":[{"name":"Increased Latency and Elevated 5xx Error Rates","code":"h2ymsxqj16lt"},{"name":"Platform Maintenance","code":"hkttspzf35qn"}]},{"date":"2020-05-29","outages":{},"related_events":[]},{"date":"2020-05-30","outages":{},"related_events":[{"name":"Issues Calling Our Partners' API Endpoints","code":"j0sw4hlpxjjh"}]},{"date":"2020-05-31","outages":{},"related_events":[]},{"date":"2020-06-01","outages":{},"related_events":[]},{"date":"2020-06-02","outages":{},"related_events":[{"name":"Platform Maintenance","code":"r3zvn5xkk8yw"}]},{"date":"2020-06-03","outages":{},"related_events":[{"name":"Platform Maintenance","code":"g4vwpd75j2wm"}]},{"date":"2020-06-04","outages":{},"related_events":[{"name":"Elevated Latency","code":"b65shlddvm5g"}]},{"date":"2020-06-05","outages":{},"related_events":[{"name":"Platform Maintenance","code":"nnqrf7dmlyc2"}]},{"date":"2020-06-06","outages":{},"related_events":[]},{"date":"2020-06-07","outages":{},"related_events":[]},{"date":"2020-06-08","outages":{"p":1115},"related_events":[{"name":"Elevated 500s and Increased Latency","code":"fp8kq5x4hrs1"}]},{"date":"2020-06-09","outages":{},"related_events":[{"name":"Platform Maintenance","code":"sdk4jqxw4ysh"}]},{"date":"2020-06-10","outages":{"m":367},"related_events":[{"name":"Platform Outage","code":"dfyt10w3ztfc"}]},{"date":"2020-06-11","outages":{},"related_events":[]},{"date":"2020-06-12","outages":{},"related_events":[{"name":"Platform Maintenance","code":"mty6gh74j1cx"}]},{"date":"2020-06-13","outages":{},"related_events":[]},{"date":"2020-06-14","outages":{},"related_events":[]},{"date":"2020-06-15","outages":{},"related_events":[]},{"date":"2020-06-16","outages":{},"related_events":[{"name":"Missing Order Callbacks and Increased Marqeta Transaction Rate","code":"bdtgknt9s90q"}]},{"date":"2020-06-17","outages":{},"related_events":[]},{"date":"2020-06-18","outages":{},"related_events":[]},{"date":"2020-06-19","outages":{},"related_events":[{"name":"Platform Maintenance","code":"dyvgmdgtlknd"}]},{"date":"2020-06-20","outages":{},"related_events":[]},{"date":"2020-06-21","outages":{},"related_events":[]},{"date":"2020-06-22","outages":{"p":684,"m":1655},"related_events":[{"name":"Increased Latency and Elevated 5xx Error Rates","code":"zycplsqmyy9p"},{"name":"Increased Latency and Elevated 5xx Error Rates","code":"9jj3sjx0ys1h"}]},{"date":"2020-06-23","outages":{},"related_events":[{"name":"Platform Maintenance","code":"zf1h855q9h4g"}]},{"date":"2020-06-24","outages":{},"related_events":[]},{"date":"2020-06-25","outages":{},"related_events":[]},{"date":"2020-06-26","outages":{},"related_events":[]},{"date":"2020-06-27","outages":{},"related_events":[]},{"date":"2020-06-28","outages":{},"related_events":[]},{"date":"2020-06-29","outages":{},"related_events":[]},{"date":"2020-06-30","outages":{},"related_events":[]},{"date":"2020-07-01","outages":{},"related_events":[]},{"date":"2020-07-02","outages":{},"related_events":[]},{"date":"2020-07-03","outages":{},"related_events":[]},{"date":"2020-07-04","outages":{},"related_events":[]},{"date":"2020-07-05","outages":{},"related_events":[]},{"date":"2020-07-06","outages":{},"related_events":[]},{"date":"2020-07-07","outages":{},"related_events":[{"name":"Platform Maintenance","code":"pbm1dybqkrk3"}]},{"date":"2020-07-08","outages":{},"related_events":[]},{"date":"2020-07-09","outages":{},"related_events":[{"name":"Platform Maintenance","code":"v23y8yf17zrt"}]},{"date":"2020-07-10","outages":{},"related_events":[]},{"date":"2020-07-11","outages":{},"related_events":[]},{"date":"2020-07-12","outages":{},"related_events":[]},{"date":"2020-07-13","outages":{},"related_events":[]},{"date":"2020-07-14","outages":{"p":400},"related_events":[{"name":"Increased Latency and Elevated 5xx Error Rates","code":"ybjz26qp7gsk"}]},{"date":"2020-07-15","outages":{},"related_events":[]},{"date":"2020-07-16","outages":{},"related_events":[]},{"date":"2020-07-17","outages":{},"related_events":[]},{"date":"2020-07-18","outages":{},"related_events":[]},{"date":"2020-07-19","outages":{},"related_events":[]},{"date":"2020-07-20","outages":{},"related_events":[]},{"date":"2020-07-21","outages":{},"related_events":[]},{"date":"2020-07-22","outages":{},"related_events":[{"name":"Platform Maintenance","code":"1t9lljk8s0v7"}]},{"date":"2020-07-23","outages":{},"related_events":[]},{"date":"2020-07-24","outages":{},"related_events":[]},{"date":"2020-07-25","outages":{},"related_events":[]},{"date":"2020-07-26","outages":{},"related_events":[]},{"date":"2020-07-27","outages":{},"related_events":[]},{"date":"2020-07-28","outages":{},"related_events":[]},{"date":"2020-07-29","outages":{},"related_events":[]},{"date":"2020-07-30","outages":{},"related_events":[{"name":"Platform Maintenance","code":"j3bnr96fhqy1"}]},{"date":"2020-07-31","outages":{},"related_events":[]},{"date":"2020-08-01","outages":{},"related_events":[]},{"date":"2020-08-02","outages":{},"related_events":[]},{"date":"2020-08-03","outages":{},"related_events":[]},{"date":"2020-08-04","outages":{},"related_events":[]}]}}
+  var timeoutId;
+  var monthStrings = [
+    'Jan', 'Feb', 'Mar',
+    'Apr', 'May', 'Jun',
+    'Jul', 'Aug', 'Sep',
+    'Oct', 'Nov', 'Dec'
+  ];
+  var EVENT_MAX_LENGTH = 90;
+
+  // Detect device (desktop vs. touch device)
+  function touchDevice() {
+    var browser = bowser.getParser(window.navigator.userAgent);
+    // if type is either mobile or tablet, return true
+    return browser.parse().parsedResult.platform.type !== 'desktop';
+  }
+
+  // Class is in format day-<number>. Convert to just number
+  function dayNumberFromClass(className) {
+    return parseInt(className.split('-')[1]);
+  }
+
+  // Class is in format component-<code>. Convert to just code
+  function componentCodeFromClass(className) {
+    return className.split('-')[1];
+  }
+
+  // Convert number to string pixel measurement
+  function intToPixels(number) {
+    return number.toString() + 'px';
+  }
+
+  function truncate(str) {
+    return str.substring(0, EVENT_MAX_LENGTH) +
+      (str.length > EVENT_MAX_LENGTH ? '...' : '');
+  }
+
+  // Tooltip Handling class constructor
+  function UptimeTooltipHandler(frameWidth) {
+    this.visible = false;
+    this.activeDay = {
+      hovered: false
+    };
+    this.tooltip = document.getElementById('uptime-tooltip');
+    this.frameWidth = frameWidth === undefined ? window.innerWidth : frameWidth;
+    this.scrolling = false;
+
+    window.addEventListener('mousemove', this.tooltipListener.bind(this));
+    window.addEventListener('orientationchange', this.orientationListener.bind(this));
+
+    // on tooltip creation, determine whether to display touch-specific controls
+    var tooltipCloseButton = document.querySelector('.tooltip-close');
+
+    if (touchDevice()) {
+      var componentsContainer = document.querySelector('.components-container');
+      componentsContainer.addEventListener('touchstart', this.handleTouch.bind(this));
+
+      tooltipCloseButton.addEventListener('touchstart', this.unhoverTooltip.bind(this));
+    } else {
+      window.addEventListener('resize', this.resizeListener.bind(this));
+      // classList not supported by IE < 9
+      tooltipCloseButton.className += ' hidden';
+    }
+
+    // Handle toggle of group elements
+    var groupComponents = document.querySelectorAll('[data-js-hook=component-group-opener]');
+    for (var i = 0; i < groupComponents.length; i++) {
+      groupComponents[i].addEventListener('click', this.hideTooltip.bind(this));
+    }
+
+    var tooltipBox = document.querySelector('#uptime-tooltip .tooltip-box');
+    tooltipBox.addEventListener('mouseenter', this.mouseEnteredTooltip.bind(this));
+    tooltipBox.addEventListener('mouseleave', this.unhoverTooltip.bind(this));
+  }
+
+  UptimeTooltipHandler.prototype.tooltipListener = function(event) {
+    if (!this.tooltipHovered) {
+      this.updateHoveredDay(event);
+      this.updateTooltip(event);
+    }
+  }
+
+  // this handler will accommodate for mobile orientation change
+  UptimeTooltipHandler.prototype.orientationListener = function(event) {
+    // just close the tooltip
+    this.unhoverTooltip();
+  }
+
+  UptimeTooltipHandler.prototype.resizeListener = function(event) {
+    this.frameWidth = window.innerWidth;
+  }
+
+  UptimeTooltipHandler.prototype.handleTouch = function (event) {
+    if (event.target.classList.contains('uptime-day')) {
+      event.stopPropagation();
+      this.bladeTouched(event);
+    }
+  }
+
+  UptimeTooltipHandler.prototype.mouseEnteredTooltip = function() {
+    // Necessary to clear the timeout set for closing the tooltip when the mouse
+    // moves off the blade or timeline, so the tooltip isnt closed on hover
+    clearTimeout(timeoutId);
+    // Sets it to null so the timeout can be set later, as clearTimeout only
+    // cancels the timer, and we need to allow it to be reset in the mouse
+    // move handler below
+    timeoutId = null;
+    this.tooltipHovered = true;
+  }
+
+  UptimeTooltipHandler.prototype.unhoverTooltip = function() {
+    this.tooltipHovered = false;
+    this.activeDay.hovered = false;
+    this.hideTooltip();
+  }
+
+  UptimeTooltipHandler.prototype.bladeTouched = function (event) {
+    event.preventDefault();
+    var classes = event.target.getAttribute('class').split(' ');
+    var componentCode = componentCodeFromClass(classes[1])
+    var index = dayNumberFromClass(classes[2]);
+
+    // If open and tapped on same component and day, close tooltip
+    if (this.visible && this.activeDay.component === componentCode && this.activeDay.index === index) {
+      this.hideTooltip();
+    } else {
+      this.updateHoveredDay(event);
+      this.updateTooltip(event);
+    }
+  }
+
+  UptimeTooltipHandler.prototype.updateHoveredDay = function(event) {
+    var classes = event.target.getAttribute('class'); // classList doesn't work in IE
+    var onDay = classes != null && classes.split(' ').indexOf('uptime-day') !== -1;
+
+    if (onDay) {
+      classes = classes.split(' ');
+
+      var componentCode = componentCodeFromClass(classes[1]);
+
+      this.activeDay = {
+        index: dayNumberFromClass(classes[2]),
+        component: componentCode,
+        bounds: event.target.getBoundingClientRect(),
+        isGroup: uptimeData[componentCode].component.isGroup,
+        hovered: true
+      }
+    } else {
+      this.activeDay.hovered = false;
+    }
+  }
+
+  UptimeTooltipHandler.prototype.updateTooltip = function(event) {
+    var classes = event.target.getAttribute('class'); // classList doesn't work in IE
+    var hoveredOnGraphic = classes != null && classes.split(' ').indexOf('availability-time-line-graphic') !== -1;
+
+    if (this.activeDay.hovered) {
+      this.updateTooltipData();
+      this.positionTooltip();
+    } else if (this.visible && !this.activeDay.hovered && !hoveredOnGraphic) {
+      // Important: since this is on mouse move it will be called multiple times
+      // which will clear timeoutId and reset it to the new value, meaning
+      // it is a race condition to cancel it
+      if (!timeoutId) {
+        var _this = this;
+        timeoutId = setTimeout(function() {
+          _this.hideTooltip();
+          timeoutId = null;
+        }, 250);
+      }
+    }
+  }
+
+  UptimeTooltipHandler.prototype.updateTooltipData = function() {
+    // Get the data for the day we're hovered on
+    var day = uptimeData[this.activeDay.component].days[this.activeDay.index];
+
+    // Update the date for the tooltip
+    var date = new Date(day.date);
+
+    // Get the component's start date.  Note that it will not be defined unless the UPTIME_START_DATE flag is active.
+    var startDay = uptimeData[this.activeDay.component].component.startDate;
+    var startDate = startDay ? new Date(startDay) : null;
+
+    // Determine whether current date falls before component's start date.
+    var beforeStartDate = startDate ? date.getTime() < startDate.getTime() : false;
+
+    // UTC necessary since days are passed yyyy-mm-dd, and new Date uses midnight UTC, so local times
+    // are presented as the day before
+    var dateString = date.getUTCDate() + " " + monthStrings[date.getUTCMonth()] + " " + date.getUTCFullYear();
+    document.querySelector('#uptime-tooltip .date').innerHTML = dateString;
+
+    // Update the outage fields
+    if (this.activeDay.isGroup) {
+      this.updateGroupOutageFields()
+    } else {
+      this.updateOutageFields(day.outages.p, day.outages.m, day.related_events, beforeStartDate);
+    }
+  }
+
+  UptimeTooltipHandler.prototype.hoursFromSeconds = function(s) {
+    return Math.floor(s / 3600);
+  }
+
+  UptimeTooltipHandler.prototype.minutesFromSeconds = function(s) {
+    // If less than a minute, round up to 1 minute to show that some outage existed
+    if (s > 0 && s < 60) {
+      return 1;
+    }
+
+    // Otherwise use floor
+    return Math.floor((s % 3600) / 60);
+  }
+
+  UptimeTooltipHandler.prototype.updateGroupOutageFields = function() {
+    // Hide time info
+    document.querySelector('#uptime-tooltip .outage-field.major').style.display = 'none';
+    document.querySelector('#uptime-tooltip .outage-field.partial').style.display = 'none';
+    document.querySelector(".related-events h3").style.display = 'none';
+    document.querySelector('.no-related-msg').style.display = 'none';
+
+    var eventList = document.getElementById("related-events-list")
+    var cloneList = eventList.cloneNode(false);
+    eventList.parentNode.replaceChild(cloneList, eventList);
+
+    var partialCount = 0;
+    var majorCount = 0;
+
+    var components = uptimeData[this.activeDay.component].component.group
+
+    for (var i = 0; i < components.length; i++) {
+      if (!uptimeData[components[i]]) continue;
+
+      var outages = uptimeData[components[i]].days[this.activeDay.index].outages;
+
+      if (outages.p) {
+        partialCount += 1;
+      }
+
+      if (outages.m) {
+        majorCount += 1;
+      }
+    }
+
+    document.querySelector('#major-outage-group-count').style.display = majorCount ? 'block' : 'none';
+    document.querySelector('#partial-outage-group-count').style.display = partialCount ? 'block' : 'none';
+
+    document.querySelector('#major-outage-group-count .count').innerText = majorCount + (majorCount == 1 ? " component" : " components")
+    document.querySelector('#partial-outage-group-count .count').innerText = partialCount + (partialCount == 1 ? " component" : " components ")
+
+    document.querySelector('#uptime-tooltip .no-outages-msg').style.display = (majorCount || partialCount) ? 'none' : 'block';
+
+    // TODO: handle the overlay message for group components in NIN-573
+    document.querySelector('#uptime-tooltip .no-data-msg').style.display = 'none';
+  }
+
+  UptimeTooltipHandler.prototype.updateOutageFields = function(partial, major, relatedEvents, beforeStartDate) {
+    // Hide group info
+    document.querySelector('#major-outage-group-count').style.display = 'none';
+    document.querySelector('#partial-outage-group-count').style.display = 'none';
+
+    // Show the message that no outage present, if none is present
+    if (partial || major || beforeStartDate) {
+      document.querySelector('#uptime-tooltip .no-outages-msg').style.display = 'none';
+    } else {
+      document.querySelector('#uptime-tooltip .no-outages-msg').style.display = 'block';
+    }
+
+    if (beforeStartDate) {
+      document.querySelector('#uptime-tooltip .no-data-msg').style.display = 'block';
+    }
+    else {
+      document.querySelector('#uptime-tooltip .no-data-msg').style.display = 'none';
+    }
+
+    // Update partial outage field if an outage exists, otherwise hide it
+    if (partial) {
+      var hrs = this.hoursFromSeconds(partial);
+      var mins = this.minutesFromSeconds(partial);
+      document.querySelector('#uptime-tooltip .outage-field.partial .value-hrs').innerHTML = hrs.toString() + ' hrs';
+      document.querySelector('#uptime-tooltip .outage-field.partial .value-mins').innerHTML = mins.toString() + ' mins';
+      document.querySelector('#uptime-tooltip .outage-field.partial').style.display = 'flex';
+    } else {
+       document.querySelector('#uptime-tooltip .outage-field.partial').style.display = 'none';
+    }
+
+    // Update major outage field if an outage exists, otherwise hide it
+    if (major) {
+      var hrs = this.hoursFromSeconds(major);
+      var mins = this.minutesFromSeconds(major);
+      document.querySelector('#uptime-tooltip .outage-field.major .value-hrs').innerHTML = hrs.toString() + ' hrs';
+      document.querySelector('#uptime-tooltip .outage-field.major .value-mins').innerHTML = mins.toString() + ' mins';
+      document.querySelector('#uptime-tooltip .outage-field.major').style.display = 'flex';
+    } else {
+      document.querySelector('#uptime-tooltip .outage-field.major').style.display = 'none';
+    }
+
+    var eventList = document.getElementById("related-events-list")
+    var cloneList = eventList.cloneNode(false);
+    document.querySelector(".related-events h3").style.display = (relatedEvents.length ? 'block' : 'none');
+
+    for (var i = 0; i < relatedEvents.length; i++) {
+      var listItem = document.createElement("li");
+      listItem.className = "related-event";
+      var anchor = document.createElement("a");
+      anchor.className = "related-event-link";
+      anchor.target = "_blank";
+      anchor.href = window.Routes.incident_path(relatedEvents[i].code);
+
+
+      var text = document.createTextNode(truncate(relatedEvents[i].name));
+      anchor.appendChild(text);
+      listItem.appendChild(anchor);
+      cloneList.appendChild(listItem);
+    }
+
+    const displayNoRelatedMsg = ((major || partial) && !relatedEvents.length);
+    document.querySelector('.no-related-msg').style.display = (displayNoRelatedMsg ? 'block' : 'none');
+
+    eventList.parentNode.replaceChild(cloneList, eventList);
+  }
+
+  UptimeTooltipHandler.prototype.positionTooltip = function() {
+    this.calculatePointerCenter();
+    this.calculateBoxPosition();
+
+    // show tooltip
+    this.tooltip.style.display = 'block';
+
+    // position pointer
+    var pointer = this.tooltip.getElementsByClassName('pointer-container')[0];
+    pointer.style.left = intToPixels(this.pointerCenter.x - 8);
+    pointer.style.top = intToPixels(this.pointerCenter.y - 5);
+
+    // position display box
+    var box = this.tooltip.getElementsByClassName('tooltip-box')[0];
+    box.style.left = intToPixels(this.boxLeft);
+    box.style.top = intToPixels(this.pointerCenter.y + 5);
+
+    this.visible = true;
+  }
+
+  UptimeTooltipHandler.prototype.calculatePointerCenter = function() {
+    var bounds = this.activeDay.bounds;
+    var rectLeft = bounds.left + window.pageXOffset;
+    var rectBottom = bounds.bottom + window.pageYOffset;
+    var rectWidth = bounds.right - bounds.left;
+
+    this.pointerCenter = {
+      x: rectLeft + Math.floor(rectWidth / 2),
+      y: rectBottom + 5
+    }
+  }
+
+  UptimeTooltipHandler.prototype.calculateBoxPosition = function() {
+    var sideWidth = 162.5;
+    if (this.pointerCenter.x - sideWidth < 0) {
+      this.boxLeft = 0;
+    } else if (this.pointerCenter.x + sideWidth > this.frameWidth) {
+      this.boxLeft = this.frameWidth - sideWidth * 2;
+    } else {
+      this.boxLeft = this.pointerCenter.x - sideWidth;
+    }
+  }
+
+  UptimeTooltipHandler.prototype.hideTooltip = function() {
+    this.tooltip.style.display = 'none';
+    this.visible = false;
+  }
+
+  new UptimeTooltipHandler();
+
+</script>
+
+
+
+
+
+        <div class="custom-metrics-container" id="custom-metrics-container">
+          <div class="timeframes-container">
+            <a class="font-largest no-link" id="system-metrics" href="#system-metrics">System Metrics</a>
+            <a href="#" class="timeframe color-secondary font-regular border-color" data-js-hook="data-time-period-toggle" data-time-period="month">Month</a>
+            <a href="#" class="timeframe color-secondary font-regular border-color" data-js-hook="data-time-period-toggle" data-time-period="week"><span class="translation_missing" title="translation missing: en.week">Week</span></a>
+            <a href="#" class="timeframe active color-secondary font-regular border-color" data-js-hook="data-time-period-toggle" data-time-period="day">Day</a>
+          </div>
+          <div class="metrics-container">
+              <div class="metric border-color">
+                <div class="metric-meta font-large">
+                  <div class="metric-name color-primary">
+                    Latency
+                                      </div>
+
+                    <div data-js-hook="metrics-display-current-yj1ygjzs78pr" class="metric-average color-secondary"><span class="translation_missing" title="translation missing: en.fetching">Fetching</span></div>
+                </div>
+                   <div class="metrics-display-graph">
+                    <div class="graph-container" id="metrics-display-graph-container-yj1ygjzs78pr" data-js-hook= "metrics-display-graph-container-yj1ygjzs78pr"></div>
+                  </div>
+              </div>
+              <div class="metric border-color">
+                <div class="metric-meta font-large">
+                  <div class="metric-name color-primary">
+                    Request Success Rate
+                                      </div>
+
+                    <div data-js-hook="metrics-display-current-7qd189qhg5nl" class="metric-average color-secondary"><span class="translation_missing" title="translation missing: en.fetching">Fetching</span></div>
+                </div>
+                   <div class="metrics-display-graph">
+                    <div class="graph-container" id="metrics-display-graph-container-7qd189qhg5nl" data-js-hook= "metrics-display-graph-container-7qd189qhg5nl"></div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+
+      <div class="incidents-list format-expanded">
+        <a class="font-largest no-link" id="past-incidents" href="#past-incidents">Past Incidents</a>
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Aug <var data-var="date"> 4</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported today.</p>
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Aug <var data-var="date"> 3</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Aug <var data-var="date"> 2</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Aug <var data-var="date"> 1</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Jul <var data-var="date">31</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular ">
+    <div class="date border-color font-large">Jul <var data-var="date">30</var>, <var data-var="year">2020</var></div>
+          <div class="incident-container">
+  <div class="incident-title impact-maintenance font-large">
+    <a href="/incidents/j3bnr96fhqy1">Platform Maintenance</a>
+  </div>
+
+  <div class="updates-container">
+    <!-- postmortem -->
+
+    <!-- incident updates -->
+      <div class="update font-regular completed">
+        <strong>Completed</strong> -
+      	The scheduled maintenance has been completed.
+
+        <br>
+
+        <small>
+            Jul <var data-var='date'>30</var>, <var data-var='time'>05:46</var> EDT
+        </small>
+      </div>
+      <div class="update font-regular in progress">
+        <strong>In progress</strong> -
+      	Scheduled maintenance is currently in progress. We will provide updates as necessary.
+
+        <br>
+
+        <small>
+            Jul <var data-var='date'>30</var>, <var data-var='time'>02:45</var> EDT
+        </small>
+      </div>
+      <div class="update font-regular scheduled">
+        <strong>Scheduled</strong> -
+      	Planned maintenance activities will be carried out during this maintenance window.<br /><br />Marketplace (instacart.com), PBI sites and Instacart Fulfillment on Unata platforms might be temporarily unavailable.<br /><br />While we do not anticipate any major impact on the availability of Connect and LMD API endpoints, we are creating this maintenance window out of an abundance of caution. Endpoints might be temporarily responding with HTTP 503.<br /><br />Please take any necessary action on your end to accommodate this window. Let us know if you have any questions or concerns.
+
+        <br>
+
+        <small>
+            Jul <var data-var='date'>24</var>, <var data-var='time'>18:17</var> EDT
+        </small>
+      </div>
+  </div>
+
+</div>
+
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Jul <var data-var="date">29</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Jul <var data-var="date">28</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Jul <var data-var="date">27</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Jul <var data-var="date">26</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Jul <var data-var="date">25</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Jul <var data-var="date">24</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Jul <var data-var="date">23</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+          
+  <div class="status-day font-regular ">
+    <div class="date border-color font-large">Jul <var data-var="date">22</var>, <var data-var="year">2020</var></div>
+          <div class="incident-container">
+  <div class="incident-title impact-maintenance font-large">
+    <a href="/incidents/1t9lljk8s0v7">Platform Maintenance</a>
+  </div>
+
+  <div class="updates-container">
+    <!-- postmortem -->
+
+    <!-- incident updates -->
+      <div class="update font-regular completed">
+        <strong>Completed</strong> -
+      	The scheduled maintenance has been completed.
+
+        <br>
+
+        <small>
+            Jul <var data-var='date'>22</var>, <var data-var='time'>04:00</var> EDT
+        </small>
+      </div>
+      <div class="update font-regular in progress">
+        <strong>In progress</strong> -
+      	Scheduled maintenance is currently in progress. We will provide updates as necessary.
+
+        <br>
+
+        <small>
+            Jul <var data-var='date'>22</var>, <var data-var='time'>01:00</var> EDT
+        </small>
+      </div>
+      <div class="update font-regular update">
+        <strong>Update</strong> -
+      	We have decided to increase the duration of this maintenance by 2 hours.
+
+        <br>
+
+        <small>
+            Jul <var data-var='date'>17</var>, <var data-var='time'>15:30</var> EDT
+        </small>
+      </div>
+      <div class="update font-regular scheduled">
+        <strong>Scheduled</strong> -
+      	Planned maintenance activities will be carried out during this maintenance window.<br /><br />While we do not anticipate any major impact on the availability of Connect API endpoints, we are creating this maintenance window out of an abundance of caution. Endpoints might be temporarily responding with HTTP 503.<br /><br />Please take any necessary action on your end to accommodate this window. Let us know if you have any questions or concerns.
+
+        <br>
+
+        <small>
+            Jul <var data-var='date'>14</var>, <var data-var='time'>14:18</var> EDT
+        </small>
+      </div>
+  </div>
+
+</div>
+
+  </div>
+
+          
+  <div class="status-day font-regular no-incidents">
+    <div class="date border-color font-large">Jul <var data-var="date">21</var>, <var data-var="year">2020</var></div>
+        <p class="color-secondary">No incidents reported.</p>
+  </div>
+
+      </div>
+
+
+      <div class="page-footer border-color font-small">
+          <a href="/history" class="history-footer-link"><span style="font-family:arial">&larr;</span> Incident History</a>
+
+        <span class="color-secondary powered-by"><a class="color-secondary" target="_blank" rel="noopener noreferrer nofollow" href="https://www.atlassian.com/software/statuspage/powered-by?utm_campaign=connect-status.instacart.com&amp;utm_content=status-pages&amp;utm_medium=powered-by&amp;utm_source=inapp">Powered by Statuspage</a></span>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+
+
+  <!-- custom metrics stuff -->
+  
+
+
+
+
+    <script src="https://dka575ofm4ao0.cloudfront.net/assets/status_manifest-5396f5d28540fe116539fd876ef3ca39358ad0ee6b1258efa865d22b01cff2db.js"></script>
+    <div id="cpt-notification-container"></div>
+    
+
+
+
+
+    <!-- analytics web client scripts -->
+    <script>
+      if (typeof window.awc === 'undefined' || window.awc === null) {
+        window.awc = new Promise(function(resolve, reject) {
+          window.awc_resolve = resolve;
+        });
+      }
+      if (typeof window.analyticsClient === 'undefined' || window.analyticsClient === null) {
+        window.analyticsClient = new Promise(function(resolve, reject) {
+          window.analyticsClient_resolve = resolve;
+        });
+      }
+      awc.then(function(awc) {
+        var analyticsClient = new awc.default({
+          env: awc.envType.PROD,
+          product: 'statuspage',
+          version: '7cc4b692549dbb0942ae416c1b1434b39b77bb64',
+          origin: awc.originType.WEB,
+        });
+
+        var tenantOrgId = 'j7kr6p7bsdt9:5t2xy2vhfjsk';
+        analyticsClient.setTenantInfo(awc.tenantType.ORG_ID, tenantOrgId);
+
+        window.analyticsClient_resolve(analyticsClient);
+      });
+    </script>
+
+      <script>
+    var eventPayload = {"name":"statusPageScreen","attributes":{"pageIsPrivate":false,"overAllocationsCohort":null,"pageId":"5t2xy2vhfjsk","pageType":"public","componentSubscriptionEnabled":false,"pricingPlan":"public-business","subscriptionType":"paid","orgId":"j7kr6p7bsdt9","isAaID":false,"aaidMigration":"not available"}}
+    var expectedParams = new Set(); // initializing with iterable not supported in IE11
+    expectedParams.add('utm_source').add('utm_campaign').add('utm_medium');
+
+    location.search.substring(1).split('&').forEach(function(param) {
+      var arr = param.split('=');
+      if (arr.length < 2) return;
+
+      var k = arr[0], v = arr[1]
+      if (expectedParams.has(k)) eventPayload.attributes[k] = v;
+    });
+
+    analyticsClient.then(function(analyticsClient) {
+      analyticsClient.sendScreenEvent(eventPayload)
+    })
+
+      if (location.search.indexOf('subscription_confirmed=true') !== -1) {
+        analyticsClient.then(function(analyticsClient) { analyticsClient.sendScreenEvent({"name":"emailConfirmedBanner","attributes":{"pageIsPrivate":false,"overAllocationsCohort":null,"pageId":"5t2xy2vhfjsk","pageType":"public","componentSubscriptionEnabled":false,"pricingPlan":"public-business","subscriptionType":"paid","orgId":"j7kr6p7bsdt9","isAaID":false,"aaidMigration":"not available"}}); });
+      }
+  </script>
+      <script type="text/javascript">
+        $(function() {
+          $('#subscribe-btn-email').click(function() {
+            analyticsClient.then(function(analyticsClient) { analyticsClient.sendUIEvent({"actionSubject":"button","actionSubjectId":"subscribeStep1","action":"clicked","containerType":null,"containerId":null,"objectType":null,"objectId":null,"source":"statusPageScreen","attributes":{"type":"email","componentSubscriptionEnabled":false,"pageIsPrivate":false,"overAllocationsCohort":null,"pageId":"5t2xy2vhfjsk","pageType":"public","pricingPlan":"public-business","subscriptionType":"paid","orgId":"j7kr6p7bsdt9","isAaID":false,"aaidMigration":"not available"},"tags":[]}); });
+          });
+
+          $('#subscribe-btn-sms').click(function() {
+            analyticsClient.then(function(analyticsClient) { analyticsClient.sendUIEvent({"actionSubject":"button","actionSubjectId":"subscribeStep1","action":"clicked","containerType":null,"containerId":null,"objectType":null,"objectId":null,"source":"statusPageScreen","attributes":{"type":"sms","componentSubscriptionEnabled":false,"pageIsPrivate":false,"overAllocationsCohort":null,"pageId":"5t2xy2vhfjsk","pageType":"public","pricingPlan":"public-business","subscriptionType":"paid","orgId":"j7kr6p7bsdt9","isAaID":false,"aaidMigration":"not available"},"tags":[]}); });
+          });
+        })
+      </script>
+
+
+    <!-- all of the content_for stuff -->
+      <script src="https://dka575ofm4ao0.cloudfront.net/assets/register_subscription_form-879ad6742751a5926359f0430c1692c94f00c87d533ed504ee28db2c0de01100.js"></script>
+
+  <script type="text/javascript">
+      $(function() {
+          SP.currentPage.registerSubscriptionForm('email');
+
+          SP.currentPage.registerSubscriptionForm('sms');
+
+      });
+
+
+
+
+
+  </script>
+  <script src="https://dka575ofm4ao0.cloudfront.net/assets/status_common-1fd834a384bbe98054e27a8f008945ad030e03ce2da00ef88610bf6bb8485193.js"></script>
+    <script>
+      SP.pollForChanges('/api/v2/status.json');
+    </script>
+
+  <script>
+    $(function() {
+      $('.tool').tooltipster({
+        animationDuration: 100,
+        contentAsHTML: true,
+        delay: 100,
+        theme: 'tooltipster-borderless',
+        functionInit: function (instance, helper) {
+          var $origin = $(helper.origin),
+              dataOptions = $origin.attr('data-tooltip-config');
+          if (dataOptions){
+            dataOptions = JSON.parse(dataOptions);
+            $.each(dataOptions, function(name, option){
+                instance.option(name, option);
+            });
+          }
+        }
+      });
+      // clicks on first tab in subscribe popout since we won't know which is first
+      // upon construction in the ruby code
+      $('.updates-dropdown-nav > a').eq(0).click();
+
+      // twitter follow button needs some margin
+      $('.twitter-follow-button').css('margin-right', '6px');
+    });
+
+    $(function() {
+      // open/close component groups
+      HRB.utils.djshook('component-group-opener').on('click', function() {
+        $(this).find('.group-parent-indicator').toggleClass('fa-plus-square-o').toggleClass('fa-minus-square-o').end().parent().toggleClass('open');
+      });
+    });
+
+    $(function() {
+      $(document).on('ajax:complete', '.modal.in', function(e) {
+        // Close the active modal.
+        $('.modal.in').modal('hide');
+      });
+    });
+
+  </script>
+  <script src="https://dka575ofm4ao0.cloudfront.net/assets/vendor/highstock.min-9de8c325692300efdf4b01e93caaa5668693434b74882c25c3b13d58b2d583cb.js"></script>
+
+  <script>
+    //<![CDATA[
+    String.prototype.commafy = function () {
+      return this.replace(/(^|[^\w.])(\d{4,})/g, function($0, $1, $2) {
+        return $1 + $2.replace(/\d(?=(?:\d\d\d)+(?!\d))/g, "$&,");
+      });
+    }
+
+    Number.prototype.commafy = function () {
+      return String(this).commafy();
+    }
+
+    $(function() {
+      SP.currentPage.numberToDecimalPlaces = function(num, dec) {
+        if (dec == 0) {
+          return Math.round(num).commafy();
+        }
+
+        newnum = num.toFixed(dec)
+        var finalValue;
+
+        // this gets rid of the 100.000% thing
+        if (num == parseInt(newnum))
+          finalValue = Math.round(num);
+        else
+          finalValue = newnum;
+
+        return finalValue.commafy();
+      }
+
+      SP.currentPage.getDataForTimePeriod = function(period) {
+          $.ajax({
+            type: "GET",
+            // this line must be end up with "//status.*" type of URLs (no protocol, just leading slashes). customers use SSL through us or by offloading with
+            // cloudflare or something like it and the request.protocol the server sees is different than what the browser sees
+            url: "//connect-status.instacart.com/metrics-display/yj1ygjzs78pr/_.json".replace('_', period)
+          }).done(function(metricsDisplay, textStatus, xhr) {
+            var summary = metricsDisplay.summary
+              , $metricSummaryLabel = HRB.utils.djshook('metrics-display-current-yj1ygjzs78pr')
+              , $graphContainer = HRB.utils.djshook('metrics-display-graph-container-yj1ygjzs78pr');
+            var errorMsg = null;
+
+            if(summary === "unavailable") {
+              errorMsg = 'We\'re having issues retrieving data for <strong>Latency</strong>.</div>';
+            } else if(summary) {
+              // we need to do a basic check to make sure we have any data at all
+              var hasDataRollupsAvailable = false;
+              for(var h = 0; h < metricsDisplay.metrics.length; h++) {
+                if(metricsDisplay.metrics[h].data.length > 0) {
+                  hasDataRollupsAvailable = true;
+                  break;
+                }
+              }
+              if(!hasDataRollupsAvailable) {
+                errorMsg = "Oops! No data has been indexed for <strong>Latency</strong> for this time period yet.";
+              }
+            } else {
+              errorMsg = "Failed to load. <strong>Latency</strong>";
+            }
+
+            if(errorMsg !== null) {
+              $metricSummaryLabel.text("--"); // display -- instead of number
+              $graphContainer.html('<div class="small"  style="text-align:center;">' + errorMsg + '</div>'); // removed .parent().find('.metric-meta').remove() so name still shows
+              $graphContainer.removeAttr("style");
+              return;
+            }
+
+            $graphContainer.show();
+            $graphContainer.attr("style", "height: 120px"); // set style after error message removed it
+            // proceed since we have data
+            $metricSummaryLabel.text(SP.currentPage.numberToDecimalPlaces(summary['last'], 2 ) + ' s');
+
+            var metricDataPoints = {}
+              , intervalMsec = metricsDisplay.period.interval * 1000;
+
+            var startingBucketMsec = parseInt((new Date()).getTime() / intervalMsec) * intervalMsec;
+
+            for(var h = 0; h < metricsDisplay.metrics.length; h++) {
+              metricDataPoints[metricsDisplay.metrics[h].metric.id] = []
+              var data = metricsDisplay.metrics[h].data
+                , currentBucketMsec = startingBucketMsec;
+
+              for(var i = metricsDisplay.period.count; i > 0; i--) {
+                // loop over the data and pull out the data point with the following characteristics
+                //  -> closest to currentBucketMsec
+                //  -> without being greater than currentMsecBucket
+                //  -> without being more than 1 intervalMsec bucket away
+                var valueToUse = null;
+                for(var j = data.length - 1; j >= 0; j--) {
+                  var currentTimestampMsec = data[j].timestamp * 1000;
+                  if(currentTimestampMsec <= currentBucketMsec && currentTimestampMsec > (currentBucketMsec - intervalMsec)) {
+                    valueToUse = data[j].value;
+                    // console.log("Using ts:" + currentTimestampMsec + " with value:" + valueToUse + " for bucket:" + currentBucketMsec);
+                    break;
+                  }
+                }
+
+                // local time
+                var offset = -1 * (new Date()).getTimezoneOffset() * 60 * 1000;
+
+                metricDataPoints[metricsDisplay.metrics[h].metric.id].push([currentBucketMsec + offset, valueToUse])
+                  currentBucketMsec -= intervalMsec;
+              }
+
+              metricDataPoints[metricsDisplay.metrics[h].metric.id].reverse();
+            }
+
+                  // set Global options
+      Highcharts.setOptions({
+        lang: {
+          thousandsSep: ','
+        }
+      });
+
+      $('#metrics-display-graph-container-yj1ygjzs78pr').highcharts('StockChart', {
+        plotOptions : {
+          series : {
+            animation : false,
+            color : '#3498db',
+            connectNulls: false
+          },
+        },
+
+        chart : {
+          backgroundColor: '#ffffff'
+        },
+
+        title : {
+          text: '',
+          style: {
+                display: 'none',
+             }
+        },
+
+        credits : {
+          enabled : false
+        },
+
+        exporting : {
+          enabled : false
+        },
+
+        rangeSelector : {
+          enabled : false
+        },
+
+        scrollbar : {
+          enabled : false
+        },
+
+        navigator : {
+          enabled : false
+        },
+
+        xAxis: {
+          gridLineColor : 'rgba(224,224,224,.8)',
+          labels: {
+            style : {
+              color: '#AAAAAA'
+            }
+          },
+          lineColor: '#E0E0E0',
+        },
+
+        yAxis: {
+          gridLineColor : 'rgba(224,224,224,.5)',
+          labels: {
+            align: 'left',
+            x: 5,
+            y: 3,
+            style : {
+              color: '#AAAAAA'
+            },
+            enabled : true
+          },
+          showLastLabel: true,
+                         tickPixelInterval: 40,
+               min: 0.0,
+               startOnTick: false,
+
+        },
+
+        series : [
+              {
+      name : 'Latency',
+      data : metricDataPoints['stlx3n87h5bt'],
+      tooltip: {
+        valueSuffix: ' s'
+      },
+      enableMouseTracking : ($(window).outerWidth() > 480) && true
+    }
+
+        ],
+
+        tooltip: {
+          borderWidth: 0,
+          enabled: ($(window).outerWidth() > 480) && true,
+          headerFormat: "<span style='font-size: 10px'>{point.key}  </span>",
+          hideDelay: 300,
+          pointFormat: "<span style='color:{point.color}'>●</span>  <b>{point.y}</b><br/>",
+          positioner: function() { return {x: 0, y: 0 }; },
+          shadow: false,
+          shape: "square",
+          split: false
+        }
+      });
+
+          });
+          $.ajax({
+            type: "GET",
+            // this line must be end up with "//status.*" type of URLs (no protocol, just leading slashes). customers use SSL through us or by offloading with
+            // cloudflare or something like it and the request.protocol the server sees is different than what the browser sees
+            url: "//connect-status.instacart.com/metrics-display/7qd189qhg5nl/_.json".replace('_', period)
+          }).done(function(metricsDisplay, textStatus, xhr) {
+            var summary = metricsDisplay.summary
+              , $metricSummaryLabel = HRB.utils.djshook('metrics-display-current-7qd189qhg5nl')
+              , $graphContainer = HRB.utils.djshook('metrics-display-graph-container-7qd189qhg5nl');
+            var errorMsg = null;
+
+            if(summary === "unavailable") {
+              errorMsg = 'We\'re having issues retrieving data for <strong>Request Success Rate</strong>.</div>';
+            } else if(summary) {
+              // we need to do a basic check to make sure we have any data at all
+              var hasDataRollupsAvailable = false;
+              for(var h = 0; h < metricsDisplay.metrics.length; h++) {
+                if(metricsDisplay.metrics[h].data.length > 0) {
+                  hasDataRollupsAvailable = true;
+                  break;
+                }
+              }
+              if(!hasDataRollupsAvailable) {
+                errorMsg = "Oops! No data has been indexed for <strong>Request Success Rate</strong> for this time period yet.";
+              }
+            } else {
+              errorMsg = "Failed to load. <strong>Request Success Rate</strong>";
+            }
+
+            if(errorMsg !== null) {
+              $metricSummaryLabel.text("--"); // display -- instead of number
+              $graphContainer.html('<div class="small"  style="text-align:center;">' + errorMsg + '</div>'); // removed .parent().find('.metric-meta').remove() so name still shows
+              $graphContainer.removeAttr("style");
+              return;
+            }
+
+            $graphContainer.show();
+            $graphContainer.attr("style", "height: 120px"); // set style after error message removed it
+            // proceed since we have data
+            $metricSummaryLabel.text(SP.currentPage.numberToDecimalPlaces(summary['mean'], 2 ) + '%');
+
+            var metricDataPoints = {}
+              , intervalMsec = metricsDisplay.period.interval * 1000;
+
+            var startingBucketMsec = parseInt((new Date()).getTime() / intervalMsec) * intervalMsec;
+
+            for(var h = 0; h < metricsDisplay.metrics.length; h++) {
+              metricDataPoints[metricsDisplay.metrics[h].metric.id] = []
+              var data = metricsDisplay.metrics[h].data
+                , currentBucketMsec = startingBucketMsec;
+
+              for(var i = metricsDisplay.period.count; i > 0; i--) {
+                // loop over the data and pull out the data point with the following characteristics
+                //  -> closest to currentBucketMsec
+                //  -> without being greater than currentMsecBucket
+                //  -> without being more than 1 intervalMsec bucket away
+                var valueToUse = null;
+                for(var j = data.length - 1; j >= 0; j--) {
+                  var currentTimestampMsec = data[j].timestamp * 1000;
+                  if(currentTimestampMsec <= currentBucketMsec && currentTimestampMsec > (currentBucketMsec - intervalMsec)) {
+                    valueToUse = data[j].value;
+                    // console.log("Using ts:" + currentTimestampMsec + " with value:" + valueToUse + " for bucket:" + currentBucketMsec);
+                    break;
+                  }
+                }
+
+                // local time
+                var offset = -1 * (new Date()).getTimezoneOffset() * 60 * 1000;
+
+                metricDataPoints[metricsDisplay.metrics[h].metric.id].push([currentBucketMsec + offset, valueToUse])
+                  currentBucketMsec -= intervalMsec;
+              }
+
+              metricDataPoints[metricsDisplay.metrics[h].metric.id].reverse();
+            }
+
+                  // set Global options
+      Highcharts.setOptions({
+        lang: {
+          thousandsSep: ','
+        }
+      });
+
+      $('#metrics-display-graph-container-7qd189qhg5nl').highcharts('StockChart', {
+        plotOptions : {
+          series : {
+            animation : false,
+            color : '#3498db',
+            connectNulls: false
+          },
+        },
+
+        chart : {
+          backgroundColor: '#ffffff'
+        },
+
+        title : {
+          text: '',
+          style: {
+                display: 'none',
+             }
+        },
+
+        credits : {
+          enabled : false
+        },
+
+        exporting : {
+          enabled : false
+        },
+
+        rangeSelector : {
+          enabled : false
+        },
+
+        scrollbar : {
+          enabled : false
+        },
+
+        navigator : {
+          enabled : false
+        },
+
+        xAxis: {
+          gridLineColor : 'rgba(224,224,224,.8)',
+          labels: {
+            style : {
+              color: '#AAAAAA'
+            }
+          },
+          lineColor: '#E0E0E0',
+        },
+
+        yAxis: {
+          gridLineColor : 'rgba(224,224,224,.5)',
+          labels: {
+            align: 'left',
+            x: 5,
+            y: 3,
+            style : {
+              color: '#AAAAAA'
+            },
+            enabled : true
+          },
+          showLastLabel: true,
+                        tickPositions: [0.0, 50.0, 100.0],
+               min: 0.0,
+               startOnTick: false,
+               max: 100.0,
+               endOnTick: false,
+
+        },
+
+        series : [
+              {
+      name : 'Request Success Rate',
+      data : metricDataPoints['0z35bt49lfd5'],
+      tooltip: {
+        valueSuffix: '%'
+      },
+      enableMouseTracking : ($(window).outerWidth() > 480) && true
+    }
+
+        ],
+
+        tooltip: {
+          borderWidth: 0,
+          enabled: ($(window).outerWidth() > 480) && true,
+          headerFormat: "<span style='font-size: 10px'>{point.key}  </span>",
+          hideDelay: 300,
+          pointFormat: "<span style='color:{point.color}'>●</span>  <b>{point.y}</b><br/>",
+          positioner: function() { return {x: 0, y: 0 }; },
+          shadow: false,
+          shape: "square",
+          split: false
+        }
+      });
+
+          });
+      }
+
+      var $timePeriodToggles = HRB.utils.djshook('data-time-period-toggle');
+
+      SP.currentPage.activeTimePeriodToggle = function(period) {
+        $timePeriodToggles.removeClass('active');
+        $timePeriodToggles.filter('[data-time-period="' + period + '"]').addClass('active');
+      }
+
+      SP.currentPage.getAndDisplayInitialChartData = function() {
+        if (window.location.hash == '#week') {
+          SP.currentPage.getDataForTimePeriod('week');
+          SP.currentPage.activeTimePeriodToggle('week');
+        }
+        else if (window.location.hash == '#month') {
+          SP.currentPage.getDataForTimePeriod('month');
+          SP.currentPage.activeTimePeriodToggle('month');
+        }
+        else {
+          SP.currentPage.getDataForTimePeriod('day');
+          SP.currentPage.activeTimePeriodToggle('day');
+        }
+      }
+
+      $timePeriodToggles.on('click', function() {
+        var newPeriod = $(this).attr('data-time-period');
+
+        SP.currentPage.activeTimePeriodToggle(newPeriod);
+        SP.currentPage.getDataForTimePeriod(newPeriod);
+        window.location.hash = newPeriod;
+
+        return false;
+      });
+
+      SP.currentPage.getAndDisplayInitialChartData();
+    })
+    //]]>
+  </script>
+
+
+
+      <script>
+  /** INITIALIZATION **/
+  var recaptchaIds = {}
+
+  // Unfortunately there's no unique selectors on the parent divs that recaptcha adds. The first unique selector
+  // is the iframe rendered 2 levels deep. So this waits until the iframes are added to the page, then finds
+  // the parent div and sets the z index so that it'll render above our modals & dropdowns from the start.
+  function setZIndex(captchaCount, startTime) {
+    // bail after 10s just in case so we don't do this forever if something whaky happens
+    if (new Date() - startTime > 10000) {
+      return;
+    }
+
+    var iframes = document.querySelectorAll('iframe[title="recaptcha challenge"]');
+    if (iframes.length != captchaCount) {
+      setTimeout(function() {
+        setZIndex(captchaCount, startTime);
+      }, 500);
+    }
+
+    for (var i = 0; i < iframes.length; i++) {
+      // incident subscribe modal is 1050, so this has to be above that
+      iframes[i].parentElement.parentElement.style.zIndex = "1100";
+    }
+  }
+
+  function addIncidentCaptcha() {
+    var incidentCaptcha = document.createElement('div');
+    incidentCaptcha.setAttribute('id', 'subscribe-incident-recaptcha');
+    incidentCaptcha.setAttribute('class', 'g-recaptcha');
+    incidentCaptcha.setAttribute('data-sitekey', '6LcZ-b0UAAAAAENi956aWzynTT2ZJ80dGU3F80Op');
+    incidentCaptcha.setAttribute('data-callback', 'submitIncidentSubscriberSuccess');
+    incidentCaptcha.setAttribute('data-error-callback', 'submitIncidentSubscriberError');
+    incidentCaptcha.setAttribute('data-size', 'invisible');
+    document.body.appendChild(incidentCaptcha);
+    var incidentCode = document.createElement('input');
+    incidentCode.setAttribute('type', 'hidden');
+    incidentCode.setAttribute('id', 'submit_incident_code');
+    document.body.appendChild(incidentCode);
+  }
+
+  var onloadCallback = function() {
+    // if there is an incident, then add incident captcha element
+    if (document.getElementsByClassName('modal-open-incident-subscribe').length > 0) {
+      addIncidentCaptcha();
+    }
+
+    var captchas = document.getElementsByClassName("g-recaptcha");
+
+    for(var i = 0; i < captchas.length; i++) {
+      var elId = captchas[i].id;
+      recaptchaIds[elId] = grecaptcha.render(elId);
+    }
+
+    setZIndex(captchas.length, new Date());
+  }
+
+
+  /** SUBSCRIBE DROPDOWN */
+
+  // callbacks for captcha success
+  function submitNewSubscriber(type, error) {
+    if (error) document.querySelector('#subscribe-form-' + type + ' #captcha_error').value = 'true';
+
+    document.getElementById('subscribe-form-' + type).dispatchEvent(new Event('submit', {bubbles: true, cancelable: true}));
+    grecaptcha.reset(recaptchaIds['subscribe-btn-' + type]);
+  }
+  function submitNewEmailSubscriber(token) {
+    submitNewSubscriber('email');
+  }
+  function submitNewSmsSubscriber(token) {
+    submitNewSubscriber('sms');
+  }
+  function submitNewWebhookSubscriber(token) {
+    submitNewSubscriber('webhook');
+  }
+  function submitIncidentSubscriber(token, error) {
+    var incidentCode = document.getElementById('submit_incident_code').value;
+    var incidentForm = document.getElementById('subscribe-form-' + incidentCode);
+
+    incidentForm.querySelector('input[name="captcha_error"]').value = error;
+    incidentForm.querySelector('input[name="g-recaptcha-response"]').value = token;
+    incidentForm.dispatchEvent(new Event('submit', {bubbles: true, cancelable: true}));
+    grecaptcha.reset(recaptchaIds['subscribe-incident-recaptcha']);
+  }
+  function submitIncidentSubscriberSuccess(token) {
+    submitIncidentSubscriber(token, 'false');
+  }
+
+  // callbacks if we get captcha network errors
+  function emailSubscriberCaptchaError(token) {
+    submitNewSubscriber('email', true);
+  }
+  function smsSubscriberCaptchaError(token) {
+    submitNewSubscriber('sms', true);
+  }
+  function webhookSubscriberCaptchaError(token) {
+    submitNewSubscriber('webhook', true);
+  }
+  function submitIncidentSubscriberError(token) {
+    submitIncidentSubscriber(token, 'true');
+  }
+
+  // tracking clicks
+  ['email', 'sms', 'webhook'].forEach(function(type) {
+    var el = document.getElementById('subscribe-btn-' + type);
+    el && el.addEventListener("click", function() {
+      $.ajax({
+        type: "POST",
+        url: "/subscriptions/track_attempt",
+        data: {
+          type: type
+        }
+      })
+    })
+  })
+
+  // form submission success callbacks
+  $('#subscribe-form-email').on('ajax:success', function(e, data, status, xhr){
+    if (data.type === 'success') {
+      SP.currentPage.updatesDropdown.hide();
+      document.getElementById('email').value = '';
+    }
+  });
+  $('#subscribe-form-sms').on('ajax:success', function(e, data, status, xhr){
+    if (data.type === 'success') {
+      SP.currentPage.updatesDropdown.hide();
+      document.getElementById('phone-number').value = '';
+    }
+  });
+  $('#subscribe-form-webhook').on('ajax:success', function(e, data, status, xhr){
+    if (data.type === 'success') {
+      SP.currentPage.updatesDropdown.hide();
+      document.getElementById('endpoint-webhooks').value = '';
+      document.getElementById('email-webhooks').value = '';
+    }
+  });
+
+  function submitCaptchaIncidentSubscribe(event) {
+    var incidentCode = event.target.id.split('-')[2];
+    event.preventDefault();
+
+    $.ajax({
+      type: "POST",
+      url: "/subscriptions/track_attempt",
+      data: {
+        type: 'incident'
+      }
+    })
+
+    document.getElementById('submit_incident_code').value = incidentCode;
+    grecaptcha.execute(recaptchaIds['subscribe-incident-recaptcha']);
+  }
+</script>
+
+<script src='https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit' async defer></script>
+
+
+    
+  <script src="https://dka575ofm4ao0.cloudfront.net/packs/common-a51d2f61551c3dc4fe5f.chunk.js"></script>
+  <script src="https://dka575ofm4ao0.cloudfront.net/packs/globals-247f1a2a004ff8b967d1.chunk.js"></script>
+
+    <script src="https://dka575ofm4ao0.cloudfront.net/packs/runtime-f6a4f9f93fa5bf8b5cc2.js"></script>
+    
+    
+
+
+    
+<!-- FOR FLASH NOTICES -->
+
+<!-- FOR ERROR -->
+
+
+    <script>
+  $(function() {
+    var $link = $('<span class="color-secondary powered-by"><a class="color-secondary" target="_blank" rel="noopener noreferrer nofollow" href="https://www.atlassian.com/software/statuspage/powered-by?utm_campaign=connect-status.instacart.com&amp;utm_content=status-pages&amp;utm_medium=powered-by&amp;utm_source=inapp">Powered by Statuspage</a></span>');
+
+  	var setPoweredByStyles = function() {
+  		if (!$('.powered-by').length) {
+  			$link.appendTo($('.page-footer'))
+  		}
+  		$('.powered-by').attr('style', 'display: inline !important; visibility:visible !important; opacity: 1 !important; position:static !important; text-indent:0px !important; transform:scale(1) !important');
+  	}
+
+  	setInterval(setPoweredByStyles, 1000);
+  });
+</script>
+
+
+
+
+
+  </body>
+</html>

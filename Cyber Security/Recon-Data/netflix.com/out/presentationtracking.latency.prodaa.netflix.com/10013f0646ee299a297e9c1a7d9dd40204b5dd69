@@ -1,0 +1,16 @@
+http://presentationtracking.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: presentationtracking.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Via: 1.1 i-049a3951f5e7b8bf4 (eu-west-1)
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< X-Netflix.nfstatus: 1_3
+< X-Netflix.proxy.execution-Time: 8308
+< X-Originating-Url: http://presentationtracking.latency.prodaa.netflix.com/
+< Content-Length: 0
+< Date: Wed, 17 Jun 2020 05:34:46 GMT
+< Server: beacon i-0023bfba29add4d5f
+

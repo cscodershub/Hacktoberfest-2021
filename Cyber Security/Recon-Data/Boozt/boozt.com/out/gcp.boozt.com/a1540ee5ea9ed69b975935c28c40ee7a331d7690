@@ -1,0 +1,17 @@
+http://gcp.boozt.com/
+
+> GET / HTTP/1.1
+> Host: gcp.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 11 Aug 2020 14:07:53 GMT
+< Server: cloudflare
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Cache-Control: max-age=3600
+< Expires: Tue, 11 Aug 2020 15:07:53 GMT
+< Location: https://gcp.boozt.com/
+< Cf-Request-Id: 047f726a54000019b98e862200000001
+< Vary: Accept-Encoding
+< Cf-Ray: 5c12868a2c6319b9-SIN
+

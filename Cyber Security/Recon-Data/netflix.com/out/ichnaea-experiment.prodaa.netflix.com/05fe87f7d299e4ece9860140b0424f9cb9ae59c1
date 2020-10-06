@@ -1,0 +1,16 @@
+http://ichnaea-experiment.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ichnaea-experiment.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Originating-Url: http://ichnaea-experiment.prodaa.netflix.com/
+< Content-Length: 0
+< X-Netflix.nfstatus: 1_1
+< Location: https://ichnaea-experiment.prodaa.netflix.com/
+< Server: clingest-secure i-0f94c2ea9398bade0
+< Via: 1.1 i-08ceabe17b81c55d1 (eu-west-1)
+< X-Netflix.proxy.execution-Time: 3
+< Date: Wed, 17 Jun 2020 05:34:43 GMT
+

@@ -1,0 +1,24 @@
+https://gspe76-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe76-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Cache: TCP_MISS from a116-74-255-13.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29323059) (-)
+< Server: dlb/1.0.2
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Pragma: no-cache
+< Cache-Control: max-age=0, no-cache, no-store
+< Date: Thu, 30 Apr 2020 21:30:59 GMT
+< Content-Type: text/html
+< Content-Length: 166
+< Expires: Thu, 30 Apr 2020 21:30:59 GMT
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body bgcolor="white">
+<center><h1>403 Forbidden</h1></center>
+<hr><center>dlb/1.0.2</center>
+</body>
+</html>

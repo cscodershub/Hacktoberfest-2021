@@ -1,0 +1,533 @@
+https://data.hpc.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: data.hpc.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Date: Sat, 18 Jul 2020 13:54:19 GMT
+< Cache-Control: private, max-age=0, must-revalidate
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< X-Powered-By: PHP/5.4.16
+< Pragma: no-cache
+< Access-Control-Allow-Origin: *
+< Server: Apache/2.4.6 () OpenSSL/1.0.2k-fips PHP/5.4.16
+< Set-Cookie: PHPSESSID=eo70oiq3pambtfqsf6p4de6ie7; path=/
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+<!DOCTYPE html>
+<!-- T4 JS layout -->
+<!--[if IE 8 ]><html lang="en" class="lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+<title> | Imperial College London</title>
+<!-- Content page layout -->
+
+<!-- MJH BEGIN -->
+<link rel="stylesheet" type="text/css" href="/static/codebase/fonts/font_roboto/roboto.css"/>
+	<link rel="stylesheet" type="text/css" href="/static/codebase/dhtmlx.css"/>
+	<script src="/static/codebase/dhtmlx.js"></script>
+	<script>
+		dhtmlx.image_path='/static/codebase/imgs/'
+	</script>
+
+
+
+<!-- MJH END -->
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@imperialcollege">
+<meta name="twitter:title" content="Impact">
+<meta name="twitter:description" content="Our research is making a difference around the world. Below are just some examples of how Imperial research has already translated into benefits for...">
+<meta name="twitter:image" content="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/ImperialOct2010-037--tojpeg_1480604708416_x1.jpg">
+<meta name="fb:app_id" content="674884772674087">
+<meta property="og:title" content="Impact" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/ImperialOct2010-037--tojpeg_1480604708416_x1.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:secure_url" content="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/ImperialOct2010-037--tojpeg_1480604708416_x1.jpg" />
+<meta property="og:url" content="http://www.imperial.ac.uk/research-and-innovation/impact/" />
+<meta property="og:description" content="Our research is making a difference around the world. Below are just some examples of how Imperial research has already translated into benefits for..." />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:site_name" content="Imperial College London" />
+
+ <!-- meta description -->
+ <!-- seo keyphrases -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.3" />
+
+            <!--[if lt IE 9 ]><link href="https://www.imperial.ac.uk/T4Assets/stylesheets/css/screen-ie.css?v=1.3.4" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if IE 9 ]><link href="https://www.imperial.ac.uk/T4Assets/stylesheets/css/screen-ie.css?v=1.3.4" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><link href="https://www.imperial.ac.uk/T4Assets/stylesheets/css/screen.css?v=1.3.4" media="all" rel="stylesheet" type="text/css" /><!--<![endif]-->
+
+  <link href="https://www.imperial.ac.uk/T4Assets/stylesheets/css/color-themes.css?v=1.3.4" media="all" rel="stylesheet" type="text/css" />
+  <link href="https://www.imperial.ac.uk/T4Assets/stylesheets/css/print.css?v=1.3.4" media="print" rel="stylesheet" type="text/css" />
+
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.imperial.ac.uk/T4Assets/apple-touch-icon-180x180-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.imperial.ac.uk/T4Assets/apple-touch-icon-152x152-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.imperial.ac.uk/T4Assets/apple-touch-icon-144x144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.imperial.ac.uk/T4Assets/apple-touch-icon-120x120-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.imperial.ac.uk/T4Assets/apple-touch-icon-76x76-precomposed.png" />
+  <link rel="apple-touch-icon" href="https://www.imperial.ac.uk/T4Assets/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="https://www.imperial.ac.uk/T4Assets/favicon-196x196.png" />
+  <link rel="shortcut icon" href="https://www.imperial.ac.uk/T4Assets/favicon-96x96.png" />
+  <link rel="shortcut icon" href="https://www.imperial.ac.uk/T4Assets/favicon-32x32.png" />
+  <link rel="shortcut icon" href="https://www.imperial.ac.uk/T4Assets/favicon.png" />
+  <link rel="icon" type="image/ico" href="https://www.imperial.ac.uk/T4Assets/favicon.ico" />
+
+<!--[if lt IE 9 ]><script src="https://www.imperial.ac.uk/T4Assets/js/lib/jquery1.min.js"></script><![endif]-->
+<!--[if IE 9 ]><script src="https://www.imperial.ac.uk/T4Assets/js/lib/jquery1.min.js"></script><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><script src="https://www.imperial.ac.uk/T4Assets/js/lib/jquery2.min.js"></script><!--<![endif]-->
+
+  <script src="https://www.imperial.ac.uk/T4Assets/js/build/application.min.js?v=1.3.4" type="text/javascript"></script>
+        <!-- assets -->
+
+            <script type="text/javascript"> 
+var _gaq = _gaq || []; 
+var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js'; 
+_gaq.push(['_require', 'inpage_linkid', pluginUrl]); 
+_gaq.push(['_setAccount', 'UA-2035562-1']); 
+_gaq.push(['_setDomainName', 'imperial.ac.uk']); 
+_gaq.push(['_setAllowLinker', true]); 
+_gaq.push(['_addIgnoredRef', 'imperial.ac.uk']); 
+_gaq.push(['_setAllowAnchor', true]); 
+_gaq.push(['_trackPageview']); 
+
+(function() { 
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+})(); 
+</script>
+        <!-- Google Analytics -->
+</head>
+<body class="theme-8" onload="doOnLoad();">
+
+            <!-- Google Tag Manager -->
+<noscript>
+	<iframe src="//www.googletagmanager.com/ns.html?id=GTM-PS52"
+height="0" width="0" class="sr-only"></iframe>
+</noscript>
+
+<script>
+	(function(w,d,s,l,i){
+		w[l]=w[l]||[];
+		w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});
+		var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+		j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;
+		f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PS52');
+</script>
+
+<!-- End Google Tag Manager -->
+        
+
+            <!-- Style Assets : Header -->
+<a class="skip-to" id="skip-to-content" href="#content">Skip to main content</a>
+<a class="skip-to" id="skip-to-search" href="#q">Skip to search</a>
+<a class="skip-to" id="skip-to-subnav" href="#section-title">Skip to section menu</a>
+<a class="skip-to" id="link-to-accessibility" href="https://www.imperial.ac.uk/about-the-site/accessibility/">View accessibility support page</a>
+<header id="header" class="navigation" role="banner">
+  <div class="container cf">
+    <div class="navigation-header">
+      <h1 class="logo"><a href="https://www.imperial.ac.uk" class="brand" title="Imperial College London Home">Imperial College London</a></h1>
+
+<!-- nav : Disaster alert - high level -->
+
+<!-- nav : News and events header -->
+<!-- Begin News &amp Events feed -->
+<section id="news-header">
+
+
+
+</section><!-- End News &amp Events feed -->
+
+    </div>
+    <nav role="navigation" id="primary-nav" class="wide">
+      <h2 class="sr-only">Main Navigation</h2>
+
+<!-- nav : Common Search code -->
+
+            <!-- Begin GSA Imperial Search -->
+
+<!--
+<div id="search-area">
+  <form method="get" action="https://google.imperial.ac.uk/search" id="search">
+    <div id="search-inner-wrapper">
+      <h2 class="sr-only">Search</h2>
+      <label for="q" class="sr-only">Search Imperial</label>
+      <input type="text" name="q" id="q" value="" class="clearDefault" placeholder="Search" title="Search for...">
+    </div>
+    <input type="hidden" value="default_collection" name="site">
+    <input type="hidden" value="0" name="sr">
+    <input type="hidden" value="1" name="secure">
+    <input type="hidden" value="default_frontend" name="client">
+    <input type="hidden" value="xml_no_dtd" name="output">
+    <input type="hidden" value="t4_frontend_live" name="proxystylesheet">
+    <input type="hidden" value="UTF-8" name="oe">
+    <input type="hidden" value="UTF-8" name="ie">
+    <input type="hidden" value="date:D:L:d1" name="sort">
+    <input type="hidden" value="a" name="entsp">
+    <input type="hidden" value="200" name="wc">
+    <input type="hidden" value="1" name="wc_mc">
+    <input type="hidden" value="1" name="ud">
+    <input type="hidden" value="1" name="exclude_apps">
+    <input type="hidden" value="*" name="getfields">
+    <button type="submit" title="Search" id="searchSubmit" class="submitButton">Search</button>
+  </form>
+</div>
+-->
+<!-- End GSA Imperial Search -->
+        
+
+<!-- MJH BEGIN -->
+<!-- Temporarily comment this out unti lthe full new site is ready
+  <ul class="nav nav-primary">
+  	<li class="mega">
+          <a class="parent" href="https://www.rcs.imperial.ac.uk" data-toggle="collapse">About</a>
+		</li>
+  	<li class="mega">
+          <a class="parent" href="https://compute.rcs.imperial.ac.uk" data-toggle="collapse">Computing</a>
+		</li>
+  	<li class="mega">
+          <a class="parent" href="https://data.rcs.imperial.ac.uk" data-toggle="collapse">Data</a>
+		</li>
+
+  	<li class="mega">
+          <a class="parent" href="https://engineering.rcs.imperial.ac.uk" data-toggle="collapse">Software Engineering</a>
+		</li>
+  	<li class="mega">
+          <a class="parent" href="https://training.rcs.imperial.ac.uk" data-toggle="collapse">Training</a>
+		</li>
+  	<li class="mega">
+          <a class="parent" href="https://impact.rcs.imperial.ac.uk" data-toggle="collapse">Impact</a>
+		</li>
+  	<li class="mega">
+          <a class="parent" href="https://help.rcs.imperial.ac.uk" data-toggle="collapse">Help!</a>
+		</li>
+	</ul>
+-->
+<!-- MJH END -->
+
+
+<!-- end Style Assets : Header -->
+        
+
+<section class="section-nav">
+<h2 id="section-title" data-toggle="section">Research Data Repository</h2>
+
+<nav id="menu-5129" class="menus">
+<h3 class="sr-only">Section Navigation </h3>
+<ul>
+	<li class="noscript"><a href="#" class="close-button">Close</a></li>
+	<li class="overview_link_wrapper"><a href="/courses/" class="overview_link">Courses Overview</a></li>
+
+
+<!-- nav object : Level 3 link menu -->
+
+
+
+   <li><a href="/publish/browse">Browse</a></li>
+   <li><a href="/publish/collection">Add Collection</a></li>
+   <li><a href="/publish/">Deposit Data</a></li>
+   <li><a href="https://wiki.ch.ic.ac.uk/wiki/index.php?title=Rdm:data ">Help</a></li>
+<li>
+<form action="/search.php" method="GET">
+    <label for="searchenginebox">Search Engine:</label>
+    <select name="searcher" id="searchenginebox">
+        <option selected>Google</option>
+        <option>DataCite</option>
+        <option>OpenAire</option>
+    </select>
+    <label for="searchquerybox">Search Query:</label>
+    <input type="text" name="searchquery" id="searchquerybox">
+</form>
+</li>
+
+<!--
+<li><a href="/Placeholder/">Placeholder</a>
+	<ul class="multilevel-linkul-0">
+
+		<li><a href="/Placeholder/1/">1</a></li>
+		<li><a href="/Placeholder/2/">2</a></li>
+		<li><a href="/Placeholder/3/">3</a></li>
+	</ul>
+</li>
+-->
+
+
+
+<!-- end nav object : Level 3 link menu -->
+</ul>
+</nav>
+</section> 
+</div>
+</header>
+
+
+<div id="content-box">
+<div id="page">
+<div class="container content-template" id="content">
+<!--<div class="row top flow-opposite" id="main">
+<div class="col lg-9 wysiwyg" role="main" id="primary-content">-->
+<div><div>
+<div class="col lg-12 page-heading">
+<div class="breadcrumbs">
+<!-- nav object : Breadcrumbs -->
+
+
+
+
+<!-- end nav object : Breadcrumbs -->
+</div>
+<h1></h1>
+</div> <!-- end page-heading -->
+<!-- nav object : Banner bottom -->
+<!-- begin Banner -bottom block js-->
+
+<div class="module">
+<div class="wysiwyg">
+
+<p>
+<a href="http://www.rcs.imperial.ac.uk">Research Computing Service</a> Data Repository.
+</p>
+<p>Publish datasets here and cite them with a DOI.</p>
+<p>To publish data here you must have an <a href="https://www.orcid.org">ORCiD ID</a>.
+<a href="https://www.imperial.ac.uk/research-and-innovation/support-for-staff/scholarly-communication/orcid/">Read more about ORCiD</a>.
+</P>
+
+<p>
+<a href="publish/register.php">Login</a>
+</p>
+
+</div>
+</div>
+</div>
+
+<!--<aside class="col lg-3 sidebar" id="secondary-content">-->
+<!-- begin Sidebar nav -->
+
+<!-- begin Level 4 menu - recurses -->
+<!--
+	<li>
+		<span class="currentbranch0">
+			<a href="HELLO">HELLO 1</a>
+		</span> 
+		<ul class="multilevel-linkul-0">
+			<li><a href="LEVEL 2">LEvel 2</a></li>
+		</ul>
+	</li>
+	<li>
+		<span class="currentbranch0">
+			<a href="HELLO">HELLO 2</a>
+		</span> 
+		<ul class="multilevel-linkul-0">
+			<li><a href="LEVEL 2">LEvel 3</a></li>
+			<li><a href="LEVEL 2">LEvel 4</a></li>
+		</ul>
+	</li>
+-->
+
+<!-- end Sidebar nav -->
+<!-- shared sidebar -->
+
+<!-- navigation object : Sidebar -->
+<!--
+<div class="col lg-12">
+
+
+</div>
+-->
+        <!-- end Social -->
+</div><!-- end page -->
+<footer class="footer" role="contentinfo">
+<div class="container">
+<h1 class="sr-only">Contact &amp; Links</h1>
+ 
+<!-- navigation object : Local Footer -->
+<!-- navigation object : Comment Start --><!-- navigation object : Global Footer pre direct edit --><!-- begin Global footer -->
+
+<!-- 
+<section class="footer-links row equal-height-columns">
+    <h2 class="sr-only">Useful Links</h2>
+    <div class="col lg-2 md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Information for
+            </h3>
+            <ul>
+<li><a href="http://www.imperial.ac.uk/gstudy/">Prospective students</a></li>
+<li><a href="http://www.imperial.ac.uk/galumni/">Alumni</a></li>
+<li><a href="http://www.imperial.ac.uk/gjob-applicants/">Job applicants</a></li>
+<li><a href="http://www.imperial.ac.uk/gresearch-and-innovation/support-for-partners/">Partners and business</a></li>
+<li><a href="http://www.imperial.ac.uk/gmedia/">Media</a></li>
+<li><a href="http://www.imperial.ac.uk/ggiving/">Donors</a></li>
+<li><a href="http://www.imperial.ac.uk/gparents/">Parents</a></li>
+<li><a href="http://www.imperialvenues.co.uk/" target="_blank">Conference organisers</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Top links
+            </h3>
+            <ul>
+<li><a href="http://www.imperial.ac.uk/gabout/imperial-and-the-european-union/">Imperial and the EU</a></li>
+<li><a href="https://www.imperial.ac.uk/office365" target="_blank">Outlook 365 web access</a></li>
+<li><a href="http://www.imperial.ac.uk/gadmin-services/ict/contact-ict-service-desk/">Contact the ICT Service Desk</a></li>
+<li><a href="http://www.imperial.ac.uk/gadmin-services/library/">Library</a></li>
+<li><a href="http://www.imperial.ac.uk/gadmin-services/ict/self-service/teaching-learning/elearning-services/blackboard/">Blackboard</a></li>
+<li><a href="http://www.imperial.ac.uk/gadmin-services/sport/">Sport</a></li>
+<li><a href="http://www.imperial.ac.uk/gadmin-services/registry/term-dates/">Term dates</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Students
+            </h3>
+            <ul>
+<li><a href="http://www.imperial.ac.uk/gstudents/">Current students</a></li>
+<li><a href="https://www.imperialcollegeunion.org/" target="_blank">Imperial College Union</a></li>
+<li><a href="http://www.imperial.ac.uk/gstudents/student-hub/">Student Hub</a></li>
+<li><a href="http://www.imperial.ac.uk/gadmin-services/careers/">Careers Service</a></li>
+<li><a href="http://www.imperial.ac.uk/gstudents/online-services/mobile/">Imperial Mobile</a></li>
+<li><a href="http://www.imperial.ac.uk/gstudents/graduation/">Graduation</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Staff
+            </h3>
+            <ul>
+<li><a href=https://www.imperial.ac.uk"/staff/">Staff main page</a></li>
+<li><a href=https://www.imperial.ac.uk"/admin-services/ict/self-service/admin-systems/icis/">ICIS</a></li>
+<li><a href=https://www.imperial.ac.uk"/admin-services/human-resources/procedures/">HR procedures</a></li>
+<li><a href=https://www.imperial.ac.uk"/admin-services/human-resources/salaries-terms-and-conditions/">Salaries, Terms and Conditions</a></li>
+<li><a href=https://www.imperial.ac.uk"/research-and-innovation/support-for-staff/">Research support</a></li>
+<li><a href=https://www.imperial.ac.uk"/staff/new-staff/">Information for new staff</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Imperial partners
+            </h3>
+            <ul>
+<li><a href="http://www.imperial.nhs.uk/" target="_blank">Imperial College Healthcare NHS Trust</a></li>
+<li><a href="http://www.ahsc.org.uk/" target="_blank">Imperial College Academic Health Science Centre</a></li>
+<li><a href="http://imperialcollegehealthpartners.com/" target="_blank">Imperial College Health Partners</a></li>
+<li><a href="http://www.imperial-consultants.co.uk/" target="_blank">Imperial Consultants</a></li>
+<li><a href="http://www.imperialinnovations.co.uk/" target="_blank">Imperial Innovations</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                A-Z
+            </h3>
+            <ul>
+<li><a href="https://www.imperial.ac.uk/faculties-and-departments/">Faculties, departments and institutes</a></li>
+<li><a href="https://www.imperial.ac.uk/a-z-research/">Research centres and groups</a></li>
+<li><a href="https://www.imperial.ac.uk/admin-services/">Administration and support services</a></li>
+<li><a href="http://www.imperial.ac.uk/collegedirectory/" target="_blank">People finder</a></li>
+</ul>
+        </nav>
+    </div>
+</section>
+-->
+
+<!-- Footer Links End -->
+<section class="footer-common row">
+    <h2 class="sr-only">College Information</h2>
+    <div class="col lg-2 md-3 sm-12" id="footer-contact">
+        <a href="#" class="footer-brand">
+            Imperial College London
+        </a>
+        <h3 class="sr-only">Address</h3>
+        <div class="address">
+            <p itemscope itemtype="http://schema.org/PostalAddress">
+                <span itemprop="name">South Kensington Campus</span><br /><span itemprop="addressLocality">London</span> <span itemprop="postalCode">SW7 2AZ</span>, <span itemprop="addressCountry">UK</span><br /><span itemprop="telephone">tel: +44 (0)20 7589 5111</span>
+                <br />
+                <a href="https://www.imperial.ac.uk/visit/campuses/"
+                class="location-link">
+                Campuses &amp; maps
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="col lg-10 md-9 sm-12" id="footer-connect">
+        <h3 class="title">Follow Imperial</h3>
+        <div class="footer-social sm-10">
+            <a href="https://www.facebook.com/imperialcollegelondon" class="facebook" target="_blank" >Facebook</a>
+            <a href="https://twitter.com/imperialcollege" class="twitter" target="_blank" >Twitter</a>
+            <a href="https://www.youtube.com/user/imperialcollegevideo" class="youtube" target="_blank" >You Tube</a>
+            <a href="https://www.linkedin.com/edu/imperial-college-london-12598" class="linkedin" target="_blank" >Linked in</a>
+            <a href="https://plus.google.com/100357106915062883581/posts" class="google-plus" target="_blank" >Google Plus</a>
+            <a href="https://instagram.com/imperialcollege" class="instagram" target="_blank" >Instagram</a>
+            <a href="https://www.weibo.com/ImperialUK" class="weibo" target="_blank" >Weibo</a>
+            
+        </div>
+    </div>
+    <nav id="footer-info">
+        <h3 class="sr-only">Site Information</h3>
+        <ul>
+            
+        <li>
+    <a href="https://www.imperial.ac.uk/sitemap/" >Sitemap</a>
+   </li>
+  
+            
+        <li>
+    <a href="https://www.imperial.ac.uk/about-the-site/accessibility/" >Accessibility</a>
+   </li>
+  
+
+            
+        <li>
+    <a href="https://www.imperial.ac.uk/about-the-site/" >About this site</a>
+   </li>
+  
+
+            
+        <li>
+    <a href="https://www.imperial.ac.uk/about-the-site/use-of-cookies/" >Use of cookies</a>
+   </li>
+  
+
+            
+        <li>
+    <a href="https://www.imperial.ac.uk/error/report/" >Report incorrect content</a>
+   </li>
+  
+            <li class="copyright">
+                <span>&copy;
+                    2017-2019                    Imperial College London
+                </span>
+            </li>
+            <li class="hide-sm">
+<!-- navigation object : Global Footer post direct edit --></li>
+        </ul>
+      </nav>
+    </section>
+  </div> 
+  <!-- end Global footer -->
+</footer>
+
+
+
+</div><!--/#content-box -->
+  </body>
+</html>
+<a href="publish/register.php">Login</a>

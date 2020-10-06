@@ -1,0 +1,15 @@
+http://techblog.netflix.com/
+
+> GET / HTTP/1.1
+> Host: techblog.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 17 Jun 2020 05:35:18 GMT
+< Server: UltraDNS Client Redirection Server
+< Last-Modified: Wed, 17 Jun 2020 05:35:18 GMT
+< Accept-Ranges: none
+< Content-Type: text/html
+< Location: https://medium.com/netflix-techblog
+
+

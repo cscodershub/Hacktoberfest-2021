@@ -1,0 +1,31 @@
+https://wwws.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: wwws.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< Edge-Control: no-cache, no-store
+< Set-Cookie: flwssn=12f34fb1-7fd3-4d0b-958f-90f3227a772a; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:36:17 GMT
+< Set-Cookie: clSharedContext=dcd3bda0-706c-473b-b3c6-c130bea3ab62; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEIgTBoVRysCMyiqnoionWuhAqnBkr2Z5wP3vYzDgFiHKg5JEKhN70OE6oh0xDmE0RKe8kj2AtSktLVR0C35gW0dXcXOzEN9CHmNohSAvVUfAIw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABQtgCQveU_FVyfwzvqRETwOGjFLAZdSIks.%26dt%3D1592372177999; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:36:17 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBELghRD8F_9ZYcRuTlgw4FOmA8LIBgRra4zcm28y_4iQBEL6NmMANrGUiYwgtF-cEMJT9z4PpAPFMblVQd1jHZ4EfLol9h1NDzvw3yGMicBqrghteLMORrn3ylL10-3l0LxX5oyWjxqJgm97v5c2D6mSo9wzQRJOB69oNL17qOFaWb7kFESmA3xir-x7C6b5XJnAhr9FbCm4RoP45_-WNJ0UJzYErTr7HulrKnkUijU-y_ibyNhRclh1QSe76asR57L_FzvXClVNRS-FobBqrS9xRJqPFaUqn-Tx5lkiOSoVGJErWTp9nkcCRhBCzcwp1aT9nqktg97Nul_uPWxdVywH_ow..%26bt%3Ddev%26mac%3DAQEAEAABABRaqCw4d0mOyPcV6wRwdAFEtKBlbdcJQsw.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:36:17 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=95e73b7b-7e93-40c0-a136-685adc588fcd; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:18 GMT; Path=/; Domain=.netflix.com
+< X-Frame-Options: DENY
+< Cache-Control: no-cache, no-store
+< Expires: 0
+< Location: https://wwws.geo.netflix.com/in/
+< X-Netflix.nfstatus: 1_1
+< X-Robots-Tag: index
+< Date: Wed, 17 Jun 2020 05:36:17 GMT
+< X-Originating-Url: http://wwws.geo.netflix.com/
+< Content-Type: text/html
+< X-Netflix.proxy.execution-Time: 511
+< Server: nq_website_core-prod-release bf846123-4445-42a0-afe3-b26fff9c501f
+< Pragma: no-cache
+< Via: 1.1 i-01de7952d17179641 (eu-west-1)
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+

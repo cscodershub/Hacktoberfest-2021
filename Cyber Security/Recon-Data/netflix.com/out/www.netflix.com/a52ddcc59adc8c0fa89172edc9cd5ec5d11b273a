@@ -1,0 +1,32 @@
+https://www.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Wed, 17 Jun 2020 05:39:33 GMT
+< Edge-Control: no-cache, no-store
+< Expires: 0
+< Location: https://www.netflix.com/in/
+< Server: nq_website_core-prod-release fb083fee-071c-4707-b85f-c651417e38d5
+< Set-Cookie: flwssn=99f89c4a-d6ce-41bb-868c-3047b326faff; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:39:33 GMT
+< Set-Cookie: clSharedContext=9bf62ce8-e301-4567-a1f7-6d7fc58b2409; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEL85PTclfw28qVFxUQDzRDVAnvkopgcQ_bxl2of-Ayn35UY4VeWBu0ZuTwYj4YGy58bJJpsxqP_PJnl37DutQd4TyDsJTa9SvbYbvOcO1R-8Vw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABS5gd0mg8KzUAUFLXaUlIOYV6XA9VdeQG8.%26dt%3D1592372373725; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:39:33 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEKMcmxTeESP_8VLSEMaoZt-A8GuZAfslwcRLhSmI6BStLG1vZ-_f-Msl5IuHSjCjiS0t4rUFLuqRggQAINSbcwK5UTJWHxsXxojmrbMoBqaDW5MsXVUm8jcthx_652AXbOH5sgMCZsBryWGPQYcccsb-UENlzMS89z0ZjR_YJEqfjf45yKsI_pgtUjQWG-lpR2n9q3lnTeqqf3jVys3SMw43PI9ehKqiUzPBJGU9vp0BPU7epAwp6wBqpkIZEl5VvcBzksITPPu9Zo-lG-754q0XEdQn9ndvx-NdXbIVgzgngUk_Wgcsr-o6bCpnOG41GO71KIHg6JAkoBayXTw4kdoU7w..%26bt%3Ddev%26mac%3DAQEAEAABABT94xRzZXsKrdKjnp5yb5KYBc4LAunq6CI.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:39:33 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=ae6cd785-1eb3-4c87-9732-c956114ab529; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:39:33 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.proxy.execution-Time: 121
+< Content-Type: text/html
+< Pragma: no-cache
+< Via: 1.1 i-0c5036efd41aeb304 (eu-west-1)
+< X-Frame-Options: DENY
+< Content-Length: 0
+< Cache-Control: no-cache, no-store
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< X-Content-Type-Options: nosniff
+< X-Netflix.nfstatus: 1_1
+< X-Originating-Url: https://www.netflix.com/
+

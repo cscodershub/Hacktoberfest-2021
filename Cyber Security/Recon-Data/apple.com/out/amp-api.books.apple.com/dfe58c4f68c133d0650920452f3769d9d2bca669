@@ -1,0 +1,27 @@
+http://amp-api.books.apple.com/
+
+> GET / HTTP/1.1
+> Host: amp-api.books.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Type: text/html
+< Date: Thu, 30 Apr 2020 21:30:45 GMT
+< Expires: Thu, 30 Apr 2020 21:30:45 GMT
+< X-Cache: TCP_MISS from a49-44-196-29.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a204-237-175-228.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a199-239-183-36.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< X-Cache-Remote: TCP_MISS from a199-239-183-36.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< X-Cache-Remote: TCP_MISS from a199-239-183-36.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Length: 272
+
+<HTML><HEAD>
+<TITLE>Service Unavailable - Fail to connect</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;6&#46;24b7efc7&#46;1588282245&#46;64bfd011
+</BODY></HTML>

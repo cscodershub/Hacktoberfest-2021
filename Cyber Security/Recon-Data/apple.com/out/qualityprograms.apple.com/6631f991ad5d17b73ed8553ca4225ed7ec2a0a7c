@@ -1,0 +1,36 @@
+https://qualityprograms.apple.com/
+
+> GET / HTTP/1.1
+> Host: qualityprograms.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apple
+< Content-Type: text/html
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< X-Cache-Remote: TCP_MISS from a23-209-103-7.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Content-Length: 197
+< X-Xss-Protection: 1; mode=block
+< X-Application-Context: application:PROD:8443
+< Accept-Ranges: bytes
+< X-Cache: TCP_MISS from a23-57-69-33.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< Set-Cookie: sh_qp=751c4e3918b82a4073113364436183c0; domain=qualityprograms.apple.com; httponly; secure; path=/
+< Set-Cookie: JSESSIONID=node0xxc1bk3alwuyze7qi9y8beet1933401.node0;Path=/;Secure;HttpOnly
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Last-Modified: Wed, 15 Jan 2020 19:54:27 GMT
+< Akamai-Age-Ms: 1588282279193
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Vary: Accept-Encoding, User-Agent
+< Host: qualityprograms.apple.com
+< Date: Thu, 30 Apr 2020 21:31:19 GMT
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="0; url=https://www.apple.com/support/exchange_repair/">
+    </head>
+</html>

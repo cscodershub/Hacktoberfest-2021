@@ -1,0 +1,14 @@
+https://www.instacart.com/?return_to=/help
+https://www.instacart.com/?return_to=https://data-ingestion.instacart.com
+https://www.instacart.com/?return_to=https://logistics.instacart.com/
+https://www.instacart.com/?return_to=https://partners.instacart.com/partners/catalog/products/278171?warehouse_id=29
+https://www.instacart.com/?return_to=https://partners.instacart.com/partners/catalog/products/278201?warehouse_id=29
+https://www.instacart.com/?return_to=https://partners.instacart.com/partners/catalog/products/2815503
+https://www.instacart.com/?return_to=https://partners.instacart.com/partners/catalog/products/674689
+https://www.instacart.com/?return_to=https://retailers.instacart.com/catalog?redirected=1
+https://www.instacart.com/accounts/login?return_to=https://data-ingestion.instacart.com
+https://www.instacart.com/accounts/login?return_to=https%3A%2F%2Flogistics.instacart.com%2F
+https://www.instacart.com/publix&data=02|01|dchristensen@sunsentinel.com|2a2414632d24445e2dec08d7a02b7dc1|f7da0482aed242fa80233b240fb6598d|0|0|637153980969854539&sdata=d2ZmnnThJDXe3X+oiHB3OXXu81jVyGOoukQ35WRaT3g=&reserved=0
+https://www.instacart.com/store/express_plans?location=subscriptions/user_signup&returnTo=welcome
+https://www.instacart.com/store/partner_recipe?url=&guest=true
+https://www.instacart.com/store/partner_recipe?url=

@@ -1,0 +1,145 @@
+https://artists.apple.com/
+
+> GET / HTTP/1.1
+> Host: artists.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Download-Options: noopen
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Runtime: 0.121491
+< X-B3-Traceid: 0b0fcd190fed0bb1
+< X-Daiquiri-Instance: daiquiri:38493002:pv50p00it-hyhk10063901:7987:20E24
+< Expires: Thu, 30 Apr 2020 21:45:31 GMT
+< Server: daiquiri/3.0.0
+< X-Xss-Protection: 1; mode=block
+< Date: Thu, 30 Apr 2020 21:40:31 GMT
+< X-Request-Id: ea4d8868-52e3-4cc9-b38e-e115c53a5a1e
+< X-Cache-Status: EXPIRED
+< X-Apple-Jingle-Correlation-Key: Q5KDAVY7FZDBTCSR3NJ2633VJE
+< X-Cache: TCP_MISS from a49-44-95-103.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Content-Type-Options: nosniff
+< Content-Language: en-us
+< Cache-Control: public, max-age=300
+< X-Permitted-Cross-Domain-Policies: none
+< Vary: Accept-Language
+< Vary: Accept-Encoding
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Type: text/html; charset=utf-8
+< X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE html>
+<html lang='en-us' site='artist-support-center'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<title>Apple Music for Artists</title>
+<meta content='Discover your music milestones, update your artist image, and understand listener trends across iTunes and Apple Music with Apple Music for Artists.' name='description'>
+<link href='https://artists.apple.com' rel='canonical'>
+<link href='https://artists.apple.com/de-de' hreflang='de' rel='alternate'>
+<link href='https://artists.apple.com' hreflang='en' rel='alternate'>
+<link href='https://artists.apple.com/es-mx' hreflang='es' rel='alternate'>
+<link href='https://artists.apple.com/fr-fr' hreflang='fr' rel='alternate'>
+<link href='https://artists.apple.com/ja-jp' hreflang='ja' rel='alternate'>
+<link href='https://artists.apple.com/ru-ru' hreflang='ru' rel='alternate'>
+<link href='https://artists.apple.com/zh-cn' hreflang='zh' rel='alternate'>
+<link href='https://artists.apple.com' hreflang='x-default' rel='alternate'>
+<meta content='Apple Music for Artists' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='en_US' property='og:locale'>
+<meta content='https://artists.apple.com' property='og:url'>
+<meta content='Discover your music milestones, update your artist image, and understand listener trends across iTunes and Apple Music with Apple Music for Artists.' property='og:description'>
+<meta content='https://artists.apple.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbW9CIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--63d7ac66bdf75681a14240684ccdc5ff64061383/hero@2x.png' property='og:image'>
+<meta content='Apple Music for Artists' property='twitter:title'>
+<meta content='summary' property='twitter:card'>
+<meta content='Discover your music milestones, update your artist image, and understand listener trends across iTunes and Apple Music with Apple Music for Artists.' property='twitter:description'>
+<meta content='https://artists.apple.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbWtCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e807dc3f4dc6f3ae29b615a879367fe13456de43/hero@2x.png' property='twitter_image'>
+<meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Y16l97zJPmxx5Iy6xzAAgPBazzpDR9xeqkdsVwQqRx6qQrMHGgK2QdfbvB6kN9leUgF5BpOCEKpPPQ5kD3LdeQ==" />
+<link href='https://www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1' rel='stylesheet' type='text/css'>
+
+<script>
+//<![CDATA[
+var loggingEnabled = false;
+//]]>
+</script>
+<script src="/packs/marketing-439dfc17a41055fb4982.js"></script>
+<link rel="stylesheet" media="screen" href="/packs/marketing-45cf9586187e89ee263393df3bf805f3.css" />
+</head>
+<body id='marketing-page'>
+<div class='external-body-wrapper'>
+<input class='localnav-menustate' id='localnav-menustate' type='checkbox'>
+<nav class='localnav localnav-scrim small-localnav-collapsible' data-sticky id='localnav' role='navigation'>
+<div class='localnav-wrapper'>
+<div class='localnav-background'></div>
+<div class='localnav-content'>
+<div class='localnav-title'>
+<a href="/">Apple Music for Artists</a>
+</div>
+<div class='localnav-menu'>
+<a class='localnav-menucta-anchor localnav-menucta-anchor-open' href='#localnav-menustate' id='localnav-menustate-open'>
+<span class='localnav-menucta-anchor-label'>Open Menu</span>
+</a>
+<a class='localnav-menucta-anchor localnav-menucta-anchor-close' href='#' id='localnav-menustate-close'>
+<span class='localnav-menucta-anchor-label'>Close Menu</span>
+</a>
+<div class='localnav-menu-tray'>
+<ul class='localnav-menu-items'>
+<li class='localnav-menu-item'>
+<a data-metrics-click="{&quot;clickType&quot;: &quot;page_link&quot;, &quot;location&quot;: &quot;secondary_navbar&quot;}" onClick="window.recordClick(event)" class="localnav-menu-link" href="/support">Support</a>
+</li>
+<li class='localnav-menu-item'>
+<a data-metrics-click="{&quot;clickType&quot;: &quot;page_link&quot;, &quot;location&quot;: &quot;secondary_navbar&quot;}" onClick="window.recordClick(event)" class="localnav-menu-link" href="/resources">Resources</a>
+</li>
+<li class='localnav-menu-item'>
+<a data-metrics-click="{&quot;clickType&quot;: &quot;page_link&quot;, &quot;location&quot;: &quot;secondary_navbar&quot;}" onClick="window.recordClick(event)" class="localnav-menu-link" href="/support/contact">Contact</a>
+</li>
+</ul>
+</div>
+<div class='localnav-actions localnav-actions-right'>
+<div class='localnav-action localnav-action-button'>
+<a data-metrics-click="{&quot;clickType&quot;: &quot;signin&quot;, &quot;location&quot;: &quot;navbar&quot;}" onClick="window.recordClick(event)" class="localnav-button button button-compact button-applemusic" href="/a">Sign In</a>
+</div>
+<div aria-hidden='true' class='localnav-action localnav-action-menucta'>
+<label class='localnav-menucta' for='localnav-menustate'>
+<span class='localnav-menucta-chevron'></span>
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<label for='localnav-menustate' id='localnav-curtain'></label>
+
+<main class='wb-header-offset'><section id="title"> <div class="wrapper"> <hgroup> <div class="icon"> <img alt="Apple Music" sizes="(max-width: 735px) 74px, 100px" srcset="/assets/v2/icon-9c91bd9e1fe5bb6bb19fbebbb7baa119179b2386a927a85e145ea4381acc316f.png 74w, /assets/v2/icon@2x-576835943cff66aa34c58a4d854d919b63c689e789b09b29ec7fabcc1a36976b.png 148w,/assets/v2/icon@3x-65f3f6b3376364a1efb62f4f31a51e912143cca2dda6ad71a5328f48923c061e.png 222w,/assets/v2/icon-9c91bd9e1fe5bb6bb19fbebbb7baa119179b2386a927a85e145ea4381acc316f.png 100w,/assets/v2/icon@2x-576835943cff66aa34c58a4d854d919b63c689e789b09b29ec7fabcc1a36976b.png 200w,/assets/v2/icon@3x-65f3f6b3376364a1efb62f4f31a51e912143cca2dda6ad71a5328f48923c061e.png 300w" src="/assets/v2/icon-9c91bd9e1fe5bb6bb19fbebbb7baa119179b2386a927a85e145ea4381acc316f.png"> </div> <h1 class="t-headline-elevated">Apple Music for Artists</h1> <p class="t-intro-product">Everything you need to understand your music's impact across Apple Music and iTunes.</p> <div class="signup t-intro-elevated hide-sm"> <a class="block block-applemusic" data-metrics-click="{'clickType: 'signup', 'location': 'hero'}" href="/a/" onclick="window.recordClick(event)"> <span class="block-link more">Sign Up</span> </a> </div> <div class="signup t-intro-elevated visible-sm"> <p> <a class="block block-applemusic" data-metrics-click="{'clickType: 'signup', 'location': 'hero'}" href="/a/" onclick="window.recordClick(event)"> <span class="button button-applemusic">Sign Up</span> </a> </p> <a class="block" data-metrics-click="{'clickType: 'download', 'location': 'hero'}" href="https://apps.apple.com/us/app/id1366467972" onclick="window.recordClick(event)"> <span class="block-link more">Download iOS App</span> </a> </div> </hgroup> </div> </section> <section id="laptop-v2"> <img class="laptop" alt="Demo view of Apple Music for Artists app" sizes="(max-width: 735px) 358px, (max-width: 1023px) 848px, 1200px" srcset="/assets/v2/hero-c8f404bcf4460744feb67bc60e4d308104d515dafea0198ea9c255cef13bdaa8.png 1200w,/assets/v2/hero@2x-ea9a8b2a6dc0734318bcbc3bdbb8a58aeb67d74cc186d9738608053edaf0a20a.png 2400w,/assets/v2/hero@3x-da617888ef89c9153a004b2bc621e5972f314a3f8ea75f8b7167caa76460896c.png 3600w" src="/assets/v2/hero@3x-da617888ef89c9153a004b2bc621e5972f314a3f8ea75f8b7167caa76460896c.png"> <div class="headline"> <h2 class="t-headline-reduced">Keep tabs on how your music is performing.</h2> </div> </section> <section id="performance-v2"> <div class="panels-v2"> <div class="panel-row"> <div class="panel play-count"> <p class="t-rusko-caption">View a quick snapshot of your music's overall performance.</p> </div> <div class="panel insights"> <p class="t-rusko-caption">Identify milestones and all-time bests at a glance.</p> </div> </div> <div class="panel full-width"> <div class="graph-image-v2"></div> <p class="t-rusko-caption">Expand your understanding with details of trends over time.</p> </div> <div class="panel-row"> <div class="panel shazams"> <p class="t-rusko-caption">Discover which of your songs are getting shazamed the most. </p> </div> <div class="panel listener-count"> <p class="t-rusko-caption">See how many people are listening to your music over time.</p> </div> </div> </div> </section> <section id="artist-image-v2"> <div class="inner"> <div class="panel"> <div class="content"> <h2 class="t-headline-reduced">Upload your own custom artist image.</h2> <p class="t-rusko-caption">Your artist image lets you express your personality and show your fans who you are.</p> </div> </div> <div class="panel"> <div class="artwork"> <img alt="Playlist metrics example" srcset="/assets/v2/image_upload-40dbfb705d7b9b8ad887e4cf8d4a65b6eef03a448d0badb9e352645878a73077.png 354w, /assets/v2/image_upload@2x-f97e328718a97b506f3f1fd154c21536295fa675ab60864bc29482a07e31fce5.png 708w, /assets/v2/image_upload@3x-83f95d844958c045872e14c0a837fbf750f5124ad78b958aa11bd242562e8823.png 1062w" sizes="(max-width: 1023px) 270px, 354px" src="/assets/v2/image_upload@3x-83f95d844958c045872e14c0a837fbf750f5124ad78b958aa11bd242562e8823.png"> </div> </div> </div> </section> <section id="discovery-v2"> <div class="inner"> <div class="panel"> <div class="content"> <h2 class="t-headline-reduced">Find out where listeners discover your music.</h2> <p class="t-rusko-caption">Learn which playlists are driving the most plays of your songs, and see the demographics of your top listeners.</p> </div> </div> <div class="panel"> <div class="artwork"> <div class="playlist-container"> <img alt="Playlist metrics example" srcset="/assets/v2/playlists-44de8de5f7be493413524d4821e0bac9ffd6d57382a71db46cab93c25cf4897c.png 451w, /assets/v2/playlists@2x-5da669116123949fef3b90235a15f286812cb2ebd487eebc290d72a2d9fb82eb.png 902w, /assets/v2/playlists@3x-cd4a4b29456ebad69a9bd6183cb56ee4ca636758580c9f50b11fdd03bc259129.png 1128w" src="/assets/v2/playlists@3x-cd4a4b29456ebad69a9bd6183cb56ee4ca636758580c9f50b11fdd03bc259129.png"> </div> </div> </div> </div> </section> <section id="analytics-v2"> <div class="inner"> <div class="panel"> <div class="content"> <h2 class="t-headline-reduced">Get a global view of listeners.</h2> <p class="t-rusko-caption">You can quickly see where your listeners are located. Just click and zoom in to countries and cities to see more.</p> </div> </div> </div> </section> <section id="finale-v2"> <div class="icon"> <img alt="Apple Music" sizes="(max-width: 735px) 74px, 100px" srcset="/assets/v2/icon-9c91bd9e1fe5bb6bb19fbebbb7baa119179b2386a927a85e145ea4381acc316f.png 74w, /assets/v2/icon@2x-576835943cff66aa34c58a4d854d919b63c689e789b09b29ec7fabcc1a36976b.png 148w,/assets/v2/icon@3x-65f3f6b3376364a1efb62f4f31a51e912143cca2dda6ad71a5328f48923c061e.png 222w,/assets/v2/icon-9c91bd9e1fe5bb6bb19fbebbb7baa119179b2386a927a85e145ea4381acc316f.png 100w,/assets/v2/icon@2x-576835943cff66aa34c58a4d854d919b63c689e789b09b29ec7fabcc1a36976b.png 200w,/assets/v2/icon@3x-65f3f6b3376364a1efb62f4f31a51e912143cca2dda6ad71a5328f48923c061e.png 300w" src="/assets/v2/icon-9c91bd9e1fe5bb6bb19fbebbb7baa119179b2386a927a85e145ea4381acc316f.png"> </div> <h4 class="t-rusko-caption">Apple Music for Artists</h4> <div class="signup t-intro-elevated"> <a class="block block-applemusic" data-metrics-click="{'clickType: 'signup', 'location': 'finish'}" href="/a/" onclick="window.recordClick(event)"> <span class="block-link more">Sign Up</span> </a> </div> </section></main>
+<footer aria-labelledby='footer-label' class='footer' id='footer' role='contentinfo'>
+<div class='footer-content'>
+<section class='footer-mini' typeof='Organization' vocab='http://schema.org/'>
+<div class='footer-mini-shop'>
+<div class='logo'><img alt="Apple Music" class="am-wordmark" src="/assets/apple_music_wordmark-b92bc25ed5716c4c17d79d62e1b82a66b7b74c2f14f95ea0c906d549e54a419f.svg" /></div>
+</div>
+<div class='footer-mini-locale'>
+<a class="footer-mini-locale-link" aria-label="Country Name. Choose your country or region" title="Choose your country or region" data-metrics-click="{&quot;clickType&quot;: &quot;choose_locale&quot;, &quot;location&quot;: &quot;footer&quot;}" onClick="window.recordClick(event)" href="/choose_locale"><span class='flag-small flag-small-us footer-mini-locale-flag'></span>English
+</a></div>
+<div class='footer-mini-legal'>
+<div class='footer-mini-legal-copyright'>
+Copyright
+2020
+Apple Inc.
+All rights reserved
+</div>
+<div class='footer-mini-legal-links'>
+<a target="_blank" data-metrics-click="{&quot;clickType&quot;: &quot;contact_us&quot;, &quot;location&quot;: &quot;footer&quot;}" onClick="window.recordClick(event)" class="footer-mini-legal-link" href="/contact">Contact Us</a>
+<a target="_blank" data-metrics-click="{&quot;clickType&quot;: &quot;privacy&quot;, &quot;location&quot;: &quot;footer&quot;}" onClick="window.recordClick(event)" class="footer-mini-legal-link" href="https://www.apple.com/legal/privacy/">Privacy Policy</a>
+<a target="_blank" data-metrics-click="{&quot;clickType&quot;: &quot;terms&quot;, &quot;location&quot;: &quot;footer&quot;}" onClick="window.recordClick(event)" class="footer-mini-legal-link" href="https://artists.apple.com/terms">Terms of Service</a>
+</div>
+</div>
+</section>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
+<script src="/packs/metrics-bcf1434bdf009ca4b1b5.js"></script>

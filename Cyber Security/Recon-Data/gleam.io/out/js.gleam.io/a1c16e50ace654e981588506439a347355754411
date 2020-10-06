@@ -1,0 +1,21 @@
+http://js.gleam.io/
+
+> GET / HTTP/1.1
+> Host: js.gleam.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Thu, 30 Jul 2020 04:27:11 GMT
+< Content-Type: text/html
+< Content-Length: 178
+< Location: https://js.gleam.io/
+< Server: NetDNA-cache/2.2
+< Access-Control-Allow-Origin: *
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

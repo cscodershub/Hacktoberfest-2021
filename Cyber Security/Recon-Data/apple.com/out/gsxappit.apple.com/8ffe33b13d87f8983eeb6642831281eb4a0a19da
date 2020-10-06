@@ -1,0 +1,51 @@
+https://gsxappit.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsxappit.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Last-Modified: Tue, 15 Oct 2019 00:53:07 GMT
+< X-Xss-Protection: 1; mode=block
+< Server: ATS/8.0.7
+< X-Frame-Options: SAMEORIGIN
+< Age: 2
+< Cdnuuid: d23e0999-8eb0-4fd5-badf-e7d894d4c4bb-10860574
+< Date: Thu, 30 Apr 2020 21:41:07 GMT
+< Via: https/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), https/1.1 sgsin3-edge-bx-013.ts.apple.com (ApacheTrafficServer/8.0.7)
+< X-Cache: miss, miss
+< Etag: W/"453-594e8685a9ae7"
+< Host: gsxit.apple.com
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+<script src='jquery.min.js'></script>
+<script type='text/javascript'>
+
+document.cookie = "X-Client-Origin=;path=/;domain=apple.com;";
+
+document.cookie = "GSX.USER.REDIRECT=;path=/;domain=apple.com;";
+
+var dt = new Date();
+document.cookie = "dstimeoffset="+dt.getTimezoneOffset()+";path=/;domain=apple.com;";    
+
+$(document).ready(function() {
+    //Akamai Test URLi
+    var jsonpUrl = 'https://gsxappit.apple.com/WebApp/akamai.htm?callback=?';
+    $.getJSON(jsonpUrl,function(data) {
+        //Set the Akamai Cookie,Redirects to AKamai URL)
+                var expdate = new Date ();
+                expdate.setTime(expdate.getTime() + 1000 * 60 * 60); //cookie set for an hour.
+                document.cookie = "akamai" + "=" + escape("Y") + "; expires=" + expdate.toGMTString() + "; path=/" +";domain=apple.com";
+            window.location='https://gsxit.apple.com/WebApp/login.htm';
+ 
+        });
+});
+</script>
+<html>
+<body>
+<!--Wait for 5 seconds; Redirects to GSX Base URL without Akamai Cookie-->
+<meta http-equiv="refresh" content="3;url=https://gsxit.apple.com/WebApp/login.htm">
+</body>
+</html>

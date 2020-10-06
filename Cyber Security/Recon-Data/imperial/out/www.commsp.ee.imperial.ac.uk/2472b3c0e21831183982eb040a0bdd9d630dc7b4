@@ -1,0 +1,30 @@
+http://www.commsp.ee.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.commsp.ee.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< Server: Microsoft-IIS/10.0
+< Date: Sat, 18 Jul 2020 13:54:46 GMT
+< Content-Type: text/html
+< Last-Modified: Mon, 30 Oct 2017 19:14:35 GMT
+< Accept-Ranges: bytes
+< Etag: "f0b71553b351d31:0"
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="1; url=http://www.imperial.ac.uk/electrical-engineering/research/comms-and-signal-processing/">
+        <script type="text/javascript">
+            window.location.href = "http://www.imperial.ac.uk/electrical-engineering/research/comms-and-signal-processing/"
+        </script>
+        <title>Page Redirection</title>
+    </head>
+    <body>
+        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+        If you are not redirected automatically, follow this <a href='http://www.imperial.ac.uk/electrical-engineering/research/comms-and-signal-processing/'>link to example</a>.
+    </body>
+</html>

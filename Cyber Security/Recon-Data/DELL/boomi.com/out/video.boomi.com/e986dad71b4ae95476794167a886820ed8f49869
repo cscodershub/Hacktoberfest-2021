@@ -1,0 +1,20 @@
+http://video.boomi.com/
+
+> GET / HTTP/1.1
+> Host: video.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Request-Id: a0720f55-e998-4b50-ae66-4291e91f115b
+< X-Runtime: 0.054366
+< Date: Sat, 15 Aug 2020 09:15:59 GMT
+< Content-Type: text/html; charset=utf-8
+< Referrer-Policy: no-referrer-when-downgrade
+< X-Content-Type-Options: nosniff
+< X-Robots-Tag: noindex
+< Strict-Transport-Security: max-age=31556952
+< Location: https://video.boomi.com/
+< Cache-Control: no-cache
+< Content-Security-Policy: default-src * mailto: tel:; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'
+
+<html><body>You are being <a href="https://video.boomi.com/">redirected</a>.</body></html>

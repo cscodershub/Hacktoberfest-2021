@@ -1,0 +1,19 @@
+https://invitation-mr.ess.apple.com/
+
+> GET / HTTP/1.1
+> Host: invitation-mr.ess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< X-B3-Traceid: 50aeae8445764418
+< Strict-Transport-Security: max-age=31536000
+< Server: AppleHttpServer/62e237dc531d
+< X-Apple-Jingle-Correlation-Key: RJJCYSLVMF4B2KXDLNA2475T7E
+< Apple-Seq: 0
+< Apple-Tk: false
+< Apple-Originating-System: UnknownOriginatingSystem
+< X-Responding-Instance: InvitationService:380000:magent1708.usspk05.pie.apple.com:31012:2007B-133:nocommit
+< Date: Thu, 30 Apr 2020 21:40:11 GMT
+< Content-Length: 0
+< X-Apple-Request-Uuid: 8a522c49-7561-781d-2ae3-5b41ae7fb3f9
+

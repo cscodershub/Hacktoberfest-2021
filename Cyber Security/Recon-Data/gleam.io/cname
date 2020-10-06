@@ -1,0 +1,4 @@
+js.gleam.io.		3600	IN	CNAME	jsgleamio.crowd9ptyltd.netdna-cdn.com.
+preview.gleam.io.	300	IN	CNAME	gleam.io.
+r.gleam.io.		60	IN	CNAME	mailgun.org.
+www.gleam.io.		3600	IN	CNAME	gleam.io.

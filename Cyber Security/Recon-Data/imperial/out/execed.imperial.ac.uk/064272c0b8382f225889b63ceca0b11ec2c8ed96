@@ -1,0 +1,27 @@
+http://execed.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: execed.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sat, 18 Jul 2020 13:54:46 GMT
+< X-Xss-Protection: 1; mode=block
+< Location: https://execed.imperial.ac.uk/
+< Expires: Mon, 17 Aug 2020 13:54:46 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Server: Apache/2.4.18 (Ubuntu)
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Cache-Control: max-age=2592000
+< Content-Length: 325
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://execed.imperial.ac.uk/">here</a>.</p>
+<hr>
+<address>Apache/2.4.18 (Ubuntu) Server at execed.imperial.ac.uk Port 80</address>
+</body></html>

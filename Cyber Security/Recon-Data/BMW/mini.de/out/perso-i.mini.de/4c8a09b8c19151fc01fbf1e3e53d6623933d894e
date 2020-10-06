@@ -1,0 +1,47 @@
+https://perso-i.mini.de/
+
+> GET / HTTP/1.1
+> Host: perso-i.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Content-Security-Policy: default-src 'self'
+< X-Webkit-Csp: default-src 'self'
+< Strict-Transport-Security: max-age=31556926;includeSubDomains
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Content-Length: 775
+< Server: Apache
+< Content-Type: text/html
+< Content-Security-Policy: default-src 'self'
+< Last-Modified: Tue, 14 Jul 2020 07:37:50 GMT
+< Etag: "307-5aa61e26e9104"
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Tue, 11 Aug 2020 04:54:31 GMT
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+ <title>BMW Group - no content deployed</title>
+ <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+ <style type="text/css">
+    body       { vertical-align: middle; }
+    p          { font-family: Verdana, Arial, Helvetica, sans-serif;
+                 text-align: center;
+                 font-size: 10pt; }
+    .bold      { font-weight: bold; }
+ </style>
+ </head>
+
+ <body>
+  <div>
+    <p style="margin-top: 150px;"/>
+    <p><img src="/webops-global-icons/bmw/bmw_group.png" alt="BMW Group"/></p>
+    <p class="bold">BMW - New Installation (ML6)</p>
+    <p>This project didn't deploy any content yet.</p>
+  </div>
+
+ </body>
+</html>

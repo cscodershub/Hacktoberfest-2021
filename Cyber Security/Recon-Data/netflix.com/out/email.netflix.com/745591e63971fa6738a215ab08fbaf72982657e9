@@ -1,0 +1,21 @@
+http://email.netflix.com/
+
+> GET / HTTP/1.1
+> Host: email.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Server: ghs
+< Content-Length: 234
+< X-Xss-Protection: 0
+< X-Frame-Options: SAMEORIGIN
+< Location: https://mail.google.com/a/netflix.com
+< Date: Wed, 17 Jun 2020 05:35:24 GMT
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://mail.google.com/a/netflix.com">here</A>.
+</BODY></HTML>

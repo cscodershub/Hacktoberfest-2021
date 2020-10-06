@@ -1,0 +1,32 @@
+https://www.sandbox.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.sandbox.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Wed, 17 Jun 2020 05:37:15 GMT
+< Server: nq_website_core-sandbox-release a642cc80-91c8-4d0b-95c0-930c27a43b43
+< Set-Cookie: flwssn=eebee2e1-df1d-493a-b40b-e2ff49ddab24; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:37:15 GMT
+< Set-Cookie: clSharedContext=e0b10160-7788-42be-adcb-6fa723dea340; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEIqBKcbAbV8BbUQlAk4XgFpA5sTwnlLDnAwJ4L7yaSA_V_HHg2uNWq3pOqM6ojwWRhyyIi4D0zQvY-7_c1Yxfn6dFupaM4j7Jy2mz5Ya8lGKtw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABTv-6hm9GDXEaeYawYIlqXlV08Ccadfd_M.%26dt%3D1592372235142; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:37:15 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEM39nZC472eTyqiE6vwfkfWA8EdZKB2-ZAKRTSiAzLxZnUCheC1Q4bgvL4bLdgHzdG3Ge73fuIIxdO-91d-3CNS7xWY3hvTU2d8a_8DUwGhyG9h8jAyjLwHv6c4vJ9XYr9QhCAAqxfA-ZPyxlyqYKfDJJgbtK51oxc3BfryDdSg0V_UbXooX3yhj4Zjp46AU8UFumHn2JfyOV-PKnwankFZW11o_O_Y88-3dasMujMWV2431dJlc6SsqXElcxQVj8yyaZBa5YNBS-lk7P-btrLDM_pBbKQJV6LYHwjXN4rdWDuWVR_Ee4ehqT3yUExIUvyPzZKLW7GWxkxy1DKeyNCgQTg..%26bt%3Ddev%26mac%3DAQEAEAABABRP1IOPvnIdbj4BA1PArtHFOKaGvUNdB1Y.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:37:15 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=91ad0dcc-9052-4fa4-b535-124f65e44e75; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:37:15 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0d60b8aac0660d31f (eu-west-1)
+< X-Frame-Options: DENY
+< Edge-Control: no-cache, no-store
+< Strict-Transport-Security: max-age=31536000
+< X-Originating-Url: https://www.sandbox.netflix.com/
+< Content-Length: 0
+< Expires: 0
+< Pragma: no-cache
+< X-Netflix.nfstatus: 1_1
+< Cache-Control: no-cache, no-store
+< Content-Type: text/html
+< Location: https://www.sandbox.netflix.com/in/
+< X-Content-Type-Options: nosniff
+< X-Netflix.proxy.execution-Time: 1423
+< X-Robots-Tag: noindex
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+

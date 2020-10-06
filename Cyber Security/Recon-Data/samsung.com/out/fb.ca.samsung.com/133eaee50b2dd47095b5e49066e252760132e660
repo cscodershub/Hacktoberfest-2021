@@ -1,0 +1,15 @@
+http://fb.ca.samsung.com/
+
+> GET / HTTP/1.1
+> Host: fb.ca.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: http://www.samsung.com/ca/
+< Date: Wed, 10 Jun 2020 05:35:49 GMT
+< Content-Length: 207
+< Set-Cookie: TS01ef6e9e=0130e8942a84e6025debf84e192501566900c843ce3f4bc31dd68a3d2c1c30c046c4562a77c47c4b93e38fa77eedecb9a45210fe48; Path=/
+< Content-Type: text/html; charset=UTF-8
+
+<head><title>문서가 이동되었습니다.</title></head>
+<body><h1>개체가 이동되었습니다.</h1><a HREF="http://www.samsung.com/ca/">여기</a>에서 이 문서를 찾을 수 있습니다.</body>

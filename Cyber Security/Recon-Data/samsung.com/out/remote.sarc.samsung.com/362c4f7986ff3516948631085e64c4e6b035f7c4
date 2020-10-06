@@ -1,0 +1,20 @@
+http://remote.sarc.samsung.com/
+
+> GET / HTTP/1.1
+> Host: remote.sarc.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 173
+< Location: https://remote.sarc.samsung.com/
+< Strict-Transport-Security: max-age=31536000;
+< Date: Wed, 10 Jun 2020 05:36:36 GMT
+< Content-Type: text/html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center></center>
+</body>
+</html>

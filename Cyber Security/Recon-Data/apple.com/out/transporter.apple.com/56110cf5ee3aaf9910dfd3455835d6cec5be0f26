@@ -1,0 +1,39 @@
+https://transporter.apple.com/
+
+> GET / HTTP/1.1
+> Host: transporter.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Thu, 30 Apr 2020 21:29:07 GMT
+< Content-Type: text/html; charset=UTF-8
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Location: https://idmsac.corp.apple.com/IDMSWebAuth/login?appIdKey=f51747d61827d2a190efe08bbf68b02e9c8e4c32b4dd215803064eea29bd373f&path=%2F&rv=1
+< X-Drupal-Dynamic-Cache: UNCACHEABLE
+< Expires: Thu, 01 Apr 1976 08:00:00 GMT
+< Vary: 
+< Content-Length: 816
+< Cache-Control: must-revalidate, no-cache, no-store, private
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Server: Apple
+< Edge-Control: bypass-cache
+< X-Xss-Protection: 1; mode=block
+< X-Ua-Compatible: IE=edge
+< Content-Language: en
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url=https://idmsac.corp.apple.com/IDMSWebAuth/login?appIdKey=f51747d61827d2a190efe08bbf68b02e9c8e4c32b4dd215803064eea29bd373f&amp;path=%2F&amp;rv=1" />
+
+        <title>Redirecting to https://idmsac.corp.apple.com/IDMSWebAuth/login?appIdKey=f51747d61827d2a190efe08bbf68b02e9c8e4c32b4dd215803064eea29bd373f&amp;path=%2F&amp;rv=1</title>
+    </head>
+    <body>
+        Redirecting to <a href="https://idmsac.corp.apple.com/IDMSWebAuth/login?appIdKey=f51747d61827d2a190efe08bbf68b02e9c8e4c32b4dd215803064eea29bd373f&amp;path=%2F&amp;rv=1">https://idmsac.corp.apple.com/IDMSWebAuth/login?appIdKey=f51747d61827d2a190efe08bbf68b02e9c8e4c32b4dd215803064eea29bd373f&amp;path=%2F&amp;rv=1</a>.
+    </body>
+</html>

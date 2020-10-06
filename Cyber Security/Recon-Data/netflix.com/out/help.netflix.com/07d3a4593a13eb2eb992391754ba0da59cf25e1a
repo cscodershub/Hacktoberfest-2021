@@ -1,0 +1,24 @@
+https://help.netflix.com/
+
+> GET / HTTP/1.1
+> Host: help.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Originating-Url: https://help.netflix.com/
+< Pragma: no-cache
+< X-Content-Type-Options: nosniff
+< X-Netflix.proxy.execution-Time: 11
+< X-Netflix.nfstatus: 1_1
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 0
+< Date: Wed, 17 Jun 2020 05:35:32 GMT
+< Server: poe-secure i-075779627dce97dfb
+< Via: 1.1 i-08053cff7f6f343a0 (eu-west-1)
+< Set-Cookie: XSRF-TOKEN=02ef8810-9c1f-45d4-a0d7-76cbbeb104fb; Domain=help.netflix.com; Path=/; Secure; HttpOnly
+< Set-Cookie: memclid=dd22ccfd-9b9f-4a3a-821d-674be08a6998; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:33 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEBC4Zm7inQc5KfDtsKI7cRVAi5ZuchhqyQhn22FFUcXiMNvkLDd91N7VQK6nZF1mQMjcP22u2IPRSi%2BNSlUnOkcYEL3ikx%2BjF8hVyqcL3bwO8g%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:35:33 GMT; Path=/; Domain=.netflix.com
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Expires: 0
+< Location: https://help.netflix.com/en/
+

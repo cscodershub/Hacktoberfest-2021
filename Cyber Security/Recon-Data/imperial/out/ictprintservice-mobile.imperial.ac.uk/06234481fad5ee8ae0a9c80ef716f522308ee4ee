@@ -1,0 +1,13 @@
+https://ictprintservice-mobile.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: ictprintservice-mobile.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://ictprintservice-mobile.imperial.ac.uk/login.cfm?dest=index.cfm&
+< Server: Jetty(6.1.26)
+< Date: Sat, 18 Jul 2020 13:54:27 GMT
+< Set-Cookie: CFID=36013; expires=Mon, 16-Jul-2029 13:54:27 GMT; path=/
+< Set-Cookie: CFTOKEN=8271C5C9-AA93-4652-A78CE1F13E3DE5AE; expires=Mon, 16-Jul-2029 13:54:27 GMT; path=/
+

@@ -1,0 +1,20 @@
+http://vpn3.sarc.samsung.com/
+
+> GET / HTTP/1.1
+> Host: vpn3.sarc.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://vpn3.sarc.samsung.com/
+< Strict-Transport-Security: max-age=31536000;
+< Date: Wed, 10 Jun 2020 05:36:38 GMT
+< Content-Type: text/html
+< Content-Length: 173
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center></center>
+</body>
+</html>

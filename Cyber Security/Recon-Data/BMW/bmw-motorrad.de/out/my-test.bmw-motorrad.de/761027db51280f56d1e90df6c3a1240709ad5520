@@ -1,0 +1,12 @@
+http://my-test.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: my-test.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Connection: close
+< Content-Length: 0
+< Location: https://my-test.bmw-motorrad.de/
+< Server: BigIP
+

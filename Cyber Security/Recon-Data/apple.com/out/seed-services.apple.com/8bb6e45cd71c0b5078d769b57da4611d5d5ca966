@@ -1,0 +1,23 @@
+https://seed-services.apple.com/
+
+> GET / HTTP/1.1
+> Host: seed-services.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Thu, 11 Jul 2019 23:18:39 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< Date: Thu, 30 Apr 2020 21:29:26 GMT
+< Content-Length: 62
+< Accept-Ranges: bytes
+< Etag: W/"62-1562887119000"
+< Host: seed-services.apple.com
+< X-Xss-Protection: 1; mode=block
+< Server: Apple
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Content-Type-Options: nosniff
+
+<script>
+window.location.href = "app/registration/"
+</script>

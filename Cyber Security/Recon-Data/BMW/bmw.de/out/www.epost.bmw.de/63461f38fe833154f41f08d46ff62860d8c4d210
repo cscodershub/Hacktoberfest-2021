@@ -1,0 +1,12 @@
+http://www.epost.bmw.de/
+
+> GET / HTTP/1.1
+> Host: www.epost.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Temporary Redirect
+< Connection: close
+< Content-Length: 0
+< Location: https://www.epost.bmw.de/
+< Server: BigIP
+

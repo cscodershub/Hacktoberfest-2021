@@ -1,0 +1,22 @@
+http://nwk-xml-origin-ns.apple.com/
+
+> GET / HTTP/1.1
+> Host: nwk-xml-origin-ns.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Type: text/html;charset=utf-8
+< X-Request-Id: f90bcfef-4fea-4eb7-a16a-b564ddc0ebad
+< Cache-Control: no-store, private, must-revalidate, proxy-revalidate, max-age=0, pre-check=0,post-check=0, no-cache
+< Vary: *
+< Pragma: no-cache
+< Expires: Wed, 29 Apr 2020 21:31:22 GMT
+
+<html>
+ <head></head>
+ <body></body>
+</html>
+<body></body>
+<h1>Oops!</h1>
+<pre>Service Unavailable</pre>
+<pre>f90bcfef-4fea-4eb7-a16a-b564ddc0ebad</pre>

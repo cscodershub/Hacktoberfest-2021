@@ -1,0 +1,17 @@
+http://drive.boozt.com/
+
+> GET / HTTP/1.1
+> Host: drive.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 11 Aug 2020 14:07:48 GMT
+< Expires: Tue, 11 Aug 2020 15:07:48 GMT
+< Location: https://drive.boozt.com/
+< Vary: Accept-Encoding
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Cache-Control: max-age=3600
+< Cf-Request-Id: 047f7253440000a910ce2be200000001
+< Server: cloudflare
+< Cf-Ray: 5c1286653b54a910-SIN
+

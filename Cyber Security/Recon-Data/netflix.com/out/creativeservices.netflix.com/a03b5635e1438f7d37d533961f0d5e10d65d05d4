@@ -1,0 +1,24 @@
+http://creativeservices.netflix.com/
+
+> GET / HTTP/1.1
+> Host: creativeservices.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://creativeservices.netflix.com/
+< Age: 1367
+< Cc-Cache-Status: HIT
+< Cf-Ray: 5a4a6a311e5bde96-BLR
+< Alt-Svc: h3-27=":443"; ma=86400
+< Content-Type: text/plain; charset=utf-8
+< Set-Cookie: __cfduid=d9c8e58d55ebc04515dc61c252ed4d73a1592372206; expires=Fri, 17-Jul-20 05:36:46 GMT; path=/; domain=.creativeservices.netflix.com; HttpOnly; SameSite=Lax
+< Vary: Accept, Accept-Encoding
+< Cf-Cache-Status: HIT
+< Server: cloudflare
+< Date: Wed, 17 Jun 2020 05:36:46 GMT
+< Cf-Request-Id: 036260b2b30000de96ae2de200000001
+< Cc-Stable-Domain: purple-ship.cloudvent.net
+< Access-Control-Allow-Headers: X-CSRF-Token
+< Access-Control-Allow-Origin: *
+
+Moved Permanently. Redirecting to https://creativeservices.netflix.com/

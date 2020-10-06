@@ -1,0 +1,29 @@
+https://portal.sisa.samsung.com/
+
+> GET / HTTP/1.1
+> Host: portal.sisa.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Object Moved
+< Cache-Control: no-cache, no-store
+< Location: /vpn/index.html
+< Content-Length: 551
+< Pragma: no-cache
+< Content-Type: text/html
+< Set-Cookie: NSC_CERT=ABCD1234@@@@@@@@@@@@@@@@@@@@@@@@;Secure;HttpOnly;Path=/
+< Set-Cookie: NSC_AAAC=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT;Secure
+< Set-Cookie: NSC_EPAC=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT;Secure
+< Set-Cookie: NSC_USER=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT;Secure
+< Set-Cookie: NSC_TEMP=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT;Secure
+< Set-Cookie: NSC_PERS=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT;Secure
+< Set-Cookie: NSC_BASEURL=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT;Secure
+< Set-Cookie: CsrfToken=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT;Secure
+< Set-Cookie: CtxsAuthId=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT;Secure
+< Set-Cookie: ASP.NET_SessionId=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT;Secure
+< Set-Cookie: NSC_TMAA=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT
+< Set-Cookie: NSC_TMAS=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT;Secure
+< Set-Cookie: NSC_TEMP=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT
+< Set-Cookie: NSC_PERS=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT
+< Set-Cookie: NSC_AAAC=xyz;Path=/;expires=Wednesday, 09-Nov-1999 23:12:40 GMT
+
+<html><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"><script type="text/javascript" src="/vpn/resources.js"></script><script type="text/javascript" language="javascript">var Resources = new ResourceManager("/logon/themes/Default/resources/{lang}", "REDIRECTION_BODY");</script></head><body><span id="This object may be found "></span><a href="/vpn/index.html"><span id="here"></span></a><span id="Trailing phrase after here"></span><script type="text/javascript" language="javascript">Resources.Load();</script></body></html>

@@ -1,0 +1,14 @@
+http://partnerportal.samsung.com/
+
+> GET / HTTP/1.1
+> Host: partnerportal.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: http://partnerhub.samsung.com/
+< Expires: Wed, 10 Jun 2020 05:37:15 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Pragma: no-cache
+< Date: Wed, 10 Jun 2020 05:37:15 GMT
+

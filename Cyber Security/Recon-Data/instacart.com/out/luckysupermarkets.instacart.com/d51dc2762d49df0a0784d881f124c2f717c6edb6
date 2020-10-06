@@ -1,0 +1,24 @@
+http://luckysupermarkets.instacart.com/
+
+> GET / HTTP/1.1
+> Host: luckysupermarkets.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 183
+< Via: 1.1 fc6c210e35fc8b6a5007a68cbebe5f31.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: xW4V6LA67mzMA2g_LcML7L71MObfsMJmVvUSTvdwQEyhrT2RLU03nw==
+< Server: CloudFront
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: MAA50-C1
+< Date: Tue, 04 Aug 2020 04:47:21 GMT
+< Location: https://luckysupermarkets.instacart.com/
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

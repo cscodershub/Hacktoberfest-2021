@@ -1,0 +1,31 @@
+https://www.jobs.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.jobs.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Pragma: no-cache
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< X-Originating-Url: https://www.jobs.netflix.com/
+< Server: nq_website_core-prod-release c5512f52-ec5f-45f8-b3bb-2a0e6d4b1398
+< X-Frame-Options: DENY
+< Expires: 0
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: flwssn=ecabdbe4-e752-4c96-95a8-5da105658dd0; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:36:32 GMT
+< Set-Cookie: clSharedContext=485818c2-ba38-469f-8f3b-79217b4f3322; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEFq1QjEzD3rKWLvxdiEeHt1A6yspm_7CkAPwldsufu4GK-a56Hw-3k9USMuEu6M8RX89jzzeZSqwnV-jWBx16l-g4zQRhs_VmdnesBC8CFRj1w%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABRSce94DjMfYfQnF0bbJg_uni1809IPc6w.%26dt%3D1592372192854; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:36:32 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBENdzSYqWttq5LRA5u1d9yjKA8M9gp8vHCzitb0lL29Q8Dx6d7EeqkXd2rPfFCVUMxp9Ted5fLo0be5HKE4j9awvGalbsidYgVKLakbU8r7rIC74uJrRjMgWI0NV1hMuJFcT6EhXQ_UqwiQfUtSp_heC2hjdchOvxd7JK8guqww_VnYQ469o9C33Rb6jFzgq6jEQhO9ToaJ8w19s_mOkM5Ktk7Gk7cES5oOhPoGKvyDpjE-dCZ2hbop70fwD3WQ_42fLOs97wl0n4_ryMSV1GNQFDsExt43drUaDcpFBBtdVi3csEkLlEmSgCKxF_JQRDAYgKHrf3xuxM6qU-ogIIdiZ98g..%26bt%3Ddev%26mac%3DAQEAEAABABTH4mVEmFOCKSTWbkRFfBLEAUC-boerWPo.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:36:32 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=955859c5-20e5-4857-b264-f8f748b7239b; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:32 GMT; Path=/; Domain=.netflix.com
+< Content-Type: text/html
+< Cache-Control: no-cache, no-store
+< Via: 1.1 i-0f9f0df48233c4540 (us-west-2)
+< Edge-Control: no-cache, no-store
+< X-Netflix.nfstatus: 1_1
+< Date: Wed, 17 Jun 2020 05:36:32 GMT
+< X-Robots-Tag: index
+< Location: https://www.jobs.netflix.com/in/
+< X-Content-Type-Options: nosniff
+< X-Netflix.proxy.execution-Time: 216
+

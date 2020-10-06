@@ -1,0 +1,33 @@
+https://asw-corp.apple.com/
+
+> GET / HTTP/1.1
+> Host: asw-corp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Etag: W/"772-1557030039000"
+< Last-Modified: Sun, 05 May 2019 04:20:39 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:40 GMT
+< Content-Type: text/html
+< Content-Length: 772
+< X-Frame-Options: SAMEORIGIN
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ASW</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link href="styles.06b7ea04c09cc1228149.bundle.css" rel="stylesheet"/></head>
+<body>
+  <app-root></app-root>
+<script type="text/javascript" src="inline.3866067af325c1da3a75.bundle.js"></script><script type="text/javascript" src="polyfills.03bf745fc41281fb3b4c.bundle.js"></script><script type="text/javascript" src="scripts.a4e92ab0c649c37cf080.bundle.js"></script><script type="text/javascript" src="vendor.8bbd2b19d06dddf32e4d.bundle.js"></script><script type="text/javascript" src="main.fc9def80bf0e3c08f263.bundle.js"></script></body>
+</html>

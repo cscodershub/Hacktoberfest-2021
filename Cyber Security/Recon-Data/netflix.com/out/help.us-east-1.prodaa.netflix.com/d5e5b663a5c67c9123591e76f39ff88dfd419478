@@ -1,0 +1,24 @@
+http://help.us-east-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: help.us-east-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Tue, 16 Jun 2020 05:34:04 GMT
+< Server: padme i-0aaeedabb85a195a9
+< Via: 1.1 i-085549b87d5812454 (us-east-1)
+< X-Originating-Url: http://help.us-east-1.prodaa.netflix.com/
+< Set-Cookie: memclid=158a2e04-7413-4d73-84df-c8e7695093f0; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:04 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEDbTFW%2B3IefFQ6YxsTTAHqRAgk%2B5rxOxFT4EBB0h70z%2Fp43PHnasT9j1dU7B%2F44sVl8xWdI7rBWyUBS6%2FKUuNEgnPBtiT140zUqGSnN3CvMtlA%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:04 GMT; Path=/; Domain=.netflix.com
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Content-Type: text/html;charset=UTF-8
+< Location: https://help.us-east-1.prodaa.netflix.com/
+< Cache-Control: public
+< Date: Wed, 17 Jun 2020 05:34:04 GMT
+< Pragma: no-cache
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 5
+< Content-Length: 42
+
+https://help.us-east-1.prodaa.netflix.com/

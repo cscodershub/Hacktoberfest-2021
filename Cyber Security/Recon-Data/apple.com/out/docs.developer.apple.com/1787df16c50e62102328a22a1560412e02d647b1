@@ -1,0 +1,32 @@
+https://docs.developer.apple.com/
+
+> GET / HTTP/1.1
+> Host: docs.developer.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Redirect
+< Date: Thu, 30 Apr 2020 21:29:03 GMT
+< Server: ATS/8.0.7
+< Cache-Control: no-store
+< Location: https://developer.apple.com/
+< Content-Language: en
+< Cdnuuid: 6abca488-ea5e-4fb8-b49b-e69bb404cd71-2877468255
+< X-Cache: none
+< Content-Length: 257
+< Via: http/1.1 sgsin3-edge-bx-009.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Content-Type: text/html
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.
+</B></FONT>
+<HR>
+</BODY>

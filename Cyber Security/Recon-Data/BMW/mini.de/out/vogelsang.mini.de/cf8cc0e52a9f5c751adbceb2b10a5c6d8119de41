@@ -1,0 +1,25 @@
+https://vogelsang.mini.de/
+
+> GET / HTTP/1.1
+> Host: vogelsang.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 11 Aug 2020 04:54:38 GMT
+< Expires: Tue, 11 Aug 2020 05:24:38 GMT
+< Location: https://www.vogelsang.mini.de/
+< Cache-Control: max-age=1800
+< Content-Length: 238
+< Content-Type: text/html; charset=iso-8859-1
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.vogelsang.mini.de/">here</a>.</p>
+</body></html>

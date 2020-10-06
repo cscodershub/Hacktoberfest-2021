@@ -1,0 +1,13 @@
+https://ithonls.bmw.de/
+
+> GET / HTTP/1.1
+> Host: ithonls.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 
+< Content-Length: 96
+< Date: Tue, 11 Aug 2020 04:51:00 GMT
+
+403 Forbidden
+FQDN missmatch: true
+Not in Array  : (ithonls.bmw.de, matrx-frontend-int.bmw.com)

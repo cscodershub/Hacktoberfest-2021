@@ -1,0 +1,16 @@
+http://nmtracking.eu-west-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: nmtracking.eu-west-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:34:11 GMT
+< Server: beacon i-02fe0dd741e59f740
+< Via: 1.1 i-02baefc524a000529 (eu-west-1)
+< X-Netflix.nfstatus: 1_3
+< X-Originating-Url: http://nmtracking.eu-west-1.prodaa.netflix.com/
+< X-Netflix.proxy.execution-Time: 3
+< Content-Length: 0
+

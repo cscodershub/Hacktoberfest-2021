@@ -1,0 +1,47 @@
+https://acs-corp.apple.com/
+
+> GET / HTTP/1.1
+> Host: acs-corp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: max-age=43200, private, must-revalidate
+< Vary: Accept-Encoding,User-Agent
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:38 GMT
+< Content-Type: text/html; charset=utf-8
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Pragma: no-cache
+< Set-Cookie: rn-acs-corporate-external-prod=851811b81269c01b88ea180f2773de73; expires=Thu, 07-May-20 21:28:38 GMT; max-age=604800; domain=.apple.com; httponly; secure; path=/
+< Set-Cookie: acs=lvclr1lva3ucv1jgagesgqkoq6; path=/; HttpOnly
+< X-Frame-Options: DENY
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<link type="text/css" rel="stylesheet" media="screen" href="/templates/de49b385a1c6777c1f8a4acc93a29b02/css/login_acs.css" />
+	</head>
+	<body id="hubs" onload="document.getElementsByTagName('input')[0].click();">
+		<div id="debug"></div>
+		<div id="wrapper" class="flex">
+			<style>
+				div#wrapper {min-width:0;}
+			</style>
+			<section class="login-form">
+				<article id="login-section">
+					<div class="heavy-wheel"></div>
+					<div class="light-wheel"></div>
+					<h1>Apple Channel Support</h1>
+					<div class="error-wrapper ret"></div>
+											<form id="saml_form" method="post" action="https://idmsac.apple.com/IDMSWebAuth/SAMLLogin">
+							<input name="connect" value="Sign in" class="connect" onclick="document.getElementById('saml_form').submit();" type="submit" />
+															<input type="hidden" name="SAMLRequest" value="PHNhbWxwOkF1dGhuUmVxdWVzdCB4bWxuczpzYW1scD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnByb3RvY29sIiB4bWxuczpzYW1sPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6YXNzZXJ0aW9uIiBJRD0iXzY5MmUwNWExZThjN2IyNmIzMGU2NjFlMmJhOTMzZDMyIiBWZXJzaW9uPSIyLjAiIElzc3VlSW5zdGFudD0iMjAyMC0wNC0zMFQyMToyODozOFoiIERlc3RpbmF0aW9uPSJodHRwczovL2lkbXNhYy5hcHBsZS5jb20vSURNU1dlYkF1dGgvU0FNTExvZ2luIiBBc3NlcnRpb25Db25zdW1lclNlcnZpY2VVUkw9Imh0dHBzOi8vYWNzLWNvcnAuYXBwbGUuY29tL2F1dGhlbnRpY2F0aW9uIiBQcm90b2NvbEJpbmRpbmc9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDpiaW5kaW5nczpIVFRQLVBPU1QiPjxzYW1sOklzc3Vlcj44NWZhOTZmNDEwZTc1Njg2NjZjNTc0YTAwM2E2N2RlYjhhNjQ2OWE4MDI2Zjk5YTZlZWViYzEyMzc5ZGNkMDNiPC9zYW1sOklzc3Vlcj48c2FtbHA6TmFtZUlEUG9saWN5IEZvcm1hdD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOm5hbWVpZC1mb3JtYXQ6dHJhbnNpZW50IiBBbGxvd0NyZWF0ZT0idHJ1ZSIvPjwvc2FtbHA6QXV0aG5SZXF1ZXN0Pg==" />
+															<input type="hidden" name="RelayState" value="https://acs-corp.apple.com/authentication" />
+													</form>
+									</article>
+			</section>
+		</div>
+	</body>
+</html>

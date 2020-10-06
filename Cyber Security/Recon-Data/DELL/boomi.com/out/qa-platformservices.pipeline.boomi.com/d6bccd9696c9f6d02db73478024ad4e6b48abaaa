@@ -1,0 +1,18 @@
+https://qa-platformservices.pipeline.boomi.com/
+
+> GET / HTTP/1.1
+> Host: qa-platformservices.pipeline.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Temporarily Unavailable
+< Date: Sat, 15 Aug 2020 09:15:51 GMT
+< Content-Type: text/html
+< Content-Length: 178
+< Server: awselb/2.0
+
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+</body>
+</html>

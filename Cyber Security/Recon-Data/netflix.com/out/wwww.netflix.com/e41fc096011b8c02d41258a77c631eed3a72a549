@@ -1,0 +1,32 @@
+https://wwww.netflix.com/
+
+> GET / HTTP/1.1
+> Host: wwww.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://wwww.netflix.com/in/
+< Set-Cookie: flwssn=e7802fcf-c774-4c79-bb0e-0d6334e99123; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:37:11 GMT
+< Set-Cookie: clSharedContext=8717befd-c604-4df2-8866-47d2519a49a2; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEEOb7Jl5OwAe1Ee1q63Pk8JAPdGqnbrot0luvWfQqlIyhb0zRxDE3dsU4_7TE_Ky-9djEUO4lvNTu4K84SZDQW7IRwQnXVZsEnv8lln4mDBgQw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABTi9DVpPjPjRuMmXVa0rakoaQj8Ef7WeTY.%26dt%3D1592372231859; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:37:11 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEKBY5GRK43FDMl6P7NfyckKA8NmBoU0G4xHHe1fCWJB3VPF3s1JE6EqCmK8E6AtsEBmVR7AeI3YNk9laCbwPhmYN3CN2vIuos7TWl8DWvSFKndYWqnXu9CtECYhC-ADP7qjg5tbnblUS3yAGY9skas7JSnyrVz3hV6X9ZovkGnYX-f3NUAL4c9TMNiGmRFVJEOkMSk7QsFpMIe4D5wA2a1hwF9hKZz6xeENRLGIvGjHUhX7dZpdlOC8cjXCJKkBQ50IF8aDNkkj7OjMYp8JkfwZZLQ62kCo3P-ma2uO6soJvvEFGf8buzgCphiwg3mfpEcmJV7oMQf3pf_5GTpZgVCQCsg..%26bt%3Ddev%26mac%3DAQEAEAABABT-wc6f2O-vJ9ghH-AqGH2HsnqcJZM_TL8.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:37:11 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=9adb2997-8327-47db-8b72-6bb06c6a28b6; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:37:11 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 i-0b4ad6178f916efef (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< Cache-Control: no-cache, no-store
+< Edge-Control: no-cache, no-store
+< Pragma: no-cache
+< X-Content-Type-Options: nosniff
+< X-Netflix.proxy.execution-Time: 120
+< X-Originating-Url: https://wwww.netflix.com/
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Length: 0
+< Content-Type: text/html
+< Date: Wed, 17 Jun 2020 05:37:11 GMT
+< Expires: 0
+< Server: nq_website_core-prod-release 17942d3d-7fdf-41b2-b63a-770819b220f9
+< X-Frame-Options: DENY
+

@@ -1,0 +1,9 @@
+http://push.prod.netflix.com/
+
+> GET / HTTP/1.1
+> Host: push.prod.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+

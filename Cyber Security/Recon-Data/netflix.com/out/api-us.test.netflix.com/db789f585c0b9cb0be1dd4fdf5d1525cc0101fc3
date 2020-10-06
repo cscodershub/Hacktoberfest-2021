@@ -1,0 +1,17 @@
+https://api-us.test.netflix.com/
+
+> GET / HTTP/1.1
+> Host: api-us.test.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Set-Cookie: nfvdid=BQFmAAEBEJWrAiCV_NjoSTUU1DmQiyxAP903kbrxcEAQ4BYTp950cSFdypFE3kzgtqlPfSmCxrId-O8WuPbFVO4_7fvFlhkNS0yMOwCGdfifvyLp5pBxQg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=152f0244-9e78-4fc5-98a4-867f8b6924b6; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:59 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-051946462c19a13ce (us-east-1)
+< X-Netflix.proxy.execution-Time: 3
+< Content-Length: 7
+< Server: api-test UNKNOWN
+< X-Netflix.nfstatus: 1_2
+< X-Originating-Url: https://api-us.test.netflix.com/
+
+BLOCKED

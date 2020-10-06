@@ -1,0 +1,140 @@
+https://brand.netflix.com/
+
+> GET / HTTP/1.1
+> Host: brand.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: nginx
+< X-Ua-Compatible: IE=edge,chrome=1
+< Date: Wed, 17 Jun 2020 05:35:01 GMT
+< Content-Type: text/html; charset=utf-8
+< Vary: Accept-Encoding
+< Vary: Cookie
+< X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE html>
+<!--[if lt IE 8]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Netflix Brand Site</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#e50914">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="/static/assets/site-icons/favicon.ico">
+    <link rel="manifest" href="/static/manifest.json">
+    <style>
+      #splash-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        transform: translate3d(0, 0, 0);
+        z-index: 999;
+      }
+
+      .splash-fade-out #splash-container {
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.6s opacity, 0.01s visibility 0.58s;
+      }
+
+      #splash-inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        max-width: 90%;
+        height: 150px;
+        transform: translate(-50%, -50%);
+      }
+
+      #splash-logo {
+        max-width: 100%;
+      }
+
+      #splash-loader {
+        margin: 15px auto 0;
+        display: block;
+        animation-name: loader-spinning;
+        animation-duration: 0.6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes loader-spinning {
+        0%   {
+          transform: rotate(0deg);
+        }
+        50%   {
+          transform: rotate(180deg);
+        }
+        100%   {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  <link href="/static/styles/main.546ce153a838dbd2419e957d6c42243f.css" rel="stylesheet"></head>
+ 
+  <body>
+    <div id="splash-container">
+      <div id="splash-inner">
+        <img id="splash-logo" src="/static/assets/icons/netflix_logo.svg" />
+        <img id="splash-loader" width="35" height="35" src="/static/assets/icons/loader.svg" />
+      </div>
+    </div>
+    <div id="root" class="root">
+    </div>
+   
+    <noscript>
+      <style>
+        #splash-container { display: none; }
+      </style>
+      <h1 style="color: black;">Please enable Javascript to view the site.</h1>
+    </noscript>
+
+    <!-- Redirect to /en/ if / -->
+    <script>
+      if (window.location.pathname === '/') {
+        window.location = '/en/';
+      }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112186212-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-112186212-1');
+    </script>
+    <script>
+      /*
+        Install service worker
+      */
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/static/sw.js').then(registration => {
+            console.log('SW registered: ', registration);
+          }).catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+          });
+        });
+      }
+    </script>
+    <script async src="https://rum-static.pingdom.net/pa-5c032a449a3f8300160000c8.js"></script>
+	<script type="text/javascript" src="/static/scripts/manifest.a1622e2ec0fc8bcbc614.js"></script><script type="text/javascript" src="/static/scripts/vendor.a1622e2ec0fc8bcbc614.js"></script><script type="text/javascript" src="/static/scripts/main.a1622e2ec0fc8bcbc614.js"></script></body>
+</html>

@@ -1,0 +1,51 @@
+http://mydog.samsung.com/
+
+> GET / HTTP/1.1
+> Host: mydog.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Mon, 04 Sep 2017 09:27:00 GMT
+< Server: Apache
+< Etag: "398-55859b674e100"
+< X-Cdn: Incapsula
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Date: Wed, 10 Jun 2020 05:36:54 GMT
+< Set-Cookie: AWSELB=8D9FBB5F0468316624AA425B20E69AF8EF67F3E1189769C7D764DFB64D05495D5CEC4A99FC7075D2217C981A05E45BF17962DB47895A6452BDC8E4DCD2BE0FBAEC7E0F7819;PATH=/;MAX-AGE=1800
+< Set-Cookie: visid_incap_2052752=YYcghhb6R2ibH/Gj3/NqX3Vx4F4AAAAAQUIPAAAAAADRx6pj8L7Ps+pm1MTlKrEx; expires=Wed, 09 Jun 2021 06:56:23 GMT; HttpOnly; path=/; Domain=.samsung.com
+< Set-Cookie: nlbi_2052752=7SEqaOLp1kQkv6Zg5gUjfAAAAABIt4e58qDEhV2Jqfsgs9IR; path=/; Domain=.samsung.com
+< Set-Cookie: incap_ses_715_2052752=oOpdAYqF/2UmPpDd8jHsCXVx4F4AAAAA7iYZrpiDzWu4PRbs6HsROw==; path=/; Domain=.samsung.com
+< X-Iinfo: 12-4336718-4336719 NNYN CT(272 -1 0) RT(1591767412796 3) q(0 0 3 -1) r(6 6) U5
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<link rel="shortcut icon" href="favicon.ico" >
+<title>Mydog & Samsung</title>
+<script language="javascript">
+	<!--
+
+var loc = window.location.href+'';
+if(loc.indexOf("http://") == 0) {
+	window.location.href = "https://mydog.samsung.com";
+}
+
+	function favor() {
+		window.external.AddFavorite('http://mydog.samsung.com/', '삼성 마이독');
+	}
+	//-->
+</script>
+</head>
+<frameset rows="*" frameborder=0 framespacing=0 border="0">
+  <frame name="frame_main" scrolling="auto" src="/index.jsp"  marginwidth="0" marginheight="0" frameborder="NO">
+</frameset>
+<noframes>
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
+<p>이 페이지를 보려면, 프레임을 볼 수 있는 브라우저가 필요합니다.</p>
+</body>
+</noframes>
+</html>

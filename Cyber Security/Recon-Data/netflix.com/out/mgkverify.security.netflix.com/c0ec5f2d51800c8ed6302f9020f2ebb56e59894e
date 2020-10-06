@@ -1,0 +1,47 @@
+https://mgkverify.security.netflix.com/
+
+> GET / HTTP/1.1
+> Host: mgkverify.security.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Wed, 17 Jun 2020 05:35:36 GMT
+< Content-Type: text/html
+< Server: Apache
+< Last-Modified: Mon, 15 Jun 2020 20:07:14 GMT
+< X-Netflix.client.instance: i-0806ae2946276eda1
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Content-Length: 521
+< Accept-Ranges: bytes
+< Etag: W/"521-1592251634000"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix mgkidverificationservice</title>
+  <!-- CSS -->
+  <style type="text/css">
+    body {
+      margin: 0px auto;
+      width: 100%;
+    }
+    div.container {
+      margin: 0px auto;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    div.header1 {
+      font-size: 300%;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header1">
+    Netflix mgkidverificationservice
+  </div>
+</div>
+</body>
+</html>

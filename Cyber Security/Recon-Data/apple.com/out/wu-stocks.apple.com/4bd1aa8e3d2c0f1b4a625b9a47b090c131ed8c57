@@ -1,0 +1,12 @@
+https://wu-stocks.apple.com/
+
+> GET / HTTP/1.1
+> Host: wu-stocks.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Length: 62
+< Cache-Control: no-cache,no-store
+< Pragma: no-cache
+
+<html><body><b>Http/1.1 Service Unavailable</b></body> </html>

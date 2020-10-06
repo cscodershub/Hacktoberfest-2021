@@ -1,0 +1,21 @@
+https://cpd-booking.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: cpd-booking.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: SESS24d3f1dffdad71c4d7a6ee491778448c=tjcsqrne3b93lnknqvtlh32of1; path=/; domain=.cpd-booking.imperial.ac.uk
+< X-Powered-By: PHP/5.3.29
+< X-Powered-By: ARR/3.0
+< Date: Sat, 18 Jul 2020 13:54:40 GMT
+< Content-Length: 0
+< X-Web-Server: cpd-hosted
+< X-Arr-Server: ICRP8
+< Cache-Control: store, no-cache, must-revalidate,post-check=0, pre-check=0
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Last-Modified: Sat, 18 Jul 2020 13:54:41 GMT
+< Location: http://www3.imperial.ac.uk/cpd
+

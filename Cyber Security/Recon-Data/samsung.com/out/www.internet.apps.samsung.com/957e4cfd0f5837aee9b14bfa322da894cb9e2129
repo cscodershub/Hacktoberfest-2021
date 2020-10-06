@@ -1,0 +1,17 @@
+https://www.internet.apps.samsung.com/
+
+> GET / HTTP/1.1
+> Host: www.internet.apps.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Wed, 10 Jun 2020 05:35:41 GMT
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: 0TI_gGmssUKhVX6MeI-u95mTfuhsK6iuzfymEYZLYO3fTHg7GxX0Vw==
+< Via: 1.1 63caf32a099e15cdcff771322535c2d2.cloudfront.net (CloudFront)
+< Content-Type: application/xml
+< Server: AmazonS3
+< X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>CBA79EA3952DD08A</RequestId><HostId>lw2QhmyiSDuOSNqddKkNsILr1yp9oroZyRruY/Op4AVlE97TucUkPI61WE4488pWlE3S8wNr8yE=</HostId></Error>

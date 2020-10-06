@@ -1,0 +1,24 @@
+http://partnertools.nrd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: partnertools.nrd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Date: Wed, 17 Jun 2020 05:35:08 GMT
+< Content-Type: text/html
+< Location: https://partnertools.nrd.netflix.com/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: BOTeeyXCkC6A54HfxoNpfDk6CI53t5_TiVZM2KW6jSEkNbJqz_-edw==
+< Content-Length: 183
+< Via: 1.1 6746b45aebdef38d93036df10ee7690a.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

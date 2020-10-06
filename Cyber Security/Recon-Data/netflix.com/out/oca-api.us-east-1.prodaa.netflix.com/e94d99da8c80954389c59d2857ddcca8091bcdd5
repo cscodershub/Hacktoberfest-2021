@@ -1,0 +1,20 @@
+http://oca-api.us-east-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: oca-api.us-east-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Language: en
+< Date: Wed, 17 Jun 2020 05:34:01 GMT
+< Server: api-prod i-07ff32611aeb503fc
+< Set-Cookie: nfvdid=BQFmAAEBED-DijNrQaxwQJyWY0690JZAWNHvtrRuUFwpVDZ-Ztjk8S_g-evwPMEwQ1fc_imcJFKrmSi-gjLqgxvFec_bPy-hoMLLLA1lkxHnjg6CsaVPow%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=82473e73-c4f4-4673-b2bc-f237803c1497; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:01 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-026dd46de777c3880 (us-east-1)
+< Content-Length: 796
+< Content-Type: text/html;charset=utf-8
+< X-Netflix.nfstatus: 1_3
+< X-Netflix.proxy.execution-Time: 4
+< X-Originating-Url: http://oca-api.us-east-1.prodaa.netflix.com/
+
+<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1></body></html>

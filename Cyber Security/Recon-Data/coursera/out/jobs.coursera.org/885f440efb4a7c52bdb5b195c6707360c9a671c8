@@ -1,0 +1,24 @@
+https://jobs.coursera.org/
+
+> GET / HTTP/1.1
+> Host: jobs.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Pop: MAA50-C2
+< Set-Cookie: CSRF3-Token=1597899112.iCB9vKl3fYq3bcEs; Max-Age=864000; Expires=Thu, 20 Aug 2020 04:51:52 GMT; Path=/; Domain=.coursera.org
+< Set-Cookie: __204u=1084246080-1597035112262; Max-Age=31536000; Expires=Tue, 10 Aug 2021 04:51:52 GMT; Path=/; Domain=.coursera.org
+< X-Coursera-Trace-Id-Hex: e5c9b906bd6b878e
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Vary: Accept-Encoding
+< X-Content-Type-Options: nosniff
+< X-Coursera-Request-Id: NRte39rFEeqDIRL5Mg2TNw
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+< Date: Mon, 10 Aug 2020 04:51:52 GMT
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: xulYFyuCXg3xK5KNysWLRxhZKlMoIEhmGkKe3FQB1_ypWEWbhLWvSA==
+< Location: https://www.coursera.org/about/jobs
+< X-Frame-Options: SAMEORIGIN
+< Via: 1.1 643ea663c12dbff7be00a2919f789571.cloudfront.net (CloudFront)
+

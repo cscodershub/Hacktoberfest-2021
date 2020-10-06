@@ -1,0 +1,21 @@
+https://canary-temp.apple.com/
+
+> GET / HTTP/1.1
+> Host: canary-temp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Temporary Redirect
+< Content-Length: 335
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: BIGipServercanary.apple.com_443=2250289937.47873.0000; path=/; Httponly; Secure
+< Date: Thu, 30 Apr 2020 21:28:27 GMT
+< Server: Apache
+< Location: https://idmsac.apple.com/IDMSWebAuth/login?appIdKey=4f9abb3dab06f68eb029f9a350df3ec199292b4ddd3d70032e3325027689aa94&rv=2
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>307 Temporary Redirect</title>
+</head><body>
+<h1>Temporary Redirect</h1>
+<p>The document has moved <a href="https://idmsac.apple.com/IDMSWebAuth/login?appIdKey=4f9abb3dab06f68eb029f9a350df3ec199292b4ddd3d70032e3325027689aa94&amp;rv=2">here</a>.</p>
+</body></html>

@@ -1,0 +1,32 @@
+https://www.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:38:34 GMT
+< Server: nq_website_core-prod-release 3fbd6538-6032-4681-84b8-b9a60372886c
+< Expires: 0
+< Location: https://www.netflix.com/in/
+< X-Netflix.nfstatus: 1_1
+< Cache-Control: no-cache, no-store
+< Edge-Control: no-cache, no-store
+< Set-Cookie: flwssn=e810b985-2964-4367-806d-b77ffead27ad; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:38:34 GMT
+< Set-Cookie: clSharedContext=49563baa-2d33-4094-982f-f70f58d199ec; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEGItvf8kW1S_h_87u4W2ShRAyOqwFjeySP3Tm7Dzmya9fT48gKtR3YMWBRMUgyGNJEYIRPlDrKaW-1w2EDdlpEl0rt6tGB9NT77RM2auWMBmhA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABRMBrVXSr_5QP3V-NVScQOHNQg_6OFQtD0.%26dt%3D1592372314420; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:38:34 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEPTDmkbZ02hdK-v9sByHz52A8MDpFDw6-WHZK6TkT_6m-J9fwKSjANvYFGZf8QT8ODArMG7GME87mpaEcA2orheMzvsTsh-d4GmB0zrK7xQfsxpabDpa46RS8dOVGOlJLGjy81cMF9juBkzA1MuWQV5iCre5vt_W6UV7zmDYMCt1Hr4mSyVnBvUSVFK4vKmmkbG_KF2a4BiiEJxKTElKW6zjepNv8GjdrTq5AAWshbCph0Efy1aziReEqCXwoJIpUGkUBlWKanun7rAKXdGMiDAGCrKEADOvXerjwsTF0Kxt_puExE8HKI_tGlf08vWaVCHKWzr-zDgFHLSLXqH-bkF16Q..%26bt%3Ddev%26mac%3DAQEAEAABABQT92FzNLkRxMR7JcAmP_Hc_n-wwstD6No.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:38:34 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=a14dc160-cbb1-4396-a980-273193853f0e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:38:34 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: DENY
+< X-Netflix.proxy.execution-Time: 116
+< X-Originating-Url: https://www.netflix.com/
+< Content-Length: 0
+< Content-Type: text/html
+< Pragma: no-cache
+< Via: 1.1 i-0e2108102e335da85 (eu-west-1)
+< X-Content-Type-Options: nosniff
+

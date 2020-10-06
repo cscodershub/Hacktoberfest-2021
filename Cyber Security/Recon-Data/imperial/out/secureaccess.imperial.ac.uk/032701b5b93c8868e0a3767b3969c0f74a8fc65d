@@ -1,0 +1,11 @@
+http://secureaccess.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: secureaccess.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Connection: close
+< Strict-Transport-Security: max-age=31536000
+< Location: https://secureaccess.imperial.ac.uk/
+

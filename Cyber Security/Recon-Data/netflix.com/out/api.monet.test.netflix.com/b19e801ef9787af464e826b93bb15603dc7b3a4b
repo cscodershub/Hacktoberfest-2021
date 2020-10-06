@@ -1,0 +1,23 @@
+http://api.monet.test.netflix.com/
+
+> GET / HTTP/1.1
+> Host: api.monet.test.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: Apache
+< Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+< Access-Control-Allow-Headers: x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+< Access-Control-Allow-Credentials: true
+< Location: https://api.monet.test.netflix.com/
+< Date: Wed, 17 Jun 2020 05:37:07 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 219
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://api.monet.test.netflix.com/">here</a>.</p>
+</body></html>

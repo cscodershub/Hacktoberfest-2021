@@ -1,0 +1,921 @@
+https://fb.de.samsung.com/
+
+> GET / HTTP/1.1
+> Host: fb.de.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Thu, 12 Feb 2015 00:17:26 GMT
+< Accept-Ranges: bytes
+< Vary: Accept-Encoding
+< Date: Wed, 10 Jun 2020 05:36:37 GMT
+< Content-Type: text/html
+< Etag: "0ef89475946d01:0"
+< Set-Cookie: TS01ef6e9e=0130e8942a774fa8b45af545b072dae3dc99d2fbd8f2bac516c217480a2f030525e4bf943d6a05a4aa64fdc3334f8c8da10f816aba; Path=/
+
+<html>
+<head><title>Samsung's Digital World</title>
+<META HTTP-EQUIV="refresh" CONTENT="0;URL= http://www.samsung.com/"> 
+
+</head>
+<body  bgcolor="#eeeeee"  text="#003300" link="#FFFF99" alink="#CCCC99" vlink="#666600">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="/iw-cc/base/images/logo16x16.ico" type="image/png"/>
+
+
+<script type="text/javascript" src="/iw-cc/base/widget/widgets.js"></script>
+<script type="text/javascript" src="/iw-cc/base/widget/api/jsapi_init.js"></script>
+
+<script type="text/javascript">
+    fwContextPath = "/iw-cc";
+</script>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/iw-cc/base/styles/iw.css"/>
+<link rel="stylesheet" type="text/css" href="/iw-cc/base/styles/custom.css"/>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+function _teamsite_stylesheets() {
+    var sheets = [
+      "/iw-cc/base/styles/iw.css",
+      "/iw-cc/base/styles/custom.css",
+      "/iw-cc/teamsite/styles/iw.css",
+      "/iw-cc/teamsite/styles/custom.css",
+      "/iw-cc/ccpro/styles/iw.css",
+      "/iw-cc/ccpro/styles/custom.css"
+      ];
+    return sheets;
+}
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/iw-cc/teamsite/styles/iw.css">
+<link rel="stylesheet" type="text/css" href="/iw-cc/teamsite/styles/custom.css">
+
+<link rel="stylesheet" type="text/css" href="/iw-cc/ccpro/styles/iw.css">
+<link rel="stylesheet" type="text/css" href="/iw-cc/ccpro/styles/custom.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+#iw-vpreview
+{
+  background-color: white; 
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  width:500px; 
+  visibility:hidden;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999;
+}
+</style>
+
+
+
+
+
+
+
+<!-- begin injection -->
+<!-- document encoding: ISO-8859-1 -->
+<!-- output charset: ISO-8859-1 -->
+<!-- output locale: en -->
+<script type="text/javascript"
+        src="/iw-cc/base/util/urls.js">
+</script>
+<script type="text/javascript"
+        src="/iw-cc/vpreview/jsblob/scetoolbar.js">
+</script>
+
+
+<script type="text/javascript">
+
+visual_preview.prototype.invoke_item = function(anchor)
+{
+  var link = new fw_link(anchor.getAttribute("id"));
+  var url = new fw_url_bean(link.get_url());
+  if (link.get_target() == "_hidden")
+  {
+    if (link.get_add_properties_to_url())
+    {
+      url.set_parameter("done_page", 
+                        "/iw-cc/base/util/refresh.html");
+      url.set_parameter("full_redirect", true);
+      link.set_url(url.get_url());
+    }
+   
+    var hidden_frame = document.createElement("iframe");
+    hidden_frame.style.visibility = "hidden";
+    hidden_frame.style.width = "0px";
+    hidden_frame.style.height = "0px";
+    hidden_frame.src = link.get_url();
+    window.document.body.appendChild(hidden_frame);
+  }
+  else if (link.get_target() == "_blank")
+  {
+    fw_widgets.open_new_window(anchor);
+  }
+  else
+  {
+    if (link.get_add_properties_to_url()) 
+    { 
+      var done_url = new fw_url_bean("/command/iw.group.sce_done");
+      var vpath = '//cms_vip/america/main/ar/web/WORKAREA/manual/ar/vancouver2010/index.html';
+      if (window.sce_is_frameset_mode && window.sce_is_frameset_mode())
+      {
+        vpath = top.sce_get_vpath();
+      }
+      done_url.set_parameter("vpath", vpath);
+  
+      if (window.location.search)
+      {
+        done_url.add_parameters(window.location.search);
+      }
+      url.set_parameter("done_page", done_url.get_url());
+      url.set_parameter("full_redirect", false);
+    }
+    //need to always hit top since we may be in a frameset
+    url.do_get(top);
+  }
+  return false;
+}
+
+function iw_refresh()
+{
+  var done_url = new fw_url_bean("/iw-cc/command/iw.group.preview_file");
+  done_url.set_parameter("vpath",
+                         "//cms_vip/america/main/ar/web/WORKAREA/manual/ar/vancouver2010/index.html");
+  if (window.location.search)
+  {
+    done_url.add_parameters(window.location.search);
+  }
+  window.location = done_url.get_url();
+}
+
+</script>
+
+
+<div id="iw-vpreview" class="iw-vpreview-blurred">
+  <div id="iw-vpreview-handle" style="padding:2px">
+    
+      
+      
+      
+        
+      
+    
+
+
+
+
+
+
+<table width="100%" border="0" height="25" class="iw-base-heading">
+  <tr>
+    <td align="left" class="iw-base-heading-title" style=""></td>
+    <td align="right" style="white-space: nowrap;">
+      
+      
+
+
+
+
+
+
+<table cellspacing="0px" border="0px" cellpadding="0px" id="widget_heading_25958100" name="widget_heading_25958100"> 
+<tr>
+<td style="white-space: nowrap;">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/iw-cc/base/widget/link/link_init.js"></script>
+<a title="index.html" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return void(this, event);" iw_enabled="false" iw_css_enabled="iw-base-heading-link" iw_css_disabled="iw-base-heading-link-disabled" class="iw-base-heading-link-disabled">
+
+<img alt="File" title="File" src="/iw-cc/teamsite/images/file_images/img_file.gif" align="absmiddle" class="iw-base-link-icon"/>index.html</a>
+
+</td><td><img src="/iw-cc/base/images/div_optionbar.gif"/></td><td style="white-space: nowrap;">
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview.help.link" target="help" title="Help" onclick="javascript:fw_widgets.open_new_window(this); return false;" href="/iw-cc/ccpro/help/en/p_visualpreview.html" iw_wf="width=600,height=450,scrollbars=1,menubar=0,titlebar=0,resizable=1,status=1,dependent=false" iw_enabled="true" iw_css_enabled="iw-base-heading-link" iw_css_disabled="iw-base-heading-link-disabled" class="iw-base-heading-link">
+
+<img alt="Help" title="Help" src="/iw-cc/vpreview/jsblob/images/icn_help.gif" align="absmiddle" class="iw-base-link-icon"/></a>
+
+</td><td><img src="/iw-cc/base/images/div_optionbar.gif"/></td><td style="white-space: nowrap;">
+
+
+
+
+
+
+
+
+
+
+<a id="iw.vpreview.confirm_close.link" title="" onclick="javascript:fw_widgets.open_new_window(this); return false;" href="/iw-cc/vpreview/jsblob/confirm_close.jsp?vpath=//cms_vip/america/main/ar/web/WORKAREA/manual/ar/vancouver2010/index.html" iw_wf="width=440,height=175,scrollbars=0,menubar=0,titlebar=0,resizable=1,status=0,center=true,relative=true,dependent=true" iw_enabled="true" iw_css_enabled="iw-base-heading-link" iw_css_disabled="iw-base-heading-link-disabled" class="iw-base-heading-link">
+
+<img alt="" title="" src="/iw-cc/vpreview/jsblob/images/icn_close.gif" align="absmiddle" class="iw-base-link-icon"/></a>
+
+</td>
+</tr>
+</table>
+
+
+
+
+    </td>
+  </tr>
+</table>
+
+
+  </div>
+  <div style="padding: 2px;">
+    
+      
+    
+
+
+
+
+
+
+<table cellspacing="0px" border="0px" cellpadding="0px" width="100%" id="widget_actionList_3062564" name="widget_actionList_3062564"> 
+<tr>
+<td style="white-space: nowrap;">
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.create_form.link" target="_blank" title="New Form Entry" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return window.vpreview.invoke_item(this, event);" iw_href="/iw-cc/command/iw.ccpro.create_form?vpath=//cms_vip/america/main/ar/web/WORKAREA/manual/ar/vancouver2010/index.html" iw_wf="width=800,height=600,scrollbars=0,menubar=0,titlebar=0,resizable=1,status=1,center=true,dependent=false" iw_enabled="false" iw_css_enabled="iw-base-actionlist-link" iw_css_disabled="iw-base-link-disabled" class="iw-base-link-disabled">
+
+New Form Entry</a>
+
+</td><td><img src="/iw-cc/base/images/div_optionbar.gif"/></td><td style="white-space: nowrap;">
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.import_files.link" title="Import" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return window.vpreview.invoke_item(this, event);" iw_href="/iw-cc/command/iw.group.import?vpath=//cms_vip/america/main/ar/web/WORKAREA/manual/ar/vancouver2010/index.html" iw_enabled="false" iw_css_enabled="iw-base-actionlist-link" iw_css_disabled="iw-base-link-disabled" class="iw-base-link-disabled">
+
+Import</a>
+
+</td><td><img src="/iw-cc/base/images/div_optionbar.gif"/></td><td style="white-space: nowrap;">
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.edit.link" target="_hidden" title="Edit" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return window.vpreview.invoke_item(this, event);" iw_href="/iw-cc/command/iw.group.ccpro.edit?vpath=//cms_vip/america/main/ar/web/WORKAREA/manual/ar/vancouver2010/index.html" iw_wf="width=600,height=450,scrollbars=1,menubar=0,titlebar=0,resizable=1,status=1,center=true,dependent=false" iw_enabled="false" iw_css_enabled="iw-base-actionlist-link" iw_css_disabled="iw-base-link-disabled" class="iw-base-link-disabled">
+
+Edit</a>
+
+</td><td><img src="/iw-cc/base/images/div_optionbar.gif"/></td><td style="white-space: nowrap;">
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.upload_files.link" target="_hidden" title="Upload" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return window.vpreview.invoke_item(this, event);" iw_href="/iw-cc/command/iw.teamsite.upload_files?vpath=//cms_vip/america/main/ar/web/WORKAREA/manual/ar/vancouver2010/index.html" iw_enabled="false" iw_css_enabled="iw-base-actionlist-link" iw_css_disabled="iw-base-link-disabled" class="iw-base-link-disabled">
+
+Upload</a>
+
+</td><td><img src="/iw-cc/base/images/div_optionbar.gif"/></td><td style="white-space: nowrap;">
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview.submit.link" target="_blank" title="Submit" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return window.vpreview.invoke_item(this, event);" iw_href="/iw-cc/command/iw.group.submit?vpath=//cms_vip/america/main/ar/web/WORKAREA/manual/ar/vancouver2010/index.html" iw_wf="width=700,height=600,scrollbars=1,menubar=0,titlebar=0,resizable=1,status=1,center=true,dependent=false" iw_enabled="false" iw_css_enabled="iw-base-actionlist-link" iw_css_disabled="iw-base-link-disabled" class="iw-base-link-disabled">
+
+Submit</a>
+
+</td><td><img src="/iw-cc/base/images/div_optionbar.gif"/></td><td style="white-space: nowrap;">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/iw-cc/base/widget/popup/popup_init.js"></script>
+<div id="menu0_popup_trigger" 
+     iw_menu="menu0" 
+     style="display:block; height;100%" 
+     iw_urlp="vpath=//cms_vip/america/main/ar/web/WORKAREA/manual/ar/vancouver2010/index.html"
+  iw_e="0111111111000011111111" iw_v="1111111111111011111111" iw_use_urlp="1111111111111111111111"> 
+            
+
+
+
+
+
+
+
+
+
+
+<a id="menu0_popup_trigger_li" title="More..." href="javascript:fw_popup.toggle_visibility('menu0_popup_trigger', false);" iw_enabled="true" class="iw-base-actionlist-link">
+
+More...<img alt="More..." title="More..." src="/iw-cc/base/images/icn_menuarrow.gif" align="absmiddle" class="iw-base-link-icon"/></a>
+
+
+ 
+        </div>
+
+<div id="menu0"
+     class="iw-base-popup"
+     style="z-index:100; display:none; position:absolute; top:0; left:0;">
+
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.undo_changes.link" title="Undo Changes" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return window.vpreview.invoke_item(this, event);" iw_href="/iw-cc/command/iw.ccpro.undo_changes" iw_wf="width=440,height=175,scrollbars=0,menubar=0,titlebar=0,resizable=1,status=0,center=true,relative=true,dependent=true" iw_enabled="false" class="iw-base-link-disabled">
+
+Undo Changes</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+            <img src="/iw-cc/base/images/div_menu.gif">
+            
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.view_images.link" target="_blank" title="Select Image" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.vpreview.view_images" iw_wf="width=600,height=450,scrollbars=1,menubar=0,titlebar=0,resizable=1,status=1,center=true,dependent=false" iw_enabled="true" class="iw-base-link">
+
+Select Image</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.list_links.link" target="_blank" title="Check Links" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.vpreview.list_links" iw_wf="width=600,height=450,scrollbars=1,menubar=0,titlebar=0,resizable=1,status=1,center=true,dependent=false" iw_enabled="true" class="iw-base-link">
+
+Check Links</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+            <img src="/iw-cc/base/images/div_menu.gif">
+            
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.view_source.link" target="_hidden" title="View Source" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.teamsite.view_source" iw_enabled="true" class="iw-base-link">
+
+View Source</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.visual_diff.link" target="_blank" title="Visual Differences" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.ccpro.compare_file_visual" iw_wf="width=800,height=600,scrollbars=1,menubar=0,titlebar=0,resizable=1,status=1,center=true,dependent=false" iw_enabled="true" class="iw-base-link">
+
+Visual Differences</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.source_diff.link" target="_blank" title="Source Differences" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.ccpro.compare_file_source" iw_wf="width=800,height=600,scrollbars=1,menubar=0,titlebar=0,resizable=1,status=1,center=true,dependent=false" iw_enabled="true" class="iw-base-link">
+
+Source Differences</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+            <img src="/iw-cc/base/images/div_menu.gif">
+            
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.copy.link" title="Copy" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.ccpro.copy" iw_enabled="true" class="iw-base-link">
+
+Copy</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.move.link" title="Move" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return window.vpreview.invoke_item(this, event);" iw_href="/iw-cc/command/iw.ccpro.move" iw_enabled="false" class="iw-base-link-disabled">
+
+Move</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.delete.link" title="Delete" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return window.vpreview.invoke_item(this, event);" iw_href="/iw-cc/command/iw.ccpro.delete" iw_wf="width=440,height=175,scrollbars=0,menubar=0,titlebar=0,resizable=1,status=0,center=true,relative=true,dependent=true" iw_enabled="false" class="iw-base-link-disabled">
+
+Delete</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.rename.link" title="Rename" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return window.vpreview.invoke_item(this, event);" iw_href="/iw-cc/command/iw.ccpro.rename" iw_enabled="false" class="iw-base-link-disabled">
+
+Rename</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccstd.vpreview.file_menu_convert_file.link" title="Convert a document into another format" onclick="javascript:return false;" iw_onclick_when_enabled="javascript:return window.vpreview.invoke_item(this, event);" iw_href="/iw-cc/command/iw.transform.convert_wizard" iw_enabled="false" class="iw-base-link-disabled">
+
+Convert</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+            <img src="/iw-cc/base/images/div_menu.gif">
+            
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.list_extended_attributes.link" title="Tag" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.ccpro.tag" iw_enabled="true" class="iw-base-link">
+
+Tag</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.list_file_versions.link" title="Versions" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.ccpro.list_file_versions" iw_enabled="true" class="iw-base-link">
+
+Versions</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.node_properties.link" title="Properties" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.ccpro.node_properties" iw_enabled="true" class="iw-base-link">
+
+Properties</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+            <img src="/iw-cc/base/images/div_menu.gif">
+            
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.attach_files.link" target="_blank" title="Attach To Task..." onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.group.attach" iw_wf="width=600,height=450,scrollbars=1,menubar=0,titlebar=0,resizable=1,status=1,center=true,dependent=true" iw_enabled="true" class="iw-base-link">
+
+Attach To Task...</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.assign.link" target="_blank" title="Assign" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.group.assign" iw_wf="width=700,height=600,scrollbars=1,menubar=0,titlebar=0,resizable=1,status=1,center=true,dependent=false" iw_enabled="true" class="iw-base-link">
+
+Assign</a>
+
+
+  </div>
+    
+  <div style="z-index:100;" class="iw-base-popup-row"
+       onmouseover="javascript:fw_popup.highlight_menu_row(this);"
+       onmouseout="javascript:fw_popup.unhighlight_menu_row(this);">
+
+
+
+
+
+
+
+
+
+
+
+<a id="iw.ccpro.vpreview_menu.add_bookmark.link" target="_blank" title="Add to Favorites" onclick="javascript:return window.vpreview.invoke_item(this, event);" href="/iw-cc/command/iw.ccpro.add_bookmark" iw_wf="width=440,height=175,scrollbars=0,menubar=0,titlebar=0,resizable=1,status=0,center=true,relative=true,dependent=true" iw_enabled="true" class="iw-base-link">
+
+Add to Favorites</a>
+
+
+  </div>
+    
+</div>
+
+</td>
+</tr>
+</table>
+
+
+
+
+  </div>
+</div>
+<script type="text/javascript"> 
+
+(function sce_init()
+{
+  window.vpreview = new visual_preview();
+  window.vpreview.refresh(); 
+})();
+</script>
+<!-- end container -->
+
+
+
+<script type="text/javascript">
+
+function sce_get_vpath()
+{
+  return '//cms_vip/america/main/ar/web/WORKAREA/manual/ar/vancouver2010/index.html';
+}
+
+function sce_is_frameset_mode()
+{
+  return top != self && top.sce_is_frameset_mode && top.sce_is_frameset_mode();
+}
+
+function sce_image(image)
+{
+    this.src = image.src;
+    this.width = image.width;
+    this.height = image.height;
+    this.alt = image.alt;
+}
+
+function sce_get_images()
+{
+    var imgsrcs = new Array();
+    var index = 0;
+    for(var i = 0; i < document.images.length; i++) 
+    { 
+        var image = document.images[i];
+        if(sce_is_internal_url(image.src)) 
+        {
+            continue;
+        }
+        imgsrcs[index++] = new sce_image(image);
+    }
+    return imgsrcs;
+}
+
+function sce_is_internal_url(url)
+{
+    return url.indexOf("/iw-cc/") >= 0 || 
+           url.match(/^javascript:.*(fw|iw|sce)_.*$/);
+}
+
+function sce_link(src, is_image)
+{
+    this.src = src;
+    this.is_image = is_image;
+}
+
+function sce_get_links()
+{
+    var result = new Array();
+    var index = 0;
+    for(var i = 0; i < document.links.length; i++) 
+    {
+        if(sce_is_internal_url(document.links[i].href))
+        {
+             continue;
+        }
+        result[index++] = new sce_link(document.links[i].href, false);
+    }
+    for(var i = 0; i < document.images.length; i++)
+    {
+        if(sce_is_internal_url(document.images[i].src))
+        {
+             continue;
+        }
+        result[index++] = new sce_link(document.images[i].src, true);
+    }
+    return result;
+}
+
+window.screenX = window.screenX; // A silient workaround for Netscape 6.2.3 bug hanging sce
+</script>
+</body>
+</html>

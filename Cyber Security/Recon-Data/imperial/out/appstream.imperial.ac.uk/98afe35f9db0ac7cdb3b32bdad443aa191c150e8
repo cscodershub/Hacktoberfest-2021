@@ -1,0 +1,12 @@
+http://appstream.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: appstream.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://appstream.imperial.ac.uk/
+< Server: BigIP
+< Connection: close
+< Content-Length: 0
+

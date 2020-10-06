@@ -1,0 +1,22 @@
+https://qbrphotobook.netflix.com/
+
+> GET / HTTP/1.1
+> Host: qbrphotobook.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: no-cache
+< Date: Wed, 17 Jun 2020 05:35:23 GMT
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Content-Type: text/html; charset=utf-8
+< Set-Cookie: _faces_session_id=cEFDVzVKSUxOTlM5djdKTGovRzlyTmdIUm9ja2x1emdSZ2xCUTZvK2FrQ25rSnIyQlk2cFZBQ0pvekV6QlF2UXltNFROVm9Wdy9FTzhmVHdrYTI1cHYraHptNkx2YVRCZHh5UVU4clZiUWpOMTViamRBZHNLdW8wUzJ0di9XUlZhRktRUmdocEtzbGF4cHBCWWRvc2ducldaQWdBZHZZY28xRkQ1RDIweS94SzJDVlUvSWFzY1N0VEV5YjNIWUxJUDd1MWtsUkIvSGhGYzFQdXBZakU0aHBqb3lpRjZ0cTU2a3JTeGJJak1tUT0tLWZGYi8xL2pFdjFqcStiSnhLVlRQeEE9PQ%3D%3D--1e72cad086418d386d4e3c65309d11ef953e143b; domain=.netflix.com; path=/; HttpOnly
+< Status: 302 Found
+< Content-Length: 112
+< Location: https://qbrphotobook.netflix.com/users/sign_in
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Request-Id: 72023103-b303-4d29-b949-8760a767c55d
+< X-Runtime: 0.005212
+
+<html><body>You are being <a href="https://qbrphotobook.netflix.com/users/sign_in">redirected</a>.</body></html>

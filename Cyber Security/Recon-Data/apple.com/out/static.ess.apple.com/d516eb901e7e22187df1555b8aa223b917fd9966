@@ -1,0 +1,23 @@
+https://static.ess.apple.com/
+
+> GET / HTTP/1.1
+> Host: static.ess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Thu, 30 Apr 2020 21:40:10 GMT
+< Last-Modified: Tue, 07 Aug 2018 18:09:01 GMT
+< X-B3-Traceid: b33da769b6e933ba
+< Server: ATS/8.0.7
+< Content-Type: text/html
+< Content-Length: 13
+< Strict-Transport-Security: max-age=31536000
+< Cdnuuid: 7f6d6715-b128-4321-9763-3036bc9d4bf3-3168990247
+< Cache-Control: max-age=300, public
+< Etag: "5b69e03d-d"
+< Age: 2
+< Accept-Ranges: bytes
+< Via: http/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), https/1.1 sgsin3-edge-bx-005.ts.apple.com (ApacheTrafficServer/8.0.7)
+< X-Cache: miss, hit-stale
+
+Hello World!

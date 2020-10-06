@@ -1,0 +1,15 @@
+https://gsp80-ssl-usmsc04.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsp80-ssl-usmsc04.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:30:44 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 53
+< X-B3-Traceid: 84dd86d82cef254d
+< Strict-Transport-Security: max-age=31536000
+
+<html><body><h1>Resource not found</h1></body></html>

@@ -1,0 +1,30 @@
+https://saleshub.boomi.com/
+
+> GET / HTTP/1.1
+> Host: saleshub.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 502 Bad Gateway
+< Content-Type: text/html
+< Fastly-Restarts: 1
+< X-Cache: MISS, MISS
+< Age: 0
+< Accept-Ranges: bytes
+< Via: 1.1 varnish
+< Server: Pantheon
+< X-Cache-Hits: 0, 0
+< X-Timer: S1597482973.324781,VS0,VE232
+< Vary: Cookie, Cookie
+< Date: Sat, 15 Aug 2020 09:16:13 GMT
+< X-Served-By: cache-mdw17341-MDW, cache-bom4740-BOM
+< Content-Length: 150
+< X-Pantheon-Styx-Hostname: styx-fe4-a-679ff9799-nrb9h
+< X-Styx-Req-Id: f72b9348-ded7-11ea-b8d4-5ea8fdb3518f
+
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

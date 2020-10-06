@@ -1,0 +1,31 @@
+https://account.samsung.com/
+
+> GET / HTTP/1.1
+> Host: account.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< X-Xss-Protection: 1; mode=block
+< Access-Control-Allow-Methods: POST, GET, OPTIONS
+< Via: 1.1 PSdgflkfFRA1fd207:5 (W), 1.1 PSxjpSin1tz203:4 (W)
+< Pragma: no-cache
+< Set-Cookie: IDMEUSESSION=d7c1508c-1c79-42fc-bdcd-3ad9c30c82dc; Path=/; Secure; HttpOnly
+< Strict-Transport-Security: max-age=31536000
+< Content-Security-Policy: frame-ancestors https://www.samsung.com;
+< X-Px: ms PSxjpSin1tz203SIN,ms PSdgflkfFRA1fd207FRA(origin)
+< X-Ws-Request-Id: 5ee0712c_PSxjpSin1pv204_378201-34163
+< Date: Wed, 10 Jun 2020 05:35:40 GMT
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: SAMEORIGIN, ALLOW-FROM https://www.samsung.com
+< X-Frame-Options: SAMEORIGIN
+< Server: PWS/8.3.1.0.8
+< P3p: CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT'
+< Location: https://account.samsung.com/membership/
+< X-Cache-Status: NOTCACHED
+< X-Zen-Fury: 126bd669427a278d6b0975123b913208288e0b95
+< Access-Control-Allow-Origin: https://account.samsung.com
+< X-Cdn: Served-By-Zenedge
+< Content-Type: text/html;charset=UTF-8
+< Content-Length: 0
+< Cache-Control: no-cache, no-store, must-revalidate
+

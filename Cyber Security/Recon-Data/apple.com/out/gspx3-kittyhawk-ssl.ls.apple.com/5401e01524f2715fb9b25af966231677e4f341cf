@@ -1,0 +1,22 @@
+https://gspx3-kittyhawk-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspx3-kittyhawk-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 501 Not Implemented
+< Date: Thu, 30 Apr 2020 21:31:01 GMT
+< Content-Length: 102
+< Cdnuuid: ea1a15f7-3522-4c71-b774-5763c3095dbe-2875446194
+< X-Cache: skipped
+< Content-Type: text/html
+< Cneonction: close
+< Via: https/1.1 sgsin3-edge-bx-015.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Server: ATS/8.0.7
+< Age: 2
+
+<HTML><HEAD>
+<TITLE>501 Not Implemented</TITLE>
+</HEAD><BODY>
+<H1>Not Implemented</H1>
+</BODY></HTML>

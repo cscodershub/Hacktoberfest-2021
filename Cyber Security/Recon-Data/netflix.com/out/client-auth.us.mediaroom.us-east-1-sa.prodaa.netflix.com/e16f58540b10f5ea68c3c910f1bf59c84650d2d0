@@ -1,0 +1,12 @@
+http://client-auth.us.mediaroom.us-east-1-sa.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: client-auth.us.mediaroom.us-east-1-sa.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Wed, 17 Jun 2020 05:35:58 GMT
+< Server: Apache-Coyote/1.1
+< X-Netflix.server.utilization: 0.75, target=20
+
+Not Found.

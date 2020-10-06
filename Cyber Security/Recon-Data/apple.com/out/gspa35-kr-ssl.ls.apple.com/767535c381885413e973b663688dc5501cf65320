@@ -1,0 +1,15 @@
+http://gspa35-kr-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspa35-kr-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Temporary Redirect
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: http://gspa35-ssl.ls.apple.com/
+< Expires: Thu, 30 Apr 2020 21:31:10 GMT
+< Cache-Control: max-age=0, no-cache
+< Pragma: no-cache
+< Date: Thu, 30 Apr 2020 21:31:10 GMT
+

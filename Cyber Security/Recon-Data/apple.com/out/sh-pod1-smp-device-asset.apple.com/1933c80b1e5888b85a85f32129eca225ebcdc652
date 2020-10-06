@@ -1,0 +1,16 @@
+https://sh-pod1-smp-device-asset.apple.com/
+
+> GET / HTTP/1.1
+> Host: sh-pod1-smp-device-asset.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Cache-Control: no-cache,no-store
+< Pragma: no-cache
+< X-Cache: MISS from cache.51cdn.com
+< X-Via: 1.1 dd142:1 (Cdn Cache Server V2.0), 1.1 PS-KWE-01qhO50:8 (Cdn Cache Server V2.0)
+< X-Ws-Request-Id: 5eab45ea_PS-KWE-016HY47_18001-61728
+< Date: Thu, 30 Apr 2020 21:40:58 GMT
+< Content-Length: 62
+
+<html><body><b>Http/1.1 Service Unavailable</b></body> </html>

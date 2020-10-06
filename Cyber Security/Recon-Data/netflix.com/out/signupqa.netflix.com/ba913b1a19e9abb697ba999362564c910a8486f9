@@ -1,0 +1,20 @@
+http://signupqa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: signupqa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 51620
+< X-Originating-Url: http://signupqa.netflix.com/
+< Content-Length: 0
+< Location: https://www-qa.test.netflix.com/
+< Server: shakti UNKNOWN
+< Set-Cookie: nfvdid=BQFmAAEBELBZpXAiLzj_MdtVTkrVVd1AnQ494JauzBnFIqq8-T26QlMSuqE-nC8H5Y6olDeW4jSPbwyLqalAyiFzvdGhw5BGSvdoFyA2GbUkMc8eJ2s2aA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=5fa077f1-0e6f-4205-99e7-1da9385b1671; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:59 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 i-0bd5f958e1681a9a7 (us-east-1)
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://www-qa.test.netflix.com/ichnaea/log/freeform/xssreport
+

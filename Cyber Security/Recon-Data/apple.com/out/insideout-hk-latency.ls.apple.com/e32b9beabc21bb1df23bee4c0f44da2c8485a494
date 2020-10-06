@@ -1,0 +1,40 @@
+https://insideout-hk-latency.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: insideout-hk-latency.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Thu, 20 Oct 2016 10:51:59 GMT
+< Etag: "5808a1cf-264"
+< Accept-Ranges: bytes
+< Server: nginx/1.11.5
+< Date: Thu, 30 Apr 2020 21:31:14 GMT
+< Content-Type: text/html
+< Content-Length: 612
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>

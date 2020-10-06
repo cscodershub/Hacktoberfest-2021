@@ -1,0 +1,13 @@
+https://lcdn-locator.apple.com/
+
+> GET / HTTP/1.1
+> Host: lcdn-locator.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Apple LCDN Registration Server
+< Content-Length: 9
+< Date: Thu, 30 Apr 2020 21:29:11 GMT
+< Content-Type: text/plain; charset=UTF-8
+
+Not Found

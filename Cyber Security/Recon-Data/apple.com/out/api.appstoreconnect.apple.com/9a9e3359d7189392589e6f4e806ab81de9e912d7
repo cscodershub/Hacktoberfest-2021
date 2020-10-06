@@ -1,0 +1,15 @@
+https://api.appstoreconnect.apple.com/
+
+> GET / HTTP/1.1
+> Host: api.appstoreconnect.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Server: daiquiri/3.0.0
+< Date: Thu, 30 Apr 2020 21:40:53 GMT
+< Content-Type: text/html
+< Location: https://developer.apple.com/go/?id=app-store-connect-api
+< X-Request-Id: R45NJJVNMBF7YO3QEQGR3VZ6PU
+< X-Daiquiri-Instance: daiquiri:18493001:mr85p00it-hyhk03154801:7987:20E24
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+

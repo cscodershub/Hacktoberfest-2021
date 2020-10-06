@@ -1,0 +1,28 @@
+http://api.developer.apple.com/
+
+> GET / HTTP/1.1
+> Host: api.developer.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Via: http/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 sgsin3-edge-bx-021.ts.apple.com (ApacheTrafficServer/8.0.7)
+< X-Cache: hit-stale, hit-stale
+< Date: Thu, 30 Apr 2020 21:29:08 GMT
+< Location: https://api.developer.apple.com/
+< Cache-Control: max-age=600, public
+< Age: 0
+< Content-Length: 201
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000
+< X-B3-Traceid: 7c7568167c02e995
+< Cdnuuid: a20fb490-d81b-4752-9dd6-ecf13dfdda07-2623469823
+< Server: ATS/8.0.7
+< Content-Type: text/html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>AppleHttpServer/62e237dc531d</center>
+</body>
+</html>

@@ -1,0 +1,31 @@
+https://wwws.us-west-2.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: wwws.us-west-2.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Edge-Control: no-cache, no-store
+< Set-Cookie: flwssn=6ef114b0-77a6-4e37-8248-e685590132fd; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:35:45 GMT
+< Set-Cookie: clSharedContext=9666597a-8ec0-467a-9716-eccee54e01cb; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEOyUGXlWXQNFFKth3IORmHJA1RLxa4zs4YT-w0enrXAez9SXetjXDBtbS1GVjMcWB_dNgQnI3-We9iUH397yjCreM5iv3ixynxNmptAha5LigA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABT8bEV2M8rPM8gpItKuRwmEJnpu22QMhM4.%26dt%3D1592372145922; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:35:45 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBELiDIacoWCIzd3tLoiJvIN-A8OTkPyvfsdhub7Cml1fnexNKy3FYBcSjbEz0hci2dXwfQlMngsFkZlCtGEoD4VEfrMJ-JWp_7yYmsWuGatDHuVPpkODvlDliYRXCiWn3nmtU6q_XsHtB9ItQgI1F8XOTk7QMLAltojkfPRqIg32vwUIZg6lAMMX54BCd8f8ETLK6g8hVLF2W__5sgUgg_N15nMsbNMCTp3Arp-iJIaYpxUbkfLpAgCE5fbBhoybbJYqSwCPYLkkIQ-tI9NbqzYWplNCyeXSD_7-FfBUHXFQ-v_XPhtS4nM-ej0UkcN6lKYIoV_x2P2YfByhuQ-XjaU4aTw..%26bt%3Ddev%26mac%3DAQEAEAABABTBJAsnrjTnXgTO-_yzat57RDslF30UTus.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:35:45 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=f1ed038c-b3a4-4fe2-9d4f-ee553927008e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:45 GMT; Path=/; Domain=.netflix.com
+< Server: nq_website_nonmember-prod-release 85a444b8-25c3-4ca4-8d47-32757eb748c8
+< Cache-Control: no-cache, no-store
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< X-Netflix.nfstatus: 1_1
+< Pragma: no-cache
+< Expires: 0
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: http://wwws.us-west-2.prodaa.netflix.com/
+< Via: 1.1 i-0a8c3e2ddc3491ad0 (us-west-2)
+< X-Netflix.proxy.execution-Time: 672
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: DENY
+< Content-Type: text/html
+< Location: https://wwws.us-west-2.prodaa.netflix.com/in/
+< Date: Wed, 17 Jun 2020 05:35:45 GMT
+

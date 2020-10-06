@@ -1,0 +1,20 @@
+http://ah-euler.bmw.de/
+
+> GET / HTTP/1.1
+> Host: ah-euler.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 11 Aug 2020 04:50:35 GMT
+< Server: Apache
+< Location: http://bmw-partner.bmw.de/autohaus-euler-frankfurt-eckenheim/de_DE/uebersicht.html
+< Content-Length: 266
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://bmw-partner.bmw.de/autohaus-euler-frankfurt-eckenheim/de_DE/uebersicht.html">here</a>.</p>
+</body></html>

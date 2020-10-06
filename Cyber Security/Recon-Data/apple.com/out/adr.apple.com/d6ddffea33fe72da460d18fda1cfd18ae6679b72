@@ -1,0 +1,33 @@
+https://adr.apple.com/
+
+> GET / HTTP/1.1
+> Host: adr.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:58 GMT
+< Content-Type: text/html
+< Content-Length: 200
+< Last-Modified: Fri, 24 Feb 2017 01:39:11 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Accept-Ranges: bytes
+< Host: adr.apple.com
+
+<html>
+<head>
+<script type="text/javascript">
+   
+function redirectPage() {
+    window.location.href='admin/signin.htm';
+}
+</script>
+</head>
+
+<body onLoad="javascript:redirectPage()">
+</body>
+
+</html>

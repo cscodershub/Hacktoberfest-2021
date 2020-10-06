@@ -1,0 +1,12 @@
+http://www.mini.de/
+
+> GET / HTTP/1.1
+> Host: www.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: AkamaiGHost
+< Content-Length: 0
+< Location: https://www.mini.de/
+< Date: Tue, 11 Aug 2020 04:54:46 GMT
+

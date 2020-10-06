@@ -1,0 +1,34 @@
+https://enterprise-status.instacart.com/
+
+> GET / HTTP/1.1
+> Host: enterprise-status.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Download-Options: noopen
+< Cache-Control: no-cache
+< Content-Type: text/html; charset=utf-8
+< Location: /access/login
+< X-Xss-Protection: 1; mode=block
+< X-Runtime: 0.044746
+< X-Permitted-Cross-Domain-Policies: none
+< X-Statuspage-Skip-Logging: true
+< X-Frame-Options: SAMEORIGIN
+< Referrer-Policy: strict-origin-when-cross-origin
+< Vary: Accept,Accept-Encoding,X-Forwarded-Host,X-Forwarded-Scheme,X-Forwarded-Proto,Fastly-SSL
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=259200
+< X-Request-Id: c19f2fb3-e434-4491-9991-a3c6938ef38c
+< Access-Control-Allow-Origin: *
+< X-Statuspage-Version: 7cc4b692549dbb0942ae416c1b1434b39b77bb64
+
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="_globalsign-domain-verification" content="y_VzfckMy4iePo5oDJNivyYIjh8LffYa4jzUndm_bZ"/>
+    <title>Statuspage - Redirect</title>
+  </head>
+  <body>
+    You are being <a href=\"/access/login\">redirected</a>.
+  </body>
+</html>

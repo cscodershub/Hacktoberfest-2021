@@ -1,0 +1,20 @@
+https://hls-slive-backup.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: hls-slive-backup.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 44
+< Age: 0
+< Server: ATS/8.0.7
+< Access-Control-Allow-Origin: *
+< Date: Thu, 30 Apr 2020 21:30:04 GMT
+< X-Served-By: f-west_i-0d6ff869a70ea65d5
+< Via: https/1.1 usqas4-vp-vst-008.ts.apple.com (ApacheTrafficServer/8.0.7 [uScSsSfUpSeN:t cCSp sS]), https/1.1 usqas4-ve-vfe-008.ts.apple.com (ApacheTrafficServer/8.0.7 [uScMsSfWpSeN:t cCMpSs ]), https/1.1 usrtv2-edge-bx-003.ts.apple.com (ApacheTrafficServer/8.0.7 [uScMsSfWpSeN:t cCMpSs ])
+< Cdnuuid: fd2ecd55-0794-44b1-a9c8-6800b29bd343-1234993556
+< X-Cache: miss, miss, hit-stale
+< Cdn-Server: aapl
+< Content-Type: application/json; charset=utf-8
+
+{"message":"Requested route does not exist"}

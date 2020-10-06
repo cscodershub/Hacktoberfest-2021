@@ -1,0 +1,12 @@
+http://smetrics.samsung.com/
+
+> GET / HTTP/1.1
+> Host: smetrics.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 10 Jun 2020 05:35:39 GMT
+< Server: jag
+< Content-Length: 0
+< Location: https://smetrics.samsung.com/
+

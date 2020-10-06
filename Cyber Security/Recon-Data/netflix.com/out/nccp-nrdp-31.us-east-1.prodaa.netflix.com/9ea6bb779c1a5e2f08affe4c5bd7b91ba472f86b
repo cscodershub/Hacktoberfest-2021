@@ -1,0 +1,25 @@
+http://nccp-nrdp-31.us-east-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: nccp-nrdp-31.us-east-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Originating-Url: http://nccp-nrdp-31.us-east-1.prodaa.netflix.com/
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 17 Jun 2020 05:33:56 GMT
+< Server: nccp-modern i-0a18c18eb785f3829
+< Set-Cookie: memclid=3073bfd8-86e6-4e04-a102-e0915ae902a6; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:33:56 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEAt1DtWAbRBKbXBBVw4hF1RA4oraaIedFr%2FPJ0YCVfJKgzkSOnONmK%2F8tW%2BGalrD7ernp7RLV5b3DhWlf6fLqnXjgRJpiXeFdV9c4Zvk2sgUnA%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:33:56 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0173bf8a5fb29c8b8 (us-east-1)
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 58316
+< Content-Length: 199
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

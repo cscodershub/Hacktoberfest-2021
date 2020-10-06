@@ -1,0 +1,24 @@
+http://refugees.coursera.org/
+
+> GET / HTTP/1.1
+> Host: refugees.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 90833486cf97261bf60fa687919608ce.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: USIspjjpkizzQ6xWQ1lJ_WSJut5lsnaa3HaxPCG8qQWt3243Tk3Bvg==
+< Date: Mon, 10 Aug 2020 04:52:03 GMT
+< Content-Type: text/html
+< Content-Length: 183
+< Location: https://refugees.coursera.org/
+< Server: CloudFront
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

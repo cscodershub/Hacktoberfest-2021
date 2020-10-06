@@ -1,0 +1,12 @@
+http://ivsr-end2end-monitoring.bmw.de/
+
+> GET / HTTP/1.1
+> Host: ivsr-end2end-monitoring.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Connection: close
+< Content-Length: 0
+< Location: https://ivsr-end2end-monitoring.bmw.de/
+< Server: BigIP
+

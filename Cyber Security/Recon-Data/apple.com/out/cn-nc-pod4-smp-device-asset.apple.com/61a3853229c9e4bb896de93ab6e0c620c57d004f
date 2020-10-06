@@ -1,0 +1,23 @@
+https://cn-nc-pod4-smp-device-asset.apple.com/
+
+> GET / HTTP/1.1
+> Host: cn-nc-pod4-smp-device-asset.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 306
+< Expires: Thu, 30 Apr 2020 21:40:58 GMT
+< Date: Thu, 30 Apr 2020 21:40:58 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;cn&#45;nc&#45;pod4&#45;smp&#45;device&#45;asset&#46;apple&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;7237637d&#46;1588282858&#46;1e30337
+</BODY>
+</HTML>

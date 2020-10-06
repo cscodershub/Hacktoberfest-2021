@@ -1,0 +1,19 @@
+https://silverbullet-external-ats.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: silverbullet-external-ats.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: daiquiri/3.0.0
+< Vary: Accept-Encoding
+< X-Apple-Jingle-Correlation-Key: RFU2TBBDNAO434XFP5T74JEZO4
+< X-Daiquiri-Instance: daiquiri:25887002:nk11p00it-ztev03281501:7987:20E24
+< Content-Type: application/json
+< X-Responding-Instance: silverbullet-external:1101:nk11p00it-ztbu24183601:8300:20REL3
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Cache-Control: max-age=3600
+< Connection: keep-alive
+< Date: Thu, 30 Apr 2020 21:30:14 GMT
+
+{"message":"HTTP 404 Not Found"}

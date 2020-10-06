@@ -1,0 +1,20 @@
+https://embed.www-qa.test.netflix.com/
+
+> GET / HTTP/1.1
+> Host: embed.www-qa.test.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_2
+< X-Netflix.proxy.execution-Time: 1007
+< Server: shakti UNKNOWN
+< X-Xss-Protection: 1; mode=block; report=https://www-qa.test.netflix.com/ichnaea/log/freeform/xssreport
+< X-Content-Type-Options: nosniff
+< Set-Cookie: nfvdid=BQFmAAEBEGxlZ2qk4sRRZXH--eC0ut5Ad9erpZ9A1SjqMKvnI0aEQrflI5zN6xgZyktQrZCR_kmEpqIwnt0WlD7NhsXukHkJJ2pvPpQs10maHJr9BEIOtg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=a04a8fd3-67d5-4dd8-b036-aaeb2bcd53f4; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:53 GMT; Path=/; Domain=.netflix.com
+< Content-Length: 7
+< Via: 1.1 i-0bd5f958e1681a9a7 (us-east-1)
+< X-Originating-Url: http://embed.www-qa.test.netflix.com/
+
+BLOCKED

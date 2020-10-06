@@ -1,0 +1,283 @@
+https://princeton.coursera.org/
+
+> GET / HTTP/1.1
+> Host: princeton.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< Date: Mon, 10 Aug 2020 04:52:02 GMT
+< Content-Length: 20247
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Opensans-Light';
+      }
+      a {
+        text-decoration: none;
+        color: #4a90e2;
+      }
+      .coursera-logo img {
+        width: 127px;
+        height: 32px;
+        vertical-align: middle;
+        margin: 16.25px;
+      }
+      svg {
+        width: 80vw;
+        height: 350px;
+        margin: 0 auto;
+        display: block;
+        max-width: 700px;
+        overflow: visible;
+        padding-left: 80px
+      }
+      .notfound-message {
+        width: 80vw;
+        max-width: 500px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+      }
+      @media screen and (max-width: 480px) {
+        svg {
+          padding-left: 20vw;
+          transform: scale(1.3);
+        }
+        .notfound-message {
+          width: 90vw;
+        }
+        .coursera-logo img {
+          display: block;
+          margin: 0 auto;
+          padding-top: 16.25px;
+        }
+      }
+    </style>
+    <link rel="prefetch" href="/browse" />
+    <link rel="prefetch" href="/courses" />
+    <link rel="prefetch" href="/degrees" />
+    <link rel="prefetch" href="/enterprise" />
+</head>
+<body style="margin: 0; background-color: #f5f5f5" style="font-family: 'OpenSans-light, Arial, sans-serif'">
+<div style="height: 100vh; width: 100vw; overflow-x: hidden">
+    <div style="height: 65px; background-color: #fff"><!-- page header -->
+        <a href="/" class="coursera-logo">
+            <img
+                    alt="Coursera-logo"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICB3aWR0aD0iMTA4cHgiIGhlaWdodD0iMTdweCIgdmlld0JveD0iMCAwIDEwOCAxNyIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTA4IDE3IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0iIzRhODlkYyIgZD0iTTU0LjI4MSw1Ljc3M2MwLjA2Ni0xLjI2OSwwLjUyMS0yLjMwNiwxLjIzMi0zLjExNVYxLjU4aC0wLjk0NWMtMS45MSwwLTMuNTI3LDAuNzMyLTQuNDY3LDIuMzg2aC0wLjA1NQogIFYxLjc2MmgtNC44OTl2MTMuNDQxaDQuOVY5Ljc3N2MwLTIuMzAzLDAuNjc0LTQuMDU5LDMuMzkzLTQuMDU5QzUzLjczNiw1LjcyLDU0LjAxMyw1LjczNyw1NC4yODEsNS43NzN6Ii8+CjxwYXRoIGZpbGw9IiM0YTg5ZGMiIGQ9Ik05MS4zOCw1LjcyNGMwLjQwNy0xLjE4OCwxLjA2Ny0yLjI0NiwxLjkyNS0zLjA5NXYtMS4wNWgtMC45NDNjLTEuOTExLDAtMy41MjYsMC43MzItNC40NzEsMi4zODVoLTAuMDUzCiAgVjEuNzYyaC00LjkwMnYxMy40NDFoNC45MDJWOS43NzdjMC0yLjMwMywwLjY3Ni00LjA1OSwzLjM5NS00LjA1OUw5MS4zOCw1LjcyNHoiLz4KPHBhdGggZmlsbD0iIzRhODlkYyIgZD0iTTY0LjIzMiw1LjIyYy0wLjc1Ni0wLjM5My0xLjgwOC0wLjY1NS0yLjY0NS0wLjY1NWMtMC41NjIsMC0xLjUzMywwLjIzNC0xLjUzMywwLjkxNwogIGMwLDAuOTE4LDEuNTMzLDEuMDQ4LDIuMjExLDEuMTgyYzIuMjg0LDAuNDQ0LDQuMDEyLDEuNDkzLDQuMDEyLDMuOTc5YzAsMy41MzYtMy4zMTMsNS4wMDgtNi41Miw1LjAwOAogIGMtMS45NjcsMC0zLjkwMi0wLjU1MS01LjU3NC0xLjU0N2wxLjc3Ny0zLjMzYzAuOTk1LDAuNjg0LDIuNjY1LDEuMzYzLDMuODc3LDEuMzYzYzAuNjIsMCwxLjUzNS0wLjI4NywxLjUzNS0xLjAyMQogIGMwLTEuMDQ4LTEuNTM1LTEuMTAzLTMuMDcyLTEuNDk1Yy0xLjUzMy0wLjM5My0zLjA2Ni0xLjEyNS0zLjA2Ni0zLjUzNmMwLTMuMzAyLDMuMDY2LTQuNzY3LDYuMDg4LTQuNzY3CiAgYzEuNTYyLDAsMy4xMjUsMC4yMzUsNC41NDksMC44NjRMNjQuMjMyLDUuMjJ6Ii8+CjxwYXRoIGZpbGw9IiM0YTg5ZGMiIGQ9Ik0xMDgsMTUuMjAzaC00Ljl2LTEuNDk1aC0wLjA1NGMtMC44NjIsMS4zMzYtMi41NjIsMS45MzgtNC4xNzUsMS45MzhjLTQuMDk2LDAtNi45NzUtMy4zMjgtNi45NzUtNy4xOAogIGMwLTMuODQ4LDIuODI4LTcuMTUxLDYuOTItNy4xNTFjMS41ODgsMCwzLjI2LDAuNTc2LDQuMjgzLDEuNzU0VjEuNzYyaDQuODk5TDEwOCwxNS4yMDNMMTA4LDE1LjIwM3ogTTk2Ljk1OSw4LjQ5NQogIGMwLDEuNzAyLDEuMTYsMy4wMTIsMy4xNSwzLjAxMmMxLjk5MiwwLDMuMTQ3LTEuMzA4LDMuMTQ3LTMuMDEyYzAtMS42NTEtMS4xNTUtMy4wMzktMy4xNDctMy4wMzkKICBDOTguMTE5LDUuNDU3LDk2Ljk1OSw2Ljg0NCw5Ni45NTksOC40OTV6Ii8+CjxwYXRoIGZpbGw9IiM0YTg5ZGMiIGQ9Ik04Mi4xNjMsOS4yODNINzEuODQ2YzAsMS45MzcsMS4wNTMsMi45ODQsMy4wNzIsMi45ODRjMS4wNSwwLDEuODAzLTAuMzM5LDIuMzQzLTEuMjMxaDQuNzE0CiAgYy0wLjc4MSwzLjE3MS0zLjg3OSw0LjYxMi03LjAyOSw0LjYxMmMtNC41NzUsMC03Ljk5NS0yLjUxNy03Ljk5NS03LjE1MmMwLTQuNDgsMy4xNDctNy4xNzgsNy42NDQtNy4xNzgKICBjNC43OTMsMCw3LjU3LDIuODgzLDcuNTcsNy40NjZMODIuMTYzLDkuMjgzTDgyLjE2Myw5LjI4M3ogTTc3LjYxMSw2LjUzYy0wLjI0My0xLjI4NC0xLjQ1NS0yLjEyMi0yLjc3My0yLjEyMgogIGMtMS40MjksMC0yLjYwOSwwLjczMS0yLjkxLDIuMTIySDc3LjYxMXoiLz4KPGc+CiAgPGc+CiAgICA8cGF0aCBmaWxsPSIjNGE4OWRjIiBkPSJNMjkuNTYxLDguMjYxYy0wLjAwNS0wLjExNi0wLjAxMy0wLjIyOS0wLjAyMi0wLjM0NGMwLDAsMC0wLjAwMSwwLTAuMDAyYzAsMCwwLTAuMDAxLDAtMC4wMDIKICAgICAgYy0wLjExLTEuMjQ3LTAuNTIyLTIuNDE0LTEuMjIxLTMuNDY4Yy0wLjMxMi0wLjQ3LTAuNjY5LTAuODk3LTEuMDY4LTEuMjhjLTAuNTgzLTAuNTYxLTEuMjU4LTEuMDI1LTIuMDE5LTEuMzkyCiAgICAgIGMtMS4xNDUtMC41NDctMi40MS0wLjgyMy0zLjc2LTAuODIzYy0wLjEzMiwwLTAuMjcsMC4wMDItMC40MDksMC4wMDdDMjAuMTE0LDEsMTkuMTk3LDEuMTgsMTguMzM1LDEuNDk3CiAgICAgIGMtMC44NjksMC4zMTQtMS42MjYsMC43MjktMi4yNDUsMS4yMjdjLTAuMTI2LDAuMS0wLjI2MywwLjIyMy0wLjQxLDAuMzU4bC0wLjEwNiwwLjEwNEwxNS40MjksMy4zNGgwLjAwMWgwLjAwMWwtMC4wNjgsMC4wNjcKICAgICAgTDE1LjMzLDMuNDQzbC0wLjE3MywwLjE4MmMtMC4xMjgsMC4xNDQtMC4yNSwwLjI4OC0wLjM2NCwwLjQyOWwtMC4wMDEtMC4wMDJsLTAuMDA0LTAuMDA0Yy0wLjIzNywwLjI4OC0wLjQ1NiwwLjU4Ni0wLjYxNywwLjg1NAogICAgICBjLTAuMTA5LDAuMTcyLTAuMjE2LDAuMzQ5LTAuMzE4LDAuNTI2TDEyLjQ0LDguMjg1bDAuMDAyLDAuMDAybC0wLjA3NCwwLjE0NWwtMC4xNTYsMC4zMTZjLTAuMzEsMC42MjctMC42NDIsMS4yNTItMS4wMTMsMS43NjgKICAgICAgYy0wLjgyNywwLjkwNy0xLjc2MiwxLjM1MS0yLjk2NCwxLjM1MWMtMC4wODQsMC0wLjE3LTAuMDA0LTAuMjU4LTAuMDA5Yy0wLjcyNC0wLjAyOS0xLjM0NS0wLjItMS44OTYtMC41MjYKICAgICAgYy0wLjA1OS0wLjAzNS0wLjExNi0wLjA3MS0wLjE3MS0wLjEwOGMtMC40NS0wLjI5OS0wLjc5NS0wLjY4My0xLjA1My0xLjE2MmMtMC4yOTEtMC41NDMtMC40Mi0xLjA5OC0wLjQwMi0xLjY4NgogICAgICBDNC40NTYsOC4zNiw0LjQ1Nyw4LjM0Niw0LjQ1Nyw4LjMzM0M0LjQ5Niw3LjM5Nyw0Ljg1Myw2LjY2OSw1LjU3Miw2LjA0QzUuNzQ3LDUuODg5LDUuOTMsNS43NjEsNi4xMjEsNS42NDcKICAgICAgYzAuMDI3LTAuMDE2LDAuMDU0LTAuMDMxLDAuMDgxLTAuMDQ1YzAuNTM0LTAuMjkxLDEuMTQyLTAuNDM2LDEuODM5LTAuNDM2bDAuMjE3LDAuMDA2QzkuMzY1LDUuMjE0LDEwLjIxOSw1LjU2LDEwLjksNi4yMzUKICAgICAgTDEzLjAzNiwyLjRjLTAuNTExLTAuMzQyLTEuMDg4LTAuNjM2LTEuNzI0LTAuODc1Yy0wLjAyNC0wLjAwOS0wLjA0OS0wLjAxOS0wLjA3NC0wLjAyN2MtMC4wNzYtMC4wMjctMC4xNTEtMC4wNTUtMC4yMjktMC4wOAogICAgICBDMTAuMzMzLDEuMTkyLDkuNjI0LDEuMDUzLDguODk0LDAuOTlsMCwwQzguODc2LDAuOTg3LDguODU2LDAuOTg1LDguODM4LDAuOTgzQzguNzI2LDAuOTc2LDguNjEyLDAuOTYyLDguNSwwLjk1NwogICAgICBDOC4zNzgsMC45NTIsOC4yNTUsMC45NSw4LjEzNSwwLjk0OUg4LjA2NmMtMS4zNDMsMC4wMDUtMi41OTEsMC4yOC0zLjczMiwwLjgyNUMzLjA1NiwyLjM5LDIuMDIsMy4yODcsMS4yNTIsNC40NDMKICAgICAgQzAuNDg2LDUuNTk5LDAuMDY4LDYuODgyLDAuMDA4LDguMjU5QzAuMDAzLDguMzc3LDAsOC40OTQsMCw4LjYwOWMtMC4wMDEsMS45MjYsMC43MDEsMy42MiwyLjA5Nyw1LjA0MgogICAgICBjMS40NTcsMS40OTIsMy4zNTIsMi4yOTYsNS42MjcsMi4zOTFjMC4xNDYsMC4wMDYsMC4yOSwwLjAxLDAuNDM0LDAuMDFjMS4yODcsMCwyLjQ3OC0wLjIyOSwzLjU0Ni0wLjY4NwogICAgICBjMC4yNjctMC4xMTQsMC41MjYtMC4yNDgsMC43OTEtMC4zOTdjMC4xNDQtMC4wODMsMC4yOC0wLjE3MSwwLjQxNS0wLjI2NWwwLjEtMC4wNjdsMC4xNjgtMC4xMTUKICAgICAgYzAuMjAyLTAuMTQ1LDAuMzkxLTAuMzAyLDAuNTc1LTAuNDY5bDAuMDY0LTAuMDYxYzAuMTA4LTAuMTAzLDAuMjE2LTAuMjA3LDAuMzE4LTAuMzE0bDAuMzgzLTAuNDMzbDAuMTQ2LTAuMTgzbDAuMDY4LTAuMQogICAgICBsMC4wNjgtMC4wOThjMC41NjktMC45NTYsMi40MjEtNC40MzUsMi40MjEtNC40MzVWOC40MjFsMC4xMS0wLjIxMmwwLjA5Mi0wLjE2NmMwLjI3My0wLjQ5NywwLjQ3LTAuODUsMC43MzEtMS4yMjFsMC4wMDctMC4wMTEKICAgICAgYzAuNjA5LTAuODgzLDEuNjU2LTEuNTEyLDIuODktMS42MThjMi4wNy0wLjE3OCwzLjg4NCwxLjE4Miw0LjA1MSwzLjAzOGMwLjE2NiwxLjg1Ni0xLjM3OCwzLjUwNS0zLjQ0OCwzLjY4NAogICAgICBjLTAuNDMxLDAuMDM3LTAuODUsMC4wMDgtMS4yNDUtMC4wNzlsLTAuMDEsMC4wMDRjLTEuNTE5LTAuMzE2LTIuNDg2LTEuNDI0LTIuOTYzLTEuOTE5bC0xLjk5MiwzLjY2MwogICAgICBjMCwwLDAuNjE5LDAuNjI0LDEuMDQzLDAuOTM2YzAuNDI1LDAuMzExLDAuOTc0LDAuNjE3LDEuNDEyLDAuODA3YzEuMDYzLDAuNDU0LDIuMjE5LDAuNzI2LDMuNDk2LDAuNzI2CiAgICAgIGMwLjE0OCwwLDAuMTE4LDAsMC4yNzItMC4wMDZjMi4yNzMtMC4wOTUsNC4yOTktMC45NjYsNS43Ni0yLjQ1OGMxLjM4NC0xLjQxNywyLjEzNS0zLjAzNSwyLjE0Mi00Ljk1VjguNTgyCiAgICAgIEMyOS41NjgsOC40NzYsMjkuNTY1LDguMzY5LDI5LjU2MSw4LjI2MXoiLz4KICA8L2c+CjwvZz4KPGc+CiAgPHBhdGggZmlsbD0iIzRhODlkYyIgZD0iTTM3LjE4MSwxNS42NTdjLTEuMDMzLDAtMS45Ny0wLjEyLTIuODExLTAuMzZjLTAuODQxLTAuMjQtMS41NTktMC42MTktMi4xNTQtMS4xMzkKICAgIGMtMC41OTctMC41Mi0xLjA1Ny0xLjE4Mi0xLjM4MS0xLjk4NXMtMC40ODYtMS43NzEtMC40ODYtMi44OTlWMS43NTloNC43Mjd2Ny40NTVjMCwwLjg0NSwwLjIwMiwxLjQ1NywwLjYwNSwxLjgzOQogICAgYzAuNDA0LDAuMzgzLDAuOTE3LDAuNTc0LDEuNTM5LDAuNTc0YzAuNjM2LDAsMS4xNTItMC4xNzgsMS41NS0wLjUzNWMwLjM5Ni0wLjM1NywwLjU5Ni0wLjk0OSwwLjU5Ni0xLjc4MVYxLjc1OWg0LjcyN3Y3LjQxNgogICAgYzAsMS4xNjgtMC4xNjYsMi4xNjEtMC40OTcsMi45NzhjLTAuMzMxLDAuODE4LTAuNzk4LDEuNDg2LTEuMzk5LDIuMDA2Yy0wLjYwNCwwLjUyLTEuMzMxLDAuODk4LTIuMTg2LDEuMTM5CiAgICBDMzkuMTU2LDE1LjUzNywzOC4yMTMsMTUuNjU3LDM3LjE4MSwxNS42NTd6Ii8+CjwvZz4KPC9zdmc+"
+            />
+        </a>
+    </div>
+    <svg viewBox="0 0 560 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+        <title>Page Not Found</title>
+        <defs>
+            <linearGradient x1="0%" y1="0%" x2="99.1908482%" y2="99.1908482%" id="linearGradient-1">
+                <stop stop-color="#5D9CEC" offset="0%"></stop>
+                <stop stop-color="#967ADC" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+                <stop stop-color="#ED5565" offset="0%"></stop>
+                <stop stop-color="#E9573F" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-3">
+                <stop stop-color="#FFD878" offset="0%"></stop>
+                <stop stop-color="#FFCE54" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-4">
+                <stop stop-color="#FC6E51" offset="0%"></stop>
+                <stop stop-color="#F6BB42" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="0%" y1="0%" x2="99.1908482%" y2="99.1908482%" id="linearGradient-5">
+                <stop stop-color="#2D2F3C" offset="0%"></stop>
+                <stop stop-color="#394C65" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="0%" y1="0%" x2="99.1908482%" y2="99.1908482%" id="linearGradient-6">
+                <stop stop-color="#2838A6" offset="0%"></stop>
+                <stop stop-color="#394C65" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="0%" y1="0%" x2="99.1908482%" y2="99.1908482%" id="linearGradient-7">
+                <stop stop-color="#A028A6" offset="0%"></stop>
+                <stop stop-color="#4F1C43" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="404" transform="translate(-440.000000, -160.000000)">
+                <g id="Image" transform="translate(440.000000, 160.000000)">
+                    <g id="Group-2" transform="translate(0.000000, 140.000000)" fill="url(#linearGradient-1)">
+                        <rect id="Rectangle" transform="translate(70.824947, 22.266968) rotate(80.000000) translate(-70.824947, -22.266968) " x="60.824947" y="-47.7330318" width="20" height="140"></rect>
+                        <animate
+                                xlink:href="#Rectangle"
+                                attributeName="y"
+                                from="0"
+                                to="100"
+                                dur="0.5s"
+                                calcMode="linear"
+                                values="-500; -400; -300; -200; -100; 0; -60; -47.7330318"
+                                keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.9; 1"
+                                fill="freeze"
+                                id="circ-anim"/>
+                    </g>
+                    <rect id="Rectangle-2" fill="#0014BC" transform="translate(43.240997, 99.859450) rotate(-340.000000) translate(-43.240997, -99.859450) " x="41.2409967" y="19.8594499" width="4" height="160"></rect>
+                    <animate
+                            xlink:href="#Rectangle-2"
+                            attributeName="y"
+                            from="0"
+                            to="100"
+                            dur="0.4s"
+                            calcMode="linear"
+                            values="-500; -370; -240; -110; 19.8594499"
+                            keyTimes="0; 0.25; 0.5; 0.75; 1"
+                            fill="freeze"
+                            id="circ-anim"/>
+                    <circle id="Oval" fill="url(#linearGradient-2)" cx="252" cy="100" r="100"></circle>
+                    <animate
+                            xlink:href="#Oval"
+                            attributeName="cy"
+                            from="0"
+                            to="100"
+                            dur="4.5s"
+                            calcMode="spline"
+                            values="-1000; 150; -50; 120; 35; 110; 95; 100"
+                            keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.9; 1"
+                            keySplines="0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1"
+                            fill="freeze"
+                            id="circ-anim"/>
+                    <polygon id="Rectangle-3" fill="url(#linearGradient-3)" transform="translate(322.000000, 100.000000) rotate(5.000000) translate(-322.000000, -100.000000) " points="367 30 367 170 277 170"></polygon>
+                    <animateTransform
+                            xlink:href="#Rectangle-3"
+                            attributeName="transform"
+                            type="translate"
+                            from="-200 -500"
+                            to="0 0"
+                            dur="0.5s"
+                    />
+                    <rect id="Rectangle-4" fill="#F9AEAE" transform="translate(88.000000, 160.000000) rotate(-5.000000) translate(-88.000000, -160.000000) " x="86" y="115" width="4" height="90"></rect>
+                    <animate
+                            xlink:href="#Rectangle-4"
+                            attributeName="y"
+                            from="0"
+                            to="100"
+                            dur="0.7s"
+                            calcMode="linear"
+                            values="-700; -564.2; -428.4; -292.6; -156.8; -21; 115"
+                            keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 1"
+                            fill="freeze"
+                            id="circ-anim"/>
+                    <path d="M352.557593,146.193177 L377.557593,146.193177 L377.557593,156.193177 L357.557593,156.193177 L357.557593,206.193177 L347.557593,206.193177 L347.557593,146.193177 L352.557593,146.193177 Z" id="Combined-Shape" fill="url(#linearGradient-4)" transform="translate(362.557593, 176.193177) rotate(-5.000000) translate(-362.557593, -176.193177) "></path>
+                    <animateTransform
+                            xlink:href="#Combined-Shape"
+                            attributeName="transform"
+                            type="translate"
+                            from="200 -500"
+                            to="0 0"
+                            dur="0.3s"
+                    />
+                    <circle id="Oval-2" fill="url(#linearGradient-5)" cx="97" cy="148" r="15"></circle>
+                    <animate
+                            xlink:href="#Oval-2"
+                            attributeName="cy"
+                            from="0"
+                            to="100"
+                            dur="2s"
+                            calcMode="spline"
+                            values="-1000; 200; -100; 180; -50; 160; 70; 148"
+                            keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.9; 1"
+                            keySplines="0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1"
+                            fill="freeze"
+                            id="circ-anim"/>
+                    <circle id="Oval-2-Copy" fill="url(#linearGradient-6)" opacity="0.799999952" cx="447" cy="136" r="5"></circle>
+                    <animate
+                            xlink:href="#Oval-2-Copy"
+                            attributeName="cy"
+                            from="0"
+                            to="100"
+                            dur="1.5s"
+                            calcMode="spline"
+                            values="-800; 180; -80; 150; 0; 140; 70; 136"
+                            keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.9; 1"
+                            keySplines="0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1"
+                            fill="freeze"
+                            id="circ-anim"/>
+                    <circle id="Oval-2-Copy-2" fill="url(#linearGradient-7)" opacity="0.300000012" cx="491" cy="106" r="3"></circle>
+                    <animate
+                            xlink:href="#Oval-2-Copy-2"
+                            attributeName="cy"
+                            from="0"
+                            to="100"
+                            dur="0.5s"
+                            calcMode="spline"
+                            values="-800; -650; -500; -350; -200; -50; 100; 106"
+                            keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.95; 1"
+                            keySplines="0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1;
+      0 0 0.59 1;
+      0.42 0 1 1"
+                            fill="freeze"
+                            id="circ-anim"/>
+                    <rect id="Rectangle-7" stroke="#FFFFFF" stroke-width="4" opacity="0.800000012" transform="translate(323.933891, 96.933891) rotate(25.000000) translate(-323.933891, -96.933891) " x="313.933891" y="86.9338907" width="20" height="20"></rect>
+                    <animate
+                            xlink:href="#Rectangle-7"
+                            attributeName="y"
+                            from="0"
+                            to="100"
+                            dur="0.9s"
+                            calcMode="linear"
+                            values="-700; -564.2; -428.4; -292.6; -156.8; -21; 86.9338907"
+                            keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 1"
+                            fill="freeze"
+                            id="circ-anim"/>
+                    <rect id="Rectangle-8" fill="#EB9393" transform="translate(535.000000, 121.000000) rotate(10.000000) translate(-535.000000, -121.000000) " x="510" y="120" width="50" height="2"></rect>
+                    <animate
+                            xlink:href="#Rectangle-8"
+                            attributeName="x"
+                            from="0"
+                            to="100"
+                            dur="1.5s"
+                            calcMode="linear"
+                            values="-700; -500; -300; -100; 200; 400; 510"
+                            keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 1"
+                            fill="freeze"
+                            id="circ-anim"/>
+                </g>
+            </g>
+        </g>
+    </svg>
+    <div class="notfound-message">
+        <p style="font-size: 20px">
+            We were not able to find the page you're looking for.
+            Try <a href="/browse">browsing our course catalog</a> or <a href="/courses">searching our course catalog</a> instead.
+        </p>
+        <p style="font-size: 13px; font-weight: bold">You might also find these links helpful:</p>
+        <a style="font-size: 13px; display: block; padding-bottom: 4px" href="/degrees">Online Degrees</a>
+        <a style="font-size: 13px; display: block; padding-bottom: 4px" href="/enterprise">Coursera for Business</a>
+        <a style="font-size: 13px; display: block; padding-bottom: 4px" href="https://blog.coursera.org/">Coursera Blog</a>
+    </div>
+</div>
+</body>
+</html>

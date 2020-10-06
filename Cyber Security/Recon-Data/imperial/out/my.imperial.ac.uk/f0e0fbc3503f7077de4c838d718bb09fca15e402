@@ -1,0 +1,26 @@
+http://my.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: my.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 158
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin
+< Date: Sat, 18 Jul 2020 13:54:44 GMT
+< Content-Type: text/html; charset=utf-8
+< Pragma: no-cache
+< Location: https://my.imperial.ac.uk/HomeScreen.aspx
+< Cache-Control: private
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=w2elkw353kcshuxsa4qp2u1f; path=/; secure; HttpOnly
+< Set-Cookie: osVisitor=bde38f7b-61d9-4450-b44f-99afd24df0cc; expires=Thu, 18-Jul-2120 13:54:44 GMT; path=/; secure; HttpOnly
+< Set-Cookie: osVisit=ef1ae3a2-5348-415d-8976-dd8492a4f010; expires=Sat, 18-Jul-2020 14:24:44 GMT; path=/; secure; HttpOnly
+< X-Xss-Protection: 1; mode=block
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://my.imperial.ac.uk/HomeScreen.aspx">here</a>.</h2>
+</body></html>

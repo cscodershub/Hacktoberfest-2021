@@ -1,0 +1,15 @@
+http://ads.test.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ads.test.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Netflix.proxy.execution-Time: 4
+< X-Originating-Url: http://ads.test.netflix.com/
+< Content-Length: 7
+< Server: heisenberg UNKNOWN
+< Via: 1.1 i-042b8432b58bad0fb (eu-west-1)
+< X-Netflix.nfstatus: 1_2
+
+BLOCKED

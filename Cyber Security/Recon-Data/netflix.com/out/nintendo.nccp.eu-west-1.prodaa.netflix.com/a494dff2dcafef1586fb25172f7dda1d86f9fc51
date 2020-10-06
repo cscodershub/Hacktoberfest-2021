@@ -1,0 +1,25 @@
+https://nintendo.nccp.eu-west-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: nintendo.nccp.eu-west-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 4
+< X-Originating-Url: https://nintendo.nccp.eu-west-1.prodaa.netflix.com/
+< Set-Cookie: memclid=cd603087-2c9b-4df1-8cda-ca063362fc6d; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:39 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEG3XEKExvHVQpLM9a2eZJ%2BdAcazlkMcGkvaJ1QdlGV6J35qhmA%2FGSmMgFqfqEIxZc5zSetw3Fkgx7yNdpCXUZ5iRPtD%2BmJTp2dpJdVce93jVKQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:35:39 GMT; Path=/; Domain=.netflix.com
+< Date: Wed, 17 Jun 2020 05:35:39 GMT
+< Server: nccp-modern i-0b6e4af36cda871b2
+< Via: 1.1 i-0d72a9c1a698ae0fc (eu-west-1)
+< Content-Length: 199
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

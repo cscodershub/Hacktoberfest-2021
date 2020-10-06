@@ -1,0 +1,163 @@
+https://medicine.sofia.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: medicine.sofia.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Sat, 18 Jul 2020 13:54:23 GMT
+< Content-Security-Policy: script-src 'self' 'unsafe-eval' https://www.google-analytics.com 'sha256-djcZet6hSWfLasAuBu7zn0G1QLMXn1nbxciBSMuDcaE=' 'sha256-w/CzzAfrkgKrKZylnKE9N2CC9UWwEsqdepJDdOYA8k8=' 'sha256-T1kYXF2Hy6RW+8T+TWEQ3RSEg0DBEloGvSayjXAR6oQ='; style-src 'self' 'unsafe-inline'; default-src 'self'; frame-src 'none'; img-src 'self' https://www.google-analytics.com https://www.imperial.ac.uk/; media-src 'self'; object-src 'none'; connect-src 'self' https://www.google-analytics.com; font-src 'self'
+< Pragma: no-cache
+< Cache-Control: no-cache, no-store, max-age=0
+< X-Frame-Options: DENY
+< Set-Cookie: csrftoken=0BfSt10gTwVVkqbLKaL2DDZSsEPVsBZ7y9VomC6BG3oO3qb5rot8Ntp5cZIkRHxY; expires=Sat, 17-Jul-2021 13:54:22 GMT; Max-Age=31449600; Path=/; secure
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: LHR62-C2
+< X-Xss-Protection: 1; mode=block
+< Server: gunicorn/19.5.0
+< Vary: Cookie, Authorization, Accept-Encoding
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Amz-Cf-Id: iTviEwrzgxkfSnWU-iKtGMaWQ0djupKtbLtUrHObNbmVPiBhacQ9CA==
+< Content-Type: text/html; charset=utf-8
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=300; includeSubDomains
+< Via: 1.1 5f945d4578713543c6bb96b797e1a0f7.cloudfront.net (CloudFront)
+< Expires: Sat, 18 Jul 2020 13:54:22 GMT
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/cmap/favicons/apple-touch-icon.f5a1fae1061b.png">
+    <link rel="icon" type="image/png" href="/static/cmap/favicons/favicon-32x32.9698aff6ab9f.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/static/cmap/favicons/favicon-16x16.b7c20bd5179a.png" sizes="16x16">
+    <link rel="manifest" href="/static/cmap/favicons/manifest.66c91f336876.json">
+    <link rel="mask-icon" href="/static/cmap/favicons/safari-pinned-tab.4e7c4c89cd1a.svg" color="#003e74">
+    <link rel="shortcut icon" href="/static/cmap/favicons/favicon.7ecb13537130.ico">
+    <meta name="msapplication-config" content="/static/cmap/favicons/browserconfig.f34fff53b0db.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Sofia Curriculum Map</title>
+
+    
+
+<script>addEventListener('error', window.__e=function f(e){f.q=f.q||[];f.q.push(e)});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91064526-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+    <link rel="stylesheet" href="/static/cmap/css/imperial.cc444c5b5b2c.css">
+
+    
+  </head>
+  <body>
+    <div class="AppHeader">
+
+  <div class="AppHeader-logo">
+    <a class="AppHeader-logo-link" href="/">Sofia <strong class="AppHeader-site-name">Faculty of Medicine</strong></a>
+    <button type="button" class="btn btn-link AppHeader-site-nav-toggle"
+      data-toggle="collapse" data-target=".AppHeader-site-nav" aria-expanded="false"
+      >
+      <span class="toggle-label">Change site</span>
+      <span class="caret"></span>
+      <span class="sr-only">Toggle other sites</span>
+    </button>
+  </div>
+
+  <nav class="AppHeader-nav hidden-print">
+    <ul class="AppHeader-userSearchMenu" style="display:none">
+      <li class="dropdown AppHeader-userMenu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <i class="fa fa-user AppHeader-userIcon"></i>
+          <span class="AppHeader-userName"></span><b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="/logout"><i class="fa fa-sign-out"></i>  Logout</a></li>
+        </ul>
+      </li>
+      <li class="AppHeader-searchOption">
+        <form class="AppHeader-search search" role="search" onsubmit="return false">
+          <input type="text" class="form-control" placeholder="Search">
+        </form>
+      </li>
+    </ul>
+  </nav>
+
+</div>
+
+<div class="AppHeader-site-nav collapse">
+  <span class="AppHeader-other-sites">
+    Change site:
+    <span class="btn-group">
+      <button type="button" class="btn btn-link dropdown-toggle selected" data-toggle="dropdown">
+        Faculty of Medicine
+        <span class="caret"></span>
+        <span class="sr-only">Toggle sites</span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+        
+          <li><a href="https://business-school.sofia.imperial.ac.uk" target="_blank">Imperial College Business School</a></li>
+        
+          <li><a href="https://engineering.sofia.imperial.ac.uk" target="_blank">Faculty of Engineering</a></li>
+        
+          <li><a href="https://natural-sciences.sofia.imperial.ac.uk" target="_blank">Faculty of Natural Sciences</a></li>
+        
+      </ul>
+    </span>
+  </span>
+
+  <span class="AppHeader-curriculum-groups"></span>
+
+  <button type="button" class="close" aria-label="Close"
+    data-toggle="collapse" data-target=".AppHeader-site-nav">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="AppSearchbar hidden-print" style="display:none">
+</div>
+
+<div class="AppPersistentMessageTreeChanges">
+</div>
+
+<div class="AppPersistentMessageLeChanges">
+</div>
+
+<div class="AppLayout">
+</div>
+
+<div class="AppFooter">
+  &copy;2020 Imperial College London
+</div>
+
+<div class="AppMessages">
+</div>
+
+<div class="Loader" role="alert">
+  <div class="Loader-container">
+  <p class="Loader-text">Starting application</p>
+     <div class="Loader-spinner">
+     </div>
+  </div>
+  <div class="modal-backdrop fade in"></div>
+</div>
+
+<div id="modal-root"></div>
+
+    <script>var curriculumGroup = {"path": "", "depth": null, "name": "", "slug": ""}; var siteBrand = {"LOGIN_URL": "/saml2/login/", "LOGIN_SSO": "Login using Imperial ID", "LOGIN_LOCAL": "I don't have an Imperial ID"}; var siteSettings = {"id": 29, "name": "Faculty of Medicine", "introduction": "<b>Sofia</b> (Greek: &Sigma;&omicron;&phi;&iota;&alpha;, \"wisdom\")", "feedback_details": "<p>Please let us know here if there is anything is missing or inaccurate in Sofia.</p>", "disable_sso": false, "landing_page": true, "domain": "medicine.sofia.imperial.ac.uk", "version": "1.2.15", "configured_sso": true, "clinical_signpost_topic_only": false}; var siteMessages = [];</script>
+    <script src="/static/cmap/js/cmap.78c119943864.js"></script>
+  </body>
+</html>

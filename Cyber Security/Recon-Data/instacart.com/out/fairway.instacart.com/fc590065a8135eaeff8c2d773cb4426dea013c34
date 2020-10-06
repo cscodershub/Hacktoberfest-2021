@@ -1,0 +1,24 @@
+http://fairway.instacart.com/
+
+> GET / HTTP/1.1
+> Host: fairway.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Location: https://fairway.instacart.com/
+< Via: 1.1 ead256cd567b3d0f8e32db9114a9d1bb.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+< Date: Tue, 04 Aug 2020 04:47:08 GMT
+< Content-Type: text/html
+< Content-Length: 183
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: 6SCQ3J6Ce7cTcLF4hzuYaVyTyj3RHfvZqDuAHAXeTQyGCLvji2MY6A==
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

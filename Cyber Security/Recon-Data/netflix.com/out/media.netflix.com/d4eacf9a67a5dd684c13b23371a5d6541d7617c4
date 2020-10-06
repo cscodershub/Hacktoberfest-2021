@@ -1,0 +1,24 @@
+http://media.netflix.com/
+
+> GET / HTTP/1.1
+> Host: media.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 183
+< Location: https://media.netflix.com/
+< X-Amz-Cf-Id: zzx_zG1Ly2u_GXv2b5axMcaLzoY4frlM_fPLr6fAjxTsaqUbaYX8_Q==
+< Via: 1.1 d61836c8bf5eb04c5c89f74624c4775d.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< Server: CloudFront
+< Date: Wed, 17 Jun 2020 05:39:14 GMT
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

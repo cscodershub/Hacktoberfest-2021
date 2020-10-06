@@ -1,0 +1,25 @@
+https://blogs.boomi.com/
+
+> GET / HTTP/1.1
+> Host: blogs.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Served-By: cache-mdw17364-MDW, cache-bom4743-BOM
+< Server: nginx
+< X-Pantheon-Styx-Hostname: styx-fe3-b-7ccfb4b767-bg4rj
+< X-Styx-Req-Id: 60a23b83-de51-11ea-9184-66e6b9a90e1d
+< Cache-Control: public, max-age=86400
+< Content-Length: 0
+< Date: Sat, 15 Aug 2020 09:16:06 GMT
+< X-Cache: HIT, HIT
+< X-Cache-Hits: 1, 1
+< Accept-Ranges: bytes
+< Location: https://boomi.com/blog//
+< Strict-Transport-Security: max-age=300
+< Age: 57797
+< Via: 1.1 varnish
+< Content-Type: text/html; charset=UTF-8
+< X-Timer: S1597482966.038093,VS0,VE1
+< Vary: Cookie, Cookie
+

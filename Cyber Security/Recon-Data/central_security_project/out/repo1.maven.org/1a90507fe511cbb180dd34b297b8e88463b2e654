@@ -1,0 +1,29 @@
+https://repo1.maven.org/
+
+> GET / HTTP/1.1
+> Host: repo1.maven.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Wed, 10 Aug 2016 15:08:35 GMT
+< Content-Type: text/html
+< Via: 1.1 varnish
+< Via: 1.1 varnish
+< Via: 1.1 varnish
+< Date: Fri, 18 Sep 2020 08:36:42 GMT
+< X-Cache: HIT, HIT, HIT
+< Age: 9254706
+< X-Timer: S1600418203.509630,VS0,VE0
+< Etag: "870468c6fc5c993981a7cdfc340bff13"
+< Accept-Ranges: bytes
+< Content-Length: 308
+< X-Served-By: cache-iad2151-IAD, cache-bwi5138-BWI, cache-ams21043-AMS
+< X-Cache-Hits: 1, 1, 5892
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Index of /</title></head>
+<body bgcolor="white">
+<h1>Index of /</h1><hr><pre>
+<a href="maven2/">maven2/</a>                                            2016-01-19 14:00                   -
+</pre><hr>
+
+</body></html>

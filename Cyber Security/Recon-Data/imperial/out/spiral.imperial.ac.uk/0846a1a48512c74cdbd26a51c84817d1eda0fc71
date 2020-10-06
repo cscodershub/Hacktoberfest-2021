@@ -1,0 +1,13 @@
+http://spiral.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: spiral.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Date: Sat, 18 Jul 2020 13:54:33 GMT
+< Cache-Control: private
+< Expires: Thu, 01 Jan 1970 01:00:00 GMT
+< Location: https://spiral.imperial.ac.uk:8443/
+< Content-Length: 0
+

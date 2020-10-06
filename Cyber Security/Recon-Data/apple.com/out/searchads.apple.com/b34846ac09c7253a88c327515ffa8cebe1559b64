@@ -1,0 +1,24 @@
+http://searchads.apple.com/
+
+> GET / HTTP/1.1
+> Host: searchads.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Thu, 30 Apr 2020 21:29:26 GMT
+< Server: Apache
+< Location: https://searchads.apple.com/
+< Cache-Control: max-age=1800
+< Expires: Thu, 30 Apr 2020 21:59:26 GMT
+< Content-Length: 305
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://searchads.apple.com/">here</a>.</p>
+<hr>
+<address>Apache Server at searchads.apple.com Port 80</address>
+</body></html>

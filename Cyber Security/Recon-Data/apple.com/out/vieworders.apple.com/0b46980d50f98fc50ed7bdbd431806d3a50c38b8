@@ -1,0 +1,18 @@
+https://vieworders.apple.com/
+
+> GET / HTTP/1.1
+> Host: vieworders.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Security-Policy: default-src 'self'; script-src https://www.apple.com 'self' 'unsafe-inline'; frame-ancestors 'self'; img-src https://*.apple.com https://*.mzstatic.com; font-src https://*.apple.com; style-src https://*.apple.com https://*.mzstatic.com 'unsafe-inline'; object-src 'none'; form-action 'self'
+< X-Daiquiri-Instance: daiquiri:47578001:st44p00it-hyhk15014801:7987:20E24
+< Set-Cookie: dq-auth-retry:yKNKhge5CS7-0z_azOAb9U_xKEA=1; Max-Age=10; Expires=Thu, 30 Apr 2020 21:40:15 GMT; Path=/; Secure; HTTPOnly
+< Location: https://idmsa.apple.com:443/IDMSWebAuth/signin?appIdKey=20379f32034f8867d352666ff2904d2152d5ff6843ee2db5ab5df863c14b1aef&path=%2F__logged_in%2Fvieworders.apple.com&authResult=FAILED
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Apple-Jingle-Correlation-Key: VEU43JIXO4F2B7XRJQZIK6ZCDI
+< Cache-Control: no-cache, no-transform
+< Server: daiquiri/3.0.0
+< Date: Thu, 30 Apr 2020 21:40:05 GMT
+
+

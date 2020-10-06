@@ -1,0 +1,12 @@
+http://partner-resources.apple.com/
+
+> GET / HTTP/1.1
+> Host: partner-resources.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Object Moved
+< Cache-Control: private
+< Location: https://partner-resources-nwk.apple.com/
+< Content-Type: text/html
+
+<head><body> This object may be found <a HREF="https://partner-resources-nwk.apple.com/">here</a> </body>

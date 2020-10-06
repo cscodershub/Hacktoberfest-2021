@@ -1,0 +1,17 @@
+https://atlas.instacart.com/
+
+> GET / HTTP/1.1
+> Host: atlas.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: xzmqDCShv6xq5deQ-QTro03tvWwGAykpTDNbCc3AzR5am7zfFXe-ag==
+< Content-Length: 0
+< Date: Tue, 04 Aug 2020 03:32:29 GMT
+< Location: https://atlas.instacart.tools/
+< Server: AmazonS3
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Cache: Hit from cloudfront
+< Via: 1.1 4e0f37ca2b124654dbfc0554ea1020a8.cloudfront.net (CloudFront)
+< Age: 4463
+

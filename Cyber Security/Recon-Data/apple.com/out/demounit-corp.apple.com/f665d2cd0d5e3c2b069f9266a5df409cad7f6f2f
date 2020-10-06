@@ -1,0 +1,23 @@
+https://demounit-corp.apple.com/
+
+> GET / HTTP/1.1
+> Host: demounit-corp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: no-referrer-when-downgrade
+< Location: https://idmsac.apple.com/IDMSWebAuth/login?appIdKey=b4a6921ed399d895ec5c2605d19a0002b4aa98122c2e168452f0ba75b02a2b78&path=/&rv=1
+< Set-Cookie: rn-demounit-corporate-external-prod=79c8e5e8eeff8d71db52c4428e37c0fd; expires=Thu, 07-May-20 21:28:39 GMT; max-age=604800; domain=.apple.com; httponly; secure; path=/
+< Set-Cookie: plbroute_00423266a8dab7f48332db515762fe96=WnsaWscaQHv7r28x2xXxN+o/eZrjHSfuL5qlcqdy4NDdAA==; Expires=Fri, 01-May-2020 21:28:39 GMT; Domain=demounit-corp.apple.com; Path=/
+< Set-Cookie: JSESSIONID=node05es09ttbzxot1fb7kkheunc2i525.node0; Path=/
+< Date: Thu, 30 Apr 2020 21:28:39 GMT
+< Content-Length: 0
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+< X-B3-Traceid: 785d1518ebd797e1
+< Strict-Transport-Security: max-age=31536000
+< Server: Apple
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Content-Type: text/plain
+

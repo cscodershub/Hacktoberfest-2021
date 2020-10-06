@@ -1,0 +1,21 @@
+https://rw.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: rw.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx/1.14.2
+< Date: Thu, 30 Apr 2020 21:31:13 GMT
+< Content-Type: text/html
+< Content-Length: 185
+< Connection: keep-alive
+< Location: https://www.apple.com/404.html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.14.2</center>
+</body>
+</html>

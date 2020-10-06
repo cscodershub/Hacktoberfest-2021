@@ -1,0 +1,8 @@
+https://gsp23-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsp23-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 410 Gone (NS)
+

@@ -1,0 +1,15 @@
+http://blog.netflix.com/
+
+> GET / HTTP/1.1
+> Host: blog.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=utf-8
+< Location: https://media.netflix.com/company-blog
+< Date: Wed, 17 Jun 2020 05:35:21 GMT
+< Content-Length: 73
+< Cache-Control: public, must-revalidate, proxy-revalidate, max-age=3600
+
+<a href="https://media.netflix.com/company-blog">Moved Permanently</a>.
+

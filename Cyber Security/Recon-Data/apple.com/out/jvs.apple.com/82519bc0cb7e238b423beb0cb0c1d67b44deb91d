@@ -1,0 +1,19 @@
+http://jvs.apple.com/
+
+> GET / HTTP/1.1
+> Host: jvs.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Set-Cookie: ns_s=606bf6e82ee54d54dc85b6a157810ae198e6bb28; path=/; HttpOnly
+< Location: https://jvs.apple.com/
+< Vary: Accept-Encoding
+< Content-Type: text/html; charset=utf-8
+< Date: Thu, 30 Apr 2020 21:40:40 GMT
+< Server: Bomgar
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000
+< X-Ua-Compatible: IE=edge
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+

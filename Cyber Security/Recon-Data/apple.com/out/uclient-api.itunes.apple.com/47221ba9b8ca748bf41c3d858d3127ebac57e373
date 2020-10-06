@@ -1,0 +1,25 @@
+https://uclient-api.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: uclient-api.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Apple-Jingle-Correlation-Key: ZKJWRUQYYRA2HBMCSVQWA2J7JQ
+< X-Apple-Request-Uuid: ca9368d2-18c4-41a3-8582-956160693f4c
+< X-B3-Traceid: ca9368d218c441a38582956160693f4c
+< Apple-Originating-System: MZStorePlatform
+< Connection: keep-alive
+< Date: Thu, 30 Apr 2020 21:29:53 GMT
+< B3: ca9368d218c441a38582956160693f4c-02588e1ea2c1c4fa
+< X-B3-Spanid: 02588e1ea2c1c4fa
+< X-Apple-Application-Site: ST11
+< X-Apple-Application-Instance: 2001002
+< Content-Length: 43
+< Apple-Seq: 0
+< Apple-Tk: false
+< Cache-Control: max-age=3600
+< Content-Type: application/json
+< Apple-Timing-App: 0 ms
+
+{"code":404,"message":"HTTP 404 Not Found"}

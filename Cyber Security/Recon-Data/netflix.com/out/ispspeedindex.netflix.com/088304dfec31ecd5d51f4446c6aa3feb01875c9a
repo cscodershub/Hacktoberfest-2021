@@ -1,0 +1,16 @@
+http://ispspeedindex.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ispspeedindex.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 MOVED PERMANENTLY
+< Date: Wed, 17 Jun 2020 05:37:16 GMT
+< X-Frame-Options: SAMEORIGIN
+< Location: https://ispspeedindex.netflix.com:443/
+< Via: 1.1 vegur
+< Server: gunicorn/19.7.1
+< Content-Language: en
+< Content-Type: text/html; charset=utf-8
+< Vary: Accept-Language
+

@@ -1,0 +1,16 @@
+http://internationalbenefits.netflix.com/
+
+> GET / HTTP/1.1
+> Host: internationalbenefits.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: zuul i-030fcaf69ee3594e2
+< X-Netflix.nfstatus: 1_5
+< X-Netflix.proxy.execution-Time: 54482
+< X-Originating-Url: http://internationalbenefits.netflix.com/
+< Set-Cookie: memclid=4e2c0f9c-9ac7-43ac-844d-27a3eb4fdb87; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:48 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEHF%2BWfn6N9kNwKKE%2FYzogU1ALu7zdJslvq0P%2B6qHkwnnKi4xU2BvgHEhddnUOVcUFrajQpWpT1F7Gn6m3SRJuktNvPHnZ4kfXO8q4NgWVFd1pQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:48 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-030fcaf69ee3594e2 (us-east-1)
+< Content-Length: 0
+

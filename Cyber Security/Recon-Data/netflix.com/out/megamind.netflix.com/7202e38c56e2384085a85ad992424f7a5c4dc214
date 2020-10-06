@@ -1,0 +1,24 @@
+http://megamind.netflix.com/
+
+> GET / HTTP/1.1
+> Host: megamind.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 eff58516bc263981dfe5c0933fd7d308.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< Server: CloudFront
+< Content-Type: text/html
+< Location: https://megamind.netflix.com/
+< X-Amz-Cf-Id: 1DRCs4JiLIM9-5IEIW_qXM6R1263FkXy5y3qD_c13pKTqKv9WH_WYw==
+< Date: Wed, 17 Jun 2020 05:35:04 GMT
+< Content-Length: 183
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

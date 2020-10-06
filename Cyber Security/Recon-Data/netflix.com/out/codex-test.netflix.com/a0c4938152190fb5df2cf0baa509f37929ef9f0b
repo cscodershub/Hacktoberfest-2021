@@ -1,0 +1,17 @@
+https://codex-test.netflix.com/
+
+> GET / HTTP/1.1
+> Host: codex-test.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: api-test UNKNOWN
+< Via: 1.1 i-0dbd342e37c877807 (us-east-1)
+< X-Netflix.proxy.execution-Time: 3
+< Content-Length: 7
+< Set-Cookie: nfvdid=BQFmAAEBEDRg-mR4lZeHCGjLSSKZ6blA0g5a8dWnpSCxtESfmrYfYNOoVr2AVNHkoeasB_KnCs-cFPIOPofnOB6MHcF3FxmNA1NtBMC8Odkl9VnRVv1kVw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=7d6097b9-d73e-438e-9986-f7bb9fed778e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:57 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_2
+< X-Originating-Url: https://codex-test.netflix.com/
+
+BLOCKED

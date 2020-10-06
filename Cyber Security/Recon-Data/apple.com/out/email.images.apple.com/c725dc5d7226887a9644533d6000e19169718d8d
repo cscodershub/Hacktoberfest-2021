@@ -1,0 +1,24 @@
+https://email.images.apple.com/
+
+> GET / HTTP/1.1
+> Host: email.images.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Thu, 30 Apr 2020 21:29:31 GMT
+< Server: Apache
+< Location: http://www.apple.com/errors/us_error.html
+< Cache-Control: max-age=1800
+< Expires: Thu, 30 Apr 2020 21:59:31 GMT
+< Content-Length: 297
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://www.apple.com/errors/us_error.html">here</a>.</p>
+<hr>
+<address>Apache Server at email.images.apple.com Port 80</address>
+</body></html>

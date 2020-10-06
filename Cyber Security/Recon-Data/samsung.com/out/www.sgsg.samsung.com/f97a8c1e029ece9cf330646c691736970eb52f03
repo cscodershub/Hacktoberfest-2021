@@ -1,0 +1,19 @@
+https://www.sgsg.samsung.com/
+
+> GET / HTTP/1.1
+> Host: www.sgsg.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Wed, 10 Jun 2020 05:37:33 GMT
+< Access-Control-Allow-Origin: *
+< Set-Cookie: PHPSESSID=2egb6urnhiks24g5fkspucmr11; path=/; domain=www.sgsg.samsung.com
+< Set-Cookie: 4bf6b9b11ea496da197867be9b22302c=deleted; expires=Tue, 11-Jun-2019 05:37:32 GMT; path=/
+< Set-Cookie: b5c3e75bd7437160d60da142b6cc40b6=deleted; expires=Tue, 11-Jun-2019 05:37:32 GMT; path=/
+< Set-Cookie: b4b29eebc7d728dbed2a69e1318de1e8=MQ%3D%3D; expires=Wed, 10-Jun-2020 14:59:59 GMT; path=/
+< Set-Cookie: ae2c7041dffffe090fde27c3643e8498=NWVlMDcxOWQ3MjFkYg%3D%3D; expires=Fri, 10-Jul-2020 05:37:33 GMT; path=/
+< Content-Length: 0
+< Content-Type: text/html; charset=utf-8
+< P3p: CP="ALL CURa ADMa DEVa TAIa OUR BUS IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC OTC"
+< Location: ./main/index.php
+

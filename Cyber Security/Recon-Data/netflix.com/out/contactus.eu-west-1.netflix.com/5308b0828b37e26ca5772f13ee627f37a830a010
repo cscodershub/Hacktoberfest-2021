@@ -1,0 +1,23 @@
+https://contactus.eu-west-1.netflix.com/
+
+> GET / HTTP/1.1
+> Host: contactus.eu-west-1.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Expires: Tue, 16 Jun 2020 05:33:33 GMT
+< Location: https://help.netflix.com/en
+< Set-Cookie: memclid=70415fe7-88d4-4ad5-8b91-8c1d18a789f5; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:33:33 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEE%2FReyqe8LqyyEYkeg1iBrZA7oolByxOJ%2BNAe1Xf80RqlqzCyg%2F%2FLuem6aY8KxZ3oBWgmVz104HRYonjeGG4sDcKi0enmBgi3w4eBdenbDWvyw%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:33:33 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.proxy.execution-Time: 51050
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Via: 1.1 i-090ce809f8244fff5 (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< X-Originating-Url: https://contactus.eu-west-1.netflix.com/
+< Cache-Control: public
+< Content-Type: text/html;charset=UTF-8
+< Date: Wed, 17 Jun 2020 05:33:33 GMT
+< Pragma: no-cache
+< Server: padme i-0b992c8d3e062c8a0
+< Content-Length: 0
+

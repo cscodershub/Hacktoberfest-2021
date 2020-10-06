@@ -1,0 +1,12 @@
+https://image-server.instacart.com/
+
+> GET / HTTP/1.1
+> Host: image-server.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Date: Tue, 04 Aug 2020 04:47:12 GMT
+< Content-Type: text/html; charset=UTF-8
+< Content-Length: 0
+< Server: nginx
+

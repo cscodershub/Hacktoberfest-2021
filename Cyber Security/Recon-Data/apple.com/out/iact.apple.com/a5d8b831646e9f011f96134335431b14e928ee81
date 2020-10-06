@@ -1,0 +1,30 @@
+https://iact.apple.com/
+
+> GET / HTTP/1.1
+> Host: iact.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: Apple
+< Content-Type: text/plain;charset=iso-8859-1
+< Location: https://idmsa.apple.com/IDMSWebAuth/login?appIdKey=16376a6abbd6f0e90659f8891f2019f0383cc504a5322a68485736b4a95c4a09&rv=1&baseURL=https%3A%2F%2Fiact.apple.com
+< Content-Length: 61
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Host: iact.apple.com
+< Host: iact.apple.com
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Date: Thu, 30 Apr 2020 21:40:52 GMT
+< Set-Cookie: iact-rno=c8bb39e1382b654c5535627d67a181e3; expires=Fri, 01-May-20 05:40:52 GMT; max-age=28800; domain=apple.com; httponly; secure; path=/
+< Set-Cookie: rn2-newalderaan.rno=0834ee06b1372227c2fe2d0ea238eff7; expires=Fri, 01-May-20 05:40:52 GMT; max-age=28800; domain=apple.com; httponly; secure; path=/
+< Set-Cookie: acack=deleted; path=/; max-age=0; domain=.apple.com; expires=Thu Jan 01 00:00:00 GMT 1970
+< Set-Cookie: myacinfo=deleted; path=/; max-age=0; domain=.apple.com; expires=Thu Jan 01 00:00:00 GMT 1970
+< Set-Cookie: myacinfo=deleted; path=/; max-age=0; domain=.apple.com; expires=Thu Jan 01 00:00:00 GMT 1970
+< Set-Cookie: PSESSIONID=deleted; path=/; max-age=0; domain=.iact.apple.com; expires=Thu Jan 01 00:00:00 GMT 1970
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block;
+< X-Xss-Protection: 1; mode=block;
+
+Unable to validate authenticity of the credentials provided. 

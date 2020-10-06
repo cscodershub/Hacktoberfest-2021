@@ -1,0 +1,27 @@
+http://api.videos.apple.com/
+
+> GET / HTTP/1.1
+> Host: api.videos.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Date: Thu, 30 Apr 2020 21:40:05 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Length: 271
+< X-Cache-Remote: TCP_MISS from a128-241-216-200.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a184-50-88-110.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a184-50-88-110.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a184-50-88-110.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Content-Type: text/html
+< Expires: Thu, 30 Apr 2020 21:40:05 GMT
+< X-Cache: TCP_MISS from a125-99-55-106.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+
+<HTML><HEAD>
+<TITLE>Service Unavailable - Fail to connect</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;6&#46;6e5832b8&#46;1588282805&#46;6b027ea
+</BODY></HTML>

@@ -1,0 +1,13 @@
+https://grapevine.instacart.com/
+
+> GET / HTTP/1.1
+> Host: grapevine.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/plain; charset=UTF-8
+< Content-Length: 13
+< Server: akka-http/10.1.10
+< Date: Tue, 04 Aug 2020 04:47:09 GMT
+
+404 not found

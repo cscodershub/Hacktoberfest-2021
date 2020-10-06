@@ -1,0 +1,23 @@
+http://www.us-east-1.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.us-east-1.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Originating-Url: http://www.us-east-1.netflix.com/
+< Content-Length: 0
+< Cache-Control: no-cache, no-store
+< Server: nq_website_nonmember-prod-release 43540a7c-38d7-4f4c-b93c-2f5d792eb28e
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.proxy.execution-Time: 11
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:33:44 GMT
+< Edge-Control: no-cache, no-store
+< Set-Cookie: nfvdid=BQFmAAEBEJTsuSl2WQkty4HFSvB-hhZA2vs_PIjjod3hn9UAtLoMCK7Iew4VLS8Oueon-3xO-TqX2148FvV4_MvjeGIuAJq4C_fag_K6TckQgrWpzUPSZA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=f1eecb18-bff2-4f82-9663-21e171609410; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:33:44 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_1
+< Location: https://www.us-east-1.netflix.com/
+< Via: 1.1 i-02fea12e753426cb3 (us-east-1)
+< X-Content-Type-Options: nosniff
+

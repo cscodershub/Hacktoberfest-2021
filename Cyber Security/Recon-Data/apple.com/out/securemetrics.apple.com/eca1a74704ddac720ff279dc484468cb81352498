@@ -1,0 +1,16 @@
+https://securemetrics.apple.com/
+
+> GET / HTTP/1.1
+> Host: securemetrics.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Length: 0
+< Location: https://securemetrics.apple.com/
+< Strict-Transport-Security: max-age=31536000
+< Cache-Control: no-cache, no-store, max-age=0, no-transform, private
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Thu, 30 Apr 2020 21:29:18 GMT
+< Server: jag
+

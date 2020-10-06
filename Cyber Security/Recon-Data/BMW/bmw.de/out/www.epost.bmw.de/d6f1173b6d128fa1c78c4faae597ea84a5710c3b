@@ -1,0 +1,66 @@
+https://www.epost.bmw.de/
+
+> GET / HTTP/1.1
+> Host: www.epost.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html; charset=utf-8
+< Content-Language: en
+< Date: Tue, 11 Aug 2020 04:51:13 GMT
+< Server: Apache
+< Vary: accept-language,accept-charset
+< Accept-Ranges: bytes
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Access forbidden!</title>
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+
+body { 
+	color: #000; 
+	background-color: #FFF; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+a { 
+	color: #000; 
+	text-decoration: underline;
+}
+
+/*]]>*/--></style>
+</head>
+
+<body>
+<div style="min-width:1000px;">
+
+  <div style="margin-top:50px;">
+  	<div style="float:left; margin-left: 50px;">
+  		<img src="/error/bmw/logo_bmwgroup.gif" alt="BMW Group"/>
+  	</div>
+  	<div style="text-align:right; margin-right:50px;">
+		<img src="/error/bmw/bmw_group.png" alt="BMW Group"/>
+  	</div>
+  </div>
+
+  <div style="margin-left:50px; margin-top:25px; margin-right:50px;">
+  	<p>Error 403: Access forbidden!</p>
+	<p>
+
+
+    You don't have permission to access the requested object.
+    It is either read-protected or not readable by the server.
+
+
+	</p>
+        
+	</div>
+</div>
+
+</body>
+</html>
+

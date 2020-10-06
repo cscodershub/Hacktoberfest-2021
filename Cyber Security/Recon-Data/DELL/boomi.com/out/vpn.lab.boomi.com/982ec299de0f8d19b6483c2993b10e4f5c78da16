@@ -1,0 +1,19 @@
+https://vpn.lab.boomi.com/
+
+> GET / HTTP/1.1
+> Host: vpn.lab.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Sat, 15 Aug 2020 09:15:52 GMT
+< Content-Type: text/html; charset=UTF-8
+< Location: https://vpn.lab.boomi.com/__session_start__/
+< Server: OpenVPN-AS
+< Set-Cookie: openvpn_sess_e37a936cd67742bb69df641bef3f96fe=f4378c491411c8ad6aa079007a3d2066; Expires=Sat, 15 Aug 2020 09:45:52 GMT; Path=/; Secure; HttpOnly
+
+
+<html>
+    <body>
+    <p>REDIRECT</p>
+    </body>
+</html>

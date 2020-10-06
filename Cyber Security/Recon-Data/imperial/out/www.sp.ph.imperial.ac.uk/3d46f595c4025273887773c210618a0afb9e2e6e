@@ -1,0 +1,22 @@
+http://www.sp.ph.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.sp.ph.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sat, 18 Jul 2020 13:54:44 GMT
+< Server: Apache/2.2.15 (Oracle)
+< Location: http://www.imperial.ac.uk/spat
+< Content-Length: 328
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.imperial.ac.uk/spat">here</a>.</p>
+<hr>
+<address>Apache/2.2.15 (Oracle) Server at www.sp.ph.imperial.ac.uk Port 80</address>
+</body></html>

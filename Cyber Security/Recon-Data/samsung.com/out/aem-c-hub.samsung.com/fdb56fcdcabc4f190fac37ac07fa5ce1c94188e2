@@ -1,0 +1,17 @@
+https://aem-c-hub.samsung.com/
+
+> GET / HTTP/1.1
+> Host: aem-c-hub.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: httpd/unix-directory
+< Location: https://aem-c-hub.samsung.com/apps/samsungp5/login/content/login.html?resource=%2F&$$login$$=%24%24login%24%24&j_reason=unknown&j_reason_code=unknown
+< Server: nginx
+< Content-Length: 0
+< Date: Wed, 10 Jun 2020 05:36:13 GMT
+< Set-Cookie: WMONID=Gc2505AC9TJ; Expires=Thu, 10-Jun-2021 14:36:13 GMT; Path=/
+< Set-Cookie: AWSELB=C72DF3C110DCF3BAB3311ADA7993B009BD4E02CF3DE233E21E2330527485811F6E014B855464FA84440D192AF25BE1A2EFCD11E157768598AA1A98D0CBCB198B84DCCD0A26;PATH=/;MAX-AGE=300
+< Set-Cookie: AWSELBCORS=C72DF3C110DCF3BAB3311ADA7993B009BD4E02CF3DE233E21E2330527485811F6E014B855464FA84440D192AF25BE1A2EFCD11E157768598AA1A98D0CBCB198B84DCCD0A26;PATH=/;MAX-AGE=300;SECURE;SAMESITE=None
+

@@ -1,0 +1,22 @@
+https://retailers.instacart.com/
+
+> GET / HTTP/1.1
+> Host: retailers.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://dashboard.instacart.com
+< Set-Cookie: _mkra_ctxt=85765baea72d3ec82e1ca07879c1d54d--302; path=/; max-age=5; HttpOnly
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Type: text/html; charset=utf-8
+< Server: nginx
+< X-Xss-Protection: 1; mode=block
+< Vary: Accept-Encoding
+< Cache-Control: no-cache
+< X-Request-Id: fb9f051f-429a-4d9b-89ee-5c4d84b799e0
+< X-Runtime: 0.011974
+< Date: Tue, 04 Aug 2020 04:47:25 GMT
+
+<html><body>You are being <a href="https://dashboard.instacart.com">redirected</a>.</body></html>

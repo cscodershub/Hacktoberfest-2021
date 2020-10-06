@@ -1,0 +1,22 @@
+http://www2.beta.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www2.beta.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://www2.beta.netflix.com/
+< Date: Wed, 17 Jun 2020 05:34:58 GMT
+< X-Originating-Url: http://www2.beta.netflix.com/
+< Cache-Control: no-cache, no-store
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 11
+< Via: 1.1 i-008d8eba86f9a6387 (eu-west-1)
+< Server: nq_website_core-prod-release-beta 87990240-8249-4eea-8fcb-b891e702dc7b
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< Edge-Control: no-cache, no-store
+< Set-Cookie: nfvdid=BQFmAAEBEA9Ox-DQpOpJ54PkSHXJ5PBAz87WMk6_f_7KMX7MESWglmrAP7onqExsejk2n40gk2pclzbkBY3-b7AmN43x0kZkDJpbF0ieyBkaxdkL5scUDQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=dac6de1f-a3b9-4260-b50d-a7ec64a664c9; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:58 GMT; Path=/; Domain=.netflix.com
+

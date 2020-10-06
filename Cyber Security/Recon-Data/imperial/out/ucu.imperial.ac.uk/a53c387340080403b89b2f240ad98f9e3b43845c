@@ -1,0 +1,581 @@
+https://ucu.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: ucu.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Litespeed-Cache: hit
+< Date: Sat, 18 Jul 2020 13:54:37 GMT
+< Access-Control-Allow-Origin: https://www.ucu.org.uk
+< Alt-Svc: quic=":443"; ma=2592000; v="43,46", h3-Q043=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-25=":443"; ma=2592000, h3-27=":443"; ma=2592000
+< Content-Type: text/html; charset=UTF-8
+< Link: <https://ucu.imperial.ac.uk/wp-json/>; rel="https://api.w.org/"
+< Vary: Accept-Encoding,User-Agent
+< Server: LiteSpeed
+< Etag: "80501-1595041465;gz"
+
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-GB">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-GB">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-GB">
+<![endif]-->
+<!--[if !(IE 6) & !(IE 7) & !(IE 8)]><!-->
+<html lang="en-GB">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>
+Imperial College UCU | In solidarity!	</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="https://ucu.imperial.ac.uk/wp-content/themes/twentyeleven/style.css?ver=20190507" />
+<link rel="pingback" href="https://ucu.imperial.ac.uk/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://ucu.imperial.ac.uk/wp-content/themes/twentyeleven/js/html5.js?ver=3.7.0" type="text/javascript"></script>
+<![endif]-->
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Imperial College UCU &raquo; Feed" href="https://ucu.imperial.ac.uk/feed" />
+<link rel="alternate" type="application/rss+xml" title="Imperial College UCU &raquo; Comments Feed" href="https://ucu.imperial.ac.uk/comments/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ucu.imperial.ac.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://ucu.imperial.ac.uk/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://ucu.imperial.ac.uk/wp-includes/css/dist/block-library/theme.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-css'  href='https://ucu.imperial.ac.uk/wp-content/plugins/custom-facebook-feed/css/cff-style.css?ver=2.15.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyeleven-block-style-css'  href='https://ucu.imperial.ac.uk/wp-content/themes/twentyeleven/blocks.css?ver=20190102' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://ucu.imperial.ac.uk/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' type='text/css' media='all' />
+<script type='text/javascript' src='https://ucu.imperial.ac.uk/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://ucu.imperial.ac.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://ucu.imperial.ac.uk/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1'></script>
+<link rel='https://api.w.org/' href='https://ucu.imperial.ac.uk/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ucu.imperial.ac.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ucu.imperial.ac.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize = {
+	Share: "Share",
+	Save: "Save",
+	Subscribe: "Subscribe",
+	Email: "Email",
+	Bookmark: "Bookmark",
+	ShowAll: "Show All",
+	ShowLess: "Show less",
+	FindServices: "Find service(s)",
+	FindAnyServiceToAddTo: "Instantly find any service to add to",
+	PoweredBy: "Powered by",
+	ShareViaEmail: "Share via email",
+	SubscribeViaEmail: "Subscribe via email",
+	BookmarkInYourBrowser: "Bookmark in your browser",
+	BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+	AddToYourFavorites: "Add to your favourites",
+	SendFromWebOrProgram: "Send from any email address or email program",
+	EmailProgram: "Email program",
+	More: "More&#8230;",
+	ThanksForSharing: "Thanks for sharing!",
+	ThanksForFollowing: "Thanks for following!"
+};
+
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+	<style>
+		/* Link color */
+		a,
+		#site-title a:focus,
+		#site-title a:hover,
+		#site-title a:active,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-title a:active,
+		.widget_twentyeleven_ephemera .comments-link a:hover,
+		section.recent-posts .other-recent-posts a[rel="bookmark"]:hover,
+		section.recent-posts .other-recent-posts .comments-link a:hover,
+		.format-image footer.entry-meta a:hover,
+		#site-generator a:hover {
+			color: #6510ed;
+		}
+		section.recent-posts .other-recent-posts .comments-link a:hover {
+			border-color: #6510ed;
+		}
+		article.feature-image.small .entry-summary p a:hover,
+		.entry-header .comments-link a:hover,
+		.entry-header .comments-link a:focus,
+		.entry-header .comments-link a:active,
+		.feature-slider a.active {
+			background-color: #6510ed;
+		}
+	</style>
+			<style type="text/css" id="twentyeleven-header-css">
+				#site-title,
+		#site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+				</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="me" href="https://twitter.com/imperialucu" /><meta name="twitter:widgets:link-color" content="#000000" /><meta name="twitter:widgets:border-color" content="#000000" /><meta name="twitter:partner" content="tfwp" />
+<meta name="twitter:card" content="summary" /><meta name="twitter:title" content="Imperial College UCU" /><meta name="twitter:site" content="@imperialucu" /><meta name="twitter:description" content="In solidarity!" />
+		<style type="text/css" id="wp-custom-css">
+			body, input, textarea {
+    font: 15px Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.625;
+}		</style>
+		</head>
+
+<body class="home blog custom-background wp-embed-responsive two-column right-sidebar">
+<div class="skip-link"><a class="assistive-text" href="#content">Skip to primary content</a></div><div class="skip-link"><a class="assistive-text" href="#secondary">Skip to secondary content</a></div><div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://ucu.imperial.ac.uk/" rel="home">Imperial College UCU</a></span></h1>
+				<h2 id="site-description">In solidarity!</h2>
+			</hgroup>
+
+						<a href="https://ucu.imperial.ac.uk/">
+									<img src="https://ucu.imperial.ac.uk/files/2020/02/cropped-imperial_ucu.png" width="1000" height="288" alt="Imperial College UCU" />
+								</a>
+			
+						<div class="only-search with-image">
+					<form method="get" id="searchform" action="https://ucu.imperial.ac.uk/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+			</div>
+				
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+				<div class="menu-header-menu-container"><ul id="menu-header-menu" class="menu"><li id="menu-item-605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-605"><a href="https://ucu.imperial.ac.uk/about-imperial-college-ucu">About Imperial College UCU</a></li>
+<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="https://ucu.imperial.ac.uk/campaigns">Campaigns</a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="https://ucu.imperial.ac.uk/contact-us">Contact Us</a></li>
+<li id="menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551"><a href="https://ucu.imperial.ac.uk/resources">Resources</a></li>
+</ul></div>			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+			
+							<nav id="nav-above">
+				<h3 class="assistive-text">Post navigation</h3>
+				<div class="nav-previous"><a href="https://ucu.imperial.ac.uk/page/2" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+				<div class="nav-next"></div>
+			</nav><!-- #nav-above -->
+			
+				
+					
+	<article id="post-733" class="post-733 post type-post status-publish format-standard hentry category-bullying-harassment category-environment category-news">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://ucu.imperial.ac.uk/archives/733" rel="bookmark">Open Letter in Response to ICT Restructuring at Imperial</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="https://ucu.imperial.ac.uk/archives/733" rel="bookmark"><time class="entry-date" datetime="2020-06-07T12:50:47+01:00">7th June 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://ucu.imperial.ac.uk/archives/author/beckystewart" rel="author">beckystewart</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>The ICT department at Imperial provides essential core services to the entire college, but it is currently under threat of restructuring which carries a risk of around 75 staff redundancies with over 156 staff to be impacted in some way.</p>
+<p>We are inviting staff to <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB1Oon0BljE1KkU3TKmlvR9VUQkZUVVdFRTNFSTRPTzBNUTgyMTM1UkROMy4u" target="_blank" rel="noopener noreferrer">sign an open letter</a> expressing their concern at this proposed restructuring. <a href="https://imperiallondon.sharepoint.com/sites/365-ucureps/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2F365%2Ducureps%2FShared%20Documents%2FICT%20White%20Paper%20for%20staff%20consultation%2Epdf&amp;parent=%2Fsites%2F365%2Ducureps%2FShared%20Documents&amp;p=true&amp;originalPath=aHR0cHM6Ly9pbXBlcmlhbGxvbmRvbi5zaGFyZXBvaW50LmNvbS86Yjovcy8zNjUtdWN1cmVwcy9FU2FQc3dsdlEzUk1tdUoxNjhUX2E3TUJUVkJlMVV0YXo5czBTODg4SEhnbVF3P3J0aW1lPUpWTkRSZGNLMkVn" target="_blank" rel="noopener noreferrer">The letter references a White Paper outlining the proposal, which can be viewed online</a> (only available to those with Imperial accounts).</p>
+<p><a href="https://imperiallondon.sharepoint.com/:x:/s/365-ucureps/ETY1bXjmpk5PrdNAERzg-QIBEowR7g1FvZKpFatDZuYKpQ?e=g5R9MU" target="_blank" rel="noopener noreferrer">A list of the signatories can be viewed here</a> (only available to those with Imperial accounts). Note that there will be a delay between signing the letter and your name appearing on the list of signatures, be assured that all names are being recorded.</p>
+<h2>Open Letter</h2>
+<p><em>Below is the text of the <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB1Oon0BljE1KkU3TKmlvR9VUQkZUVVdFRTNFSTRPTzBNUTgyMTM1UkROMy4u" target="_blank" rel="noopener noreferrer">open letter</a> that all staff at Imperial are being invited to sign. You will need to sign in with your Imperial account in order to do so.</em></p>
+<p>As a member of staff at Imperial College London I would like to express my deep concern about the planned restructuring of our ICT service. The current plan has been developed without any proper consultation on what I need for either teaching, research or to support these activities, jeopardising the ICT service I rely on at one of the most critical times for the College.</p>
+<p>The White Paper outlining the restructure of ICT states that “overall 156 staff will be directly impacted”, that many “will need to compete for roles” and “approximately 75 staff will be at risk of redundancy”. The evidence suggests this restructuring is primarily a cost-saving exercise. It is also being rushed through in breach of the College’s own official procedures on restructuring. These specify that only after consultation has been completed can a decision be made on whether to proceed. Instead, HR immediately placed all members of ICT in separate risk groups, with recruitment to new roles scheduled to start before the consultation will be finished. This deliberately stifles any meaningful consultation with the threatened staff, the broader College community and the trade unions that represent them.</p>
+<p>My concerns extend beyond the conduct of this restructuring at a time when many staff are already feeling especially vulnerable. These cuts put at risk crucial teaching and support activities at a time when the College is rapidly moving student learning online. The immense challenges involved have already led to more, not less, demands on our ICT staff. As a research-intensive university, Imperial relies heavily on the quality of its ICT service, not least for its role in responding to the COVID-19 pandemic.</p>
+<p>These plans amount to a reckless approach that is destabilising a vital College resource. The current restructuring is undermining staff who have dedicated themselves to ensuring the College has continued to function under the most difficult of circumstances. I request that the current restructuring is halted, and a plan developed for ICT that properly takes account of what College requires to deliver its academic mission in these challenging times.</p>
+<p><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB1Oon0BljE1KkU3TKmlvR9VUQkZUVVdFRTNFSTRPTzBNUTgyMTM1UkROMy4u" target="_blank" rel="noopener noreferrer"><strong>Imperial staff can click here to sign the letter.</strong></a></p>
+
+<div class="twitter-share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F733&#038;via=imperialucu" class="twitter-share-button">Tweet</a></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ucu.imperial.ac.uk/archives/733" data-a2a-title="Open Letter in Response to ICT Restructuring at Imperial"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F733&amp;linkname=Open%20Letter%20in%20Response%20to%20ICT%20Restructuring%20at%20Imperial" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+													<span class="cat-links">
+					<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://ucu.imperial.ac.uk/archives/category/all-campaigns/bullying-harassment" rel="category tag">Bullying &amp; Harassment</a>, <a href="https://ucu.imperial.ac.uk/archives/category/all-campaigns/environment" rel="category tag">Environment</a>, <a href="https://ucu.imperial.ac.uk/archives/category/news" rel="category tag">News</a>			</span>
+																	
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-733 -->
+
+				
+					
+	<article id="post-723" class="post-723 post type-post status-publish format-standard hentry category-uncategorised">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://ucu.imperial.ac.uk/archives/723" rel="bookmark">Letter to Provost Ian Walmsley</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="https://ucu.imperial.ac.uk/archives/723" rel="bookmark"><time class="entry-date" datetime="2020-03-11T18:19:23+00:00">11th March 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://ucu.imperial.ac.uk/archives/author/beckystewart" rel="author">beckystewart</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Dear Ian,</p>
+<p>Just over a month ago, 27/1/20, you wrote to all staff:</p>
+<blockquote><p>&#8220;This year’s pay and benefit consultation will be informed by the new Pay and Employment Benchmarking Report (from a working group led by Professor Nigel Brandon, Dean of Engineering). This compares salaries and benefits from comparable institutions in the US and Europe. <strong>The report will be reviewed by Provost’s Board this week</strong>, and a decision made on implementing its recommendations. Our aspiration is to be competitive in our compensation, recognizing the different environments in which we and our competitors operate. The report and the outcomes of the Board’s deliberation on alignment of pay to comparator benchmarks will be shared with you.”</p></blockquote>
+<p>In February’s FoE MC Summary, sent to EEE staff on 4/3/20 we were told:</p>
+<blockquote><p>&#8220;Audrey Fraser, Head of Reward, Engagement and Policy in Human Resources joined the FMC to provide an update on the pay and benefits benchmarking data generated by UCEA. The benchmarking now enabled comparisons of academic pay and benefits with leading London universities in STEM subjects, Russell Group universities, and selected US and European institutions. <strong>The data will be discussed at the March meeting</strong> of Provost’s Board, with the intention that this robust emerging data set will be used every 1-2 years to inform the approach to pay and benefits at Imperial. Members noted that the costs of living in/near London are also a significant factor for staff and a review of housing support is also going to be carried out over the coming year.”</p></blockquote>
+<p>&nbsp;</p>
+<p>The Pay and Employment Benchmarking Report was one of management’s responses to the 2018 industrial action. It is disappointing that consideration of this report by the Provost Board was delayed from January to March, especially as you were informed on 27/1/20 that members at Imperial UCU had voted for industrial action on pay. To postpone consideration by senior management of the pay information that might help them better understand the vote for action is difficult to understand. Certainly it meant that the Provost Board could not use that information to reassess the basis of our claim and consider if the strike could be averted in a timely manner.</p>
+<p>Staff are very reluctant to take industrial action. In fact the current strike is the first on pay since Imperial left national negotiations in 2005. Richard Sykes, the Rector at the time, said a local settlement was necessary to give staff at Imperial the pay they deserved. But since Sykes left in 2008, pay levels at Imperial have fallen by 12.2% in real terms. That figure represents the subsequent drop in the value of the annual settlement at Imperial with respect to the local measure of inflation, CPIH London, as supplied by College to inform our local pay negotiations. College might be reluctant to use CPIH London, but it is the measure that best reflects the pressures staff at Imperial face.</p>
+<p>In your latest response to us, below, you seek to assure us that our views will be taken into consideration. However, there is no mention of the Pay and Employment Benchmarking Report, and you state, without any justification, that national as well as local inflation should inform the pay settlement. It is difficult to feel reassured if key information is either being ignored or discounted.</p>
+<p>Finally, regarding transparency, particularly the policy of pay in lieu of pensions, it should be noted how that policy affected pay for all staff after its implementation in 2016. Looking at ranked salaries in the period from 2015 to 2017, the College accounts show there was a very considerable uplift in the salaries enjoyed by the highest paid staff:</p>
+<p><img class="aligncenter wp-image-726 size-large" src="https://ucu.imperial.ac.uk/files/2020/03/salary-increases-1024x720.png" alt="" width="584" height="411" srcset="https://ucu.imperial.ac.uk/files/2020/03/salary-increases-1024x720.png 1024w, https://ucu.imperial.ac.uk/files/2020/03/salary-increases-300x211.png 300w, https://ucu.imperial.ac.uk/files/2020/03/salary-increases-768x540.png 768w, https://ucu.imperial.ac.uk/files/2020/03/salary-increases-426x300.png 426w, https://ucu.imperial.ac.uk/files/2020/03/salary-increases.png 1204w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p>Such an increase was the result of a decision by senior management to compensate themselves for the change in pension taxation introduced in 2016. In the current dispute, in answer to a questionnaire from UUK, Imperial’s senior management stated they did not want to offer any compensation for the increase in USS employee contributions faced by the majority staff at Imperial.</p>
+<p>&nbsp;</p>
+<p>All the best</p>
+<p>Tom</p>
+<p>_________________</p>
+<p>W Thomas Pike</p>
+<p>Professor in Microengineering<br />
+Optical and Semiconductor Devices<br />
+Electrical and Electronic Engineering<br />
+Imperial College London SW7 2AZ</p>
+
+<div class="twitter-share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F723&#038;via=imperialucu" class="twitter-share-button">Tweet</a></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ucu.imperial.ac.uk/archives/723" data-a2a-title="Letter to Provost Ian Walmsley"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F723&amp;linkname=Letter%20to%20Provost%20Ian%20Walmsley" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+													<span class="cat-links">
+					<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://ucu.imperial.ac.uk/archives/category/uncategorised" rel="category tag">Uncategorised</a>			</span>
+																	
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-723 -->
+
+				
+					
+	<article id="post-721" class="post-721 post type-post status-publish format-standard hentry category-events-actions">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://ucu.imperial.ac.uk/archives/721" rel="bookmark">Teach Out Events &#8211; Week Commencing 9 March</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="https://ucu.imperial.ac.uk/archives/721" rel="bookmark"><time class="entry-date" datetime="2020-03-10T18:25:18+00:00">10th March 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://ucu.imperial.ac.uk/archives/author/beckystewart" rel="author">beckystewart</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>The following events will all take place from 12:15-2:00pm in the Metric Room of the Imperial Student Union, Beit Quadrangle, Prince Consort Road, SW7 2BB.</p>
+<p>These are open events, all are welcome to attend &#8211; Imperial staff and students along with members of the general public.</p>
+<h2>Monday, 9 March</h2>
+<p><a href="https://www.facebook.com/events/148422702984031/"><em>International Women&#8217;s Day &#8211; Panel Discussion on Current Challenges for Women in Higher Education</em></a> with</p>
+<ul>
+<li>Becky Stewart (Chair), Lecturer in Dyson School of Design Engineering</li>
+<li>Fay Dowker, Professor of Theoretical Physics, Physics Department</li>
+<li>Nousheen Tariq, Postgraduate Education Manager, Faculty of Medicine</li>
+<li>Emma Toumi, Head of Intellectual Property Strategy, Enterprise Division</li>
+<li>Gemma Williamson, Postgraduate Education Officer, Faculty of Medicine</li>
+</ul>
+<p><a href="https://www.facebook.com/events/518365585745602/"><em>Resisting the Hostile Environment</em></a> with Julian Bild &#8211; Immigration solicitor, Anti Trafficking and Labour Exploitation Unit (ATLEU)</p>
+<p><a href="https://www.facebook.com/events/518365585745602/">(link to Facebook event)</a></p>
+<h2>Thursday, 12 March</h2>
+<p><a href="https://www.facebook.com/events/200860070988065/"><em>Viruses: Fact, Fiction &#8230; and Fear</em></a> with Dr Michael McGarvey, Reader in Molecular Virology, Imperial College London</p>
+<p><a href="https://www.facebook.com/events/200860070988065/">(link to Facebook event)</a></p>
+<h2>Friday, 13 March</h2>
+<p>No teach out, instead there will be a solidarity rally on Exhibition Road before the <a href="https://www.campaigncc.org/node/1945">March for Education and Earth</a>.</p>
+
+<div class="twitter-share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F721&#038;via=imperialucu" class="twitter-share-button">Tweet</a></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ucu.imperial.ac.uk/archives/721" data-a2a-title="Teach Out Events – Week Commencing 9 March"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F721&amp;linkname=Teach%20Out%20Events%20%E2%80%93%20Week%20Commencing%209%20March" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+													<span class="cat-links">
+					<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://ucu.imperial.ac.uk/archives/category/events-actions" rel="category tag">Events &amp; Actions</a>			</span>
+																	
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-721 -->
+
+				
+					
+	<article id="post-712" class="post-712 post type-post status-publish format-standard hentry category-events-actions">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://ucu.imperial.ac.uk/archives/712" rel="bookmark">Teach Out Events &#8211; Week Commencing 2 March</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="https://ucu.imperial.ac.uk/archives/712" rel="bookmark"><time class="entry-date" datetime="2020-03-02T07:15:14+00:00">2nd March 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://ucu.imperial.ac.uk/archives/author/beckystewart" rel="author">beckystewart</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>The following events will all take place from 12:15-2:00pm in the Metric Room of the Imperial Student Union, Beit Quadrangle, Prince Consort Road, SW7 2BB.</p>
+<p>These are open events, all are welcome to attend &#8211; Imperial staff and students along with members of the general public.</p>
+<h2>Monday, 2 March</h2>
+<p><em>The Random Universe</em> with Andrew Jaffe, Professor of Astrophysics and Cosmology, Imperial College London</p>
+<h2>Tuesday, 3 March</h2>
+<p><a href="https://www.facebook.com/events/2755991331123225/"><em>Fossil Free Economy Debate</em></a> with</p>
+<ul>
+<li>Martin Blunt, Shell Professor of Reservoir Engineering, Imperial College London</li>
+<li>Sheridan Few, Research Associate, Grantham Institute, Imperial College London</li>
+<li>Camilla Royle, Geography Department, King&#8217;s College London</li>
+</ul>
+<p>(link to Facebook event)</p>
+<h2>Wednesday, 4 March</h2>
+<p><em>The Politics of Mental Health</em> with Roddy Slorach, Senior Disability Advisor, Imperial College London</p>
+<h2>Thursday, 5 March</h2>
+<p><a href="https://www.facebook.com/events/1451322395027447"><em>Mars: Our Future?</em></a> with Tom Pike, Professor of Microengineering, Imperial College London</p>
+<p><a href="https://www.facebook.com/events/1451322395027447">(link to Facebook event)</a></p>
+
+<div class="twitter-share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F712&#038;via=imperialucu" class="twitter-share-button">Tweet</a></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ucu.imperial.ac.uk/archives/712" data-a2a-title="Teach Out Events – Week Commencing 2 March"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F712&amp;linkname=Teach%20Out%20Events%20%E2%80%93%20Week%20Commencing%202%20March" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+													<span class="cat-links">
+					<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://ucu.imperial.ac.uk/archives/category/events-actions" rel="category tag">Events &amp; Actions</a>			</span>
+																	
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-712 -->
+
+				
+					
+	<article id="post-707" class="post-707 post type-post status-publish format-standard hentry category-events-actions category-news category-pay-negotiations category-pensions">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://ucu.imperial.ac.uk/archives/707" rel="bookmark">Start of Strike Action February/March 2020</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="https://ucu.imperial.ac.uk/archives/707" rel="bookmark"><time class="entry-date" datetime="2020-02-25T18:00:09+00:00">25th February 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://ucu.imperial.ac.uk/archives/author/beckystewart" rel="author">beckystewart</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>After re-balloting in the new year, the Imperial UCU Branch surpassed the legally required minimum 50% turnout and voted in favour of a mandate for strike action on two issues:</p>
+<ol>
+<li>Local dispute over pay with College Management;</li>
+<li>National dispute over pensions with USS.</li>
+</ol>
+<p>After the 8 days of strike action before Christmas which Imperial UCU did not take part in due to not meeting the requirement of 50% of ballots returned by eligible voters, Imperial UCU is taking part in the 14 days of strike action across February and March.</p>
+<h2>Summary of Pay Dispute</h2>
+<p>Our pay settlements have fallen behind the increase in the cost of living over the last 10 years. In 2019 College Management made a pay offer that did not even begin to address this long term decline in our salaries. This pay offer was rejected by all three campus unions. The college has now imposed a settlement on all staff without the agreement of the UCU. In addition to inflation, staff pension contributions have also risen (see below) from 6.5% of salary in 2011 to 9.6% today.</p>
+<h2>Summary of Pensions Dispute</h2>
+<p>Our USS pension scheme has been under attack for nearly 10 years. By 2018 our pension contributions had already risen to 8% of our salary. Since then our contributions have been raised twice more to the current 9.6%, and in 2021 they are set to rise again to 11%. All these rises have been based on a discredited valuation of the USS Scheme, meaning we’re paying more and more for a pension which is worth less and less. The 2018 USS strike showed that the only time the employers have been prepared to listen to us is when are prepared to go on strike.</p>
+<p><strong>We have been hit by a real-terms pay cut AND increased pensions contributions.</strong></p>
+<p>The full strike dates are:</p>
+<ul>
+<li>week one: Thursday 20 and Friday 21 February</li>
+<li>week two: Monday 24, Tuesday 25 and Wednesday 26 February</li>
+<li>week three: Monday 2, Tuesday 3, Wednesday 4 and Thursday 5 March</li>
+<li>week four: Monday 9, Tuesday 10, Wednesday 11, Thursday 12 and Friday 13 March.</li>
+</ul>
+<h2></h2>
+
+<div class="twitter-share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F707&#038;via=imperialucu" class="twitter-share-button">Tweet</a></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ucu.imperial.ac.uk/archives/707" data-a2a-title="Start of Strike Action February/March 2020"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F707&amp;linkname=Start%20of%20Strike%20Action%20February%2FMarch%202020" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+													<span class="cat-links">
+					<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://ucu.imperial.ac.uk/archives/category/events-actions" rel="category tag">Events &amp; Actions</a>, <a href="https://ucu.imperial.ac.uk/archives/category/news" rel="category tag">News</a>, <a href="https://ucu.imperial.ac.uk/archives/category/all-campaigns/pay-negotiations" rel="category tag">Pay Negotiations</a>, <a href="https://ucu.imperial.ac.uk/archives/category/all-campaigns/pensions" rel="category tag">Pensions</a>			</span>
+																	
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-707 -->
+
+				
+					
+	<article id="post-637" class="post-637 post type-post status-publish format-standard hentry category-newsletters category-pensions category-uncategorised">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://ucu.imperial.ac.uk/archives/637" rel="bookmark">ICUCU Newsletter 6</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="https://ucu.imperial.ac.uk/archives/637" rel="bookmark"><time class="entry-date" datetime="2019-01-31T16:32:14+00:00">31st January 2019</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://ucu.imperial.ac.uk/archives/author/ucu-office1" rel="author">UCU-office1</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>For a PDF version please see here: <a href="http://ucu.imperial.ac.uk/files/2019/02/Newsletter-6.pdf">Newsletter 6</a></p>
+
+<div class="twitter-share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F637&#038;via=imperialucu" class="twitter-share-button">Tweet</a></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ucu.imperial.ac.uk/archives/637" data-a2a-title="ICUCU Newsletter 6"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F637&amp;linkname=ICUCU%20Newsletter%206" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+													<span class="cat-links">
+					<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://ucu.imperial.ac.uk/archives/category/newsletters" rel="category tag">Newsletters</a>, <a href="https://ucu.imperial.ac.uk/archives/category/all-campaigns/pensions" rel="category tag">Pensions</a>, <a href="https://ucu.imperial.ac.uk/archives/category/uncategorised" rel="category tag">Uncategorised</a>			</span>
+																	
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-637 -->
+
+				
+					
+	<article id="post-311" class="post-311 post type-post status-publish format-standard hentry category-newsletters">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://ucu.imperial.ac.uk/archives/311" rel="bookmark">ICUCU Newsletter 5</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="https://ucu.imperial.ac.uk/archives/311" rel="bookmark"><time class="entry-date" datetime="2017-06-27T12:03:37+01:00">27th June 2017</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://ucu.imperial.ac.uk/archives/author/ucu-office1" rel="author">UCU-office1</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>&nbsp;</p>
+<p>For a PDF version please see here: <a href="http://ucu.imperial.ac.uk/files/2017/06/Newsletter-5.pdf">Newsletter 5</a></p>
+<p> <a href="https://ucu.imperial.ac.uk/archives/311#more-311" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+
+<div class="twitter-share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F311&#038;via=imperialucu" class="twitter-share-button">Tweet</a></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ucu.imperial.ac.uk/archives/311" data-a2a-title="ICUCU Newsletter 5"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F311&amp;linkname=ICUCU%20Newsletter%205" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+													<span class="cat-links">
+					<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://ucu.imperial.ac.uk/archives/category/newsletters" rel="category tag">Newsletters</a>			</span>
+																	
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-311 -->
+
+				
+					
+	<article id="post-276" class="post-276 post type-post status-publish format-standard hentry category-newsletters">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://ucu.imperial.ac.uk/archives/276" rel="bookmark">ICUCU Newsletter 4</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="https://ucu.imperial.ac.uk/archives/276" rel="bookmark"><time class="entry-date" datetime="2016-11-22T11:21:25+00:00">22nd November 2016</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://ucu.imperial.ac.uk/archives/author/ucu-office1" rel="author">UCU-office1</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>For a PDF version please see here: <a href="http://ucu.imperial.ac.uk/files/2016/11/Newsletter-4.pdf">Newsletter-4</a></p>
+<p> <a href="https://ucu.imperial.ac.uk/archives/276#more-276" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+
+<div class="twitter-share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F276&#038;via=imperialucu" class="twitter-share-button">Tweet</a></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ucu.imperial.ac.uk/archives/276" data-a2a-title="ICUCU Newsletter 4"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F276&amp;linkname=ICUCU%20Newsletter%204" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+													<span class="cat-links">
+					<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://ucu.imperial.ac.uk/archives/category/newsletters" rel="category tag">Newsletters</a>			</span>
+																	
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-276 -->
+
+				
+					
+	<article id="post-222" class="post-222 post type-post status-publish format-standard hentry category-newsletters">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://ucu.imperial.ac.uk/archives/222" rel="bookmark">ICUCU Newsletter No 3</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="https://ucu.imperial.ac.uk/archives/222" rel="bookmark"><time class="entry-date" datetime="2016-05-31T17:31:54+01:00">31st May 2016</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://ucu.imperial.ac.uk/archives/author/ucu-web5" rel="author">ucu-web5</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>For a PDF version please see here: <a href="http://imperial.web.ucu.org.uk/files/2016/05/Newsletter-3.pdf">Newsletter 3</a></p>
+<p> <a href="https://ucu.imperial.ac.uk/archives/222#more-222" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+
+<div class="twitter-share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F222&#038;via=imperialucu" class="twitter-share-button">Tweet</a></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ucu.imperial.ac.uk/archives/222" data-a2a-title="ICUCU Newsletter No 3"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F222&amp;linkname=ICUCU%20Newsletter%20No%203" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+													<span class="cat-links">
+					<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://ucu.imperial.ac.uk/archives/category/newsletters" rel="category tag">Newsletters</a>			</span>
+																	
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-222 -->
+
+				
+					
+	<article id="post-217" class="post-217 post type-post status-publish format-standard hentry category-newsletters">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://ucu.imperial.ac.uk/archives/217" rel="bookmark">ICUCU Newsletter No 2</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="https://ucu.imperial.ac.uk/archives/217" rel="bookmark"><time class="entry-date" datetime="2016-05-31T17:10:30+01:00">31st May 2016</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://ucu.imperial.ac.uk/archives/author/ucu-web5" rel="author">ucu-web5</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>For a PDF version please see here: <a href="http://imperial.web.ucu.org.uk/files/2016/05/Newsletter-2.pdf">Newsletter 2</a></p>
+<p> <a href="https://ucu.imperial.ac.uk/archives/217#more-217" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+
+<div class="twitter-share"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F217&#038;via=imperialucu" class="twitter-share-button">Tweet</a></div>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://ucu.imperial.ac.uk/archives/217" data-a2a-title="ICUCU Newsletter No 2"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fucu.imperial.ac.uk%2Farchives%2F217&amp;linkname=ICUCU%20Newsletter%20No%202" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+													<span class="cat-links">
+					<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://ucu.imperial.ac.uk/archives/category/newsletters" rel="category tag">Newsletters</a>			</span>
+																	
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-217 -->
+
+				
+							<nav id="nav-below">
+				<h3 class="assistive-text">Post navigation</h3>
+				<div class="nav-previous"><a href="https://ucu.imperial.ac.uk/page/2" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+				<div class="nav-next"></div>
+			</nav><!-- #nav-above -->
+			
+			
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			<aside id="twitter-timeline-profile-3" class="widget widget_twitter-timeline-profile"><div class="twitter-timeline-profile"><a class="twitter-timeline" data-lang="en" data-tweet-limit="5" href="https://twitter.com/ImperialUCU?ref_src=twsrc%5Etfw">Tweets by ImperialUCU</a></div></aside>		</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+												<a href="https://en-gb.wordpress.org/" class="imprint" title="Semantic Personal Publishing Platform">
+					Proudly powered by WordPress				</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!-- Custom Facebook Feed JS -->
+<script type="text/javascript">
+var cfflinkhashtags = "true";
+</script>
+<script type='text/javascript' src='https://ucu.imperial.ac.uk/wp-content/plugins/custom-facebook-feed/js/cff-scripts.js?ver=2.15.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+window.twttr=(function(w){t=w.twttr||{};t._e=[];t.ready=function(f){t._e.push(f);};return t;}(window));
+/* ]]> */
+</script>
+<script type="text/javascript" id="twitter-wjs" async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SlimStatParams = {"ajaxurl":"https:\/\/ucu.imperial.ac.uk\/wp-admin\/admin-ajax.php","baseurl":"\/","dnt":"noslimstat,ab-item","ci":"YToxOntzOjEyOiJjb250ZW50X3R5cGUiO3M6NDoiaG9tZSI7fQ--.19151d31f62b631e5328fd2abf1dbd86"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-slimstat/tags/4.8.8.1/wp-slimstat.min.js'></script>
+<script type='text/javascript' src='https://ucu.imperial.ac.uk/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+
+</body>
+</html>
+
+<!-- Page generated by LiteSpeed Cache 3.2.4 on 2020-07-18 04:04:25 -->

@@ -1,0 +1,17 @@
+http://rel.boozt.com/
+
+> GET / HTTP/1.1
+> Host: rel.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cf-Request-Id: 047f72681a0000dcd6fb0b2200000001
+< Vary: Accept-Encoding
+< Cf-Ray: 5c1286869aaedcd6-SIN
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Cache-Control: max-age=3600
+< Expires: Tue, 11 Aug 2020 15:07:53 GMT
+< Location: https://rel.boozt.com/
+< Server: cloudflare
+< Date: Tue, 11 Aug 2020 14:07:53 GMT
+

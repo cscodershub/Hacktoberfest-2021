@@ -1,0 +1,55 @@
+http://autolinkmaker.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: autolinkmaker.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Etag: "201a9eb993b866f551a5728c60cf0bd7:1550101461"
+< Date: Thu, 30 Apr 2020 21:30:11 GMT
+< Last-Modified: Wed, 13 Feb 2019 23:44:21 GMT
+< Server: AkamaiNetStorage
+< Vary: Accept-Encoding
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />    
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>Apple - iTunes - Auto Link Maker</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+  <script data-main="/js/main-built" async src="/js/vendor/requirejs/require.js"></script>
+  <script src="https://markhor-cdn.organicfruitapps.com/v4/4.1.0/markhor.min.js"></script>
+  <script>
+    if (!Markhor.tracker) {
+      Markhor.tracker = Markhor.buildTracker('15', 'https://markhor.organicfruitapps.com/analytics');
+    }
+
+    setTimeout(function() {
+      document
+        .querySelector('#app-container')
+        .getElementsByTagName('input')[0]
+        .addEventListener('change', function() {
+          Markhor.setAffiliateToken(this.value);
+        });
+
+      document
+        .querySelector('#app-container')
+        .getElementsByTagName('textarea')[0]
+        .addEventListener('focus', function() {
+          setTimeout(function() {
+            Markhor.track(Markhor.Events.ShareCopyEmbed);
+          }, 100);
+        });
+
+      Markhor.track(Markhor.Events.PageLoad, window.location.href);
+    }, 800);
+  </script>
+</head>
+<body class="itunes overview app" id="overview">
+
+</body>
+</html>

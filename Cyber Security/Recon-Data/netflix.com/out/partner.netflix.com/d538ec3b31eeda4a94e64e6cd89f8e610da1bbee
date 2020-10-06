@@ -1,0 +1,19 @@
+http://partner.netflix.com/
+
+> GET / HTTP/1.1
+> Host: partner.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: awselb/2.0
+< Date: Wed, 17 Jun 2020 05:36:40 GMT
+< Content-Type: text/html
+< Content-Length: 150
+< Location: https://partner.netflix.com:443/
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+</body>
+</html>

@@ -1,0 +1,32 @@
+https://www.sandbox.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.sandbox.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Type: text/html
+< Pragma: no-cache
+< X-Netflix.nfstatus: 1_1
+< X-Robots-Tag: index
+< X-Originating-Url: https://www.sandbox.geo.netflix.com/
+< Content-Length: 0
+< Location: https://www.sandbox.geo.netflix.com/in/
+< Server: nq_website_core-prod-release 9977583a-2f2c-42a3-a656-7660f9671916
+< Set-Cookie: flwssn=3ef12e6c-c866-4e44-9773-68edf6226c15; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:36:20 GMT
+< Set-Cookie: clSharedContext=29d4e7ef-9065-44fa-9eff-ae82fc222486; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBENmKGaXxwj4NpKywCyzCstZARNm68r5Jl-2IweG7yGwIncy7L9X2p0dPHV9JrOwqPA52phWRedjppjyO4YbdgOLtcGh-LS7X--6oZ_oG2Jp4HA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABSUj7mEMv4sCrUhFhN2neuHvCGFKiO3gh4.%26dt%3D1592372180743; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:36:20 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEHXY7WKP2-kvwr7Q8C33F4yA8DZf7jJLD4KiVzslGnvE_vVrhoAJdl5EEebaqy4eOw_yryRrcn6fwJbL0Ng0HCCMJVYSSkMLtcpSYmbSk5ImjkbqC5Tcv-9DLisy-AbHzfQbtMeHv8IqNkvVaJfzA2Flg4jvWkhJzHacFkK4Qn7iBcRoVZS8bmuOkVRdmk0reuy5srBTExG6wmpe_TAHrPG5aGiY6bK0ONE-MxV8tqgOr4mjA10vBt_MM51htbcRS1YS3xANX6atJQAHq7Lge3Ngc3Hs9R_KS92zcMv4YEbwS0QvZ6cVGfKbYo2wnYkqe_fR4snaWAIU_fs41xzzcZGxpQ..%26bt%3Ddev%26mac%3DAQEAEAABABSbvWuGB7pZzbrqSafaNCYNcefmg5XpQlo.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:36:20 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=6578e8e0-7aeb-45e7-a91a-31ad431b435b; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:20 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 i-0d60b8aac0660d31f (eu-west-1)
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+< X-Netflix.proxy.execution-Time: 52601
+< Cache-Control: no-cache, no-store
+< Date: Wed, 17 Jun 2020 05:36:20 GMT
+< Edge-Control: no-cache, no-store
+< Expires: 0
+

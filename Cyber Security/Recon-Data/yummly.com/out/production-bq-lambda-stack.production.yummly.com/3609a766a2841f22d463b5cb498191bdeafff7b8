@@ -1,0 +1,24 @@
+http://production-bq-lambda-stack.production.yummly.com/
+
+> GET / HTTP/1.1
+> Host: production-bq-lambda-stack.production.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: OzVMstHZ0mFO7OOcMwM7da7mTrMzstUT-ymXK2r9S2JEYAERn_LU-Q==
+< Date: Sat, 15 Aug 2020 14:57:36 GMT
+< Content-Type: text/html
+< Content-Length: 183
+< Server: CloudFront
+< Location: https://production-bq-lambda-stack.production.yummly.com/
+< Via: 1.1 e2f0e515fccd91a9016d3b4c96302db7.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: CCU50-C1
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

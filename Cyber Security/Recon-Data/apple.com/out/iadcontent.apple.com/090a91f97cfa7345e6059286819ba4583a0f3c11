@@ -1,0 +1,16 @@
+https://iadcontent.apple.com/
+
+> GET / HTTP/1.1
+> Host: iadcontent.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Type: text/html
+< Cache-Control: no-cache
+< Date: Thu, 30 Apr 2020 21:41:15 GMT
+
+<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+
+

@@ -1,0 +1,24 @@
+http://jobs.coursera.org/
+
+> GET / HTTP/1.1
+> Host: jobs.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Pop: MAA50-C2
+< Content-Length: 183
+< Location: https://jobs.coursera.org/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 aff7307e30fc02e21949086c9a7f962a.cloudfront.net (CloudFront)
+< Server: CloudFront
+< Date: Mon, 10 Aug 2020 04:51:56 GMT
+< Content-Type: text/html
+< X-Amz-Cf-Id: EuzdCD0Mw9ZGviU6rg0pfYcSCEgXqGcWKak-aMyD4EcRJ4SXTHMG0Q==
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

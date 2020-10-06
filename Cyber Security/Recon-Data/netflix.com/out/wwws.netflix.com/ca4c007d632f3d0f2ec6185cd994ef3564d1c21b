@@ -1,0 +1,32 @@
+https://wwws.netflix.com/
+
+> GET / HTTP/1.1
+> Host: wwws.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://wwws.netflix.com/in/
+< Via: 1.1 i-08ea0b0af85a70e36 (eu-west-1)
+< X-Content-Type-Options: nosniff
+< Server: nq_website_core-prod-release 3d76395a-0f62-49f7-b5c1-a1e7f9097ae0
+< X-Frame-Options: DENY
+< Pragma: no-cache
+< Expires: 0
+< X-Originating-Url: http://wwws.netflix.com/
+< Edge-Control: no-cache, no-store
+< Set-Cookie: flwssn=fcb6ff7e-384f-4f24-9023-1bb79e277e79; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:36:44 GMT
+< Set-Cookie: clSharedContext=c37b0e42-b612-4490-b6aa-316fd937858f; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEHJJatql--hm0mShclyRTJBAVUF4EgAHURkhHLAwA0S9fkpq3rgHuNDiwbc8qRsSuuKyquTHK4Nfe2pHY5SJoWcdq-gBfJBitnxctSe7swUynQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABSBz6aapd1P5Sr4GZjoNKQNLetmI4vs0IU.%26dt%3D1592372204243; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:36:44 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEMdYSPpFq1yhdSCPH5275smA8MHC6lqqWs2jtS8YbK1dhD29c2lVZOZuZJuJmG1oxr51rxbhiF4C-LU0y1zYxUz9qL8nE6WXZ04LwxnIBJ8UHzXNXVWqc8zwFYcBwrMJZozX9Y5FMEUQAip067hnayeq50FUHZ3cKmgMfj7b7u1OfC3o2NlsdPSKjnGBiC82JL4JrMWy3dGDBXjP4YL0u19oz1JjU0Vi9WlcbttZvNcSwsdLMtcTbBRQKhDXu5nMITK-g1Lw41xej64cN4uuqMZw5ABDESPLQxB8kGPUDa7x32TEXT-4xRgXEyW6hRAJGErri0x48MlwWAXZQaAakIZNwg..%26bt%3Ddev%26mac%3DAQEAEAABABQas4XD6vq20KUbDjNKz9UQDiPm441iGdo.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:36:44 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: pref_origins=1592372204244::nq_website_core-prod-release>100.120.68.107:7001&
+< Set-Cookie: memclid=59c9ddb8-62c1-4fcd-ad3e-81b5da2e260e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:44 GMT; Path=/; Domain=.netflix.com
+< Date: Wed, 17 Jun 2020 05:36:44 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 709
+< Content-Type: text/html
+< Cache-Control: no-cache, no-store
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+

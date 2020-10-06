@@ -1,0 +1,21 @@
+http://events.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: events.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx
+< Date: Sat, 18 Jul 2020 13:54:49 GMT
+< Content-Type: text/html
+< Content-Length: 162
+< Location: https://events.imperial.ac.uk/
+< X-Edge-Location-Klb: jbyEDL2py8n1Mj9ZL4cDOpeN1c08463eb82a43ff31851ea1382690d1
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

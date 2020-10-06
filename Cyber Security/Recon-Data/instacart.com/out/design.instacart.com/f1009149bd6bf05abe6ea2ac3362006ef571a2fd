@@ -1,0 +1,21 @@
+https://design.instacart.com/
+
+> GET / HTTP/1.1
+> Host: design.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Length: 154
+< Cache-Control: no-store
+< Location: https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fdesign.instacart.com%2F
+< Server: openresty
+< Date: Tue, 04 Aug 2020 04:47:02 GMT
+< Content-Type: text/html
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

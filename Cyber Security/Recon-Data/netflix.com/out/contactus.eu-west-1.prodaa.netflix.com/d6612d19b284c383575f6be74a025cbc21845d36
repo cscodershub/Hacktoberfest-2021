@@ -1,0 +1,24 @@
+http://contactus.eu-west-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: contactus.eu-west-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html;charset=UTF-8
+< Pragma: no-cache
+< Set-Cookie: memclid=e46a7411-39ac-4b60-891b-5b80fceed1f6; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:16 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEMKxaAEn346t8JE%2BucIcMJlAfaodNwsHwsacU%2Bafu5Ru%2Bb88f6fkWkcWpYwf4%2FgAt03h38TjD9WuaUvqB3ByCTMglZAwyR5K2rnyDgwA0u87nQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:16 GMT; Path=/; Domain=.netflix.com
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Cache-Control: public
+< Content-Length: 47
+< Server: padme i-0830c0b4eeccc5036
+< Via: 1.1 i-01a6540b86935c9cf (eu-west-1)
+< X-Netflix.proxy.execution-Time: 47470
+< X-Originating-Url: http://contactus.eu-west-1.prodaa.netflix.com/
+< Date: Wed, 17 Jun 2020 05:34:16 GMT
+< Location: https://contactus.eu-west-1.prodaa.netflix.com/
+< X-Netflix.nfstatus: 1_1
+< Expires: Tue, 16 Jun 2020 05:34:16 GMT
+
+https://contactus.eu-west-1.prodaa.netflix.com/

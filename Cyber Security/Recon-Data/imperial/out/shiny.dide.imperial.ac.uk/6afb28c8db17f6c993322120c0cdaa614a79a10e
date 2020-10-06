@@ -1,0 +1,20 @@
+https://shiny.dide.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: shiny.dide.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Sat, 18 Jul 2020 13:54:41 GMT
+< X-Powered-By: Shiny Server
+< Accept-Ranges: bytes
+< Last-Modified: Wed, 19 Sep 2018 13:09:11 GMT
+< Etag: W/"21-165f1f2e2de"
+< Content-Type: text/html; charset=UTF-8
+< Content-Length: 33
+< Set-Cookie: SRVID=021f59dd5947e1ff; path=/
+< Server: Apache/2.4.41 (Unix) OpenSSL/1.1.1d
+< Cache-Control: public, max-age=0
+< Vary: Accept-Encoding
+
+Welcome to the DIDE shiny server

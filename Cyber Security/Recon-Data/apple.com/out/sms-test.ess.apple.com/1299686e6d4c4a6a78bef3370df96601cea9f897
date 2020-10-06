@@ -1,0 +1,106 @@
+http://sms-test.ess.apple.com/
+
+> GET / HTTP/1.1
+> Host: sms-test.ess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Strict-Transport-Security: max-age=31536000
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:40:19 GMT
+< Content-Type: text/html
+< Content-Length: 1744
+< X-B3-Traceid: d8af04667b6af1a3
+
+<html>
+<head>
+<title>404 Not Found</title>
+
+<style>
+body {
+    background-color: #f8f8f8;
+    color: #505050;
+    font-family: "SF Hello", "Myriad Set Pro", "Myriad Set", "Lucida Grande", Arial, sans-serif;
+}
+
+hr {
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #666;
+}
+
+#container {
+    margin-left: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 55%;
+}
+
+#logo {
+    margin-right: 10px;
+}
+
+#code {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+#msg {
+    font-size: 32px;
+    font-weight: lighter;
+    margin-top: 10px;
+    color: #505050;
+}
+#desc {
+    margin-bottom: 33px;
+}
+
+#details {
+    font-size: 13px;
+    color: #909090;
+    display: table;
+    background-color: #fefefe;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+.detail {
+    display: table-row;
+}
+
+.detail .key {
+    font-weight: bold;
+    display: table-cell;
+    text-align: right;
+    padding: 1px 10px 1px 12px;
+    white-space: nowrap
+}
+
+.detail .value {
+    display: table-cell;
+    font-family: "SF Mono", Courier, Monaco, monospace;
+    padding: 1px 0px 1px 0px;
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+
+<div id="code"><span id="logo">&#xF8FF;</span>404</div>
+<div id="msg">Not Found</div>
+<hr>
+<div id="desc">Unable to find a configuration for the requested VIP.</div>
+
+<div id="details">
+<div class="detail"><span class="key">Access Time:</span><span class="value">Thu, 30 Apr 2020 21:40:19 GMT</span></div>
+
+<div class="detail"><span class="key">Reference ID:</span><span class="value">ca26cf3f-b722-41f8-be23-6338d37a8dcd</span></div>
+
+<div class="detail"><span class="key">Version:</span><span class="value">AppleHttpServer/0e38cca1000711c7faa6ecf8aa5a79aa</span></div>
+
+</div>
+</div>
+</body>
+</html>
+

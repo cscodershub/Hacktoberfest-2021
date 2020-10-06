@@ -1,0 +1,23 @@
+http://www.sandbox.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.sandbox.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Edge-Control: no-cache, no-store
+< Location: https://www.sandbox.geo.netflix.com/
+< X-Originating-Url: http://www.sandbox.geo.netflix.com/
+< Cache-Control: no-cache, no-store
+< Date: Wed, 17 Jun 2020 05:36:25 GMT
+< X-Netflix.nfstatus: 1_1
+< Content-Length: 0
+< Server: nq_website_core-prod-release ae8a6a68-9138-4bc9-8464-4165d65f1ef7
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Set-Cookie: nfvdid=BQFmAAEBEFK9l0qxXIrP_yroQ5nMl7FAQfHMwYhlVt_gUrrriJoSwUYpwbZMgKGJzWsvEK8Pn_UMCxvEMWrZSFBqnTENd4oPhjTJkrXx1PTeSQILnmnhtQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=cc0e99dc-8ec8-4326-b4c7-6f8ce1c6bcf2; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:25 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0d60b8aac0660d31f (eu-west-1)
+< X-Netflix.proxy.execution-Time: 6
+

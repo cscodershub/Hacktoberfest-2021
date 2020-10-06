@@ -1,0 +1,14 @@
+http://servers.apple.com/
+
+> GET / HTTP/1.1
+> Host: servers.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Server: red 3.7
+< Date: Thu, 30.Apr 2020 21:40:11 GMT
+< Referer: http://servers.apple.com/
+< Location: https://support.apple.com/kb/index?page=search&src=support_site.globalheader.search&locale=en_US&q=Xserve
+< Content-Type: text/html
+

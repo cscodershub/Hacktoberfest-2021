@@ -1,0 +1,20 @@
+https://hls-slive-primary.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: hls-slive-primary.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: application/json; charset=utf-8
+< X-Cache: miss, hit-stale, hit-stale
+< Cdnuuid: f78bbca2-eb54-4ce5-8d5c-c8a2f3a353d4-768901017
+< Access-Control-Allow-Origin: *
+< Date: Thu, 30 Apr 2020 21:30:30 GMT
+< Content-Length: 44
+< X-Served-By: f-west_8613065668557759924
+< Age: 4
+< Via: https/1.1 ussjc2-vp-vst-017.ts.apple.com (ApacheTrafficServer/8.0.7 [uScSsSfUpSeN:t cCSp sS]), https/1.1 hkhkg1-ve-vfe-008.ts.apple.com (ApacheTrafficServer/8.0.7 [uScSsSfUpSeN:t cCSpSs ]), https/1.1 sgsin3-edge-bx-027.ts.apple.com (ApacheTrafficServer/8.0.7 [uScMsSfWpSeN:t cCMpSs ])
+< Server: ATS/8.0.7
+< Cdn-Server: aapl
+
+{"message":"Requested route does not exist"}

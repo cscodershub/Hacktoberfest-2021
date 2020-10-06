@@ -1,0 +1,12 @@
+https://ttl60cname.test.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ttl60cname.test.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: nginx
+< Date: Wed, 17 Jun 2020 05:34:38 GMT
+< Content-Type: application/octet-stream
+< Content-Length: 0
+

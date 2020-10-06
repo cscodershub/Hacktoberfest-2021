@@ -1,0 +1,15 @@
+http://memorylink.samsung.com/
+
+> GET / HTTP/1.1
+> Host: memorylink.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 303 See Other
+< Content-Type: text/html; charset=UTF-8
+< Location: https://memorylink.samsung.com/
+< Date: Wed, 10 Jun 2020 05:37:10 GMT
+< Content-Length: 212
+< Set-Cookie: TS01ebe677=0130e8942af349dafc40d584c41451d8e55a68f84f588fa7fcde1ea43ff978feba43fa1a702c06e818ae302226bb1d999bf710384f; Path=/
+
+<head><title>문서가 이동되었습니다.</title></head>
+<body><h1>개체가 이동되었습니다.</h1><a HREF="https://memorylink.samsung.com/">여기</a>에서 이 문서를 찾을 수 있습니다.</body>

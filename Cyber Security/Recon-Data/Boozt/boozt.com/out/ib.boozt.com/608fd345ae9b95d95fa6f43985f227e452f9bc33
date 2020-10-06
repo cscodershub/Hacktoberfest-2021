@@ -1,0 +1,19 @@
+https://ib.boozt.com/
+
+> GET / HTTP/1.1
+> Host: ib.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Cf-Cache-Status: DYNAMIC
+< Server: cloudflare
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Content-Type: text/plain; charset=UTF-8
+< Content-Length: 13
+< Set-Cookie: __cfduid=d7a23bf44599fce528404fb2f42168aec1597154868; expires=Thu, 10-Sep-20 14:07:48 GMT; path=/; domain=.boozt.com; HttpOnly; SameSite=Lax; Secure
+< Cf-Request-Id: 047f7254c500001a420eb7a200000001
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Cf-Ray: 5c128667acc01a42-SIN
+< Date: Tue, 11 Aug 2020 14:07:48 GMT
+
+404 not found

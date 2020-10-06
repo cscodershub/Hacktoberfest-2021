@@ -1,0 +1,22 @@
+https://preview.gleam.io/
+
+> GET / HTTP/1.1
+> Host: preview.gleam.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Ua-Compatible: IE=Edge,chrome=1
+< G-Host: meepo9
+< P3p: policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT", CP="CAO PSA OUR"
+< Server: nginx
+< X-Xss-Protection: 1; mode=block
+< X-Runtime: 0.008669
+< Content-Type: text/html; charset=utf-8
+< X-Frame-Options: SAMEORIGIN
+< X-Request-Id: bd144b5b-ad25-4fb4-85b0-f105d16573b1
+< Location: https://gleam.io/
+< Cache-Control: no-cache
+< Date: Thu, 30 Jul 2020 04:27:07 GMT
+< X-Content-Type-Options: nosniff
+
+<html><body>You are being <a href="https://gleam.io/">redirected</a>.</body></html>

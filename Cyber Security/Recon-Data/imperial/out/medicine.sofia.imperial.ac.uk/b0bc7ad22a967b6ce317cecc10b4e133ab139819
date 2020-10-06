@@ -1,0 +1,24 @@
+http://medicine.sofia.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: medicine.sofia.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sat, 18 Jul 2020 13:54:17 GMT
+< Location: https://medicine.sofia.imperial.ac.uk/
+< Via: 1.1 e7d904c98f1be0804f709b8e16fc2dd0.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: MX767JL6tRwRbDscw-5IImBwwhGZ1XYNRiws8N-3sg4m8R8aHGhGJg==
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 183
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: LHR62-C2
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

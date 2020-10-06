@@ -1,0 +1,21 @@
+http://dashboard.instacart.com/
+
+> GET / HTTP/1.1
+> Host: dashboard.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx
+< Location: https://dashboard.instacart.com/
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Date: Tue, 04 Aug 2020 04:47:05 GMT
+< Content-Type: text/html
+< Content-Length: 162
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

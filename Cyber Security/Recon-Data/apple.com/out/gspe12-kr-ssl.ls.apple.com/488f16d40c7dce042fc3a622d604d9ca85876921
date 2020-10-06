@@ -1,0 +1,23 @@
+https://gspe12-kr-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe12-kr-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 287
+< Expires: Thu, 30 Apr 2020 21:31:05 GMT
+< Date: Thu, 30 Apr 2020 21:31:05 GMT
+< Server: AkamaiGHost
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;gspe12&#45;kr&#45;ssl&#46;ls&#46;apple&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;2db72c31&#46;1588282265&#46;158eee0
+</BODY>
+</HTML>

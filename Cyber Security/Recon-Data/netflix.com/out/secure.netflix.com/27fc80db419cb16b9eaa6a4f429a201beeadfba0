@@ -1,0 +1,25 @@
+http://secure.netflix.com/
+
+> GET / HTTP/1.1
+> Host: secure.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: nginx
+< Date: Wed, 17 Jun 2020 05:39:23 GMT
+< Content-Length: 146
+< Timing-Allow-Origin: *
+< Pragma: no-cache
+< X-Tcp-Info: addr=27.6.68.76;port=57485
+< Content-Type: text/html
+< Cache-Control: no-store
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: X-TCP-Info
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

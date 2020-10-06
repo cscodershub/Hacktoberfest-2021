@@ -1,0 +1,13 @@
+https://dnm.prod.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: dnm.prod.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: zuul i-0b5c87e913fba1575
+< Via: 1.1 i-0b5c87e913fba1575 (eu-west-1)
+< X-Netflix.nfstatus: 1_5
+< X-Netflix.proxy.execution-Time: 5205
+< Content-Length: 0
+

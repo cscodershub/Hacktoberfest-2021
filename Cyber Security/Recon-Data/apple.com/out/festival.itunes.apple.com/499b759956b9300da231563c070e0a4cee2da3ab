@@ -1,0 +1,18 @@
+http://festival.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: festival.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Request-Id: DFA5C8DEDC08A374
+< Content-Length: 243
+< X-Amz-Id-2: nqwmFVGv6pPXllK4i21M+uIgH0PLWDoLc9SZVfXPq1m31chsj+dySjcQNwoJ7XVmNdwKCiLjpFQ=
+< Content-Type: application/xml
+< Server: AmazonS3
+< Date: Thu, 30 Apr 2020 21:30:00 GMT
+< X-Cache: TCP_MISS from a49-44-95-31.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a96-17-150-180.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>DFA5C8DEDC08A374</RequestId><HostId>nqwmFVGv6pPXllK4i21M+uIgH0PLWDoLc9SZVfXPq1m31chsj+dySjcQNwoJ7XVmNdwKCiLjpFQ=</HostId></Error>

@@ -1,0 +1,118 @@
+https://beta.business.apple.com/
+
+> GET / HTTP/1.1
+> Host: beta.business.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Tcn: choice
+< X-Xss-Protection: 1; mode=block
+< Content-Language: ar
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Thu, 30 Apr 2020 21:40:20 GMT
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< Vary: negotiate,accept,accept-language,Accept-Encoding
+< Etag: "16f0-5a211359a4640"
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: public, max-age=300
+< X-Cache: TCP_MISS from a49-44-183-150.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Content-Location: index.html.ar
+< Accept-Ranges: bytes
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: default-src 'none'; form-action 'self' *.apple.com; base-uri 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.apple.com *.cdn-apple.com; style-src 'self' data: 'unsafe-inline' *.apple.com *.cdn-apple.com; img-src 'self' blob: data: *.apple.com *.cdn-apple.com *.icloud.com *.mzstatic.com; font-src 'self' *.apple.com *.cdn-apple.com; connect-src 'self' *.apple.com *.icloud.com; child-src 'self' *.apple.com mailto: tel: blob:; frame-src 'self' *.apple.com mailto: tel: blob:; frame-ancestors 'self' *.apple.com; upgrade-insecure-requests; disown-opener; worker-src blob:;
+
+<!DOCTYPE html><html data-cw-private-path-prefix data-cw-private-build-number="2005ProjectBeta147" data-cw-private-mastering-number="2005BBeta97" data-cw-private-locale="ar-sa" data-resources-css="Lm1haW4tdmlldyUyMH4lMjAuY3ctYWxlcnQtbW9kYWwlMjAuY3ctYWxlcnQlMjAuYWxlcnQtaWNvbi5oZWxwLWljb24lN0JiYWNrZ3JvdW5kLWltYWdlJTNBdXJsKGJsb2JfNiklN0QlMEE="><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="google" value="notranslate" content="notranslate">
+
+        
+        <meta name="description" content="Manage your organization’s devices, apps, and accounts.">
+        <meta property="og:description" content="Manage your organization’s devices, apps, and accounts.">
+        
+        <meta property="og:title" content="Apple Business Manager">
+        <meta property="og:type" content="website">
+        
+        <meta property="og:url" content="https://business.apple.com">
+
+        <title>Apple Business Manager</title>
+        
+        
+        <link rel="icon" href="/favicon.ico">
+        
+        <link href="https://ws.business.apple.com" rel="preconnect" crossorigin>
+        <link href="https://appleid.cdn-apple.com" rel="preconnect" crossorigin>
+        <link href="https://idmsa.apple.com" rel="preconnect" crossorigin>
+        <link href="https://www.apple.com" rel="preconnect" crossorigin>
+
+        <link href="https://ws.business.apple.com/enrollment/constants" rel="preload" as="fetch" type="application/json" crossorigin>
+
+        <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Business">
+
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Business">
+
+        <!-- Homescreen icons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="static/images/icons/abm-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="static/images/icons/abm-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="static/images/icons/abm-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="static/images/icons/abm-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="static/images/icons/abm-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="static/images/icons/abm-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="static/images/icons/abm-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="static/images/icons/abm-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" href="static/images/icons/abm-touch-icon.png">
+
+        <link href="static/images/splashscreens/abm-iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="static/images/splashscreens/abm-iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="static/images/splashscreens/abm-iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
+        <link href="static/images/splashscreens/abm-iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
+        <link href="static/images/splashscreens/abm-ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="static/images/splashscreens/abm-ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="static/images/splashscreens/abm-ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+        
+        <script type="text/javascript">
+            (function() {
+                var html = document.documentElement;
+                var pathPrefixAttribute = 'data-cw-private-path-prefix';
+                var buildNumberAttribute = 'data-cw-private-build-number';
+                var masteringNumberAttribute = 'data-cw-private-mastering-number';
+                var localeAttribute = 'data-cw-private-locale';
+
+                window.__CW_PATH_PREFIX = html.getAttribute(pathPrefixAttribute);
+                window.__CW_BUILD_INFO = {
+                    buildNumber: html.getAttribute(buildNumberAttribute),
+                    masteringNumber: html.getAttribute(masteringNumberAttribute),
+                    locale: html.getAttribute(localeAttribute)
+                };
+
+                html.removeAttribute(pathPrefixAttribute);
+                html.removeAttribute(buildNumberAttribute);
+                html.removeAttribute(masteringNumberAttribute);
+                html.removeAttribute(localeAttribute);
+            })();
+        </script>
+    </head>
+    <body>
+        
+        
+        <noscript>JavaScript is required.</noscript>
+        
+        
+        <link rel="stylesheet" href="/system/login/2005ProjectBeta147/ar-sa/main.css">
+        
+
+        
+        <script type="text/javascript" src="/system/login/2005ProjectBeta147/ar-sa/main.js"></script>
+        
+    
+
+</body></html>

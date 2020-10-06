@@ -1,0 +1,19 @@
+https://techlife.samsung.com/
+
+> GET / HTTP/1.1
+> Host: techlife.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 500 Internal Server Error
+< Content-Length: 170
+< Server: nginx
+< Date: Wed, 10 Jun 2020 05:36:43 GMT
+< Content-Type: text/html
+
+<html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

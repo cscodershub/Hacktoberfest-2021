@@ -1,0 +1,14 @@
+http://gspe72-s3-west.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe72-s3-west.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html
+< Content-Length: 9
+< Date: Thu, 30 Apr 2020 21:31:16 GMT
+< X-Cache: TCP_MISS from a125-99-55-71.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< Region: us-west-2
+
+Forbidden

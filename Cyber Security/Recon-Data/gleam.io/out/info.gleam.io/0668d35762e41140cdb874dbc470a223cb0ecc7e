@@ -1,0 +1,20 @@
+https://info.gleam.io/
+
+> GET / HTTP/1.1
+> Host: info.gleam.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Www-Authenticate: Basic realm="Restricted Access"
+< Server: nginx/1.10.3 (Ubuntu)
+< Date: Thu, 30 Jul 2020 04:27:12 GMT
+< Content-Type: text/html
+< Content-Length: 204
+
+<html>
+<head><title>401 Authorization Required</title></head>
+<body bgcolor="white">
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>

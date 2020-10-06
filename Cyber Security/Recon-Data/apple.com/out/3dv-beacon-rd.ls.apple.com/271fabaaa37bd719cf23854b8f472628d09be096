@@ -1,0 +1,22 @@
+https://3dv-beacon-rd.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: 3dv-beacon-rd.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: Apache/2.4.6 (CentOS)
+< Content-Length: 294
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Thu, 30 Apr 2020 21:30:50 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /
+on this server.</p>
+<hr>
+<address>Apache/2.4.6 (CentOS) Server at 3dv-beacon-rd.ls.apple.com Port 443</address>
+</body></html>

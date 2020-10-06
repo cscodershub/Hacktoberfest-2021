@@ -1,0 +1,21 @@
+https://support-vendor.apple.com/
+
+> GET / HTTP/1.1
+> Host: support-vendor.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< X-Cache: TCP_MISS from a49-44-115-164.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_MISS from a23-203-63-79.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Date: Thu, 30 Apr 2020 21:29:12 GMT
+< Cache-Control: no-siteapp
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 175
+< Expires: Thu, 30 Apr 2020 21:29:12 GMT
+
+<HTML><HEAD><TITLE>Error</TITLE></HEAD><BODY>
+An error occurred while processing your request.<p>
+Reference&#32;&#35;30&#46;a4732c31&#46;1588282152&#46;fed7de2
+</BODY></HTML>

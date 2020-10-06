@@ -1,0 +1,15 @@
+https://dev.guilds.netflix.com/
+
+> GET / HTTP/1.1
+> Host: dev.guilds.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8
+< Date: Wed, 17 Jun 2020 05:36:38 GMT
+< Last-Modified: Thu, 16 Aug 2018 21:39:06 GMT
+< Server: Apache
+< Content-Length: 1214
+
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="initial-scale=1,viewport-fit=cover"><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="//cloud.typography.com/7316292/7684972/css/fonts.css"><title>Netflix</title><link href="/style.css?9ba1f8bc119de40d6e28" rel="stylesheet"></head><body><div id="root"></div><script>!function(e,t,a,n,o,c,s){e.GoogleAnalyticsObject="ga",e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=t.createElement(a),s=t.getElementsByTagName(a)[0],c.async=1,c.src="//www.google-analytics.com/analytics.js",s.parentNode.insertBefore(c,s)}(window,document,"script"),ga("create","UA-68050816-2","auto"),ga("send","pageview");var $buoop={vs:{i:11,f:-8,o:-8,s:7,c:-8},unsecure:!0,unsupported:!1,mobile:!1,c:4};function $buo_f(){var e=document.createElement("script");e.src="//browser-update.org/update.min.js",document.body.appendChild(e)}try{document.addEventListener("DOMContentLoaded",$buo_f,!1)}catch(e){window.attachEvent("onload",$buo_f)}</script><script src="https://www.youtube.com/iframe_api"></script><script type="text/javascript" src="/bundle.js?9ba1f8bc119de40d6e28"></script></body></html>

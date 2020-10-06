@@ -1,0 +1,15 @@
+http://ads.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ads.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Via: 1.1 i-0fd5bba19508f60a8 (eu-west-1)
+< X-Netflix.nfstatus: 1_3
+< X-Netflix.proxy.execution-Time: 7
+< X-Originating-Url: http://ads.netflix.com/
+< Content-Length: 12
+< Server: heisenberg i-045096e400de81739
+
+Unknown Path

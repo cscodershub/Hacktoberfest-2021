@@ -1,0 +1,18 @@
+https://mr-payments.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: mr-payments.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Apple-Tk: false
+< Nncoection: close
+< Date: Thu, 30 Apr 2020 21:30:15 GMT
+< X-Apple-Request-Uuid: f5d3c871-73f7-0184-7802-4d7ad853dcfe
+< Apple-Seq: 0
+< X-Apple-Jingle-Correlation-Key: 6XJ4Q4LT64AYI6ACJV5NQU647Y
+< Apple-Originating-System: UnknownOriginatingSystem
+< Content-Type: application/json
+< Content-Length: 43
+
+{"code":404,"message":"HTTP 404 Not Found"}

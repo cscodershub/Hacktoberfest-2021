@@ -1,0 +1,14 @@
+https://gsp5-cn.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsp5-cn.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Cache: TCP_MISS from a23-212-50-105.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Server: Tengine
+< Content-Type: application/json;charset=UTF-8
+< Vary: accept-encoding
+< Date: Thu, 30 Apr 2020 21:31:11 GMT
+
+{"timestamp":1588282271536,"status":404,"error":"Not Found","message":"No message available","path":"/"}

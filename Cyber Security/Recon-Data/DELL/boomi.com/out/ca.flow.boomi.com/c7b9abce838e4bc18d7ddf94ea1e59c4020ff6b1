@@ -1,0 +1,16 @@
+https://ca.flow.boomi.com/
+
+> GET / HTTP/1.1
+> Host: ca.flow.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://flow.manywho.com/da497693-4d02-45db-bc08-8ea16d2ccbdf/play/draw2
+< X-Manywho-Pod: engine-rolling-6f9cd7b7fb-szctd
+< X-Manywho-Region-Backend: US
+< Strict-Transport-Security: max-age=15724800
+< X-Manywho-Region-Frontend: CA
+< Date: Sat, 15 Aug 2020 09:16:06 GMT
+< Content-Length: 0
+< Cache-Control: no-cache
+

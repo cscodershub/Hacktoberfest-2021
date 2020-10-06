@@ -1,0 +1,31 @@
+https://mail.online.bmw.de/
+
+> GET / HTTP/1.1
+> Host: mail.online.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: no-cache, private
+< Date: Tue, 11 Aug 2020 04:51:00 GMT
+< Set-Cookie: XSRF-TOKEN=eyJpdiI6ImhuQ2Rza3ljYzNyY1wvN0ppRVpmVDFBPT0iLCJ2YWx1ZSI6ImkzKzNEcFN5aFhxcUo5NVlNWXJGZUNTUUIraG1VdlI5dW1PZGNnOERCVk5UWEp6b1JNNnVoOGk1SmNZR1hOaTkiLCJtYWMiOiIxNDBlZDc0ZmNjMDk0NTg1MjhiYmNiZTQ5YzdmMzZlOWQ3MGU5MTBiMzE3OTJmNTkwMzM2Mjk4MjU1MGI2MDdhIn0%3D; expires=Tue, 11-Aug-2020 06:51:00 GMT; Max-Age=7200; path=/
+< Set-Cookie: onlinevkl_session=eyJpdiI6InNjaVwvUndNQnB6TFRKN0lMNStTNW5nPT0iLCJ2YWx1ZSI6InBHZnpCQ1BmUXVyNTkwTzVTcjdLU1B1dkdENjR3TEc2TFliUFFNWjJGS0ZYclROQnB2SVh5WDJVNmpRNE9MTGciLCJtYWMiOiIzMTM5ZTQ2Mzc0OGY4YWZhOWE4MWY1M2E0YTY4MjM4YTM0NTlkNTA2YWY5ODczZTJlMmUyMjA4OGFhY2Y3NWY4In0%3D; expires=Tue, 11-Aug-2020 06:51:00 GMT; Max-Age=7200; path=/; httponly
+< X-Content-Type-Options: nosniff
+< Server: nginx
+< Content-Type: text/html; charset=UTF-8
+< X-Xss-Protection: 1; mode=block
+< Location: http://www.bmw.de
+< Strict-Transport-Security: max-age=15768000
+< X-Frame-Options: DENY
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url=http://www.bmw.de" />
+
+        <title>Redirecting to http://www.bmw.de</title>
+    </head>
+    <body>
+        Redirecting to <a href="http://www.bmw.de">http://www.bmw.de</a>.
+    </body>
+</html>

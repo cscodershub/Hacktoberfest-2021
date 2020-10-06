@@ -1,0 +1,29 @@
+https://reserve-prime-1.apple.com/
+
+> GET / HTTP/1.1
+> Host: reserve-prime-1.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Cache-Control: max-age=30
+< Server: Apple
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Expires: Thu, 30 Apr 2020 21:28:55 GMT
+< Location: http://www.apple.com/filenotfound
+< X-Content-Type-Options: nosniff
+< Date: Thu, 30 Apr 2020 21:28:25 GMT
+< Content-Length: 217
+< X-Xss-Protection: 1; mode=block
+< X-Shield-State: 1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://www.apple.com/filenotfound">here</a>.</p>
+</body></html>

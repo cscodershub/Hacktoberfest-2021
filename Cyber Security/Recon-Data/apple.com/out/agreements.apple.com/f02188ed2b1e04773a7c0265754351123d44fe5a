@@ -1,0 +1,213 @@
+https://agreements.apple.com/
+
+> GET / HTTP/1.1
+> Host: agreements.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apple
+< Set-Cookie: agreements=de0c2711bf341b02e5520c26e086fc50; domain=agreements.apple.com; httponly; secure; path=/
+< Set-Cookie: SA_SESSIONID=b853d053-953a-4c95-8d11-78bde44e06a0;Path=/;Secure;HttpOnly
+< Set-Cookie: SA-Locale=en_US;Path=/;Domain=.apple.com;Expires=Fri, 30-Apr-2021 21:40:25 GMT;Max-Age=31536000;Secure;HttpOnly
+< Set-Cookie: MS_AFFINITY=mdn-6;Path=/;Secure;HttpOnly
+< Set-Cookie: JSESSIONID=node01xni7dnp0vhr81to6f4reyj5by6207539.node0;Path=/;Secure;HttpOnly
+< Set-Cookie: SA_SESSIONID=3adf7e4d-9bc2-4317-bf32-18906b8c7b44;Path=/;Secure;HttpOnly
+< Set-Cookie: SA-Locale=en_US;Path=/;Domain=.apple.com;Expires=Fri, 30-Apr-2021 21:40:25 GMT;Max-Age=31536000;Secure;HttpOnly
+< Set-Cookie: MS_AFFINITY=mdn-6;Path=/;Secure;HttpOnly
+< Set-Cookie: SA_SESSIONID=87b2426f-c563-413e-a6d4-bfc36fa7b033;Path=/;Secure;HttpOnly
+< Set-Cookie: SA-Locale=en_US;Path=/;Domain=.apple.com;Expires=Fri, 30-Apr-2021 21:40:25 GMT;Max-Age=31536000;Secure;HttpOnly
+< Set-Cookie: MS_AFFINITY=mdn-6;Path=/;Secure;HttpOnly
+< Set-Cookie: SA_SESSIONID=a2ef788e-2ab5-41ed-93ff-91af8b0cece0;Path=/;Secure;HttpOnly
+< Set-Cookie: SA-Locale=en_US;Path=/;Domain=.apple.com;Expires=Fri, 30-Apr-2021 21:40:25 GMT;Max-Age=31536000;Secure;HttpOnly
+< Set-Cookie: MS_AFFINITY=mdn-6;Path=/;Secure;HttpOnly
+< Set-Cookie: SA_SESSIONID=2ed3ffee-0ac4-4331-a766-653e1968fe59;Path=/;Secure;HttpOnly
+< Set-Cookie: SA-Locale=en_US;Path=/;Domain=.apple.com;Expires=Fri, 30-Apr-2021 21:40:25 GMT;Max-Age=31536000;Secure;HttpOnly
+< Set-Cookie: MS_AFFINITY=mdn-6;Path=/;Secure;HttpOnly
+< Date: Thu, 30 Apr 2020 21:40:25 GMT
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Host: agreements.apple.com
+< Vary: Accept-Encoding
+< X-Cache-Remote: TCP_MISS from a23-209-103-14.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Cache-Control: no-cache, no-transform, no-store, max-age=0
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+< X-Cache: TCP_MISS from a23-212-50-151.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Content-Type: text/html;charset=utf-8
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< X-Application-Context: application,omniture,env,dc,host,error,ssl:PROD:9443
+< Content-Language: en-US
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+	    <meta charset="utf-8" />
+	    
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-siteapp"/>
+<!-- TODO: replace with keywords from backend-->
+<meta name="keywords" content=""/>
+<!-- TODO: replace with description from backend-->
+<meta name="description" content=""/>
+<meta name="author" content="">
+<title>My Support</title>
+<link rel="shortcut icon" href="https://apple.com/favicon.ico">
+<!-- TODO: replace with locale based URLs, ideally from backend-->
+
+
+    <script src="https://km.support.apple.com/includes/darwin/en_US/secure/header.js"></script>
+
+
+<script>
+var _applemd = window._applemd;
+// default value which would be overwritten by the JS functions
+_applemd = {
+  page:{
+    site_section:"tools",
+    content_type:"agr-sales",
+    content_subtype:"select applecare coverage",
+    locale:"en-us",
+  }
+};
+</script>
+
+    <script src='/agsdist/appleSatelliteLib_prod.js?v=2020-04-07T23:49:44Z'></script>
+
+
+<link rel="stylesheet" href="https://www.apple.com/wss/fonts/?families=SF+Pro,v1|SF+Pro+Icons,v1" type="text/css" media="all">
+
+
+
+
+
+
+<link href="/agsdist/core.css?v=2020-04-07T23:49:44Z" rel="stylesheet" />
+
+	<link href="/agsdist/layouts/core-layout.css?v=2020-04-07T23:49:44Z" rel="stylesheet"/>
+
+
+    
+    	<link href="/agsdist/routes/sorry.css?v=2020-04-07T23:49:44Z" rel="stylesheet"/>
+   	
+
+
+    </head>
+    <body>
+        <div id="root" role="main"></div>
+	    
+<script type='text/javascript'>
+    function getModelData(defaultValue) {
+        return function(value) {
+            return value || defaultValue;
+        }
+    }
+    var countryCode = getModelData('US')('US');
+    var languageCode = getModelData('en')('en');
+    var billingState = getModelData({})();
+
+    window.___INITIAL_STATE__ = {};
+    window.___INITIAL_STATE__.page = {
+        locale: {
+            countryCode: countryCode,
+            languageCode: languageCode,
+            isEMEIA: getModelData(false)(),
+            isIptIncluded: getModelData(false)()
+        },
+        appLocale: (languageCode + '_' + countryCode),
+        name: getModelData('unknown')('error-page'),
+        callerId: getModelData('')('')
+    };
+    window.___INITIAL_STATE__.intl = {
+        locale: (languageCode + '-' + countryCode),
+        messages: getModelData({})()
+    };
+    window.___INITIAL_STATE__.edamBaseURL = getModelData('')('https://support.apple.com/library/content/dam/edam/applecare/images/');
+    window.___INITIAL_STATE__.isLocaleSupported = getModelData(false)();
+    window.___INITIAL_STATE__.isZipCodeLookupSupported = getModelData(false)();
+    window.___INITIAL_STATE__.isDiagnosticInitiated = getModelData(false)();
+    window.___INITIAL_STATE__.isDeviceUser = getModelData(false)();
+    window.___INITIAL_STATE__.isSupportAppUser = getModelData(false)();
+    window.___INITIAL_STATE__.addressOnFile = getModelData(null)();
+    window.___INITIAL_STATE__.cardOnFile = getModelData(null)();
+    window.___INITIAL_STATE__.storeFrontMismatch = getModelData(false)();
+    window.___INITIAL_STATE__.isiTuneUser = getModelData(false)();
+    window.___INITIAL_STATE__.billing = {
+      is3dSecureEligible: getModelData(false)(),
+      is3dSecureFlowComplete: getModelData(false)(),
+      supportedCards: getModelData([])(),
+      form: billingState.form,
+      priceQuote: billingState.priceQuote
+    };
+    window.___INITIAL_STATE__.agreements = {
+      selectedAgreement: getModelData({})(),
+      eVar25: getModelData('')(''),
+      productDetails: getModelData(null)(),
+      eligibleAgreementsLength: getModelData('')('')
+    };
+    window.___INITIAL_STATE__.diagnostics = {
+      data: getModelData({})()
+    };
+    window.___INITIAL_STATE__.imei = {
+      displayImeiPage: getModelData(false)(),
+      productName: getModelData('')(''),
+      offerType: getModelData('')('')
+    };
+    window.___INITIAL_STATE__.urls = {
+      casLinkSUB: getModelData('')(''),
+      casLinkPUF: getModelData('')('')
+    };
+  
+    
+    
+    
+      var userObj = null;
+    
+    
+      window.___INITIAL_STATE__.localNavData = {
+          userObj: userObj,
+          title: 'support',
+          shouldRenderOptions: true
+      };
+  
+</script>
+
+	    <script>
+	    	window.___INITIAL_STATE__.error = {
+	    	    type: getModelData('500')("500")
+            };
+	    </script>
+		
+
+<script src="/agsdist/vendor.js?v=2020-04-07T23:49:44Z"></script>
+<script src="/agsdist/app.js?v=2020-04-07T23:49:44Z"></script>
+<script src="/agsdist/intl-polyfill.js?v=2020-04-07T23:49:44Z"></script>
+
+  <script> 
+  'use strict';
+  // initializing the global variables used by the Omniture tagging
+  var _satellite = window._satellite;
+  if (_satellite) {
+    _satellite.pageBottom();
+  }
+
+  /* Prepare the value for the POD cookie*/
+  var podCurrentCookieLocale = `US`.toLowerCase()  + '~' + `en`.toLowerCase() || `us~en`;
+
+  /* Set expiry to 28 days */
+  var expireDate = new Date();
+  expireDate.setDate(expireDate.getDate() + 28);
+
+  /* Write POD cookie for all apple.com subdomains */
+  document.cookie = "POD=" + podCurrentCookieLocale + "; path=/; domain=.apple.com; expires=" + expireDate.toUTCString();
+  
+</script>
+
+	</body>
+</html>

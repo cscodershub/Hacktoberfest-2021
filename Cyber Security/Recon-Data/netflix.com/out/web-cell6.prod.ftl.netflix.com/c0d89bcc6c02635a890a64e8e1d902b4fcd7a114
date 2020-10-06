@@ -1,0 +1,31 @@
+https://web-cell6.prod.ftl.netflix.com/
+
+> GET / HTTP/1.1
+> Host: web-cell6.prod.ftl.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: no-cache, no-store
+< Set-Cookie: flwssn=a96a7ba8-e3ba-48f3-80bc-50845d75bc35; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:35:27 GMT
+< Set-Cookie: clSharedContext=d095f821-9d66-46a7-b075-14f50a0fc4c4; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEHKDUSMxdUTfUz8bTjecQlJAu975ZwcSYJGJn2W5tyk5JWt0LxV8g47mVEwibn158RjprUDlbW2UDREh6h3WtkKlNwiLwXRS-ptteswEFv6OMg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABQY7nEDfZ35vHuvCrW_NbJskQm1oI9mVFs.%26dt%3D1592372127757; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:35:27 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBED5wOIlRibcgbIbivz4b3AiA8BXQSPu3GG1n3ozbS7sXPoxwb0TCQEFXv-CIvAFkXfDGgv2tn0UBCiONvuRQcHBPDPek2SEFa5rwIM8QKlSQrswgW9Hl5F_EONy2LmRCg2-7TZhzmi64pbhjmfDMvEzODBDfjPM3adjy4-YBLEiHre1iDaHKwVOtyl6SenXf_CUIMX5bmIPZYi-w2fO90aUSrLbQ00UHhXZ7wuz5hT_vF0uvzhGg8CRyhHT1xeH2i3AYdCr3XnpRbcabH1W9YQKqDcZ69RmK5s7It9Iv5-cL5nrpTObQ7cL23FtxSIcB6dAILJnR3q771TeGAiB4_V-Gig..%26bt%3Ddev%26mac%3DAQEAEAABABRoS45zu4HB0CeBjD3TDrR0y2Agp5sVy9Q.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:35:27 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=c68e6fe4-c25d-400b-ab31-3d75d23c13a2; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:27 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_1
+< Edge-Control: no-cache, no-store
+< Via: 2 i-092b57db0889ca7ad (eu-west-1), 1.1 c000.bom001.ix.nflxvideo.net (FTL-1d3G)
+< X-Frame-Options: DENY
+< X-Netflix.proxy.execution-Time: 131
+< Content-Type: text/html
+< Date: Wed, 17 Jun 2020 05:35:27 GMT
+< Server: nq_website_core-prod-release f4280d93-43a2-4e10-82bf-ae763eeb1da1
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Expires: 0
+< Location: https://web-cell6.prod.ftl.netflix.com/in/
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: https://web-cell6.prod.ftl.netflix.com/
+

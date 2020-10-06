@@ -1,0 +1,42 @@
+https://www.kaltenbachgruppe.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: www.kaltenbachgruppe.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Cache-Control: max-age=14400, must-revalidate
+< X-Content-Type-Options: nosniff
+< Content-Length: 775
+< Content-Type: text/html; charset=utf-8
+< Date: Tue, 11 Aug 2020 04:45:33 GMT
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+< Server: Apache
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+ <title>BMW Group - no content deployed</title>
+ <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+ <style type="text/css">
+    body       { vertical-align: middle; }
+    p          { font-family: Verdana, Arial, Helvetica, sans-serif;
+                 text-align: center;
+                 font-size: 10pt; }
+    .bold      { font-weight: bold; }
+ </style>
+ </head>
+
+ <body>
+  <div>
+    <p style="margin-top: 150px;"/>
+    <p><img src="/webops-global-icons/bmw/bmw_group.png" alt="BMW Group"/></p>
+    <p class="bold">BMW - New Installation (ML6)</p>
+    <p>This project didn't deploy any content yet.</p>
+  </div>
+
+ </body>
+</html>

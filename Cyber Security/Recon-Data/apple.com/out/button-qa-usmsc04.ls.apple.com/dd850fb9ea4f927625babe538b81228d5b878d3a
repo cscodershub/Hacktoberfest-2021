@@ -1,0 +1,23 @@
+http://button-qa-usmsc04.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: button-qa-usmsc04.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: AppleHttpServer/e81851ddfbfa
+< Location: https://button-qa-usmsc04.ls.apple.com/
+< X-B3-Traceid: b331a637e8a1bfd0
+< Date: Thu, 30 Apr 2020 21:30:48 GMT
+< Content-Type: text/html
+< Content-Length: 185
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>AppleHttpServer/e81851ddfbfa</center>
+</body>
+</html>

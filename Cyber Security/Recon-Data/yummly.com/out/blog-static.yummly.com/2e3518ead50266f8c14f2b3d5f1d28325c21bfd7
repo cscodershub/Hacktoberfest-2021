@@ -1,0 +1,18 @@
+http://blog-static.yummly.com/
+
+> GET / HTTP/1.1
+> Host: blog-static.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: application/xml
+< X-Amz-Bucket-Region: us-east-1
+< Date: Sat, 15 Aug 2020 14:57:37 GMT
+< Server: AmazonS3
+< X-Cache: Error from cloudfront
+< Via: 1.1 42410ae4b93b0f21b1da080f6886b96c.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: CCU50-C1
+< X-Amz-Cf-Id: vdjO4qZsETXZ9iZwRxLMzhqmFAmjQHzl80mypBmXw28Knz5bd7KaBg==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8401E09F504A1ED3</RequestId><HostId>IdHV5tFlp3Icjv2WZl0oCmjrUg1LZh3z7AZBjCGEuDKNj+v3QrurqJXR8FmtX4fFW4vb3Ku5yNg=</HostId></Error>

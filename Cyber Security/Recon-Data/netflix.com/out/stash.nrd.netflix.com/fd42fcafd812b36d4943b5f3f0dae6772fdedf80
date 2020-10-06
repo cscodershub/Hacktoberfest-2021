@@ -1,0 +1,20 @@
+http://stash.nrd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: stash.nrd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Wed, 17 Jun 2020 05:35:07 GMT
+< Location: https://stash.nrd.netflix.com/
+< Server: Apache
+< Content-Length: 214
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://stash.nrd.netflix.com/">here</a>.</p>
+</body></html>

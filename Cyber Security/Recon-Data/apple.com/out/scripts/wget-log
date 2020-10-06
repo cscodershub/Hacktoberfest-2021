@@ -1,0 +1,5 @@
+Will not apply HSTS. The HSTS database must be a regular and non-world-writable file.
+ERROR: could not open HSTS store at '/home/xcriminal/.wget-hsts'. HSTS will be disabled.
+--2020-08-14 10:46:46--  http://scripts/5d0e5486.templates.js
+Resolving scripts (scripts)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘scripts’

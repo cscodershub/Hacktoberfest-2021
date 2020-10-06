@@ -1,0 +1,23 @@
+http://books-analytics-events.apple.com/
+
+> GET / HTTP/1.1
+> Host: books-analytics-events.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: AppleHttpServer/62e237dc531d
+< Content-Length: 201
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000
+< Date: Thu, 30 Apr 2020 21:40:31 GMT
+< Content-Type: text/html
+< Location: https://books-analytics-events.apple.com/
+< X-B3-Traceid: bdea85b30ac5da46
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>AppleHttpServer/62e237dc531d</center>
+</body>
+</html>

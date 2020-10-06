@@ -1,0 +1,31 @@
+http://stats.boomi.com/
+
+> GET / HTTP/1.1
+> Host: stats.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: public, max-age=86400
+< Age: 79033
+< X-Timer: S1597482968.185728,VS0,VE1
+< Accept-Ranges: bytes
+< Via: 1.1 varnish
+< X-Styx-Req-Id: f05ac0c2-de1f-11ea-981c-62bf5cadcc6b
+< Date: Sat, 15 Aug 2020 09:16:08 GMT
+< X-Cache: HIT, HIT
+< X-Cache-Hits: 1, 1
+< X-Served-By: cache-mdw17379-MDW, cache-bom4742-BOM
+< Vary: Cookie, Cookie
+< Content-Type: text/html
+< Server: nginx
+< Content-Length: 162
+< Location: https://stats.boomi.com/
+< X-Pantheon-Styx-Hostname: styx-fe3-a-76b768f59f-2l2g8
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

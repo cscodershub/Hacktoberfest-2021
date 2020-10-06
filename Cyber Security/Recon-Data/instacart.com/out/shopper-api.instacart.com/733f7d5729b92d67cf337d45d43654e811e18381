@@ -1,0 +1,26 @@
+https://shopper-api.instacart.com/
+
+> GET / HTTP/1.1
+> Host: shopper-api.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Xss-Protection: 1; mode=block
+< X-Download-Options: noopen
+< Referrer-Policy: strict-origin-when-cross-origin
+< Set-Cookie: ahoy_visitor=541bc44d-d1d5-4621-8257-dc6172646e50; path=/; expires=Thu, 04 Aug 2022 04:47:27 GMT
+< Set-Cookie: ahoy_visit=6aa65334-0a51-4584-befb-0b8e4da52ba9; path=/; expires=Tue, 04 Aug 2020 05:17:27 GMT
+< Set-Cookie: ahoy_track=true; path=/
+< X-Runtime: 0.018432
+< Server: nginx
+< X-Content-Type-Options: nosniff
+< Cache-Control: max-age=0, private, must-revalidate
+< X-Request-Id: a15acc40-c61e-410c-8f25-f1b8026c98fb
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Type: text/plain; charset=utf-8
+< X-Permitted-Cross-Domain-Policies: none
+< Date: Tue, 04 Aug 2020 04:47:27 GMT
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"2ec5a3f0c2fc3e6dcee0f6f3a5735a6c"
+
+Hello 

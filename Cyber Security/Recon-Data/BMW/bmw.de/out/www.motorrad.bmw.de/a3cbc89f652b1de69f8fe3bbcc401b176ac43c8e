@@ -1,0 +1,22 @@
+https://www.motorrad.bmw.de/
+
+> GET / HTTP/1.1
+> Host: www.motorrad.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Date: Tue, 11 Aug 2020 04:51:13 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 271
+< Expires: Tue, 11 Aug 2020 04:51:13 GMT
+
+<HTML><HEAD>
+<TITLE>Service Unavailable - Fail to connect</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;6&#46;16d6dd58&#46;1597121473&#46;658e5e0
+</BODY></HTML>

@@ -1,0 +1,30 @@
+https://chirp.apple.com/
+
+> GET / HTTP/1.1
+> Host: chirp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Length: 594
+< Last-Modified: Thu, 23 Apr 2020 23:48:33 GMT
+< Etag: "5ea22951-252"
+< Accept-Ranges: bytes
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:37 GMT
+< Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="ie=edge" http-equiv="x-ua-compatible" />
+    <base href="/" />
+    <title>Radar Chirp</title>
+    <meta name="description" content="Interact with Radar on the web." />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3" type="text/css" />
+  </head>
+  <body>
+    <div id="📡"></div>
+  <script type="text/javascript" src="main.685579a82c78d0820ef9.js"></script></body>
+</html>

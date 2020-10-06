@@ -1,0 +1,18 @@
+https://view.email.coursera.org/
+
+> GET / HTTP/1.1
+> Host: view.email.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Set-Cookie: ADRUM_BTa=R:0|g:1eb2812b-2322-4fc7-bf31-06d08346b675; expires=Mon, 10-Aug-2020 04:52:44 GMT; path=/;Secure
+< Set-Cookie: ADRUM_BT1=R:0|i:149949; expires=Mon, 10-Aug-2020 04:52:44 GMT; path=/; HttpOnly;Secure; HttpOnly
+< Date: Mon, 10 Aug 2020 04:52:14 GMT
+< Content-Length: 128
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Location: /Error.aspx
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="/Error.aspx">here</a>.</h2>
+</body></html>

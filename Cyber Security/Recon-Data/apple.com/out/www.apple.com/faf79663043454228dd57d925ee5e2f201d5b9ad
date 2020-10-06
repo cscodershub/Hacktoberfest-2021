@@ -1,0 +1,17 @@
+http://www.apple.com/
+
+> GET / HTTP/1.1
+> Host: www.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Thu, 30 Apr 2020 21:28:26 GMT
+< Date: Thu, 30 Apr 2020 21:28:26 GMT
+< Server: AkamaiGHost
+< Location: https://www.apple.com/
+< Cache-Control: max-age=0
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: geo=IN; path=/; domain=.apple.com
+< Set-Cookie: ccl=Nrpm2mjE+sp4RQ0LtLq/EA==; path=/; domain=.apple.com
+< Content-Length: 0
+

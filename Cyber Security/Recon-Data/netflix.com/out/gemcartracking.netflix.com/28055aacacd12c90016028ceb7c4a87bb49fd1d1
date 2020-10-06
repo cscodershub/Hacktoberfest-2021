@@ -1,0 +1,9 @@
+http://gemcartracking.netflix.com/
+
+> GET / HTTP/1.1
+> Host: gemcartracking.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable: Back-end server is at capacity
+< Content-Length: 0
+

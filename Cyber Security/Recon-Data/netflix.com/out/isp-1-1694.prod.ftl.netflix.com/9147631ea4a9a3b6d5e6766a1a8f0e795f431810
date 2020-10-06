@@ -1,0 +1,16 @@
+https://isp-1-1694.prod.ftl.netflix.com/
+
+> GET / HTTP/1.1
+> Host: isp-1-1694.prod.ftl.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 88
+< Content-Type: application/xml
+< Via: 1.1 c000.lhr005.talktalk.isp.nflxvideo.net (FTL-XWZc)
+< Date: Wed, 17 Jun 2020 05:35:25 GMT
+
+<status>
+  <status_code>403</status_code>
+  <message>Invalid Request</message>
+</status>

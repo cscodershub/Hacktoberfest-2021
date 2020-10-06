@@ -1,0 +1,25 @@
+https://sessions.apple.com/
+
+> GET / HTTP/1.1
+> Host: sessions.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Via: https/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), https/1.1 sgsin3-edge-bx-029.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Cdnuuid: 9046b8df-0004-4673-aa41-324cd971eb37-768897014
+< X-Cache: miss, hit-stale
+< Server: ATS/8.0.7
+< Date: Thu, 30 Apr 2020 21:31:26 GMT
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Age: 2
+< Content-Length: 146
+< X-Frame-Options: SAMEORIGIN
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

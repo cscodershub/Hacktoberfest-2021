@@ -1,0 +1,17 @@
+http://nts-cert-testcontent.nrd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: nts-cert-testcontent.nrd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Set-Cookie: JSESSIONID=C24C317C8D241C4926B852492D3B13D0; Path=/; HttpOnly
+< X-Netflix.client.instance: i-02b9ef4ff4565a427
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Content-Length: 15
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Wed, 17 Jun 2020 05:35:09 GMT
+< Server: Apache-Coyote/1.1
+
+
+Hello Netflix

@@ -1,0 +1,33 @@
+https://jobs.apple.com/
+
+> GET / HTTP/1.1
+> Host: jobs.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Surrogate-Control: no-store
+< Server: Apple
+< Set-Cookie: jobs=7616bc1635da6fa432ce7122f60fab42; expires=Thu, 30-Apr-20 22:29:17 GMT; max-age=3600
+< Set-Cookie: NSESSIONID=s%3AcOdibDz0R4ncQyJDg5LDFh_NKuXWGbuO.wa%2Bdhsvvqk8P2oWofMR8aR3bSFL5Iwvnm7Umv7cYF%2Bo; Path=/; Expires=Thu, 30 Apr 2020 21:59:17 GMT; HttpOnly; Secure
+< Content-Security-Policy: 
+< X-Content-Security-Policy: 
+< X-Webkit-Csp: 
+< X-Download-Options: noopen
+< Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+< Pragma: no-cache
+< Content-Length: 63
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+< Location: https://www.apple.com/jobs/us
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Date: Thu, 30 Apr 2020 21:29:17 GMT
+< Content-Type: text/plain; charset=utf-8
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Expires: 0
+< Vary: Accept, Accept-Encoding
+< Host: jobs.apple.com
+
+Moved Permanently. Redirecting to https://www.apple.com/jobs/us

@@ -1,0 +1,20 @@
+http://mi.samsung.com/
+
+> GET / HTTP/1.1
+> Host: mi.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Last-Modified: Sat, 30 Aug 2014 05:26:32 GMT
+< Accept-Ranges: bytes
+< Etag: "97896ef512c4cf1:0"
+< Server: Microsoft-IIS/7.5
+< X-Powered-By: ASP.NET
+< Date: Wed, 10 Jun 2020 05:37:40 GMT
+< Content-Length: 192
+
+<script>
+location.href="http://mi.samsung.com/mibbs/index.do";
+//location.href="http://mi.samsung.com/XVEsdzQzieaSIG12FFfsvxqapczi5aiKP.do?springSecurityRedirect=/mibbs/index.do";
+</script>

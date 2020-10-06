@@ -1,0 +1,10 @@
+alpha.accountkit.com
+cinyour.accountkit.com
+inyour.accountkit.com
+prod.accountkit.com
+sdk.accountkit.com
+www.accountkit.com
+intern.accountkit.com
+dev.accountkit.com
+beta.accountkit.com
+latest.accountkit.com

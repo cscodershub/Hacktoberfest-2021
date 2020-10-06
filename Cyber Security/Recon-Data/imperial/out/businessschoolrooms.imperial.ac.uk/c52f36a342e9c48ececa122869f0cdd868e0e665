@@ -1,0 +1,249 @@
+https://businessschoolrooms.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: businessschoolrooms.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: private
+< X-Ua-Compatible: IE=edge
+< X-Aspnet-Version: 4.0.30319
+< X-Frame-Options: sameorigin
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< Expires: Tue, 01 Jan 1980 00:00:00 GMT
+< Vary: Accept-Encoding
+< Server: Microsoft-IIS/8.5
+< X-Xss-Protection: 1
+< Set-Cookie: connect2BusinessSchool_sess=c24hxg12r1l1yr5ve3jpaje4; path=/; HttpOnly
+< Date: Sat, 18 Jul 2020 13:54:33 GMT
+
+
+
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head id="ctl00_PageHead"><meta charset="utf-8" /><meta name="viewport" content="width=1024" /><title>
+	connect2
+</title><link rel="stylesheet" href="styles/jquery-ui-1.10.3.custom.css?v=380" /><link rel="stylesheet" href="styles/bootstrap-forms.css?v=380" /><link rel="stylesheet" href="styles/connect-core.css?v=380" /><link rel="stylesheet" href="styles/connect-forms.css?v=380" /><link rel="stylesheet" href="styles/connect-calendar.css?v=380" /><link rel="stylesheet" href="styles/jquery.timepicker.css" /><link id="ctl00_customCss" rel="stylesheet" href="custom/c2styles.css" /> <!-- !To be added by the customer. !Do not add a new one (an update will override existing) -->
+    <link rel="stylesheet" href="styles/connect-print.css" media="print" /> 
+    <script>window.base_url = '/';</script>
+    <script src="scripts/jquery-3.2.1.min.js"></script><script src="scripts/jquery.placeholder.min.js?v=380"></script><script src="scripts/jquery.timepicker.min.js?v=380"></script><script src="scripts/globalize.min.js"></script><script src="scripts/globalize.cultures.min.js"></script><script src="scripts/jquery-ui.min.js?v=380"></script><script src="scripts/jquery-ui-i18n.min.js?v=380"></script><script src="scripts/bootstrap-forms.min.js?v=380"></script><script src="scripts/connect-forms.js?v=380"></script><meta name="AUTHOR" content="Lorensbergs" /><meta name="DESCRIPTION" content="E-Booking" /><meta name="KEYWORDS" content="E-Booking" />
+    
+    </head>
+<body id="ctl00_body" onload="setFocus();">
+    <form name="aspnetForm" method="post" action="./" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="WqK+Kj7Bnz8D8Xv+EfMrg93QzVbZHsaV3CJJbyN7ZSXR818QQ0FTg7iSCGCqmgl7988xewciEMYS1Q+ZBLQI8wS+1kWmGksu6xxyxQ3K5rM=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZKPHAvPKaXiJmiOAdmM3x4vhjxuQ-R2hrvZ1-7NeGXZHbx0PkW7zNTIHWyKgrnk2Qg2&amp;t=636681640740000000" type="text/javascript"></script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+	<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+</div>
+        <nav id="header">
+           <div class="container">
+               
+
+<div class="navbar-form navbar-right loginbox">
+	 
+    <p class="navbar-text">
+        <a id="ctl00_header1_link" href="/signin.aspx">Sign in</a>
+        
+    </p>
+    <p id="ctl00_header1_accountSection" class="navbar-text">
+        <a id="ctl00_header1_myAccountLink" class="icon" href="/account.aspx"><img src="/icons/menuaccount.png" alt="" />My Account</a>
+    </p>    
+</div>
+               
+            </div>
+       </nav> 
+        <nav id="menuHead">            
+                <div class="container">
+                    
+<nav>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuDiv" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="menuDiv">
+            <ul class="nav navbar-nav">
+                <li id="ctl00_menu_start">
+                    <a id="ctl00_menu_startlink" class="active icon"><img src="/icons/menuhome.png" alt="" />Home</a>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+                </div>
+        </nav>
+    <div id="wrap" class="container" style="padding-top: 10px">
+
+        <div id="content" class="clearfix">
+            <div id="banner" class="column100 banner clearfix">
+                
+
+
+                
+                
+
+
+
+    
+    
+
+<div>
+    
+    <div id="wizardCarousel" class="wizard-carousel carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
+        <ol class="carousel-indicators">
+            
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div id="ctl00_BannerContent_ctl01_signinAdvert" class="item active">
+                <img src="/photos/large/636886734576053068.jpg" class="WizardBackImage" alt=""/>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-info carousel-caption-info-fixed">
+                        <h3>Business School Room Bookings</h3>
+<p>Welcome to connect2, the online resource booking systems for the Imperial College Business School. We have a variety of rooms that can be booked by Business School students and staff for academic-related purposes.</p>
+<h3>What connect2 can do for you</h3>
+<ul>
+<li>View all available rooms online</li>
+<li>Check room real time availability</li>
+<li>Amend and cancel your bookings</li>
+<li>Search your booking history</li>
+</ul>
+                        <div class="wizard-advert-sign-in">
+                            <a href="SignIn.aspx" class="btn btn-primary btn-lg">Sign in to your account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+        </div>
+        
+    </div>
+    
+</div>
+
+
+            </div>
+            <div id="ctl00_main" class="column100 floatleft">
+                
+    <div class="form">
+        <div class="container home">
+            <div class="home-row">
+                <div id="ctl00_MainContent_OpenHoursDiv" class="col-4 ">
+                    <h2><img src="/images/hometime.png" alt="" /> Open hours</h2>
+                    <div class="home-section-content">
+                        <ul>
+<li>Monday to Sunday, 24/7</li>
+</ul>
+                    </div>
+                </div>
+                <div id="ctl00_MainContent_ContactDiv" class="col-4">
+                    <h2><img src="/images/homephone.png" alt="" /> Contact us</h2>
+                    <div class="home-section-content">
+                        <ul>
+<li>Tel: xxx-xxx-xxxx</li>
+<li>Phone: email@address.com</li>
+</ul>
+                        
+                    </div>
+                </div>
+                <div id="ctl00_MainContent_LinksDiv" class="col-4">
+                    <h2><img src="/images/homeweb.png" alt="" /> Useful links</h2>
+                    <div class="home-section-content">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="home-row">      
+                <div id="ctl00_MainContent_AnnouncementsDiv" class="col-8">
+                    <h2><img src="/images/homemega.png" alt="" /> Announcements</h2>
+                    
+                </div> 
+                
+            </div>
+            <div class="home-row">
+                
+                <div id="ctl00_MainContent_PoliciesDiv" class="col-8">
+                    <h2><img src="/images/homescroll.png" alt="" /> Policies</h2>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </div>
+            
+        </div>
+        
+    </div>
+    <div id="footer">
+         <div class="container">
+             
+
+  <div id="foot">
+    <img src="/images/p_logo.png" alt="connect2" style="width: 90px" /> from <a href="http://www.lorensbergs.co.uk" target="_blank">Lorensbergs</a> <span style="font-size: 0.7em">(version 3.8.6808.9003)
+    | Registered to: Imperial College London - Business School (Room Bookings)</span>
+    
+    <label for="hiddenText" class="hidden">hidden</label>
+    <input type="text" id="hiddenText" class="hidden" />
+  </div>
+        </div>
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+</body>
+</html>

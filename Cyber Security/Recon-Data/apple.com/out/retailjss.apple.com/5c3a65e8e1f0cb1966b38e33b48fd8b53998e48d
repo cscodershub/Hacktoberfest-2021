@@ -1,0 +1,32 @@
+https://retailjss.apple.com/
+
+> GET / HTTP/1.1
+> Host: retailjss.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 
+< Set-Cookie: JPSID=093ba669b7e9fa8ebd1405288451f71b; expires=Thu, 30-Apr-20 21:45:21 GMT; max-age=300
+< Set-Cookie: JSESSIONID=9838012133EE56BDB5B7D7CC8051E250; Path=/; HttpOnly
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0
+< Server: Apple
+< Content-Length: 290
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Date: Thu, 30 Apr 2020 21:40:21 GMT
+
+<html>
+	<body>
+		<table class="alignLeft" width="100%" border=0>
+			<tr>
+				<td align="left">
+					<h1>Web Application Disabled</h1>
+					<font class="assistantNote">
+						Your web application has been disabled.
+						<BR/><BR/>
+					</font>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

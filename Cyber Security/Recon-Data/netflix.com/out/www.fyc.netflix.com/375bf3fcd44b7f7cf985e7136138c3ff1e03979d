@@ -1,0 +1,102 @@
+https://www.fyc.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.fyc.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Wed, 17 Jun 2020 05:35:00 GMT
+< X-Cache: RefreshHit from cloudfront
+< Via: 1.1 269bfdd288bfea5423a4e9e701777da6.cloudfront.net (CloudFront)
+< Last-Modified: Tue, 27 Nov 2018 16:43:28 GMT
+< Server: AmazonS3
+< Vary: Accept-Encoding
+< X-Amz-Cf-Pop: FRA53-C1
+< X-Amz-Cf-Id: bIDIMKv_f3rHkBNpV72PGOAfw9ww52O-z2g8rWSNUBhkMbtAe0lm5w==
+< Content-Type: text/html
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>For Your Consideration | Netflix</title>
+  <meta name="description" content="Netflix FYSEE">
+  <meta name="author" content="Netflix">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/icon" href="_assets/_img/nf-favicon.ico?v=1.0">
+  <!-- STYLES -->
+  <link rel="stylesheet" href="_assets/_css/style.css?v=1.0">
+  <link rel="stylesheet" href="_assets/_css/fyc.css">
+  <!--[if lt IE 9]>
+    <script src="_assets/_js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div class="sidebar">
+      <div class="sidebar-container">
+        <div class="logo">
+          <a href="https://fyc.netflix.com/">
+            <img src="_assets/_img/netflix_logo.svg" alt="Netflix" class="logo">
+          </a>
+        </div><!-- end .logo -->
+        <div class="lockup">
+          <img src="_assets/_img/netflix_fyc_lockup_vertical.svg" alt="" class="lockup-vertical">
+          <!-- <img src="_assets/_img/netflix_fyc_lockup_horizontal.svg" alt="" class="lockup-horizontal"> -->
+        </div><!-- end .lockup -->
+        <div class="contact">
+          <a href="https://awards.netflix.com/contact/">Contact Us</a>
+        </div><!-- end .contact -->
+      </div><!-- end .sidebar-container -->
+    </div><!-- end .sidebar -->
+
+
+
+    <div id="wrapper_all" class="wrapper-all wrapper-all-home">
+      <div class="lockup">
+        <img src="_assets/_img/netflix_fyc_lockup_horizontal.svg" alt="" class="lockup-horizontal">
+      </div>
+      <div class="hero-and-nav">
+        <div class="nav-page">
+        	<div class="page-width-control clearfix">
+        		<div class="shadow-horizontal short lighter"></div>
+            <span class="toggle-nav"><span class="more">Expand Nav <i class="material-icons">expand_more</i></span><span class="less">Collapse Nav <i class="material-icons">expand_less</i></span></span>
+        	</div><!-- end .page-width-control -->
+        </div><!-- end .sidebar -->
+      </div><!-- end .hero-and-nav -->
+      <div class="main-top-container">
+        <a href="https://www.netflix.com/redeem" target="_blank" class="btn btn-redeem"><i class="icon material-icons">redeem</i>Redeem Your Code</a>
+        <span class="hero-label">Instantly Watch all of our FYC content.</span>
+      </div>
+      <main class="main-page" role="main">
+
+
+
+        <div class="page-width-control clearfix">
+
+
+          <!-- JSON output of shows goes here -->
+
+
+        </div>
+        <div class="contact">
+          <a href="https://awards.netflix.com/contact/">Contact Us</a>
+        </div><!-- end .contact -->
+      </main><!-- end .main-page -->
+    </div> <!-- end .wrapper_all -->
+
+  </div><!-- end .wrapper -->
+
+
+
+  <!-- SCRIPTS -->
+  <script src="_assets/_js/jquery-3.2.1.min.js"></script>
+  <script src="_assets/_js/main.js?v=1.0.0"></script>
+
+
+
+</body>
+</html>

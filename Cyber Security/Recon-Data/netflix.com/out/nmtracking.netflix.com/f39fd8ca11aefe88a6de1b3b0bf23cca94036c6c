@@ -1,0 +1,16 @@
+http://nmtracking.netflix.com/
+
+> GET / HTTP/1.1
+> Host: nmtracking.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Netflix.nfstatus: 1_3
+< Content-Length: 0
+< X-Netflix.proxy.execution-Time: 58868
+< X-Originating-Url: http://nmtracking.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:38:50 GMT
+< Server: beacon i-0b612627e19909496
+< Via: 1.1 i-0db2d912d5b8f9c26 (eu-west-1)
+

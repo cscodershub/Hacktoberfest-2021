@@ -1,0 +1,31 @@
+https://pvi.samsung.com/
+
+> GET / HTTP/1.1
+> Host: pvi.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Etag: "b077c9270d61:0"
+< Server: 
+< X-Powered-By: ASP.NET
+< Date: Wed, 10 Jun 2020 05:37:45 GMT
+< Content-Length: 497
+< Content-Type: text/html
+< Last-Modified: Sun, 22 Mar 2020 05:05:56 GMT
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>	
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>PVI Workplace</title>
+</head> 
+<frameset rows="*" frameborder="NO" border="0" framespacing="0"> >  
+<frame name='main' src='/userinfo/login_sso_old.do' scrolling=yes>
+<frame name="script" scrolling="no"> 
+</frameset> 
+<noframes><body>
+</body></noframes>     
+
+  
+</html>

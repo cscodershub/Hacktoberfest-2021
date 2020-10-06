@@ -1,0 +1,45 @@
+https://spla.sec.samsung.com/
+
+> GET / HTTP/1.1
+> Host: spla.sec.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Last-Modified: Thu, 09 May 2019 05:31:55 GMT
+< Accept-Ranges: bytes
+< Date: Wed, 10 Jun 2020 05:31:55 GMT
+
+<html>
+<head>
+
+<link rel="shortcut icon" type="image/x-icon" href="images/common/favicon.ico">
+<link rel="icon"          type="image/x-icon" href="images/common/favicon.ico">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="js/lib/jquery-1.8.1.min.js"></script>
+<script>
+
+var agent = navigator.userAgent.toLowerCase();
+jQuery.browser = {};
+jQuery.browser.msie = /msie/.test(agent);
+jQuery.browser.chrome = /chrome/.test(agent);
+jQuery.browser.firefox = /firefox/.test(agent);
+jQuery.browser.opera = /opera/.test(agent);
+jQuery.browser.safari = /safari/.test(agent);
+
+var isIE11 = !!navigator.userAgent.match(/Trident.*rv\:11\./); // Added by Hyonsok.Shin, 2017.5.12 14:36
+
+// 	if (jQuery.browser.msie || isIE11) {  
+// 		location.href = "ie.html";
+// 	} else if (jQuery.browser.chrome || jQuery.browser.firefox) { //} || jQuery.browser.safari || jQuery.browser.opera) {
+// 		location.href = "webkit.html";
+// 	} else {
+// 		location.href = "login.do";
+// 	}
+
+location.href = "loginSamlSSO.do";
+</script>
+
+</head>
+</html>

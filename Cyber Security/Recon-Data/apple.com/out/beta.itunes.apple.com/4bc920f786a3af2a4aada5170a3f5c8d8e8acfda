@@ -1,0 +1,23 @@
+http://beta.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: beta.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Server: daiquiri/3.0.0
+< Content-Length: 163
+< Location: https://beta.itunes.apple.com/
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:18493001:mr85p00it-hyhk03154801:7987:20E24
+< Date: Thu, 30 Apr 2020 21:29:48 GMT
+< X-Cache: TCP_MISS from a23-212-50-145.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+<hr><center>daiquiri/3.0.0</center>
+</body>
+</html>

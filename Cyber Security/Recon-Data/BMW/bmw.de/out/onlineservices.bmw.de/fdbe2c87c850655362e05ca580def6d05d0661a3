@@ -1,0 +1,31 @@
+https://onlineservices.bmw.de/
+
+> GET / HTTP/1.1
+> Host: onlineservices.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src 'self' data: *.bmw.am *.bmw.az *.bmw.ba *.bmw.bm *.bmw.by *.bmw.cc *.bmw.co.il *.bmw.com *.bmw.com.ge *.bmw.com.mk *.bmw.de *.bmw.dz *.bmw.gp *.bmw.hr *.bmw.is *.bmw.kg *.bmw.kz *.bmw.ly *.bmw.ma *.bmw.md *.bmw.mn *.bmw.mq *.bmw.mu *.bmw.re *.bmw.rs *.bmw.tm *.bmw.ua *.bmw-albania.com *.bmw-antilles.fr *.bmwgroup.jobs *.bmw-tunisia.com *.bmw-voli.me *.mini.de *.bmwgroup.net *.mini.com *.mini-int1.com *.mini-int2.com *.mini-int3.com *.mini-int7.com *.mini-preprod.com *.bmw-int4.com *.bmw-int5.com *.bmw-int6.com *.bmw-int8.com *.bmw-int9.com *.bmw-int10.com *.bmw-preprod.com; connect-src 'self' *.bmw.am *.bmw.az *.bmw.ba *.bmw.bm *.bmw.by *.bmw.cc *.bmw.co.il *.bmw.com *.bmw.com.ge *.bmw.com.mk *.bmw.de *.bmw.dz *.bmw.gp *.bmw.hr *.bmw.is *.bmw.kg *.bmw.kz *.bmw.ly *.bmw.ma *.bmw.md *.bmw.mn *.bmw.mq *.bmw.mu *.bmw.re *.bmw.rs *.bmw.tm *.bmw.ua *.bmw-albania.com *.bmw-antilles.fr *.bmwgroup.jobs *.bmw-tunisia.com *.bmw-voli.me *.mini.de *.bmwgroup.net *.mini.com *.mini-int1.com *.mini-int2.com *.mini-int3.com *.mini-int7.com *.mini-preprod.com *.bmw-int4.com *.bmw-int5.com *.bmw-int6.com *.bmw-int8.com *.bmw-int9.com *.bmw-int10.com *.bmw-preprod.com; upgrade-insecure-requests; block-all-mixed-content
+< X-Xss-Protection: 1; mode=block
+< Last-Modified: Wed, 06 May 2020 15:28:10 GMT
+< Etag: "9b-5a4fc69607f24"
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Date: Tue, 11 Aug 2020 04:51:16 GMT
+< Content-Length: 155
+< X-Content-Type-Options: nosniff
+< Cache-Control: public, max-age=3600
+< Server: Apache
+< X-Frame-Options: ALLOW-FROM *.bmw.am, ALLOW-FROM *.bmw.az, ALLOW-FROM *.bmw.ba, ALLOW-FROM *.bmw.bm, ALLOW-FROM *.bmw.by, ALLOW-FROM *.bmw.cc, ALLOW-FROM *.bmw.co.il, ALLOW-FROM *.bmw.com, ALLOW-FROM *.bmw.com.ge, ALLOW-FROM *.bmw.com.mk, ALLOW-FROM *.bmw.de, ALLOW-FROM *.bmw.dz, ALLOW-FROM *.bmw.gp, ALLOW-FROM *.bmw.hr, ALLOW-FROM *.bmw.is, ALLOW-FROM *.bmw.kg, ALLOW-FROM *.bmw.kz, ALLOW-FROM *.bmw.ly, ALLOW-FROM *.bmw.ma, ALLOW-FROM *.bmw.md, ALLOW-FROM *.bmw.mn, ALLOW-FROM *.bmw.mq, ALLOW-FROM *.bmw.mu, ALLOW-FROM *.bmw.re, ALLOW-FROM *.bmw.rs, ALLOW-FROM *.bmw.tm, ALLOW-FROM *.bmw.ua, ALLOW-FROM *.bmw-albania.com, ALLOW-FROM *.bmw-antilles.fr, ALLOW-FROM *.bmwgroup.jobs, ALLOW-FROM *.bmw-tunisia.com, ALLOW-FROM *.bmw-voli.me, ALLOW-FROM *.mini.de, ALLOW-FROM *.bmwgroup.net, ALLOW-FROM *.mini.com, ALLOW-FROM *.mini-int1.com, ALLOW-FROM *.mini-int2.com, ALLOW-FROM *.mini-int3.com, ALLOW-FROM *.mini-int7.com, ALLOW-FROM *.mini-preprod.com, ALLOW-FROM *.bmw-int4.com, ALLOW-FROM *.bmw-int5.com, ALLOW-FROM *.bmw-int6.com, ALLOW-FROM *.bmw-int8.com, ALLOW-FROM *.bmw-int9.com, ALLOW-FROM *.bmw-int10.com, ALLOW-FROM *.bmw-preprod.com
+< Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+</head>
+<body>
+    <p>Hello World!</p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+https://redeem.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: redeem.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Expires: Thu, 30 Apr 2020 21:29:59 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Date: Thu, 30 Apr 2020 21:29:59 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Frame-Options: SAMEORIGIN
+< X-Permitted-Cross-Domain-Policies: none
+< Vary: Accept-Encoding
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Pragma: no-cache
+< Server: nginx/1.4.6 (Ubuntu)
+< Content-Security-Policy: script-src 'self'
+< X-Request-Id: 9efa73d2-e431-4178-86b5-0f9b4d5dcfbc
+< X-Runtime: 0.001770
+
+404 

@@ -1,0 +1,24 @@
+https://careers.coursera.org/
+
+> GET / HTTP/1.1
+> Host: careers.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+< X-Coursera-Request-Id: LOaxAdrFEeqGUQoV8e-nPQ
+< X-Coursera-Trace-Id-Hex: 11c1933db0b7d9e6
+< Date: Mon, 10 Aug 2020 04:51:38 GMT
+< Location: https://www.coursera.org/browse
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Via: 1.1 f88a260c8297dd24d119b060e17c802f.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: G5ivIQiHZb4yf1ytsXpH-EKbOI-z9v_EzMrK9OgQef7Jdh4_hounug==
+< X-Amz-Cf-Pop: MAA50-C2
+< Set-Cookie: CSRF3-Token=1597899098.U5pTAATbCnF1NO21; Max-Age=864000; Expires=Thu, 20 Aug 2020 04:51:38 GMT; Path=/; Domain=.coursera.org
+< Set-Cookie: __204u=1136992384-1597035098495; Max-Age=31536000; Expires=Tue, 10 Aug 2021 04:51:38 GMT; Path=/; Domain=.coursera.org
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Vary: Accept-Encoding
+< X-Cache: Miss from cloudfront
+

@@ -1,0 +1,32 @@
+https://www.us-east-1-sa.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.us-east-1-sa.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Netflix.proxy.execution-Time: 133
+< Cache-Control: no-cache, no-store
+< Date: Wed, 17 Jun 2020 05:34:32 GMT
+< X-Netflix.nfstatus: 1_1
+< X-Robots-Tag: index
+< Location: https://www.us-east-1-sa.prodaa.netflix.com/in/
+< Server: nq_website_nonmember-prod-release 5c02b89f-4a83-48fe-8124-f5cb9a803844
+< Set-Cookie: flwssn=6097a8c2-330c-4a18-8ebc-c3fc29e4204f; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:32 GMT
+< Set-Cookie: clSharedContext=49440029-13fc-49b1-bb53-6c432475578e; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEDfI58AeeLqvDBXAr1t8-VJAEoV0QKVZ7w96_kBwWlz15lAX3of7cFLnTA3Rbe8Fi2DD-Q6Cs69AsYkp3z1yQUR9U14iIP4TDxrFJow7pqrfUg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABRIp-anIOmphHjSJ9kRxncqLyrunYAKSc4.%26dt%3D1592372072216; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:32 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBENuAtOdqXFV_GLBgzxCkupuA8MNIhvGmPaUO3OE_5hnrDshtPcjSdhDNHLxRb_a0zfDvHUM4_gJ-HabsjmWSPSLxxBmKFR_7NTDZJ8jqkfQJE41VRENfOpxGgR9Q3JFyDyafYVTWQP5vreQ0svk_vwtC1whvO3TbbAuIOSsPs7qfw4H9HZA9p28fhTMrvtiWRsglTjWD2mbVLpZ1xK0myxESD9QHFbmxyhAC3hCw0WqjCTJAORf2VDXa4bKrnabvsHow3WEBP08Yh0Fo1SkXU3tcaLjfukWhXHEakLjeOjzGlPtVv7q7jthvRHtBQJ3b_O6gu0Gzc3TfFOp_s2-2qOtxzA..%26bt%3Ddev%26mac%3DAQEAEAABABQqV1Fc420el17nNiBKJJrG25VAlxrvBy0.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:32 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=8fd77554-32bd-4c32-86bf-b5929fd53c9e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:32 GMT; Path=/; Domain=.netflix.com
+< Content-Length: 0
+< Edge-Control: no-cache, no-store
+< Expires: 0
+< X-Frame-Options: DENY
+< Via: 1.1 i-0167815006ba3a36f (us-east-1)
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: https://www.us-east-1-sa.prodaa.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Type: text/html
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000
+

@@ -1,0 +1,17 @@
+https://ncds.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ncds.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Accept-Ranges: bytes
+< Server: AkamaiNetStorage
+< Pragma: no-cache
+< Date: Wed, 17 Jun 2020 05:39:22 GMT
+< Access-Control-Allow-Origin: *
+< Content-Length: 10
+< Expires: Wed, 17 Jun 2020 05:39:22 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+
+Not found

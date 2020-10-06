@@ -1,0 +1,23 @@
+http://www.sandbox.us-west-2.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.sandbox.us-west-2.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://www.sandbox.us-west-2.prodaa.netflix.com/
+< Set-Cookie: nfvdid=BQFmAAEBEKWTAjPI7QgRcS4YVE5Uo0pASC4GR87Siwcbwr807py4OQ7NdeirRXBqiDSP3FdSCXfAwYfTndUhMNsT93P60oKWgWIbYAjGSDA4efP5cLSGvw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=785b5e41-e0a7-4617-a42d-2f7ace0eebb4; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:50 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0bdd0e9c171e2f93a (us-west-2)
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:35:50 GMT
+< Server: nq_website_core-prod-release d81bf6c1-aeb9-49e1-9ca7-be4a84df8050
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_1
+< Cache-Control: no-cache, no-store
+< Edge-Control: no-cache, no-store
+< X-Originating-Url: http://www.sandbox.us-west-2.prodaa.netflix.com/
+< Content-Length: 0
+< X-Content-Type-Options: nosniff
+< X-Netflix.proxy.execution-Time: 9
+

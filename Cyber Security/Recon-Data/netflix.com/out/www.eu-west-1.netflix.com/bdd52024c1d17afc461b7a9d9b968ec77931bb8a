@@ -1,0 +1,23 @@
+http://www.eu-west-1.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.eu-west-1.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Edge-Control: no-cache, no-store
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_1
+< Content-Length: 0
+< Cache-Control: no-cache, no-store
+< Location: https://www.eu-west-1.netflix.com/
+< Set-Cookie: nfvdid=BQFmAAEBEOERM_SuLQhTDX3Nmtu_gqxAkkewHm32v3FNebmHgmH2fRWsQ1CEwleGF8mwDsUvIfmklSepJFn6Jy8IkU8SBShItoHrgcLggGF5ZRFcDWinjA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=83f26ee8-de5e-47a7-b5ec-436d090d807d; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:33:39 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.proxy.execution-Time: 6
+< Date: Wed, 17 Jun 2020 05:33:39 GMT
+< Server: nq_website_core-prod-release 0d5fedff-9906-4112-9829-236de4594e20
+< Via: 1.1 i-08bbbbf7530b39daa (eu-west-1)
+< X-Originating-Url: http://www.eu-west-1.netflix.com/
+

@@ -1,0 +1,13 @@
+https://syntegron.rcs.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: syntegron.rcs.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: http://syntegron.rcs.imperial.ac.uk/
+< Strict-Transport-Security: max-age=0
+< Server: BigIP
+< Connection: close
+< Content-Length: 0
+

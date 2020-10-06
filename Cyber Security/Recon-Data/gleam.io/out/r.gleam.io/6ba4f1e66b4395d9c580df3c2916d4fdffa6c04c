@@ -1,0 +1,13 @@
+http://r.gleam.io/
+
+> GET / HTTP/1.1
+> Host: r.gleam.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: application/octet-stream
+< Date: Thu, 30 Jul 2020 04:27:07 GMT
+< Server: nginx
+< Content-Length: 23
+
+Mailgun Magnificent API

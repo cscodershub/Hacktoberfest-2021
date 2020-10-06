@@ -1,0 +1,33 @@
+https://qa-software.cdn.boomi.com/
+
+> GET / HTTP/1.1
+> Host: qa-software.cdn.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: public, max-age=86400
+< X-Cache-Hits: 1, 0
+< Content-Length: 162
+< Location: https://www.boomi.com/404/
+< Date: Sat, 15 Aug 2020 09:09:18 GMT
+< X-Served-By: cache-mdw17350-MDW, cache-bom4720-BOM
+< X-Amz-Cf-Id: 5OjaAvhQ28Gy2QtsU_kHA83GLRhF4sTdbxi99vQVwMCBKoyygPpN1w==
+< Server: nginx
+< Vary: Cookie,Cookie
+< X-Amz-Cf-Pop: CCU50-C1
+< Content-Type: text/html
+< X-Pantheon-Styx-Hostname: styx-fe3-b-7ccfb4b767-r8sfw
+< X-Styx-Req-Id: 74ee1893-de57-11ea-a510-c653d68ea272
+< X-Timer: S1597482558.423200,VS0,VE219
+< Accept-Ranges: bytes
+< Via: 1.1 varnish, 1.1 00806a31c8e721345d668218329ec8d7.cloudfront.net (CloudFront)
+< X-Cache: Hit from cloudfront
+< Age: 55170
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

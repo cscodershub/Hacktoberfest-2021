@@ -1,0 +1,17 @@
+https://privftp.apple.com/
+
+> GET / HTTP/1.1
+> Host: privftp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Redirect
+< Connection: close
+< Location: /WebInterface/login.html
+< Strict-Transport-Security: max-age=31536000; preload
+< Content-Length: 0
+< Cache-Control: no-cache
+< Set-Cookie: mainServerInstance=; path=/; secure
+< Set-Cookie: currentAuth=1HFy; path=/; secure
+< Set-Cookie: CrushAuth=1588282122312_HFd4Kdt0MxcpwEemgpcpiGrFQO1HFy; path=/; secure; HttpOnly
+< Pragma: no-cache
+

@@ -1,0 +1,56 @@
+https://gsxapp-dr.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsxapp-dr.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache, no-store
+< Expiresdefault: access plus 1 minutes
+< X-Cache: miss, miss
+< Content-Type: text/html; charset=UTF-8
+< Accept-Ranges: bytes
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Via: https/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), https/1.1 sgsin3-edge-bx-015.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Pragma: no-cache
+< Etag: "3cf-58ca7dd96a354-gzip"
+< Cdnuuid: d23e0999-8eb0-4fd5-badf-e7d894d4c4bb-10811427
+< Server: ATS/8.0.7
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+< Date: Thu, 30 Apr 2020 21:28:52 GMT
+< Last-Modified: Tue, 02 Jul 2019 00:31:28 GMT
+< Vary: Accept-Encoding
+< Age: 2
+< Expiresactive: On
+< Host: gsx-dr.apple.com
+
+<script src='jquery.min.js'></script>
+<script type='text/javascript'>
+
+var dt = new Date();
+document.cookie = "dstimeoffset="+dt.getTimezoneOffset()+";path=/;domain=apple.com;";
+
+$(document).ready(function() {
+    //Akamai Test URL
+    var jsonpUrl = 'https://gsxapp.apple.com/WebApp/akamai.htm?callback=?';
+    $.getJSON(jsonpUrl,function(data) {
+        //Set the Akamai Cookie,Redirects to AKamai URL)
+                var expdate = new Date ();
+                expdate.setTime(expdate.getTime() + 1000 * 60 * 60); //cookie set for an hour.
+                document.cookie = "akamai" + "=" + escape("Y") + "; expires=" + expdate.toGMTString() + "; path=/" +";domain=apple.com;secure";
+                window.location='https://gsx.apple.com/WebApp/login.htm';
+        });
+});
+</script>
+<html>
+<body>
+<!--Wait for 5 seconds; Redirects to GSX Base URL without Akamai Cookie-->
+<meta http-equiv="refresh" content="3;url=https://gsx.apple.com/WebApp/login.htm">
+</body>
+</html>

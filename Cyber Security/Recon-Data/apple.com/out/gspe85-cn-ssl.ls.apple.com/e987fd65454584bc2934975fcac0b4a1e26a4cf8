@@ -1,0 +1,15 @@
+https://gspe85-cn-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe85-cn-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 9
+< X-Rid: 2f112868-1d1f-45b3-a25a-6ce8caa5f783
+< X-Cache: MISS from cache.51cdn.com
+< X-Via: 1.1 dd142:1 (Cdn Cache Server V2.0), 1.1 PS-KWE-01qhO50:8 (Cdn Cache Server V2.0)
+< X-Ws-Request-Id: 5eab439b_PS-KWE-016HY47_18066-46919
+< Date: Thu, 30 Apr 2020 21:31:07 GMT
+
+Not Found

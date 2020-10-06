@@ -1,0 +1,18 @@
+http://privacy.yummly.com/
+
+> GET / HTTP/1.1
+> Host: privacy.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: application/xml
+< X-Amz-Bucket-Region: us-east-1
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Id: 04uNRXP2vXAScziREV9YyXm3uEVhH-OF7Onu3NFFMn2AYrbMn3c4-A==
+< X-Amz-Cf-Pop: CCU50-C1
+< Date: Sat, 15 Aug 2020 14:57:36 GMT
+< Server: AmazonS3
+< Via: 1.1 8612b2f6212112bc5254da9f265687ac.cloudfront.net (CloudFront)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>D3E1A61BB0CFA1ED</RequestId><HostId>GvxoUj9b6J2Agth84DyhIqYpIAq1vH4ujvbUiun+hvRmwfS2yluU0RXx6oSTPWkfp3qX2OtJw60=</HostId></Error>

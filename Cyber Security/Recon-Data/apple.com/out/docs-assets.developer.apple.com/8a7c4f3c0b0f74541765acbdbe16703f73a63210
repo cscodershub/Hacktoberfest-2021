@@ -1,0 +1,20 @@
+http://docs-assets.developer.apple.com/
+
+> GET / HTTP/1.1
+> Host: docs-assets.developer.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Request-Id: 8E9D1BE5787783D4
+< Content-Type: application/xml
+< Server: ATS/8.0.7
+< Age: 2
+< X-Cache: miss, hit-stale
+< X-Amz-Bucket-Region: us-west-2
+< Date: Thu, 30 Apr 2020 21:29:09 GMT
+< Via: http/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 sgsin3-edge-bx-017.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Cdnuuid: f5d3fd19-7c04-445a-8902-b1832acade55-2622489729
+< X-Amz-Id-2: 8qH2a8qcfi7SMdIPrQusbOkF6wAR/T5mG3pZa27U/ZtGEeeH+MgZBXytyKAJCGkwxVqiy/RSS2U=
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8E9D1BE5787783D4</RequestId><HostId>8qH2a8qcfi7SMdIPrQusbOkF6wAR/T5mG3pZa27U/ZtGEeeH+MgZBXytyKAJCGkwxVqiy/RSS2U=</HostId></Error>

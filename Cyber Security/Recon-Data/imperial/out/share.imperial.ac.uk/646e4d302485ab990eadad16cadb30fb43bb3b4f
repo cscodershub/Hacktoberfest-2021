@@ -1,0 +1,16 @@
+http://share.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: share.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Moved Temporarily
+< X-Arr-Server: icrp12
+< Date: Sat, 18 Jul 2020 13:54:28 GMT
+< Content-Length: 161
+< Content-Type: text/html; charset=UTF-8
+< Location: https://imperiallondon.sharepoint.com/
+< Server: Microsoft-IIS/10.0
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://imperiallondon.sharepoint.com/">here</a></body>

@@ -1,0 +1,31 @@
+https://linear-ak-b-syn.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: linear-ak-b-syn.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Akamai-Mon-Iucid-Del: 846259
+< Access-Control-Max-Age: 86400
+< Access-Control-Allow-Methods: GET,POST,OPTIONS
+< Content-Length: 297
+< Date: Thu, 30 Apr 2020 21:29:59 GMT
+< Access-Control-Expose-Headers: Server,range,hdntl,hdnts,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del
+< X-Cache: TCP_DENIED from a49-44-194-166.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29323059) (-)
+< Access-Control-Allow-Credentials: true
+< Expires: Thu, 30 Apr 2020 21:29:59 GMT
+< Access-Control-Allow-Headers: origin,range,hdntl,hdnts
+< Access-Control-Allow-Origin: *
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;linear&#45;ak&#45;b&#45;syn&#46;itunes&#46;apple&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;a6c22c31&#46;1588282199&#46;185e39b
+</BODY>
+</HTML>

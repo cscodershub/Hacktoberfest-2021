@@ -1,0 +1,20 @@
+https://demounit.apple.com/
+
+> GET / HTTP/1.1
+> Host: demounit.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Date: Thu, 30 Apr 2020 21:41:06 GMT
+< Content-Length: 0
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: DENY
+< Referrer-Policy: same-origin
+< Location: https://idmsa.apple.com/IDMSWebAuth/login.html?appIdKey=86a0bdd9680793c8a66735594f50f701edb36b88b45c100ee8b7076a73358c67&baseURL=https://demounit.apple.com/&rv=1
+< Server: Apple
+< Set-Cookie: demounit-ui-rno=91e0e678c071d773d55754462fb2ef46; expires=Thu, 07-May-20 21:41:06 GMT; max-age=604800; domain=.apple.com; httponly; secure; path=/
+< Set-Cookie: JSESSIONID=node0fwoumylvqxzp1mdem6jmoephb120924.node0; Path=/; Secure
+

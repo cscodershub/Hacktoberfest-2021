@@ -1,0 +1,18 @@
+https://stations.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: stations.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 172
+< Expires: Thu, 30 Apr 2020 21:30:16 GMT
+< Date: Thu, 30 Apr 2020 21:30:16 GMT
+
+<HTML><HEAD><TITLE>Error</TITLE></HEAD><BODY>
+An error occurred while processing your request.<p>
+Reference&#32;&#35;30&#46;4f822c31&#46;1588282216&#46;74ab
+</BODY></HTML>

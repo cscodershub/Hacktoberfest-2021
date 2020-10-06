@@ -1,0 +1,18 @@
+http://community.boomi.com/
+
+> GET / HTTP/1.1
+> Host: community.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sat, 15 Aug 2020 09:15:49 GMT
+< X-B3-Traceid: 89600ca8488d5b4e
+< X-B3-Spanid: 89600ca8488d5b4e
+< Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Location: https://community.boomi.com/
+< X-B3-Sampled: 0
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Content-Security-Policy: upgrade-insecure-requests
+

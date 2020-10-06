@@ -1,0 +1,13 @@
+http://downloads.apple.com/
+
+> GET / HTTP/1.1
+> Host: downloads.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: http://store.apple.com/
+< Date: Thu, 30 Apr 2020 21:29:27 GMT
+< X-Cache: TCP_MISS from a125-99-55-114.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Server: AkamaiGHost
+

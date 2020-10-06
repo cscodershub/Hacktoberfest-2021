@@ -1,0 +1,18 @@
+https://aero-learn.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: aero-learn.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=UTF-8
+< Date: Sat, 18 Jul 2020 13:54:31 GMT
+< Server: Apache
+< X-Powered-By: PHP/7.2.32
+< Expires: Wed, 11 Jan 1984 05:00:00 GMT
+< X-Redirect-By: WordPress
+< Location: https://aero-learn.imperial.ac.uk/wp-login.php?redirect_to=https%3A%2F%2Faero-learn.imperial.ac.uk%2F
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< X-Web-Server: icwf05
+< Content-Length: 0
+

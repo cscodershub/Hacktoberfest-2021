@@ -1,0 +1,29 @@
+https://galaxystore.samsung.com/
+
+> GET / HTTP/1.1
+> Host: galaxystore.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Language: ko-
+< Via: 1.1 PSygldLON4gy17:6 (W), 1.1 jpin44:5 (W)
+< X-Px: ms jpin44SIN,ms PSygldLON4gy17LHR(origin)
+< X-Ws-Request-Id: 5ee0716c_PSxjpSin1un220_52814-44282
+< Date: Wed, 10 Jun 2020 05:36:45 GMT
+< Cache-Control: private
+< Content-Type: text/html;charset=UTF-8
+< Set-Cookie: AWSALB=9Aas9BQ91MgSChjb5V/ZmcyZ3uLBlNpH6ntqAIxGqGg6VW+eTR1u4NaoP1T8gUuFAofZd+YCljNuUswAW63hslz3Xg7S/NSsMFRDDKVZUQT7eHmNgjTMpFRbFkjV; Expires=Wed, 17 Jun 2020 05:36:44 GMT; Path=/
+< Set-Cookie: AWSALBCORS=9Aas9BQ91MgSChjb5V/ZmcyZ3uLBlNpH6ntqAIxGqGg6VW+eTR1u4NaoP1T8gUuFAofZd+YCljNuUswAW63hslz3Xg7S/NSsMFRDDKVZUQT7eHmNgjTMpFRbFkjV; Expires=Wed, 17 Jun 2020 05:36:44 GMT; Path=/; SameSite=None; Secure
+< Server: PWS/8.3.1.0.8
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta HTTP-EQUIV="REFRESH" content="0; url=http://apps.samsung.com">
+</head>
+
+<body>
+
+</body>
+</html>

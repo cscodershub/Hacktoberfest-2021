@@ -1,0 +1,14 @@
+http://hdeu.sec.samsung.com/
+
+> GET / HTTP/1.1
+> Host: hdeu.sec.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 303 See Other
+< Content-Type: text/html; charset=UTF-8
+< Location: https://hdeu.sec.samsung.com/
+< Date: Wed, 10 Jun 2020 05:36:34 GMT
+< Content-Length: 152
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://hdeu.sec.samsung.com/">here</a></body>

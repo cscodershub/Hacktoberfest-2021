@@ -1,0 +1,20 @@
+http://autodiscover.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: autodiscover.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Requestid: 12785be4-ea46-4f77-9852-915a1303c456
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Location: https://outlook.office365.com/owa/?realm=imperial.ac.uk&vd=autodiscover
+< Server: Microsoft-IIS/10.0
+< Request-Id: 4e732fd4-e90b-4540-ad33-a2881c011a5b
+< X-Feserver: MA1PR01CA0100
+< X-Feserver: MA1PR01CA0100
+< X-Powered-By: ASP.NET
+< Date: Sat, 18 Jul 2020 13:54:34 GMT
+< Content-Length: 0
+< Cache-Control: no-cache
+< Pragma: no-cache
+

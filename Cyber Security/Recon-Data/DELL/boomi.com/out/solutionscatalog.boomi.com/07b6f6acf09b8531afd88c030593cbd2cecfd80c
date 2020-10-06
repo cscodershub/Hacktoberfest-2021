@@ -1,0 +1,25 @@
+https://solutionscatalog.boomi.com/
+
+> GET / HTTP/1.1
+> Host: solutionscatalog.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: public, max-age=86400
+< X-Served-By: cache-mdw17377-MDW, cache-bom4724-BOM
+< X-Timer: S1597482957.277478,VS0,VE1
+< Accept-Ranges: bytes
+< Via: 1.1 varnish
+< Strict-Transport-Security: max-age=300
+< X-Pantheon-Styx-Hostname: styx-fe3-a-76b768f59f-t7f4v
+< X-Cache: HIT, HIT
+< Age: 43584
+< Location: https://boomi.com/
+< Server: nginx
+< X-Styx-Req-Id: 7340ce4b-de72-11ea-b5ac-0ebf35b37fbd
+< Date: Sat, 15 Aug 2020 09:15:57 GMT
+< X-Cache-Hits: 1, 1
+< Vary: Cookie, Cookie
+

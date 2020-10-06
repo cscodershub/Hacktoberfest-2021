@@ -1,0 +1,13 @@
+http://anz.connect.boomi.com/
+
+> GET / HTTP/1.1
+> Host: anz.connect.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html
+< Etag: W/"5ed0156c-47"
+< Server: nginx
+< Date: Sat, 15 Aug 2020 09:15:48 GMT
+
+This web server only allows AS2 client connections under the /as2 path

@@ -1,0 +1,35 @@
+https://volume.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: volume.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Apple WebObjects
+< B3: 65c21329aa9d24d80e6e47c812d4978c-c971181113362586
+< Apple-Originating-System: MZStore
+< Content-Length: 0
+< X-Apple-Jingle-Correlation-Key: MXBBGKNKTUSNQDTOI7EBFVEXRQ
+< Apple-Tk: false
+< X-B3-Spanid: c971181113362586
+< Cache-Control: private, no-cache, no-store, no-transform, must-revalidate, max-age=0
+< Last-Modified: Thu, 30 Apr 2020 21:29:49 GMT
+< Edge-Control: cache-maxage=0s
+< X-Webobjects-Loadaverage: 0
+< Apple-Seq: 0
+< Content-Type: text/html; charset=UTF-8
+< Apple-Timing-App: 3 ms
+< Cneonction: close
+< X-Frame-Options: SAMEORIGIN
+< X-Apple-Translated-Wo-Url: /WebObjects/MZStore.woa/wa/topLevelCountry?urlDesc=
+< X-Apple-Lokamai-No-Cache: true
+< Strict-Transport-Security: max-age=31536000
+< Location: https://volume.itunes.apple.com/?l=en
+< X-Apple-Application-Instance: 3001904
+< X-Apple-Request-Uuid: 65c21329-aa9d-24d8-0e6e-47c812d4978c
+< X-Apple-Aka-Ttl: Generated Thu Apr 30 14:29:49 PDT 2020, Expires Thu Apr 30 14:29:49 PDT 2020, TTL 0s
+< Date: Thu, 30 Apr 2020 21:29:49 GMT
+< X-B3-Traceid: 65c21329aa9d24d80e6e47c812d4978c
+< Access-Control-Allow-Origin: *
+< X-Apple-Orig-Url: https://volume.itunes.apple.com/
+< X-Apple-Application-Site: MR22
+

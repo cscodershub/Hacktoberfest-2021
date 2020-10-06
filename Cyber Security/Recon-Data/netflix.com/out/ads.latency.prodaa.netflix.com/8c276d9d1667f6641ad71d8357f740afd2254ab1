@@ -1,0 +1,17 @@
+http://ads.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ads.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Netflix.proxy.execution-Time: 59744
+< X-Originating-Url: http://ads.latency.prodaa.netflix.com/
+< Set-Cookie: memclid=691b7ec9-0b8b-4972-bf83-9bcc0562e444; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:51 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEN3EOU9UrJrZRvtO0x29TatAT2m7cNozHN1OnwfgT53D8MHmmNl2LlQ8nrk3Szh52QZYjo%2B5N4ZqKkGyGwAtuV6IYzo9TSvnocy4jL6QCOB47g%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:51 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-057d71ddc3469ba9b (eu-west-1)
+< Content-Length: 12
+< Server: heisenberg i-0fbd2d483a0c385ae
+< X-Netflix.nfstatus: 1_3
+
+Unknown Path

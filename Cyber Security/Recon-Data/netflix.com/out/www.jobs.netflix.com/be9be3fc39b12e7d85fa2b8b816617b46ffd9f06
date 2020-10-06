@@ -1,0 +1,22 @@
+http://www.jobs.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.jobs.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Edge-Control: no-cache, no-store
+< X-Originating-Url: http://www.jobs.netflix.com/
+< Set-Cookie: nfvdid=BQFmAAEBEPgLMjEARUnWja-3zMAgAlVA9Ei3pAEbDYarlJOJ0G00vaH7MtEwAO16qFvkzqbkOWwDYIyHt9xku7cxv7EjSk6Bb_XrzjpVaQGvQZA1mfwrPw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=9c650947-9ff7-409f-92bd-9ad2a86d6e4e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:42 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-01790bf6c1b41a7ef (us-west-2)
+< Location: https://www.jobs.netflix.com/
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache, no-store
+< X-Netflix.nfstatus: 1_1
+< Server: nq_website_core-prod-release ad637d48-fbdd-4686-b2e0-1a347cd62213
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.proxy.execution-Time: 16
+< Date: Wed, 17 Jun 2020 05:36:42 GMT
+

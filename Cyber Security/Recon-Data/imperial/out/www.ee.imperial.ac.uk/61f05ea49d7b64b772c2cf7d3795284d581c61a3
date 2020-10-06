@@ -1,0 +1,39 @@
+http://www.ee.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.ee.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: private
+< Server: Microsoft-IIS/8.0
+< Set-Cookie: ASPSESSIONIDCARAACQC=IELHFDDBPABOHABPHDCCHJPC; path=/
+< X-Powered-By: ASP.NET
+< Content-Type: text/html
+< Vary: Accept-Encoding
+< Date: Sat, 18 Jul 2020 13:54:42 GMT
+
+
+<html>
+<title>EE Home Redirect page</title>
+<meta http-equiv="refresh" content="0;url=http://www.imperial.ac.uk/electricalengineering"> 
+<body bgcolor="">
+<table>
+<tr>
+<td width=70></td>
+<td>
+<img src="/electricalengineering/images/logo_imperial_college_london.png"><br>
+<font face="Arial" color="#27849a">
+<H2>Department of Electrical and Electronic Engineering web site</H2>
+<H3>has moved to: 
+<a href="http://www.imperial.ac.uk/electricalengineering">
+www.imperial.ac.uk/electricalengineering</a>
+</H3>
+</font>
+Please set bookmarks to the above address.<br><br>
+Automatic redirect in 0 seconds.<br>
+</td>
+</tr>
+</table>
+</body>
+</html>

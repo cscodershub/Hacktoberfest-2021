@@ -1,0 +1,17 @@
+https://secure.nwk-epp.apple.com/
+
+> GET / HTTP/1.1
+> Host: secure.nwk-epp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Thu, 30 Apr 2020 21:28:34 GMT
+< Set-Cookie: as_dc=nwk; Domain=apple.com; Expires=Thu, 30-Apr-2020 21:58:34 GMT; Path=/; Secure
+< X-Xss-Protection: 1; mode=block
+< Content-Security-Policy: frame-ancestors 'none'
+< X-Frame-Options: DENY
+< Server: Apple
+< X-Request-Id: 3c07cbf2-7153-434a-8fa2-c45a2f38ea3c
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Content-Type-Options: nosniff
+

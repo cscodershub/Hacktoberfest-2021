@@ -1,0 +1,22 @@
+https://keychest-service-locker-synchronizer-uat.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: keychest-service-locker-synchronizer-uat.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Server: daiquiri/3.0.0
+< Date: Thu, 30 Apr 2020 21:30:16 GMT
+< Content-Type: text/html
+< Content-Length: 255
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:38493002:pv50p00it-hyhk10063901:7987:20E24
+
+<html>
+<head><title>400 No required SSL certificate was sent</title></head>
+<body bgcolor="white">
+<center><h1>400 Bad Request</h1></center>
+<center>No required SSL certificate was sent</center>
+<hr><center>daiquiri/3.0.0</center>
+</body>
+</html>

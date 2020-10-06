@@ -1,0 +1,16 @@
+http://support-hk.samsung.com/
+
+> GET / HTTP/1.1
+> Host: support-hk.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: Microsoft-IIS/8.0
+< X-Frame-Options: ALLOW-FROM http://www.samsung.com/hk
+< Date: Wed, 10 Jun 2020 05:37:11 GMT
+< Content-Length: 180
+< Location: http://support-hk.samsung.com/WebsiteError.html?aspxerrorpath=/
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="http://support-hk.samsung.com/WebsiteError.html?aspxerrorpath=/">here</a>.</h2>
+</body></html>

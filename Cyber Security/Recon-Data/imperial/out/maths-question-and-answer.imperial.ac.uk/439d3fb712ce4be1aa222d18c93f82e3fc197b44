@@ -1,0 +1,820 @@
+https://maths-question-and-answer.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: maths-question-and-answer.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Sat, 18 Jul 2020 13:54:59 GMT
+< X-Powered-By: PHP/7.2.32
+< Link: <https://maths-question-and-answer.imperial.ac.uk/wp-json/>; rel="https://api.w.org/"
+< Link: <https://maths-question-and-answer.imperial.ac.uk/>; rel=shortlink
+< Server: Apache
+< Set-Cookie: anspress_session=db2a4a3d836e3b0a2ae9be24e5cc4ea9; expires=Sun, 19-Jul-2020 13:55:00 GMT; Max-Age=86400; path=/
+< Vary: Accept-Encoding
+< X-Web-Server: icwf05
+< Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://maths-question-and-answer.imperial.ac.uk/xmlrpc.php" />
+	
+	<title>Maths Analysis Question and Answer Exchange</title>
+<script type="text/javascript">var ajaxurl = "https://maths-question-and-answer.imperial.ac.uk/wp-admin/admin-ajax.php",ap_nonce 	= "04a04a8e7f",apTemplateUrl = "https://maths-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/templates/js-template";apQuestionID = "";aplang = {"loading":"Loading..","sending":"Sending request","file_size_error":"File size is bigger than 0.48 MB","attached_max":"You have already attached maximum numbers of allowed attachments","commented":"commented","comment":"Comment","cancel":"Cancel","update":"Update","your_comment":"Write your comment...","notifications":"Notifications","mark_all_seen":"Mark all as seen","search":"Search","no_permission_comments":"Sorry, you don't have permission to read comments."};disable_q_suggestion = "";</script>            <script type="text/x-mathjax-config">
+                MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+            </script>
+        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Maths Analysis Question and Answer Exchange &raquo; Feed" href="https://maths-question-and-answer.imperial.ac.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Maths Analysis Question and Answer Exchange &raquo; Comments Feed" href="https://maths-question-and-answer.imperial.ac.uk/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/maths-question-and-answer.imperial.ac.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='login-with-ajax-css'  href='https://maths-question-and-answer.imperial.ac.uk/wp-content/plugins/login-with-ajax/widget/widget.css?ver=3.1.10' type='text/css' media='all' />
+<link rel='stylesheet' id='anspress-fonts-css'  href='https://maths-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/templates/css/fonts.css?ver=4.1.18' type='text/css' media='all' />
+<link rel='stylesheet' id='anspress-main-css'  href='https://maths-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/templates/css/main.css?ver=4.1.18' type='text/css' media='all' />
+<style id='anspress-main-inline-css' type='text/css'>
+
+		#anspress .ap-q-cells{
+				margin-left: 60px;
+		}
+		#anspress .ap-a-cells{
+				margin-left: 60px;
+		}
+</style>
+<link rel='stylesheet' id='ap-overrides-css'  href='https://maths-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/templates/css/overrides.css?v=4.1.18&#038;ver=4.1.18' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://maths-question-and-answer.imperial.ac.uk/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='academica-style-css'  href='https://maths-question-and-answer.imperial.ac.uk/wp-content/themes/academica/style.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='academica-style-mobile-css'  href='https://maths-question-and-answer.imperial.ac.uk/wp-content/themes/academica/media-queries.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='academica-google-font-default-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%7CRoboto+Condensed%3A400%2C700&#038;subset=latin%2Ccyrillic-ext%2Cgreek-ext&#038;ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://maths-question-and-answer.imperial.ac.uk/wp-includes/css/dashicons.min.css?ver=5.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LWA = {"ajaxurl":"https:\/\/maths-question-and-answer.imperial.ac.uk\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-content/plugins/login-with-ajax/widget/login-with-ajax.js?ver=3.1.10'></script>
+<link rel='https://api.w.org/' href='https://maths-question-and-answer.imperial.ac.uk/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://maths-question-and-answer.imperial.ac.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://maths-question-and-answer.imperial.ac.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel="canonical" href="https://maths-question-and-answer.imperial.ac.uk/" />
+<link rel='shortlink' href='https://maths-question-and-answer.imperial.ac.uk/' />
+<link rel="alternate" type="application/json+oembed" href="https://maths-question-and-answer.imperial.ac.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmaths-question-and-answer.imperial.ac.uk%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://maths-question-and-answer.imperial.ac.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmaths-question-and-answer.imperial.ac.uk%2F&#038;format=xml" />
+
+</head>
+
+<body data-rsssl=1 class="home page-template-default page page-id-36 column-double">
+
+	
+	<div id="header" class="clearfix" >
+
+		
+			<div class="inner-wrap">
+
+				<div id="logo" class="logo-left">
+					 <h1 id="site-title"> 
+						<a href="https://maths-question-and-answer.imperial.ac.uk" title="Maths Analysis Question and Answer Exchange - " rel="home">
+
+							Maths Analysis Question and Answer Exchange
+						</a>
+
+					 </h1> 
+					<p id="site-description"></p>
+				</div><!-- end #logo -->
+
+			</div><!-- end .inner-wrap -->
+
+			<div id="main-nav">
+
+				<div class="inner-wrap">
+
+					<nav class="main-navbar" role="navigation">
+
+	                    <div class="navbar-header">
+	                        
+	                           <a class="navbar-toggle" href="#menu-main-slide">
+	                               <span class="icon-bar"></span>
+	                               <span class="icon-bar"></span>
+	                               <span class="icon-bar"></span>
+	                           </a>
+
+
+	                           <div id="menu-main-slide" class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-18"><a href="https://maths-question-and-answer.imperial.ac.uk" aria-current="page">Home</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://maths-question-and-answer.imperial.ac.uk/questions/ask/">Ask a question</a></li>
+<li id="menu-item-1596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1596"><a href="https://maths-question-and-answer.imperial.ac.uk/questions/latex-examples/">LaTeX examples</a></li>
+<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="https://maths-question-and-answer.imperial.ac.uk/questions/profile/">Profile</a></li>
+</ul></div>
+	                    </div>
+
+
+	                    <div id="navbar-main">
+
+	                        <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="nav navbar-nav dropdown sf-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-18"><a href="https://maths-question-and-answer.imperial.ac.uk" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://maths-question-and-answer.imperial.ac.uk/questions/ask/">Ask a question</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1596"><a href="https://maths-question-and-answer.imperial.ac.uk/questions/latex-examples/">LaTeX examples</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="https://maths-question-and-answer.imperial.ac.uk/questions/profile/">Profile</a></li>
+</ul></div>
+
+	                    </div><!-- #navbar-main -->
+
+	                </nav><!-- .navbar -->
+
+					<div id="search">
+						<form method="get" id="searchform" action="https://maths-question-and-answer.imperial.ac.uk/">
+	<label for="s" class="assistive-text hidden">Search</label>
+	<input id="s" type="text" name="s" placeholder="Search">
+	<button id="searchsubmit" name="submit" type="submit">Search</button>
+</form>					</div><!-- end #search -->
+
+				</div><!-- end .inner-wrap -->
+
+			</div><!-- end #main-nav -->
+
+		
+	</div><!-- end #header -->
+
+	<div id="wrap">
+<div id="content" class="clearfix">
+
+	
+	<div class="column column-title">
+		<div id="crumbs">
+	<p></p>
+</div><!-- end #crumbs --> 	</div><!-- end .column-title -->
+
+	<div class="column column-narrow">
+		<!--
+Plugin: Custom Meta Widget
+Plugin URL: http://shinraholdings.com/plugins/custom-meta-widget/
+-->
+<div id="custommetawidget-2" class="widget clearfix customMetaWidget"><h3 class="heading">Log in/out</h3>		<ul>
+
+		
+					<li><a href="https://maths-question-and-answer.imperial.ac.uk/wp-login.php">Log in</a></li>
+		
+		
+
+		
+				</ul>
+
+	</div>	</div><!-- end .column-narrow -->
+
+	<div class="column column-content single">
+
+		
+<div id="post-36" class="post-36 page type-page status-publish hentry">
+
+	<h1 class="title-header">Home</h1>
+	<div class="entry-content clearfix">
+		<div id="anspress" class="anspress">
+
+<div class="ap-row">
+	<div id="ap-lists" class="ap-col-12">
+			
+<div class="ap-list-head clearfix">
+	<div class="pull-right">
+		<a class="ap-btn-ask" href="https://maths-question-and-answer.imperial.ac.uk/questions-2/ask/">Ask question</a>	</div>
+
+	
+<form id="ap-search-form" class="ap-search-form" action="https://maths-question-and-answer.imperial.ac.uk/">
+	<button class="ap-btn ap-search-btn" type="submit">Search</button>
+	<div class="ap-search-inner no-overflow">
+	  <input name="s" type="text" class="ap-search-input ap-form-input" placeholder="Search questions..." value="" />
+		<input type="hidden" name="post_type" value="question" />
+  </div>
+</form>
+	<form id="ap-filters" class="ap-filters clearfix" method="GET"><div class="ap-dropdown ap-filter filter-order_by"><a class="ap-dropdown-toggle ap-filter-toggle" href="#" ap-filter apquery="{&quot;__nonce&quot;:&quot;48fa36bd21&quot;,&quot;filter&quot;:&quot;order_by&quot;}">Order By: <span class="ap-filter-active">Active</span></a></div><div class="ap-dropdown ap-filter filter-category"><a class="ap-dropdown-toggle ap-filter-toggle" href="#" ap-filter apquery="{&quot;__nonce&quot;:&quot;3d92836b01&quot;,&quot;filter&quot;:&quot;category&quot;}">Category</a></div><button id="ap-filter-reset" type="submit" name="reset-filter" title="Reset sorting and filter"><i class="apicon-x"></i><span>Clear Filter</span></button><input type="hidden" value="active" name="order_by" /></form></div>
+
+
+
+
+	<div class="ap-questions">
+		<div id="question-1863" class="ap-questions-item clearfix post-1863 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student367-2/">
+				<img alt='' src='https://secure.gravatar.com/avatar/7e988d05881a7943cb33fb394af1ab62?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/7e988d05881a7943cb33fb394af1ab62?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1863/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1863/" rel="bookmark" title="Solutions to the exam yesterday">Solutions to the exam yesterday</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>58 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/richard/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Richard Thomas</span></a> Posted new comment <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_c=327"><time itemprop="dateModified" datetime="2020-05-21T09:30:42+01:00">21st May 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1867" class="ap-questions-item clearfix post-1867 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student2/">
+				<img alt='' src='https://secure.gravatar.com/avatar/2ad1406b7826a68825f9960e2330d9ae?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2ad1406b7826a68825f9960e2330d9ae?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1867/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1867/" rel="bookmark" title="Different base for decimals">Different base for decimals</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>30 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student588/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Siddharth Pullabhatla</span></a> Posted new comment <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_c=323"><time itemprop="dateModified" datetime="2020-05-14T16:41:48+01:00">14th May 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1833" class="ap-questions-item clearfix post-1833 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student600/">
+				<img alt='' src='https://secure.gravatar.com/avatar/4952f8691e27ea343cdb1c691922ecb7?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/4952f8691e27ea343cdb1c691922ecb7?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1833/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1833/" rel="bookmark" title="The Fundamental Theorem of Calculus">The Fundamental Theorem of Calculus</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>56 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student367-2/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Student367</span></a> Posted new comment <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_c=322"><time itemprop="dateModified" datetime="2020-05-04T06:46:40+01:00">4th May 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1846" class="ap-questions-item clearfix post-1846 question type-question status-publish answer-count-2" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student367-2/">
+				<img alt='' src='https://secure.gravatar.com/avatar/7e988d05881a7943cb33fb394af1ab62?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/7e988d05881a7943cb33fb394af1ab62?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1846/#answers">
+				<span itemprop="answerCount">2</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1846/" rel="bookmark" title="Deduce the radius of convergence of one series from another">Deduce the radius of convergence of one series from another</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>73 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/richard/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Richard Thomas</span></a> Edited answer <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_a=1857"><time itemprop="dateModified" datetime="2020-05-03T11:50:33+01:00">3rd May 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1847" class="ap-questions-item clearfix post-1847 question type-question status-publish answer-count-2" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student639-2/">
+				<img alt='' src='https://secure.gravatar.com/avatar/ffe05b0b3ef72c10e72e0ec10d010a2b?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ffe05b0b3ef72c10e72e0ec10d010a2b?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1847/#answers">
+				<span itemprop="answerCount">2</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1847/" rel="bookmark" title="Positive integrable function $f$ implies $\int f &gt;0$">Positive integrable function $f$ implies $\int f &gt;0$</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>78 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steven Sivek</span></a> Posted new comment <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_c=314"><time itemprop="dateModified" datetime="2020-05-02T15:40:58+01:00">2nd May 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1845" class="ap-questions-item clearfix post-1845 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student770/">
+				<img alt='' src='https://secure.gravatar.com/avatar/29acc596ff40f85b171b15c56c9a17ab?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/29acc596ff40f85b171b15c56c9a17ab?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1845/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1845/" rel="bookmark" title="Showing monotonic Increase">Showing monotonic Increase</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>46 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steven Sivek</span></a> Posted new comment <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_c=318"><time itemprop="dateModified" datetime="2020-05-02T19:18:11+01:00">2nd May 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1837" class="ap-questions-item clearfix post-1837 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student367-2/">
+				<img alt='' src='https://secure.gravatar.com/avatar/7e988d05881a7943cb33fb394af1ab62?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/7e988d05881a7943cb33fb394af1ab62?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1837/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1837/" rel="bookmark" title="Two kinds of discontinuities">Two kinds of discontinuities</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>40 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steven Sivek</span></a> Answered question <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_a=1844"><time itemprop="dateModified" datetime="2020-05-01T20:02:20+01:00">1st May 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1836" class="ap-questions-item clearfix post-1836 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student654/">
+				<img alt='' src='https://secure.gravatar.com/avatar/81bc37464c7f2a30d5b474388c8c23ad?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/81bc37464c7f2a30d5b474388c8c23ad?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1836/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1836/" rel="bookmark" title="Composition of the continuous is continuous and why can we do what we do?">Composition of the continuous is continuous and why can we do what we do?</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>36 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steven Sivek</span></a> Edited answer <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_a=1841"><time itemprop="dateModified" datetime="2020-05-01T19:52:47+01:00">1st May 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1834" class="ap-questions-item clearfix post-1834 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student736/">
+				<img alt='' src='https://secure.gravatar.com/avatar/a484eae9679b636c00acd59fd0a002fb?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/a484eae9679b636c00acd59fd0a002fb?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1834/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1834/" rel="bookmark" title="Term 2, PS4, Q4c">Term 2, PS4, Q4c</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>31 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steven Sivek</span></a> Answered question <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_a=1840"><time itemprop="dateModified" datetime="2020-05-01T19:40:44+01:00">1st May 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1830" class="ap-questions-item clearfix post-1830 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student367-2/">
+				<img alt='' src='https://secure.gravatar.com/avatar/7e988d05881a7943cb33fb394af1ab62?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/7e988d05881a7943cb33fb394af1ab62?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1830/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1830/" rel="bookmark" title="Term 1 unseen 2 4e">Term 1 unseen 2 4e</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>38 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steven Sivek</span></a> Changed status to publish <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_q=1830"><time itemprop="dateModified" datetime="2020-05-01T13:59:49+01:00">1st May 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1828" class="ap-questions-item clearfix post-1828 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student2/">
+				<img alt='' src='https://secure.gravatar.com/avatar/2ad1406b7826a68825f9960e2330d9ae?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2ad1406b7826a68825f9960e2330d9ae?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1828/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1828/" rel="bookmark" title="PS2 Q6 term 2">PS2 Q6 term 2</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>23 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steven Sivek</span></a> Answered question <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_a=1829"><time itemprop="dateModified" datetime="2020-04-28T22:13:46+01:00">28th April 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1824" class="ap-questions-item clearfix post-1824 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student392/">
+				<img alt='' src='https://secure.gravatar.com/avatar/0d456d8e5b4a9a18d63c9610c028ac4a?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/0d456d8e5b4a9a18d63c9610c028ac4a?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1824/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1824/" rel="bookmark" title="PPQ of term2 content">PPQ of term2 content</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>41 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steven Sivek</span></a> Answered question <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_a=1827"><time itemprop="dateModified" datetime="2020-04-26T21:10:14+01:00">26th April 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1815" class="ap-questions-item clearfix post-1815 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student2/">
+				<img alt='' src='https://secure.gravatar.com/avatar/2ad1406b7826a68825f9960e2330d9ae?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2ad1406b7826a68825f9960e2330d9ae?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1815/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1815/" rel="bookmark" title="PS1 term 2 Q4">PS1 term 2 Q4</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>39 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steven Sivek</span></a> Changed status to publish <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_q=1815"><time itemprop="dateModified" datetime="2020-04-26T21:07:28+01:00">26th April 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1802" class="ap-questions-item clearfix post-1802 question type-question status-publish answer-selected answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student736/">
+				<img alt='' src='https://secure.gravatar.com/avatar/a484eae9679b636c00acd59fd0a002fb?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/a484eae9679b636c00acd59fd0a002fb?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1802/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1802/" rel="bookmark" title="Proof of Extreme Value Theorem">Proof of Extreme Value Theorem</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item solved'><i class="apicon-check"></i><i>Solved</i></span><span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>75 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student736/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Student736</span></a> Posted new comment <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_c=312"><time itemprop="dateModified" datetime="2020-04-25T13:03:34+01:00">25th April 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1733" class="ap-questions-item clearfix post-1733 question type-question status-publish answer-count-5" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/">
+				<img alt='' src='https://secure.gravatar.com/avatar/3f8bf4f8796a6995ee3e0fbb17701d80?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/3f8bf4f8796a6995ee3e0fbb17701d80?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1733/#answers">
+				<span itemprop="answerCount">5</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1733/" rel="bookmark" title="Questions for autumn term office hour">Questions for autumn term office hour</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>219 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student367/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Student367</span></a> Answered question <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_a=1801"><time itemprop="dateModified" datetime="2020-04-24T15:11:58+01:00">24th April 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1770" class="ap-questions-item clearfix post-1770 question type-question status-publish answer-selected answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student736/">
+				<img alt='' src='https://secure.gravatar.com/avatar/a484eae9679b636c00acd59fd0a002fb?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/a484eae9679b636c00acd59fd0a002fb?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">1</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1770/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1770/" rel="bookmark" title="Term 1, Exercise 4.37">Term 1, Exercise 4.37</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item solved'><i class="apicon-check"></i><i>Solved</i></span><span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>72 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student736/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Student736</span></a> Selected answer as best <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_a=1798"><time itemprop="dateModified" datetime="2020-04-24T13:49:37+01:00">24th April 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1793" class="ap-questions-item clearfix post-1793 question type-question status-publish answer-count-2" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student883/">
+				<img alt='' src='https://secure.gravatar.com/avatar/31437dec1edc764f6c62155029f0071c?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/31437dec1edc764f6c62155029f0071c?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">1</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1793/#answers">
+				<span itemprop="answerCount">2</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1793/" rel="bookmark" title="Prof Thomas &#8211; Revision Lecture Query">Prof Thomas &#8211; Revision Lecture Query</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>53 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student883/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Student883</span></a> Posted new comment <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_c=299"><time itemprop="dateModified" datetime="2020-04-24T11:37:12+01:00">24th April 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1753" class="ap-questions-item clearfix post-1753 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student595/">
+				<img alt='' src='https://secure.gravatar.com/avatar/2cb1c7877a3f80cff3d2e6050c6a4c58?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2cb1c7877a3f80cff3d2e6050c6a4c58?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1753/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1753/" rel="bookmark" title="3.8 Lebesgue&#8217;s criterion">3.8 Lebesgue&#8217;s criterion</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>29 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/steven-si/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steven Sivek</span></a> Answered question <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_a=1755"><time itemprop="dateModified" datetime="2020-04-22T22:31:03+01:00">22nd April 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1735" class="ap-questions-item clearfix post-1735 question type-question status-publish answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student366/">
+				<img alt='' src='https://secure.gravatar.com/avatar/4cea516fadea37829eb9b020f2aae351?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/4cea516fadea37829eb9b020f2aae351?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1735/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1735/" rel="bookmark" title="Office Hour">Office Hour</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>41 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/richard/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Richard Thomas</span></a> Changed status to publish <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_q=1735"><time itemprop="dateModified" datetime="2020-04-22T13:46:29+01:00">22nd April 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+<div id="question-1737" class="ap-questions-item clearfix post-1737 question type-question status-publish answer-selected answer-count-1" itemtype="https://schema.org/Question" itemscope="">
+	<div class="ap-questions-inner">
+		<div class="ap-avatar ap-pull-left">
+			<a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student639-2/">
+				<img alt='' src='https://secure.gravatar.com/avatar/ffe05b0b3ef72c10e72e0ec10d010a2b?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ffe05b0b3ef72c10e72e0ec10d010a2b?s=90&#038;d=mm&#038;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' />			</a>
+		</div>
+		<div class="ap-list-counts">
+			<!-- Votes count -->
+							<span class="ap-questions-count ap-questions-vcount">
+					<span itemprop="upvoteCount">0</span>
+					Votes				</span>
+			
+			<!-- Answer Count -->
+			<a class="ap-questions-count ap-questions-acount" href="https://maths-question-and-answer.imperial.ac.uk/question/1737/#answers">
+				<span itemprop="answerCount">1</span>
+				Ans			</a>
+		</div>
+
+		<div class="ap-questions-summery">
+			<span class="ap-questions-title" itemprop="name">
+								<a class="ap-questions-hyperlink" itemprop="url" href="https://maths-question-and-answer.imperial.ac.uk/question/1737/" rel="bookmark" title="Prove that there exists $x &gt; 0$ such that $f(2x) &gt; 2f(x)$">Prove that there exists $x &gt; 0$ such that $f(2x) &gt; 2f(x)$</a>
+			</span>
+			<div class="ap-display-question-meta">
+				<span class='ap-display-meta-item solved'><i class="apicon-check"></i><i>Solved</i></span><span class='ap-display-meta-item views'><i class="apicon-eye"></i><i>60 views</i></span><span class='ap-display-meta-item history'><i class="apicon-pulse"></i><span class="ap-post-history"><a href="https://maths-question-and-answer.imperial.ac.uk/questions-2/profile/student639-2/" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Student639</span></a> Selected answer as best <a href="https://maths-question-and-answer.imperial.ac.uk/?ap_page=shortlink&#038;ap_a=1741"><time itemprop="dateModified" datetime="2020-04-21T13:44:30+01:00">21st April 2020</time></a></span></span>			</div>
+		</div>
+	</div>
+</div><!-- list item -->
+	</div>
+	<div class="ap-pagination clearfix"><a class="page-numbers" href="https://maths-question-and-answer.imperial.ac.uk/page/1/">1</a>
+<a class="page-numbers" href="https://maths-question-and-answer.imperial.ac.uk/page/2/">2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="https://maths-question-and-answer.imperial.ac.uk/page/15/">15</a>
+<a class="page-numbers" href="https://maths-question-and-answer.imperial.ac.uk/page/16/">16</a></div>
+	</div>
+
+	
+</div>
+</div><div class="ap-cradit">Question and answer is powered by <a href="https://anspress.io" traget="_blank">AnsPress.io</a></div>
+
+
+
+<p></p>
+	</div><!-- end .entry-content -->
+
+	
+</div><!-- end #post-## -->
+<div id="comments">
+
+	
+</div><!-- #comments -->
+	</div><!-- end .column-content -->
+
+	<div class="column column-narrow column-last">
+			</div><!-- end .column-narrow -->
+
+	
+</div><!-- end #content -->
+
+			<div id="footer" class="clearfix">
+				
+								<p class="copy">
+ 					Powered by <a href="http://wordpress.org">WordPress</a> / Academica WordPress Theme by <a href="http://www.wpzoom.com" rel="nofollow">WPZOOM</a>				</p>
+			</div><!-- end #footer -->
+		</div><!-- end #wrap -->
+
+		<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-content/themes/academica/js/jquery.mmenu.min.all.js?ver=20150325'></script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-content/themes/academica/js/superfish.min.js?ver=20150325'></script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-content/themes/academica/js/functions.js?ver=20150325'></script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/assets/js/min/form.min.js?ver=4.1.18'></script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-includes/js/backbone.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/assets/js/min/selectize.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/assets/js/min/main.min.js?ver=4.1.18'></script>
+<script type='text/javascript' src='https://maths-question-and-answer.imperial.ac.uk/wp-content/plugins/anspress-question-answer/templates/js/min/theme.min.js?ver=4.1.18'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=default&#038;ver=1.3.11'></script>
+            <script type="text/x-mathjax-config">
+                jQuery( document ).ready( function () {
+                    jQuery( document ).ajaxSuccess( function () {
+                        MathJax.Hub.Queue([ "Typeset", MathJax.Hub ]);
+                    });
+                });
+            </script>
+                <style>
+        body.ap-page-ask div.ap-form-group.ap-field-form_question-is_private.ap-field-type-input {
+            display:    none;
+        }
+        </style>
+        	</body>
+</html>

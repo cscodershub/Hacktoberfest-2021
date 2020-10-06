@@ -1,0 +1,18 @@
+https://schedulemanager.apple.com/
+
+> GET / HTTP/1.1
+> Host: schedulemanager.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://schedulemanager.apple.com/manager/
+< Date: Thu, 30 Apr 2020 21:29:00 GMT
+< Content-Length: 0
+< X-Powered-By: Undertow/1
+< Host: schedulemanager.apple.com
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Server: Apple
+< X-Xss-Protection: 1; mode=block
+

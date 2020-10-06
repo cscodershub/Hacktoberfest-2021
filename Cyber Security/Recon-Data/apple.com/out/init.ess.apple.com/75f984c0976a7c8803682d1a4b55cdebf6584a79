@@ -1,0 +1,19 @@
+https://init.ess.apple.com/
+
+> GET / HTTP/1.1
+> Host: init.ess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Date: Thu, 30 Apr 2020 21:40:12 GMT
+< Server: AppleHttpServer/62e237dc531d
+< Apple-Seq: 0
+< Apple-Tk: false
+< X-B3-Traceid: 4b25523efbe6bf41
+< Strict-Transport-Security: max-age=31536000
+< Content-Length: 0
+< X-Apple-Request-Uuid: 2069377d-fb9d-da92-c512-255cc494e31c
+< X-Apple-Jingle-Correlation-Key: EBUTO7P3TXNJFRISEVOMJFHDDQ
+< Apple-Originating-System: UnknownOriginatingSystem
+< X-Responding-Instance: Init:580000:magent1472.usuqo07.pie.apple.com:31028:2007B-132:nocommit
+

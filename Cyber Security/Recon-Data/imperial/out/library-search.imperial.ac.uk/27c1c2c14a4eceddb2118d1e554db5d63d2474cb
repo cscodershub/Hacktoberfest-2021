@@ -1,0 +1,15 @@
+http://library-search.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: library-search.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: /primo_library/libweb/action/feRedirect.do
+< Content-Type: text/html
+< Vary: accept-encoding
+< Date: Sat, 18 Jul 2020 13:54:30 GMT
+< Server: Apache-Coyote/1.1
+< Set-Cookie: JSESSIONID=777E0483DF932F6E373BEB76B6EFDF1D; Path=/; HttpOnly
+< Set-Cookie: UqZBpD3n3keyY3Ay6VvxpmySSbQF5o9Gf5eV7NHZ5h+e=v1Fao+gw__MXc; Expires=Tue, 16-Jul-2030 13:54:30 GMT; Path=/
+

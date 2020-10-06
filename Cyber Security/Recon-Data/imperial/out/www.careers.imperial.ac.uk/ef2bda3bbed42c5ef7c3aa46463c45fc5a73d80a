@@ -1,0 +1,163 @@
+https://www.careers.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.careers.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Arr-Server: ICRP8
+< Last-Modified: Thu, 10 Jan 2019 12:16:38 GMT
+< Accept-Ranges: bytes
+< Etag: "097556dea8d41:0"
+< Vary: Accept-Encoding
+< Server: Microsoft-IIS/10.0
+< Date: Sat, 18 Jul 2020 13:54:38 GMT
+< Cache-Control: no-cache
+< Content-Type: text/html
+
+<!DOCTYPE html>
+<!--[if IE 8 ]>    <html class="lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <title>Imperial College London Default Landing Page</title>
+  <!-- Home page layout -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+ 
+  
+ <!-- meta description -->
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.3" />
+
+  
+  <link href="/assets/css/screen.css" media="all" rel="stylesheet" type="text/css" />
+
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/apple-touch-icon-180x180-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/apple-touch-icon-152x152-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144x144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/apple-touch-icon-120x120-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/apple-touch-icon-76x76-precomposed.png" />
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="/images/favicon196x196.png" />
+  <link rel="shortcut icon" href="/images/favicon96x96.png" />
+  <link rel="shortcut icon" href="/images/favicon32x32.png" />
+  <link rel="shortcut icon" href="/images/favicon.png" />
+  <link rel="icon" type="image/ico" href="/images/favicon.ico" />
+
+  <link href="/assets/css/imperial.css" media="all" rel="stylesheet" type="text/css" />
+         <!-- assets -->
+  
+  <script type="text/javascript"> 
+      var _gaq = _gaq || []; 
+      var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js'; 
+      _gaq.push(['_require', 'inpage_linkid', pluginUrl]); 
+      _gaq.push(['_setAccount', 'UA-2035562-1']); 
+      _gaq.push(['_setDomainName', 'imperial.ac.uk']); 
+      _gaq.push(['_setAllowLinker', true]); 
+      _gaq.push(['_addIgnoredRef', 'imperial.ac.uk']); 
+      _gaq.push(['_setAllowAnchor', true]); 
+      _gaq.push(['_trackPageview']); 
+
+      (function() { 
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+      })(); 
+  </script>
+         <!-- Google Analytics -->
+
+</head>
+
+    <body class="theme-4">
+      
+          <header id="header" class="navigation" role="banner">
+          <div class="container cf">
+            <div class="navigation-header">
+              <h1 class="logo"></h1>
+            </div>   
+          </div>
+        </header>
+
+     <div id="content-box">
+    <div id="page">
+      <div class="container no-section-nav error-template" id="content">
+        <h1 class="sr-only">Undergoing Maintenance</h1>
+        <div class="row top banner slideshow-callout">
+          <div class="banner default no-overlay short">
+            <img src="/images/TRIANGLE__V2_162250385--tojpeg_1417540325073_x2.jpg" alt="Pattern">
+          </div>
+        </div>
+        <div class="module">
+          <div class="heading"><h1><br>Imperial College Default Landing Page</h1></div>
+              <p class="sub-title"></p>
+              <p>If you're seeing this, then you've reached the default Imperial College Landing Page via an invalid URL. Please check what you entered and try again</p>
+            </div>
+      </div>
+    </div>
+  </div>
+
+
+        <!-- end Social -->
+
+<footer class="footer" role="contentinfo">
+    <div class="container">
+      <h1 class="sr-only">Contact</h1>
+
+      <section class="footer-links row equal-height-columns">
+    
+      </section>
+
+      <section class="footer-common row">
+
+        <h2 class="sr-only">College Information</h2>
+        <div class="col lg-2 md-3 sm-12" id="footer-contact">
+            <a href="#" class="footer-brand">
+                Imperial College London
+            </a>
+            <h3 class="sr-only">Address</h3>
+            <div class="address">
+                <p itemscope itemtype="http:/schema.org/PostalAddress">
+                    <span itemprop="name">South Kensington campus</span><br /><span itemprop="addressLocality">London</span> <span itemprop="postalCode">SW7 2AZ</span>, <span itemprop="addressCountry">UK</span>
+                    <br />
+                    <a href="/visit/campuses/"
+                    class="location-link">
+                    Campuses &amp; maps
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="col lg-10 md-9 sm-12" id="footer-connect">
+            <h3 class="title">Follow Imperial</h3>
+            <div class="footer-social">
+            <a href="https://www.facebook.com/imperialcollegelondon" class="facebook" target="_blank" >Facebook</a>
+            <a href="https://twitter.com/imperialcollege" class="twitter" target="_blank" >Twitter</a>
+            <a href="https://www.youtube.com/user/imperialcollegevideo" class="youtube" target="_blank" >You Tube</a>
+            <a href="https://www.linkedin.com/edu/imperial-college-london-12598" class="linkedin" target="_blank" >Linked in</a>
+            <a href="https://plus.google.com/100357106915062883581/posts" class="google-plus" target="_blank" >Google Plus</a>
+            <a href="https://instagram.com/imperialcollege" class="instagram" target="_blank" >Instagram</a>
+            <a href="https://www.weibo.com/ImperialUK" class="weibo" target="_blank" >Weibo</a>
+            </div>
+        </div>
+
+
+        <nav id="footer-info">
+          <ul>
+            <li class="copyright">
+              <span>&copy; 2019 Imperial College London</span>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </div> 
+  <!-- end Global footer -->
+  </footer>
+
+
+
+</div><!--/#content-box -->
+  </body>
+</html>
+<!-- end page layout footer -->

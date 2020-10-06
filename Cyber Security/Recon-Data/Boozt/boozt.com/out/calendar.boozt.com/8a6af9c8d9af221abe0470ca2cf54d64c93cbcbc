@@ -1,0 +1,17 @@
+http://calendar.boozt.com/
+
+> GET / HTTP/1.1
+> Host: calendar.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 11 Aug 2020 14:07:55 GMT
+< Vary: Accept-Encoding
+< Cf-Ray: 5c1286932d7ce268-SIN
+< Cf-Request-Id: 047f726ffc0000e268d8877200000001
+< Server: cloudflare
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Cache-Control: max-age=3600
+< Expires: Tue, 11 Aug 2020 15:07:55 GMT
+< Location: https://calendar.boozt.com/
+

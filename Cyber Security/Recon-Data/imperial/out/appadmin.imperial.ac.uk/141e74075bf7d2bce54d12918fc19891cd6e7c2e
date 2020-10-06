@@ -1,0 +1,10 @@
+https://appadmin.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: appadmin.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 
+< Content-Length: 0
+< Date: Sat, 18 Jul 2020 13:54:29 GMT
+

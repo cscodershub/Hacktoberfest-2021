@@ -1,0 +1,11 @@
+http://edu-vpp.apple.com/
+
+> GET / HTTP/1.1
+> Host: edu-vpp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://edu-vpp.apple.com/
+< Cache-Control: no-cache
+< Pragma: no-cache
+

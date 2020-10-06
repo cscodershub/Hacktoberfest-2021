@@ -1,0 +1,14 @@
+https://api.videos.apple.com/
+
+> GET / HTTP/1.1
+> Host: api.videos.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Date: Thu, 30 Apr 2020 21:39:57 GMT
+< X-Cache: TCP_MISS from a125-99-55-107.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Location: https://developer.apple.com/musickit/
+< Expires: Thu, 30 Apr 2020 21:39:57 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Pragma: no-cache
+

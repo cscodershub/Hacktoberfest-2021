@@ -1,0 +1,23 @@
+https://cap.ee.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: cap.ee.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: BIGipServerPOOL-LINUXFARM2011-443-v4=!sOFHBTzQzK5oULow9zyYKRlaA4tr3uDOb1Re4+Uv7qRiCREs2PeukddyXGcxy9Uwfr4dUyH4G34zk+bK8n58vk1+RdadLUCOAJDHL5lK1eo=; path=/; Httponly; Secure
+< Date: Sat, 18 Jul 2020 13:54:18 GMT
+< Server: Apache
+< Location: http://www.imperial.ac.uk/
+< Content-Length: 306
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.imperial.ac.uk/">here</a>.</p>
+<hr>
+<address>Apache Server at cap.ee.imperial.ac.uk Port 443</address>
+</body></html>

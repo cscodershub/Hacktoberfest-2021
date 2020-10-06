@@ -1,0 +1,20 @@
+https://wwwe.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: wwwe.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Sat, 18 Jul 2020 13:53:08 GMT
+< Server: Apache
+< Location: http://www.imperial.ac.uk/
+< Content-Length: 210
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://www.imperial.ac.uk/">here</a>.</p>
+</body></html>

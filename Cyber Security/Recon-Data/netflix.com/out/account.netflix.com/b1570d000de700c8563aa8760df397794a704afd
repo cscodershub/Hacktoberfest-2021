@@ -1,0 +1,20 @@
+https://account.netflix.com/
+
+> GET / HTTP/1.1
+> Host: account.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 3
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Length: 0
+< Strict-Transport-Security: max-age=31536000
+< Server: nq_website_core-prod-release UNKNOWN
+< Set-Cookie: nfvdid=BQFmAAEBECplvx8q_YCYVNv2J6m9TPVAOtvYJwdlI-0uEPE-YDWjs6FNjYEX2hn_xWkY1NR5BSacEX2wxH-_xMhSDjABV6KNHFpEGUSHKkdx8oMUrolTDA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=9d22229b-c0ac-4ae3-b0b7-a04aa555b958; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:39:21 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0e99694bb99428d24 (eu-west-1)
+< X-Content-Type-Options: nosniff
+< X-Originating-Url: https://account.netflix.com/
+< Location: https://www.netflix.com/
+

@@ -1,0 +1,11 @@
+http://mt-ingestion-service-mr22.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: mt-ingestion-service-mr22.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://mt-ingestion-service-mr22.itunes.apple.com/
+< Cache-Control: no-cache
+< Pragma: no-cache
+

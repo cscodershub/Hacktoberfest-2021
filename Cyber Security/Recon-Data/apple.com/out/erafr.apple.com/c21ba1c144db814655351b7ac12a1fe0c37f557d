@@ -1,0 +1,19 @@
+http://erafr.apple.com/
+
+> GET / HTTP/1.1
+> Host: erafr.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Server: Bomgar
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Strict-Transport-Security: max-age=31536000
+< X-Ua-Compatible: IE=edge
+< Date: Thu, 30 Apr 2020 21:29:14 GMT
+< Set-Cookie: ns_s=385cff168a579429f6d6a34abedad20b9c05ecad; path=/; HttpOnly
+< Location: https://erafr.apple.com/
+< Vary: Accept-Encoding
+< Content-Type: text/html; charset=utf-8
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Pragma: no-cache
+

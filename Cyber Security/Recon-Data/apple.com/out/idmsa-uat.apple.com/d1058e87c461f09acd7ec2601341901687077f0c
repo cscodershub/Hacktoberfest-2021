@@ -1,0 +1,23 @@
+https://idmsa-uat.apple.com/
+
+> GET / HTTP/1.1
+> Host: idmsa-uat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 
+< Set-Cookie: JSESSIONID=A8BB0C299C910189F157A959F52A47BA; Path=/; Secure; HttpOnly
+< Scnt: 38550ab53131d3a2f3a34d454a52464b
+< Vary: Accept-Encoding
+< Content-Type: text/html;charset=ISO-8859-1
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:40:42 GMT
+< X-Apple-I-Request-Id: 017e642d-a23c-4ac2-b794-3c26a161c3d5
+
+<HTML>
+        <HEAD>
+                <TITLE>Apple</TITLE>
+                <META HTTP-EQUIV="REFRESH" CONTENT="0;URL=http://www.apple.com/filenotfound">
+        </HEAD>
+        <BODY BGCOLOR=#FFFFFF>
+        </BODY>
+</HTML>

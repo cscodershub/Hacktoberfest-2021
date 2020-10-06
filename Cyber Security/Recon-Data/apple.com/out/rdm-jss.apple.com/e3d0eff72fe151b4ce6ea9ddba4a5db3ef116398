@@ -1,0 +1,22 @@
+https://rdm-jss.apple.com/
+
+> GET / HTTP/1.1
+> Host: rdm-jss.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Host: rdm-jss.apple.com
+< X-Content-Type-Options: nosniff
+< Content-Length: 0
+< Set-Cookie: expires=1h=5a44d807233bf936957b4ab99327f1d3; domain=.apple.com; httponly; secure; path=/
+< Set-Cookie: JSESSIONID=A0EA33F9D1EC86069400384C62045F79; Path=/; HttpOnly
+< Set-Cookie: NSC_MCWT_g6889f5f5112dc26bb8c=14b5a3d9e7876d8b004df4360ac4d85b71bbf51564271cbc85eb9f6998416c11903512a2;Version=1;Max-Age=120;path=/;httponly
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Server: Apple
+< Location: https://rdm-jss.apple.com/saml/login
+< X-Xss-Protection: 1; mode=block
+< Date: Thu, 30 Apr 2020 21:40:21 GMT
+

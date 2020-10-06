@@ -1,0 +1,18 @@
+https://deviceenrollment.apple.com/
+
+> GET / HTTP/1.1
+> Host: deviceenrollment.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Apple-Seq: 0
+< Apple-Tk: false
+< Apple-Originating-System: UnknownOriginatingSystem
+< X-Responding-Instance: deviceenrollmentservice:1010051:st11p01su-ztbu01191501:56385:2007B49:e030218b48d7
+< Content-Type: text/plain; charset=UTF-8
+< Date: Thu, 30 Apr 2020 21:41:13 GMT
+< X-Apple-Request-Uuid: 74b1a98b-1cb2-4e7b-69d4-8746eb4b4364
+< X-Apple-Jingle-Correlation-Key: OSY2TCY4WJHHW2OUQ5DOWS2DMQ
+< Set-Cookie: NSC_JOersmtcdforw5lbvnfydmek44zwyc1=ffffffff12a45f1b45525d5f4f58455e445a4a42ea71;path=/;secure;httponly
+
+The requested URL was not found on this server.

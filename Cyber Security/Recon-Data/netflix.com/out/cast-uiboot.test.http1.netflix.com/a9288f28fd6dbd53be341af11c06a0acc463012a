@@ -1,0 +1,17 @@
+http://cast-uiboot.test.http1.netflix.com/
+
+> GET / HTTP/1.1
+> Host: cast-uiboot.test.http1.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: api-test UNKNOWN
+< X-Netflix.nfstatus: 1_2
+< X-Originating-Url: http://cast-uiboot.test.http1.netflix.com/
+< Set-Cookie: nfvdid=BQFmAAEBEPUQ5RT8EdPxVAu13xwUcnlATkpt-dZNpQ9TqTCV7FN3LO0Vuu_iWuBKUtKH4UzHAb38NFBlxvGlj7xpO_l-vHZyJQ-zn9famO85xllSvWgxNg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=665e7d80-8d95-4bc4-b939-47a18d572d8f; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:46 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-06b691fbfe8412fb9 (us-east-1)
+< X-Netflix.proxy.execution-Time: 18678
+< Content-Length: 7
+
+BLOCKED

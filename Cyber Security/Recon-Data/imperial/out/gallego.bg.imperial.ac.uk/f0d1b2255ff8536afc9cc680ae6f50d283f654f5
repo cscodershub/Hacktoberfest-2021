@@ -1,0 +1,17 @@
+https://gallego.bg.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: gallego.bg.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Redirect-By: WordPress
+< Content-Length: 0
+< Date: Sat, 18 Jul 2020 13:54:53 GMT
+< X-Powered-By: PHP/7.2.32
+< Location: https://gallego.bg.ic.ac.uk/
+< X-Web-Server: icwf05
+< Content-Type: text/html; charset=UTF-8
+< Server: Apache
+< X-Ua-Compatible: IE=edge
+

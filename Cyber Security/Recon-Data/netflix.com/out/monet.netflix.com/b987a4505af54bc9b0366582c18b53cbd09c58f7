@@ -1,0 +1,22 @@
+http://monet.netflix.com/
+
+> GET / HTTP/1.1
+> Host: monet.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 210
+< Set-Cookie: AWSALB=8oh8ABp4jZpibmw7Uz9RUYa+91iN+lMXdOwiPvqY5/JUYoIqRosCkBwwMGMlYW2WEdAm982gkZW/v4zQHm5YcfXNhSJHIKpe6sE8ter3re38f30qz/ZNEUS2MEIe; Expires=Wed, 24 Jun 2020 05:36:59 GMT; Path=/
+< Set-Cookie: AWSALBCORS=8oh8ABp4jZpibmw7Uz9RUYa+91iN+lMXdOwiPvqY5/JUYoIqRosCkBwwMGMlYW2WEdAm982gkZW/v4zQHm5YcfXNhSJHIKpe6sE8ter3re38f30qz/ZNEUS2MEIe; Expires=Wed, 24 Jun 2020 05:36:59 GMT; Path=/; SameSite=None
+< Server: Apache
+< Location: https://monet.netflix.com/
+< Date: Wed, 17 Jun 2020 05:36:59 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://monet.netflix.com/">here</a>.</p>
+</body></html>

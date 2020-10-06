@@ -1,0 +1,22 @@
+https://mt-ingestion-service-ms.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: mt-ingestion-service-ms.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Thu, 30 Apr 2020 21:30:11 GMT
+< Cache-Control: must-revalidate,no-cache,no-store
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html;charset=iso-8859-1
+< Content-Length: 155
+< Nncoection: close
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found Url: /</title>
+</head>
+<body>
+</body>
+</html>

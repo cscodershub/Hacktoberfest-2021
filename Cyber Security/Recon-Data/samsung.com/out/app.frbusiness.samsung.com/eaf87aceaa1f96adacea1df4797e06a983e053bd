@@ -1,0 +1,25 @@
+https://app.frbusiness.samsung.com/
+
+> GET / HTTP/1.1
+> Host: app.frbusiness.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=utf-8
+< Expires: -1
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Cache-Control: private,no-cache, no-store
+< Pragma: no-cache
+< Vary: Accept-Encoding
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+< Date: Wed, 10 Jun 2020 05:35:46 GMT
+
+<html>
+<head>
+</head>
+<body>
+We are sorry but this is temporarily unavailable.
+<!-- Site Not Found. -->
+</body>
+</html>

@@ -1,0 +1,14 @@
+https://apahflfit2015.samsung.com/
+
+> GET / HTTP/1.1
+> Host: apahflfit2015.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 303 See Other
+< Cache-Control: private
+< Content-Type: text/html
+< Location: /login_page
+< Date: Wed, 10 Jun 2020 05:35:42 GMT
+< Content-Length: 0
+< Set-Cookie: TS0149c369=0164e65d877a8e73efc9f5c515499097094585c1943f4042722e6ffd4d19e43bfc151e10b390c8bc50b41fabae0daf63745da7c3fd; Path=/
+

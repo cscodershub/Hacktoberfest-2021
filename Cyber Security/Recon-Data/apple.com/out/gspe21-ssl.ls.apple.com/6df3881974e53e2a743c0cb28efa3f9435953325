@@ -1,0 +1,22 @@
+http://gspe21-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe21-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Date: Thu, 30 Apr 2020 21:30:59 GMT
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 271
+< Expires: Thu, 30 Apr 2020 21:30:59 GMT
+
+<HTML><HEAD>
+<TITLE>Service Unavailable - Fail to connect</TITLE>
+</HEAD><BODY>
+<H1>Service Unavailable</H1>
+The server is temporarily unable to service your request.  Please try again
+later.<P>
+Reference&#32;&#35;6&#46;a1de387d&#46;1588282259&#46;1d84c95
+</BODY></HTML>

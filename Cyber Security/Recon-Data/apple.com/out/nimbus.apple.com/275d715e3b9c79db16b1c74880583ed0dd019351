@@ -1,0 +1,49 @@
+https://nimbus.apple.com/
+
+> GET / HTTP/1.1
+> Host: nimbus.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Date: Thu, 30 Apr 2020 21:40:34 GMT
+< Cache-Control: no-cache, private
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Xss-Protection: 1; mode=block
+< Is-External: 1
+< Apple-Nimbus-Client-App-Version: 11.2
+< Server: Apple
+
+<!DOCTYPE html>
+<html ng-app="app" manifest="/manifest.php" lang="en">
+    <head>
+        <title>Nimbus</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type="text/javascript">
+            // Tracking code for Piwik
+            var _paq = _paq || [];
+            _paq.push(['setCustomDimension', '2', localStorage.getItem('nimbus.app_version')]);
+            _paq.push(['enableLinkTracking']);
+            _paq.push(["setTrackerUrl", location.origin + '/api/v2/piwik']);
+        </script>
+    </head>
+
+    <body ng-cloak ng-controller="AppCtrl">
+        <noscript>
+            <center><h1 id="javascript-warning">Javascript must be enabled for this site</h1></center>
+        </noscript>
+
+<div ng-include="'/common/ui/templates/navbar.tpl.html'"></div>
+
+<div ng-include="'/common/slickgrid/context_menu.tpl.html'"></div>
+
+<div id="main-view" ui-view="main"></div>
+
+<head><link href="../build/vendor.62bd0ce3c467416ce1d3f396c158740e.css" rel="stylesheet"><link href="../build/nimbus.1635c65930ae7513f1946863167dd848.css" rel="stylesheet"><link href="../build/index.ca110a0f2a4005d1e21e7bbf91bd2402.css" rel="stylesheet"></head><script type="text/javascript" src="../build/vendor.40ea5d13ea85fe5e737a.js"></script><script type="text/javascript" src="../build/nimbus.b1481a9316ec919a6ad4.js"></script><script type="text/javascript" src="../build/index.d9519c6ee833c7c45d75.js"></script>
+    </body>
+</html>

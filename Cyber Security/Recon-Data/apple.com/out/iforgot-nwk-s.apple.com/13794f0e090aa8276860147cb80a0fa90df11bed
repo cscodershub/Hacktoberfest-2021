@@ -1,0 +1,32 @@
+https://iforgot-nwk-s.apple.com/
+
+> GET / HTTP/1.1
+> Host: iforgot-nwk-s.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Security-Policy: default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.apple.com https://*.cdn-apple.com http://*.apple-mapkit.com https://*.apple-mapkit.com ; object-src 'self' http://*.apple-mapkit.com https://*.apple-mapkit.com; style-src 'unsafe-inline' https://*.apple.com https://*.cdn-apple.com http://*.apple-mapkit.com https://*.apple-mapkit.com ; img-src 'self' data: https://*.apple.com https://*.cdn-apple.com https://*.icloud.com https://*.mzstatic.com http://*.apple-mapkit.com https://*.apple-mapkit.com ; media-src * data:; connect-src 'self' http://*.apple-mapkit.com https://*.apple-mapkit.com;
+< Pragma: no-cache
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< Content-Location: /
+< Set-Cookie: idclient=web; Domain=iforgot.apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: dslang=US-EN; Domain=apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: site=USA; Domain=apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: X-Apple-I-Web-Token=AAAAKjJ8YzMxODU3Nzk3NmJmZWFkYjhiZTYxZTY5NTZkNWYwNDUAAAFxzQwdMAKIS/DGhtFgGfhyZa9/yCpH4TFSSGLAxEZtkQ+IZ7FrCVn6XhudABzcxYWFmPMdxcsHtfcIzt+exvmEkpPyZVBaWf4zEW3Zhp5HOMvJtQ==; Max-Age=900; Expires=Thu, 30-Apr-2020 21:44:15 GMT; Domain=apple.com; Path=/; Secure; HttpOnly
+< Set-Cookie: ifssp=FDF8C46BF7C8D2D19DE0CE1B858E4D9B6572245B972D9E4E8FCD63EBDEDFC586EFB9DCE595FC4577FD0688F7FEBC6C884480B7E8D15DECBE3B40149D68DFCB1A4E54E58CDC7208D56504ED5D92A4C9E6D8A20B24F22747C1167C5364C11801CE7FB4F051916700BD87492C6959E6C511C57FB790CA6685E0; Domain=iforgot.apple.com; Path=/; Secure; HttpOnly
+< X-Apple-I-Request-Id: d8127406-5332-4d57-a6ef-71e655795d84
+< X-Buildversion: R8-2
+< Server: Apple
+< Host: iforgot-nwk-s.apple.com
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Content-Type-Options: nosniff
+< Content-Language: en-US-x-lvariant-USA
+< Location: /password/verify/appleid
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache
+< Cache-Control: no-store
+< Vary: Accept-Encoding
+< Date: Thu, 30 Apr 2020 21:29:15 GMT
+

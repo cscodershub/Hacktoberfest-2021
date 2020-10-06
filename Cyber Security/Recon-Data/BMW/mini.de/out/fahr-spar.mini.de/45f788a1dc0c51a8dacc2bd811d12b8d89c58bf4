@@ -1,0 +1,18 @@
+https://fahr-spar.mini.de/
+
+> GET / HTTP/1.1
+> Host: fahr-spar.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Location: https://www.mini.de
+< Cache-Control: no-cache
+< Server: PXC-Webserver
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 11 Aug 2020 04:54:17 GMT
+< Content-Length: 172
+
+<head><title>Dokument verschoben</title></head>
+<body><h1>Objekt verschoben</h1>Dieses Dokument befindet sich möglicherweise <a HREF="https://www.mini.de">hier</a>.</body>

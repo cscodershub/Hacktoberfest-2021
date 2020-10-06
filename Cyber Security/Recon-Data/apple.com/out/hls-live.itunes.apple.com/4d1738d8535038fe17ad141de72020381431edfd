@@ -1,0 +1,22 @@
+https://hls-live.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: hls-live.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Access-Control-Allow-Credentials: true
+< Access-Control-Expose-Headers: Server,range,hdntl,hdnts,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del
+< Access-Control-Allow-Methods: GET,POST,OPTIONS
+< Access-Control-Allow-Origin: *
+< X-Os-Failover: true
+< X-Cache-Remote: TCP_MISS from a49-44-118-219.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< Access-Control-Max-Age: 86400
+< Akamai-Mon-Iucid-Ing: 
+< Akamai-Mon-Iucid-Del: 822790
+< Cdn-Server: akam
+< Content-Length: 0
+< Date: Thu, 30 Apr 2020 21:29:53 GMT
+< X-Cache: TCP_MISS from a184-86-248-15.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< Access-Control-Allow-Headers: origin,range,hdntl,hdnts
+

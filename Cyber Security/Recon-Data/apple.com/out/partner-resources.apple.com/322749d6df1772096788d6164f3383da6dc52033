@@ -1,0 +1,20 @@
+https://partner-resources.apple.com/
+
+> GET / HTTP/1.1
+> Host: partner-resources.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Length: 0
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Set-Cookie: XSRF-TOKEN=9360209a-a66e-460d-8a3f-e756e5007db3; Path=/; Secure
+< Set-Cookie: NSC_JOzjateqclmlfbwdrs3kgkcsmqix2e3=14b5a3d926e0a263eef41ff9cec24a89a53d7f04bce3fddfb6c28acfc8b78b8b2a19d9f3;Version=1;Max-Age=86400;path=/;secure;httponly
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Location: https://idmsac.apple.com/IDMSWebAuth/login.html?appIdKey=ae2cacf98c7979cb72d5a981b4d23b3dda3b766088285e32dde0412b579e53c8&language=US-en&path=/
+< Date: Thu, 30 Apr 2020 21:29:29 GMT
+

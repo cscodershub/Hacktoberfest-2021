@@ -1,0 +1,1315 @@
+https://www.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< X-Web-Server: icwww4
+< Set-Cookie: ARRAffinity=c43ee6d60cfd752beea9e09e76572cdff85a6c6b5c070f9f2c10de14f3cd94e5;Path=/;Domain=www.imperial.ac.uk
+< Date: Sat, 18 Jul 2020 13:54:37 GMT
+< Vary: Accept-Encoding
+< Server: Microsoft-IIS/10.0
+< X-Powered-By: ARR/3.0
+< X-Arr-Server: icrp11
+< Content-Security-Policy: frame-ancestors self *.imperial.ac.uk
+
+<!DOCTYPE html>
+<!--[if IE 8 ]>    <html lang="en-GB" class="lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-GB" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-GB" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Imperial College London</title>
+  <!-- Home page layout -->
+  <!-- Social media meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@imperialcollege">
+  <meta name="twitter:title" content="Imperial College London">
+  <meta name="twitter:description" content="Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.">
+  <meta name="twitter:image" content="http://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/homepage-default-social--tojpeg_1523872141375_x1.jpg" />
+  <meta property="fb:app_id" content="674884772674087">
+  <meta property="og:title" content="Imperial College London" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/homepage-default-social--tojpeg_1523872141375_x1.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:secure_url" content="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/homepage-default-social--tojpeg_1523872141375_x1.jpg" />
+  <meta property="og:url" content="http://www.imperial.ac.uk/" />
+  <meta property="og:description" content="Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business." />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:site_name" content="Imperial College London" />
+  <meta name="description" content="Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.">
+ <!-- meta description -->
+   <!-- seo keyphrases -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+            <!-- assets */ --><link href="/assets/website/stylesheets/css/screen.1.19.1.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/assets/website/stylesheets/css/color-themes.1.19.1.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/assets/website/stylesheets/css/print.1.19.1.css" media="print" rel="stylesheet" type="text/css" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/website/apple-touch-icon-180x180-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/website/apple-touch-icon-152x152-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/website/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/website/apple-touch-icon-120x120-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/website/apple-touch-icon-76x76-precomposed.png" />
+    <link rel="apple-touch-icon" href="/assets/website/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="/assets/website/favicon-196x196.png" />
+    <link rel="shortcut icon" href="/assets/website/favicon-96x96.png" />
+    <link rel="shortcut icon" href="/assets/website/favicon-32x32.png" />
+    <link rel="shortcut icon" href="/assets/website/favicon.png" />
+    <link rel="icon" type="image/ico" href="/assets/website/favicon.ico" />
+
+    <script src="/assets/website/js/lib/jquery3.min.js"></script>
+    <script src="/assets/website/js/build/application.1.19.1.min.js"></script>
+         <!-- assets -->
+</head>
+    <body class="no-section-nav">
+     
+            <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PS52"
+height="0" width="0" class="sr-only"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PS52');</script>
+<!-- End Google Tag Manager -->
+        
+<!-- Accessibility Links -->
+
+            <a class="skip-to" id="skip-to-content" href="#content">Skip to main content</a>
+<a class="skip-to" id="skip-to-search" href="#q">Skip to search</a>
+<a class="skip-to" id="link-to-accessibility" href="/about-the-site/accessibility/">View accessibility support page</a>
+        
+          
+            <!-- Style Assets : Header -->
+<header id="header" class="navigation">
+  <div class="container cf">
+    <div class="navigation-header">
+      <h1 class="logo"><a href="/" class="brand" title="Imperial College London Home">Imperial College London</a></h1>
+
+<!-- nav : Disaster alert - high level -->
+<!-- Disaster alert - text/header - js -->
+<!-- Disaster Alert High Level -->
+<section id="disaster-high" class="disaster alert-high" itemscope itemtype="http://schema.org/SpecialAnnouncement">
+	<meta itemprop="announcementLocation" itemtype="http://schema.org/CivicStructure" itemscope itemref="footer-contact">
+	<meta itemprop="category" content="https://www.wikidata.org/wiki/Q81068910" />
+	
+	<a href="/about/covid-19/" itemprop="url">
+		<div class="disaster-inner">
+			<h2 class="imperial-alert">Imperial <b>Alert</b></h2>
+			<meta itemprop="datePosted" content="2020-03-20">
+			<h3 itemprop="name">Coronavirus (COVID-19) updates: We are open for academic year 2020-21</h3>
+			<div class="content" itemprop="text">Latest information for student applicants and offer holders, current students and staff.</div>
+		</div>
+	</a>
+	
+	<style type="text/css">section#news-header {display:none;}</style>
+</section>
+<!-- end Disaster Alert High Level --><!-- End Disaster alert -->
+
+<!-- nav : News and events header -->
+<!-- News and Events Feed - text/header - js -->
+<section id="news-header" class="responsive">
+	<h2 class="show-sm">Latest News</h2>
+			<a class="news-item" href="//www.imperial.ac.uk/news/200033/menstrual-matters-greenhouse-gases-news-from" target="_blank" data-article-id="200033">
+				<div>
+					<img src="//www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594980720455_collegeheader2017_x1.jpg" alt="Here’s a batch of fresh news and announcements from across Imperial." srcset="//www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594980720455_collegeheader2017_x05.jpg 33w, //www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594980720455_collegeheader2017_x1.jpg 65w, //www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594980720455_collegeheader2017_x2.jpg 130w, //www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594980720455_collegeheader2017_x4.jpg 260w" sizes="65px">
+				</div>
+				<p title="Here’s a batch of fresh news and announcements from across Imperial.">Menstrual matters and greenhouse gases: News from the College</p>
+			</a>
+			<a class="news-item" href="//www.imperial.ac.uk/news/199993/imperials-covid-19-vaccine-moves-next-phase" target="_blank" data-article-id="199993">
+				<div>
+					<img src="//www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594919024943_collegeheader2017_x1.jpg" alt="Clinical trials to test a new coronavirus vaccine developed by researchers at Imperial College London are progressing to the next phase. " srcset="//www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594919024943_collegeheader2017_x05.jpg 33w, //www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594919024943_collegeheader2017_x1.jpg 65w, //www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594919024943_collegeheader2017_x2.jpg 130w, //www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594919024943_collegeheader2017_x4.jpg 260w" sizes="65px">
+				</div>
+				<p title="Clinical trials to test a new coronavirus vaccine developed by researchers at Imperial College London are progressing to the next phase. ">Imperial’s COVID-19 vaccine moves to next phase </p>
+			</a>
+			<a class="news-item" href="//www.imperial.ac.uk/news/199974/majority-us-states-seeing-rapid-increase" target="_blank" data-article-id="199974">
+				<div>
+					<img src="//www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594909162658_collegeheader2017_x1.jpg" alt="The majority of US states are seeing a rapid increase in COVID-19 transmission, according to Imperial analysis." srcset="//www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594909162658_collegeheader2017_x05.jpg 33w, //www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594909162658_collegeheader2017_x1.jpg 65w, //www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594909162658_collegeheader2017_x2.jpg 130w, //www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1594909162658_collegeheader2017_x4.jpg 260w" sizes="65px">
+				</div>
+				<p title="The majority of US states are seeing a rapid increase in COVID-19 transmission, according to Imperial analysis.">Majority of US states seeing rapid increase in COVID-19 transmission</p>
+			</a>
+	<a id="btn-news" href="//www.imperial.ac.uk/news/" target="_blank">More News</a>
+</section><!-- End News &amp Events feed -->
+
+
+    </div>
+    <nav id="primary-nav" class="wide">
+      <h2 class="sr-only">Main Navigation</h2>
+
+<!-- nav : Common Search code -->
+
+            <!-- Begin Imperial Search -->
+<div id="search-area">
+        <form id="search" action="/search/" method="get">
+          <div id="search-inner-wrapper">
+            <label class="sr-only" for="q">Search Imperial</label>
+            <input type="text" title="Search for..." placeholder="Search" class="clearDefault" value="" id="q" name="q">
+          </div>
+          <button class="submitButton" id="searchSubmit" title="Search" type="submit">Search</button>
+        </form>
+      </div>
+<!-- End Imperial Search -->
+        
+
+      <ul class="nav nav-primary">
+         <li class="has-children mega">
+          <a class="parent" href="#menu-640" data-parent="true">Study</a>
+          <div id="menu-640" class="toggle-content">
+          <!-- nav : Mega menu first --><!-- Mega menu -->
+  <a href="#" class="noscript close-button">Close</a>
+  <div class="child-content equal-height-columns">
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li><a href="/study/" class="overview_link">Study overview</a></li>
+        <li>
+          <a class="parent feature" href="/study/ug/">Undergraduate</a>
+          <div class="toggle-content">
+            <span class="feature-links">Top Links</span>
+            <ul class="child-menu">
+<li><a href="/study/ug/courses/">Courses for 2021 entry</a></li>
+<li><a title="How to apply" href="/study/ug/apply/">How to apply</a></li>
+<li><a href="/study/ug/fees-and-funding/">Fees and funding</a></li>
+<li><a href="/study/campus-life/accommodation/prospective/ug/">Accommodation</a></li>
+<li><a href="/study/ug/visit/">Open days</a></li>
+<li><a href="/study/prospectus/">Request a prospectus</a></li>
+</ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li>
+          <a class="parent feature" href="/study/pg/" >Postgraduate</a>
+          <div class="toggle-content">
+            <span class="feature-links">Top Links</span>
+            <ul class="child-menu">
+<li><a href="/study/pg/courses/">Courses for 2020-21</a></li>
+<li><a href="/study/pg/courses/doctoral-courses/">Doctoral courses</a></li>
+<li><a href="/study/pg/apply/">How to apply</a></li>
+<li><a href="/study/pg/fees-and-funding/">Fees and funding</a></li>
+<li><a href="/study/campus-life/accommodation/prospective/pg/">Accommodation</a></li>
+</ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+<li><a href="/faculties-and-departments/"  class="feature">Faculties and departments</a></li>
+
+<li><a href="/admin-services/continuing-professional-development/"  class="feature">Continuing Professional Development </a></li>
+
+<li><a href="https://www.imperial.ac.uk/business-school/executive-education/" target='_blank' class="feature">Executive Education</a></li>
+
+
+<li><a href="/admin-services/centre-for-languages-culture-and-communication/"  class="feature">Centre for Languages Culture and Communication</a></li>
+
+
+
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/study/living-in-london/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/City_of_London_65396749--tojpeg_1417615028107_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/City_of_London_65396749--tojpeg_1417615028107_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/City_of_London_65396749--tojpeg_1417615028107_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="St Paul's Cathedral " src="/ImageCropToolT4/imageTool/uploaded-images/City_of_London_65396749--tojpeg_1417615028107_x1.jpg"><span>Living in London</span>London&rsquo;s fusion of culture, charm and career opportunities is hard to beat</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/study/international-students/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/ICL_Graduation_406--t_1417616392639_x2--tojpeg_1549642146125_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/ICL_Graduation_406--t_1417616392639_x2--tojpeg_1549642146125_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/ICL_Graduation_406--t_1417616392639_x2--tojpeg_1549642146125_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="International students" src="/ImageCropToolT4/imageTool/uploaded-images/ICL_Graduation_406--t_1417616392639_x2--tojpeg_1549642146125_x1.jpg"><span>International students</span>Students come from over 140 different countries to study at Imperial</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/study/campus-life/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/imp_130820_campus1_lib_008--tojpeg_1417607683035_x2--tojpeg_1417682075073_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/imp_130820_campus1_lib_008--tojpeg_1417607683035_x2--tojpeg_1417682075073_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/imp_130820_campus1_lib_008--tojpeg_1417607683035_x2--tojpeg_1417682075073_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Queen's Lawn" src="/ImageCropToolT4/imageTool/uploaded-images/imp_130820_campus1_lib_008--tojpeg_1417607683035_x2--tojpeg_1417682075073_x1.jpg"><span>Campus life</span>Experience what it's like to be a member of the College community</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- end Mega menu -->
+          </div>
+         </li>
+         <li class="has-children mega">
+          <a class="parent" href="#menu-641" data-parent="true">Research &amp; Innovation</a>
+          <div id="menu-641" class="toggle-content">
+          <!-- nav : Mega menu second --><!-- Mega menu -->
+  <a href="#" class="noscript close-button">Close</a>
+  <div class="child-content equal-height-columns">
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li><a href="/research-and-innovation/" class="overview_link">Research and Innovation </a></li>
+        <li>
+          <a class="parent feature" href="/research-and-innovation/support-for-partners/">Partner with us</a>
+          <div class="toggle-content">
+            <span class="feature-links">At a glance</span>
+            <ul>
+<li><a href="/medicine/research-and-impact/groups/clinical-trials-unit/collaborations/">Clinical Trials</a></li>
+<li><a href="/admin-services/enterprise/business/">Business support and partnerships</a></li>
+<li></li>
+<li><a href="http://www.imperial-consultants.co.uk/" target="_blank">Consultancy</a></li>
+<li><a href="http://wwwf.imperial.ac.uk/business-school/executive-education/">Executive education</a></li>
+<li><a href="/research-and-innovation/support-for-partners/a-z-partners/">A-Z services for partners</a></li>
+</ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li>
+          <a class="parent feature" href="/research-and-innovation/support-for-staff/" >Research support</a>
+          <div class="toggle-content">
+            <span class="feature-links">At a glance</span>
+            <ul>
+<li><a href="/research-and-innovation/support-for-staff/">Resources for staff</a></li>
+<li><a href="/research-and-innovation/support-for-staff/research-office/">Research Office</a></li>
+<li><a href="/research-and-innovation/support-for-staff/faculty-research-services-teams/">Faculty research services teams</a></li>
+<li><a href="/research-and-innovation/about-imperial-research/research-integrity/">Research integrity</a></li>
+<li><a href="/medicine/research-and-impact/groups/clinical-trials-unit/">Clinical Trials</a></li>
+<li><a href="/about/introducing-imperial/global-imperial/">Global Imperial</a></li>
+</ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+<li><a href="/about/leadership-and-strategy/strategy/"  class="feature">College Strategy 2015-2020</a></li>
+
+<li><a href="/faculties-and-departments/"  class="feature">Faculties and departments</a></li>
+
+<li><a href="/a-z-research/"  class="feature">A-Z research groups and centres</a></li>
+
+
+<li><a href="/research-and-innovation/support-for-staff/research-office/funder-information/funding-opportunities/"  class="feature">Funding opportunities</a></li>
+
+<li><a href="/research-and-innovation/about-imperial-research/ref/"  class="feature">REF 2021</a></li>
+
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/research-and-innovation/impact/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/Impact--tojpeg_1417606493780_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/Impact--tojpeg_1417606493780_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/Impact--tojpeg_1417606493780_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Brain scans" src="/ImageCropToolT4/imageTool/uploaded-images/Impact--tojpeg_1417606493780_x1.jpg"><span>Imperial&rsquo;s impact</span>Read case studies about how Imperial research has made a difference</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="http://www.imperial.ac.uk/news" target="_blank"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/News--tojpeg_1417606851616_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/News--tojpeg_1417606851616_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/News--tojpeg_1417606851616_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Flying robot" src="/ImageCropToolT4/imageTool/uploaded-images/News--tojpeg_1417606851616_x1.jpg"><span>Research news</span>Keep up to date with Imperial&rsquo;s cutting edge discoveries</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/admin-services/enterprise/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/181101_natwilai_pae_drone_entrepreneur_031-%281%29--t_1542107706895_x1--tojpeg_1557236663888_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/181101_natwilai_pae_drone_entrepreneur_031-%281%29--t_1542107706895_x1--tojpeg_1557236663888_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/181101_natwilai_pae_drone_entrepreneur_031-%281%29--t_1542107706895_x1--tojpeg_1557236663888_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Natwilai Pae Drone entrepreneur" src="/ImageCropToolT4/imageTool/uploaded-images/181101_natwilai_pae_drone_entrepreneur_031-%281%29--t_1542107706895_x1--tojpeg_1557236663888_x1.jpg"><span>Enterprise</span>Learn how we support entrepreneurship and help find research-driven solutions to industry challenges</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- end Mega menu -->
+          </div>
+         </li>
+         <li class="has-children mega">
+          <a class="parent" href="#menu-642" data-parent="true">Be Inspired</a>
+          <div id="menu-642" class="toggle-content">
+          <!-- nav : Mega menu third --><!-- Mega menu -->
+  <a href="#" class="noscript close-button">Close</a>
+  <div class="child-content equal-height-columns">
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li><a href="/be-inspired/" class="overview_link">Be Inspired</a></li>
+        <li>
+          <a class="parent feature" href="/be-inspired/">Take part</a>
+          <div class="toggle-content">
+            <span class="feature-links">Top links</span>
+            <ul>
+<li><a href="/be-inspired/student-recruitment-and-outreach/">Schools activities</a></li>
+<li><a href="/whats-on/">What's on at Imperial</a></li>
+<li><a href="/be-inspired/festival/">Festival</a></li>
+<li><a href="/be-inspired/lates/">Imperial Lates</a></li>
+<li><a href="/alumni/events/">Alumni events</a></li>
+</ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li>
+          <a class="parent feature" href="/be-inspired/social-and-multimedia/" >Engage online</a>
+          <div class="toggle-content">
+            <span class="feature-links">Top links</span>
+            <ul>
+<li><a href="https://www.imperial.ac.uk/news" title="Imperial news">Imperial news</a></li>
+<li><a href="/be-inspired/social-and-multimedia/podcasts/">Podcasts</a></li>
+<li><a href="/be-inspired/magazine/">Imperial Magazine</a></li>
+<li><a href="/be-inspired/stories/">Imperial Stories</a></li>
+</ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+<li><a href="/be-inspired/social-and-multimedia/directory/"  class="feature">Social media directory</a></li>
+
+<li><a href="/be-inspired/volunteering/"  class="feature">Staff and student volunteering</a></li>
+
+<li><a href="/be-inspired/magazine/"  class="feature">Imperial magazine</a></li>
+
+
+<li><a href="/be-inspired/societal-engagement/"  class="feature">Societal engagement</a></li>
+
+
+
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/be-inspired/social-and-multimedia/podcasts/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1431608741948_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1431608741948_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1431608741948_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Podcasts" src="/ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1431608741948_x1.jpg"><span>Imperial College Podcast</span>presented by Gareth Mitchell and the Communications &amp; Public Affairs pod squad</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="https://www.imperial.ac.uk/media/imperial-today/?utm_source=website&utm_medium=mega-menu&utm_campaign=imperial-today" target="_blank"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/IT-survey1--tojpeg_1525171251932_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/IT-survey1--tojpeg_1525171251932_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/IT-survey1--tojpeg_1525171251932_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Imperial Today" src="/ImageCropToolT4/imageTool/uploaded-images/IT-survey1--tojpeg_1525171251932_x1.jpg"><span>Imperial Today</span>Subscribe to our daily newsletter and receive the best stories from Imperial direct to your inbox</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="http://wwwf.imperial.ac.uk/blog/student-blogs/" target="_blank"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/Student-blogs--tojpeg_1514904013265_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/Student-blogs--tojpeg_1514904013265_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/Student-blogs--tojpeg_1514904013265_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Student Blog home page" src="/ImageCropToolT4/imageTool/uploaded-images/Student-blogs--tojpeg_1514904013265_x1.jpg"><span>Student blogs</span>Find out about life on campus from our team of student bloggers</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- end Mega menu -->
+          </div>
+         </li>
+         <li class="has-children mega">
+          <a class="parent" href="#menu-643" data-parent="true">About</a>
+          <div id="menu-643" class="toggle-content">
+          <!-- nav : Mega menu fourth --><!-- Mega menu -->
+  <a href="#" class="noscript close-button">Close</a>
+  <div class="child-content equal-height-columns">
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li><a href="/about/" class="overview_link">About</a></li>
+        <li>
+          <a class="parent feature" href="/about/introducing-imperial/">The College</a>
+          <div class="toggle-content">
+            <span class="feature-links">Overview</span>
+            <ul>
+<li><a href="/about/leadership-and-strategy/strategy/">Strategy 2015-2020</a></li>
+<li><a href="/about/leadership-and-strategy/provost/academic-strategy/">Academic Strategy</a></li>
+<li><a href="/about/introducing-imperial/league-tables/">League tables</a></li>
+<li><a href="/about/introducing-imperial/facts-and-figures/">Facts and figures</a></li>
+<li><a href="/admin-services/secretariat/college-governance/">College governance</a></li>
+<li><span id="t4_content_element_Column3Link2Internal-path"><a href="/admin-services/">Administration and support services</a></span></li>
+<li><span><a href="/about/sustainability/">Sustainable Imperial</a></span></li>
+</ul>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li>
+          <a class="parent feature" href="/about/introducing-imperial/our-people/" >Our people</a>
+          <div class="toggle-content">
+            <span class="feature-links">At a glance</span>
+            <ul>
+<li><a href="/about/leadership-and-strategy/president/">President</a></li>
+<li><a href="/about/leadership-and-strategy/provost/">Provost</a></li>
+<li><a href="/about/introducing-imperial/our-people/eminent-alumni/">Eminent alumni</a></li>
+<li><a href="/about/introducing-imperial/our-people/award-winners/">Award winners</a></li>
+<li><a href="http://wwwf.imperial.ac.uk/blog/imperial-people/" title="Recognising our people">Recognising our people</a></li>
+</ul>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+<li><a href="/faculties-and-departments/"  class="feature">A - Z of Faculties and Departments</a></li>
+
+<li><a href="/engineering/"  class="feature">Faculty of Engineering</a></li>
+
+<li><a href="/medicine/"  class="feature">Faculty of Medicine</a></li>
+
+
+<li><a href="/natural-sciences/"  class="feature">Faculty of Natural Sciences</a></li>
+
+<li><a href="https://www.imperial.ac.uk/business-school/?utm_term=college-link" target='_blank' class="feature">Imperial College Business School</a></li>
+
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/about/introducing-imperial/global-imperial/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/Lion--tojpeg_1554882885019_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/Lion--tojpeg_1554882885019_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/Lion--tojpeg_1554882885019_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Lion" src="/ImageCropToolT4/imageTool/uploaded-images/Lion--tojpeg_1554882885019_x1.jpg"><span>Global Imperial</span>We are the UK's most international university </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/visit/campuses/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/campus--tojpeg_1416836905639_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/campus--tojpeg_1416836905639_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/campus--tojpeg_1416836905639_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Our campuses" src="/ImageCropToolT4/imageTool/uploaded-images/campus--tojpeg_1416836905639_x1.jpg"><span>Our campuses</span>Explore our London locations</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/about/leadership-and-strategy/white-city-campus/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/Mega-menu-White-City-Campus-image--tojpeg_1493969367737_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/Mega-menu-White-City-Campus-image--tojpeg_1493969367737_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/Mega-menu-White-City-Campus-image--tojpeg_1493969367737_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="White City Campus" src="/ImageCropToolT4/imageTool/uploaded-images/Mega-menu-White-City-Campus-image--tojpeg_1493969367737_x1.jpg"><span>White City Campus</span>Imperial&rsquo;s research and innovation district</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- end Mega menu -->
+          </div>
+         </li>
+      </ul>
+
+<!-- nav : Secondary navigation - overall -->
+<!-- Secondary links -->
+ <ul class="nav nav-secondary">
+
+    
+          <li>
+        <a href="/visit/" >Visit</a>
+      </li>
+    
+
+    
+          <li>
+        <a href="/whats-on/" >What's on</a>
+      </li>
+    
+
+         <li class="only-fixed">
+           <a href="/news/">News</a>
+         </li>
+
+        
+          <li>
+        <a href="/giving/" >Give</a>
+      </li>
+    
+
+         <li class="has-children">
+          <a class="non-link" href="#menu-645" data-toggle="collapse">A-Z</a>
+          <div id="menu-645" class="toggle-content">
+            <div class="child-content">
+              <ul class="group">
+               <li class="noscript"><a href="#" class="close-button">Close</a></li>
+               
+        <li>
+    <a href="/faculties-and-departments/" >Faculties and departments</a>
+   </li>
+  
+        <li>
+    <a href="/multidisciplinary-research/" >Multidisciplinary networks, centres and institutes</a>
+   </li>
+  
+        <li>
+    <a href="/a-z-research/" >Research groups</a>
+   </li>
+  
+        <li>
+    <a href="http://www.imperial.ac.uk/collegedirectory/" target='_blank'>People finder</a>
+   </li>
+  
+        <li>
+    <a href="/admin-services/" >Administration and support services</a>
+   </li>
+   <!-- a-z content -->
+              </ul>
+            </div>
+          </div>
+         </li>
+         <li class="has-children shorten">
+          <a class="non-link" href="#menu-646" data-toggle="collapse">Information for</a>
+           <div id="menu-646" class="toggle-content">
+            <div class="child-content">
+              <ul class="group">
+                 <li class="noscript"><a href="#" class="close-button">Close</a></li>
+                 
+        <li>
+    <a href="/study/" >Prospective students</a>
+   </li>
+  
+        <li>
+    <a href="/students/" >Current students</a>
+   </li>
+  
+        <li>
+    <a href="/alumni/" >Alumni</a>
+   </li>
+  
+        <li>
+    <a href="/staff/" >Staff</a>
+   </li>
+  
+        <li>
+    <a href="/jobs/" >Jobs at Imperial</a>
+   </li>
+  
+        <li>
+    <a href="/research-and-innovation/support-for-partners/" >Partners and business</a>
+   </li>
+  
+        <li>
+    <a href="/media/" >Media</a>
+   </li>
+  
+        <li>
+    <a href="/giving/" >Donors</a>
+   </li>
+  
+        <li>
+    <a href="/parents/" >Parents</a>
+   </li>
+  
+        <li>
+    <a href="/admin-services/events-and-hospitality/" >Conference organisers </a>
+   </li>
+   <!-- info for -->
+              </ul>
+            </div>
+          </div>
+         </li>
+      </ul>
+<!-- end Secondary links -->
+
+    </nav>
+<!-- end Style Assets : Header -->
+        
+  </div>
+</header>
+<div id="content-box">
+<div id="page">
+  <div class="container home-template" id="content">
+<!-- end page header -->
+<h1 class="sr-only">Home page content</h1><!-- Homepage banner area 1 -->
+<div class="row full top">
+    <div class="col lg-12 banner default no-overlay ">
+        <img srcset="
+            /ImageCropToolT4/imageTool/uploaded-images/shutterstock-1679129374_1594983204101_x05.jpg 720w,
+            /ImageCropToolT4/imageTool/uploaded-images/shutterstock-1679129374_1594983204101_x1.jpg 1440w,
+            /ImageCropToolT4/imageTool/uploaded-images/shutterstock-1679129374_1594983204101_x2.jpg 2880w,
+            /ImageCropToolT4/imageTool/uploaded-images/shutterstock-1679129374_1594983204101_x4.jpg 5760w"
+            sizes="
+                (min-width: 1520px) 1440px,
+                (min-width: 1025px) calc(100vw - 80px),
+                (min-width: 930px) calc(100vw - 48px),
+                100vw"
+            src="/ImageCropToolT4/imageTool/uploaded-images/shutterstock-1679129374_1594983204101_x1.jpg" alt="A supermarket with empty shelves">
+        <div class="caption">
+            <h2 class="sr-only">Top Story</h2>
+            <h3 class="title">Food and COVID-19</h3>
+            <p>In a new Imperial Stories immersive feature, we hear from Imperial experts on how our diets have been affected by COVID-19.</p>
+            <a href="https://www.imperial.ac.uk/stories/food-and-coronavirus/" target="_blank" class="link primary ">
+                Read more...
+            </a>
+        </div>
+    </div>
+    
+</div>
+<!-- end Homepage banner area 1 -->
+<div id="section1" class="divider lg"><a class="section-link" href="#section2">Next Section</a></div><!-- Flexible homepage widget -->
+<div class="row stack equal-height-columns">
+  <h2 class="sr-only">News</h2>
+  
+  <!-- Flexible news Item -->
+<div class="col lg-3 md-6 sm-12 news">
+    <div class="module equal-height">
+        <a href="https://www.imperial.ac.uk/news/199634/first-findings-published-from-largest-home/" target="_blank">
+            <div class="media">
+                 <img srcset="/ImageCropToolT4/imageTool/uploaded-images/0-1594822839937-0_1594822839937_x1.jpg 332w, /ImageCropToolT4/imageTool/uploaded-images/0-1594822839937-0_1594822839937_x2.jpg 664w, /ImageCropToolT4/imageTool/uploaded-images/0-1594822839937-0_1594822839937_x4.jpg 1328w" sizes="(min-width: 1520px) 334px, (min-width: 1144px) 21vw, (min-width: 931px) calc(50vw - 48px), (min-width: 768px) calc(50vw - 32px), (min-width: 481px) calc(100vw - 48px), calc(100vw - 30px)" alt="A researcher operating a thermocycler machine in a lab" src="/ImageCropToolT4/imageTool/uploaded-images/0-1594822839937-0_1594822839937_x1.jpg">
+            </div>
+            <ul class="tags not-news">
+                <li class="parent topic not-reverse">
+                    <span>News</span>
+                </li>
+                <li class="feature topic research blue"><span>Health</span></li>
+            </ul>
+            <div class="content">
+                <h3>
+                    <span class="title">First findings published from largest home COVID-19 testing programme</span>
+                </h3>
+                <p class="date">15 July 2020</p>
+            </div>
+        </a>
+    </div>
+</div>
+<!-- end Flexible news item -->
+<!-- Flexible news Item -->
+<div class="col lg-3 md-6 sm-12 news">
+    <div class="module equal-height">
+        <a href="https://www.imperial.ac.uk/news/199053/imperial-plans-future-education-nss-results/" target="_blank">
+            <div class="media">
+                 <img srcset="/ImageCropToolT4/imageTool/uploaded-images/3_1594823098072_x1.jpg 332w, /ImageCropToolT4/imageTool/uploaded-images/3_1594823098072_x2.jpg 664w, /ImageCropToolT4/imageTool/uploaded-images/3_1594823098072_x4.jpg 1328w" sizes="(min-width: 1520px) 334px, (min-width: 1144px) 21vw, (min-width: 931px) calc(50vw - 48px), (min-width: 768px) calc(50vw - 32px), (min-width: 481px) calc(100vw - 48px), calc(100vw - 30px)" alt="Students in an engineering lab" src="/ImageCropToolT4/imageTool/uploaded-images/3_1594823098072_x1.jpg">
+            </div>
+            <ul class="tags not-news">
+                <li class="parent topic not-reverse">
+                    <span>News</span>
+                </li>
+                <li class="feature topic research brick"><span>College</span></li>
+            </ul>
+            <div class="content">
+                <h3>
+                    <span class="title">Imperial plans for the future of education, as NSS results are revealed</span>
+                </h3>
+                <p class="date">15 July 2020</p>
+            </div>
+        </a>
+    </div>
+</div>
+<!-- end Flexible news item -->
+
+  
+  <div class="col lg-6 md-12 equal-height">
+    
+    
+    
+    <div class="module media-item horizontal slideshow">
+      <h2 class="sr-only">Opportunities</h2>
+      <div class="items">
+          
+        <a href="/be-inspired/social-and-multimedia/podcasts/" class="item" >
+  <div class="col lg-4 md-6 media media-video">
+          <img srcset="/ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1509093020482_x1.jpg 292w, /ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1509093020482_x2.jpg 548w, /ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1509093020482_x4.jpg 1168w" sizes="(min-width: 1520px) 212px, (min-width: 1144px) calc((50vw - 48px)/3), (min-width: 1025px) calc((100vw - 132px)/4), (min-width: 930px) calc((100vw - 98px)/4), (min-width: 901px) calc((100vw - 50px)/4), (min-width: 651px) calc((100vw - 50px)/3), calc(100vw - 50px)" alt="Podcast " src="/ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1509093020482_x1.jpg">
+  </div>
+  <div class="col lg-8 md-6 content">
+    <h3>The latest podcast</h3>
+    <p>Vaccine production, safety on public transport, and emerging economies</p>
+  </div>
+</a><a href="https://wwwf.imperial.ac.uk/blog/imperial-people/" class="item"  target="_blank">
+  <div class="col lg-4 md-6 media">
+          <img srcset="/ImageCropToolT4/imageTool/uploaded-images/Imperial-People-collage-1024x1024--tojpeg_1580141688400_x1.jpg 292w, /ImageCropToolT4/imageTool/uploaded-images/Imperial-People-collage-1024x1024--tojpeg_1580141688400_x2.jpg 548w, /ImageCropToolT4/imageTool/uploaded-images/Imperial-People-collage-1024x1024--tojpeg_1580141688400_x4.jpg 1168w" sizes="(min-width: 1520px) 212px, (min-width: 1144px) calc((50vw - 48px)/3), (min-width: 1025px) calc((100vw - 132px)/4), (min-width: 930px) calc((100vw - 98px)/4), (min-width: 901px) calc((100vw - 50px)/4), (min-width: 651px) calc((100vw - 50px)/3), calc(100vw - 50px)" alt="A photo mosiac showcasing four members of the Imperial community" src="/ImageCropToolT4/imageTool/uploaded-images/Imperial-People-collage-1024x1024--tojpeg_1580141688400_x1.jpg">
+  </div>
+  <div class="col lg-8 md-6 content">
+    <h3>Imperial People</h3>
+    <p>We shine a light on our talented community of staff and students, showcasing the variety of people that make up Imperial College London</p>
+  </div>
+</a><a href="https://www.youtube.com/watch?v=QUBsf-2GX5s" class="item"  target="_blank">
+  <div class="col lg-4 md-6 media media-video">
+          <img srcset="/ImageCropToolT4/imageTool/uploaded-images/A-day-in-the-life3--tojpeg_1523961324168_x1.jpg 292w, /ImageCropToolT4/imageTool/uploaded-images/A-day-in-the-life3--tojpeg_1523961324168_x2.jpg 548w, /ImageCropToolT4/imageTool/uploaded-images/A-day-in-the-life3--tojpeg_1523961324168_x4.jpg 1168w" sizes="(min-width: 1520px) 212px, (min-width: 1144px) calc((50vw - 48px)/3), (min-width: 1025px) calc((100vw - 132px)/4), (min-width: 930px) calc((100vw - 98px)/4), (min-width: 901px) calc((100vw - 50px)/4), (min-width: 651px) calc((100vw - 50px)/3), calc(100vw - 50px)" alt="The Queen's Tower" src="/ImageCropToolT4/imageTool/uploaded-images/A-day-in-the-life3--tojpeg_1523961324168_x1.jpg">
+  </div>
+  <div class="col lg-8 md-6 content">
+    <h3>A day in the life of Imperial</h3>
+    <p>24 hours at South Kensington Campus in 2 minutes 40 </p>
+  </div>
+</a><a href="https://www.youtube.com/watch?v=xZAA9fKptvM&list=PL5VwXQiaY1II8EmVmsig5qW4lxj9Px1_a" class="item"  target="_blank">
+  <div class="col lg-4 md-6 media media-video">
+          <img srcset="/ImageCropToolT4/imageTool/uploaded-images/her-imperial--tojpeg_1509093352550_x1.jpg 292w, /ImageCropToolT4/imageTool/uploaded-images/her-imperial--tojpeg_1509093352550_x2.jpg 548w, /ImageCropToolT4/imageTool/uploaded-images/her-imperial--tojpeg_1509093352550_x4.jpg 1168w" sizes="(min-width: 1520px) 212px, (min-width: 1144px) calc((50vw - 48px)/3), (min-width: 1025px) calc((100vw - 132px)/4), (min-width: 930px) calc((100vw - 98px)/4), (min-width: 901px) calc((100vw - 50px)/4), (min-width: 651px) calc((100vw - 50px)/3), calc(100vw - 50px)" alt="In an Engineering lab" src="/ImageCropToolT4/imageTool/uploaded-images/her-imperial--tojpeg_1509093352550_x1.jpg">
+  </div>
+  <div class="col lg-8 md-6 content">
+    <h3>#HerImperial: the new generation</h3>
+    <p>We are committed to the increasing participation of women in STEM-related careers. Watch some of our women in action</p>
+  </div>
+</a><a href="https://www.youtube.com/watch?v=ld9Wo7Jxq_g&t=1s" class="item"  target="_blank">
+  <div class="col lg-4 md-6 media">
+          <img srcset="/ImageCropToolT4/imageTool/uploaded-images/Sth-Ken--tojpeg_1524219425456_x1.jpg 292w, /ImageCropToolT4/imageTool/uploaded-images/Sth-Ken--tojpeg_1524219425456_x2.jpg 548w, /ImageCropToolT4/imageTool/uploaded-images/Sth-Ken--tojpeg_1524219425456_x4.jpg 1168w" sizes="(min-width: 1520px) 212px, (min-width: 1144px) calc((50vw - 48px)/3), (min-width: 1025px) calc((100vw - 132px)/4), (min-width: 930px) calc((100vw - 98px)/4), (min-width: 901px) calc((100vw - 50px)/4), (min-width: 651px) calc((100vw - 50px)/3), calc(100vw - 50px)" alt="South Kensington Campus" src="/ImageCropToolT4/imageTool/uploaded-images/Sth-Ken--tojpeg_1524219425456_x1.jpg">
+  </div>
+  <div class="col lg-8 md-6 content">
+    <h3>Our neighbourhood explained</h3>
+    <p>South Kensington Campus is at the heart of 'Albertopolis', where science and the arts meet.</p>
+  </div>
+</a>
+        
+      </div>
+    </div>
+  
+	<!--External Link:  -->
+<div class="module" id="donation-feature">
+    <div class="item">
+        <div class="col lg-4 title">
+            <h2>Support the Imperial College COVID-19 Response Fund</h2>
+        </div>
+    <div class="col lg-8 content">
+    <p>Imperial researchers are leading the fight against COVID-19. You can support their vital research and our staff and students on the frontline.</p>
+        <a href="/giving/covid-19-response-fund/" class="link primary">
+            Support the fund today
+        </a>
+    </div>
+</div>
+</div>
+
+    
+  </div>
+</div>
+<!-- end Flexible homepage widget --><div id="section2" class="divider lg"><a class="section-link" href="#section3">Next Section</a></div><!-- Events Feed / Colour block -->
+<div class="row split equal-height-columns">
+
+<!-- News and Events Module -->
+<div class="news-events equal-height-columns">
+	<div class="col lg-9 md-12 equal-height-columns news-events__events">
+		<!-- heading -->
+<div class="heading">
+	<h2 class="title fake-h3">What's on at Imperial</h2>
+	<a class="heading-link" href="/whats-on">Events</a>
+</div>
+
+		<!-- tallImage -->
+<div class="col lg-4 event news-events__tallImage">
+	<div class="module equal-height">
+		<a href="//www.imperial.ac.uk/events/120271/support-wellbeing-and-accommodation-afternoon-session/" title="Open days: This Imperial360 Live event will give prospective students from all over the world the chance to engage directly with our academic departments and discover more about what we have to offer." target="_blank">
+				<div class="media">
+					<img src="/ImageCropToolT4/imageTool/uploaded-images/20-07-virtual-open-day-live-social-media-facebook-4_1592586192888_eventpanel2018_x2.jpg" alt="Support, wellbeing and accommodation (afternoon session)" srcset="/ImageCropToolT4/imageTool/uploaded-images/20-07-virtual-open-day-live-social-media-facebook-4_1592586192888_eventpanel2018_x2.jpg 223w, /ImageCropToolT4/imageTool/uploaded-images/20-07-virtual-open-day-live-social-media-facebook-4_1592586192888_eventpanel2018_x2.jpg 446w, /ImageCropToolT4/imageTool/uploaded-images/20-07-virtual-open-day-live-social-media-facebook-4_1592586192888_eventpanel2018_x2.jpg 892w, /ImageCropToolT4/imageTool/uploaded-images/20-07-virtual-open-day-live-social-media-facebook-4_1592586192888_eventpanel2018_x2.jpg 1784w" sizes="(min-width: 1520px) 314px, (min-width: 1025px) calc((75vw - 146px) / 3), (min-width: 930px) calc((75vw - 114px) / 2), (min-width: 768px) calc((100vw - 66px) / 2), (min-width: 481px) calc((100vw - 50px) / 2), calc(100vw - 34px)">
+				</div>
+			<ul class="tags">
+				<li class="parent topic"><span>event</span></li>
+				<li class="feature topic open days"><span>Open days</span></li>
+			</ul>
+			<div class="content">
+				<p class="date">18 July 2020, 13.30 &ndash; 16.20</p>
+				<p class="fake-h3"><span class="title">Support, wellbeing and accommodation (afternoon session)</span></p>
+				
+				<div class="venue" title="United Kingdom">Online only</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+		<!-- tallImage -->
+<div class="col lg-4 event news-events__tallImage">
+	<div class="module equal-height">
+		<a href="//www.imperial.ac.uk/events/120396/the-flexibility-of-gas-what-is-it-worth/" title="General: The Sustainable Gas Institute’s new White Paper 5 will be launched at a special live webinar where main author Dr Jamie Speirs will present insights." target="_blank">
+				<div class="media">
+					<img src="/ImageCropToolT4/imageTool/uploaded-images/sgievent_1592988097850_eventpanel2018_x2.jpg" alt="The Flexibility of Gas: What is it worth?" srcset="/ImageCropToolT4/imageTool/uploaded-images/sgievent_1592988097850_eventpanel2018_x2.jpg 223w, /ImageCropToolT4/imageTool/uploaded-images/sgievent_1592988097850_eventpanel2018_x2.jpg 446w, /ImageCropToolT4/imageTool/uploaded-images/sgievent_1592988097850_eventpanel2018_x2.jpg 892w, /ImageCropToolT4/imageTool/uploaded-images/sgievent_1592988097850_eventpanel2018_x2.jpg 1784w" sizes="(min-width: 1520px) 314px, (min-width: 1025px) calc((75vw - 146px) / 3), (min-width: 930px) calc((75vw - 114px) / 2), (min-width: 768px) calc((100vw - 66px) / 2), (min-width: 481px) calc((100vw - 50px) / 2), calc(100vw - 34px)">
+				</div>
+			<ul class="tags">
+				<li class="parent topic"><span>event</span></li>
+				<li class="feature topic general"><span>General</span></li>
+			</ul>
+			<div class="content">
+				<p class="date">20 July 2020, 12.00 &ndash; 13.00</p>
+				<p class="fake-h3"><span class="title">The Flexibility of Gas: What is it worth?</span></p>
+				
+				<div class="venue" title="United Kingdom">Online only</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+		<!-- Item -->
+<div class="col lg-4 event-list">
+	<div class="module equal-height">
+		<!-- wide -->
+<div class="item event news-events__wide">
+	<p class="date">21 July 2020, 11.30 &ndash; 13.00</p>
+	<a class="title" href="//www.imperial.ac.uk/events/95945/dr-michael-booth-university-of-oxford/" title="Seminar: tbc" target="_blank"><span class="topic">Seminar</span> CANCELLED: Dr Michael Booth, University of Oxford</a>
+</div>
+
+		<!-- wide -->
+<div class="item event news-events__wide">
+	<p class="date">21 July 2020, 14.00 &ndash; 15.00</p>
+	<a class="title" href="//www.imperial.ac.uk/events/121158/metamaterials-webinar-elastic-metasurfaces/" title="Seminar: As part of the MetaMaterials seminar series, we are organizing an online webinar with Prof Richard Craster on 21 July at 14:00. Please follow the registration link for details and join in." target="_blank"><span class="topic">Seminar</span> Metamaterials Webinar – Elastic metasurfaces</a>
+</div>
+
+		<!-- wide -->
+<div class="item event news-events__wide">
+	<p class="date">21 July 2020, 14.00 &ndash; 17.00</p>
+	<a class="title" href="//www.imperial.ac.uk/events/119277/graduate-student-presentations/" title="Meeting: Graduate student presentations" target="_blank"><span class="topic">Meeting</span> Graduate student presentations</a>
+</div>
+
+		<!-- wide -->
+<div class="item event news-events__wide">
+	<p class="date">21 July 2020, 14.00 &ndash; 15.00</p>
+	<a class="title" href="//www.imperial.ac.uk/events/119294/upgrading-waste-with-nanocellulose-dr-koon-yang-lee/" title="Seminar: Join us for this informal webinar with Dr Koon-Yang Lee There will be an opportunity for question and answer after the presentation. To join this webinar you must register in advance and you will be emailed the joining instructions for the webinar." target="_blank"><span class="topic">Seminar</span> Upgrading Waste with (Nano)cellulose – Dr Koon-Yang Lee</a>
+</div>
+
+		
+		
+		
+		
+		
+	</div>
+</div>
+
+		
+		
+		
+		
+		
+		
+	</div>
+</div>
+<!-- End News and Events Module -->
+  <div class="col lg-3 md-12 secondary">
+    <div class="heading">
+      <h2 class="title fake-h3">Alumni</h2>
+      <a class="heading-link" href="/alumni/">Go To Alumni</a>
+    </div>
+    <div class="media-item full alumni equal-height">
+      <a href="/alumni/">
+        <div class="media">
+          <span class="media">
+            <img srcset="/ImageCropToolT4/imageTool/uploaded-images/Alumni--tojpeg_1464879550264_x1.jpg 920w, /ImageCropToolT4/imageTool/uploaded-images/Alumni--tojpeg_1464879550264_x2.jpg 1840w, /ImageCropToolT4/imageTool/uploaded-images/Alumni--tojpeg_1464879550264_x4.jpg 3680w" sizes="(min-width: 1520px) 334px, (min-width: 1024px) calc((100vw - 194px) / 4), (min-width: 930px) calc(100vw - 98px), (min-width: 481px) calc(100vw - 48px), calc(100vw - 32px)" alt="Alumni at reunion event " src="/ImageCropToolT4/imageTool/uploaded-images/Alumni--tojpeg_1464879550264_x1.jpg">
+          </span>
+        </div>
+        <div class="content">
+          <h3>Your network</h3>
+          <p>As an Imperial alumnus, you are a member of a lifelong community of over 190,000 across the globe. Access exclusive alumni benefits, join a local group and keep in touch.</p>
+          <span class="link primary">Find out more</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- end Events Feed / Colour block --><div id="section3" class="divider lg"><a class="section-link" href="#section4">Next Section</a></div><!-- Feature group widget -->
+<div class="row full feature-group">
+    <div class="heading">
+        <h2 class="title">Studying at Imperial</h2>
+        <p class="sub-title">Imperial is the only university in the UK to focus exclusively on science, medicine, engineering and business. 
+<br />
+<br />We are open for Academic Year 2020/21</p>
+    </div>
+    <div class="feature-slider accent" data-group-type="tabs">
+      <!-- Feature group item -->
+<div class="item">
+    <span class="item-header">Our courses</span>
+        <div class="item-content banner default right ">
+            <img srcset="
+                /ImageCropToolT4/imageTool/uploaded-images/180510_mitchell_wayne_laboratory_skills_002--tojpeg_1583940077847_x05.jpg 720w,
+                /ImageCropToolT4/imageTool/uploaded-images/180510_mitchell_wayne_laboratory_skills_002--tojpeg_1583940077847_x1.jpg 1440w,
+                /ImageCropToolT4/imageTool/uploaded-images/180510_mitchell_wayne_laboratory_skills_002--tojpeg_1583940077847_x2.jpg 2880w,
+                /ImageCropToolT4/imageTool/uploaded-images/180510_mitchell_wayne_laboratory_skills_002--tojpeg_1583940077847_x4.jpg 5760w"
+                sizes="
+                    (min-width: 1520px) 1079px,
+                    (min-width: 1025px) calc(75vw - 82px),
+                    (min-width: 930px) calc(75vw - 50px),
+                    100vw"
+                src="/ImageCropToolT4/imageTool/uploaded-images/180510_mitchell_wayne_laboratory_skills_002--tojpeg_1583940077847_x1.jpg" alt="Students in a lab">
+            <div class="caption">
+                <h3 class="title">Our courses</h3>
+                <p>An Imperial education is something special. We will be running our programme of courses in Academic Year 2020/21. Changes to delivery will be made in response to coronavirus (COVID-19) but you will learn from world class experts, have unrivalled opportunities, and be part of a global community. Expect to be challenged and inspired as we open your mind to the latest thinking in your subject area.</p>
+                    <a href="/study/" class="link accent">
+                        Find the right course for you
+                    </a>
+        </div>
+    </div>
+</div>
+<!-- end Feature group item -->
+<!-- Feature group item -->
+<div class="item">
+    <span class="item-header">Campus life</span>
+        <div class="item-content banner default ">
+            <img srcset="
+                /ImageCropToolT4/imageTool/uploaded-images/0000_191111_autumn_library_queens_lawn_001--tojpeg_1583940105577_x05.jpg 720w,
+                /ImageCropToolT4/imageTool/uploaded-images/0000_191111_autumn_library_queens_lawn_001--tojpeg_1583940105577_x1.jpg 1440w,
+                /ImageCropToolT4/imageTool/uploaded-images/0000_191111_autumn_library_queens_lawn_001--tojpeg_1583940105577_x2.jpg 2880w,
+                /ImageCropToolT4/imageTool/uploaded-images/0000_191111_autumn_library_queens_lawn_001--tojpeg_1583940105577_x4.jpg 5760w"
+                sizes="
+                    (min-width: 1520px) 1079px,
+                    (min-width: 1025px) calc(75vw - 82px),
+                    (min-width: 930px) calc(75vw - 50px),
+                    100vw"
+                src="/ImageCropToolT4/imageTool/uploaded-images/0000_191111_autumn_library_queens_lawn_001--tojpeg_1583940105577_x1.jpg" alt="The Queen's Lawn, South Kensington Campus">
+            <div class="caption">
+                <h3 class="title">Campus life</h3>
+                <p>From our South Kensington base, where the College was founded in 1907, Imperial&rsquo;s expertise now spreads across nine campuses &ndash; six medical campuses, our centre for ecology, evolution, and conservation at Silwood Park, and White City Campus, our new 25-acre base for researchers, businesses and healthcare experts to work alongside each other.</p>
+                    <a href="/study/campus-life/" class="link accent">
+                        Explore life on campus
+                    </a>
+        </div>
+    </div>
+</div>
+<!-- end Feature group item -->
+<!-- Feature group item -->
+<div class="item">
+    <span class="item-header">Life in London</span>
+        <div class="item-content banner default ">
+            <img srcset="
+                /ImageCropToolT4/imageTool/uploaded-images/190110_ambassadors_tower_bridge_001--tojpeg_1583940003078_x05.jpg 720w,
+                /ImageCropToolT4/imageTool/uploaded-images/190110_ambassadors_tower_bridge_001--tojpeg_1583940003078_x1.jpg 1440w,
+                /ImageCropToolT4/imageTool/uploaded-images/190110_ambassadors_tower_bridge_001--tojpeg_1583940003078_x2.jpg 2880w,
+                /ImageCropToolT4/imageTool/uploaded-images/190110_ambassadors_tower_bridge_001--tojpeg_1583940003078_x4.jpg 5760w"
+                sizes="
+                    (min-width: 1520px) 1079px,
+                    (min-width: 1025px) calc(75vw - 82px),
+                    (min-width: 930px) calc(75vw - 50px),
+                    100vw"
+                src="/ImageCropToolT4/imageTool/uploaded-images/190110_ambassadors_tower_bridge_001--tojpeg_1583940003078_x1.jpg" alt="Tower Bridge from St Katherine Pier">
+            <div class="caption">
+                <h3 class="title">Life in London</h3>
+                <p>Ranked the best student city in the world by the QS Best Student Cities 2019 index, London is a magnet for students from around the world.</p>
+                    <a href="/study/living-in-london/" class="link accent">
+                        London advantage
+                    </a>
+        </div>
+    </div>
+</div>
+<!-- end Feature group item -->
+<!-- Feature group item -->
+<div class="item">
+    <span class="item-header">Why Imperial?</span>
+        <div class="item-content banner default ">
+            <img srcset="
+                /ImageCropToolT4/imageTool/uploaded-images/7Q8A6288--tojpeg_1583940852404_x05.jpg 720w,
+                /ImageCropToolT4/imageTool/uploaded-images/7Q8A6288--tojpeg_1583940852404_x1.jpg 1440w,
+                /ImageCropToolT4/imageTool/uploaded-images/7Q8A6288--tojpeg_1583940852404_x2.jpg 2880w,
+                /ImageCropToolT4/imageTool/uploaded-images/7Q8A6288--tojpeg_1583940852404_x4.jpg 5760w"
+                sizes="
+                    (min-width: 1520px) 1079px,
+                    (min-width: 1025px) calc(75vw - 82px),
+                    (min-width: 930px) calc(75vw - 50px),
+                    100vw"
+                src="/ImageCropToolT4/imageTool/uploaded-images/7Q8A6288--tojpeg_1583940852404_x1.jpg" alt="Students by the Queen's Tower">
+            <div class="caption">
+                <h3 class="title">Why Imperial?</h3>
+                <p>Named 9th best university in the QS World University Rankings 2020 and number two in the UK for graduate prospects in The Complete University Guide 2020.</p>
+                    <a href="/study/ug/why-imperial/" class="link accent">
+                        See more reasons to choose Imperial
+                    </a>
+        </div>
+    </div>
+</div>
+<!-- end Feature group item -->
+
+    </div>
+</div>
+<!-- end Feature group widget --><div id="section4" class="divider lg"><a class="section-link" href="#section5">Next Section</a></div><!-- Horizontal colour block 2x2 -->
+<div class="row">
+    <div class="heading">
+        <h2 class="title">Research and Innovation</h2>
+        <p class="sub-title">Imperial people share ideas, expertise and technology to find answers to the big scientific questions and tackle global challenges</p>
+    </div>
+    <div class="col lg-6 reverse equal-height">
+        <div class="media-item full primary horizontal media-item__colour-block">
+            <a href="/about/leadership-and-strategy/strategy/">
+                <div class="col lg-4 sm-12 media">
+                    <img srcset="
+                        /ImageCropToolT4/imageTool/uploaded-images/strategy--tojpeg_1584468761509_x05.jpg 216w,
+                        /ImageCropToolT4/imageTool/uploaded-images/strategy--tojpeg_1584468761509_x1.jpg 432w, 
+                        /ImageCropToolT4/imageTool/uploaded-images/strategy--tojpeg_1584468761509_x2.jpg 864w, 
+                        /ImageCropToolT4/imageTool/uploaded-images/strategy--tojpeg_1584468761509_x4.jpg 1484w" 
+
+                        sizes="
+                        (min-width: 1500px) 229px,
+                        (min-width: 1024px) calc((50vw - 73px) / 3),
+                        (min-width: 768px) calc((50vw - 32px) / 3),
+                        (min-width: 481px) calc((100vw - 64px) / 2),
+                        calc(100vw - 32px)" 
+
+                        alt="PhD student Noura Zamzam working on the 'Spitfire' laser system to make femtosecond infrared measurements on photosynthesis."
+
+                        src="/ImageCropToolT4/imageTool/uploaded-images/strategy--tojpeg_1584468761509_x1.jpg">
+                </div>
+                <div class="col lg-8 sm-12 content">
+                    <h3 class="title">Strategy 2015-2020</h3>
+                    <p>Find out how Imperial is organised to tackle quality of life and quality of environment challenges faced by the world today</p>
+                    <p>
+                        <span class="link primary">Read the 2015-2020 strategy </span>
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="media-item full secondary reverse horizontal media-item__colour-block">
+            <a href="/research-and-innovation/support-for-partners/">
+                <div class="col lg-4 sm-12 media">
+                     <img srcset="
+                        /ImageCropToolT4/imageTool/uploaded-images/services-for-partners--tojpeg_1584469110993_x05.jpg 216w,
+                        /ImageCropToolT4/imageTool/uploaded-images/services-for-partners--tojpeg_1584469110993_x1.jpg 432w, 
+                        /ImageCropToolT4/imageTool/uploaded-images/services-for-partners--tojpeg_1584469110993_x2.jpg 864w, 
+                        /ImageCropToolT4/imageTool/uploaded-images/services-for-partners--tojpeg_1584469110993_x4.jpg 1484w" 
+
+                        sizes="
+                        (min-width: 1500px) 229px,
+                        (min-width: 1024px) calc((50vw - 73px) / 3),
+                        (min-width: 768px) calc((50vw - 32px) / 3),
+                        (min-width: 481px) calc((100vw - 64px) / 2),
+                        calc(100vw - 32px)"
+
+                        alt="Two engineers working on some machinery" 
+
+                        src="/ImageCropToolT4/imageTool/uploaded-images/services-for-partners--tojpeg_1584469110993_x1.jpg">
+                </div>
+                <div class="col lg-8 sm-12 content">
+                    <h3 class="title">Services for partners</h3>
+                    <p>Find out more about how Imperial creates value from ideas through collaboration, consultancy and commercialisation</p>
+                    <p>
+                        <span class="link primary">Imperial&rsquo;s services for partners</span>
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col lg-6 reverse equal-height">
+        <div class="media-item full info horizontal media-item__colour-block">
+            <a href="/research-and-innovation/impact/">
+                <div class="col lg-4 sm-12 media">
+                    <img srcset="
+                    /ImageCropToolT4/imageTool/uploaded-images/research-impact--tojpeg_1584469039182_x05.jpg 216w,
+                    /ImageCropToolT4/imageTool/uploaded-images/research-impact--tojpeg_1584469039182_x1.jpg 432w, 
+                    /ImageCropToolT4/imageTool/uploaded-images/research-impact--tojpeg_1584469039182_x2.jpg 864w, 
+                    /ImageCropToolT4/imageTool/uploaded-images/research-impact--tojpeg_1584469039182_x4.jpg 1484w" 
+
+                    sizes="
+                    (min-width: 1500px) 229px,
+                    (min-width: 1024px) calc((50vw - 73px) / 3),
+                    (min-width: 768px) calc((50vw - 32px) / 3),
+                    (min-width: 481px) calc((100vw - 64px) / 2),
+                    calc(100vw - 32px)" 
+
+                    alt="Dianna Nguyen -  Departmental Technician MSRH, Specialist Chemical Technician, Chemistry, White City" 
+                    src="/ImageCropToolT4/imageTool/uploaded-images/research-impact--tojpeg_1584469039182_x1.jpg">
+                </div>
+                <div class="col lg-8 sm-12 content">
+                    <h3 class="title">Research impact</h3>
+                    <p>A commitment to the application of research for the benefit of society has been in the College&rsquo;s mission since its founding in 1907</p>
+                    <p>
+                        <span class="link primary">Impact case studies </span>
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="media-item full default reverse horizontal media-item__colour-block">
+            <a href="/research-and-innovation/support-for-staff/">
+                <div class="col lg-4 sm-12 media">
+                     <img srcset="
+                        /ImageCropToolT4/imageTool/uploaded-images/support-for-staff--tojpeg_1584469207028_x05.jpg 216w,
+                        /ImageCropToolT4/imageTool/uploaded-images/support-for-staff--tojpeg_1584469207028_x1.jpg 432w, 
+                        /ImageCropToolT4/imageTool/uploaded-images/support-for-staff--tojpeg_1584469207028_x2.jpg 864w, 
+                        /ImageCropToolT4/imageTool/uploaded-images/support-for-staff--tojpeg_1584469207028_x4.jpg 1484w" 
+
+                        sizes="
+                        (min-width: 1500px) 229px,
+                        (min-width: 1024px) calc((50vw - 73px) / 3),
+                        (min-width: 768px) calc((50vw - 32px) / 3),
+                        (min-width: 481px) calc((100vw - 64px) / 2),
+                        calc(100vw - 32px)"  
+
+                        alt="A Mental Health First Aider teaching the Mental Health First Aid (MHFA) standard course." 
+                        src="/ImageCropToolT4/imageTool/uploaded-images/support-for-staff--tojpeg_1584469207028_x1.jpg">
+                </div>
+                <div class="col lg-8 sm-12 content">
+                    <h3 class="title">Support for staff</h3>
+                    <p>Imperial offers a wide range of expert help to researchers around funding, contract management, research integrity and governance</p>
+                    <p>
+                        <span class="link primary">Discover our network of support </span>
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- end Horizontal colour block 2x2 -->    </div><!-- end content -->
+</div><!-- end page -->
+<!-- Social -->
+            <div class="social cf container">
+  <a href="javascript:window.print();" class="share-link share-print">Print</a>
+  <a target="_blank" class="share-link share-mail" href="mailto:?subject=Imperial College London&body=https://www.imperial.ac.uk/" class="share-link share-mail">Email</a></div>
+
+        <!-- end Social -->
+<footer class="footer">
+  <div class="container">
+   <h1 class="sr-only">Contact &amp; Links</h1>
+     
+<!-- navigation object : Local Footer -->
+    <!-- navigation object : Comment Start --><!-- navigation object : Global Footer pre direct edit --><!-- begin Global footer -->
+<section class="footer-links row equal-height-columns">
+    <h2 class="sr-only">Useful Links</h2>
+    <div class="col lg-2 md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Information for
+            </h3>
+            <ul>
+<li><a href="/study/">Prospective students</a></li>
+<li><a href="/alumni/">Alumni</a></li>
+<li><a href="/jobs/">Jobs</a></li>
+<li><a href="/research-and-innovation/support-for-partners/">Partners and business</a></li>
+<li><a href="/media/">Media</a></li>
+<li><a href="/giving/">Donors</a></li>
+<li><a href="/parents/">Parents</a></li>
+<li><a href="/admin-services/events-and-hospitality/">Conference organisers</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Top links
+            </h3>
+            <ul>
+<li><a href="/about/imperial-and-the-european-union/">Imperial and the EU</a></li>
+<li><a href="https://www.imperial.ac.uk/office365" target="_blank">Outlook 365 web access</a></li>
+<li><a href="/admin-services/ict/contact-ict-service-desk/">Contact the ICT Service Desk</a></li>
+<li><a href="/admin-services/library/">Library</a></li>
+<li><a href="/admin-services/ict/self-service/teaching-learning/blackboard/">Blackboard</a></li>
+<li><a href="/admin-services/sport/">Sport</a></li>
+<li><a href="/admin-services/registry/term-dates/">Term dates</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Students
+            </h3>
+            <ul>
+<li><a href="/students/">Imperial students</a></li>
+<li><a href="https://www.imperialcollegeunion.org/" target="_blank">Imperial College Union</a></li>
+<li><a href="/students/student-hub/">Student Hub</a></li>
+<li><a href="/admin-services/careers/">Careers Service</a></li>
+<li><a href="/students/online-services/mobile/">Imperial Mobile</a></li>
+<li><a href="/students/graduation/">Graduation</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Staff
+            </h3>
+            <ul>
+<li><a href="/staff/">Staff main page</a></li>
+<li><a href="/admin-services/ict/self-service/admin-systems/icis/">ICIS</a></li>
+<li><a href="/admin-services/human-resources/procedures/">HR Procedures</a></li>
+<li><a href="/admin-services/human-resources/pay-and-pensions/salaries-terms-and-conditions/">Salaries, terms and conditions</a></li>
+<li><a href="/admin-services/human-resources/pay-and-pensions/pensions/">Pension schemes</a></li>
+<li><a href="/research-and-innovation/support-for-staff/">Research support</a></li>
+<li><a href="/staff/new-staff/">Information for new staff</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Imperial partners
+            </h3>
+            <ul>
+<li><a href="http://www.imperial.nhs.uk/" target="_blank">Imperial College Healthcare NHS Trust</a></li>
+<li><a href="http://www.ahsc.org.uk/" target="_blank">Imperial College Academic Health Science Centre</a></li>
+<li><a href="http://imperialcollegehealthpartners.com/" target="_blank">Imperial College Health Partners</a></li>
+<li><a href="http://www.imperial-consultants.co.uk/" target="_blank">Imperial Consultants</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                A-Z
+            </h3>
+            <ul>
+<li><a href="/faculties-and-departments/">Faculties, departments and institutes</a></li>
+<li><a href="/a-z-research/">Research groups</a></li>
+<li><a href="/admin-services/">Administration and support services</a></li>
+<li><a href="http://www.imperial.ac.uk/collegedirectory/" target="_blank">People finder</a></li>
+</ul>
+        </nav>
+    </div>
+</section>
+<!-- Footer Links End -->
+<section class="footer-common row" itemscope itemtype="http://schema.org/CollegeOrUniversity">
+    <h2 class="sr-only">College Information</h2>
+    <div class="col lg-2 md-3 sm-12" id="footer-contact">
+        <a href="#" class="footer-brand">
+            <span itemprop="name">Imperial College London<span>
+        </a>
+        <meta itemprop="url" content="https://www.imperial.ac.uk/">
+        <meta itemprop="image" content="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/homepage-default-social--tojpeg_1523872141375_x1.jpg">
+        <meta itemprop="logo" content="https://www.imperial.ac.uk/assets/website/images/logo/imperial-600.png">
+        <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Imperial_College_London">
+        <h3 class="sr-only">Address</h3>
+        <div class="address">
+            <p itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
+                <span itemprop="name">South Kensington Campus</span><br /><span itemprop="addressLocality">London</span> <span itemprop="postalCode">SW7 2AZ</span>, <span itemprop="addressCountry">UK</span><br /><span itemprop="telephone">tel: +44 (0)20 7589 5111</span>
+                <br />
+                <a href="/visit/campuses/"
+                class="location-link">
+                Campuses &amp; maps
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="col lg-10 md-9 sm-12" id="footer-connect">
+        <h3 class="title">Follow Imperial</h3>
+        <div class="footer-social sm-10">
+            <a href="https://www.facebook.com/imperialcollegelondon" class="facebook" target="_blank" itemprop="sameAs">Facebook</a>
+            <a href="https://twitter.com/imperialcollege" class="twitter" target="_blank" itemprop="sameAs">Twitter</a>
+            <a href="https://www.youtube.com/user/imperialcollegevideo" class="youtube" target="_blank" itemprop="sameAs">You Tube</a>
+            <a href="https://www.linkedin.com/edu/imperial-college-london-12598" class="linkedin" target="_blank" itemprop="sameAs">Linked in</a>
+            <a href="https://instagram.com/imperialcollege" class="instagram" target="_blank" itemprop="sameAs">Instagram</a>
+            <a href="https://www.weibo.com/ImperialUK" class="weibo" target="_blank" itemprop="sameAs">Weibo</a>
+            
+        </div>
+
+    <nav id="footer-info">
+        <h3 class="sr-only">Site Information</h3>
+        <ul>
+            
+        <li>
+    <a href="/sitemap/" >Sitemap</a>
+   </li>
+  
+            
+        <li>
+    <a href="/about-the-site/accessibility/" >Accessibility</a>
+   </li>
+  
+
+            
+        <li>
+    <a href="/admin-services/finance/purchasing/related-policy-statements/modern-slavery/" >Modern slavery statement</a>
+   </li>
+  
+
+            
+        <li>
+    <a href="/about-the-site/privacy/" >Privacy notice</a>
+   </li>
+  
+
+            
+        <li>
+    <a href="/about-the-site/use-of-cookies/" >Use of cookies</a>
+   </li>
+  
+
+    
+    <li>
+    <a href="/error/report/" >Report incorrect content</a>
+    </li>
+    
+            <li class="copyright">
+                <span>&copy;
+                    2020                    Imperial College London
+                </span>
+            </li>
+            <li class="hide-sm">
+ <a class="t4Edit-page" href="https://www.imperial.ac.uk/terminalfour/SiteManager?ctfn=content&amp;fnno=30&amp;sid=250">Log in</a>
+<!-- navigation object : Global Footer post direct edit -->                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </section>
+          </div>
+        <!-- end Global footer -->
+      </footer>
+
+    </div><!--/#content-box -->
+  </body>
+</html>
+<!-- end page layout footer -->

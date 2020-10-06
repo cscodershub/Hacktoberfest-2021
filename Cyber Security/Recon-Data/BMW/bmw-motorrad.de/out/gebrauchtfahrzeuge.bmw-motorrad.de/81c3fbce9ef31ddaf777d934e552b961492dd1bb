@@ -1,0 +1,19 @@
+https://gebrauchtfahrzeuge.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: gebrauchtfahrzeuge.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Redirect
+< Location: https://gebrauchtfahrzeuge.bmw-motorrad.de/DE/
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+< Date: Tue, 11 Aug 2020 04:45:30 GMT
+< Set-Cookie: BWROUTEID=3337318deb03c0fed34d817fd5e63a68.1; Path=/; HttpOnly; Secure
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Content-Type-Options: nosniff
+< Content-Length: 199
+
+<head><title>Dokument verschoben</title></head>
+<body><h1>Objekt verschoben</h1>Dieses Dokument befindet sich möglicherweise <a HREF="https://gebrauchtfahrzeuge.bmw-motorrad.de/DE/">hier</a>.</body>

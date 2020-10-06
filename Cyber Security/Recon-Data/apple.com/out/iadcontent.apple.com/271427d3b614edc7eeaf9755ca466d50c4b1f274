@@ -1,0 +1,19 @@
+http://iadcontent.apple.com/
+
+> GET / HTTP/1.1
+> Host: iadcontent.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 176
+< Akamai-Age-Ms: -1
+< Expires: Thu, 30 Apr 2020 21:41:20 GMT
+< Date: Thu, 30 Apr 2020 21:41:20 GMT
+< Server: AkamaiGHost
+
+<HTML><HEAD><TITLE>Error</TITLE></HEAD><BODY>
+An error occurred while processing your request.<p>
+Reference&#32;&#35;102&#46;6fa91d26&#46;1588282880&#46;c418e73
+</BODY></HTML>

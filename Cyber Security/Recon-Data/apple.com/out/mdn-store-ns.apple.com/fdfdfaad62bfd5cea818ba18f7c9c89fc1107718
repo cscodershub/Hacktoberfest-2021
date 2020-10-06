@@ -1,0 +1,13 @@
+http://mdn-store-ns.apple.com/
+
+> GET / HTTP/1.1
+> Host: mdn-store-ns.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Security-Policy: frame-ancestors 'none'
+< Location: https://mdn-store-ns.apple.com/
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+

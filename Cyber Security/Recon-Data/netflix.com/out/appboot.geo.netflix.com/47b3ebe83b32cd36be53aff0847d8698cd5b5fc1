@@ -1,0 +1,52 @@
+http://appboot.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: appboot.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Netflix.proxy.execution-Time: 4
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Last-Modified: Tue, 02 Jun 2020 12:06:04 GMT
+< Server: appboot- i-0c561f4f49054f4b1
+< Set-Cookie: memclid=548d1793-5155-42df-8488-bee70f252c5b; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:27 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBELTqpsXRkWAjX6OMrQaL71lA0%2BjErXS5S5237hTB5bszTfXczQisPSrqVEhgIbHJROXVZ0HitvRWHuFHF0XN62bDqtPUyTzJDbZc6K148gr9JQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:27 GMT; Path=/; Domain=.netflix.com
+< Content-Length: 487
+< Content-Type: text/html
+< X-Netflix.nfstatus: 1_1
+< X-Originating-Url: http://appboot.geo.netflix.com/
+< Accept-Ranges: bytes
+< Date: Wed, 17 Jun 2020 05:36:27 GMT
+< Etag: W/"487-1591099564000"
+< Via: 1.1 i-00a8c5a8b9ec74b9f (eu-west-1)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix Appboot</title>
+  <!-- CSS -->
+  <style type="text/css">
+    body {
+      margin: 0px auto;
+      width: 100%;
+    }
+    div.container {
+      margin: 0px auto;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    div.header1 {
+      font-size: 300%;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header1">
+    Netflix appboot
+  </div>
+</div>
+</body>
+</html>

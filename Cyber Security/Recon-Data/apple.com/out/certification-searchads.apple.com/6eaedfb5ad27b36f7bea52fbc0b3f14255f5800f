@@ -1,0 +1,31 @@
+https://certification-searchads.apple.com/
+
+> GET / HTTP/1.1
+> Host: certification-searchads.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/plain
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+< Expires: 0
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Vary: Origin
+< Vary: Access-Control-Request-Method
+< Vary: Access-Control-Request-Headers
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Location: https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=6758781ae1cb83deccd075f9d2073ad4ab205dd59804db91de6c47071903e7f4&baseURL=https://certification-searchads.apple.com/&language=EN_US
+< X-B3-Traceid: b57b29544ae3c22f
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: no-referrer-when-downgrade
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:29:23 GMT
+< Content-Length: 0
+< Set-Cookie: plbroute_bfb2ded692e43dbcb9913a837b6ddc21=5r/UiLWnWSV7o72KnhXa/hZjK1lUkvJafiiAFTGNN2w2qomh; Expires=Fri, 01-May-2020 21:29:23 GMT; Domain=certification-searchads.apple.com; Path=/
+< Set-Cookie: JSESSIONID=0644050A60DB565A99EF2A8709A12196; Path=/; Secure; HttpOnly
+

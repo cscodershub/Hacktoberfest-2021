@@ -1,0 +1,26 @@
+https://local.sec.samsung.com/
+
+> GET / HTTP/1.1
+> Host: local.sec.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Wed, 10 Jun 2020 05:36:25 GMT
+< Content-Length: 227
+< Set-Cookie: TS0163e2eb=01ca8b16c2e1950a785cf196569cbb835a555f51e7d9b039f3d881c6a9a149ca3a390fa9308a3981177a836823a3b8fdd1b725f6a7; Path=/
+< Content-Type: text/html
+< Last-Modified: Tue, 27 Feb 2018 01:52:40 GMT
+< Accept-Ranges: bytes
+< Etag: "f6228fa66dafd31:0"
+
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <script language=javascript>
+        top.location.href = "http://www.samsung.com/sec/";
+    </script>
+</head>
+<body>
+</body>
+</html>

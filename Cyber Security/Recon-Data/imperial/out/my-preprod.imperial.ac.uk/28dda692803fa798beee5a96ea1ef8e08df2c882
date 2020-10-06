@@ -1,0 +1,18 @@
+http://my-preprod.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: my-preprod.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Type: text/html; charset=us-ascii
+< Server: Microsoft-HTTPAPI/2.0
+< Date: Sat, 18 Jul 2020 13:55:00 GMT
+< Content-Length: 326
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>

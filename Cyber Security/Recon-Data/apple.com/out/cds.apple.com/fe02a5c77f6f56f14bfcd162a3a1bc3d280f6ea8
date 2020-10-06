@@ -1,0 +1,22 @@
+http://cds.apple.com/
+
+> GET / HTTP/1.1
+> Host: cds.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 162
+< Location: https://cds-prn-sh.apple.com/
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:29:29 GMT
+< X-Cache: TCP_MISS from a125-99-55-107.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Cache-Remote: TCP_REFRESH_MISS from a125-99-55-105.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (S)
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

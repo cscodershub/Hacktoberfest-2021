@@ -1,0 +1,17 @@
+http://cbp-eu.nccp.test.netflix.com/
+
+> GET / HTTP/1.1
+> Host: cbp-eu.nccp.test.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Set-Cookie: nfvdid=BQFmAAEBEP2IU06jOQUtUk0v8dniYLlA5FiScbmz6zTDA203olrfAax_gldYzPP9JawatBOzr2I5qFBp4FhOWLAKYox8a-GlaKHJIs67A1bdv3W538ZatQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=18f01298-8c66-4f68-b78e-12a28322cf79; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:39:14 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.proxy.execution-Time: 5
+< X-Originating-Url: http://cbp-eu.nccp.test.netflix.com/
+< Server: api-int UNKNOWN
+< X-Netflix.nfstatus: 1_2
+< Content-Length: 7
+< Via: 1.1 i-05c0eab070870ebd3 (eu-west-1)
+
+BLOCKED

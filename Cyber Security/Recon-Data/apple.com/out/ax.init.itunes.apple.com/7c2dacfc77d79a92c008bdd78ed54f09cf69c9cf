@@ -1,0 +1,25 @@
+https://ax.init.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: ax.init.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Vary: X-Apple-Store-Front, Cookie, User-Agent
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Length: 282
+< Expires: Thu, 30 Apr 2020 21:30:15 GMT
+< Content-Type: text/html
+< Date: Thu, 30 Apr 2020 21:30:15 GMT
+< X-Apple-Partner: origin.0
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;ax&#46;init&#46;itunes&#46;apple&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;47c22c31&#46;1588282215&#46;1dabb043
+</BODY>
+</HTML>

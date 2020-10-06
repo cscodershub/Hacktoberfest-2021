@@ -1,0 +1,31 @@
+http://demos.boomi.com/
+
+> GET / HTTP/1.1
+> Host: demos.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Styx-Req-Id: 828c56eb-de51-11ea-90a5-aae45f1fff19
+< Cache-Control: public, max-age=86400
+< Content-Type: text/html
+< Content-Length: 162
+< Date: Sat, 15 Aug 2020 09:15:58 GMT
+< X-Timer: S1597482958.081219,VS0,VE1
+< Vary: Cookie, Cookie
+< Server: nginx
+< X-Cache: HIT, HIT
+< X-Cache-Hits: 1, 1
+< Age: 57733
+< Accept-Ranges: bytes
+< Via: 1.1 varnish
+< Location: https://demos.boomi.com/
+< X-Pantheon-Styx-Hostname: styx-fe3-b-7ccfb4b767-xq658
+< X-Served-By: cache-mdw17366-MDW, cache-bom4727-BOM
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

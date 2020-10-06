@@ -1,0 +1,19 @@
+https://imgstats.apple.com/
+
+> GET / HTTP/1.1
+> Host: imgstats.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Thu, 30 Apr 2020 21:21:20 GMT
+< Content-Type: text/html
+< Content-Length: 169
+< Server: nginx/1.10.0
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body bgcolor="white">
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx/1.10.0</center>
+</body>
+</html>

@@ -1,0 +1,23 @@
+http://wwwf.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: wwwf.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: BIGipServerPOOL-LINUXFARM2011-80-v4=!N6ozOdxeNHZmEYcw9zyYKRlaA4tr3kYbLR7MElQcSkO49U/oiBONZez7/qtdpawrRWjB9j7x59K5g9nD+Ny/JTY4KYVR+ZeCLdgP+JEhbQ==; path=/; Httponly
+< Date: Sat, 18 Jul 2020 13:54:27 GMT
+< Server: Apache
+< Location: http://www.imperial.ac.uk/
+< Content-Length: 303
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.imperial.ac.uk/">here</a>.</p>
+<hr>
+<address>Apache Server at wwwf.imperial.ac.uk Port 80</address>
+</body></html>

@@ -1,0 +1,25 @@
+https://drive.boozt.com/
+
+> GET / HTTP/1.1
+> Host: drive.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 525 Origin SSL Handshake Error
+< Set-Cookie: __cfduid=da810e3ec4c7c13211c146015274e1b491597154873; expires=Thu, 10-Sep-20 14:07:53 GMT; path=/; domain=.boozt.com; HttpOnly; SameSite=Lax; Secure
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Content-Type: text/html
+< Content-Length: 207
+< Cache-Control: no-store, no-cache
+< Cf-Request-Id: 047f7266c200000223622c6200000001
+< Server: cloudflare
+< Cf-Ray: 5c1286846f080223-SIN
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Date: Tue, 11 Aug 2020 14:07:53 GMT
+
+<html>
+<head><title>525 Origin SSL Handshake Error</title></head>
+<body bgcolor="white">
+<center><h1>525 Origin SSL Handshake Error</h1></center>
+<hr><center>cloudflare-nginx</center>
+</body>
+</html>

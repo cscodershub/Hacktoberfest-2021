@@ -1,0 +1,10 @@
+http://next.gleam.io/
+
+> GET / HTTP/1.1
+> Host: next.gleam.io
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: https://next.gleam.io/
+

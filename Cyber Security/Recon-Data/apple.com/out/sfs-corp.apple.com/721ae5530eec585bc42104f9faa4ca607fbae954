@@ -1,0 +1,41 @@
+https://sfs-corp.apple.com/
+
+> GET / HTTP/1.1
+> Host: sfs-corp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Content-Type: text/html; charset=utf-8
+< Server: Apple
+< Set-Cookie: rn-sfs-corporate-external-prod=237f4f5f6bae6a2910d32d75733e88de; expires=Thu, 07-May-20 21:28:39 GMT; max-age=604800; domain=.apple.com; httponly; secure; path=/
+< Set-Cookie: sfs=pu5u8mft7j85vma9onogtsofv0; path=/; HttpOnly
+< Cache-Control: max-age=43200, private, must-revalidate
+< Host: sfs-corp.apple.com
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Thu, 30 Apr 2020 21:28:39 GMT
+< Pragma: no-cache
+< Vary: Accept-Encoding,User-Agent
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" media="screen" href="/templates/1a902e328d427b0f510fdf83c91a96d3/css/reset.css" />
+		<link type="text/css" rel="stylesheet" media="screen" href="/templates/411a7a6ce139c3e973fbdf99dca5e203/css/login_sfs.css" />
+	</head>
+	<body>
+		<div id="logo"></div>
+		<form id="saml_form" method="post" action="https://idmsac.apple.com/IDMSWebAuth/SAMLLogin">
+			<h2>Storefront Support</h2>
+			<div class="error-wrapper ret"></div>
+			<div><input type="button" value="Sign in" onclick="document.getElementById('saml_form').submit();" /></div>
+						<input type="hidden" name="SAMLRequest" value="PHNhbWxwOkF1dGhuUmVxdWVzdCB4bWxuczpzYW1scD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnByb3RvY29sIiB4bWxuczpzYW1sPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6YXNzZXJ0aW9uIiBJRD0iXzZmMWJlZjY5MGQxM2Q1YmNhOTI5YjAxMjA4MDM2NGUwIiBWZXJzaW9uPSIyLjAiIElzc3VlSW5zdGFudD0iMjAyMC0wNC0zMFQyMToyODozOVoiIERlc3RpbmF0aW9uPSJodHRwczovL2lkbXNhYy5hcHBsZS5jb20vSURNU1dlYkF1dGgvU0FNTExvZ2luIiBBc3NlcnRpb25Db25zdW1lclNlcnZpY2VVUkw9Imh0dHBzOi8vc2ZzLWNvcnAuYXBwbGUuY29tL2F1dGhlbnRpY2F0aW9uIiBQcm90b2NvbEJpbmRpbmc9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDpiaW5kaW5nczpIVFRQLVBPU1QiPjxzYW1sOklzc3Vlcj5mMjIzYjkwMGI2ZTgyMmQyYTc3NDQ4YWRlYmQzMzllMDY4NWE4ZTQzNDE3Nzc0ZTY4YzYwYzBkZDFjMzUyMzdjPC9zYW1sOklzc3Vlcj48c2FtbHA6TmFtZUlEUG9saWN5IEZvcm1hdD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOm5hbWVpZC1mb3JtYXQ6dHJhbnNpZW50IiBBbGxvd0NyZWF0ZT0idHJ1ZSIvPjwvc2FtbHA6QXV0aG5SZXF1ZXN0Pg==" />
+						<input type="hidden" name="RelayState" value="https://sfs-corp.apple.com/authentication" />
+					</form>
+	</body>
+</html>

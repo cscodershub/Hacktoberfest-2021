@@ -1,0 +1,25 @@
+https://newsroom-notifications-dr.apple.com/
+
+> GET / HTTP/1.1
+> Host: newsroom-notifications-dr.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 162
+< Location: http://www.apple.com/errors/us_error.html/
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:55 GMT
+< X-Frame-Options: SAMEORIGIN
+< Host: newsroom-notifications-dr.apple.com
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

@@ -1,0 +1,20 @@
+https://lyncdiscover.bmw.de/
+
+> GET / HTTP/1.1
+> Host: lyncdiscover.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: application/json
+< X-Ms-Correlation-Id: 2147512976
+< Client-Request-Id: cf88dcf9-c9ac-40d4-b2f5-16509404e3ee
+< Pragma: no-cache
+< X-Ms-Server-Fqdn: smucucpfe41.europe.bmw.corp
+< X-Content-Type-Options: nosniff
+< Date: Tue, 11 Aug 2020 04:51:12 GMT
+< Cache-Control: no-cache
+< Expires: -1
+< Vary: Accept-Encoding
+< Set-Cookie: MS-WSMAN=272970400.23313.0000; path=/; Httponly; Secure
+
+{"_links":{"self":{"href":"https://ucemeafrepoolws02.bmwgroup.net/Autodiscover/AutodiscoverService.svc/root?originalDomain=bmw.de"},"user":{"href":"https://ucemeafrepoolws02.bmwgroup.net/Autodiscover/AutodiscoverService.svc/root/oauth/user?originalDomain=bmw.de"},"xframe":{"href":"https://ucemeafrepoolws02.bmwgroup.net/Autodiscover/XFrame/XFrame.html"}}}

@@ -1,0 +1,26 @@
+https://c.apple.com/
+
+> GET / HTTP/1.1
+> Host: c.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:22 GMT
+< Content-Type: text/html
+< Etag: "af-57779b2703700"
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 175
+< Last-Modified: Fri, 05 Oct 2018 11:37:32 GMT
+< Accept-Ranges: bytes
+
+<html>
+	<head>
+	<meta http-equiv="refresh" content="0; url=http://mynews.apple.com/subscribe" />
+
+		<title>Landing Page - IT-OEL7</title>
+	</head>
+	<body>
+		
+	</body>
+</html>

@@ -1,0 +1,21 @@
+https://www.parcel-api.boozt.com/
+
+> GET / HTTP/1.1
+> Host: www.parcel-api.boozt.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Cf-Ray: 5c1286651d0a179b-SIN
+< Cf-Request-Id: 047f7253330000179b3eb18200000001
+< Server: cloudflare
+< Date: Tue, 11 Aug 2020 14:07:48 GMT
+< Content-Type: text/html
+< Content-Length: 151
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>

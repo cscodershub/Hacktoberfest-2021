@@ -1,0 +1,484 @@
+https://build.coursera.org/
+
+> GET / HTTP/1.1
+> Host: build.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Length: 24256
+< Server: AmazonS3
+< X-Cache: Hit from cloudfront
+< Content-Type: text/html
+< Date: Mon, 10 Aug 2020 04:45:28 GMT
+< X-Amz-Cf-Id: eVmh20mQs8SyULIimt1JTAb3gCsebqZYdux5UdP8mYnh-degxrFhCg==
+< Cache-Control: max-age=600
+< Last-Modified: Mon, 18 Jan 2016 23:57:32 GMT
+< X-Amz-Version-Id: S0mEqKiqHFo6aSVezNu7Kvx7CGEw0OJA
+< Via: 1.1 aff7307e30fc02e21949086c9a7f962a.cloudfront.net (CloudFront)
+< Etag: "cf71680e15c5e535db8e6a508348cdc8"
+< X-Amz-Cf-Pop: MAA50-C2
+< Age: 370
+
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Coursera Technology</title>
+  <meta name="author" content="Coursera Engineering">
+
+  
+  <meta name="description" content="tl;dr: I recently spoke at html5devconf about how Coursera internationalizes (i18n) and localizes (i10n) our web app. This blog recaps the talk. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="https://tech.coursera.org">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/bootstrap3.min.css" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/clean.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Coursera Technology" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-28377374-7']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <div class="container" id="blog-body">
+  	<div role="article">
+      <div>
+        <div style="overflow:auto;margin-bottom:25px;margin-top:20px;padding-bottom:25px;border-bottom: solid rgb(226, 226, 226) 1px;" class="row">
+          <div class="col-md-7 col-md-offset-1">
+            <a href="/" style="color:#333;"><h2 style="margin-bottom:0px;margin-top:0px;">Tech.Coursera</h2></a>
+            <small style="color:#787878">building for education. one byte at a time.</small>
+          </div>
+          <div class="col-md-3" style="text-align:right;">
+            <a href="https://www.coursera.org">Coursera</a> | 
+            <a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-10 col-md-offset-1">
+            <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header style="margin-bottom:25px;">
+    
+      <h1 class="entry-title" style="margin-top:0px;"><a href="/blog/2016/01/20/6-steps-to-i18n-success-for-your-web-app/">6 Steps to i18n Success for Your Web App</a></h1>
+    
+    
+      <div class="meta" style="text-align:right;margin-top:-25px;">
+        <span style="display:none;">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-01-20T01:00:00+00:00" pubdate data-updated="true">Jan 20<span>th</span>, 2016</time>
+        </span>
+        
+         (<a href="/blog/2016/01/20/6-steps-to-i18n-success-for-your-web-app/#disqus_thread"
+             data-disqus-identifier="https://tech.coursera.org/blog/2016/01/20/6-steps-to-i18n-success-for-your-web-app/">Comments</a>)
+        
+      </div>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="https://dnsta5v53r71w.cloudfront.net/images/i18n/gtc.png" style="width:200px;" alt="source map segment" class="img-responsive center-block" /></p>
+
+<p><strong>tl;dr:</strong> <em>I <a href="http://html5devconf.com/speakers/leith_abdulla.html#session">recently spoke at html5devconf</a> about how Coursera internationalizes (i18n) and localizes (i10n) our web app. This blog recaps the talk.</em></p>
+
+<p>Coursera’s has the mission to make online education as accessible and affordable as possible. Over half of our learners are outside of the US, making i18n critical to how we fulfill our mission. </p>
+
+<p>This means that our team has had to learn a lot about i18n and l10n.</p>
+
+<blockquote>
+  <p><strong>i18n</strong>: how you design your tech stack so all strings can be replaced with different language strings.<br />
+<strong>l10n</strong>: refers to when you actually translate the strings of your UI into a different language.</p>
+</blockquote>
+
+<p>Let’s talk about the first 6 steps needed to begin building your first localized app. </p>
+
+<h1 id="step-1-choose-an-i18n-library">Step 1. Choose an i18n library</h1>
+
+<p>There are a number of i18n libraries to choose from. A compact i18n library will do two things for you:</p>
+
+<ol>
+  <li>replaces all wrapped strings with a translated string</li>
+  <li>determines how you will organize your translated strings</li>
+</ol>
+
+<p>The best library for your team depends on some of your other library choices. Angular, react, webpack, requirejs and even jquery all have i18n libraries that they integrate with. </p>
+
+<p>Some of our favorite solutions have been <a href="http://airbnb.io/polyglot.js/">polygot.js</a> (by airbnb) and <a href="https://github.com/requirejs/i18n/">requirejs’ i18n plugin</a>. </p>
+
+<p>If you don’t want to spend too much time on this decision, you can’t go wrong with the simplicity of polyglot. You can always move to another library once you learn more.</p>
+
+<p>We started off with requirejs i18n plugin and some <a href="https://github.com/coursera/yudi">other in-house tools</a> and soon we will be transitioning into a custom webpack plugin.</p>
+
+<h1 id="step-2-determine-the-users-language">Step 2. Determine the user’s language</h1>
+
+<p>Next, you’ll need to determine what language to serve up to your users.</p>
+
+<p>There are three different techniques you can use to determine your users’ language. At Coursera, we use a mix of all three:</p>
+
+<ol>
+  <li>ask your users directly in their account settings</li>
+  <li>use the <a href="http://www.w3.org/International/questions/qa-accept-lang-locales">accept-language</a> http request header</li>
+  <li>use <a href="http://dev.maxmind.com/geoip/geoip2/downloadable/">IP geo detection</a> to map IP to country to language</li>
+</ol>
+
+<p>Asking your users directly gives you the cleanest signal of what language to serve. However, this will only work for users who can manage to find your account settings page.</p>
+
+<p>The Accept-Language http request header gives you a list of languages the user may be ok with receiving. This is the fastest way to make a decision, though we have found a few edge cases (some people read multiple languages, sometimes the header is empty, etc etc).</p>
+
+<p>When all else fails, using MaxMind’s geo IP database can provide you a lookup of IP to country to language. </p>
+
+<p>While none of the three techniques are foolproof, the combination of them will give you a good guess at what language your user is comfortable reading.</p>
+
+<h1 id="step-3-configure-your-library">Step 3. Configure your library</h1>
+
+<p>Next, you’ll need to decide how to configure your i18n library to load up the required language strings.</p>
+
+<p>There are two approaches you can take: dynamically load language specific strings on the client or pre-compile language specific versions of your application.</p>
+
+<p>We used to serve up strings dynamically, but have found that this can be slow as the number of strings you have grow. We are moving towards building separate language bundles of our app, and serving this directly once we determine (on the server) what language a user needs.</p>
+
+<p>Here is an example of our webpack config that we use to build a our app with bundled chinese strings:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">webpackConfig</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class="line">  <span class="c1">// configure build to chinese locale</span>
+</span><span class="line">  <span class="nx">locale</span><span class="o">:</span> <span class="s1">&#39;zh&#39;</span><span class="p">,</span>
+</span><span class="line">  <span class="nx">alias</span><span class="o">:</span> <span class="p">{</span>
+</span><span class="line">    <span class="c1">// point i18n loader to our internal library</span>
+</span><span class="line">    <span class="nx">i18n</span><span class="o">:</span> <span class="s1">&#39;app/lib/i18n&#39;</span>
+</span><span class="line">  <span class="p">},</span>
+</span><span class="line">  <span class="nx">entry</span><span class="o">:</span> <span class="p">...,</span>
+</span><span class="line">  <span class="nx">plugins</span><span class="o">:</span> <span class="p">...</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>We then serve up the Chinese bundle of our web app when we believe it is preferred over our English bundle.</p>
+
+<h1 id="step-4-extract-all-the-strings">Step 4. Extract all the strings</h1>
+
+<p>This step takes three actions on your part. Import the strings into your views, wrap your strings with your translation function, and extract your strings into the appropriate JSON folder/file structure.</p>
+
+<p>Here is a react component before extraction:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">let</span> <span class="nx">React</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;react&#39;</span><span class="p">);</span>
+</span><span class="line">
+</span><span class="line"><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">createClass</span><span class="p">({</span>
+</span><span class="line">  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+</span><span class="line">    <span class="k">return</span> <span class="p">(</span>
+</span><span class="line">      <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span><span class="nx">hello</span> <span class="nx">html5devconf</span><span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span><span class="line">    <span class="p">)</span>
+</span><span class="line">  <span class="p">}</span>
+</span><span class="line"><span class="p">})</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>and after:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">let</span> <span class="nx">React</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;react&#39;</span><span class="p">);</span>
+</span><span class="line"><span class="c1">// i18n! is a plugin connect _t to translations</span>
+</span><span class="line"><span class="kd">let</span> <span class="nx">_t</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;i18n!app/i10n/hello&#39;</span><span class="p">);</span>
+</span><span class="line">
+</span><span class="line"><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">createClass</span><span class="p">({</span>
+</span><span class="line">  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+</span><span class="line">    <span class="k">return</span> <span class="p">(</span>
+</span><span class="line">      <span class="c1">// wrap string with _t()</span>
+</span><span class="line">      <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span><span class="p">{</span><span class="nx">_t</span><span class="p">(</span><span class="s1">&#39;hello html5devconf&#39;</span><span class="p">)}</span><span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span><span class="line">    <span class="p">)</span>
+</span><span class="line">  <span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>our i18n plugin has us store many language specific json files in the app/i10n/hello folder. here is an example of app/10n/hello/piglatin.js</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="p">{</span>
+</span><span class="line">  <span class="s2">&quot;hello html5devconf&quot;</span><span class="o">:</span> <span class="s2">&quot;ellohay tml5devconfhay&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<h1 id="step-5-find-translators">Step 5. Find translators</h1>
+
+<p>Translating your strings seems simple but can get complicated very quickly, especially when you have strings with variables that need interpolation. </p>
+
+<p>Start out simple and use <a href="https://translate.google.com/">Google translate</a>. Your quality may vary from not-so-great to barely-understandable, depending on the language you are translating, but it will give your team data to start playing around with right away.</p>
+
+<p>Once you start to productionize your work, turn to your co-workers, friends, family and even your own users for translations! Coursera went through all these stages and we are excited to have over 30,000 users be a part of our mission as they <a href="https://www.coursera.org/about/translate">help us translate our platform</a>.</p>
+
+<p>Scaling this process up takes an investment in automation. Early on, you can just send JSON files around and have them translated, but as interpolation and community size scale up, you’ll want to use tools like <a href="https://www.transifex.com/">Transifex</a>.</p>
+
+<h1 id="step-6-broadcast-language-support">Step 6. Broadcast language support</h1>
+
+<p>This last step is less a step and more about advice that will help you market (read: SEO) your support of other languages to new users.</p>
+
+<p>When serving your HTML pages in another language, take advantage of the lang attribute.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="html"><span class="line"><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">&#39;en&#39;</span> <span class="nt">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Also, add link metatags to point to alternative language versions of the page you are serving:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+</pre></td><td class="code"><pre><code class="html"><span class="line"><span class="nt">&lt;link</span>
+</span><span class="line">  <span class="na">rel=</span><span class="s">&quot;alternate&quot;</span>
+</span><span class="line">  <span class="na">hreflang=</span><span class="s">&quot;pt&quot;</span>
+</span><span class="line">  <span class="na">href=</span><span class="s">&quot;http://pt.coursera.org&quot;</span> <span class="nt">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Lastly, have static language alternatives of your site. We follow <a href="http://ejohn.org/blog/a-strategy-for-i18n-and-node/">John Resig’s advice on using subdomains</a> to organize our localized alternatives.</p>
+
+<blockquote>
+  <p>es.coursera.org <br />
+zh.coursera.org <br />
+pt.coursera.org</p>
+</blockquote>
+
+<p>Not only are these alternatives friendly to search engines but they are also friendly to your users as well.</p>
+
+<hr />
+
+<p>The above 6 steps should be enough to get feedback from your users and to help you determine if this is a worthwhile investment for your product. If the answer is yes, you’ll quickly learn about why <a href="http://search.cpan.org/dist/Locale-Maketext/lib/Locale/Maketext/TPJ13.pod#A_Localization_Horror_Story:_It_Could_Happen_To_You">i18n is hard</a>.</p>
+
+<p>As we spend more time with our i18n work, we will consider writing up our experience with some of the trickier i18n subjects like interpolation, dates, currency, string fragmentation, translation memory usage, pluralization and many others! (currently we are using <a href="http://formatjs.io/">format.js</a> to help solve some of these).</p>
+
+<p>Lastly, If you think you don’t have the time or resources, please reconsider, we originally had an <a href="https://www.linkedin.com/pub/victoria-dean/63/556/7b">intern</a> start these efforts for us!</p>
+
+<hr />
+
+<div class="post-footer">Written by <a href="https://eleith.com">eleith</a> with help from <a href="https://www.linkedin.com/in/jnwng">Jon Wong</a>, <a href="https://www.linkedin.com/in/suyang1">Yang Su</a> and <a href="https://www.linkedin.com/in/bryanskane">Bryan Kane</a>.</div>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div>
+  </div>
+  <div class="pagination" style="display:none;">
+    
+      <a class="prev" href="/blog/page/2/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="blog-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+          <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/01/20/6-steps-to-i18n-success-for-your-web-app/">6 Steps to i18n Success for Your Web App</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/01/10/scaling-content-production/">Scaling Content Production</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/11/13/new-catalog-apis/">New Catalog APIs</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/11/07/how-coursera-uses-swift/">How Coursera uses Swift</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/01/how-to-migrate-react-to-isomorphic-rendering/">How to Migrate React to Isomorphic Rendering</a>
+      </li>
+    
+    <li>
+      <a href="/blog/archives">Archives</a>
+    </li>
+  </ul>
+</section>
+
+        </div>
+        <div class="col-md-3">
+          <section class='about-app-platform'>
+  <h1><a href="/app-platform/">App Platform</a></h1>
+  <p>Jump directly to documentation below.</p>
+  <ul>
+    <li><a href="/app-platform/lti">LTI</a></li>
+    <li><a href="/app-platform/catalog">Catalog</a></li>
+    <li><a href="/app-platform/shibboleth">Shibboleth / SAML2</a></li>
+    <li><a href="/app-platform/oauth2">OAuth 2</a></li>
+    <li>Stay tuned for more...</li>
+  </ul>
+</section>
+
+        </div>
+        <div class="col-md-3">
+          <section class='featured-app'>
+  <h1>Featured App</h1>
+  <p><a target="_BLANK" href="https://www.coursera.org/instructor/~82">Dr. Chuck</a> will use LTI in his upcoming MOOC: <a target="_BLANK" href="https://www.coursera.org/course/pythonlearn">Programming for Everybody</a>. LTI allows seamless integration with custom assignments that aren't natively supported by the Coursera platform.</p>
+</section>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'coursera-tech-blog';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+<script src="/javascripts/libs/underscore.js" type="text/javascript"></script>
+<script src="/javascripts/libs/lucid.js" type="text/javascript"></script>
+<script src="/javascripts/libs/data.attributes.js" type="text/javascript"></script>
+<script src="/javascripts/libs/popups.js" type="text/javascript"></script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$']],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      messageStyle: "none",
+      "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+    });
+  </script>
+  <script type="text/javascript">
+    (function () {
+
+      function loadMathJax() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML";
+        document.getElementsByTagName("head")[0].appendChild(script);
+      }
+
+      window.loadOrRefreshMathJax = function(domId) {
+        if (window.MathJax) {
+          if (domId) {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub, domId]);
+          } else {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+          }
+        } else {
+          loadMathJax();
+        }
+      }
+    })();
+
+    $(function() {
+      loadOrRefreshMathJax();
+    });
+  </script>
+</body>
+</html>

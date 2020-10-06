@@ -1,0 +1,24 @@
+http://help.latency.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: help.latency.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Originating-Url: http://help.latency.prodaa.netflix.com/
+< Content-Length: 40
+< Cache-Control: public
+< Pragma: no-cache
+< X-Netflix.proxy.execution-Time: 6
+< Date: Wed, 17 Jun 2020 05:34:50 GMT
+< Set-Cookie: memclid=9958d6cf-4246-4b36-a3b8-35e2a4dd5775; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:51 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEHR%2BphbWiNXoN8wnbEQgwatA5Xj%2B7MMHVy4xOWHho1XNRdKYtd2T02GiXypfnZa7vdNb3ICjeY3jWZqGTJEtzs6VSFXIbFfUPRIaE7skSEOt1A%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:34:51 GMT; Path=/; Domain=.netflix.com
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Expires: Tue, 16 Jun 2020 05:34:51 GMT
+< Location: https://help.latency.prodaa.netflix.com/
+< X-Netflix.nfstatus: 1_1
+< Content-Type: text/html;charset=UTF-8
+< Server: padme i-0a5dca24eca928d23
+< Via: 1.1 i-090ce809f8244fff5 (eu-west-1)
+
+https://help.latency.prodaa.netflix.com/

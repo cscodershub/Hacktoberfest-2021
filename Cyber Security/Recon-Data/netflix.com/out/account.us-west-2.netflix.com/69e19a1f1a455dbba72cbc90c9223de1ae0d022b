@@ -1,0 +1,23 @@
+http://account.us-west-2.netflix.com/
+
+> GET / HTTP/1.1
+> Host: account.us-west-2.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://account.us-west-2.netflix.com/
+< Set-Cookie: nfvdid=BQFmAAEBEEJYax2VIbE8yd1_IqiLOENA185JtJG7mGVcdttHFjySshgmQWSlzsfEao77fTlT2WKe9QFRLkb6r2pdk06oGNX-ObXggEKucSUcrGhWoucySw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=2b329a57-95a2-4c21-b9a5-26a4ac2d1a4c; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:33:46 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< X-Originating-Url: http://account.us-west-2.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:33:46 GMT
+< X-Netflix.nfstatus: 1_1
+< Content-Length: 0
+< Via: 1.1 i-0c80e761f15386cb4 (us-west-2)
+< Server: nq_website_core-prod-release 70b2b51f-5443-40fe-956b-2c7ad514e97b
+< X-Content-Type-Options: nosniff
+< X-Netflix.proxy.execution-Time: 9
+< Edge-Control: no-cache, no-store
+< Cache-Control: no-cache, no-store
+

@@ -1,0 +1,16 @@
+https://beacon.us-west-2.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: beacon.us-west-2.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Via: 1.1 i-067946a98e9efe22e (us-west-2)
+< X-Netflix.proxy.execution-Time: 8652
+< X-Originating-Url: https://beacon.us-west-2.prodaa.netflix.com/
+< Content-Length: 0
+< Date: Wed, 17 Jun 2020 05:34:18 GMT
+< Server: beacon i-084a6e8c8f2715feb
+< X-Netflix.nfstatus: 1_3
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+

@@ -1,0 +1,13 @@
+http://c01-deu.integrate-test.boomi.com/
+
+> GET / HTTP/1.1
+> Host: c01-deu.integrate-test.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: nginx
+< Date: Sat, 15 Aug 2020 09:15:59 GMT
+< Content-Type: text/html
+< Etag: W/"5ecff8ce-47"
+
+This web server only allows AS2 client connections under the /as2 path

@@ -1,0 +1,27 @@
+https://shoppers-admin.instacart.com/
+
+> GET / HTTP/1.1
+> Host: shoppers-admin.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Frame-Options: SAMEORIGIN
+< X-Permitted-Cross-Domain-Policies: none
+< X-Request-Id: a3a0284f-15ab-41ea-95cc-960e6614eb73
+< X-Runtime: 0.088171
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Date: Tue, 04 Aug 2020 04:47:27 GMT
+< Server: nginx
+< X-Xss-Protection: 1; mode=block
+< X-Download-Options: noopen
+< Set-Cookie: ahoy_visitor=e81c9e68-a50a-48d1-95eb-d24550f59371; path=/; expires=Thu, 04 Aug 2022 04:47:27 GMT
+< Set-Cookie: ahoy_visit=ccc17b38-ddce-4d3c-8a8f-fff2b7381ca0; path=/; expires=Tue, 04 Aug 2020 05:17:27 GMT
+< Set-Cookie: ahoy_track=true; path=/
+< Set-Cookie: _shoppers_admin_session=T0ZKREJWMit3OEtkVUdpYmNFQlo1Uml3U1pFUUl1MmZobFNDT2toUndkc0g2WkhzS3JGRit0K3plNlkwcTFEenRzMXBnNHpyRjVQeFpGMGt5TlJWZzVYRnovU2oyVFFjSjAvOGZ5Zmt1NW1LS3lPckwzRm9MTk1VdUZMbUQzWDRVeEtSTnFRNWFseU1FbWV4NVlmcHdLelRpbklySERNcEZZSG03MnBZSXhTamV3RkVxRE11RGE0WnBOQzV3VUU4dzU1anJuSWUzQjJtMEcvUk16Y25vL1ZYQ0dXNEQwQmo1dzdIdE9IOFhRemo5TDYxWGFFbjdlL2NCOU0weXdLQ1N0OW1kdWxGL1NZdWVXeWY2TVhId2c9PS0teUZXOC9CWExRaTJFYlhTL3V4MzNFUT09--c72179000e02b5ca665f48a47e6d2cae49a50b56; path=/; expires=Wed, 05 Aug 2020 04:47:27 GMT; secure; HttpOnly
+< Content-Type: text/html; charset=utf-8
+< Location: https://shoppers-admin.instacart.com/auth/saml
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin
+< Cache-Control: no-cache
+
+<html><body>You are being <a href="https://shoppers-admin.instacart.com/auth/saml">redirected</a>.</body></html>

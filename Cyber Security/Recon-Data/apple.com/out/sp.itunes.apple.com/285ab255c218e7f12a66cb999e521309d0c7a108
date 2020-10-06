@@ -1,0 +1,22 @@
+http://sp.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: sp.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Type: text/html
+< Content-Length: 163
+< Location: https://sp.itunes.apple.com/
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:42814002:st44p00it-hyhk16044801:7987:20E24
+< Date: Thu, 30 Apr 2020 21:30:08 GMT
+< Server: daiquiri/3.0.0
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+<hr><center>daiquiri/3.0.0</center>
+</body>
+</html>

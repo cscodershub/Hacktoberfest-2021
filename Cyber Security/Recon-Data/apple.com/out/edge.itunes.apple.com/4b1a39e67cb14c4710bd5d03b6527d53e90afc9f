@@ -1,0 +1,26 @@
+https://edge.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: edge.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Apple-Application-Site: ST11
+< X-Apple-Application-Instance: 202901
+< Cache-Control: must-revalidate,no-cache,no-store
+< Content-Length: 232
+< Date: Thu, 30 Apr 2020 21:29:48 GMT
+< X-Apple-Jingle-Correlation-Key: GOZACZRX6EEHVU67OY7PN3VKJQ
+< Content-Type: text/html;charset=iso-8859-1
+< X-Cache: TCP_MISS from a125-99-55-121.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /. Reason:
+<pre>    Not Found</pre></p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+http://www.brands.yummly.com/
+
+> GET / HTTP/1.1
+> Host: www.brands.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: crumb=BXSKLE12OGuJYjU4ZTEzMDA5Nzk0MzRjOTczZjMwNTdjOGMxYzcw;Path=/
+< Content-Length: 0
+< X-Contextid: C5tfd6DS/rz9hyZPr
+< Server: Squarespace
+< Date: Fri, 07 Aug 2020 14:58:15 GMT
+< Location: https://sweepstakes.yummly.com/
+< Age: 691161
+

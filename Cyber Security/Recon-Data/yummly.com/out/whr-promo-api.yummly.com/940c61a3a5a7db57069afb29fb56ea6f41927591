@@ -1,0 +1,24 @@
+http://whr-promo-api.yummly.com/
+
+> GET / HTTP/1.1
+> Host: whr-promo-api.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sat, 15 Aug 2020 14:57:37 GMT
+< Location: https://whr-promo-api.yummly.com/
+< X-Cache: Redirect from cloudfront
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 183
+< Via: 1.1 380ce63197f0d5db2cf7b975ac87c5ef.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: CCU50-C1
+< X-Amz-Cf-Id: x9A0cM18G_a0RA0dkGAP0mjfrJrJgXVS56SmuIfFjcBgf2vaXHGhew==
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

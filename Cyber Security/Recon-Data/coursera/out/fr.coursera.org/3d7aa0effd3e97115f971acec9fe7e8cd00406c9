@@ -1,0 +1,24 @@
+http://fr.coursera.org/
+
+> GET / HTTP/1.1
+> Host: fr.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Pop: MAA50-C2
+< Server: CloudFront
+< Date: Mon, 10 Aug 2020 04:51:51 GMT
+< Location: https://fr.coursera.org/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 109d75af2a05996e0bd206b23009162a.cloudfront.net (CloudFront)
+< Content-Type: text/html
+< Content-Length: 183
+< X-Amz-Cf-Id: cAP0t0zTazbIkGLvHtnBF_kz_WqyQXt3b8zlaOL1EpBXGeA5HZJXvg==
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

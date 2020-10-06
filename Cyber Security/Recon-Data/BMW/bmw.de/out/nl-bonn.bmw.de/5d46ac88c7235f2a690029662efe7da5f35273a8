@@ -1,0 +1,15 @@
+http://nl-bonn.bmw.de/
+
+> GET / HTTP/1.1
+> Host: nl-bonn.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 307
+< Server: OpenCms/10.5.3
+< Location: /de/home/
+< Content-Type: text/html;charset=UTF-8
+< Content-Length: 0
+< Access-Control-Allow-Origin: *
+< Set-Cookie: SERVERID=bodhi; path=/
+< Date: Tue, 11 Aug 2020 04:51:05 GMT
+

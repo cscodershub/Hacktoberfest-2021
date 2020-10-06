@@ -1,0 +1,9 @@
+https://gsp11-us-edge-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsp11-us-edge-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Temporary Redirect
+< Location: https://gsp11-st14-edge-ssl.ls.apple.com/
+

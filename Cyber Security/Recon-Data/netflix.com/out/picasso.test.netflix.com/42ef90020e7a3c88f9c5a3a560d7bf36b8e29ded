@@ -1,0 +1,25 @@
+http://picasso.test.netflix.com/
+
+> GET / HTTP/1.1
+> Host: picasso.test.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Access-Control-Allow-Headers: x-requested-with, Content-Type, origin, authorization, accept, client-security-token, access-token, expiry, token-type, uid, client
+< Access-Control-Allow-Origin: *
+< Date: Wed, 17 Jun 2020 05:37:03 GMT
+< Content-Length: 217
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+< Access-Control-Expose-Headers: access-token, expiry, token-type, uid, client, authorization, accept, origin
+< Content-Type: text/html; charset=iso-8859-1
+< Location: https://picasso.test.netflix.com/
+< Server: Apache
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://picasso.test.netflix.com/">here</a>.</p>
+</body></html>

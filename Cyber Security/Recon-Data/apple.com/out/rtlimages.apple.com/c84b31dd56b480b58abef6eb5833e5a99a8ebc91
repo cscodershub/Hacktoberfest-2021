@@ -1,0 +1,33 @@
+https://rtlimages.apple.com/
+
+> GET / HTTP/1.1
+> Host: rtlimages.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apple
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Content-Type-Options: nosniff
+< Date: Thu, 30 Apr 2020 21:29:30 GMT
+< Vary: Accept-Encoding
+< Content-Type: text/html; charset=UTF-8
+< Accept-Ranges: bytes
+< X-Frame-Options: SAMEORIGIN
+< Host: concierge.apple.com
+< Cache-Control: public, max-age=85116
+< X-Cache: TCP_HIT from a49-44-95-93.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Last-Modified: Wed, 30 Mar 2016 22:59:57 GMT
+
+<HTML>
+
+<head>
+
+<META HTTP-EQUIV="REFRESH" CONTENT="0; URL=http://apple.com">
+
+</head>
+
+<body>
+
+</body>
+
+</HTML>

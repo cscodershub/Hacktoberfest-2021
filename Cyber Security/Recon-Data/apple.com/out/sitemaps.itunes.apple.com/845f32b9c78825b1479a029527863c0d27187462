@@ -1,0 +1,19 @@
+http://sitemaps.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: sitemaps.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Cache-Remote: TCP_MISS from a96-17-150-238.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Amz-Request-Id: F84E0A9019C3B65A
+< Server: AmazonS3
+< Content-Type: application/xml
+< Content-Length: 243
+< Date: Thu, 30 Apr 2020 21:30:16 GMT
+< X-Cache: TCP_MISS from a125-99-55-113.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< X-Amz-Bucket-Region: us-west-2
+< X-Amz-Id-2: I7JCznPQt1erzGOV9VkhovX2pbhrnadegL+yBAtA1nBCCNufhjPOVfxBw5vo6etaExfxtPYssm8=
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>F84E0A9019C3B65A</RequestId><HostId>I7JCznPQt1erzGOV9VkhovX2pbhrnadegL+yBAtA1nBCCNufhjPOVfxBw5vo6etaExfxtPYssm8=</HostId></Error>

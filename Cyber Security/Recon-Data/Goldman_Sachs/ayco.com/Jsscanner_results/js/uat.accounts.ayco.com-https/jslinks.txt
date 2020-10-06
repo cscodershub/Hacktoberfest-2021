@@ -1,0 +1,1 @@
+https://uat.accounts.ayco.com/content/ayco/protect-ui/index-webpack.js

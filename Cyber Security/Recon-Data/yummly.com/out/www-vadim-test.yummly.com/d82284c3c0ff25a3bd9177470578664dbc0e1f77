@@ -1,0 +1,17 @@
+http://www-vadim-test.yummly.com/
+
+> GET / HTTP/1.1
+> Host: www-vadim-test.yummly.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cf-Request-Id: 0494395ffa000019149da95200000001
+< Vary: Accept-Encoding
+< Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+< Date: Sat, 15 Aug 2020 14:57:37 GMT
+< Expires: Sat, 15 Aug 2020 15:57:37 GMT
+< Location: https://www-vadim-test.yummly.com/
+< Server: cloudflare
+< Cf-Ray: 5c33c4dffe7b1914-SIN
+< Cache-Control: max-age=3600
+

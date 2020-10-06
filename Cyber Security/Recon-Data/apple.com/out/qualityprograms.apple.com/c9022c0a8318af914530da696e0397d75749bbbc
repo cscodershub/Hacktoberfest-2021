@@ -1,0 +1,13 @@
+http://qualityprograms.apple.com/
+
+> GET / HTTP/1.1
+> Host: qualityprograms.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Length: 0
+< Location: https://qualityprograms.apple.com/
+< Date: Thu, 30 Apr 2020 21:31:22 GMT
+< X-Cache: TCP_MISS from a23-57-69-162.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+< Server: AkamaiGHost
+

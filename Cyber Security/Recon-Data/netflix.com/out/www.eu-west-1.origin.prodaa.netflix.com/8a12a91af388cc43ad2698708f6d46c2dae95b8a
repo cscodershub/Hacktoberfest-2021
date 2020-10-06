@@ -1,0 +1,23 @@
+http://www.eu-west-1.origin.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.eu-west-1.origin.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://www.eu-west-1.origin.prodaa.netflix.com/
+< X-Netflix.proxy.execution-Time: 8
+< X-Originating-Url: http://www.eu-west-1.origin.prodaa.netflix.com/
+< Date: Wed, 17 Jun 2020 05:34:40 GMT
+< Set-Cookie: nfvdid=BQFmAAEBEEitYYZmPpt0YMjaB4SgLKBAHxvE_w63_0mPl1nkW2hnPJ_u9wRHqLOQzo54WV-1Dqn4yBZmy4AJ2hMjTMeqdytXje85cikvgaYycjl7e2gQkA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=0029026c-5951-4436-bf14-070f6f9d7e2f; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:40 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 i-0a0100362004153c2 (eu-west-1)
+< Content-Length: 0
+< Edge-Control: no-cache, no-store
+< Server: nq_website_core-prod-release 96c334c1-925e-4293-ba72-90db402eb221
+< X-Netflix.nfstatus: 1_1
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Cache-Control: no-cache, no-store
+< X-Content-Type-Options: nosniff
+

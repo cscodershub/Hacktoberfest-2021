@@ -1,0 +1,21 @@
+https://webhook.cirrus.apple.com/
+
+> GET / HTTP/1.1
+> Host: webhook.cirrus.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:40:35 GMT
+< Content-Type: text/html
+< Content-Length: 146
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

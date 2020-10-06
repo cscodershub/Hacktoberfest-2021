@@ -1,0 +1,138 @@
+https://dvd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: dvd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=utf-8
+< Pragma: no-cache
+< Content-Length: 7667
+< Cache-Control: no-cache
+
+<!DOCTYPE html>
+<html>
+<head>  
+    <title>DVD Netflix - 404</title>
+    <meta name="referrer" content="no-referrer" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <base href="/">
+    <script src="https://assets.nflxext.com/us/dvd/js/jquery-3.4.1.min.js"></script>    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://dvd.netflix.com/404" rel="canonical">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="p:domain_verify" content="4a6b199869c252dee39a33866f90d4e1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="shortcut icon" type="image/x-icon" href="https://assets.nflxext.com/us/dvd/dexter/favicons/favicon.ico">
+    <link rel="apple-touch-icon" href="//assets.nflxext.com/us/dvd/dexter/favicons/180.png"> 
+    <link rel="apple-touch-icon" href="//assets.nflxext.com/us/dvd/dexter/favicons/120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="//assets.nflxext.com/us/dvd/dexter/favicons/152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="//assets.nflxext.com/us/dvd/dexter/favicons/167.png" sizes="167x167">
+    <link rel="apple-touch-icon" href="//assets.nflxext.com/us/dvd/dexter/favicons/180.png" sizes="180x180">
+    <link href="https://assets.nflxext.com/us/dvd/dexter/css/fonts-gotham.css" type="text/css" rel="stylesheet">
+    <link href="https://assets.nflxext.com/us/dvd/dexter/css/fonts-proxima.css" type="text/css" rel="stylesheet">
+    <link href="https://assets.nflxext.com/us/dvd/dexter/css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="https://assets.nflxext.com/us/dvd/dexter/css/bootstrap-grid.css" type="text/css" rel="stylesheet">
+    <link href="https://dvd.netflix.com/css/global.css" type="text/css" rel="stylesheet">
+    <link href="https://dvd.netflix.com/css/header.css" type="text/css" rel="stylesheet">
+    <link href="https://dvd.netflix.com/css/footer.css" type="text/css" rel="stylesheet">    <link href="/combined.css?id=22aa998516e3c7d_1"  type="text/css" rel="stylesheet">    <meta http-equiv="refresh" content="10; url=https://dvd.netflix.com/">
+    <title>Rent Movies and TV Shows on DVD and Blu-ray - DVD Netflix</title>
+    <meta name="description" content="Rent Movies and TV Shows on DVD and Blu-ray. 1-month free trial! Fast, free delivery. No late fees.">
+    <style>
+         .errormsg span {
+             font-weight:bold;
+         }
+	 #header {
+             opacity:1 !important;
+	 }
+    </style>
+</head>
+<body>
+<div id="app" class="">
+    
+<div id="header" class="non-member">
+    <div id="header-content" class="container pl-1 pr-1">
+        <!-- logo -->
+        <div id="logo-container"><a href="/" class="dvdlogo" title="dvd.netflix.com - DVD Netflix"></a></div>        <!-- browse, streaming, queue links -->
+        <div id="header-links-container">
+            <!-- shown at 768px or less -->
+            <div id="mobile-search-and-queue">
+                <a class="header-link fa fa-search icon" title="Search" id="search-icon" href="#" aria-label="Search"></a>
+            </div>
+        </div>    </div>
+</div>    <div id="body" class="error">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 errormsg">
+                    <div>
+                        <h1>Page Not Found</h1>
+                        <p>The requested page does not exist. We will try to automatically redirect you to our home page in 10 seconds.</p>
+                        <p>Please go to the DVD Netflix home page by clicking the button below.</p>
+                        <a href="https://dvd.netflix.com/">DVD Netflix Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 errordetails">
+                    Message: Unknown
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<div class="container-fluid">
+    <div id="footer" class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="aboutus">Since 1998, DVD Netflix has been the premier DVD-by-mail rental service. Make your movie list and get Blu-rays and DVDs conveniently delivered to you with free shipping both ways. Most of our subscribers receive their discs within two business days. <cust:isAnonymous>Start your free trial today.</cust:isAnonymous>
+</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>Questions? <span class="csphone">Call 1-800-585-8018</span></h4>
+                </div>
+                <div class="social-icons col-md-12 links">
+                    <a class="facebook" href="https://facebook.com/dvdnetflixcom" title="Connect with us on Facebook"></a>
+                    <a class="twitter" href="https://twitter.com/dvdnetflix" title="Connect with us on Twitter"></a>
+                    <a class="instagram" href="https://instagram.com/dvdnetflix" title="Connect with us on Instagram"></a>
+                    <a class="blog" href="http://blog.dvd.netflix.com" title="Visit our blog"></a>
+                    <span class="appbtns">
+                        <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1169772776&mt=8" class="app"><img height="43" width="150" src="https://assets.nflxext.com/us/dvd/dexter/app-badge-apple.png"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.dvd.kryten" class="app"><img height="43" width="150" src="https://assets.nflxext.com/us/dvd/dexter/app-badge-google.png"></a>
+                    </span>
+                </div>
+                <ul class="col-md-3 col-lg-2 links">
+                    <li><a href="http://help.netflix.com/">Help Center</a></li>
+                    <li><a href="https://dvd.netflix.com/YourAccount">Your Account</a></li>
+                    <li><a id="footer_signup_link" href="/Plans">Sign Up</a></li>
+                    <li><a href="http://20years.dvd.com/">#DVD20</a></li>
+                </ul>
+                <ul class="col-md-3 col-lg-2 links">
+                    <li><a href="https://dvd.netflix.com/TermsOfUse" id="termsOfUseLink">Terms of Use</a></li>
+                    <li><a href="https://help.netflix.com/en/node/2101?fdvd=true">Corporate Information</a></li>
+                    <li><a href="https://ir.netflix.com/">Investor Relations</a></li>
+                    <li><a href="https://help.netflix.com/legal/privacy?locale=en&docType=privacy" class="privacylink">Privacy</a></li>
+                </ul>
+                <ul class="col-md-3 col-lg-2 links">
+                    <li><a href="https://dvd.netflix.com/App">Download our app</a></li>
+                    <li><a href="https://dvd.netflix.com/HowItWorks">How DVD Works</a></li>
+                    <li><a href="https://dvd.netflix.com/AllGenresList">Browse all genres</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-md-12 copyright">
+                    &copy; <span id="current-year">2019</span> Netflix, Inc. {1.1.0-BLKF5}
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>    
+<script>
+jQuery.get("/blocked/f5");
+</script>
+</body>
+</html>

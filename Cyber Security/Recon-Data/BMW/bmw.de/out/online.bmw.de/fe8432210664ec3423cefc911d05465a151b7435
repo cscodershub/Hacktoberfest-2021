@@ -1,0 +1,31 @@
+https://online.bmw.de/
+
+> GET / HTTP/1.1
+> Host: online.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Tue, 11 Aug 2020 04:51:13 GMT
+< Strict-Transport-Security: max-age=15768000
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: no-cache, private
+< Location: http://www.bmw.de
+< Set-Cookie: XSRF-TOKEN=eyJpdiI6IjU3YmxiQXk0WXhZQnl6N0g1MzJUbmc9PSIsInZhbHVlIjoicXVQWVkwS0FBWjJNcFRrTU5td2ZLSzAwZHA2YUlDS3dtQ1FVXC9CK3oybU8wbW1BbWZMR0d6RGU1NEVCeHI0N0MiLCJtYWMiOiIxYmRkNGIxOGUwNzA3ODgwMjM2NmMzYWZlMmUwZWYwYzVkZDk3NDY2YmEzZjJiYjg5YWQ5MjgyMTQyNDBiYzU0In0%3D; expires=Tue, 11-Aug-2020 06:51:13 GMT; Max-Age=7200; path=/
+< Set-Cookie: onlinevkl_session=eyJpdiI6Imh3U2xkXC9aVTMyQjM1NnZcL3l4MzhLUT09IiwidmFsdWUiOiJHVmZXY0tnc0dHXC92UlIyNkp3blgzYm83YjRVUEcraXJoeG5jRTNMQ2t0ZFF1ZTM2VmdjYkR2Y1BkT3R6Q0w4OCIsIm1hYyI6ImZmN2I0MGJiZWZmZTY1MDk1NjhlMTdiNGE1ZDE3N2YxODg4ZDFmZDRiZWIzZWQzODljZTE5ZDBiM2E3OTFiNTYifQ%3D%3D; expires=Tue, 11-Aug-2020 06:51:13 GMT; Max-Age=7200; path=/; httponly
+< X-Frame-Options: DENY
+< Server: nginx
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url=http://www.bmw.de" />
+
+        <title>Redirecting to http://www.bmw.de</title>
+    </head>
+    <body>
+        Redirecting to <a href="http://www.bmw.de">http://www.bmw.de</a>.
+    </body>
+</html>

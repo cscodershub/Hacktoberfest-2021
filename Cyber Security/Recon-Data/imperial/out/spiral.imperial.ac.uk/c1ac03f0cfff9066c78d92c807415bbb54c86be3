@@ -1,0 +1,1698 @@
+https://spiral.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: spiral.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Expires: Thu, 01 Jan 1970 01:00:00 GMT
+< Set-Cookie: JSESSIONID=B4DF53164E3D8E585F3EB85E1B9FF66D; Path=/; Secure; HttpOnly
+< Content-Type: text/html;charset=UTF-8
+< Date: Sat, 18 Jul 2020 13:54:28 GMT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spiral: Home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.10" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	   
+
+	  
+	  <!-- <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	   -->
+
+        <!-- Theme CSS -->
+        <link href="/css/agency.min.css" rel="stylesheet">
+		 <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+		<link rel="stylesheet" href="/static/css/bootstrap/bootstrap.css" type="text/css" />
+		 <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/custom.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/fonts/css/font-awesome.min.css" type="text/css" />
+
+
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="Spiral"/>
+
+      <!--	-->  
+<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<!-- <script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>	-->
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script> 
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+<!-- ADD start -->
+        <script type="text/javascript" src="/static/js/custom.js"></script>
+        <script type='text/javascript' src='/static/js/googleJS.js'></script>
+
+        <script type="text/javascript">
+    var jQ = jQuery.noConflict();
+    jQ(document).ready(function() {
+        jQ( "#spellCheckQuery").click(function(){
+            jQ("#query").val(jQ(this).attr('data-spell'));
+            jQ("#main-query-submit").click();
+        });
+        jQ( ".filterquery" ).each(function(){
+            jQ(this).autocomplete({
+                source: function( request, response ) {
+                    jQ.ajax({
+                        url: "/json/discovery/autocomplete?query=",
+                        dataType: "json",
+                        cache: false,
+                        data: {
+                
+                            auto_idx: jQ(".filtername").val(),
+                            auto_query: request.term,
+                            auto_sort: 'count',
+                            auto_type: jQ(".filtertype").val(),
+                            location: ''
+                        },
+                         success:  function( data ) {
+var array =  jQ.map( data.autocomplete, function( item ) {
+                            return { label: item, name: item.replace(new RegExp("<strong>", 'g'), "").replace(new RegExp("</strong>","g"),"") };
+                                                        });
+
+                            response(array);
+                          }});
+                        },
+                                open: function(event, ui) {
+                                var autocomplete = jQ(".ui-autocomplete");
+                                var oldTop = autocomplete.offset().top;
+                                var newTop = oldTop +10;
+                                autocomplete.css("top", newTop);
+                                        },
+                    focus: function(event, ui) {
+                             jQ(this).val(ui.item.name);
+                         return false;
+                    },
+                    select: function(event, ui) {
+                         jQ(this).val(ui.item.name);
+                         return false;
+                    },
+                    minLength: 2
+                }).data("ui-autocomplete")._renderItem = function(ul, item) {
+                    return jQ( "<li></li>" )
+                        .data( "ui-autocomplete-item", item )
+                        .append( "<a>" + item.label + "</a>" )
+                        .appendTo( ul );
+                };
+            });
+             jQ(".download").tooltip({
+                    trigger: 'hover',
+                    title : '12 month downloads'
+                });
+
+             jQ(".badge").tooltip({
+                    trigger: 'hover',
+                    title : 'Items'
+                });
+    });
+</script>       
+
+<!-- ADD END -->
+
+
+
+    
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-fixed-top">  
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+//Andrew - set query value onClick of submit button
+function setQueryValue(){  
+   var queryValue = document.getElementById('filterquery').value;
+   query.value = queryValue; 
+   return true;
+}
+</script>
+
+
+			<!-- Navigation -->
+          
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                
+                <a href="#page-top"><img src="/image/library-logo.png" alt="Imperial College London" class="ICLogo"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/index.jsp">Home</a>
+                    </li>
+                    <li>
+                    <a class="page-scroll" href="/index.jsp#portfolio">Browse</a>
+                    
+                    
+                    </li>
+                    
+                    
+                    
+                  <li class= ""><a href="/feedback">
+                  Help / Contact
+                </a></li>
+                 <li class="xdropdown">
+        
+
+        
+        
+          <li><a href="/mydspace">
+            My Spiral
+            </a></li>
+
+          
+
+      </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+
+
+
+<span class="hide">
+<!--navbar_default.jsp -->
+<!--<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+  <a class="navbar-brand" href="http://imperial.ac.uk/"><img class="logo" alt="Imperial College London" src="/image/imperial-logo-only.png" /></a> </div> -->
+<nav class="hide collapse navbar-collapse bs-navbar-collapse" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="active"><a href="/">
+      Home
+      </a></li>
+      
+    <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      Browse
+      <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="/community-list">
+          Communities<br/>&amp;&nbsp;Collections
+          </a></li>
+        <li class="divider"></li>
+        <li class="dropdown-header">Browse Items by:></li>
+        
+        
+        <li><a href="/browse?type=author">
+          Author
+          </a></li>
+        
+        <li><a href="/browse?type=title">
+          Title
+          </a></li>
+        
+        <li><a href="/browse?type=sponsor">
+          Sponsor/Funder
+          </a></li>
+        
+        
+        <noscript>You appear to have a browser that does not support javaScript or javaScript has been disabled.  Dropdown menus will not work however the links contained in the dropdowns can be accessed in the <a href="/index.jsp#browse">'Browse the Spiral communities and collections' of the home page.</a> </noscript>
+      </ul>
+    </li>
+
+        <li class="hide"><a href="http://www3.imperial.ac.uk/scholarly-communication/spiral-digital-repository"> About </a></li> 
+        <li class="hide"><a href="http://www3.imperial.ac.uk/library/getintouch/yourlibrarian"> Help </a></li>  
+
+   <li class= ""><a href="/feedback">
+        Help / Contact
+      </a></li>
+    
+  </ul>
+  
+    <ul class="nav navbar-nav navbar-right">
+    
+    HELLO 
+      <li class="dropdown">
+        
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        Sign on to:
+        <b class="caret"></b></a>
+        
+        
+          <li><a href="/mydspace">
+            My Spiral
+            </a></li>
+<!--          <li><a href="/subscribe">
+            Receive email<br/>updates
+            </a></li>
+          <li><a href="/profile">
+            Edit Profile
+            </a></li>
+-->
+          
+       
+      </li>
+    </ul>
+
+</nav>
+navbar-default.jsp
+</span>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+	
+
+
+
+        
+<div class="container" style="min-width:100%; padding:0; margin:0;">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row" style="display:none;">
+
+
+</div>
+
+
+<div id="header_outer">
+<header>
+  <div class="container" > </div>
+  <div class="intro-text">
+    <div class="intro-heading">Search Spiral</div>
+    <div class="intro-lead-in"> Imperial College London's repository
+      </div >
+      <div>
+        
+        <div id="search_outer">
+          <div id="search_inner">
+            <form action="/simple-search" id="inputForm" method="get" >
+
+              <input type="hidden"   id="tlocation"  name="tlocation" value="/"/>
+
+              
+              <input type="text"   class="filterquery" id="filterquery" name="query" placeholder="Search the repository"/>
+
+              <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+            </form>
+          </div>
+        <div class="covid">
+            <a href="/handle/10044/1/78555"><p >COVID-19 publications</p></a>
+        </div>
+      </div>
+	  
+</header>
+
+
+</div>
+
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class="bg-fuchsia">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Browse </h2>
+        <h3 class="section-subheading text-muted">Communities and collections</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 portfolio-item">
+		<div class="portfolio-inner"> 
+			<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+				<div class="portfolio-hover">
+					<div class="portfolio-hover-content"> 
+						<i class="fa fa-plus fa-3x"></i> 
+					</div>
+				</div>
+				<div class="timeline-image">
+					<img src="/layout/images/f_eng.jpg" alt="" class="img-circle img-responsive"> 
+				</div>
+			</a>
+			<div class="portfolio-caption">
+				<a href="#portfolioModal1" data-toggle="modal">
+					<p>Faculty of </p>
+					<h2>Engineering</h2>
+				</a>
+			 </div>
+		</div>
+      </div>
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <div class="portfolio-inner"> 
+			<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+				<div class="portfolio-hover">
+					<div class="portfolio-hover-content"> 
+						<i class="fa fa-plus fa-3x"></i> 
+					</div>
+				</div>
+				<div class="timeline-image"> 
+					<img src="/layout/images/f_med.jpg" class=" img-circle img-responsive" alt=""> 
+				</div>
+			</a>
+          <div class="portfolio-caption">
+            <a href="#portfolioModal2" data-toggle="modal"><p class="text-muted">Faculty of </p>
+            <h2>Medicine</h2></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <div class="portfolio-inner"> <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
+          </div>
+          <img src="/layout/images/f_nat.jpg" class=" img-circle img-responsive" alt=""> </a>
+          <div class="portfolio-caption">
+          <a href="#portfolioModal3" data-toggle="modal">
+            <p >Faculty of</p>
+            <h2>Natural Sciences</h2></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <div class="portfolio-inner"> <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
+          </div>
+          <img src="/layout/images/f_bus.jpg" class="img-circle img-responsive" alt=""> </a>
+          <div class="portfolio-caption">
+          <a href="#portfolioModal4" data-toggle="modal">
+            <p>Imperial College</p>
+            <h2>Business School</h2></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio_other"><a href="#portfolioModal5" data-toggle="modal">
+		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-eye"></i> Browse other departments</button></a>
+    </div>
+     
+     <div class="portfolio_other"><a href="/SummaryStats.jsp" data-toggle="modal"> 
+		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-eye"></i> Statistics</button></a>
+     </div>
+  </div>
+</section>
+
+<!-- Portfolio Modals --> 
+<!-- Use the modals below to showcase details about your portfolio projects! --> 
+
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"> </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body"> 
+              <!-- Project Details Go Here -->
+              <a href="/handle/10044/1/9"><h2>Faculty of Engineering </h2></a>
+              
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#1004411"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Faculty of Engineering</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="1004411" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/42787">Design Engineering PhD theses</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/31938">Dyson School of Design Engineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/2">Faculty of Engineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/13796">Faculty of Engineering - Research Data</a>
+</p>
+</div>
+</li>
+</ul>
+<ul class="media-list">
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441238"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Aeronautics</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441238" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/239">Aeronautics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1379">Aeronautics PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441337"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Bioengineering</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441337" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/338">Bioengineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4295">Bioengineering Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1227">Bioengineering PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044150"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Chemical Engineering</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="10044150" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/51">Chemical Engineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4442">Chemical Engineering  Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1229">Chemical Engineering PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441952"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Civil and Environmental Engineering</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441952" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/10205">Civil and Environmental Engineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1231">Civil and Environmental Engineering PhD theses</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4419">Environmental and Water Resource Engineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1398">Fluid Mechanics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/9551">Geotechnics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/954">Structures</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/955">Systems and Mechanics</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044138"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Computing</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="10044138" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/456">Computing</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1232">Computing PhD theses</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/446">Distributed Software Engineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/692">High Performance Informatics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/517">Logic and Artificial Intelligence</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/39">Quantitative Analysis and Decision Science</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/546">Theory of Computational Systems</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/691">Visual Information Processing</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441817"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Earth Science and Engineering</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441817" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/818">Earth Science and Engineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4443">Earth Science and Engineering Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1233">Earth Science and Engineering PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441117"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Electrical and Electronic Engineering</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441117" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/684">Circuits and Systems</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/515">Communications and Signal Processing</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/118">Control and Power</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/499">Electrical and Electronic Engineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/9663">Electrical and Electronic Engineering Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1234">Electrical and Electronic Engineering PhD theses</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/767">Intelligent Systems and Networks</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/119">Optical and Semiconductor Devices</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441494"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Institute of Biomedical Engineering</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441494" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/495">Institute of Biomedical Engineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1380">Institute of Biomedical Engineering PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044132"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Materials</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="10044132" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/33">Materials</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1235">Materials PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044126"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Mechanical Engineering</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="10044126" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/27">Mechanical Engineering</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/5314">Mechanical Engineering  Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1237">Mechanical Engineering PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"> </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <a href="/handle/10044/1/9"><h2>Faculty of Medicine</h2></a>
+           
+             <ul class="media-list">
+<li class="media well">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#1004419"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Faculty of Medicine</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="1004419" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/10">Faculty of Medicine</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/28365">Faculty of Medicine - Research Data</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+<ul class="media-list">
+<li class="media well">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044177147"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Department of Brain Sciences</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="10044177147" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/77147">Department of Brain Sciences</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="media well">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044159"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Department of Immunology and Inflammation</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+<ul id="10044159" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/59">Department of Immunology and Inflammation</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="media well">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441487"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Department of Infectious Disease</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+<ul id="100441487" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/487">Department of Infectious Disease</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044155"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Department of Medicine (up to 2019)</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+<ul id="10044155" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/9805">Department of Medicine (up to 2019)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1238">Medicine PhD theses</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/66268" target="_blank" >Department of Medicine Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/47838" target="_blank">Paediatrics and Child Health Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="media well">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044158"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Department of Metabolism, Digestion and Reproduction</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+<ul id="10044158" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/58">Department of Metabolism, Digestion and Reproduction</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441357"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Department of Surgery and Cancer</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441357" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/6194">Department of Surgery and Cancer</a>
+</p>
+</div>
+</li>
+
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/67473">Department of Surgery and Cancer PhD Theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441332"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Institute of Clinical Sciences</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+<ul id="100441332" class="media-list panel-collapse collapse">
+
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/6168">Institute of Clinical Sciences</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/67470">Department of Clinical Sciences PhD Theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441135"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>National Heart and Lung Institute</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441135" class="media-list panel-collapse collapse">
+
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1448">National Heart and Lung Institute</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1239">National Heart and Lung Institute PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441486"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>School of Public Health</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441486" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1402">School of Public Health</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/67472">School of Public Health PhD Theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#1004416171"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Institute of Global Health Innovation</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="1004416171" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/6171">Institute of Global Health Innovation</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+</ul>
+</div>
+ 
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"> </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+               <a href="/handle/10044/1/7"><h2>Faculty of Natural Science</h2></a>
+           
+             <div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#1004417"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Faculty of Natural Sciences</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="1004417" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/8">Faculty of Natural Sciences</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/28369">Faculty of Natural Sciences - Research Data</a>
+</p>
+</div>
+</li>
+</ul>
+<ul class="media-list">
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441906"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Cell and Molecular Biology</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441906" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/907">Cell and Molecular Biology</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4441">Cell and Molecular Biology PhD theses</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/7009">Integrative Cell Biology</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#1004414299"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Centre for Environmental Policy  </strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="1004414299" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4300">Centre for Environmental Policy</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/12052">Centre for Environmental Policy Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4359">Centre for Environmental Policy PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441475"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Chemistry</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441475" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/479">Biological and Biophysical Chemistry</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/786">Catalysis and Advanced Materials</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/476">Chemistry</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1230">Chemistry PhD theses</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/562">Computational and Structural Research Group</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/9094">Synthetic Chemistry Research Group</a>
+</p>
+</div>
+</li>
+
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441715"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Division of Biology</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441715" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1228">Biology PhD theses</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/716">Division of Biology</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#1004419143"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Division of Ecology and Evolution</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="1004419143" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/9144">Ecology and Evolution</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044176777"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Grantham Institute for Climate Change</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="10044176777" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/76777">Grantham Institute for Climate Change</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441173"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Institute for Mathematical Sciences</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441173" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/174">Institute for Mathematical Sciences</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/6103">Institute for Mathematical Sciences PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044113148"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Life Sciences</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="10044113148" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/13147">Life Sciences Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/17949">Life Sciences PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044120"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Mathematics</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="10044120" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/22">Applied Mathematics and Mathematical Physics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/21">Financial Mathematics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/73">Mathematics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1241">Mathematics PhD theses</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/64">Pure Mathematics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1099">Statistics</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441908"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Molecular Biosciences</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441908" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/909">Molecular Biosciences</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4440">Molecular Biosciences PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044130"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Physics</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="10044130" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/853">Astrophysics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/430">Condensed Matter Theory</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/912">Experimental Solid State</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/9808">High Energy Physics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/576">Photonics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/144">Physics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1240">Physics PhD theses</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/6388">Plasma Physics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/31">Quantum Optics and Laser Science</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/36">Space and Atmospheric Physics</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/778">Theoretical Physics</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+ 
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"> </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+<a href="/handle/10044/1/643">              <h2>
+
+Imperial College
+Business School
+</h2></a>
+           
+             
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441643" class=""><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Imperial College Business School</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441643" class="media-list panel-collapse in" style="height: auto;">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/644">Imperial College Business School</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1473">Imperial College Business School  Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4262">Imperial College Business School PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+ 
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"> </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>Browse other Departments</h2>
+           
+             
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441489"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Academic Services</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441489" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/28371">Academic Services - Research Data</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/490">Library</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#100441491"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Administrative Services</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="100441491" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/9801">Central Services</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/492">Information and Communication Technology (ICT)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/9809">Repository Tools</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/11715">Theses Submission</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#10044111587"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Centre for Co-Curricular Studies</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="10044111587" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/11629">Centre for Co-Curricular Studies</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/11588">Centre for Co-Curricular Studies PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#1004416960"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>DSc Awards</strong>
+ <span class="badge" data-original-title="" title="">5</span>
+</h4>
+
+<ul id="1004416960" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/6961">DSc Awards</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#1004411197"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>School of Professional Development</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="1004411197" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/1198">School of Professional Development</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4704">School of Professional Development Master's Dissertations (Imperial Users Only)</a>
+</p>
+</div>
+</li>
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/4198">School of Professional Development PhD theses</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#1004419022"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>Support Services</strong>
+ <span class="badge" data-original-title="" title="">1</span>
+</h4>
+
+<ul id="1004419022" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/9023">Research Office</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+
+
+<li class="media well ">
+<div class="media-body xpanel panel-default"><h4 class="media-heading panel-heading"><a data-parent="#accordion" data-toggle="collapse" href="#1004417139"><span class="glyphicon glyphicon-plus" style="color:red; font-size:10px"></span></a>&nbsp;<strong>University of London awarded  theses - Imperial authors</strong>
+ <span class="badge" data-original-title="" title=""></span>
+</h4>
+
+<ul id="1004417139" class="media-list panel-collapse collapse">
+<li class="media well">
+<div class="media-body"><p class=""><a href="/handle/10044/1/7140">University of London awarded theses - Imperial authors</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+ 
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container row" style="display:none;">
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	
+</div>
+
+
+<style>
+html #content {padding:0;}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+             <footer class="navbar xnavbar-inverse navbar-bottom">
+             <!-- <div id="designedby" class="container text-muted">
+             Theme by <a href="http://www.cineca.it">
+             <img
+                                    src="/image/logo-cineca-small.png"
+                                    alt="Logo CINECA" /></a>
+			<div id="footer_feedback" class="pull-right">                                    
+                                <p class="text-muted"><a target="_blank" href="http://www.dspace.org/">Spiral Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; <a target="_blank" href="http://www.duraspace.org/">Duraspace</a>&nbsp;-
+                                <a target="_blank" href="/feedback">Feedback</a>
+                                <a href="/htmlmap"></a></p>
+                                </div>
+			</div>-->
+    </footer>
+    </body>
+</html>

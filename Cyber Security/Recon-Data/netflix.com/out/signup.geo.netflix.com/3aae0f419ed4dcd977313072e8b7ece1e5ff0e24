@@ -1,0 +1,20 @@
+https://signup.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: signup.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_1
+< X-Originating-Url: https://signup.geo.netflix.com/
+< X-Netflix.proxy.execution-Time: 5
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< Content-Length: 0
+< Location: https://www.netflix.com/
+< Server: nq_website_core-prod-release UNKNOWN
+< Set-Cookie: nfvdid=BQFmAAEBENm60Oob1kAPn9PwKVsFTC5AmFose2SJBGrtG5ZUESMRyEu1BUTvIFhMhQB2N2auy0s2uzWO_KBdCfV-8CbVFbXso2ffQQEHZsde7mODaSH-hQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=699d2617-c833-45ed-9205-4b2d05fbcd51; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:14 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0a378e6366f9411d2 (eu-west-1)
+< X-Content-Type-Options: nosniff
+

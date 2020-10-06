@@ -1,0 +1,36 @@
+https://repo.apache.maven.org/
+
+> GET / HTTP/1.1
+> Host: repo.apache.maven.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Use https://repo1.maven.org
+< Content-Length: 476
+< Server: Varnish
+< Date: Fri, 18 Sep 2020 08:36:42 GMT
+< Via: 1.1 varnish
+< X-Cache: MISS
+< X-Cache-Hits: 0
+< Retry-After: 0
+< Content-Type: text/html; charset=utf-8
+< Accept-Ranges: bytes
+< X-Served-By: cache-cdg20755-CDG
+< X-Timer: S1600418203.629342,VS0,VE0
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>403 Use https://repo1.maven.org</title>
+  </head>
+  <body>
+    <h1>Error 403 Use https://repo1.maven.org</h1>
+    <p>Use https://repo1.maven.org</p>
+    <h3>Guru Mediation:</h3>
+    <p>Details: cache-cdg20755-CDG 1600418203 3429134350</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>

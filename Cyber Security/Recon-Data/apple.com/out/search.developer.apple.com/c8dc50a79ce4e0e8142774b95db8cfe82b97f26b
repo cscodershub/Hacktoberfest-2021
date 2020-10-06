@@ -1,0 +1,19 @@
+https://search.developer.apple.com/
+
+> GET / HTTP/1.1
+> Host: search.developer.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 48
+< Location: /appsearch-validation-tool
+< Vary: Accept, Accept-Encoding
+< X-B3-Traceid: 9dfb4180a073fafb
+< Strict-Transport-Security: max-age=31536000
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:29:03 GMT
+< Content-Type: text/plain; charset=utf-8
+< X-Powered-By: Express
+< X-Frame-Options: deny
+
+Found. Redirecting to /appsearch-validation-tool

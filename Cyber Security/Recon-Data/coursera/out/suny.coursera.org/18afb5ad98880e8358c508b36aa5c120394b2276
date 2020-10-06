@@ -1,0 +1,11 @@
+http://suny.coursera.org/
+
+> GET / HTTP/1.1
+> Host: suny.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://suny.coursera.org/
+< Content-Length: 0
+< Date: Mon, 10 Aug 2020 04:52:07 GMT
+

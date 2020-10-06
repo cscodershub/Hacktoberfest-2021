@@ -1,0 +1,24 @@
+http://rainbow.instacart.com/
+
+> GET / HTTP/1.1
+> Host: rainbow.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 183
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 da86ace2d9b441802dcc77e25582499b.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:29 GMT
+< Content-Type: text/html
+< Location: https://rainbow.instacart.com/
+< X-Amz-Cf-Id: 39p9fJRogh5DaktW4IO4_g8gjjWEhUNOvz5XhQn1kBCYONrtywg_xQ==
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

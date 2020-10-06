@@ -1,0 +1,29 @@
+https://wwwa.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: wwwa.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 410 Gone
+< Content-Type: text/html
+< Date: Sat, 18 Jul 2020 13:54:28 GMT
+< Server: Apache
+< Last-Modified: Mon, 20 Apr 2020 15:26:44 GMT
+< Etag: "26c00f-320-5a3ba86c73500"
+< Accept-Ranges: bytes
+< Content-Length: 800
+
+<HTML>
+<HEAD>
+<TITLE>ERROR</TITLE>
+</HEAD>
+<BODY bgcolor=white>
+<IMG SRC="/errorpages/logo_imperial_college_london.png"><br>
+<H1>ERROR</H1>
+<p>Apologies for the inconvenience caused whilst you were trying to access this application.</p>
+<p>If you were searching for a vacancy in Imperial College, please make sure you have closed your ICIS session before going to our recruitment website <A HREF="http://www3.imperial.ac.uk/employment">http://www3.imperial.ac.uk/employment</A>.</p>
+<p>If the above does not apply to you, please email service.desk@imperial.ac.uk or phone 020 7594 9000 (opening hours 8:30 to 6
+pm Mon-Fri) explaining the steps you followed up to the point you received this error and include a copy of the error message.</p>
+<!-- Error from ictssrp02.ad.ic.ac.uk -->
+</BODY>
+</HTML>

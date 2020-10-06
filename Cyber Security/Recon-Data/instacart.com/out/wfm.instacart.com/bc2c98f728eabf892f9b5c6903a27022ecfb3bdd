@@ -1,0 +1,34 @@
+https://wfm.instacart.com/
+
+> GET / HTTP/1.1
+> Host: wfm.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Download-Options: noopen
+< X-Runtime: 0.021999
+< Date: Tue, 04 Aug 2020 04:47:34 GMT
+< X-Request-Id: b2adfb41-bf60-451c-a78e-14befa5ad9c0
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Amz-Cf-Id: kaanTIhhCtJaTJWjXo1uPkiDDaz3NXHD_zka2laQ-JkJOAs3hFwWDQ==
+< Vary: Origin
+< X-Cache: Miss from cloudfront
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: build_sha=b2487cd6cf0d167b75a0861b63be737cdb68edfd;Path=/;
+< Set-Cookie: ahoy_visitor=7bc1bf8f-e3d1-4525-8bb2-fc893f65fcf7; path=/; expires=Thu, 04 Aug 2022 04:47:34 GMT
+< Set-Cookie: ahoy_visit=8e077860-120c-479f-9f31-30ab21610a70; path=/; expires=Tue, 04 Aug 2020 05:17:34 GMT
+< Set-Cookie: ahoy_track=true; path=/
+< Set-Cookie: _instacart_session=QUpuWVAyUnZIeXhwUnNXbzBZT2h1bWpZZ2t3NCswZVU0K1lDbXFIZkNWbWZoQy9hcXZKQms3cmVyMkhQUTFGSWFQaGVicExWWGpvQ1E3YnUrc05BVVpIcmJXZUg1N1lRTkxKY0ZDdHNnSE09LS1PaDZJL0dQUEJ2S0d2S3RJZ1NpaDB3PT0%3D--04fe74033b89a8ee206ca9e602eeb99929a0421c; domain=.instacart.com; path=/; secure; HttpOnly
+< Server: nginx
+< X-Permitted-Cross-Domain-Policies: none
+< Location: https://www.instacart.com/shop/organic-food
+< X-Jobs: jobs@instacart.com
+< Via: 1.1 30679409511c27f2f2de20e193b58ee5.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< Content-Type: text/html; charset=utf-8
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache
+
+<html><body>You are being <a href="https://www.instacart.com/shop/organic-food">redirected</a>.</body></html>

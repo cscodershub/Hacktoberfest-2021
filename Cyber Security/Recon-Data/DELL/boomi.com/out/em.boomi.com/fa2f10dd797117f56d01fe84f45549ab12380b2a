@@ -1,0 +1,27 @@
+http://em.boomi.com/
+
+> GET / HTTP/1.1
+> Host: em.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cf-Cache-Status: DYNAMIC
+< Cf-Request-Id: 049300d74c0000de7ee31d6200000001
+< Vary: Accept-Encoding
+< Cf-Ray: 5c31d0d21f5ede7e-BLR
+< Date: Sat, 15 Aug 2020 09:16:15 GMT
+< Cache-Control: private, no-cache, no-store, max-age=0
+< X-Content-Type-Options: nosniff
+< Server: cloudflare
+< Content-Type: text/html
+< Set-Cookie: __cfduid=da3ebe1c339fc581002560e222d6ca2901597482975; expires=Mon, 14-Sep-20 09:16:15 GMT; path=/; domain=.em.boomi.com; HttpOnly; SameSite=Lax
+< Set-Cookie: BIGipServerab_mailtracking_80=!NYGfA/kTswSejce5yiPNdgcigIaMSURnLfQckNsxnr4zF2gVC6RY65H49ho9XZp0hqX37Iz2sPLF1Q==; path=/; Httponly
+< Set-Cookie: __cf_bm=cc87d27db07441c7593260e54f4736254e183963-1597482975-1800-AfRR6Y2FVYySNsg69OdxVqWjr5RIq/3Q6dUmJrhfttiSwJNE9yjBDXU82Vx1kVWNI43O1MfBTBOtsZ5ktrylQhE=; path=/; expires=Sat, 15-Aug-20 09:46:15 GMT; domain=.em.boomi.com; HttpOnly; SameSite=None
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>404 Not Found</h1>
+<p>The redirect url is empty</p>
+</body>
+</html>

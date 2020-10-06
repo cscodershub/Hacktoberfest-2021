@@ -1,0 +1,74 @@
+https://fed.ssi.samsung.com/
+
+> GET / HTTP/1.1
+> Host: fed.ssi.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html;charset=utf-8
+< Cache-Control: must-revalidate,no-cache,no-store
+< Set-Cookie: PF=2xou1SFpNb0NzRWi6483hA;Path=/;SameSite=None;Secure;HttpOnly
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Date: Wed, 10 Jun 2020 05:37:07 GMT
+< X-Frame-Options: SAMEORIGIN
+< Referrer-Policy: origin
+< Pragma: no-cache
+
+<!DOCTYPE html>
+
+
+<!-- template name: http.error.page.template.html -->
+
+
+<html lang="en" dir="ltr">
+<head>
+    <title>Error</title>
+    <base href="https://fed.ssi.samsung.com/" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+</head>
+
+<body>
+    
+<div class="ping-container">
+    
+    <!-- 
+     if there is a logo present in the 'company-logo' container,
+     then 'has-logo' class should be added to 'ping-header' container.
+     -->
+    <div class="ping-header">
+        <span class="company-logo">	
+		<img class="left" src="assets/images/samsung.jpg" width="50%" align="left" alt="logo">
+		<img class="right" src="assets/images/samsung_building.png" align="right" alt="logo">
+        <!-- client company logo here --></span>
+        <div style="width:auto; height:auto; padding:5px; background-color:#1428A0; color: white">Error</div>
+    </div><!-- .ping-header -->
+    
+    <div class="ping-body-container">
+        <div class="section-title">
+            Oops
+        </div>
+        <div class="ping-messages ping-nopad">
+            <div>
+                Looks like something is not right. Please contact your administrator.
+            </div>
+            <div class="ping-note-text">
+                404 - Not Found
+            </div>
+        </div>
+    </div> <!-- .ping-body-container -->
+    
+    <div class="ping-footer-container">
+        <div class="ping-footer">
+            <div class="ping-credits"></div>
+            <div class="ping-copyright">Copyright © 2003-2018. Ping Identity Corporation. All rights reserved.</div>
+        </div> <!-- .ping-footer -->
+    </div> <!-- .ping-footer-container -->
+    
+</div> <!-- .ping-container -->
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+https://www.applepayments.apple.com/
+
+> GET / HTTP/1.1
+> Host: www.applepayments.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 0
+< Server: red 3.7
+< Date: Thu, 30.Apr 2020 21:40:24 GMT
+< Referer: https://www.applepayments.apple.com/
+< Location: https://www.apple.com/legal/applepayments/
+

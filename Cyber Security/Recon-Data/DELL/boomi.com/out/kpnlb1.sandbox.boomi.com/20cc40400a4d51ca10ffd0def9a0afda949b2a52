@@ -1,0 +1,14 @@
+http://kpnlb1.sandbox.boomi.com/
+
+> GET / HTTP/1.1
+> Host: kpnlb1.sandbox.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Access-Control-Allow-Origin: *
+< Date: Sat, 15 Aug 2020 09:16:17 GMT
+< Content-Type: application/json
+< Content-Length: 72
+< X-Amzn-Requestid: f99f410f-ded7-11ea-ab0b-4ba653c1441c
+
+{"Message":"User: anonymous is not authorized to perform: es:ESHttpGet"}

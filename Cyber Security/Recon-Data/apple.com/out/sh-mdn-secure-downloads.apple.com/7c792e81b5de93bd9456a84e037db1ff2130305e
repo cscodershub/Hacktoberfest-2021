@@ -1,0 +1,29 @@
+https://sh-mdn-secure-downloads.apple.com/
+
+> GET / HTTP/1.1
+> Host: sh-mdn-secure-downloads.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html;charset=iso-8859-1
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:29:24 GMT
+< Content-Length: 329
+< Set-Cookie: dssid2=e4338874-6855-4fe8-aa08-a7c15c5ac33a; Path=/; Domain=apple.com; Expires=Sun, 28-Apr-2030 21:29:24 GMT; Max-Age=315360000; Secure; HttpOnly
+< Set-Cookie: dssf=1; Path=/; Domain=apple.com; Expires=Sun, 28-Apr-2030 21:29:24 GMT; Max-Age=315360000; Secure; HttpOnly
+< Set-Cookie: as_pcts=VC+tZjRfbMnsYWoF1Zvt::d2c:xpPsm+ZuKSkw_fzVR+_+Duxg; Path=/; Domain=apple.com; Secure; HttpOnly
+< Location: https://store.apple.com/us
+< X-Request-Id: a5541585-c58f-48e0-b0b4-c0071b9ea8f7
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://store.apple.com/us">here</a>.</p>
+<hr>
+<address>Apache/2.4.29 (Unix) OpenSSL/1.0.2n Server at store.apple.com Port 443</address>
+</body></html>

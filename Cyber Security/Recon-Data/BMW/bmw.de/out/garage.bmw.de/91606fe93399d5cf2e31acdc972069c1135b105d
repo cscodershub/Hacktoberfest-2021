@@ -1,0 +1,18 @@
+http://garage.bmw.de/
+
+> GET / HTTP/1.1
+> Host: garage.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: https://garage.bmw.de/
+< Access-Control-Allow-Methods: GET
+< Access-Control-Allow-Origin: *
+< X-Frame-Options: DENY
+< Server: AkamaiGHost
+< Date: Tue, 11 Aug 2020 04:51:20 GMT
+< Access-Control-Max-Age: 86400
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Headers: *
+

@@ -1,0 +1,26 @@
+https://portal.nrd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: portal.nrd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Via: 1.1 8ffe7ba0631040e73d58310352f9a079.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: xel4JQ9GYKFJtmUV7cd7aPsYQj2zk_npIWUu-7zljFlTjFDmL58HXA==
+< Content-Type: text/html
+< Content-Length: 79
+< Server: AmazonS3
+< Date: Wed, 17 Jun 2020 05:35:03 GMT
+< Etag: "4093af0308314b0da47d6ebc3b43e255"
+< Last-Modified: Thu, 19 Jun 2014 19:23:03 GMT
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< X-Cache: RefreshHit from cloudfront
+< X-Amz-Cf-Pop: MAA50-C1
+
+<html>
+<body>
+<script>
+    window.location = "/home";
+</script>
+</body>
+</html>

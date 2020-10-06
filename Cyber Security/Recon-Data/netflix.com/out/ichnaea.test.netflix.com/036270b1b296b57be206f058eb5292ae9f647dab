@@ -1,0 +1,15 @@
+http://ichnaea.test.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ichnaea.test.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Netflix.nfstatus: 1_2
+< X-Netflix.proxy.execution-Time: 4
+< X-Originating-Url: http://ichnaea.test.netflix.com/
+< Content-Length: 7
+< Server: clingest-secure UNKNOWN
+< Via: 1.1 i-051946462c19a13ce (us-east-1)
+
+BLOCKED

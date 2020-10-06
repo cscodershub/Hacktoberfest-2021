@@ -1,0 +1,20 @@
+https://ad-www4.ad.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: ad-www4.ad.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Sat, 18 Jul 2020 13:54:51 GMT
+< Server: Apache
+< Location: https://ad-www4.ad.imperial.ac.uk/OA_HTML/AppsLocalLogin.jsp
+< Content-Length: 244
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://ad-www4.ad.imperial.ac.uk/OA_HTML/AppsLocalLogin.jsp">here</a>.</p>
+</body></html>

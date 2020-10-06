@@ -1,0 +1,19 @@
+http://a656.phobos.apple.com/
+
+> GET / HTTP/1.1
+> Host: a656.phobos.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Accept-Ranges: bytes
+< Server: ATS/8.0.7
+< X-Akamai-Request-Id: 60f397a
+< Age: 4
+< Via: http/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), http/1.1 sgsin3-edge-bx-031.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Content-Length: 14
+< Date: Thu, 30 Apr 2020 21:36:59 GMT
+< Cdnuuid: d23e0999-8eb0-4fd5-badf-e7d894d4c4bb-10844003
+< X-Cache: skipped, miss
+< Content-Type: text/plain
+
+403 Forbidden

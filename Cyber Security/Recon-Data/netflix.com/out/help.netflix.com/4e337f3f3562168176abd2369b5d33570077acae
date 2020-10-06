@@ -1,0 +1,18 @@
+http://help.netflix.com/
+
+> GET / HTTP/1.1
+> Host: help.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Wed, 17 Jun 2020 05:35:37 GMT
+< Content-Length: 0
+< X-Originating-Url: http://help.netflix.com/
+< Location: https://help.netflix.com/
+< Server: poe-secure i-07e932defd8fdb754
+< Set-Cookie: memclid=31b4e6cb-b290-4cfd-9718-709767e15a3e; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:35:38 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBECG7XPKEyxOj7aNE2la6dlRAsAaoU6R0rYtpW4wfgAdkV7GLL9%2BPahZdTJEnSfugQ5aDojW5ah2%2ByGRi6XJ%2FdkVkXCsvdJ7RhnvAxhSff%2FS6zw%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:35:38 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0e9f358cbfab849b4 (eu-west-1)
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 6
+

@@ -1,0 +1,23 @@
+https://staff-hub.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: staff-hub.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=utf-8
+< Location: https://staff-hub.imperial.ac.uk/support/home
+< X-Content-Type-Options: nosniff
+< Pragma: no-cache
+< X-Runtime: 0.009715
+< Date: Sat, 18 Jul 2020 13:54:19 GMT
+< X-Xss-Protection: 1; mode=block
+< Expires: Fri, 01 Jan 1990 00:00:00 GMT
+< X-Envoy-Upstream-Service-Time: 12
+< Status: 302 Found
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Strict-Transport-Security: max-age=31536000;
+< X-Request-Id: ee4d45fb-3ae1-4193-94d1-da54df3ce524
+< X-Frame-Options: SAMEORIGIN
+
+<html><body>You are being <a href="https://staff-hub.imperial.ac.uk/support/home">redirected</a>.</body></html>

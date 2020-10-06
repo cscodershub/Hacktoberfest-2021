@@ -1,0 +1,12 @@
+http://mein.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: mein.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://mein.bmw-motorrad.de/
+< Server: BigIP
+< Connection: close
+< Content-Length: 0
+

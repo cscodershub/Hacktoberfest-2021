@@ -1,0 +1,13 @@
+https://dialog.bmw.de/
+
+> GET / HTTP/1.1
+> Host: dialog.bmw.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: nginx
+< Date: Tue, 11 Aug 2020 04:51:19 GMT
+< Content-Type: text/html
+< Last-Modified: Wed, 27 May 2020 07:16:38 GMT
+
+<!-- dialog.bmw.de -->

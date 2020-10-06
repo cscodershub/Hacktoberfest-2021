@@ -1,0 +1,14 @@
+http://business.apple.com/
+
+> GET / HTTP/1.1
+> Host: business.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://business.apple.com/
+< Content-Length: 0
+< Cache-Control: public, max-age=2302
+< Date: Thu, 30 Apr 2020 21:40:23 GMT
+< X-Cache: TCP_REFRESH_MISS from a49-44-95-94.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (S)
+< X-Cache-Remote: TCP_MEM_HIT from a49-44-116-212.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+

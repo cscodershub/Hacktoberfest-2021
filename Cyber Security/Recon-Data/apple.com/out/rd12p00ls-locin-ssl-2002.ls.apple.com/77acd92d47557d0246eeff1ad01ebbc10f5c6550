@@ -1,0 +1,24 @@
+https://rd12p00ls-locin-ssl-2002.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: rd12p00ls-locin-ssl-2002.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Content-Length: 95
+< Date: Thu, 30 Apr 2020 21:30:42 GMT
+< Server: Apache-Coyote/1.1
+< Expires: 0
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=84059345C9F6658A2CB6FF03993610D7; Path=/; Secure; HttpOnly
+< Content-Type: text/html;charset=ISO-8859-1
+< Cneonction: close
+< X-Xss-Protection: 1; mode=block
+
+<head>
+<meta http-equiv="refresh" content="0; url=secure/static/html/overview.html" />
+</head>

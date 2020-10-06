@@ -1,0 +1,19 @@
+https://static-its-images.apple.com/
+
+> GET / HTTP/1.1
+> Host: static-its-images.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Bucket-Region: us-east-1
+< X-Amz-Request-Id: 8564B2E4CEAB5B2F
+< X-Amz-Id-2: e6iZI78d+L7GHGlNwofSBmshPgIaQGLv+6hTp9lAWZR/CqJlpXMZZ02GRFbywlmhELbk07W+GmE=
+< X-Cache: TCP_MISS from a49-44-140-156.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Content-Type: application/xml
+< Server: AmazonS3
+< Content-Length: 243
+< Date: Thu, 30 Apr 2020 21:29:31 GMT
+< X-Cache-Remote: TCP_MISS from a96-17-150-199.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29290934) (-)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8564B2E4CEAB5B2F</RequestId><HostId>e6iZI78d+L7GHGlNwofSBmshPgIaQGLv+6hTp9lAWZR/CqJlpXMZZ02GRFbywlmhELbk07W+GmE=</HostId></Error>

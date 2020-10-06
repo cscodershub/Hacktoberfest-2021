@@ -1,0 +1,20 @@
+http://us.flow.boomi.com/
+
+> GET / HTTP/1.1
+> Host: us.flow.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 308 Permanent Redirect
+< Date: Sat, 15 Aug 2020 09:16:01 GMT
+< Content-Type: text/html
+< Content-Length: 164
+< Location: https://us.flow.boomi.com/
+< X-Manywho-Region-Frontend: US
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

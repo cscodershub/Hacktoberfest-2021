@@ -1,0 +1,22 @@
+https://fyr.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: fyr.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Thu, 30 Apr 2020 21:31:12 GMT
+< Server: Apache/2.4.6 (CentOS)
+< Content-Length: 284
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /
+on this server.</p>
+<hr>
+<address>Apache/2.4.6 (CentOS) Server at fyr.ls.apple.com Port 443</address>
+</body></html>

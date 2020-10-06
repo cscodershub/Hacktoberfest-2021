@@ -1,0 +1,14 @@
+http://analytics.instacart.com/
+
+> GET / HTTP/1.1
+> Host: analytics.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Id-2: drnCpUl2jhAVDfl9+EYkGcIW27KpUc+87giXB86SSFVyewuGJvEH7YrTNQ2VcxdRNHfy68xJD6Y=
+< X-Amz-Request-Id: 61F724C2A02C4FCA
+< Date: Tue, 04 Aug 2020 04:46:52 GMT
+< Location: https://analytics-instacart.com/
+< Content-Length: 0
+< Server: AmazonS3
+

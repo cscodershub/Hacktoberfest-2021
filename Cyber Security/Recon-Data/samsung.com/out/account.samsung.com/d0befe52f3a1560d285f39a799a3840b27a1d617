@@ -1,0 +1,25 @@
+http://account.samsung.com/
+
+> GET / HTTP/1.1
+> Host: account.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< X-Cdn: Served-By-Zenedge
+< X-Ws-Request-Id: 5ee07134_PSrbdjTYO3cc124_21710-40675
+< Date: Wed, 10 Jun 2020 05:35:49 GMT
+< X-Zen-Fury: b5eed3f1399340cf2e431ea5d56371705c4bc452
+< Server: PWS/8.3.1.0.8
+< X-Cache-Status: NOTCACHED
+< Location: https://account.samsung.com:443/
+< Via: 1.1 PS-FRA-01I7r155:5 (W), 1.1 PSrbdjTYO3cc124:12 (W)
+< X-Px: ms PSrbdjTYO3cc124HND,ms PS-FRA-01I7r155FRA(origin)
+< Content-Type: text/html
+< Content-Length: 126
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+</body>
+</html>

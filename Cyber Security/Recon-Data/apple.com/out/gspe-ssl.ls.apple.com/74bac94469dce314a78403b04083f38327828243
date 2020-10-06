@@ -1,0 +1,23 @@
+https://gspe-ssl.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gspe-ssl.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Thu, 30 Apr 2020 21:31:00 GMT
+< Server: dlb/1.0.2
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Expires: Thu, 30 Apr 2020 21:31:00 GMT
+< Pragma: no-cache
+< Content-Type: text/html
+< Content-Length: 166
+< Cache-Control: max-age=0, no-cache, no-store
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>dlb/1.0.2</center>
+</body>
+</html>

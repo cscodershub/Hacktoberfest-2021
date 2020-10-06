@@ -1,0 +1,23 @@
+https://media.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: media.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 173
+< Cache-Control: private
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=vvdwbj3pl1uurilyarzz5zrx; path=/; HttpOnly; SameSite=Lax
+< X-Powered-By: ARR/3.0
+< X-Arr-Server: ICRP8
+< Date: Sat, 18 Jul 2020 13:54:44 GMT
+< Content-Type: text/html; charset=utf-8
+< Location: https://media.imperial.ac.uk/Account/Logon?ReturnUrl=%2f
+< X-Aspnetmvc-Version: 5.2
+< X-Aspnet-Version: 4.0.30319
+< X-Media-Server: 2
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://media.imperial.ac.uk/Account/Logon?ReturnUrl=%2f">here</a>.</h2>
+</body></html>

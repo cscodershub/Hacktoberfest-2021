@@ -1,0 +1,22 @@
+http://repo.apache.maven.org/
+
+> GET / HTTP/1.1
+> Host: repo.apache.maven.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 501 HTTPS Required
+< Via: 1.1 varnish
+< X-Served-By: cache-cdg20774-CDG
+< X-Cache-Hits: 0
+< Server: Varnish
+< Content-Type: text/plain
+< Accept-Ranges: bytes
+< Date: Fri, 18 Sep 2020 08:36:47 GMT
+< Content-Length: 133
+< X-Cache: MISS
+< X-Timer: S1600418207.141093,VS0,VE0
+
+501 HTTPS Required. 
+Use https://repo1.maven.org/maven2/
+More information at https://links.sonatype.com/central/501-https-required
+  

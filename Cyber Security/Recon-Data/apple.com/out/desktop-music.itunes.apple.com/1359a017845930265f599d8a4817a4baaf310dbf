@@ -1,0 +1,14 @@
+http://desktop-music.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: desktop-music.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Location: https://desktop-music.itunes.apple.com/
+< Content-Length: 0
+< Expires: Thu, 30 Apr 2020 21:29:48 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Pragma: no-cache
+< Date: Thu, 30 Apr 2020 21:29:48 GMT
+

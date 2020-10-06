@@ -1,0 +1,12 @@
+http://www3.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: www3.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: BigIP
+< Connection: close
+< Content-Length: 0
+< Location: https://www.imperial.ac.uk/error/503/events/
+

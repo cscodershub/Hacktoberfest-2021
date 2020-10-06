@@ -1,0 +1,24 @@
+http://albertsons.instacart.com/
+
+> GET / HTTP/1.1
+> Host: albertsons.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: _mkvOuytygR3cwX5xqWITKZ1kjUYBMTC8Bxaf4-MlIcXbGs4POLCqQ==
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:46:55 GMT
+< Content-Length: 183
+< Location: https://albertsons.instacart.com/
+< Via: 1.1 6e2ed731c719076ef15104593fe6f44d.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

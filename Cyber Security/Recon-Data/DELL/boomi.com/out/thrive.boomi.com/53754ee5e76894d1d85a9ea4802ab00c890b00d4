@@ -1,0 +1,31 @@
+http://thrive.boomi.com/
+
+> GET / HTTP/1.1
+> Host: thrive.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://thrive.boomi.com/
+< Age: 46928
+< Via: 1.1 varnish
+< Content-Type: text/html
+< Server: nginx
+< Cache-Control: public, max-age=86400
+< X-Served-By: cache-mdw17372-MDW, cache-bom4731-BOM
+< X-Cache: HIT, HIT
+< X-Timer: S1597482971.198924,VS0,VE1
+< X-Pantheon-Styx-Hostname: styx-fe3-b-7ccfb4b767-kkmsp
+< Content-Length: 162
+< Date: Sat, 15 Aug 2020 09:16:11 GMT
+< X-Styx-Req-Id: b2590adc-de6a-11ea-b9df-e224d20f9550
+< X-Cache-Hits: 1, 1
+< Vary: Cookie, Cookie
+< Accept-Ranges: bytes
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

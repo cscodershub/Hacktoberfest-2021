@@ -1,0 +1,14 @@
+https://mdn-as-images-ns.apple.com/
+
+> GET / HTTP/1.1
+> Host: mdn-as-images-ns.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: nginx
+< Date: Thu, 30 Apr 2020 21:31:24 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 53
+< Connection: keep-alive
+
+<html><body><h1>Resource not found</h1></body></html>

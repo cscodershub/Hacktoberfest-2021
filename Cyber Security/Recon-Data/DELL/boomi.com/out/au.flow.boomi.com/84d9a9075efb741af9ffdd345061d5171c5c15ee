@@ -1,0 +1,16 @@
+https://au.flow.boomi.com/
+
+> GET / HTTP/1.1
+> Host: au.flow.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: no-cache
+< Location: https://flow.manywho.com/da497693-4d02-45db-bc08-8ea16d2ccbdf/play/draw2
+< X-Manywho-Region-Backend: US
+< X-Manywho-Region-Frontend: AU
+< Content-Length: 0
+< X-Manywho-Pod: engine-rolling-6f9cd7b7fb-szctd
+< Strict-Transport-Security: max-age=15724800
+< Date: Sat, 15 Aug 2020 09:16:04 GMT
+

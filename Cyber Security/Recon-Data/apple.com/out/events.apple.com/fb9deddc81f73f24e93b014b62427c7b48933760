@@ -1,0 +1,23 @@
+https://events.apple.com/
+
+> GET / HTTP/1.1
+> Host: events.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN
+< Server: Apple
+< Content-Type: text/html
+< Location: http://www.apple.com/404
+< Host: events.apple.com
+< Date: Thu, 30 Apr 2020 21:40:25 GMT
+< Content-Length: 138
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

@@ -1,0 +1,20 @@
+http://plexus.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: plexus.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx/1.10.3 (Ubuntu)
+< Date: Sat, 18 Jul 2020 13:54:40 GMT
+< Content-Type: text/html
+< Content-Length: 194
+< Location: https://plexus.imperial.ac.uk
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>

@@ -1,0 +1,26 @@
+https://my.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: my.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 179
+< Cache-Control: no-store
+< Location: https://my.imperial.ac.uk/CollegeCommonV2_Th/NoPermission.aspx
+< Date: Sat, 18 Jul 2020 13:54:39 GMT
+< Pragma: no-cache
+< Server: Microsoft-IIS/10.0
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Type: text/html; charset=utf-8
+< Set-Cookie: ASP.NET_SessionId=bou0jkbazjyx4xwhfjqiiknu; path=/; secure; HttpOnly
+< Set-Cookie: osVisitor=05f6f619-5902-4aeb-97f6-6a0004ea2214; expires=Thu, 18-Jul-2120 13:54:39 GMT; path=/; secure; HttpOnly
+< Set-Cookie: osVisit=b155824a-f7bb-4842-8206-3ff73b89b7e8; expires=Sat, 18-Jul-2020 14:24:39 GMT; path=/; secure; HttpOnly
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://my.imperial.ac.uk/CollegeCommonV2_Th/NoPermission.aspx">here</a>.</h2>
+</body></html>

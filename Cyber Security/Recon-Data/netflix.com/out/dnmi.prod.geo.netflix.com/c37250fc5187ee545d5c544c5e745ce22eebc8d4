@@ -1,0 +1,13 @@
+https://dnmi.prod.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: dnmi.prod.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: zuul i-091dc0019f40d8097
+< Via: 1.1 i-091dc0019f40d8097 (eu-west-1)
+< X-Netflix.nfstatus: 1_5
+< X-Netflix.proxy.execution-Time: 49813
+< Content-Length: 0
+

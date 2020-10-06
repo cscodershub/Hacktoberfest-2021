@@ -1,0 +1,40 @@
+https://wallet.apple.com/
+
+> GET / HTTP/1.1
+> Host: wallet.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Thu, 30 Apr 2020 21:40:56 GMT
+< X-B3-Traceid: d0f95b5d6853097d
+< Strict-Transport-Security: max-age=31536000
+< Accept-Ranges: bytes
+< Server: ATS/8.0.7
+< Content-Length: 559
+< Via: https/1.1 sgsin3-edge-lx-012.ts.apple.com (ApacheTrafficServer/8.0.7), https/1.1 sgsin3-edge-bx-017.ts.apple.com (ApacheTrafficServer/8.0.7)
+< X-Cache: miss, hit-stale
+< Content-Type: text/html
+< Expires: Thu, 30 Apr 2020 21:45:56 GMT
+< Cache-Control: max-age=300
+< Cache-Control: public
+< Age: 1
+< Cdnuuid: f5d3fd19-7c04-445a-8902-b1832acade55-2623240317
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body lang="en-US">
+      <script>
+          document.addEventListener('DOMContentLoaded',function(e) {
+            if (navigator.platform === 'iPhone') {
+              window.location = 'https://wallet.apple.com/apply/iphone/';
+            } else if (navigator.platform === 'iPad') {
+              window.location = 'https://wallet.apple.com/apply/ipad/';
+            } else {
+              window.location = 'https://wallet.apple.com/apply/other/';
+            }
+          });
+        </script>
+  </body>
+</html>

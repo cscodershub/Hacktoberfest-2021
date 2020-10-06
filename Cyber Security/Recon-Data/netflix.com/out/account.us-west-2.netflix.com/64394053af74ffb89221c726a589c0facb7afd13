@@ -1,0 +1,32 @@
+https://account.us-west-2.netflix.com/
+
+> GET / HTTP/1.1
+> Host: account.us-west-2.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Edge-Control: no-cache, no-store
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 217
+< X-Robots-Tag: index
+< Content-Length: 0
+< Cache-Control: no-cache, no-store
+< Server: nq_website_core-prod-release c5512f52-ec5f-45f8-b3bb-2a0e6d4b1398
+< X-Frame-Options: DENY
+< X-Originating-Url: https://account.us-west-2.netflix.com/
+< Pragma: no-cache
+< Set-Cookie: flwssn=20c06bad-ca51-4b08-aee8-82a3f8fdfd2c; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:33:44 GMT
+< Set-Cookie: clSharedContext=41118826-38f3-4180-86dc-841a589412d9; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEJEFQK0FWZ7921HTwCKhXBVA91wR316ugSSZ1fpvs5xE1Z0T0oFEOs3XiTKaaFcJZUPdgoyvMQVBX6dlyy4Opv3NYaT4VYeB5P3SFk9w7iscCA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABRuaNDl5QnGmK1xoAAuK2-OpVOtfvHxMgs.%26dt%3D1592372024636; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:33:44 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEOdd94r0I_f098eLdDeNOI6A8C4Z2Hvhq0xM9_ail7dP26bboRmNBMxxK-qNc0xsc5c3pkIdrY07dBa2jvygPn5JrNSWIanon0bCMwCpK12z7_fZwjPIcIcjaL-m-eXKL3y96QiclqwpZK5DZY6yxBOZqSJwTkXjfKrehD4NwpajCnx3ih4zhqKTx_S6sk3HrXu3ltItTiRy_aH96E3RtqnUXR8VlRLoCibyG2VBeXN1uzCiEBhwCCb-UGaj1FqVQttArJKrJVooRdyHk9NmORrHiL7qIs6SLF8ss17vPw1G1NGp9z848DutAoyPeJERss0qtRt5hdEvzo5sNIcqdfZf1A..%26bt%3Ddev%26mac%3DAQEAEAABABRJPYNP-nLOWL2Rmkrv__26nmeyQSBnrow.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:33:44 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=62c93d93-06de-4198-abb3-1e982800529c; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:33:44 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0e2f4e6cae62bfb23 (us-west-2)
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html
+< Date: Wed, 17 Jun 2020 05:33:44 GMT
+< Expires: 0
+< Location: https://account.us-west-2.netflix.com/in/
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+

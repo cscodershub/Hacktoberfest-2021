@@ -1,0 +1,22 @@
+http://investor.apple.com/
+
+> GET / HTTP/1.1
+> Host: investor.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://investor.apple.com/
+< X-Edge-Location: q4web-prd-contentcache-us-west-2-i-0fb431425f6660e0f
+< X-Dis-Request-Id: c524e349198940155b3400cb06c366b9
+< Server: DOSarrest
+< Date: Thu, 30 Apr 2020 21:29:17 GMT
+< Content-Type: text/html
+< Content-Length: 178
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

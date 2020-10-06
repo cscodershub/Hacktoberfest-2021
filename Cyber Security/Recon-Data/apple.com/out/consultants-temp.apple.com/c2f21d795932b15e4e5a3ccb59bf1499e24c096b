@@ -1,0 +1,29 @@
+https://consultants-temp.apple.com/
+
+> GET / HTTP/1.1
+> Host: consultants-temp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Strict-Transport-Security: max-age=63072000
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Expiresactive: On
+< Expiresdefault: access plus 1 minutes
+< Host: consultants-temp.apple.com
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=iso-8859-1
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: rn-consultants-prod=43fd7291fc8da4e580952cc0a866acf1; expires=Thu, 07-May-20 21:28:26 GMT; max-age=604800; domain=.apple.com; httponly; secure; path=/
+< Location: https://consultants-temp.apple.com/us/
+< Content-Length: 246
+< X-Frame-Options: SAMEORIGIN
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:28:26 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://consultants-temp.apple.com/us/">here</a>.</p>
+</body></html>

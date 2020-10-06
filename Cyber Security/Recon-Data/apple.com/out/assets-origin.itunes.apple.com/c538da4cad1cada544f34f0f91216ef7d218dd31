@@ -1,0 +1,31 @@
+https://assets-origin.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: assets-origin.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< B3: 26ad3b95e2f1082375fc928fc3dbe3d0-0c205af759a3a833
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: false
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Access-Control-Max-Age: 3000
+< X-Daiquiri-Instance: daiquiri:17173001:mr85p00it-hyhk04114101:7987:20E24
+< Cache-Control: max-age=3600
+< Connection: keep-alive
+< Date: Thu, 30 Apr 2020 21:29:59 GMT
+< Content-Length: 130
+< X-Apple-Request-Uuid: 26ad3b95-e2f1-0823-75fc-928fc3dbe3d0
+< Apple-Seq: 0.0
+< Access-Control-Expose-Headers: range, cdn-server, content-encoding, transfer-encoding, content-range
+< Server: daiquiri/3.0.0
+< Content-Type: text/plain
+< X-Apple-Jingle-Correlation-Key: E2WTXFPC6EECG5P4SKH4HW7D2A
+< Access-Control-Allow-Headers: range
+< Access-Control-Allow-Methods: HEAD, GET, OPTIONS
+< X-B3-Traceid: 26ad3b95e2f1082375fc928fc3dbe3d0
+< X-B3-Spanid: 0c205af759a3a833
+< Apple-Tk: false
+< Apple-Originating-System: ar-resolver-origin
+
+Hi, you've reached ar-resolver-origin-mr21p00ce-repo002-11003-2302. I'm not really sure what you were looking for, but here I am!

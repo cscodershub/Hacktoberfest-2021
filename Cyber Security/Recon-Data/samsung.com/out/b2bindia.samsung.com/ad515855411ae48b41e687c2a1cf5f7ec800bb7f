@@ -1,0 +1,32 @@
+http://b2bindia.samsung.com/
+
+> GET / HTTP/1.1
+> Host: b2bindia.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< Set-Cookie: ELOQUA=GUID=54985A5D6F0F4765ACC42E77D92BB744; domain=b2bindia.samsung.com; expires=Sat, 10-Jul-2021 05:36:02 GMT; path=/; HttpOnly
+< Expires: -1
+< Content-Type: text/html; charset=utf-8
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+< X-Content-Type-Options: nosniff
+< Date: Wed, 10 Jun 2020 05:36:01 GMT
+< Cache-Control: private,no-cache, no-store
+< Pragma: no-cache
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Redirecting...</title>
+<meta http-equiv="refresh" content="0;url=http://www.eloqua.com">
+
+</head>
+<body>
+<html><head></head>
+<body>
+<p>Switch to source mode and replace "your_website_here.com" with your company URL.</p>
+<p><meta content="0; url=http://www.your_website_here.com" http-equiv="REFRESH"></p></body></html>
+</body></html><img style="display:none" src="https://s227779645.t.eloqua.com/visitor/v200/svrGP?pps=60&siteid=227779645&PURLSiteID=1&optin=disabled&PURLSiteAlternateDNSID=0&LandingPageID=8&PURLRecordID=0&PURLGUID=54985A5D6F0F4765ACC42E77D92BB744&UseRelativePath=False&elq={00000000-0000-0000-0000-000000000000}&elq_ck=0" border=0 width=1 height=1 alt="">

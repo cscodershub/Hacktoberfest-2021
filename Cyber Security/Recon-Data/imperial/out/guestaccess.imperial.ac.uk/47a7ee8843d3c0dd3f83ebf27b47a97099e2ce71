@@ -1,0 +1,19 @@
+https://guestaccess.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: guestaccess.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: Microsoft-IIS/10.0
+< X-Aspnet-Version: 4.0.30319
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Location: https://guestaccess.imperial.ac.uk/GuestLogin/default.aspx
+< X-Powered-By: ASP.NET
+< Date: Sat, 18 Jul 2020 13:54:34 GMT
+< Content-Length: 175
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://guestaccess.imperial.ac.uk/GuestLogin/default.aspx">here</a>.</h2>
+</body></html>

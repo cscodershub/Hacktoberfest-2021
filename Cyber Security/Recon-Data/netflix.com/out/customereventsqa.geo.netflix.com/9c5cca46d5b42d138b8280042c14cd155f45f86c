@@ -1,0 +1,16 @@
+http://customereventsqa.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: customereventsqa.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Netflix.nfstatus: 1_3
+< X-Originating-Url: http://customereventsqa.geo.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:36:12 GMT
+< Server: beacon i-0c164b5ed8d631b3f
+< Via: 1.1 i-051946462c19a13ce (us-east-1)
+< X-Netflix.proxy.execution-Time: 6155
+< Content-Length: 0
+

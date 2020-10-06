@@ -1,0 +1,13 @@
+https://rjvit.apple.com/
+
+> GET / HTTP/1.1
+> Host: rjvit.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Cache-Control: no-cache,no-store
+< Pragma: no-cache
+< Set-Cookie: NSC_MCWT_skwju_443=ffffffff12a12ef845525d5f4f58455e445a4a42378b;path=/;secure;httponly
+< Content-Length: 62
+
+<html><body><b>Http/1.1 Service Unavailable</b></body> </html>

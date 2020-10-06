@@ -1,0 +1,21 @@
+http://xp.apple.com/
+
+> GET / HTTP/1.1
+> Host: xp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 155
+< Date: Thu, 30 Apr 2020 21:28:48 GMT
+< Cache-Control: must-revalidate,no-cache,no-store
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html;charset=iso-8859-1
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found Url: /</title>
+</head>
+<body>
+</body>
+</html>

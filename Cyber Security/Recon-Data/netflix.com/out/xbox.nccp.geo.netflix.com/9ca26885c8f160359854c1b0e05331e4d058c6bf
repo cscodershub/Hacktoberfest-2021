@@ -1,0 +1,25 @@
+https://xbox.nccp.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: xbox.nccp.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html; charset=iso-8859-1
+< Via: 1.1 i-0d72a9c1a698ae0fc (eu-west-1)
+< X-Netflix.proxy.execution-Time: 4
+< X-Originating-Url: https://xbox.nccp.geo.netflix.com/
+< Date: Wed, 17 Jun 2020 05:36:14 GMT
+< Server: nccp-modern i-0f1a22c978640a2d0
+< Set-Cookie: memclid=c346b819-8f75-4ade-b1ee-d57edaadd4e6; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:14 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEPhgDtPvcQvlrkPL9Xc7A49AtO8Z8KkVq3fPPAoi2gAwpiSoBsoYXWdHUhkieqU%2Bgn82J2hN45TA0pbTAMagoZWTlXi35l5X2npkiMVZ%2BIIx9Q%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:14 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_1
+< Content-Length: 199
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

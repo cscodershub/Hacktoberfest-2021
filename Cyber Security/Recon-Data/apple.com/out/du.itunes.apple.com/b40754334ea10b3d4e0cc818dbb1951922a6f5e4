@@ -1,0 +1,29 @@
+https://du.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: du.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< B3: 4c1c523165fcf8c58eb5638745ed8220-21a9bf7ea16ec340
+< X-B3-Traceid: 4c1c523165fcf8c58eb5638745ed8220
+< Content-Length: 171
+< Server: Jetty(9.4.18.v20190429)
+< X-Apple-Jingle-Correlation-Key: JQOFEMLF7T4MLDVVMODUL3MCEA
+< X-Apple-Request-Uuid: 4c1c5231-65fc-f8c5-8eb5-638745ed8220
+< X-B3-Spanid: 21a9bf7ea16ec340
+< Apple-Seq: 0
+< Apple-Tk: false
+< Apple-Originating-System: MZDirectUploader
+< Cache-Control: must-revalidate,no-cache,no-store
+< Content-Type: text/html;charset=iso-8859-1
+< Nncoection: close
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h1>404: Not Found</h1>
+</body>
+</html>

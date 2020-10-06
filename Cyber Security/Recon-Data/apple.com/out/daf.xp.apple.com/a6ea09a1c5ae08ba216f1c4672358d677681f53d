@@ -1,0 +1,24 @@
+http://daf.xp.apple.com/
+
+> GET / HTTP/1.1
+> Host: daf.xp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Thu, 30 Apr 2020 21:28:49 GMT
+< Server: daiquiri/3.0.0
+< Content-Type: text/html;charset=iso-8859-1
+< Cache-Control: must-revalidate,no-cache,no-store
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Apple-Jingle-Correlation-Key: OSIYX435CQJUJ6SWK5DSZVTKUQ
+< X-Daiquiri-Instance: daiquiri:30752001:pv50p00it-qugj22203101:7987:20E24
+< Content-Length: 155
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found Url: /</title>
+</head>
+<body>
+</body>
+</html>

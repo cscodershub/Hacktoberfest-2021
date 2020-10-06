@@ -1,0 +1,14 @@
+http://se2.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: se2.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Date: Thu, 30 Apr 2020 21:29:45 GMT
+< Turnaroundtime: 432
+< Location: https://se2.itunes.apple.com/
+< Cache-Control: no-cache
+< Pragma: no-cache
+< Content-Length: 0
+

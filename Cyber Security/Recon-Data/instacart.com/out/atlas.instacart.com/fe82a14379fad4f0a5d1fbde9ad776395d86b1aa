@@ -1,0 +1,24 @@
+http://atlas.instacart.com/
+
+> GET / HTTP/1.1
+> Host: atlas.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 04 Aug 2020 04:46:55 GMT
+< Content-Type: text/html
+< Location: https://atlas.instacart.com/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: OEpcIg4pFUzl3PtUnt9wwZLZvukHG3QtM4T4L_gZNwOriP_OFTxQOQ==
+< Server: CloudFront
+< Via: 1.1 c91d60840eeb2a1bee8b1adcbe360597.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C2
+< Content-Length: 183
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

@@ -1,0 +1,22 @@
+https://mobilforum-lausitz.mini.de/
+
+> GET / HTTP/1.1
+> Host: mobilforum-lausitz.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< Content-Length: 0
+< Content-Type: text/html; charset=utf-8
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 11 Aug 2020 04:54:29 GMT
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: max-age=14400, must-revalidate
+< Set-Cookie: JSESSIONID=node0wqjda1qyk3h91uw5juiwkefay2518713.node0;Path=/;Secure;HttpOnly;Secure
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+< Strict-Transport-Security: max-age=15768000
+< Location: https://mobilforum-lausitz.mini.de/content.html
+

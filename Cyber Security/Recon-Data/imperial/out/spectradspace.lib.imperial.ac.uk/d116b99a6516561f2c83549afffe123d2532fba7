@@ -1,0 +1,22 @@
+http://spectradspace.lib.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: spectradspace.lib.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Sat, 18 Jul 2020 13:54:17 GMT
+< Server: Apache/2.2.3 (Oracle)
+< Location: https://data-old.hpc.imperial.ac.uk/
+< Content-Length: 341
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://data-old.hpc.imperial.ac.uk/">here</a>.</p>
+<hr>
+<address>Apache/2.2.3 (Oracle) Server at spectradspace.lib.imperial.ac.uk Port 80</address>
+</body></html>

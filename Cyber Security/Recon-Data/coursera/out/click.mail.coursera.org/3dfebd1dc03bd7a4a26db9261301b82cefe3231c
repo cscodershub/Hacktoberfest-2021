@@ -1,0 +1,19 @@
+https://click.mail.coursera.org/
+
+> GET / HTTP/1.1
+> Host: click.mail.coursera.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/plain
+< Date: Mon, 10 Aug 2020 04:51:44 GMT
+< Server: msys-http
+< Content-Length: 175
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>openresty/1.13.6.1</center>
+</body>
+</html>

@@ -1,0 +1,20 @@
+https://release-stage.netflix.com/
+
+> GET / HTTP/1.1
+> Host: release-stage.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Netflix.nfstatus: 1_2
+< X-Netflix.proxy.execution-Time: 5
+< Content-Length: 7
+< Server: shakti-release-stage UNKNOWN
+< Set-Cookie: nfvdid=BQFmAAEBEMC9ku90gL4Gz6Fv-ekypxtAkHS8-LUKmRdQvQBEca9hYERVXg8G4vTAkCz2SU_a-rbeRKnJThyIKir_dTRGdyGVeMyadVo87yaFfRIdkEW0RQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: memclid=753364dc-6ea2-4be5-af49-3fef3dd2fa42; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:38:05 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-0cfe58680342120e9 (eu-west-1)
+< X-Originating-Url: https://release-stage.netflix.com/
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+
+BLOCKED

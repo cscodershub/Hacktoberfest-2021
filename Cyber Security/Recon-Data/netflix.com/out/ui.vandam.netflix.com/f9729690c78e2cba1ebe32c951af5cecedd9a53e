@@ -1,0 +1,35 @@
+https://ui.vandam.netflix.com/
+
+> GET / HTTP/1.1
+> Host: ui.vandam.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Expires: 0
+< Last-Modified: Thu, 11 Jun 2020 21:58:34 GMT
+< Content-Length: 849
+< Access-Control-Allow-Credentials: true
+< Vary: Origin
+< Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+< Accept-Ranges: bytes
+< Etag: W/"351-172a5644f10"
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Date: Wed, 17 Jun 2020 05:35:35 GMT
+< Server: Apache
+< Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="manifest" href="https://ui.vandam.netflix.com/manifest.json">
+    <link rel="shortcut icon" href="https://ui.vandam.netflix.com/favicon.ico">
+    <title>VanDAM</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  <script type="text/javascript" src="https://d2buxu5b5gpw2h.cloudfront.net/ui/new/runtime.4a0fbe5f76ea8f8b992f.js"></script><script type="text/javascript" src="https://d2buxu5b5gpw2h.cloudfront.net/ui/new/vendors~main.a6443967cab622071ea1.js"></script><script type="text/javascript" src="https://d2buxu5b5gpw2h.cloudfront.net/ui/new/main.e3179c8fa9de5264aad6.js"></script></body>
+</html>

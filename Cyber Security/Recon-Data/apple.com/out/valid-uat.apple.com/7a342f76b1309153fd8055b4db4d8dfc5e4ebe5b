@@ -1,0 +1,32 @@
+http://valid-uat.apple.com/
+
+> GET / HTTP/1.1
+> Host: valid-uat.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found on Accelerator
+< Content-Length: 287
+< Server: ATS/8.0.6
+< Content-Type: text/html
+< Content-Language: en
+< Cdnuuid: cbbb82b8-684c-484a-bde8-ee278601cef3-12305662
+< X-Cache: none
+< Date: Thu, 30 Apr 2020 21:40:43 GMT
+< Via: http/1.1 usmes2-edge-tx-001.ts.apple.com (ApacheTrafficServer/8.0.6)
+< Cache-Control: no-store
+
+<HTML>
+<HEAD>
+<TITLE>Not Found on Accelerator</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Not Found on Accelerator</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: Your request on the host was not found.
+Check the location and try again.
+</B></FONT>
+<HR>
+</BODY>

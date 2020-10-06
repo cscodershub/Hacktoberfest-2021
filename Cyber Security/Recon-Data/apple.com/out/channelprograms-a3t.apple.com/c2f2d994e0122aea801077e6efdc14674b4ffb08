@@ -1,0 +1,69 @@
+https://channelprograms-a3t.apple.com/
+
+> GET / HTTP/1.1
+> Host: channelprograms-a3t.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Server: Apple
+< Set-Cookie: JSESSIONID=C2FA62E0F7598ED6E6F27DD454B3A874; Path=/; Secure; HttpOnly
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Last-Modified: Sat, 25 Apr 2020 02:45:10 GMT
+< Accept-Ranges: bytes
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< Referrer-Policy: same-origin
+< Vary: accept-encoding
+< Date: Thu, 30 Apr 2020 21:40:39 GMT
+< Content-Language: en-US
+< Content-Type: text/html;charset=UTF-8
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Expires: 0
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ACAM</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.c0fa17710060577af20d.css"></head>
+<style>
+  .loading {
+    opacity: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fafafa;
+    z-index: -1;
+  }
+  my-app:empty + .loading {
+    opacity: 1;
+    z-index: 100;
+  }
+  my-app:empty + .loading h1 {
+    color: #000;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(0, -50%);
+  }
+  
+</style>
+<body>
+  <my-app></my-app>
+  <div class="loading">
+    <h1>Loading...</h1>
+  </div>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.50aa5bb6102ae74ed53f.js"></script><script type="text/javascript" src="scripts.6b99e59a7130af674cf5.js"></script><script type="text/javascript" src="main.587e44c5e04b5454702b.js"></script></body>
+</html>

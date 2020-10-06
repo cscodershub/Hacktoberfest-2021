@@ -1,0 +1,32 @@
+https://www.us-west-2.origin.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.us-west-2.origin.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Edge-Control: no-cache, no-store
+< X-Netflix.proxy.execution-Time: 147
+< X-Originating-Url: https://www.us-west-2.origin.prodaa.netflix.com/
+< Set-Cookie: flwssn=6e308b41-12cd-4acf-85ac-a2c82b980f22; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:40 GMT
+< Set-Cookie: clSharedContext=ee9c63b3-506f-4829-8e23-66eb0d1be753; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEPYyxUa-ykYYAiMMB4QdpIdAS2gXngIYgTF834OFc2WWKELJYsbK4pSoh-wodupPqOwpDkaVJJv2tJJVnZLqPbJpbdn9c1yVSC3Ckpvs0NhgNA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABTek_Osei8NV7u6FIS2U0EvroHtY84xzLA.%26dt%3D1592372080285; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:40 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBECMC_Dq1Zv3UkqhvVuigPxaA8Hv1e6FCGu26rIp-XoS5f6UBK0hZqDsh-2IDaZFv4GPC_Ikg08R7ajMNwyCpNCXQ4d_8jxbqDYkEjcseA-TQRJbsQVCgQLam2gJ4FW8tjeoou-i4TYNzpTI-uczavomO72ub2HG226QpkVe-EsUCVAgEHF78rnadQLdt1hN9eiGboOzCMc53xxG1q8h1mLA-dC-EmJ-oBoITSVF_5fQm5OywGYnY0nATewhA6BrgKgc4NaNvPYpW4sjqcWgkWdsS3GEFpfcENk9pqaCa83IVTBhYNy4GgTZBJfTb3x4wZvR08A16OMdftxVHbcXDzTHIVg..%26bt%3Ddev%26mac%3DAQEAEAABABR6o9MRDpH9LZkTHlhuNM255O2dwOZ1bxg.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:40 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=3f031064-2f72-49ec-8efe-df9adfea21ca; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:40 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< X-Netflix.nfstatus: 1_1
+< Content-Length: 0
+< Content-Type: text/html
+< Pragma: no-cache
+< Server: nq_website_nonmember-prod-release ee93b4c7-e59d-43fd-956b-893c40c7133d
+< Via: 1.1 i-0e2f4e6cae62bfb23 (us-west-2)
+< X-Frame-Options: DENY
+< X-Robots-Tag: index
+< Cache-Control: no-cache, no-store
+< Date: Wed, 17 Jun 2020 05:34:40 GMT
+< Expires: 0
+< Location: https://www.us-west-2.origin.prodaa.netflix.com/in/
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+

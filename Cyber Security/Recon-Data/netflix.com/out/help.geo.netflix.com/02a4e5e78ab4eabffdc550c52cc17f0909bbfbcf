@@ -1,0 +1,23 @@
+https://help.geo.netflix.com/
+
+> GET / HTTP/1.1
+> Host: help.geo.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< X-Originating-Url: https://help.geo.netflix.com/
+< Cache-Control: public
+< Via: 1.1 i-08053cff7f6f343a0 (eu-west-1)
+< Pragma: no-cache
+< Set-Cookie: memclid=ed4bef2c-a5f8-41a0-a663-08ffb0009407; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:14 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBEKR6ot2ZbslonvbgdgUyMPlAyddZweNOPujS4hqbLxSmJTwROMe3SfTxm4m3PnoNeWPRkvfVQdaop7PQZIFU3OahjgleZds1DV%2BSBl5shnpjMQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:14 GMT; Path=/; Domain=.netflix.com
+< X-Netflix.nfstatus: 1_1
+< X-Netflix.proxy.execution-Time: 50
+< Content-Length: 0
+< Date: Wed, 17 Jun 2020 05:36:14 GMT
+< Location: https://help.netflix.com/en
+< Server: padme i-0b524e826ef4cf4f7
+< Content-Type: text/html;charset=UTF-8
+< Expires: Tue, 16 Jun 2020 05:36:14 GMT
+

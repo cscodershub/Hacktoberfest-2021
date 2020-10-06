@@ -1,0 +1,26 @@
+http://faq.mini.de/
+
+> GET / HTTP/1.1
+> Host: faq.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: -MTN9aKf6j_Tk3yd5Mq1XMlsaw1Vk_eE4-If3nt_0D5wZ2tsEgfQwA==
+< Location: https://faq.mini.de/
+< Via: 1.1 fb465ef388ebb25e5a872213f9ac3e9d.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MRS52-C1
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 204
+< Date: Tue, 11 Aug 2020 04:54:45 GMT
+< Set-Cookie: AWSALB=zveQ8v+i8YUbF9Eztb/yeVsKgJ/1LnmYQV2JGRjKmSgKDvOguw9QLl3d5ussrBhOGzsYIsequRuPQRNWe/kfqbJ86hhnIRLPCcQ9vUWMVWuJZB+Mtq8vqnFn6sH2; Expires=Tue, 18 Aug 2020 04:54:45 GMT; Path=/
+< Set-Cookie: AWSALBCORS=zveQ8v+i8YUbF9Eztb/yeVsKgJ/1LnmYQV2JGRjKmSgKDvOguw9QLl3d5ussrBhOGzsYIsequRuPQRNWe/kfqbJ86hhnIRLPCcQ9vUWMVWuJZB+Mtq8vqnFn6sH2; Expires=Tue, 18 Aug 2020 04:54:45 GMT; Path=/; SameSite=None
+< Server: Apache
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://faq.mini.de/">here</a>.</p>
+</body></html>

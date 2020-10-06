@@ -1,0 +1,24 @@
+https://matchit.apple.com/
+
+> GET / HTTP/1.1
+> Host: matchit.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+< Date: Thu, 30 Apr 2020 21:41:05 GMT
+< Content-Length: 0
+< Server: Apple
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Referrer-Policy: same-origin
+< Host: matchit.apple.com
+< Set-Cookie: JSESSIONID=node0rmgx3kx0655yd5idq6qyabbm5306.node0; Path=/; Secure
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< Location: https://idmsac.apple.com/IDMSWebAuth/login?appIdKey=9226fb96e2b3f5741261f08ea759a9cfe3daf116026738711817c926bcbdb7ba&path=/&rv=1
+

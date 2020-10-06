@@ -1,0 +1,44 @@
+https://contentdelivery03.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: contentdelivery03.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 548
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Cache-Control: no-store
+< X-Daiquiri-Instance: daiquiri:38493002:pv50p00it-hyhk10063901:7987:20E24
+< Server: daiquiri/3.0.0
+< Date: Thu, 30 Apr 2020 21:29:41 GMT
+< Content-Type: text/html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            font-weight: 200;
+            line-height: 20px;
+            color: #4c4c4c;
+            text-align: center;
+        }
+
+        .section {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="section">
+    <h1>&#63743;</h1>
+
+    <h3>Not Found</h3>
+    <p>The requested page could not be found.</p>
+</div>
+</body>
+</html>
+

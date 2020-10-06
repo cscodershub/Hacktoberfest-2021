@@ -1,0 +1,16 @@
+http://presentationtracking.netflix.com/
+
+> GET / HTTP/1.1
+> Host: presentationtracking.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Content-Length: 0
+< Server: beacon i-0b5e9ba7529bb2312
+< Via: 1.1 i-0db2d912d5b8f9c26 (eu-west-1)
+< X-Netflix.nfstatus: 1_3
+< X-Netflix.proxy.execution-Time: 8584
+< X-Originating-Url: http://presentationtracking.netflix.com/
+< Date: Wed, 17 Jun 2020 05:38:52 GMT
+

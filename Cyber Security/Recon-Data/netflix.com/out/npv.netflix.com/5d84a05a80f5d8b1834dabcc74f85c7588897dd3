@@ -1,0 +1,15 @@
+https://npv.netflix.com/
+
+> GET / HTTP/1.1
+> Host: npv.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: public, must-revalidate, proxy-revalidate, max-age=3600
+< Content-Type: text/html; charset=utf-8
+< Location: https://npv.netflixstudios.com/
+< Date: Wed, 17 Jun 2020 05:37:10 GMT
+< Content-Length: 66
+
+<a href="https://npv.netflixstudios.com/">Moved Permanently</a>.
+

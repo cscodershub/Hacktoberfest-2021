@@ -1,0 +1,33 @@
+https://osxapps-ssl.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: osxapps-ssl.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Via: http/1.1 sgsin3-edge-bx-007.ts.apple.com (ApacheTrafficServer/8.0.7)
+< Cache-Control: no-store
+< Content-Type: text/html
+< Access-Control-Allow-Headers: range
+< Content-Length: 207
+< X-Cache: none
+< Access-Control-Expose-Headers: *
+< Date: Thu, 30 Apr 2020 21:29:56 GMT
+< Server: ATS/8.0.7
+< Content-Language: en
+< Cdnuuid: 46d58a1c-e906-40e8-bc74-438fb8721c2b-3171311291
+
+<HTML>
+<HEAD>
+<TITLE>Error</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Error</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: Could not process this request.
+</B></FONT>
+<HR>
+</BODY>

@@ -1,0 +1,23 @@
+http://gsp80-ssl-usmsc04.ls.apple.com/
+
+> GET / HTTP/1.1
+> Host: gsp80-ssl-usmsc04.ls.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Location: https://gsp80-ssl-usmsc04.ls.apple.com/
+< Server: AppleHttpServer/62e237dc531d
+< Date: Thu, 30 Apr 2020 21:30:48 GMT
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000
+< X-B3-Traceid: 7d86c473dd5f1013
+< Content-Length: 201
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>AppleHttpServer/62e237dc531d</center>
+</body>
+</html>

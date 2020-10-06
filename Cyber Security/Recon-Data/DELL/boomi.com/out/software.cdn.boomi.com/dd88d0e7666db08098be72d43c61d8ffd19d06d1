@@ -1,0 +1,27 @@
+https://software.cdn.boomi.com/
+
+> GET / HTTP/1.1
+> Host: software.cdn.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Strict-Transport-Security: max-age=300
+< Vary: Cookie,Cookie
+< X-Cache: Hit from cloudfront
+< X-Amz-Cf-Pop: CCU50-C1
+< Content-Type: text/html; charset=UTF-8
+< Via: 1.1 varnish, 1.1 8f63b6ee9b9e04bcd099af54a0bc63a1.cloudfront.net (CloudFront)
+< Server: nginx
+< X-Pantheon-Styx-Hostname: styx-fe3-a-76b768f59f-4gzhl
+< X-Styx-Req-Id: 109db8e1-de50-11ea-b6de-769795b4eecb
+< Cache-Control: public, max-age=86400
+< X-Timer: S1597482838.192790,VS0,VE222
+< X-Amz-Cf-Id: oYU0LUhN4xbOMbp_OL6quL4CF8ni7XLB2OrNIN3M2O_GtURoz0l9sw==
+< Location: https://boomi.com/404/
+< Date: Sat, 15 Aug 2020 09:13:58 GMT
+< X-Served-By: cache-mdw17345-MDW, cache-bom4729-BOM
+< X-Cache-Hits: 19, 0
+< Accept-Ranges: bytes
+< Age: 58346
+

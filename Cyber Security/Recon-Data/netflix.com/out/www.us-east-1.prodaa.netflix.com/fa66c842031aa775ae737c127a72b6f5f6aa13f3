@@ -1,0 +1,32 @@
+https://www.us-east-1.prodaa.netflix.com/
+
+> GET / HTTP/1.1
+> Host: www.us-east-1.prodaa.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://www.us-east-1.prodaa.netflix.com/in/
+< Pragma: no-cache
+< Content-Length: 0
+< Cache-Control: no-cache, no-store
+< Expires: 0
+< Via: 1.1 i-0c3be7389cc57a210 (us-east-1)
+< X-Robots-Tag: index
+< X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+< X-Netflix.proxy.execution-Time: 148
+< X-Originating-Url: https://www.us-east-1.prodaa.netflix.com/
+< Server: nq_website_nonmember-prod-release c43356d8-37e4-47fd-ba6f-ae3d4b38bac6
+< Set-Cookie: flwssn=b0eeb56c-3d8a-4f13-a1b0-3632ff91436c; Domain=.netflix.com; Path=/; Expires=Wed, 17 Jun 2020 08:34:05 GMT
+< Set-Cookie: clSharedContext=7c003d44-6bb9-4d87-8415-24d423476407; Domain=.netflix.com; Path=/
+< Set-Cookie: nfvdid=BQFmAAEBEJBp4Rs-uUHYgAPRvM0uP0tAZdEVFiod9x28zL8b48weK5MZQ_uLYJtDLAvarzXC9UqyUBEu616zQQexETIIHSyXcCVwFToi9SJjdXl1AfFpIA%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+< Set-Cookie: SecureNetflixId=v%3D2%26mac%3DAQEAEQABABSUTk22Z3zUhzWRQmNgZ5r8kkvzJezqCA4.%26dt%3D1592372045951; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:05 GMT; Path=/; HttpOnly; Secure; SameSite=Lax
+< Set-Cookie: NetflixId=v%3D2%26ct%3DBQAOAAEBEBZdhHYs8NkCtJ35GVjHiX2A8G-ifeOh7B0RF7z_vf36UkPrUXXaoW6SkMmRts-lzFBtqns8CH8qtd3tB4CfRSJGeOojgDibu0GqN0AVxoRkbh1GN71Wl86FlnOdAZXhCYGZWrtDJleX6Ru750zwjJpBThxiOJMzsANcLIB0rD1Tt5TmjtXzZskkDlx611Wfit0IC4Q4_4uh5aMql01B5aGicYMIZ7s0C8w-VT3ZCjTGQRw8GD0V4puBts6haWNnUD94go4-OIlDQNWy2UhOp9Hn8WOAPR-R1UHH1BqM4PV99CKRXq9AnSgWOkz2CzB6rpZVJ_G-9gBBwVD5-OWfBpiqnQ..%26bt%3Ddev%26mac%3DAQEAEAABABQF261tTe1iQjSoe_mZ_o7ELPGFQS6popA.; Domain=.netflix.com; Expires=Thu, 17 Jun 2021 05:34:05 GMT; Path=/; HttpOnly; SameSite=Lax
+< Set-Cookie: memclid=7662aa53-b760-4dcf-b50b-fc00190ae820; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:34:05 GMT; Path=/; Domain=.netflix.com
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Netflix.nfstatus: 1_1
+< Content-Type: text/html
+< Date: Wed, 17 Jun 2020 05:34:05 GMT
+< Edge-Control: no-cache, no-store
+< X-Frame-Options: DENY
+

@@ -1,0 +1,29 @@
+http://shop.ca.samsung.com/
+
+> GET / HTTP/1.1
+> Host: shop.ca.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Server: app1
+< Date: Wed, 10 Jun 2020 05:35:51 GMT
+< Server: Apache
+< Content-Length: 863
+< Content-Type: text/html; charset=UTF-8
+
+<h1>404: There is no website configured at this address</h1>
+<p>If you believe this page should work, you may have an old browser that does not support SNI (Server Name Indication) technology. Please ensure you meet the minimum requirements below.</p>
+<h2>Desktop Browsers</h2>
+Internet Explorer >= 7<br />
+Firefox >= 2<br />
+Opera >= 8 with TLS 1.1 enabled<br />
+Google Chrome:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Supported on Windows >= XP on Chrome >= 6<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Supported on Windows >= Vista by default<br />
+&nbsp;&nbsp;&nbsp;&nbsp;OS X >= 10.5.7 with Chrome Version >= 5.0.342.0<br />
+Safari >= 2.1 (requires OS X >= 10.5.6 or Windows >= Vista).<br />
+Note: No versions of Internet Explorer on Windows XP support SNI.<br />
+<h2>Mobile Browsers</h2>
+Mobile Safari for iOS >= 4.0<br />
+Android >= 3.0 (Honeycomb)<br />
+Windows Phone >= 7<br />

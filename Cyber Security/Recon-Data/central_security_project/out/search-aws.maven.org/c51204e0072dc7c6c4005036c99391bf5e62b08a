@@ -1,0 +1,21 @@
+http://search-aws.maven.org/
+
+> GET / HTTP/1.1
+> Host: search-aws.maven.org
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Fri, 18 Sep 2020 08:36:47 GMT
+< Content-Type: text/html
+< Content-Length: 169
+< Server: nginx/1.16.1
+< Location: https://search-aws.maven.org/
+< X-Request_uri: /
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.16.1</center>
+</body>
+</html>

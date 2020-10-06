@@ -1,0 +1,22 @@
+https://softwarehub.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: softwarehub.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Powered-By: ZendServer 9.1.0
+< Pragma: no-cache
+< Server: Apache/2.4.38 (Win32) mod_authn_ntlm/1.0.7 OpenSSL/1.1.1a mod_fcgid/2.3.9
+< Cache-Control: no-store, no-cache, must-revalidate
+< Cache-Control: public, no-transform
+< Set-Cookie: s2hub=u53unv1fgtetc1s0vpnor8ver5; path=/; secure; HttpOnly
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< Location: /sso
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html; charset=UTF-8
+< Date: Sat, 18 Jul 2020 13:54:19 GMT
+< X-Ua-Compatible: IE=Edge
+< Content-Length: 0
+

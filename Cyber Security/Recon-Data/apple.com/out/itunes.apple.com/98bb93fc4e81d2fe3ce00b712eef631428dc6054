@@ -1,0 +1,36 @@
+http://itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Apple-Tk: false
+< X-Webobjects-Loadaverage: 0
+< Apple-Timing-App: 1 ms
+< X-True-Cache-Key: /L/itunes.apple.com/Browser vcd=2897
+< Location: https://itunes.apple.com/
+< X-Cache-Remote: TCP_REFRESH_MISS from a115-248-238-55.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (S)
+< Apple-Seq: 0
+< X-Apple-Application-Site: MR22
+< Cache-Control: max-age=0
+< X-Cache: TCP_REFRESH_MISS from a23-203-63-31.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (S)
+< X-Apple-Aka-Ttl: Generated Thu Apr 30 14:28:21 PDT 2020, Expires Thu Apr 30 14:28:21 PDT 2020, TTL 0s
+< X-B3-Traceid: 4cba60b76bd8f110903c52e5d40fc08a
+< Access-Control-Allow-Origin: *
+< X-Apple-Lokamai-No-Cache: true
+< Last-Modified: Thu, 30 Apr 2020 21:28:21 GMT
+< X-Apple-Request-Uuid: 4cba60b7-6bd8-f110-903c-52e5d40fc08a
+< X-Apple-Translated-Wo-Url: /WebObjects/MZStore.woa/wa/topLevelCountry?urlDesc=
+< Content-Type: text/html; charset=UTF-8
+< B3: 4cba60b76bd8f110903c52e5d40fc08a-e6127f025c1e6f38
+< X-Frame-Options: SAMEORIGIN
+< X-Apple-Orig-Url: http://itunes.apple.com/
+< Date: Thu, 30 Apr 2020 21:28:21 GMT
+< X-Apple-Jingle-Correlation-Key: JS5GBN3L3DYRBEB4KLS5ID6ARI
+< X-B3-Spanid: e6127f025c1e6f38
+< Apple-Originating-System: MZStore
+< X-Apple-Application-Instance: 3013203
+< Content-Length: 0
+< X-Apple-Partner: origin.0
+

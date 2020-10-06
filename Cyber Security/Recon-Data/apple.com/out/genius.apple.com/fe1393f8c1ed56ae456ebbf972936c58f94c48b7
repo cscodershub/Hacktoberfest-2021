@@ -1,0 +1,32 @@
+https://genius.apple.com/
+
+> GET / HTTP/1.1
+> Host: genius.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Host: genius.apple.com
+< Content-Type: text/html; charset=UTF-8
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:40:34 GMT
+< Content-Length: 113
+< Last-Modified: Wed, 30 Mar 2016 22:59:57 GMT
+< Cache-Control: max-age=86400, public
+
+<HTML>
+
+<head>
+
+<META HTTP-EQUIV="REFRESH" CONTENT="0; URL=http://apple.com">
+
+</head>
+
+<body>
+
+</body>
+
+</HTML>

@@ -1,0 +1,24 @@
+http://saleshub.boomi.com/
+
+> GET / HTTP/1.1
+> Host: saleshub.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< X-Timer: S1597482978.056056,VS0,VE0
+< X-Served-By: cache-mdw17378-MDW, cache-bom4748-BOM
+< Age: 62100
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8
+< Server: nginx
+< X-Styx-Req-Id: 6296d6ea-de47-11ea-baa7-02955c40d8a8
+< Cache-Control: public, max-age=86400
+< Date: Sat, 15 Aug 2020 09:16:18 GMT
+< X-Cache: HIT, HIT
+< X-Cache-Hits: 1, 2
+< Location: https://saleshub.boomi.com/
+< X-Pantheon-Styx-Hostname: styx-fe4-a-679ff9799-ln26b
+< Vary: Cookie, Cookie
+< Via: 1.1 varnish
+

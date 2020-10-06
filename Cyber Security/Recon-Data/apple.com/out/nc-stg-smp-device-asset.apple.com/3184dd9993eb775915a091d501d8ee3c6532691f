@@ -1,0 +1,24 @@
+http://nc-stg-smp-device-asset.apple.com/
+
+> GET / HTTP/1.1
+> Host: nc-stg-smp-device-asset.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Expires: Thu, 30 Apr 2020 21:41:04 GMT
+< Date: Thu, 30 Apr 2020 21:41:04 GMT
+< X-Akamai-Staging: ESSL
+< Server: AkamaiGHost
+< Mime-Version: 1.0
+< Content-Type: text/html
+< Content-Length: 297
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;nc&#45;stg&#45;smp&#45;device&#45;asset&#46;apple&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;36a93017&#46;1588282864&#46;3c2ef0
+</BODY>
+</HTML>

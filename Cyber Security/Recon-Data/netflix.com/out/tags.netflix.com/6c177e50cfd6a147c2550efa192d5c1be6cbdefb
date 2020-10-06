@@ -1,0 +1,25 @@
+http://tags.netflix.com/
+
+> GET / HTTP/1.1
+> Host: tags.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 146
+< X-Tcp-Info: addr=27.6.68.76;port=57012
+< Pragma: no-cache
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: X-TCP-Info
+< Server: nginx
+< Date: Wed, 17 Jun 2020 05:36:44 GMT
+< Content-Type: text/html
+< Timing-Allow-Origin: *
+< Cache-Control: no-store
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

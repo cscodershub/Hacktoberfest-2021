@@ -1,0 +1,24 @@
+http://eu.mobilecare.svc.samsung.com/
+
+> GET / HTTP/1.1
+> Host: eu.mobilecare.svc.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 a12b503c2dca0a78a1085879fbca1f3d.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< X-Amz-Cf-Id: mmGp0M3r9Iy6Dw3gftjr74KaQFminjHBBPGxT8sgWzLFCnGgtaS_tw==
+< Server: CloudFront
+< Date: Wed, 10 Jun 2020 05:36:37 GMT
+< Content-Length: 183
+< Content-Type: text/html
+< Location: https://eu.mobilecare.svc.samsung.com/
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

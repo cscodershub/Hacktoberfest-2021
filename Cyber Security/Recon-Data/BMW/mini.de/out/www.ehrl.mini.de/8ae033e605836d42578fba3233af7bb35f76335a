@@ -1,0 +1,25 @@
+http://www.ehrl.mini.de/
+
+> GET / HTTP/1.1
+> Host: www.ehrl.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+< Content-Length: 223
+< Content-Type: text/html; charset=iso-8859-1
+< Expires: Tue, 11 Aug 2020 05:24:45 GMT
+< Date: Tue, 11 Aug 2020 04:54:45 GMT
+< Server: Apache
+< Location: http://www.ehrl.mini.de/de_DE/home.html
+< Cache-Control: max-age=1800
+< Set-Cookie: visitorid=ac772c31396b00009524325f2002000006000000; expires=Sat, 10-Aug-2024 04:54:45 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://www.ehrl.mini.de/de_DE/home.html">here</a>.</p>
+</body></html>

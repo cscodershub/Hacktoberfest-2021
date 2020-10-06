@@ -1,0 +1,19 @@
+https://profile-carry.ess.apple.com/
+
+> GET / HTTP/1.1
+> Host: profile-carry.ess.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< X-Responding-Instance: ProfileService:400050:magent0307.usprz06.pie.apple.com:31003:2008B-142:nocommit
+< X-B3-Traceid: 7057e1d725593fa6
+< Server: AppleHttpServer/62e237dc531d
+< Content-Length: 0
+< X-Apple-Request-Uuid: 9b4a7335-a0d3-a76f-7c28-3c0118ff0ace
+< Apple-Seq: 0
+< Apple-Tk: false
+< Apple-Originating-System: UnknownOriginatingSystem
+< Strict-Transport-Security: max-age=31536000
+< Date: Thu, 30 Apr 2020 21:40:17 GMT
+< X-Apple-Jingle-Correlation-Key: TNFHGNNA2OTW67BIHQARR7YKZY
+

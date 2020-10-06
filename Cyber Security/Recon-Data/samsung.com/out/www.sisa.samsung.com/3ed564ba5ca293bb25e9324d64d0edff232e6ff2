@@ -1,0 +1,20 @@
+http://www.sisa.samsung.com/
+
+> GET / HTTP/1.1
+> Host: www.sisa.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 10 Jun 2020 05:36:13 GMT
+< Server: Apache/2.4.27 (Red Hat) OpenSSL/1.0.1e-fips PHP/7.0.27
+< Location: http://www.sra.samsung.com
+< Content-Length: 234
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.sra.samsung.com">here</a>.</p>
+</body></html>

@@ -1,0 +1,16 @@
+http://email.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: email.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Moved Temporarily
+< Server: Microsoft-IIS/10.0
+< X-Arr-Server: icrp12
+< Date: Sat, 18 Jul 2020 13:54:58 GMT
+< Content-Length: 151
+< Content-Type: text/html; charset=UTF-8
+< Location: https://outlook.com/ic.ac.uk
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://outlook.com/ic.ac.uk">here</a></body>

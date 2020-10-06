@@ -1,0 +1,25 @@
+https://nintendo.nccp.netflix.com/
+
+> GET / HTTP/1.1
+> Host: nintendo.nccp.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: nccp-modern i-07dbd4a18db474847
+< Set-Cookie: memclid=04cea4f6-9362-4b13-8d30-7a94ebee0ca8; Max-Age=31536000; Expires=Thu, 17 Jun 2021 05:36:25 GMT; Path=/; Domain=.netflix.com
+< Set-Cookie: nfvdid=BQFmAAEBECCcmmS1EIF%2BEkplWYtOcCdAdlZ%2FAPQxEkYyEaoJEoy88NZXnF5BU6ELbEXFA%2BF5hyRh3rUUoRFbHiYtjy%2FrWrEk0dQjSSs6qrUEYGtlrBV8KQ%3D%3D; Max-Age=26265600; Expires=Sat, 17 Apr 2021 05:36:25 GMT; Path=/; Domain=.netflix.com
+< Via: 1.1 i-09deffad52d44f652 (eu-west-1)
+< X-Netflix.proxy.execution-Time: 3
+< X-Originating-Url: https://nintendo.nccp.netflix.com/
+< Content-Length: 199
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Wed, 17 Jun 2020 05:36:25 GMT
+< X-Netflix.nfstatus: 1_1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

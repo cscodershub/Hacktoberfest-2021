@@ -1,0 +1,28 @@
+http://osxapps.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: osxapps.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Server: AkamaiGHost
+< Content-Type: text/html
+< Expires: Thu, 30 Apr 2020 21:30:16 GMT
+< Date: Thu, 30 Apr 2020 21:30:16 GMT
+< X-Cache: TCP_DENIED from a49-44-194-149.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< Access-Control-Allow-Headers: range
+< Mime-Version: 1.0
+< Content-Length: 277
+< Access-Control-Expose-Headers: *
+< Access-Control-Allow-Origin: *
+< Cdn-Server: akam
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;osxapps&#46;itunes&#46;apple&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;95c22c31&#46;1588282216&#46;b4ee6da
+</BODY>
+</HTML>

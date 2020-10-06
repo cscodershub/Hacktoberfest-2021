@@ -1,0 +1,28 @@
+http://client-api.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: client-api.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Apple-Request-Uuid: ea4e6179-7a36-4e2e-5583-4dde2a6cb3d6
+< X-B3-Spanid: 4bb4af991e2fbb79
+< Apple-Seq: 0
+< Apple-Tk: false
+< X-True-Cache-Key: /L/client-api.itunes.apple.com/ vcd=2897 ci2=[not cachable]
+< Vary: X-Apple-Store-Front, Cookie
+< Content-Length: 43
+< Cache-Control: max-age=3588
+< Date: Thu, 30 Apr 2020 21:29:56 GMT
+< Apple-Originating-System: MZStorePlatform
+< X-Apple-Application-Site: ST11
+< Content-Type: application/json
+< Apple-Timing-App: 0 ms
+< X-Cache-Remote: TCP_MISS from a2-21-85-6.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< X-Apple-Jingle-Correlation-Key: 5JHGC6L2GZHC4VMDJXPCU3FT2Y
+< B3: ea4e61797a364e2e55834dde2a6cb3d6-4bb4af991e2fbb79
+< X-B3-Traceid: ea4e61797a364e2e55834dde2a6cb3d6
+< X-Apple-Application-Instance: 2305601
+< X-Cache: TCP_MISS from a125-99-55-95.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+
+{"code":404,"message":"HTTP 404 Not Found"}

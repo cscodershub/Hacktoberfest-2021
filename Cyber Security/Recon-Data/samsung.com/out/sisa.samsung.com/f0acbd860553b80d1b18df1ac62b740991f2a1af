@@ -1,0 +1,16 @@
+https://sisa.samsung.com/
+
+> GET / HTTP/1.1
+> Host: sisa.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Wed, 10 Jun 2020 05:36:06 GMT
+< Etag: "7f39-5a3f9bab28880"
+< Accept-Ranges: bytes
+< Content-Length: 32569
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html; charset=UTF-8
+< Server: Apache/2.4.27 (Red Hat) OpenSSL/1.0.1e-fips PHP/7.0.27
+< Last-Modified: Thu, 23 Apr 2020 18:50:58 GMT
+

@@ -1,0 +1,25 @@
+https://okapi-services.apple.com/
+
+> GET / HTTP/1.1
+> Host: okapi-services.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 502 Bad Gateway
+< Date: Thu, 30 Apr 2020 21:29:27 GMT
+< Content-Type: text/html
+< Access-Control-Allow-Origin: www.apple.com
+< Access-Control-Allow-Headers: Cache-Control, Content-Type, X-Requested-With
+< Access-Control-Max-Age: 0
+< Server: Apple
+< Content-Length: 150
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN
+< Access-Control-Allow-Methods: OPTIONS, HEAD, GET, POST
+
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>Apple</center>
+</body>
+</html>

@@ -1,0 +1,19 @@
+https://go.netflix.com/
+
+> GET / HTTP/1.1
+> Host: go.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Server: awselb/2.0
+< Date: Wed, 17 Jun 2020 05:36:29 GMT
+< Content-Type: text/html
+< Content-Length: 126
+< Location: https://meechum.netflix.com/as/authorization.oauth2?client_id=go2&redirect_uri=https%3A%2F%2Fgo.netflix.com%2Foauth2%2Fidpresponse&response_type=code&scope=default go2&state=Mm0VawqzzjSqqA2bguclJB6KNd65zX6hOhWfEFcmnkgqIamcvFgVfequ%2BDVfl3m1iwYFUvNsqLVto85e%2FhS8v1ad5DoJ3jUUx8SCLSHrYTweuJB%2F7nXPECMy%2BuSMYptjwuj8mrziddLpoii0SXw4Z99T7fFIBhedkCEaHnahZAUC4Me3yeMl0UJopvVq2mHkX3yaj2A%3D&class=java.util.HashMap&prompt=login&display=page
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+</body>
+</html>

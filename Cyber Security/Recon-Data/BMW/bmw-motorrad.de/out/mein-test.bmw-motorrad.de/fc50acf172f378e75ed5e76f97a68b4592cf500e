@@ -1,0 +1,16 @@
+https://mein-test.bmw-motorrad.de/
+
+> GET / HTTP/1.1
+> Host: mein-test.bmw-motorrad.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Found
+< Content-Length: 0
+< Location: https://konfigurator.bmw-motorrad.de/
+< X-Cache: LambdaGeneratedResponse from cloudfront
+< Via: 1.1 cd89ff2afb5d679fe3dbf35f3872a5b2.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MRS52-C1
+< X-Amz-Cf-Id: L27dr_LAQ56lM5KAJ4T2kf-q6Uzr26V0PGFDtuwuDE0b-IqQHkWZGA==
+< Server: CloudFront
+< Date: Tue, 11 Aug 2020 04:45:27 GMT
+

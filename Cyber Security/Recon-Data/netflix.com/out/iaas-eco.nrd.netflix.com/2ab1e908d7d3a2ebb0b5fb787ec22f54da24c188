@@ -1,0 +1,39 @@
+https://iaas-eco.nrd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: iaas-eco.nrd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Etag: W/"5ad6113c-264"
+< Date: Wed, 17 Jun 2020 05:35:04 GMT
+< Last-Modified: Tue, 17 Apr 2018 15:22:36 GMT
+< Server: nginx/1.14.0 (Ubuntu)
+< Strict-Transport-Security: max-age=31536000;
+< Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>

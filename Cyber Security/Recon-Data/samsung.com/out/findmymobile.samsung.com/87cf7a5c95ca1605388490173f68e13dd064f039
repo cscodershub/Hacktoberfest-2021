@@ -1,0 +1,19 @@
+http://findmymobile.samsung.com/
+
+> GET / HTTP/1.1
+> Host: findmymobile.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 1
+< X-Cache-Status: NOTCACHED
+< Location: https://findmymobile.samsung.com/
+< X-Cdn: Served-By-Zenedge
+< X-Llid: ac653162b221d384b50e09677d701943
+< Date: Wed, 10 Jun 2020 05:36:45 GMT
+< Vary: Accept-Encoding
+< X-Frame-Options: DENY
+< X-Zen-Fury: ae17a23a03c9de90e12f04fc1bd94f345fdb9f10
+
+ 

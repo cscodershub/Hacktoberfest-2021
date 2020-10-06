@@ -1,0 +1,24 @@
+http://farmfreshsupermarkets.instacart.com/
+
+> GET / HTTP/1.1
+> Host: farmfreshsupermarkets.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:08 GMT
+< Content-Type: text/html
+< Content-Length: 183
+< X-Amz-Cf-Pop: MAA50-C1
+< Location: https://farmfreshsupermarkets.instacart.com/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 756a7ba71bfc6096fc041152aab61d65.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: CjEJ6fy_1Rd_8QEfw2_ztGv3KbsHao8t3_oMaBpeecm3VIIFmvdoUQ==
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

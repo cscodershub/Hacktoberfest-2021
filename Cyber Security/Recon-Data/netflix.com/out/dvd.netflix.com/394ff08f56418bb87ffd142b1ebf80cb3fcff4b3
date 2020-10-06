@@ -1,0 +1,12 @@
+http://dvd.netflix.com/
+
+> GET / HTTP/1.1
+> Host: dvd.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://dvd.netflix.com/
+< Server: BigIP
+< Connection: close
+< Content-Length: 0
+

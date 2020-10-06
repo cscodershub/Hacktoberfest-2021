@@ -1,0 +1,19 @@
+http://box.netflix.com/
+
+> GET / HTTP/1.1
+> Host: box.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Location: https://box.netflix.com/
+< Date: Wed, 17 Jun 2020 05:37:17 GMT
+< Content-Type: text/html
+< Content-Length: 138
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

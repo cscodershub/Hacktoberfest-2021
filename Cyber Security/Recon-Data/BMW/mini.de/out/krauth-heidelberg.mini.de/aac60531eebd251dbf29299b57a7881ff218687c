@@ -1,0 +1,20 @@
+http://krauth-heidelberg.mini.de/
+
+> GET / HTTP/1.1
+> Host: krauth-heidelberg.mini.de
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 11 Aug 2020 04:54:31 GMT
+< Server: Apache
+< Location: http://www.krauth-heidelberg.mini.de/
+< Content-Length: 245
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.krauth-heidelberg.mini.de/">here</a>.</p>
+</body></html>

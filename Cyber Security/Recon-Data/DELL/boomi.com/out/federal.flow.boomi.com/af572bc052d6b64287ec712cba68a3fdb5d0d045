@@ -1,0 +1,16 @@
+https://federal.flow.boomi.com/
+
+> GET / HTTP/1.1
+> Host: federal.flow.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Sat, 15 Aug 2020 09:16:03 GMT
+< Content-Length: 0
+< X-Manywho-Pod: engine-rolling-6c684f45-b9w9b
+< Strict-Transport-Security: max-age=15724800
+< X-Manywho-Region-Frontend: US
+< Cache-Control: no-cache
+< Location: https://federal.flow.boomi.com/886822ad-5691-4215-9e87-c97feecc09fb/play/draw2
+< X-Manywho-Region-Backend: US
+

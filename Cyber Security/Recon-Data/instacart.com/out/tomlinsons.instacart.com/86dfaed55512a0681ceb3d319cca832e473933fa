@@ -1,0 +1,24 @@
+http://tomlinsons.instacart.com/
+
+> GET / HTTP/1.1
+> Host: tomlinsons.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 183
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: MAA50-C2
+< X-Amz-Cf-Id: 3VuXg_159ffYw2FGXR-rmH5TiHMBgfcC2hsB53_fKS_cctE3MLznOw==
+< Date: Tue, 04 Aug 2020 04:47:37 GMT
+< Content-Type: text/html
+< Location: https://tomlinsons.instacart.com/
+< Via: 1.1 5a60dd65a88243aae82f19bc8e794742.cloudfront.net (CloudFront)
+< Server: CloudFront
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

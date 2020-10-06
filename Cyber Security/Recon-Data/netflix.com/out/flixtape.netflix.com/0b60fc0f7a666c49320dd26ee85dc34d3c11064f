@@ -1,0 +1,18 @@
+http://flixtape.netflix.com/
+
+> GET / HTTP/1.1
+> Host: flixtape.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=utf-8
+< Location: https://flixtape.netflix.com/
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Content-Language: en
+< Date: Wed, 17 Jun 2020 05:38:14 GMT
+< Vary: Accept-Language,User-Agent
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 0
+

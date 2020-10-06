@@ -1,0 +1,79 @@
+https://sift-renoedge01.corp.apple.com/
+
+> GET / HTTP/1.1
+> Host: sift-renoedge01.corp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=15768000; includeSubDomains
+< Keep-Alive: timeout=300
+< Cache-Control: private, no-store, no-cache, must-revalidate
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Content-Type: text/html;charset=utf-8
+< Server: SecureTransport 5.4 (build: 1125) - Linux
+< Date: Thu, 30 Apr 2020 21:28:40 GMT
+< Features: CHPWD;RTCK;STCK;ASC;DNDISP
+< Accept-Ranges: bytes
+< X-Frame-Options: SAMEORIGIN
+< Pragma: no-cache
+< Set-Cookie: FDX=44644f756443754b316c564c555676393234695266773d3d; Path=/; Secure; HttpOnly
+
+<!DOCTYPE html>
+<!--Version 1.32.0-2 (build 262)-->
+<html lang="en-us">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta data-name="template" content="login" />
+  <title></title>
+  <script>
+    var pathNumberOfLevels = 0;
+    window.redirectHost = '';
+    window.preserveOriginalUrl = 'true';
+  </script>
+  <script>!function(t,e){var i=function(t,e){return t instanceof(e||Array)},r=document,n="getElementsByTagName",s="length",a="readyState",c="onreadystatechange",l=r[n]("script"),o=l[l[s]-1],u=o.innerHTML.replace(/^\s+|\s+$/g,"");if(!t.ljs){var f=o.src.match(/checkLoaded/)?1:0,h=r[n]("head")[0]||r.documentElement,d=function(t){var e={};return e.u=t.replace(/#(=)?([^#]*)?/g,(function(t,i,r){return e[i?"f":"i"]=r,""})),e},p=function(t,e,i){var n,s=r.createElement(t);for(n in i&&(s[a]?s[c]=function(){("loaded"===s[a]||"complete"===s[a])&&(s[c]=null,i())}:s.onload=i),e)e[n]&&(s[n]=e[n]);h.appendChild(s)},v=function(t,e){if(this.aliases&&this.aliases[t]){var r=this.aliases[t].slice(0);return i(r)||(r=[r]),e&&r.push(e),this.load.apply(this,r)}if(i(t)){for(var n=t[s];n--;)this.load(t[n]);return e&&t.push(e),this.load.apply(this,t)}return t.match(/\.css\b/)?this.loadcss(t,e):this.loadjs(t,e)},y={},m={aliases:{},loadjs:function(t,i){var r=d(t);return t=r.u,!0===y[t]?(i&&i(),this):y[t]!==e?(i&&(y[t]=function(t,e){return function(){t&&t(),e&&e()}}(y[t],i)),this):(y[t]=function(e){return function(){y[t]=!0,e&&e()}}(i),i=function(){y[t]()},p("script",{type:"text/javascript",src:t,id:r.i,onerror:function(t){if(r.f){var e=t.currentTarget;e.parentNode.removeChild(e),p("script",{type:"text/javascript",src:r.f,id:r.i},i)}}},i),this)},loadcss:function(t,e){var i=d(t);return t=i.u,y[t]||p("link",{type:"text/css",rel:"stylesheet",href:t,id:i.i}),y[t]=!0,e&&e(),this},load:function(){var t=arguments,r=t[s];return 1===r&&i(t[0],Function)?(t[0](),this):(v.call(this,t[0],1>=r?e:function(){m.load.apply(m,[].slice.call(t,1))}),this)},addAliases:function(t){for(var e in t)this.aliases[e]=i(t[e])?t[e].slice(0):t[e];return this}};if(f){var g,j,x,A;for(g=0,j=l[s];j>g;g++)(A=l[g].getAttribute("src"))&&(y[A.replace(/#.*$/,"")]=!0);for(g=0,j=(x=r[n]("link"))[s];j>g;g++)("stylesheet"===x[g].rel||"text/css"===x[g].type)&&(y[x[g].getAttribute("href").replace(/#.*$/,"")]=!0)}t.ljs=m}o.src&&u&&p("script",{innerHTML:u})}(window);</script>
+  <script>window.loaderFn=function(s){ljs.load.apply(ljs,s(["assets/progress.css?16a59279badddf3c3373"],"st-wap-progress-indicator.js?16a59279badddf3c3373")).load.apply(ljs,s("assets/wap.css?16a59279badddf3c3373")).load.apply(ljs,s(["st-wap-jquery-vendor.js?16a59279badddf3c3373","st-wap-templates-vendor.js?16a59279badddf3c3373"],"st-wap-login.js?16a59279badddf3c3373"))};</script>
+  <script>
+    var forgotPasswordRequireID = "false";
+    if (forgotPasswordRequireID === "true") {
+        forgotPasswordRequireID = true;
+    } else {
+      forgotPasswordRequireID = false;
+    }
+  </script>
+  <script>!function(t){var n,r="/",e=t.ricPath||"html/skin/ric/C/",o=t.loaderFn||null,i=((n=t.location.pathname.split(r).filter(Boolean)).unshift(""),n.slice(0,5));function s(t,n){var r=t;return r.startsWith(n)||(r=n+r),r.endsWith(n)||(r+=n),r}function a(n){String.prototype.fixpr=function(){var t=n;return(t=s(t,r))+e+this},Array.prototype.fixpr=function(){return this.map((function(t){return t.fixpr()}))},t.proxyPathNormalized=n?s(n,r):"","function"==typeof o&&o((function(){for(var t,n=arguments,r=[].slice.call(n),e=0;e<r.length;e+=1)r[e]=(t=r[e],Array.isArray(t)||"[object String]"===Object.prototype.toString.call(t)?t.fixpr():t);return r}))}t.proxyPathNormalized||(String.prototype.startsWith||(String.prototype.startsWith=function(t,n){return n=n||0,this.indexOf(t,n)===n}),String.prototype.endsWith||(String.prototype.endsWith=function(t,n){return(void 0===n||n>this.length)&&(n=this.length),this.substring(n-t.length,n)===t}),function t(n){var o,c=i.slice(0,i.length-(n-1)),p=s(c.join(r),r)+e+"config/default.config.json";0!==n?((o=new XMLHttpRequest).onload=function(){if(200===o.status)try{if(JSON.parse(o.responseText).features)return void a(c.join(r)||r)}catch(t){console.error("Error while parsing prefix: "+t)}t(n-1)},o.ontimeout=function(){console.warn("Cannot connect to /api resource. Prefix set to none."),a(r)},o.onerror=function(r){console.warn("Error occured while getting "+p+". Error: "+r.error),t(n-1)},o.open("GET",p,!0),o.timeout=4e3,o.setRequestHeader("Accept","application/json"),o.setRequestHeader("Content-Type","application/json"),o.send(null)):a(r)}(i.length))}(window);</script>
+</head>
+<body class="Login" aria-busy="false">
+<!--LoginManager.js-->
+<div class="main" role="main">
+  <form id="loginForm" name="loginForm"
+        method="post" action=""
+        enctype="application/x-www-form-urlencoded"
+        autocomplete="off">
+    <input type="hidden"
+           name="switch"
+           value="Log In"/>
+    <input type="hidden"
+           name="csrfToken"
+           value=""/>
+    <input type="hidden"
+           id="startUrl"
+           name="start-url"
+           value="/"/>
+    <!--INIT GLOBAL OBJECTS-->
+    <script>
+      /**
+       * TODO: This is crazy with the FDX message.
+       */
+      function FDX_Msg(msg) {
+        // processing code is moved to LoginManager
+        window.fdxMsg = msg;
+      }
+    </script>
+    
+    <!--LoginManager.js-->
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+https://enews.apple.com/
+
+> GET / HTTP/1.1
+> Host: enews.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 217
+< Location: http://mynews.apple.com/subscribe
+< X-Frame-Options: SAMEORIGIN
+< Server: Apple
+< Date: Thu, 30 Apr 2020 21:40:37 GMT
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://mynews.apple.com/subscribe">here</a>.</p>
+</body></html>

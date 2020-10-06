@@ -1,0 +1,31 @@
+http://wiki.boomi.com/
+
+> GET / HTTP/1.1
+> Host: wiki.boomi.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://wiki.boomi.com/
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< X-Styx-Req-Id: 8eb24e2e-decf-11ea-8f58-ea0144c3396b
+< Content-Length: 162
+< X-Cache: HIT, HIT
+< X-Timer: S1597482983.838450,VS0,VE1
+< Age: 3621
+< Via: 1.1 varnish
+< X-Pantheon-Styx-Hostname: styx-fe2-b-5c78d5dc59-pw65d
+< Cache-Control: public, max-age=86400
+< Date: Sat, 15 Aug 2020 09:16:22 GMT
+< X-Cache-Hits: 1, 1
+< Vary: Cookie, Cookie
+< Server: nginx
+< X-Served-By: cache-mdw17383-MDW, cache-bom4734-BOM
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

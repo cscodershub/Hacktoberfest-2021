@@ -1,0 +1,24 @@
+http://lamichoacanameatmarket.instacart.com/
+
+> GET / HTTP/1.1
+> Host: lamichoacanameatmarket.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Via: 1.1 a6573e65777f161e0e68ab8f31424df1.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: E4lrCchhsigfriefb75QqNUn4-N48i_Tzl9Lfc6oDBH98l8yf8fPOw==
+< Server: CloudFront
+< Date: Tue, 04 Aug 2020 04:47:19 GMT
+< X-Cache: Redirect from cloudfront
+< Content-Type: text/html
+< Content-Length: 183
+< Location: https://lamichoacanameatmarket.instacart.com/
+< X-Amz-Cf-Pop: MAA50-C2
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

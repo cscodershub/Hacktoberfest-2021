@@ -1,0 +1,31 @@
+https://bitkey.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: bitkey.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html
+< Etag: "0d77b9ea3cd01:0"
+< Date: Sat, 18 Jul 2020 13:54:39 GMT
+< Content-Length: 286
+< X-Xss-Protection: 1; mode=block
+< Last-Modified: Thu, 29 Jan 2015 21:29:10 GMT
+< Accept-Ranges: bytes
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin
+
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Microsoft BitLocker Administration and Monitoring</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="REFRESH" content="0;url=/SelfService"></meta>
+	</head>
+	<body>
+	</body>
+</html>
+
+

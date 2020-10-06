@@ -1,0 +1,39 @@
+http://support-sei.samsung.com/
+
+> GET / HTTP/1.1
+> Host: support-sei.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Content-Length: 1059
+< Content-Type: text/html; charset=UTF-8
+< Date: Wed, 10 Jun 2020 05:37:04 GMT
+< Server: Apache/2.2.15 (CentOS)
+< Last-Modified: Fri, 05 Apr 2013 22:44:04 GMT
+< Etag: "a010f-423-4d9a4d301c1fe"
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 3.5  (Linux)">
+	<META NAME="AUTHOR" CONTENT="Stefano Lugli">
+	<META NAME="CREATED" CONTENT="20121122;14174800">
+	<META NAME="CHANGEDBY" CONTENT="SEI">
+	<META NAME="CHANGED" CONTENT="20121122;14211600">
+</HEAD>
+<BODY LANG="en-GB" DIR="LTR">
+<FONT COLOR="#000000"><FONT FACE="Liberation Sans, serif"><FONT SIZE=7 STYLE="font-size: 30pt"><SPAN STYLE="text-decoration: none"> Samsung
+Electronics Italia</SPAN></FONT></FONT></FONT>
+<HR>
+<BR>
+<FONT COLOR="#000000"><FONT FACE="Liberation Sans, serif"><FONT SIZE=5 STYLE="font-size: 20pt"><B><SPAN STYLE="text-decoration: none">404: Resource Unavailable 
+</SPAN></B></FONT></FONT></FONT>
+<BR>
+<BR>
+<FONT COLOR="#000000"><FONT FACE="Liberation Sans, serif"><FONT SIZE=3><SPAN STYLE="text-decoration: none">The requested resource seems to not be in this server</SPAN></FONT></FONT></FONT>
+<BR>
+</BODY>
+</HTML>

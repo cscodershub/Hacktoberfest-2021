@@ -1,0 +1,16 @@
+https://iprofiles.apple.com/
+
+> GET / HTTP/1.1
+> Host: iprofiles.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Thu, 30 Apr 2020 21:29:37 GMT
+< X-Apple-Request-Uuid: 5724c051-53b9-ea3a-87b0-cb44901e4d34
+< Apple-Seq: 0
+< Apple-Tk: false
+< X-Apple-Jingle-Correlation-Key: K4SMAUKTXHVDVB5QZNCJAHSNGQ
+< Apple-Originating-System: UnknownOriginatingSystem
+< Content-Type: text/plain; charset=UTF-8
+
+The requested URL was not found on this server.

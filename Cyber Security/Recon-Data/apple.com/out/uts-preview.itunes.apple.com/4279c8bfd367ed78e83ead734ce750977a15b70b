@@ -1,0 +1,29 @@
+https://uts-preview.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: uts-preview.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Thu, 30 Apr 2020 21:30:26 GMT
+< Vary: Accept-Encoding
+< X-Apple-Timing-App: 16314109488
+< Access-Control-Expose-Headers: X-Apple-Next-Ekv
+< X-Apple-Response-Time: 16314109488
+< Access-Control-Allow-Origin: *
+< Content-Type: text/plain
+< X-Apple-Ssl-Token-Valid: false
+< X-Apple-Application-Instance: 4611
+< Apple-Timing-App: 16314109488
+< X-Apple-Jingle-Correlation-Key: 4EDLTJX2QVQW6RGZ76WAU4QHWM
+< X-Daiquiri-Instance: daiquiri:15887002:mr85p00it-hyhk04103901:7987:20E24
+< X-Daiquiri-Instance: daiquiri:18215002:mr85p00it-hyhk04114001:7987:20E24
+< Server: daiquiri/3.0.0
+< X-Responding-Instance: uts-preview:4611:mr30p00it-qugc13124401:9501:206UTS209
+< Cache-Control: private, no-cache, must-revalidate, max-age=0
+< X-Apple-Application-Site: MR22
+< Access-Control-Allow-Methods: GET,POST
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Access-Control-Allow-Headers: Content-Type,*
+
+404:HTTP 404 Not Found

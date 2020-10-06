@@ -1,0 +1,16 @@
+https://customerevents.eu-west-1.netflix.com/
+
+> GET / HTTP/1.1
+> Host: customerevents.eu-west-1.netflix.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Wed, 17 Jun 2020 05:33:33 GMT
+< Via: 1.1 i-06000426ac42833ee (eu-west-1)
+< X-Netflix.proxy.execution-Time: 2
+< X-Xss-Protection: 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+< Server: beacon i-0b5e9ba7529bb2312
+< X-Netflix.nfstatus: 1_3
+< X-Originating-Url: https://customerevents.eu-west-1.netflix.com/
+< Content-Length: 0
+

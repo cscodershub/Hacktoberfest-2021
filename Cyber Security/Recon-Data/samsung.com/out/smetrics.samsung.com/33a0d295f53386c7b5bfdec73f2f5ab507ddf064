@@ -1,0 +1,14 @@
+https://smetrics.samsung.com/
+
+> GET / HTTP/1.1
+> Host: smetrics.samsung.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Length: 0
+< Cache-Control: no-cache, no-store, max-age=0, no-transform, private
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Wed, 10 Jun 2020 05:35:53 GMT
+< Server: jag
+

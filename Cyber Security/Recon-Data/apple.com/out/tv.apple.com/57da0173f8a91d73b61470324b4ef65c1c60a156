@@ -1,0 +1,27 @@
+http://tv.apple.com/
+
+> GET / HTTP/1.1
+> Host: tv.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Daiquiri-Instance: daiquiri:48215002:st44p00it-hyhk16084701:7987:20E24
+< Date: Thu, 30 Apr 2020 21:28:27 GMT
+< X-True-Cache-Key: /L/tv.apple.com/Browser vcd=2897
+< Server: daiquiri/3.0.0
+< Content-Length: 163
+< Location: https://tv.apple.com/
+< X-Cache-Remote: TCP_REFRESH_MISS from a23-203-63-22.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (S)
+< X-Apple-Partner: origin.0
+< Content-Type: text/html
+< X-Cache: TCP_MISS from a23-203-63-44.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29304580) (-)
+< Set-Cookie: geo=IN; path=/; domain=.apple.com
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+<hr><center>daiquiri/3.0.0</center>
+</body>
+</html>

@@ -1,0 +1,57 @@
+https://searchbot.itunes.apple.com/
+
+> GET / HTTP/1.1
+> Host: searchbot.itunes.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 Apple WebObjects
+< Content-Type: text/html; charset=UTF-8
+< X-B3-Traceid: 46597de38b05bc8f228d2cadc8cadcd0
+< X-Apple-Application-Site: Canary
+< Strict-Transport-Security: max-age=31536000
+< X-Webobjects-Loadaverage: 0
+< X-Apple-Jingle-Correlation-Key: IZMX3Y4LAW6I6IUNFSW4RSW42A
+< Apple-Originating-System: SPSearchQueryInternal
+< Apple-Seq: 0
+< Date: Thu, 30-Apr-2020 00:21:46 GMT
+< Cache-Control: private
+< Cache-Control: no-cache
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: max-age=0
+< X-Apple-Application-Instance: 640000
+< X-Apple-Request-Uuid: 46597de3-8b05-bc8f-228d-2cadc8cadcd0
+< Content-Length: 874
+< Apple-Tk: false
+< Apple-Timing-App: 2 ms
+< Expires: Thu, 30-Apr-2020 00:21:46 GMT
+< X-B3-Spanid: 67388bf46288d1da
+< B3: 46597de38b05bc8f228d2cadc8cadcd0-67388bf46288d1da
+< Pragma: no-cache
+< Nncoection: close
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Session Creation Error</title>
+</head>
+<body bgcolor="#ffffff">
+
+<table border="0" width="100%">
+<tr>
+    <td align="center" valign="top">
+        <img border="0" src="/WebObjects/SPSearchQuery.woa/wr?wodata=jar%3Afile%3A%2F%2F%2Fopt%2Fitms%2FJingleFW%2FJingleFW20F64%2FFrameworks%2FJavaWOExtensions-5.4.3.framework.3d613f0%2FResources%2FJavaLibraries%2FJavaWOExtensions-5.8.20-b01.jar%21%2FWebServerResources%2Fexclamation.gif" width="32" height="32" /><br>
+        Re-enter<br>
+        <a target="_top" href="/WebObjects/SPSearchQuery.woa/wa/default">
+            <b>SPSearchQuery</b>
+        </a>
+    </td>
+    <td align="left" valign="middle">
+        <b>Your session could not be created.</b>
+    </td>
+</tr>
+</table>
+
+</body>
+</html>

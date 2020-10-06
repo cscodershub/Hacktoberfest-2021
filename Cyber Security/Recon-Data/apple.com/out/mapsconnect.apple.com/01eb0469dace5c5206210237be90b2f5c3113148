@@ -1,0 +1,226 @@
+https://mapsconnect.apple.com/
+
+> GET / HTTP/1.1
+> Host: mapsconnect.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: DENY
+< Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob:  *.apple.com *.apple-mapkit.com; img-src 'self' data: https: ; connect-src 'self' *.apple.com *.apple-mapkit.com *.s3.amazonaws.com ;
+< Date: Thu, 30 Apr 2020 21:40:54 GMT
+< Vary: Accept-Encoding
+< Set-Cookie: PLAY_MAPS_CONNECT_LANG=en; Path=/
+< Set-Cookie: PLAY_MAPS_CONNECT_SESSION=2-Cm7PIIB1NoG++A9o8GLAJEMd7LWnXfX2CtF0LG0KEXDHAMCYeVK3XSVPw340hWQNhdyV5psmxQkFfK5z3Canm48w9uaCLQVv7cyQYEZB5y9KaM7hwS/l6qylLtBoSQR125QxKB7wATXW; Path=/; Secure; HTTPOnly
+< Set-Cookie: NSC_ns11q01mt-nbqtdpoofdu-443$33995=ffffffff1266b11945525d5f4f58455e445a4a4212d3;expires=Thu, 30-Apr-2020 21:42:54 GMT;path=/;secure;httponly
+< Content-Type: text/html; charset=utf-8
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Maps Connect</title>
+<base href='/'/>
+<meta name="Author" content="Apple Inc.">
+<meta name="Description" content="Add or edit your business information that is displayed on Apple Maps.">
+<meta name="Keyword" content="maps,apple,fix,bug,error,business,profile,place,problem,issue,owner,report a problem">
+
+<meta id="viewport" name="viewport">
+<script>
+  (function(doc) {
+    var viewport = document.getElementById("viewport");
+    var content = "width=device-width, ";
+    if(/Android.*Mobile/i.test(navigator.userAgent) || /webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      viewport.setAttribute("content", content + "initial-scale=1.0");
+    } else if (/iPad|Android/i.test(navigator.userAgent)) {
+      function orientationScale() {
+        if (window.orientation === 0 || window.orientation === 180) {
+          viewport.setAttribute("content", content + "initial-scale=0.85");
+        } else {
+          viewport.setAttribute("content", content + "initial-scale=1.0");
+        }
+      }
+      orientationScale();
+      // Listen for orientation changes
+      window.addEventListener("orientationchange", function() {
+        orientationScale();
+      }, false);
+    }
+  }(document));
+</script>
+
+<link rel="icon" type="image/png" href="/assets/images/logo/favicon.png">
+
+
+   <link rel="stylesheet" href="/assets/stylesheets/login/index.min.css">
+
+
+<div id="user-agent-target" style="display: none;"></div>
+<div id="min-ie-version" style="display: none;">11</div>
+
+
+
+<script src="/assets/javascripts/utils/browser_detect.js" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+  <div class="bg-images">
+    <div class="bottom bg"></div>
+    <div class="top bg bg-initial"></div>
+    
+      <img class="initial-bg-img" src="/assets/images/flyover/001_ggb_low.jpg" style="display: none;">
+    
+    <div class="bg screen"></div>
+  </div>
+
+  
+
+
+  <div class="wrapper">
+    <div class="content-wrapper">
+      
+  
+
+
+
+
+
+
+  <div class="navbar navbar-top">
+    <div class="nav navbar-left" role="img" aria-label="Maps Connect">
+      <span class="maps-title"></span> <span class="navbar-left-title">Connect</span>
+    </div>
+
+    <div class="nav navbar-right">
+      
+      
+        <li class="mc-help pull-right">
+            <a href="/ui/help" class="bp-help" tabindex="0" aria-label="Help" bp-hide-outline>Help</a>
+        </li>
+      
+    </div>
+  </div>
+
+
+
+  
+  <div class="mc-login-message">
+    <div class="mc-message-wrap">
+      <div class="mc-title-wrap">
+        <img class="mc-emergency" src="/assets/images/signin/emergency.png">
+        <div class="mc-title mc-medium">COVID-19 Testing</div>
+      </div>
+      <div class="mc-msg">Healthcare providers, labs, and other businesses that would like to provide information on COVID-19 testing locations can now do so through Apple Business Register. <a target="covid" href="https://register.apple.com/covid-19/">Learn More <img class="mc-arrow" src="/assets/images/signin/arrow_icon.png"></a></div>
+    </div>
+  </div>
+  
+
+  <div class="login-panel">
+    <div class="title-mapsconnect landing-image">
+    </div>
+    <div class="mc-login-wrap">
+        <div class="mc-help-text">Add or update your business information in Apple Maps to help customers find you.</div>
+        <a class="mc-button" href="https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=9a5e808b031e0daca0bebbe75839e421f855c55dfd3f9c97c4815469333eb4ae&amp;rv=1&amp;path=/">Sign In</a>
+    </div>
+
+    
+    <div class="mc-signin-with-connect-wrap mc-hidden">
+      <a class="mc-medium mc-signin mc-signin-with-connect mc-dark-bg" href="https://idmsac.apple.com/IDMSWebAuth/login?appIdKey=853f8b2216bcca5abc6f4d08f60dade254556e7e025ce78e22b12ba98e64ece5&amp;rv=1&amp;path=//dsinternal/">Sign In with Apple Connect</a>
+    </div>
+    
+
+    <div class="login-subtext text-center">
+      <span>Don&#x27;t have a free Apple ID?</span>
+      <a href="/getappleid" target="_blank">Create one</a>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+  <div class="footer-wrapper">
+  <div class="footer">
+    <div class="nav navbar-left">
+      <div class="footer-label bg-0-footer-label">
+        <span class="left-label">Flyover of Golden Gate Bridge</span>
+        <span class="right-label">, San Francisco</span>
+      </div>
+      <div class="footer-label bg-1-footer-label hidden">
+        <span class="left-label">Flyover of Central Park</span>
+        <span class="right-label">, New York City</span>
+      </div>
+      <div class="footer-label bg-2-footer-label hidden">
+        <span class="left-label">Flyover of Stonehenge</span>
+        <span class="right-label">, Amesbury</span>
+      </div>
+      <div class="footer-label bg-3-footer-label hidden">
+        <span class="left-label">Flyover of Palace of Westminster</span>
+        <span class="right-label">, London</span>
+      </div>
+      <div class="footer-label bg-4-footer-label hidden">
+        <span class="left-label">Flyover of Colosseum</span>
+        <span class="right-label">, Rome</span>
+      </div>
+      <div class="footer-label bg-5-footer-label hidden">
+        <span class="left-label">Flyover of Sydney Harbour Bridge</span>
+        <span class="right-label">, Sydney</span>
+      </div>
+    </div>
+
+    <div class="nav navbar-right">
+      <span class="copyright">Copyright © 2020 Apple Inc. All rights reserved.</span>
+      <span class="footer-link-separator"></span>
+      <span><a href="/iforgot" target="blank">Forgot ID or Password?</a></span>
+    </div>
+  </div>
+</div>
+
+  
+
+
+<script src="/assets/javascripts/libs/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/javascripts/libs/jquery.migrate.min.js" type="text/javascript"></script>
+<script src="/assets/javascripts/libs/bootstrap.min.js" type="text/javascript"></script>
+
+
+
+  
+  <script src="/assets/javascripts/libs/jquery.placeholder.min.js" type="text/javascript"></script>
+  <script src="/assets/javascripts/login/login.js" type="text/javascript"></script>
+  <script type="text/javascript">
+      setTimeout(() => {
+          if (window.acExtension !== undefined) {
+              $('.mc-signin-with-connect-wrap').removeClass('mc-hidden');
+          }
+      }, 500);
+  </script>
+
+  
+
+</body>
+</html>
+

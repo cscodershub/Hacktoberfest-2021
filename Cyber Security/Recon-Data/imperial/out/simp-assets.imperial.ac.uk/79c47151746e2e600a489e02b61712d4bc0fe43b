@@ -1,0 +1,21 @@
+http://simp-assets.imperial.ac.uk/
+
+> GET / HTTP/1.1
+> Host: simp-assets.imperial.ac.uk
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: private
+< X-Web-Server: icwww4
+< Set-Cookie: ARRAffinity-WindowsWF=c43ee6d60cfd752beea9e09e76572cdff85a6c6b5c070f9f2c10de14f3cd94e5;Path=/;Domain=simp-assets.imperial.ac.uk
+< Date: Sat, 18 Jul 2020 13:55:05 GMT
+< Content-Type: text/html; charset=utf-8
+< Vary: Accept-Encoding
+< Server: Microsoft-IIS/10.0
+< X-Aspnet-Version: 4.0.30319
+< X-Powered-By: ARR/3.0
+< X-Arr-Server: icrp12
+
+<html>
+<H1>You've reached the simp-assets.imperial.ac.uk URL</h1>
+<p>This site is not for general browsing.</p>

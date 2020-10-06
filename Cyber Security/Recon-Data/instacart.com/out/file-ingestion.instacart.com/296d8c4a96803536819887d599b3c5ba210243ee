@@ -1,0 +1,21 @@
+https://file-ingestion.instacart.com/
+
+> GET / HTTP/1.1
+> Host: file-ingestion.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: nginx
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=utf-8
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Location: https://file-ingestion.instacart.com/login
+< Set-Cookie: build_sha=c86cef26e9495dbd169293f2f5cfeecf6bae672c;Path=/;
+< Cache-Control: no-cache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Date: Tue, 04 Aug 2020 04:47:03 GMT
+< X-Request-Id: d098d03d-fcd9-4cff-a8fe-ef10c3ed19e0
+< X-Runtime: 0.006509
+
+<html><body>You are being <a href="https://file-ingestion.instacart.com/login">redirected</a>.</body></html>

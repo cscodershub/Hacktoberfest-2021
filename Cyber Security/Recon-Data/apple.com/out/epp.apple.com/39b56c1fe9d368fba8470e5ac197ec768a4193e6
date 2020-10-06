@@ -1,0 +1,23 @@
+https://epp.apple.com/
+
+> GET / HTTP/1.1
+> Host: epp.apple.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Pragma: no-cache
+< X-Cache: TCP_MISS from a202-88-191-117.deploy.akamaitechnologies.com (AkamaiGHost/10.0.0.1-29323059) (-)
+< Date: Thu, 30 Apr 2020 21:28:34 GMT
+< Set-Cookie: as_dc=nwk; Domain=apple.com; Expires=Thu, 30-Apr-2020 21:58:33 GMT; Path=/; Secure
+< Content-Security-Policy: frame-ancestors 'none'
+< Expires: Thu, 30 Apr 2020 21:28:34 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: DENY
+< X-Cache-Remote: TCP_MISS from a38-29-168-231.deploy.akamaitechnologies.com (AkamaiGHost/9.9.4.2-29293653) (-)
+< Server: Apple
+< X-Request-Id: a77a345e-e823-4cf4-98e5-3a76e5ef2cdf
+< X-Content-Type-Options: nosniff
+

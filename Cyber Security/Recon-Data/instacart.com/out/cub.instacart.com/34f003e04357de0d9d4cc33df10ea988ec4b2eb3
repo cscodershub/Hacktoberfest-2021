@@ -1,0 +1,24 @@
+http://cub.instacart.com/
+
+> GET / HTTP/1.1
+> Host: cub.instacart.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 04 Aug 2020 04:47:04 GMT
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 30679409511c27f2f2de20e193b58ee5.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: MAA50-C1
+< X-Amz-Cf-Id: UeF7hBTQYUWtdU08BE81KvlEZYYCJX24OcHK5W-h4bCG3JvLQjuU1w==
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 183
+< Location: https://cub.instacart.com/
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>
