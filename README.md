@@ -7,6 +7,7 @@
 - Before requesting for PR make sure if there is any other file/folder do not exist with same codes/name, if yes then request in that.
 - Don't do pull request in any folder `randomly`.
 - We will be accepting only valid PRs.
+- For Data Structures and Algorithms, please note that you make program taking input from User.
 
 **Technologies in which you can contribute**
 
