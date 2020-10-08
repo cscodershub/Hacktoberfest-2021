@@ -12,7 +12,7 @@
 **Technologies in which you can contribute**
 
 | Machine learning | Artificial Intelligence | Python | Java | Android | Computer Vision | Cyber Security | C | C++ | Bash | JavaScript |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | -- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | -- | -- |
 
 To learn how to create a Pull Request follow [Your First Pull Request With Lyn Muldrow](https://www.youtube.com/watch?v=jZtECuvNRiw) tutorial.
 
