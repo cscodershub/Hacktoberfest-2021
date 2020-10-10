@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>
+            Main Page
+        </title>
+    </head>
+    <body>
+        <p>This is the body</p>
+        Result: <br> <% result.forEach(function(person){ %>
+            <%= person.name %> 
+            <%= person.location %> 
+            <%= person.age %>    <br>         
+        <% }) %> 
+        <a href="/add">Add new</a>
+    </body>
+</html>
