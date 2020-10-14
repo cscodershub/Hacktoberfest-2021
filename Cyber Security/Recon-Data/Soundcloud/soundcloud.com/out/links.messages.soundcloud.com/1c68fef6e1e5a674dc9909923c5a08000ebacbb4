@@ -1,0 +1,23 @@
+https://links.messages.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: links.messages.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: nginx
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< X-Cache: Error from cloudfront
+< Via: 1.1 c6568f1feac20207e002525ee964a059.cloudfront.net (CloudFront)
+< Content-Type: text/html
+< Content-Length: 162
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: x4PgmZnigAd1MbIk3LDQVLRF_EMPnfvtBNKaAvG-KTPrVj9HyiB3Pw==
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

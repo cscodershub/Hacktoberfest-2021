@@ -1,0 +1,19 @@
+http://promote.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: promote.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Content-Type: text/html
+< Content-Length: 110
+< Location: https://promote.soundcloud.com:443/
+< Server: awselb/2.0
+< Date: Wed, 14 Oct 2020 13:27:06 GMT
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+</body>
+</html>

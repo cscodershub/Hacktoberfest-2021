@@ -1,0 +1,17 @@
+http://help-assets.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: help-assets.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: application/xml
+< Server: AmazonS3
+< X-Cache: Error from cloudfront
+< Via: 1.1 509b255f45345167a84fb48630e409c4.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: -UV28oggR6d0lU6gqOq9eXZ1AWrs5rqAxvRToT4ZOgDJqws8oh9AdA==
+< Date: Wed, 14 Oct 2020 13:27:03 GMT
+< X-Amz-Cf-Pop: HYD50-C2
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>3632004A9BC3B956</RequestId><HostId>I1XmSUED9IEddp/1wYxLJwkS3OnzGQp5rzzNbURd7IQ/lUrSO0V0xoTSFou+pAgQJsro5rxG4jY=</HostId></Error>

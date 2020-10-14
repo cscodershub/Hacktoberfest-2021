@@ -1,0 +1,22 @@
+http://status.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: status.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://status.soundcloud.com/#_=_
+< Vary: X-UA-Device, Accept
+< Strict-Transport-Security: max-age=15552001
+< Date: Wed, 14 Oct 2020 13:27:06 GMT
+< P3p: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+< X-Ua-Compatible: IE=Edge,chrome=1
+< Server: openresty
+< Content-Length: 0
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< X-Ua-Device: desktop
+< Content-Type: text/html; charset=UTF-8
+< X-Rid: 6f6b2eeaa649a853fd7bfb26d71c4cc5
+< X-Frame-Options: deny
+

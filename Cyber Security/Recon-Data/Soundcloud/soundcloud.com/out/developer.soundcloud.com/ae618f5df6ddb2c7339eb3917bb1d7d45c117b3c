@@ -1,0 +1,17 @@
+https://developer.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: developer.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Server: am/2
+< X-Cache: Miss from cloudfront
+< Via: 1.1 1a121d2367b85366ca7c4cfe54657adb.cloudfront.net (CloudFront)
+< Content-Length: 0
+< Location: https://developers.soundcloud.com//
+< Strict-Transport-Security: max-age=63072000
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: WRb_YqxVzMsBCY8XT3LaH7WhGPxeZI5i7aKhVBskSPIEvXh6Xm2vQA==
+

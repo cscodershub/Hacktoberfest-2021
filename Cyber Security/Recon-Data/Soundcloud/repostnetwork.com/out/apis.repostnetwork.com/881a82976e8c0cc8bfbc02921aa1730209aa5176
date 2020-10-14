@@ -1,0 +1,24 @@
+http://apis.repostnetwork.com/
+
+> GET / HTTP/1.1
+> Host: apis.repostnetwork.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 183
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 95a7d4eb3d19d9153730342df89f1d96.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: OZ_BJcCdfSS__LCgBZZxPAbgCXvAbsAHODDP5XlXr8GrZYY_Ia2grQ==
+< Server: CloudFront
+< Content-Type: text/html
+< Location: https://apis.repostnetwork.com/
+< Date: Wed, 14 Oct 2020 13:18:59 GMT
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

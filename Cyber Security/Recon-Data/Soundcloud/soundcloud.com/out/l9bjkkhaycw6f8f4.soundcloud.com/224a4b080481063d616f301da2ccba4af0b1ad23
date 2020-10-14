@@ -1,0 +1,17 @@
+https://l9bjkkhaycw6f8f4.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: l9bjkkhaycw6f8f4.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 9
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Strict-Transport-Security: max-age=63072000
+< Server: am/2
+< X-Cache: Error from cloudfront
+< Via: 1.1 e37f5a1ae470dcb726258db2701f5a4e.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: mmAxHZ5V1dBfjZA_yiTbU5eiLo_ky492_Kcy_OCVuT5LAVKKLrpeAA==
+
+Not found

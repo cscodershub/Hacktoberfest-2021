@@ -1,0 +1,17 @@
+https://eventlogger.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: eventlogger.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Strict-Transport-Security: max-age=63072000
+< Server: am/2
+< Content-Length: 9
+< X-Cache: Error from cloudfront
+< Via: 1.1 7c3520ed6d78ab9c34bbab0422a0d690.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: cYo6amv9TIrBh86RWHhgzJnxTQgVI-WJmirdZjofLVCk9QmsSlG4cg==
+
+Not found

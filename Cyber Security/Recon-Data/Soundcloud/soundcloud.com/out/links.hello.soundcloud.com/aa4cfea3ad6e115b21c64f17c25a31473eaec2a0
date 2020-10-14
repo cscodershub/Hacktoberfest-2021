@@ -1,0 +1,23 @@
+https://links.hello.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: links.hello.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Via: 1.1 1db967f07328f9f8adfe3418d5ec389c.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< Content-Type: text/html
+< Content-Length: 162
+< X-Amz-Cf-Id: CnUfHMuPgeYFQ45P1SwGAMDP4kNESzqo0XY_TULVTwJpqCkHUPR14w==
+< Server: nginx
+< Date: Wed, 14 Oct 2020 13:27:06 GMT
+< X-Cache: Error from cloudfront
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

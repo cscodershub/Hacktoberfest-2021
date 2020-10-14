@@ -1,0 +1,17 @@
+https://creatorguide.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: creatorguide.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Strict-Transport-Security: max-age=63072000
+< Server: am/2
+< X-Amz-Cf-Id: 36FGQJHkR6VYQj0oZTawoHz2ySLQMfaXgOkNU8SLPdJb3-9ToEhrJw==
+< Date: Wed, 14 Oct 2020 13:27:09 GMT
+< Location: https://creators.soundcloud.com/guide
+< X-Cache: Miss from cloudfront
+< Via: 1.1 711725aba5abf28f3c995cceb7332da3.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< Content-Length: 0
+

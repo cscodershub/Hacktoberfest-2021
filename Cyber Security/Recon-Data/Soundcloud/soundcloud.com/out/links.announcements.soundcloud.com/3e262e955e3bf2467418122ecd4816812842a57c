@@ -1,0 +1,23 @@
+https://links.announcements.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: links.announcements.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: R5jaYT8nYKWVj6IcQ1NFm-cz6ty0L7NjWI3_qkv_9HY6Xw9BewV2pw==
+< Content-Length: 162
+< Server: nginx
+< Date: Wed, 14 Oct 2020 13:27:10 GMT
+< Via: 1.1 95a7d4eb3d19d9153730342df89f1d96.cloudfront.net (CloudFront)
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

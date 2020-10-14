@@ -1,0 +1,23 @@
+https://links.warnings.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: links.warnings.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 162
+< X-Cache: Error from cloudfront
+< Via: 1.1 b1e07f9510428f387d8a4a0586445768.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: s0vfXLfCNFAH3dUj3pxf2ZVhSVX6J2DrKGuaRCbKcah-pWrTmuMfuQ==
+< Content-Type: text/html
+< Server: nginx
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< X-Amz-Cf-Pop: HYD50-C2
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

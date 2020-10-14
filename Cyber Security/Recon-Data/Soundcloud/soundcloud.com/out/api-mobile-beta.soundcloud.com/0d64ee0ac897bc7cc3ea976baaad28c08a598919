@@ -1,0 +1,21 @@
+https://api-mobile-beta.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: api-mobile-beta.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< X-Content-Type-Options: nosniff
+< Cache-Control: private, max-age=0
+< Server: am/2
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< X-Frame-Options: DENY
+< Strict-Transport-Security: max-age=63072000
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: wCdaCRTEd_ekh6b23cPSANc5EdtWhZfEQ22Fk4INT8EB2LVvobsHlw==
+< Referrer-Policy: no-referrer
+< X-Robots-Tag: noindex
+< Via: 1.1 509b255f45345167a84fb48630e409c4.cloudfront.net (CloudFront)
+< Content-Length: 0
+

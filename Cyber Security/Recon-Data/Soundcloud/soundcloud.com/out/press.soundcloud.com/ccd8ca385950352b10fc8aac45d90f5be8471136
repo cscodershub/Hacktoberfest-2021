@@ -1,0 +1,676 @@
+https://press.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: press.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< Strict-Transport-Security: max-age=31536000;
+< X-Runtime: 0.712617
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: Xp-Ou7iNLs0S1JPwx4bYeRwPBHk-D4rYok4_6whnN3wuvrAtTg2Exw==
+< Content-Type: text/html; charset=utf-8
+< Status: 200 OK
+< Server: nginx
+< X-Content-Type-Options: nosniff
+< X-Request-Id: 6a4e7752-2356-4edf-b6d6-6b096dfd0c81
+< Via: 1.1 00ae073b703ab9f9f37607b23484d2da.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< Cache-Control: max-age=0, private, must-revalidate
+< X-Xss-Protection: 1; mode=block
+< Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html dir='' lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1' name='viewport'>
+<meta content='index,follow' name='robots'>
+<meta content='index,follow' name='googlebot'>
+<meta content='en' http-equiv='Content-Language'>
+<title>SoundCloud news</title>
+<link href='/favicon-32x32.png' rel='icon' sizes='16x16 32x32'>
+<link rel="stylesheet" media="screen, print" href="//dkskyn6tqnjvs.cloudfront.net/assets/flat-1003057cb5ac4fc92bedb240b8697fd4.css" />
+<!--[if IE]>
+<link rel="stylesheet" media="screen" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700?&amp;subset=latin-ext,latin" />
+<link rel="stylesheet" media="screen, print" href="//dkskyn6tqnjvs.cloudfront.net/assets/fonts-848862e6d8f7ed12ff21fc946a3b5777.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+<script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+<script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+<![endif]-->
+<link href='http://press.soundcloud.com' rel='canonical'>
+<meta name="description" content="SoundCloud Pressroom" />
+<meta name="identifier" content="http://press.soundcloud.com" />
+<meta property="og:title" content="SoundCloud newsroom" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://press.soundcloud.com" />
+<meta property="og:image" />
+<meta property="og:site_name" content="SoundCloud newsroom" />
+<meta property="og:description" content="SoundCloud Pressroom" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@prdotco" />
+<meta name="twitter:creator" content="@prdotco" />
+<meta name="twitter:url" content="http://press.soundcloud.com" />
+<meta name="twitter:title" content="SoundCloud newsroom" />
+<meta name="twitter:description" content="SoundCloud Pressroom" />
+<meta name="twitter:image" />
+<link rel="alternate" type="application/atom+xml" title="All releases for SoundCloud" href="http://press.soundcloud.com/press_releases.atom" />
+
+<style type="text/css">
+      .custom-text-color,
+      body.press_releases_show #bodytext p:first-child:first-letter,
+      body aside#sidebar section#tag_tree > ul > li > a
+      {
+        color: #ff3c00 !important;
+      }
+      .custom-border-color,
+      .custom-border-color:after,
+      .custom-border-color:before,
+      body aside#sidebar section#tag_tree > ul > li > a
+      {
+        border-color: #ff3c00 !important;
+      }
+      .custom-background-color
+      {
+        background-color: #ff3c00 !important;
+      }
+      main#content nav.horizontal_bar .back_link a:hover,
+      main#content nav.horizontal_bar .next_link a:hover,
+      main#content .social_shares i:hover {
+        opacity: 0.75;
+      }
+      main#content #bodytext a, main#content #pressroom_description a {
+        color: #ff3c00 !important;
+      }
+      main#content #bodytext a:hover, main#content #pressroom_description a:hover {
+        # text-decoration: underline;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        opacity: 0.75;
+      }
+      @media only screen and (max-width: 752px) {
+        a.button.custom-text-color {
+          color: #fff !important;
+        }
+      }
+    </style>
+</head>
+<body class='collapse home home_show row'>
+<main id='content' role='main'>
+<article class='white_background' data-id='191767' id='featured_press_release' style=''>
+<div class='row'>
+<div class='default_content_block'>
+<a href="/191767-soundcloud-kicks-off-new-turn-up-the-vote-campaign-to-turn-out-the-youth-vote"><h4 class='pressroom-month'>21 SEPTEMBER, 2020</h4>
+<h2>SoundCloud Kicks Off New “Turn Up the Vote” Campaign to Turn Out the Youth Vote </h2>
+<p>Young American voters are a growing electoral force and have the power to drive historic voter turnout in the U.S. this election day and beyond. SoundCloud’s new non-partisan, pro-democracy “Turn up the Vote” campaign wants to help them do this.</p>
+<a class="medium white button radius text-center" href="/191767-soundcloud-kicks-off-new-turn-up-the-vote-campaign-to-turn-out-the-youth-vote">Read release</a>
+</a></div>
+</div>
+</article>
+
+<section class='row' id='toolbar'>
+<div class='small-12 medium-11 columns medium-centered'>
+<form class="search_form search_form--newsroom search_form--newsroom_en" action="/search/press_releases/" accept-charset="UTF-8" method="get">
+<div class='search_newsroom_container'>
+<img class="search_form__icon" src="//dkskyn6tqnjvs.cloudfront.net/assets/icons/magnifying_glass-19797e029333351d1f08032aca2e40f9.png" alt="Magnifying glass" />
+
+
+<input type="text" name="q" id="q" placeholder="Search newsroom" class="search_form__input search_form__input_en" />
+</div>
+</form>
+
+</div>
+</section>
+<div class='row' id='pressroom_items'>
+<div class='default_content_block'>
+<h4 class='pressroom-month'>May 2020</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+12 May
+</span>
+<div class='details'>
+<a href="/188665-soundcloud-launches-fifth-installment-of-artist-discovery-program-first-on-soundcloud"><h3>SoundCloud Launches Fifth Installment of Artist Discovery Program “First on SoundCloud”</h3>
+<small class='text-justify'>
+SoundCloud Launches Fifth Installment of Artist Discovery Program “First on SoundCloud”
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>March 2020</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+25 Mar
+</span>
+<div class='details'>
+<a href="/187371-soundcloud-rolls-out-soundcloud-go-in-four-new-european-markets"><h3>SoundCloud Rolls Out SoundCloud Go+ in Four New European Markets  </h3>
+<small class='text-justify'>
+SoundCloud Go+ is now available in Denmark, Finland, Norway and Sweden.
+
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>February 2020</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+11 Feb
+</span>
+<div class='details'>
+<a href="/186276-soundcloud-announces-75-million-investment-from-sirius-xm-holdings-inc"><h3>SoundCloud Announces $75 Million Investment from Sirius XM Holdings Inc. </h3>
+<small class='text-justify'>
+SoundCloud and SiriusXM Holdings Inc. (NASDAQ: SIRI) announced today that SiriusXM, has invested $75 million in SoundCloud, the world’s largest open audio platform. 
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+04 Feb
+</span>
+<div class='details'>
+<a href="/186106-soundcloud-creator-forum-heads-to-toronto-february-19-21-2020"><h3>SoundCloud Creator Forum Heads to Toronto, February 19-21, 2020 </h3>
+<small class='text-justify'>
+The SoundCloud Creator Forum brings its three day experience for creators to Toronto on February 19-21st. 
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>December 2019</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+02 Dec
+</span>
+<div class='details'>
+<a href="/184030-soundcloud-creator-forum-heads-to-miami-beach-for-art-basel-december-3-5-2019"><h3>SoundCloud Creator Forum Heads to Miami Beach for Art Basel,  December 3-5, 2019 </h3>
+<small class='text-justify'>
+SoundCloud brings the SoundCloud Creator Forum to Miami 
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>November 2019</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+12 Nov
+</span>
+<div class='details'>
+<a href="/183562-soundcloud-launches-promote-on-soundcloud-the-newest-tool-for-creators-to-grow-their-audiences"><h3>SoundCloud Launches Promote on SoundCloud, the Newest Tool for Creators to Grow Their Audiences  </h3>
+<small class='text-justify'>
+SoundCloud is introducing Promote on SoundCloud, a new self-service promotional tool for SoundCloud Premier creators to boost their original tracks to the top of listeners’ feeds and mobile homepages.
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>October 2019</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+10 Oct
+</span>
+<div class='details'>
+<a href="/182809-soundcloud-creator-forum-next-stop-ade-amsterdam-october-16-18"><h3>SoundCloud Creator Forum Next Stop: ADE  Amsterdam, October 16-18 </h3>
+<small class='text-justify'>
+Cloud’s live event platform for aspiring and emerging creators, the SoundCloud Creator Forum, is heading to ADE with a three day line-up.
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+02 Oct
+</span>
+<div class='details'>
+<a href="/182617-soundcloud-creator-forum-coming-to-a3c-festival-and-conference-in-atlanta-october-9-11-2019"><h3>SoundCloud Creator Forum Coming to A3C Festival and Conference in Atlanta, October 9-11, 2019 </h3>
+<small class='text-justify'>
+SoundCloud Launches The SoundCloud Creator Forum debuting at A3C Festival and Conference in Atlanta, October 9-11, 2019 
+
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+</span>
+<div class='details'>
+<a href="/182602-soundcloud-go-launches-in-austria"><h3>SoundCloud Go+ Launches in Austria  </h3>
+<small class='text-justify'>
+SoundCloud, the world&#39;s largest open audio platform, launches SoundCloud Go+ premium subscription and ad-supported free experience in Austria.
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>September 2019</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+19 Sep
+</span>
+<div class='details'>
+<a href="/182363-lil-tecca-baby-rose-na-kel-and-ms-nina-headline-soundcloud-s-latest-first-on-soundcloud-campaign-celebrating-the-power-of-community"><h3>Lil Tecca, Baby Rose, Na-kel and Ms Nina Headline SoundCloud’s Latest “First on SoundCloud” Campaign Celebrating the Power of Community </h3>
+<small class='text-justify'>
+SoundCloud, the world’s largest open audio platform, launched the fourth edition of its “First on SoundCloud” campaign featuring Lil Tecca, Baby Rose, Na-kel and Ms Nina. 
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>August 2019</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+13 Aug
+</span>
+<div class='details'>
+<a href="/181511-soundcloud-expands-creator-education-program-with-launch-of-sc101"><h3>SoundCloud Expands Creator Education Program with Launch of “SC101”  </h3>
+<small class='text-justify'>
+SoundCloud today introduced a new video and live event series, SC101, as the latest addition to its longstanding education program for music and audio creators.
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>July 2019</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+31 Jul
+</span>
+<div class='details'>
+<a href="/181247-soundcloud-launches-mobile-profile-editing"><h3>SoundCloud Launches Mobile Profile Editing</h3>
+<small class='text-justify'>
+SoundCloud introduced mobile profile editing in the SoundCloud iOS app, providing creators with an easy and intuitive experience to keep their profiles up-to-date when they’re on-the-go.  
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>June 2019</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+12 Jun
+</span>
+<div class='details'>
+<a href="/178064-soundcloud-promotes-michael-weissman-to-president"><h3>SoundCloud Promotes Michael Weissman to President </h3>
+<small class='text-justify'>
+SoundCloud announced today the promotion of Michael Weissman to President of SoundCloud. Weissman previously served as Chief Operating Officer.
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+05 Jun
+</span>
+<div class='details'>
+<a href="/173533-soundcloud-names-gilles-bianrosa-chief-product-officer"><h3>SoundCloud Names Gilles BianRosa Chief Product Officer </h3>
+<small class='text-justify'>
+SoundCloud announced today the appointment of internet and digital media executive, Gilles BianRosa, as its new Chief Product Officer. BianRosa will be responsible for setting the product vision and strategy that supports SoundCloud’s unique two-sided ecosystem of creators and listeners and leading its product management and design teams. 
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+04 Jun
+</span>
+<div class='details'>
+<a href="/173541-soundcloud-launches-soundcloud-go-in-belgium-italy-portugal-spain-and-switzerland"><h3>SoundCloud Launches SoundCloud Go+ in Belgium, Italy, Portugal, Spain and Switzerland</h3>
+<small class='text-justify'>
+Today, SoundCloud, is offering music fans in Belgium, Italy, Portugal, Spain, and Switzerland the ability to enhance their listening experience with the launch of its premium listener subscription plan, SoundCloud Go+. 
+
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>May 2019</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+28 May
+</span>
+<div class='details'>
+<a href="/173437-soundcloud-announces-its-latest-dj-software-integration-with-native-instruments"><h3>SoundCloud Announces Its Latest DJ Software Integration with Native Instruments </h3>
+<small class='text-justify'>
+Today, SoundCloud is adding a new DJ Performance software integration with Native Instruments’ TRAKTOR DJ 2.
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+23 May
+</span>
+<div class='details'>
+<a href="/173320-soundcloud-announces-acquisition-of-repost-network"><h3>SoundCloud Announces Acquisition of Repost Network </h3>
+<small class='text-justify'>
+SoundCloud announced today it has entered into a definitive agreement to acquire leading rights management and distribution company, Repost Network. 
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+21 May
+</span>
+<div class='details'>
+<a href="/173262-soundcloud-launches-dj-software-integration-with-mixvibes"><h3>SoundCloud Launches DJ Software Integration with Mixvibes   </h3>
+<small class='text-justify'>
+Today, SoundCloud is adding a new DJ Performance software integration with Mixvibes’ Cross DJ 4.
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+14 May
+</span>
+<div class='details'>
+<a href="/173078-soundcloud-launches-latest-dj-software-integration-with-pioneer-dj"><h3>SoundCloud Launches Latest DJ Software Integration with Pioneer DJ</h3>
+<small class='text-justify'>
+Today, SoundCloud is adding a new DJ Performance software integration with Pioneer DJ.
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+<h4 class='pressroom-month'>April 2019</h4>
+<div class='pressroom-items-for-month'>
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+30 Apr
+</span>
+<div class='details'>
+<a href="/172807-soundcloud-announces-its-latest-dj-software-integration-with-dex-3"><h3>SoundCloud Announces Its Latest DJ Software Integration with DEX 3  </h3>
+<small class='text-justify'>
+Today, SoundCloud is adding a new DJ performance software integration with DEX 3. 
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+24 Apr
+</span>
+<div class='details'>
+<a href="/172655-soundcloud-brings-comments-to-the-waveform-on-mobile"><h3>SoundCloud Brings Comments to the Waveform on Mobile </h3>
+<small class='text-justify'>
+SoundCloud is taking its mobile commenting experience to the next level by bringing comments directly to the iconic SoundCloud waveform in its mobile app.
+
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+23 Apr
+</span>
+<div class='details'>
+<a href="/172620-soundcloud-launches-next-installment-of-creator-discovery-campaign-first-on-soundcloud"><h3>SoundCloud Launches Next Installment of Creator Discovery Campaign “First On SoundCloud” </h3>
+<small class='text-justify'>
+Following the success of the “First On SoundCloud” campaigns in the U.S., U.K. and Germany, SoundCloud announced today the next installment of its creator discovery campaign promoting a new class of creators. Inspired by the authentic, real-time connections between creators and fans that can only happen on SoundCloud, the campaign features real fans and their emotional connections to the tracks and creators they discover first on SoundCloud. 
+
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+09 Apr
+</span>
+<div class='details'>
+<a href="/172399-soundcloud-rolls-out-new-dj-software-integration-with-virtual-dj"><h3>SoundCloud Rolls Out New DJ Software Integration with Virtual DJ </h3>
+<small class='text-justify'>
+SoundCloud is giving its DJ community another way to take their workflow to the next level with the launch of a new DJ performance software integration with Virtual DJ. 
+</small>
+</a></div>
+</div>
+</article>
+
+<article class='collapse row story'>
+<div class='small-12 columns'>
+<span class='pressroom-day hide-for-small'>
+02 Apr
+</span>
+<div class='details'>
+<a href="/172273-soundcloud-rolls-out-new-ios-profile"><h3>SoundCloud Rolls Out New iOS Profile</h3>
+<small class='text-justify'>
+Today, SoundCloud rolls out an all-new profile experience for iOS users. The new profile layout emphasizes SoundCloud’s core social features, and places a user’s identity, track uploads, likes and reposts front and center. And for creators, the updated profile comes with a brand new feature, ‘top tracks,’ providing more ways to showcase their work to fans.
+
+</small>
+</a></div>
+</div>
+</article>
+
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='default_content_block'>
+<div id='pagination_nav'>
+<nav class='pagination'>
+
+
+<span class='current custom-background-color'>1</span>
+
+<a rel="next" href="/?page=2">2</a>
+
+<a href="/?page=3">3</a>
+
+<a href="/?page=4">4</a>
+
+
+
+</nav>
+</div>
+
+</div>
+</div>
+
+<footer>
+<nav class='horizontal_bar row'>
+<div class='small-8 columns footer_logo small-only-text-right right footer_logo'>
+<a title="Newsroom powered by pr.co: PR software" alt="Newsroom powered by pr.co: PR software" class="powered_by_text" data-subdomain="soundcloud" data-image-path="//dkskyn6tqnjvs.cloudfront.net/assets/prcologo_blue_30-dede4d83f5b3a119878dae2f5e597585.png" href="https://www.pr.co/powered_by_prco?utm_source=newsroom&amp;utm_medium=poweredby&amp;utm_campaign=powered_by_soundcloud"><span>
+Newsroom powered by
+<span>pr.co</span>
+</span>
+<img alt="Newsroom powered by pr.co: PR software" title="Newsroom powered by pr.co: PR software" src="//dkskyn6tqnjvs.cloudfront.net/assets/prcologo_blue_30-dede4d83f5b3a119878dae2f5e597585.png" />
+</a>
+</div>
+</nav>
+
+</footer>
+</main>
+<aside id='sidebar'>
+<section id='logo'>
+<a href="https://press.soundcloud.com/"><img id="company_logo" alt="SoundCloud logo" src="https://d21buns5ku92am.cloudfront.net/26628/logo/small-1471891506.png" /></a>
+</section>
+<section id='name'>
+<h1>
+<a id="title_text" href="https://press.soundcloud.com/">SoundCloud
+<span id='subtitle_text'>newsroom</span>
+</a></h1>
+</section>
+<section class='hide-for-print' id='information'>
+<dl class='accordion' data-accordion=''>
+<dd>
+<a href='#panel_details'>
+<i class='ss-info custom-text-color'></i>
+<span>Contact information</span>
+</a>
+<div class='content' id='panel_details'>
+<p id='pressroom_name'>SoundCloud</p>
+<p id='pressroom_contact_info'><a href="mailto:press@soundcloud.com">press@soundcloud.com</a></p>
+<ul id='pressroom_links'>
+<li>
+<i class='ss-globe'></i>
+<a href="http://soundcloud.com">Main website</a>
+</li>
+<li>
+<i class='ss-building'></i>
+<a href="http://blog.soundcloud.com">Company blog</a>
+</li>
+</ul>
+</div>
+</dd>
+<dd class='hide-for-print'>
+<a href='#panel_social'>
+<i class='ss-megaphone custom-text-color'></i>
+<span>Social media</span>
+</a>
+<div class='content' id='panel_social'>
+<a title="All news" class="rss_link" href="http://press.soundcloud.com/press_releases.atom"><i class="social-rss"></i></a>
+</div>
+</dd>
+</dl>
+</section>
+<section class='hide-for-print' id='follow_pressroom'>
+<h6>Receive updates</h6>
+<a class="medium white button radius text-center custom-text-color custom-border-color" href="https://press.soundcloud.com/follow/">Follow newsroom</a>
+</section>
+</aside>
+<div class='countries-modal hide' id='all-countries'>
+<div class='countries-modal__content'>
+<div class='countries-modal__close' id='countries-closebutton'>&#215;</div>
+<h2 class='countries-modal__title'>Select country</h2>
+<ul class='countries-modal__padding small-block-grid-1 medium-block-grid-2 large-block-grid-3'>
+</ul>
+</div>
+<div class='countries-modal__background'></div>
+</div>
+
+<div class='right-aligned' id='background'></div>
+<!--[if !IE]> --><link rel="stylesheet" media="screen" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700?&amp;subset=latin-ext,latin" lazyload="true" />
+<link rel="stylesheet" media="screen, print" href="//dkskyn6tqnjvs.cloudfront.net/assets/fonts-848862e6d8f7ed12ff21fc946a3b5777.css" lazyload="true" /><!-- <![endif]-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script>
+  window.jQuery || document.write('<script src="/javascripts//dkskyn6tqnjvs.cloudfront.net/jquery-1.9.1.js"><\/script>')
+</script>
+
+<script src="//dkskyn6tqnjvs.cloudfront.net/assets/flat-667b226bae502548734472d980fc569b.js"></script>
+<script>
+  var pressroom_id      = 26628;
+  var press_release_id  = null;
+  var media_kit_id      = null;
+</script>
+
+<script>
+  var _gaq = _gaq || [];
+  
+  _gaq.push(
+    ['_setAccount', 'UA-43112275-1'],
+    ['_setAllowLinker', true],
+    ['_setCustomVar', 1, 'Design', 'flat', 3],
+    ['_gat._anonymizeIp'],
+    ['_trackPageview']
+  );
+  
+  
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  $(document).on("click", '.track_event', function(event){
+    var onclick = $(this).attr('onclick');
+    var link = $(this).attr('href');
+    if (onclick != '' && link == '#') {
+      var after = ''
+    } else if (link != undefined) {
+      var after = "window.location.href='"+link+"';";
+    }
+    if (after != undefined) {
+      event.preventDefault();
+    }
+    if( $(this).data('category') != undefined && $(this).data('action') != undefined ){
+      var label = "";
+      if($(this).data('label')) {
+        label = $(this).data('label');
+      }
+  
+      _gaq.push(['_trackEvent', $(this).data('category').toString(), $(this).data('action').toString(), label.toString()]);
+      
+    }
+  
+    if( $(this).hasClass('no_redirect') == false ) {
+      // dirty hack to make sure track_event call is made
+      if (after != undefined && after != '' && $(this).attr('rel') == undefined && $(this).attr('target') == undefined) {
+        window.setTimeout(function(){
+          eval(after);
+      },300);
+      }
+    }
+    return true;
+  });
+  
+  function custom_pageview(path) {
+    _gaq.push(['_trackPageview', '' + path]);
+  }
+</script>
+
+<!-- NEW - Flat -->
+</body>
+</html>

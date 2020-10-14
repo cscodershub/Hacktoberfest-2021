@@ -1,0 +1,17 @@
+https://email-assets.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: email-assets.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Cf-Id: swABFgv35j5vjQ7x-eUO7bwqnfWA1VwsXvYkC3hiR9uvli60sHt3gg==
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Cache: Error from cloudfront
+< Via: 1.1 36e8448f857bcfee0afb56dcca9b78a4.cloudfront.net (CloudFront)
+< Content-Type: application/xml
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< Server: AmazonS3
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>1T8NFX6S7W5YAHCJ</RequestId><HostId>skR3rIHtwpXqdfrvgQQQ0inAnuIWsxyfVUphQ33flheTGJslJkyilheW9224/Kx/ZGi84DcOeKg=</HostId></Error>

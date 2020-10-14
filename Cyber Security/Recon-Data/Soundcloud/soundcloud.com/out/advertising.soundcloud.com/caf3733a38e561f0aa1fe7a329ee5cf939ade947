@@ -1,0 +1,16 @@
+http://advertising.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: advertising.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Miss from cloudfront
+< Via: 1.1 4e0bf01624c84da6b83ccac11832f207.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Location: https://advertising.soundcloud.com/
+< Server: am/2
+< Content-Length: 0
+< X-Amz-Cf-Id: DOrQ5eUVaRyMviDO3LEiyTqawTL_0rLaWQiAGKVKKt_WiL0S5g_XnA==
+

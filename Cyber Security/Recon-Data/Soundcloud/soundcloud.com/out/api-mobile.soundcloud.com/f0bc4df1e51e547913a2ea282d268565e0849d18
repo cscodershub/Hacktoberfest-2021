@@ -1,0 +1,17 @@
+http://api-mobile.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: api-mobile.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: am/2
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: lc-sBFva9Cp6ZHpkBBEN3V9RmZz-n7wYcy-rNG2DsGJcVNFt5UGZew==
+< Content-Length: 0
+< Date: Wed, 14 Oct 2020 13:24:41 GMT
+< Location: https://api-mobile.soundcloud.com/
+< X-Cache: Hit from cloudfront
+< Via: 1.1 25454d3a44f67b7feb811ab907fccc66.cloudfront.net (CloudFront)
+< Age: 143
+

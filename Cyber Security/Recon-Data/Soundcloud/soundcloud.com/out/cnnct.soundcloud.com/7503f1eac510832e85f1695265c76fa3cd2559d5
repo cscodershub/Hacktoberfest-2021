@@ -1,0 +1,16 @@
+http://cnnct.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: cnnct.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 14 Oct 2020 13:27:03 GMT
+< X-Cache: Miss from cloudfront
+< Via: 1.1 beb7ff979ef3611c161992c796e56ee4.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< Content-Length: 0
+< X-Amz-Cf-Id: _wGUqBvptTHEU9owHqJG9Kh-JS0uSjU1ugrxcZO1xuPi-GWaDiRRgQ==
+< Location: https://cnnct.soundcloud.com/
+< Server: am/2
+

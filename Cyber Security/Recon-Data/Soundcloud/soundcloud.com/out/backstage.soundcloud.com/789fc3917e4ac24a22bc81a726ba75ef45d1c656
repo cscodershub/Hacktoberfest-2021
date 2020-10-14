@@ -1,0 +1,17 @@
+https://backstage.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: backstage.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: am/2
+< X-Cache: Miss from cloudfront
+< Via: 1.1 711725aba5abf28f3c995cceb7332da3.cloudfront.net (CloudFront)
+< Content-Length: 0
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Location: https://developers.soundcloud.com/blog/
+< Strict-Transport-Security: max-age=63072000
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: LYvujg8Jy36-LvQ3sPM6X1aHWNPntiTD5z6ek3l8_d9dJGt624tFKg==
+

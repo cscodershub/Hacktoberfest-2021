@@ -1,0 +1,17 @@
+https://telemetry.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: telemetry.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: am/2
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Id: Aj0gjcChrwu6iWulctP-ETGgtPNvwH5uCII0K5bdB3zSYE6ULi64gQ==
+< Content-Length: 9
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Strict-Transport-Security: max-age=63072000
+< Via: 1.1 a09d339a5faa7e8d8d42ae384df6c399.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+
+Not found

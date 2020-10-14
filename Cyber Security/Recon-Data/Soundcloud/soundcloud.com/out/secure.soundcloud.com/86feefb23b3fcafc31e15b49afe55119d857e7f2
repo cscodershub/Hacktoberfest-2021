@@ -1,0 +1,44 @@
+https://secure.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: secure.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Tue, 13 Oct 2020 09:43:34 GMT
+< Etag: W/"2ed-1752157f570"
+< Strict-Transport-Security: max-age=63072000
+< X-Cache: Miss from cloudfront
+< Cache-Control: public, max-age=0
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: Vk4cYA5RM-ad_sZDQvamUVYNmtNxNPfXl6cYg0oXznW-Z37uR96TEA==
+< Content-Type: text/html; charset=UTF-8
+< Server: am/2
+< Via: 1.1 beb7ff979ef3611c161992c796e56ee4.cloudfront.net (CloudFront)
+< Feature-Policy: accelerometer none; ambient-light-sensor none; autoplay none; battery none; camera none; display-capture none; document-domain none; encrypted-media none; fullscreen none; geolocation none; gyroscope none; magnetometer none; microphone none; midi none; picture-in-picture none; sync-xhr none; usb none; wake-lock none
+< Content-Security-Policy: frame-ancestors 'none';
+< X-Frame-Options: DENY
+< Referrer-Policy: never, no-referrer
+< Vary: Accept-Encoding
+< X-Content-Type-Options: nosniff
+< Accept-Ranges: bytes
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>SoundCloud – Listen to free music and podcasts on SoundCloud</title>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#333">
+<link href="https://secure.sndcdn.com/0-749bda7d26a1ecd958d6.css" rel="stylesheet"></head>
+
+<body>
+  <div id="app"></div>
+  
+<script type="text/javascript" src="https://secure.sndcdn.com/app-57159e1624c76bf39347.js"></script><script type="text/javascript" src="https://secure.sndcdn.com/vendor-534407f24d0eb3efca09.js"></script></body>
+
+</html>

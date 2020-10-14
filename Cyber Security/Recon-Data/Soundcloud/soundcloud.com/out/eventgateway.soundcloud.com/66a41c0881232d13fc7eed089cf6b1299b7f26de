@@ -1,0 +1,17 @@
+https://eventgateway.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: eventgateway.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Via: 1.1 f29ded0f309d5fe44fb63b38960adfae.cloudfront.net (CloudFront)
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: qps6vfwSPkmw0KLD1noykHyZvJQVNa6Cs-VA7zCD8BPWOiqRKo2Njw==
+< Content-Length: 9
+< Strict-Transport-Security: max-age=63072000
+< Server: am/2
+
+Not found

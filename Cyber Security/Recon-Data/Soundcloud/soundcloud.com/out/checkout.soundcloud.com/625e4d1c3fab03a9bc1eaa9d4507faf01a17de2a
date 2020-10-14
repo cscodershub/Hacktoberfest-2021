@@ -1,0 +1,21 @@
+https://checkout.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: checkout.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< X-Amz-Cf-Pop: HYD50-C2
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 25
+< Cache-Control: private, max-age=0, no-cache, no-store
+< Server: am/2
+< Vary: Accept
+< Via: 1.1 42a0bfce97a174e5c6d2b115346fb473.cloudfront.net (CloudFront)
+< Location: /go
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< Strict-Transport-Security: max-age=63072000
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: ppLaZLtmzY2L4q4XHtO6Pj6oG_0NhnZp-HKdwLFeVnhn81-YlLn7hQ==
+
+Found. Redirecting to /go

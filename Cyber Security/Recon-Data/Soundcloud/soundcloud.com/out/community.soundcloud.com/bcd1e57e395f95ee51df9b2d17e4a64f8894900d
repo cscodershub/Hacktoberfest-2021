@@ -1,0 +1,17 @@
+https://community.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: community.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://help.soundcloud.com/
+< Strict-Transport-Security: max-age=63072000
+< Server: am/2
+< X-Cache: Miss from cloudfront
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: Q3mVBCsl39bCC6OWy8hPmHXo24miGvxP71TKT-F5m83HIJvPrBB2vA==
+< Content-Length: 0
+< Via: 1.1 b94073a62e6e677b12e3b808b42901ec.cloudfront.net (CloudFront)
+

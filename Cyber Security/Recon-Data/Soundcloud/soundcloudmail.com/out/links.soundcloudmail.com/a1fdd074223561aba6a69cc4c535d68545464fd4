@@ -1,0 +1,23 @@
+https://links.soundcloudmail.com/
+
+> GET / HTTP/1.1
+> Host: links.soundcloudmail.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html
+< Content-Length: 162
+< X-Amz-Cf-Id: Jdez1MAfW1WRaI9qKr23SlFmZapUgdbDqeX1DjVsVoWW2f7FLdd3cg==
+< Server: nginx
+< Date: Wed, 14 Oct 2020 13:25:49 GMT
+< X-Cache: Error from cloudfront
+< Via: 1.1 25454d3a44f67b7feb811ab907fccc66.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

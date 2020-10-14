@@ -1,0 +1,23 @@
+https://links.transactions.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: links.transactions.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Id: NaZ80tH-bC4vfVE9tJiuv4vwd9MAeJCpQNS_r1N8CicUJ7_qmHXOyg==
+< Content-Type: text/html
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< X-Amz-Cf-Pop: HYD50-C2
+< Content-Length: 162
+< Server: nginx
+< Via: 1.1 c3c13380d1c5bf8586d7fd3d4dbe9503.cloudfront.net (CloudFront)
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

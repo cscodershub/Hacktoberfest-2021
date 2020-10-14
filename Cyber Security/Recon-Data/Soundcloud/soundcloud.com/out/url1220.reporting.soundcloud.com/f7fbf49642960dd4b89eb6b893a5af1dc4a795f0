@@ -1,0 +1,23 @@
+https://url1220.reporting.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: url1220.reporting.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Cache: Error from cloudfront
+< Via: 1.1 89357fd4da47c6e4b331f810d5f0b242.cloudfront.net (CloudFront)
+< Content-Type: text/html
+< Content-Length: 162
+< Server: nginx
+< X-Amz-Cf-Id: sREf_PJl3zieibA0GH2U5V2Av8Fi5Z7ZQk84Nnp9QeGqLtFlhBlrxQ==
+< Date: Wed, 14 Oct 2020 13:27:06 GMT
+< X-Amz-Cf-Pop: HYD50-C2
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

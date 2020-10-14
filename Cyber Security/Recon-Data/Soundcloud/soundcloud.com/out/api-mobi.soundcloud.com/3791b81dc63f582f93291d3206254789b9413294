@@ -1,0 +1,22 @@
+https://api-mobi.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: api-mobi.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Cache-Control: private, max-age=0
+< X-Robots-Tag: noindex
+< Referrer-Policy: no-referrer
+< Server: am/2
+< X-Amz-Cf-Id: 73Q-14mPdgwIzOQpXVKsvqqjlH3TG4V_89xkVZ2Fs-QlOH5MgeBNug==
+< X-Amz-Cf-Pop: HYD50-C2
+< Content-Length: 0
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=63072000
+< Vary: Origin
+< X-Cache: Error from cloudfront
+< Via: 1.1 b138ad57139c35de504ce2888b1ab375.cloudfront.net (CloudFront)
+

@@ -1,0 +1,31 @@
+http://help.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: help.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache
+< X-Request-Id: 5e21a2c95c66d639-IAD
+< Location: https://help.soundcloud.com/hc
+< Cf-Cache-Status: DYNAMIC
+< Cf-Request-Id: 05c8e411db0000d6391c947000000001
+< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=22&lkg-time=1602682027"}],"group":"cf-nel","max_age":604800}
+< Nel: {"report_to":"cf-nel","max_age":604800}
+< Server: cloudflare
+< Content-Type: text/html; charset=UTF-8
+< Vary: Accept
+< P3p: CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+< X-Xss-Protection: 1; mode=block
+< X-Zendesk-Origin-Server: classic-app-server-5458f5f887-6kh8q
+< Cf-Ray: 5e21a2c95c66d639-NRT
+< X-Frame-Options: SAMEORIGIN
+< Zendesk-Ep: 10
+< X-Runtime: 0.069814
+< Date: Wed, 14 Oct 2020 13:27:06 GMT
+< Set-Cookie: __cfduid=da3c51aaf87c6930ec49bbd81cbaf6cfd1602682026; expires=Fri, 13-Nov-20 13:27:06 GMT; path=/; domain=.help.soundcloud.com; HttpOnly; SameSite=Lax
+< Set-Cookie: __cf_bm=bcde4e875ba9b29981502cdd09776dcc38b1270d-1602682026-1800-AZAxPgZqxUx9Kspr+RfqqmN7Qx+EU+NiIqpR35MRMCWa; path=/; expires=Wed, 14-Oct-20 13:57:06 GMT; domain=.help.soundcloud.com; HttpOnly; SameSite=None
+< Set-Cookie: __cfruid=aed0c51b32cfd21a6a227baf09f249ed9caced3c-1602682026; path=/; domain=.help.soundcloud.com; HttpOnly
+
+<html><script async src='/cdn-cgi/bm/cv/2172558837/api.js'></script><body>You are being <a href="https://help.soundcloud.com/hc">redirected</a>.<script type="text/javascript">(function(){window['__CF$cv$params']={r:'5e21a2c95c66d639',m:'32eec8fe4a5b9ea5755026065320082c3d0f806b-1602682026-1800-AZekSgtp1/eKcGhOrlXW8teMpszkUIgSxQPfnGMDfOzFkEbdjwsT1rEEaO0KFvjQMJR109vn0dMrH5p/D+P1xzX52oUkg9aNdUHVT1zybaiiVg4ocREiSv85LdNyZXoxMg==',s:[0xdfe86672cc,0xef8d3f77ac],}})();</script></body></html>

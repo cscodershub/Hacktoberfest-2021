@@ -1,0 +1,23 @@
+https://links.confirmation.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: links.confirmation.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 162
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< X-Amz-Cf-Id: YwJPNAZ-7BoVlnGfXABpSdTEsdPKJ9_WbrfceLn7CNNQMnk1-f-uSw==
+< Content-Type: text/html
+< Server: nginx
+< X-Cache: Error from cloudfront
+< Via: 1.1 57de08f1507f15361979f2f024f6cb41.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

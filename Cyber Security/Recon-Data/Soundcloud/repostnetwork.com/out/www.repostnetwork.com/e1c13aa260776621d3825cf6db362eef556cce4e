@@ -1,0 +1,526 @@
+https://www.repostnetwork.com/
+
+> GET / HTTP/1.1
+> Host: www.repostnetwork.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: max-age=300
+< Age: 280
+< Content-Type: text/html; charset=utf-8
+< Date: Wed, 14 Oct 2020 13:14:20 GMT
+< X-Cache: Hit from cloudfront
+< Last-Modified: Fri, 11 Sep 2020 17:31:44 GMT
+< Server: AmazonS3
+< Via: 1.1 1647713dce385603de478521ddce6233.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: VlwBaF4976QnTKXQDmXwZcOhP6T8hTa__HzPi74Jjd7168w5Fso86g==
+< Etag: "206676e3aedb142720a76a236826c3cb"
+< X-Amz-Cf-Pop: HYD50-C2
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Repost by SoundCloud enables artists and labels to grow their audiences and make money from their music on SoundCloud and beyond.">
+	<meta name="google-site-verification" content="NnDD_UZs7ny5SU41X6I5zQ03P-_iUFJ_mAevtXCTeJo"/>
+
+	
+	<title>Repost by SoundCloud</title>
+
+	<!-- Fav Icon -->
+	<link rel="icon" type="image/png" href="/img/favicons/favicon.png"/>
+
+    <!-- Link to Sitemap -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+	<link rel="stylesheet" type="text/css" href="/css/slick.css"/>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" href="/css/main.css">
+
+    <!-- Open Graph -->
+<meta prefix="og: http://ogp.me/ns#" content="Repost by SoundCloud" property="og:site_name">
+<meta prefix="og: http://ogp.me/ns#" content="Repost by SoundCloud" property="og:title">
+<meta prefix="og: http://ogp.me/ns#" content="website" property="og:type">
+<meta prefix="og: http://ogp.me/ns#" content="Repost by SoundCloud enables artists and labels to grow their audiences and make money from their music on SoundCloud and beyond." property="og:description">
+<meta prefix="og: http://ogp.me/ns#" content="https://www.repostnetwork.com/" property="og:url">
+<meta prefix="og: http://ogp.me/ns#" content="https://www.repostnetwork.com/img/repost-logo-1280x800.png" property="og:image">
+
+
+    <!-- Twitter Cards -->
+<meta name="twitter:title" content="Repost by SoundCloud" />
+<meta name="twitter:description" content="Repost by SoundCloud enables artists and labels to grow their audiences and make money from their music on SoundCloud and beyond." />
+<meta name="twitter:site" content="@repostnetwork" />
+<meta name="twitter:creator" content="@repostnetwork" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://www.repostnetwork.com/img/repost-logo-1280x800.png" />
+	
+<script>
+    if (window.location.hostname != 'localhost') {
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-64097678-3', 'auto');
+        ga('send', 'pageview');
+    }
+
+</script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P54Q4V4');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P54Q4V4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- Google Optimize -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-64097678-3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-64097678-3', { 'optimize_id': 'GTM-N4GN5HL'});
+</script>
+
+<script async src="https://vt.myvisualiq.net/2/UhSoiql1ezhCaix6DQ3nmQ%3D%3D/vt-324.js">
+</script>
+
+    <link type="application/atom+xml" rel="alternate" href="https://www.repostnetwork.com/feed.xml" title="Repost by SoundCloud" />
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-inverse    ">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<div class="close-navbar"></div>
+			</button>
+			<a class="navbar-brand" href="/"><div class="logo" style="background-image: url(/img/home/logo.svg);"></div></a>
+		</div>
+		<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+
+
+				<!-- Home -->
+				<li class="active">
+					<a href="/">Home</a>
+				</li>
+
+				<!-- FAQs -->
+				<li>
+					<a href="https://help.soundcloud.com/hc/en-us/categories/360003479873-Repost-by-SoundCloud-">FAQs</a>
+				</li>
+
+				<!-- Partners -->
+				<li class="">
+					<a href="/partners.html">Partners</a>
+				</li>
+
+				<!-- Blog -->
+				<li class=" divider">
+					<a href="/blog/index.html">Blog</a>
+				</li>
+
+				<!-- Login -->
+				<li>
+					<div class="apply-button-container">
+						<a href="https://app.repostnetwork.com/?cta=true" class="sc-button sc-button-small sc-button-transparent sign-in-button">
+							Sign In
+						</a>
+					</div>
+					<div class="dropdown-item-container">
+						<a href="https://app.repostnetwork.com/?cta=true" class="dropdown-item-container">
+							Sign In
+						</a>
+					</div>
+				</li>
+
+				<!-- Create Account -->
+				<li>
+					<div class="apply-button-container">
+						<button class="sc-button sc-button-small sc-button-cta apply-button create-account-button">
+							Create Account
+						</button>
+					</div>
+					<div>
+						<div class="dropdown-item-container">
+							<button class="create-account-button">
+								Create Account
+							</button>
+						</div>
+					</div>
+				</li>
+
+
+
+
+				<!---->
+			</ul>
+			<div class="header-social">
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>        
+			</div>
+		</div><!--/.nav-collapse -->
+	</div>
+</nav>
+
+    <header class="clearfix">
+	<div class="container">
+		<div class="header-content">
+			<h1 class="main-title">MAKE A LIVING FROM YOUR MUSIC</h1>
+			<img class="header-image" src="img/home/img-hero.png" alt="img-hero">
+			<div class="subtitle-container">
+				<h2 class="subtitle-header">
+					Get heard, get paid and take your career to the next level
+				</h2>
+				<div class="button-container">
+					<button class="sc-button sc-button-cta sc-button-xlarge get-started-button create-account-button">
+						Get started
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="container distribute-with-repost-container">
+	<h2 class="distribute-with-repost subtitle">
+		Power your career with Repost by SoundCloud
+	</h2>
+	<h3 class="distribute-with-repost-description description">
+		You’re a serious artist looking to take your career to the next level and do it yourself. With Repost, you can
+		reach audiences all over the world, market your music and get paid – all in one place. And if you start gaining
+		momentum, you may be invited to apply to Repost Select by SoundCloud, our premium services program for artists
+		on the rise.
+	</h3>
+	<div class="feature-container">
+		<div class="feature-item">
+			<div class="feature">
+				<img src="img/home/reach.png" alt="reach">
+				<h2 class="feature-title">Reach fans everywhere</h2>
+				<h3 class="feature-description description">
+					Send your music to Spotify, Apple Music, TikTok, Instagram and every major music service around the
+					globe with industry-leading distribution
+				</h3>
+			</div>
+		</div>
+		<div class="feature-item">
+			<div class="feature">
+				<img src="img/home/monetize.png" alt="monetize">
+				<h2 class="feature-title">Monetize on SoundCloud</h2>
+				<h3 class="feature-description description">
+					Stand out and get paid for your plays with features exclusive to SoundCloud like track background
+					artwork, banner click-throughs and monetization
+				</h3>
+			</div>
+		</div>
+		<div class="feature-item">
+			<div class="feature">
+				<img src="img/home/usp-img.png" alt="usp-img">
+				<h2 class="feature-title">Plan releases like a pro</h2>
+				<h3 class="feature-description description">
+					You decide which marketing and promotional levers to pull. Pitch for playlists, create pre-save
+					campaigns, claim your content on YouTube, and pay collaborators simply with Split Pay - and get support
+					from our team whenever you need it
+				</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container repost-by-soundcloud-container">
+	<h2 class="repost-by-soundcloud subtitle">
+		Repost by SoundCloud
+	</h2>
+	<h3 class="repost-by-soundcloud-description description">
+		A full-service marketing and distribution engine with priority support | $30/year or included in
+		<a href="https://checkout.soundcloud.com/pro/?ref=t317&utm_source=Repost&utm_medium=Homepage&utm_campaign=Repost-Launch">
+			Pro Unlimited
+		</a>
+	</h3>
+	<div class="plan">
+		<div class="list-container">
+			<div class="list-item">
+				<img class="checkmark" src="img/resources/checkmark.svg" alt="check">
+				<h4>
+					Distribute unlimited tracks to Spotify, Apple Music, Instagram and more, while keeping 80% of your
+					revenue
+				</h4>
+			</div>
+			<div class="list-item">
+				<img class="checkmark" src="img/resources/checkmark.svg" alt="check">
+				<h4>
+					One all-inclusive price - no upsells for every little feature like other providers
+				</h4>
+			</div>
+			<div class="list-item">
+				<img class="checkmark" src="img/resources/checkmark.svg" alt="check">
+				<h4>
+					Stand out and get paid for your plays on SoundCloud with promotional tools and monetization
+				</h4>
+			</div>
+		</div>
+		<div class="list-container">
+			<div class="list-item">
+				<img class="checkmark" src="img/resources/checkmark.svg" alt="check">
+				<h4>
+					Access Split Pay, pre-save campaigns, YouTube Content ID and more
+				</h4>
+			</div>
+			<div class="list-item">
+				<img class="checkmark" src="img/resources/checkmark.svg" alt="check">
+				<h4>
+					Be considered for Repost Select upstream opportunities
+				</h4>
+			</div>
+		</div>
+	</div>
+	<button class="sc-button sc-button-cta sc-button-xlarge apply-now-button create-account-button">
+		Sign up now
+	</button>
+</div>
+
+
+<div class="container distribute-with-repost-container">
+	<h2 class="distribute-with-repost subtitle">
+		Take your music full time with Repost Select by SoundCloud
+	</h2>
+	<h3 class="distribute-with-repost-description description">
+		You’re a professional artist who’s seen success and is ready to unlock your full potential. With our global team
+		of music industry experts, high-performing Repost artists get first access to promotional opportunities,
+		placement on custom DSPs and radio stations, and all of the support you need from a dedicated account manager.
+	</h3>
+	<div class="feature-container">
+		<div class="feature-item">
+			<div class="feature">
+				<img src="img/home/independent.png" alt="independent">
+				<h2 class="feature-title">Stay independent</h2>
+				<h3 class="feature-description description">
+					You remain in control, but with a dedicated artist rep you can be confident about every step
+				</h3>
+			</div>
+		</div>
+		<div class="feature-item">
+			<div class="feature">
+				<img src="img/home/access.png" alt="access">
+				<h2 class="feature-title">Access global marketing experts</h2>
+				<h3 class="feature-description description">
+					Our team works for you to build breakthrough release strategies, getting you access to custom social
+					media and promotional channels, like radio station placements, taking your music where others can’t go
+				</h3>
+			</div>
+		</div>
+		<div class="feature-item">
+			<div class="feature">
+				<img src="img/home/future.png" alt="future">
+				<h2 class="feature-title">Fund your future</h2>
+				<h3 class="feature-description description">
+					We invest in the talent we believe in. As a member of Repost Select, you’ll be considered for our $10MM+
+					artist accelerator program to fund your next project, from production to promotion
+				</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container repost-by-soundcloud-container">
+	<h2 class="repost-by-soundcloud subtitle">
+		Repost Select by SoundCloud
+	</h2>
+	<h3 class="repost-by-soundcloud-description description">
+		An expert team working to accelerate your career, at your direction | by application or invitation
+	</h3>
+	<div class="plan">
+		<div class="list-container">
+			<div class="list-item">
+				<img class="checkmark" src="img/resources/checkmark.svg" alt="check">
+				<h4>
+					Dedicated, in-house account manager with deep industry and marketing expertise ready to work
+					side-by-side to develop your career
+				</h4>
+			</div>
+			<div class="list-item">
+				<img class="checkmark" src="img/resources/checkmark.svg" alt="check">
+				<h4>
+					Always-on consideration for our $10MM+ artist accelerator program
+				</h4>
+			</div>
+			<div class="list-item">
+				<img class="checkmark" src="img/resources/checkmark.svg" alt="check">
+				<h4>
+					Tailored marketing and promotional support for your upcoming releases - on SoundCloud and other
+					platforms
+				</h4>
+			</div>
+		</div>
+		<div class="list-container">
+			<div class="list-item">
+				<img class="checkmark" src="img/resources/checkmark.svg" alt="check">
+				<h4>
+					Curation opportunities on top DSP playlists and radio stations
+				</h4>
+			</div>
+			<div class="list-item">
+				<img class="checkmark" src="img/resources/checkmark.svg" alt="check">
+				<h4>
+					Unlimited access to exclusive features to promote your music and get paid for your plays
+				</h4>
+			</div>
+		</div>
+	</div>
+	<a href="https://repostnetwork.typeform.com/to/oBMQu3" class="sc-button sc-button-white sc-button-xlarge apply-now-button">
+		Apply now
+	</a>
+</div>
+
+<!--<div class="clearfix testimonials-clearfix">-->
+<!--	<div class="container testimonials-container">-->
+<!--		<div class="home-slider">-->
+<!--			<div class="page">-->
+<!--				<h1 class="quote">“</h1>-->
+<!--				<div>-->
+<!--					<h1 class="subtitle">-->
+<!--						On top of giving us the control we need over our SoundCloud monetization,-->
+<!--						Repost has given us the time and attention specific to our needs.”-->
+<!--					</h1>-->
+<!--					<h2 class="artist">Ninety9Lives</h2>-->
+<!--					<h3 class="testimonial-type">Label</h3>-->
+<!--				</div>-->
+<!--				<img class="ninety9lives" src="./img/home/ninety9lives.png" alt="ninety9lives">-->
+<!--			</div>-->
+
+<!--			<div class="page">-->
+<!--				<h1 class="quote">“</h1>-->
+<!--				<div>-->
+<!--					<h1 class="subtitle">-->
+<!--						Repost makes it easier than ever to monetize your tunes and self-release across multiple-->
+<!--						platforms. 10/10.”-->
+<!--					</h1>-->
+<!--					<h2 class="artist">SamF</h2>-->
+<!--					<h3 class="testimonial-type">Artist</h3>-->
+<!--				</div>-->
+<!--				<img class="samf" src="./img/home/samf.png" alt="samf">-->
+<!--			</div>-->
+<!--		</div>-->
+<!--		<div class="home-slider-dots"></div>-->
+<!--	</div>-->
+<!--</div>-->
+
+<div class="more-container container">
+	<div class="more">
+		<img src="img/home/premier-hero.png" alt="premier-hero">
+		<div class="more-description-container">
+			<div class="more-description">
+				<h2 class="subtitle">
+					Looking for more?
+				</h2>
+				<h3 class="description">
+					<a href="https://checkout.soundcloud.com/pro/?ref=t317&utm_source=Repost&utm_medium=Homepage&utm_campaign=Repost-Launch">
+						SoundCloud Pro Unlimited
+					</a>
+					includes access to Repost distribution at no additional cost, plus even more tools to share your music and
+					grow your career on SoundCloud and beyond.
+				</h3>
+				<a href="https://checkout.soundcloud.com/pro/?ref=t317&utm_source=Repost&utm_medium=Homepage&utm_campaign=Repost-Launch"
+				   class="sc-button sc-button-white sc-button-xlarge learn-more-button">
+					Learn more
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <footer>
+	<div class="footer-top">
+		<div class="container">
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="footer-top-left">
+					<span>Made with</span>
+					<a target="_blank" href="#"><img src="/img/emoji.png" alt=""></a>
+					<div class="venice">in Los Angeles, CA </div>
+				</div>                                                  
+			</div>
+			<div class="col-lg-4 col-md-5 hidden-sm hidden-xs">
+				<div class="footer-top-middle">
+					<!--<a href="#">FAQ</a>-->
+					<a href="/blog/index.html">Blog</a>
+					<a href="/privacy-policy.html">Privacy Policy</a>
+					<a target="_blank" href="https://jobs.soundcloud.com">Careers</a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+				<div class="footer-top-right">
+					<a target="_blank" href="https://soundcloud.com/repost"></a> <!-- SoundCloud -->
+					<a target="_blank" href="https://www.facebook.com/RepostbySoundCloud"></a> <!-- Facebook -->
+					<a target="_blank" href="https://twitter.com/repostnetwork"></a> <!-- Twitter -->
+					<a target="_blank" href="https://youtube.com/c/Repostnetwork"></a> <!-- YouTube -->
+					<a target="_blank" href="https://www.instagram.com/repostbysoundcloud"></a> <!-- Instagram -->
+				</div>                                                  
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<span>Repost Network, Inc. &copy; <script>document.write(""+new Date().getFullYear());</script></span>
+	</div>
+</footer>
+
+
+    <script type="text/javascript">
+    window.config = {};
+    window.config.soundCloudAppId = '3ee9665d3c23a6ab94c508efa67f8e72';
+    window.config.apiUrl = 'https://api.repostnetwork.com';
+    window.config.apisUrl = 'https://apis.repostnetwork.com';
+    window.config.url = 'https://www.repostnetwork.com';
+    window.config.intercomAppId = 'i0fytary';
+    window.config.connect_url = 'https://users.services.repostnetwork.com/auth/soundcloud?state=https%3A%2F%2Fapp.repostnetwork.com%2Flogin%3Fcta%3Dyes';
+</script>
+
+<script>
+  window.intercomSettings = {app_id: 'i0fytary'};
+  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/i0fytary';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+</script>
+
+<script defer src="/js/jquery.min.js"></script>
+<script defer src="/js/jquery.validate.min.js"></script>
+<script defer src="/js/slick.min.js"></script>
+<script defer src="/js/moment.min.js"></script>
+<script defer src="/js/bootstrap-datetimepicker.min.js"></script>
+<script defer src="/js/bootstrap.min.js"></script>
+<script defer src="/js/js-cookie.js"></script>
+<script defer src="/js/jekyll-search.min.js"></script>
+<script defer src="/js/search.js"></script>
+<script defer src="/js/soundcloud-sdk-3.1.2.js"></script>
+<script defer src="/js/main.js"></script>
+
+
+  </body>
+
+</html>

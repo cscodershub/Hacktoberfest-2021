@@ -1,0 +1,18 @@
+https://p1.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: p1.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Hit from cloudfront
+< Via: 1.1 5be3f7f1116b2bdf516cbdf031058b04.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: nHUK8D8W6HOkMh_mIfeRLY_i434X6M76PiFAIV1yvQVVmAI4xJS_hQ==
+< Date: Wed, 14 Oct 2020 13:24:41 GMT
+< Location: https://player.soundcloud.com/
+< Server: am/2
+< X-Amz-Cf-Pop: HYD50-C2
+< Age: 143
+< Content-Length: 0
+< Strict-Transport-Security: max-age=63072000
+

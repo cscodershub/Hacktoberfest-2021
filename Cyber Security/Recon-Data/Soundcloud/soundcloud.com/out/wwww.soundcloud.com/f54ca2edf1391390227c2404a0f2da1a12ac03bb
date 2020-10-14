@@ -1,0 +1,16 @@
+http://wwww.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: wwww.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< X-Cache: Miss from cloudfront
+< Via: 1.1 b94073a62e6e677b12e3b808b42901ec.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: VxUwHvNjhYwM-DulcwGM_z0nbzI8GkOZX1tEi33a6zrunis6oZ23jA==
+< Content-Length: 0
+< Location: https://wwww.soundcloud.com/
+< Server: am/2
+

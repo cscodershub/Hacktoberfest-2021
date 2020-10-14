@@ -1,0 +1,22 @@
+https://copyright.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: copyright.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 0
+< X-Amz-Cf-Pop: HYD50-C2
+< Location: https://copyright.soundcloud.com/auth/soundcloud
+< Set-Cookie: copyright=ZSoLw2wWp2W5chZIOzBXgfC90hkEyppYglm%2B%2FsqLsBR2Ij9R6I4K15iS139a4SEwCXVdgBWfPFuBuHEx%2BENQmlATx461SsTGk6TvORwOQbyorPw6AJocTj%2FkL%2FhI8TId; path=/
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: h2ltCns-ed5Yj07l6UZ4oJEh3fDBgV9yFc5HxyHG-3tYKkoaRyg3Sw==
+< Content-Type: text/html;charset=utf-8
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Strict-Transport-Security: max-age=63072000
+< Via: 1.1 d92a4ef2d2ce41314b9e806438fff4fa.cloudfront.net (CloudFront)
+< X-Content-Type-Options: nosniff
+< Server: am/2
+

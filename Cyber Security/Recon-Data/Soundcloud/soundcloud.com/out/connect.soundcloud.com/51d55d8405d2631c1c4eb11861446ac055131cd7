@@ -1,0 +1,29 @@
+http://connect.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: connect.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: AmazonS3
+< Via: 1.1 beb7ff979ef3611c161992c796e56ee4.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: 7FTVcbhGkDBJ5LVFRTheWJ7ridjlp5B0orMSXbfjpjXIb0ObfJfq8g==
+< Age: 9800
+< Content-Length: 350
+< Last-Modified: Fri, 14 Jul 2017 14:10:16 GMT
+< Accept-Ranges: bytes
+< Date: Wed, 14 Oct 2020 10:43:45 GMT
+< Etag: "cdf76f867cf7b6446cb459a9c5a0d0bd"
+< X-Cache: Hit from cloudfront
+< X-Amz-Cf-Pop: HYD50-C2
+< Content-Type: text/html
+
+<html>
+  <head>
+    <title>Connect with SoundCloud</title>
+    <meta http-equiv="refresh" content="1;url=https://developers.soundcloud.com/docs/api/guide#users-register" />
+  </head>
+  <body>
+  Redirecting you to <a href="https://developers.soundcloud.com/docs/api/guide#users-register">Connect with SoundCloud documentation</a>...
+  </body>
+</html>

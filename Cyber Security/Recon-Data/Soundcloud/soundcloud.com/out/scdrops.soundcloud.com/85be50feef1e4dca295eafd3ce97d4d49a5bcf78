@@ -1,0 +1,15 @@
+http://scdrops.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: scdrops.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.scdrops.soundcloud.com/
+< Age: 52959
+< Set-Cookie: crumb=BfKu9yhGeCIEOTQ0YmRkOTAzMDIxMDU1ZWU5MDZjNzkxYjRjZjcw;Path=/
+< Content-Length: 0
+< X-Contextid: zUOqNHRD/noAouqT0
+< Server: Squarespace
+< Date: Tue, 13 Oct 2020 22:44:26 GMT
+

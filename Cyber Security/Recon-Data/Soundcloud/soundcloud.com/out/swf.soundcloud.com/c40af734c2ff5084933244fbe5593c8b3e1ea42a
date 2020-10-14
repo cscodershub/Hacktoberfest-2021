@@ -1,0 +1,18 @@
+https://swf.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: swf.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Age: 143
+< Content-Length: 0
+< Server: am/2
+< X-Cache: Hit from cloudfront
+< Via: 1.1 5942c979074a900638c87b1a2345cc74.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: UQoyjnzQ8OR3lY8uZdJApzsTH2RKRWvq3Vt4YPQgr79MXzFyNjx0yg==
+< Date: Wed, 14 Oct 2020 13:24:41 GMT
+< Location: https://player.soundcloud.com/
+< Strict-Transport-Security: max-age=63072000
+

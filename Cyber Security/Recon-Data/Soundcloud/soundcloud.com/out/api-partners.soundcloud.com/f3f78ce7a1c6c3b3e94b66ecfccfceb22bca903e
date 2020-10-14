@@ -1,0 +1,16 @@
+http://api-partners.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: api-partners.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: RIzxb_16sbNuQUQ5RMaJXGhXc9iiy4hZnaTYhfI97i0NwfpuIPjsFQ==
+< Content-Length: 0
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Server: am/2
+< X-Amz-Cf-Pop: HYD50-C2
+< Location: https://api-partners.soundcloud.com/
+< X-Cache: Miss from cloudfront
+< Via: 1.1 57a376009ba015b0adb78f2af4dbeed4.cloudfront.net (CloudFront)
+

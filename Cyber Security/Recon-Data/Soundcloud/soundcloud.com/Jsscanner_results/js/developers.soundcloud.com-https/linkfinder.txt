@@ -1,0 +1,10 @@
+//connect.soundcloud.com/sdk-2.0.0.js
+https://developers.soundcloud.com/callback.html
+text/xml
+text/plain
+text/html
+application/x-www-form-urlencoded
+comment.html
+/support/questions?page=
+http://stackoverflow.com/search?q=%5Bsoundcloud%5D+
+/me

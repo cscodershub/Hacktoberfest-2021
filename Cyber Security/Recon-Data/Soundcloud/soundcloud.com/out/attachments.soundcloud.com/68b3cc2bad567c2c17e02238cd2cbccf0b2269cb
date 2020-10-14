@@ -1,0 +1,17 @@
+https://attachments.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: attachments.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Via: 1.1 b1e07f9510428f387d8a4a0586445768.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: ISoWkUePe3ULrbFMn04APmVknpbUFhYRqgz4hjLuC0qeQEhAp9v5zw==
+< Content-Type: application/xml
+< Date: Wed, 14 Oct 2020 13:27:06 GMT
+< Server: AmazonS3
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Pop: HYD50-C2
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>FCFD936FA821C5D3</RequestId><HostId>659dLWAim7WCoiR6uAbM8cYox6LxPhz5M5c7D8OMHKX16rf+EPlb4gNYeSGSj+Eft6mIlC9/u9w=</HostId></Error>

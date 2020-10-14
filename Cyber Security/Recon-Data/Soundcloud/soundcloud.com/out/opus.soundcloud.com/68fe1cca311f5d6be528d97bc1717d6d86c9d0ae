@@ -1,0 +1,17 @@
+https://opus.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: opus.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: https://opus.soundcloud.org/
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: MQCdCzG4_Nw9_X58G6tFyZesw71-UeeH1HSNXiRg0Q7OZQ1BfbIMIQ==
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Strict-Transport-Security: max-age=63072000
+< Server: am/2
+< Via: 1.1 5942c979074a900638c87b1a2345cc74.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+

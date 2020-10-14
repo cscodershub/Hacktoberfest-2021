@@ -1,0 +1,25 @@
+https://techsupport.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: techsupport.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 303 See Other
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache, no-store
+< Server: rhino-core-shield
+< Date: Wed, 14 Oct 2020 13:27:06 GMT
+< Content-Type: text/html; charset=utf-8
+< Referrer-Policy: strict-origin-when-cross-origin
+< Location: https://techsupport.soundcloud.com/login
+< X-Download-Options: noopen
+< X-Permitted-Cross-Domain-Policies: none
+< P3p: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+< X-Runtime: 0.010604
+< X-Cache-Status: MISS
+< X-Xss-Protection: 1; mode=block
+< Content-Security-Policy-Report-Only: object-src 'none'; script-src  'self' 'unsafe-inline'  https: http:; base-uri 'self' https://*.samanage.com; report-uri /csp_reports
+< X-Request-Id: 6fa81e3ebc54a65982cbfe2580055dad
+
+<html><body>You are being <a href="https://techsupport.soundcloud.com/login">redirected</a>.</body></html>

@@ -1,0 +1,17 @@
+https://jira.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: jira.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://jira.soundcloud.org/
+< Strict-Transport-Security: max-age=63072000
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: dvwuBYmLKwlH8IHlSDVP8opBdDajnlg9XTjmkBO2lxvGIZNxKlWOdA==
+< Content-Length: 0
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< Server: am/2
+< X-Cache: Miss from cloudfront
+< Via: 1.1 e37f5a1ae470dcb726258db2701f5a4e.cloudfront.net (CloudFront)
+

@@ -1,0 +1,19 @@
+https://promotions.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: promotions.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Access-Control-Allow-Origin: *
+< Location: http://checkout.soundcloud.com/go
+< Vary: Accept, Accept-Encoding
+< Server: openresty
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 55
+< X-Powered-By: Express
+< Via: 1.1 google
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+Found. Redirecting to http://checkout.soundcloud.com/go

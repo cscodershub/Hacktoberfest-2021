@@ -1,0 +1,117 @@
+Running against: https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js
+
+Running against: https://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js
+
+Running against: https://html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js
+
+Invalid input defined or SSL error for: https://html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js
+Running against: https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js
+
+text/css
+Running against: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+
+text/xml
+text/plain
+text/html
+application/x-www-form-urlencoded
+Running against: https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js
+
+mm/dd/yy
+Running against: https://press.soundcloud.com/javascripts//dkskyn6tqnjvs.cloudfront.net/jquery-1.9.1.js
+
+Invalid input defined or SSL error for: https://press.soundcloud.com/javascripts//dkskyn6tqnjvs.cloudfront.net/jquery-1.9.1.js
+Running against: https://dkskyn6tqnjvs.cloudfront.net/assets/flat-667b226bae502548734472d980fc569b.js
+
+text/css
+//www.youtube.com/embed/%id%?autoplay=1
+//player.vimeo.com/video/%id%?autoplay=1
+//maps.google.
+video/mp4
+video/m4v
+video/mov
+video/wmv
+audio/wma
+audio/m4a
+audio/mp3
+audio/wav
+audio/mpeg
+video/flv
+video/rtmp
+video/x-flv
+audio/flv
+audio/x-flv
+video/youtube
+video/x-youtube
+audio/youtube
+audio/x-youtube
+video/vimeo
+video/x-vimeo
+application/x-shockwave-flash
+application/x-silverlight-2
+http://www.w3.org/2000/svg
+mediaelement.js
+mediaelement-and-player.js
+//download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab
+//www.macromedia.com/go/getflashplayer
+http://player.vimeo.com/video/
+//www.youtube.com/player_api
+//www.youtube.com/apiplayer?enablejsapi=1&amp;amp;playerapiid=
+Play/Pause
+Captions/Subtitles
+/swfs/
+https://cdn.api.twitter.com/1/urls/count.json?url=
+https://graph.facebook.com/?id=
+https://www.linkedin.com/countserv/count/share?url=
+/favicon-32x32.png
+//dkskyn6tqnjvs.cloudfront.net/assets/flat-1003057cb5ac4fc92bedb240b8697fd4.css
+//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700?&amp;amp;subset=latin-ext,latin
+//dkskyn6tqnjvs.cloudfront.net/assets/fonts-848862e6d8f7ed12ff21fc946a3b5777.css
+//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js
+//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js
+//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js
+//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js
+http://press.soundcloud.com
+http://press.soundcloud.com/press_releases.atom
+text/css
+/191767-soundcloud-kicks-off-new-turn-up-the-vote-campaign-to-turn-out-the-youth-vote
+/search/press_releases/
+//dkskyn6tqnjvs.cloudfront.net/assets/icons/magnifying_glass-19797e029333351d1f08032aca2e40f9.png
+/188665-soundcloud-launches-fifth-installment-of-artist-discovery-program-first-on-soundcloud
+/187371-soundcloud-rolls-out-soundcloud-go-in-four-new-european-markets
+/186276-soundcloud-announces-75-million-investment-from-sirius-xm-holdings-inc
+/186106-soundcloud-creator-forum-heads-to-toronto-february-19-21-2020
+/184030-soundcloud-creator-forum-heads-to-miami-beach-for-art-basel-december-3-5-2019
+/183562-soundcloud-launches-promote-on-soundcloud-the-newest-tool-for-creators-to-grow-their-audiences
+/182809-soundcloud-creator-forum-next-stop-ade-amsterdam-october-16-18
+/182617-soundcloud-creator-forum-coming-to-a3c-festival-and-conference-in-atlanta-october-9-11-2019
+/182602-soundcloud-go-launches-in-austria
+/182363-lil-tecca-baby-rose-na-kel-and-ms-nina-headline-soundcloud-s-latest-first-on-soundcloud-campaign-celebrating-the-power-of-community
+/181511-soundcloud-expands-creator-education-program-with-launch-of-sc101
+/181247-soundcloud-launches-mobile-profile-editing
+/178064-soundcloud-promotes-michael-weissman-to-president
+/173533-soundcloud-names-gilles-bianrosa-chief-product-officer
+/173541-soundcloud-launches-soundcloud-go-in-belgium-italy-portugal-spain-and-switzerland
+/173437-soundcloud-announces-its-latest-dj-software-integration-with-native-instruments
+/173320-soundcloud-announces-acquisition-of-repost-network
+/173262-soundcloud-launches-dj-software-integration-with-mixvibes
+/173078-soundcloud-launches-latest-dj-software-integration-with-pioneer-dj
+/172807-soundcloud-announces-its-latest-dj-software-integration-with-dex-3
+/172655-soundcloud-brings-comments-to-the-waveform-on-mobile
+/172620-soundcloud-launches-next-installment-of-creator-discovery-campaign-first-on-soundcloud
+/172399-soundcloud-rolls-out-new-dj-software-integration-with-virtual-dj
+/172273-soundcloud-rolls-out-new-ios-profile
+/?page=2
+/?page=3
+/?page=4
+//dkskyn6tqnjvs.cloudfront.net/assets/prcologo_blue_30-dede4d83f5b3a119878dae2f5e597585.png
+https://www.pr.co/powered_by_prco?utm_source=newsroom&amp;amp;utm_medium=poweredby&amp;amp;utm_campaign=powered_by_soundcloud
+https://press.soundcloud.com/
+https://d21buns5ku92am.cloudfront.net/26628/logo/small-1471891506.png
+http://soundcloud.com
+http://blog.soundcloud.com
+https://press.soundcloud.com/follow/
+//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js
+/javascripts//dkskyn6tqnjvs.cloudfront.net/jquery-1.9.1.js
+//dkskyn6tqnjvs.cloudfront.net/assets/flat-667b226bae502548734472d980fc569b.js
+text/javascript

@@ -1,0 +1,17 @@
+https://player.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: player.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< X-Cache: Error from cloudfront
+< Content-Type: application/xml
+< Server: AmazonS3
+< Via: 1.1 e89f21fc14d24e3cb5ed483ec127bb0a.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: Td07vO9e9f-2LkveCvv5axSwA6hMY3cGrXVvaJ7-p5rBsEvY-Uloiw==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>012C15441F774EC5</RequestId><HostId>SfdoMP7n8xmK2vooDuIDrbpvQcdGd0pfGeqKdGXnGNcLcp2q7yDZIslksKM6EFHYDEfbjawEwHg=</HostId></Error>

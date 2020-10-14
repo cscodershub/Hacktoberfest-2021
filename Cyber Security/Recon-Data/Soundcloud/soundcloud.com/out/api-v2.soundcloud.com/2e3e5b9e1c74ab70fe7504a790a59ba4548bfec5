@@ -1,0 +1,22 @@
+https://api-v2.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: api-v2.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Content-Length: 0
+< X-Robots-Tag: noindex
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Vary: Origin
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: ue2FeazcaQbbBlnTeYySW8aXF5j4L2z1ZTrTYdgnMEfbMYJ8n9Shag==
+< Cache-Control: private, max-age=0
+< Referrer-Policy: no-referrer
+< Strict-Transport-Security: max-age=63072000
+< X-Cache: Error from cloudfront
+< Via: 1.1 715a7511012e31a6e4d4dc6461a745ac.cloudfront.net (CloudFront)
+< Server: am/2
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+

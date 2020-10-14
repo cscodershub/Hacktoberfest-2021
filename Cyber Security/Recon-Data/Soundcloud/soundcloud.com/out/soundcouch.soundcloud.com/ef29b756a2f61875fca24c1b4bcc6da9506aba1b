@@ -1,0 +1,32 @@
+https://soundcouch.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: soundcouch.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Set-Cookie: sc_anonymous_id=120031-701804-363340-512952; path=/; expires=Sat, 12 Oct 2030 13:27:04 GMT; domain=.soundcloud.com
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Vary: Accept-Encoding
+< X-Cache: Miss from cloudfront
+< Via: 1.1 4e0bf01624c84da6b83ccac11832f207.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: HYD50-C2
+< Content-Type: text/html
+< X-Amz-Cf-Id: LKNhhP6041slTx8u13gZdiq3QL6hZBmgUK_HnnrijIPFsCD3mayGfA==
+< Server: am/2
+< Strict-Transport-Security: max-age=63072000
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>SoundCloud</title>
+    <link rel="stylesheet" href="https://style.sndcdn.com/css/interstate-9a7e854c95d1b49e3807d5ea457e6e538034dc55.css">
+    <link rel="stylesheet" href="https://soundcouch.sndcdn.com/app-99482857d0259d6a7719.css">
+  </head>
+  <body>
+    <div id="root" data-rollouts='{}'></div>
+    <script crossorigin="anonymous" src="https://soundcouch.sndcdn.com/vendor-341dc3fc15ede53a429f.js"></script>
+    <script crossorigin="anonymous" src="https://soundcouch.sndcdn.com/app-99482857d0259d6a7719.js"></script>
+  </body>
+</html>

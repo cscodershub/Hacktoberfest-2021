@@ -1,0 +1,130 @@
+Running against: https://www.google-analytics.com/analytics.js
+
+text/javascript
+https://ampcid.google.com/v1/publisher:getClientId
+text/plain
+//www.google-analytics.com
+https://www.google-analytics.com/gtm/js?id=
+https://www.googletagmanager.com/gtag/js?id=
+https://stats.g.doubleclick.net/j/collect
+https://www.google.%/ads/ga-audiences
+/u/d
+/collect
+/j/collect
+gtm.js
+/plugins/ua/
+/plugins/
+/analytics
+Running against: http://blog.repostnetwork.com/gtm.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/gtm.js
+Running against: https://vt.myvisualiq.net/2/UhSoiql1ezhCaix6DQ3nmQ%3D%3D/vt-324.js
+
+https://tapestry.tapad.com/tapestry/1?ta_partner_id=950&amp;ta_redirect=https%3A%2F%2Ft.myvisualiq.net%2Fsync%3Fprid%3D1001%26ao%3D0%26pruuid%3DTAPAD_%24%7BIDS%3Akey%7D
+https://t.myvisualiq.net/sync?prid=1002&amp;ao=0&amp;red=https://idsync.rlcdn.com/420356.gif?partner_uid=${UUID}
+https://t.myvisualiq.net/sync?prid=BUKIPNR1&amp;red=https://tags.bluekai.com/site/21398?id=$%7BUUID%7D
+https://t.myvisualiq.net/sync?prid=AOEPNR1&amp;ao=0&amp;red=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D125310%26dpuuid%3D%24%7BUUID%7D%26redir%3Dhttps%253A%252F%252Ft.myvisualiq.net%252Fsync%253Fprid%253DAOEPNR1%2526ao%253D0%2526pruuid%253D%2524%257BDD_UUID%257D%250A
+https://t.myvisualiq.net/sync?prid=EEAEPNR1&amp;red=https%3A%2F%2Floadus.exelator.com%2Fload%2F%3Fp%3D204%26g%3D1260%26buid%3D%24%7BUUID%7D
+https://t.myvisualiq.net/sync?prid=PNEETPNR1&amp;ao=0&amp;red=https%3A%2F%2Fct.pinterest.com%2Fuser%2F%3Fcm%3D1%26pid%3Dviq%26mid%3D%24%7BUUID%7D
+https://t.myvisualiq.net/impression_pixel?r={{d15}}&amp;et=i&amp;ago=212&amp;ao=855&amp;aca=-12&amp;si=-12&amp;ci=-12&amp;pi=-12&amp;ad=-12&amp;advt=-12&amp;chnl=-12&amp;vndr=1525&amp;sz=8068&amp;u={{d16}}|{{d17}}|{{d18}}&amp;pt=i
+https://t.myvisualiq.net/impression_pixel?r={{d21}}&amp;et=i&amp;ago=212&amp;ao=855&amp;aca=-13&amp;si=-13&amp;ci=-13&amp;pi=-13&amp;ad=-13&amp;advt=-13&amp;chnl=-13&amp;vndr=1525&amp;sz=8069&amp;u={{d22}}|{{d23}}|{{d24}}&amp;pt=i
+https://t.myvisualiq.net/impression_pixel?r={{d28}}&amp;et=i&amp;ago=212&amp;ao=855&amp;aca=-10&amp;si=-10&amp;ci=-10&amp;pi=-10&amp;ad=-10&amp;advt=-10&amp;chnl=-10&amp;vndr=1525&amp;sz=8070&amp;u={{d29}}&amp;pt=i
+https://t.myvisualiq.net/impression_pixel?r={{d32}}&amp;et=i&amp;ago=212&amp;ao=855&amp;aca=-29&amp;si=-29&amp;ci=-29&amp;pi=-29&amp;ad=-29&amp;advt=-29&amp;chnl=-29&amp;vndr=1525&amp;sz=8127&amp;u={{d33}}|{{d34}}|{{d35}}&amp;pt=i
+Running against: http://blog.repostnetwork.com/js/jquery.min.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/jquery.min.js
+Running against: http://blog.repostnetwork.com/js/jquery.validate.min.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/jquery.validate.min.js
+Running against: http://blog.repostnetwork.com/js/slick.min.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/slick.min.js
+Running against: http://blog.repostnetwork.com/js/moment.min.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/moment.min.js
+Running against: http://blog.repostnetwork.com/js/bootstrap-datetimepicker.min.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/bootstrap-datetimepicker.min.js
+Running against: http://blog.repostnetwork.com/js/bootstrap.min.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/bootstrap.min.js
+Running against: http://blog.repostnetwork.com/js/js-cookie.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/js-cookie.js
+Running against: http://blog.repostnetwork.com/js/jekyll-search.min.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/jekyll-search.min.js
+Running against: http://blog.repostnetwork.com/js/search.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/search.js
+Running against: http://blog.repostnetwork.com/js/soundcloud-sdk-3.1.2.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/soundcloud-sdk-3.1.2.js
+Running against: http://blog.repostnetwork.com/js/main.js
+
+Invalid input defined or SSL error for: http://blog.repostnetwork.com/js/main.js
+image/png
+/img/favicons/favicon.png
+application/xml
+/sitemap.xml
+text/css
+/css/slick.css
+/css/bootstrap.min.css
+/css/bootstrap-datetimepicker.min.css
+/css/main.css
+https://www.repostnetwork.com/blog/
+https://www.repostnetwork.com/img/repost-logo-1280x800.png
+//www.google-analytics.com/analytics.js
+gtm.js
+https://www.googletagmanager.com/gtm.js?id=
+https://www.googletagmanager.com/ns.html?id=GTM-P54Q4V4
+https://www.googletagmanager.com/gtag/js?id=UA-64097678-3
+https://vt.myvisualiq.net/2/UhSoiql1ezhCaix6DQ3nmQ%3D%3D/vt-324.js
+https://www.repostnetwork.com/feed.xml
+https://help.soundcloud.com/hc/en-us/categories/360003479873-Repost-by-SoundCloud-
+/partners.html
+/blog/index.html
+https://app.repostnetwork.com/?cta=true
+/blog/2020/09/30/Soundtrack-by-Twitch/
+/uploads/2020/09/30/twitch-site.png
+/authors/#repost-by-soundcloud
+https://twitter.com/repostnetwork
+/category.html#Announcements
+/blog/2020/09/25/ReelsAMIBoomplay/
+/uploads/2020/09/25/web-sbj.png
+/authors/#jeff-ponchick
+https://twitter.com/jeffponchick
+/blog/2020/08/28/Dolby-Mastering/
+/uploads/2020/08/28/web-sbj.png
+/authors/#liz-ohanesian
+https://twitter.com/lizohanesian
+https://www.repostnetwork.com/blog/index.html
+/blog/page2/
+/blog/page3/
+/blog/page4/
+/blog/page5/
+/blog/page74/
+/img/emoji.png
+/privacy-policy.html
+https://jobs.soundcloud.com
+https://soundcloud.com/repost
+https://www.facebook.com/RepostbySoundCloud
+https://youtube.com/c/Repostnetwork
+https://www.instagram.com/repostbysoundcloud
+text/javascript
+https://api.repostnetwork.com
+https://apis.repostnetwork.com
+https://www.repostnetwork.com
+https://users.services.repostnetwork.com/auth/soundcloud?state=https%3A%2F%2Fapp.repostnetwork.com%2Flogin%3Fcta%3Dyes
+https://widget.intercom.io/widget/i0fytary
+/js/jquery.min.js
+/js/jquery.validate.min.js
+/js/slick.min.js
+/js/moment.min.js
+/js/bootstrap-datetimepicker.min.js
+/js/bootstrap.min.js
+/js/js-cookie.js
+/js/jekyll-search.min.js
+/js/search.js
+/js/soundcloud-sdk-3.1.2.js
+/js/main.js

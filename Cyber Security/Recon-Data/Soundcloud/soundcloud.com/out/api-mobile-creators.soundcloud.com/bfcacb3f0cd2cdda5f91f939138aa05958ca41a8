@@ -1,0 +1,23 @@
+https://api-mobile-creators.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: api-mobile-creators.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Etag: d41d8cd98f00b204e9800998ecf8427e
+< X-Content-Type-Options: nosniff
+< X-Amz-Cf-Pop: HYD50-C2
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< Cache-Control: private, max-age=0
+< Referrer-Policy: no-referrer
+< X-Cache: Error from cloudfront
+< Content-Length: 0
+< X-Frame-Options: DENY
+< Via: 1.1 00ae073b703ab9f9f37607b23484d2da.cloudfront.net (CloudFront)
+< X-Robots-Tag: noindex
+< Strict-Transport-Security: max-age=63072000
+< Server: am/2
+< Vary: Origin
+< X-Amz-Cf-Id: wsPEP0n4lOTtAkG2ZM15pWYbE1BBAbURNoBdRLA6WWatcj2w9ve1bA==
+

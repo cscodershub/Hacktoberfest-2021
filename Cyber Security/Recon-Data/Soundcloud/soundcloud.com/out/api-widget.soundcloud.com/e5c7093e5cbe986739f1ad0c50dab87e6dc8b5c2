@@ -1,0 +1,22 @@
+https://api-widget.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: api-widget.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Date: Wed, 14 Oct 2020 13:27:03 GMT
+< Referrer-Policy: no-referrer
+< X-Frame-Options: DENY
+< Content-Length: 0
+< Vary: Origin
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Id: JO4G84jZwWbdZxJj63eYn_nQOS7UBkyTLdsFJahBd0V6qvQSDz9RZQ==
+< Via: 1.1 b99317260097105998505e834927430e.cloudfront.net (CloudFront)
+< X-Robots-Tag: noindex
+< Cache-Control: private, max-age=0
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=63072000
+< Server: am/2
+

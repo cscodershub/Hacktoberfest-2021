@@ -1,0 +1,14 @@
+http://blog.repostnetwork.com/
+
+> GET / HTTP/1.1
+> Host: blog.repostnetwork.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: http://www.repostnetwork.com/blog/
+< Content-Length: 0
+< Server: AmazonS3
+< X-Amz-Id-2: 2fwmjhkEw/OdSoTk/touZuS3teKEVIGw3Gex2AOCWEBWMxFKbAxSrl3VizAOF9+iwqbG+QXWcqE=
+< X-Amz-Request-Id: 30EB51C09C0D4AB7
+< Date: Wed, 14 Oct 2020 13:19:01 GMT
+

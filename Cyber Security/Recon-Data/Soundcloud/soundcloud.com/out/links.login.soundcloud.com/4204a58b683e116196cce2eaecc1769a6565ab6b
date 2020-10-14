@@ -1,0 +1,23 @@
+http://links.login.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: links.login.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Amz-Cf-Id: 53pG1uviVTG_hrBrWuNNWZSER2yPl_wCQBg2Gr9NhlXycwKp25IA4w==
+< Content-Type: text/html
+< Content-Length: 162
+< Server: nginx
+< X-Cache: Error from cloudfront
+< Date: Wed, 14 Oct 2020 13:27:05 GMT
+< Via: 1.1 2135cdf082dd61053878b9a40c43bdfb.cloudfront.net (CloudFront)
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

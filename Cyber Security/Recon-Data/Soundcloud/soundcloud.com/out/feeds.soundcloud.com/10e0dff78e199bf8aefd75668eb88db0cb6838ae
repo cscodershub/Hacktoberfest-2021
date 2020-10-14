@@ -1,0 +1,21 @@
+http://feeds.soundcloud.com/
+
+> GET / HTTP/1.1
+> Host: feeds.soundcloud.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 405 Method Not Allowed
+< Content-Type: text/plain; charset=utf-8
+< Cache-Control: private, max-age=0
+< Referrer-Policy: no-referrer
+< Date: Wed, 14 Oct 2020 13:27:04 GMT
+< X-Frame-Options: DENY
+< X-Amz-Cf-Pop: HYD50-C2
+< X-Robots-Tag: noindex
+< X-Content-Type-Options: nosniff
+< X-Amz-Cf-Id: Al8JD3AAxy9bYvi3w9uxz6euDi9jhW_csur81XEuT2ir_4zp4oBDVw==
+< Server: am/2
+< X-Cache: Error from cloudfront
+< Via: 1.1 6e8cb5d9d2205525b155a8ed429b045f.cloudfront.net (CloudFront)
+
+unknown route
