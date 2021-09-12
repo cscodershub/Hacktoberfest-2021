@@ -29,7 +29,7 @@ To earn your Hacktoberfest tee or tree reward, you must register and make four v
 ***
 
 <h3 align="center">
-    <a href="https://discord.com/invite/K5K9Yaz">
+    <a href="https://discord.gg/gFZgkhmsBD">
        Join Our Discord Conversation
     </a>
 </h3>
