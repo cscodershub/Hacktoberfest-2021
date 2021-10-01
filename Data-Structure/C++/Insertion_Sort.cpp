@@ -1,3 +1,7 @@
+//Insertion sort is an algorithm which places an unsorted element at its correct position in each iteration or in each pass.
+//Time complexity - O(n*n) (i.e n is size of array or list of elements)
+//Space complexity - O(1)
+
 /*By Pratyaksh Khurana */
 
 #include<bits/stdc++.h>
