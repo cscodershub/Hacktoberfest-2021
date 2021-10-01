@@ -1,4 +1,4 @@
-/*By Pratyaksh Khurana*/
+/*By Pratyaksh Khurana */
 
 #include<bits/stdc++.h>
 using namespace std;
