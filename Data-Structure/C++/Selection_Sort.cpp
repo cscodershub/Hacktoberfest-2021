@@ -1,4 +1,8 @@
 
+//Selection sort is an algorithm in which , in each iteration we select the smallest element from unsorted list of elements and place it at the beginning of the unsorted list.
+//Time complexity - O(n*n) (i.e n is size of array or list of elements)
+//Space complexity - O(1) 
+
 //By Pratyaksh Khurana
 #include <iostream>  
 using namespace std;  
