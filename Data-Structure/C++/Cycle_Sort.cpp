@@ -1,3 +1,7 @@
+//Cycle sort is an algorithm which force the array to divide into fragments and where each fragment can be rotated in order to get a sorted array.
+//It is widely used algorithm in programming.
+
+//Time complexity - O(n*n) (i.e n is size of array or list of elements)
 
 /*By Pratyaksh Khurana*/
 
