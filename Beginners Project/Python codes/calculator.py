@@ -1,16 +1,16 @@
-def add(a,b):
+def add(a,b):   #function to add 2 numbers 
     return a+b
 
-def subtract(a,b):
+def subtract(a,b):  #function to subtract 2 numbers 
     return a-b
 
-def multiply(a,b):
+def multiply(a,b):  #function to multiply 2 numbers 
     return a*b
 
-def divide(a,b):
+def divide(a,b):    #function to divide 2 numbers 
     return a/b
 
-n="N"
+n="Y"
 while n.upper()=="Y" :
     print("......Welcome to Calculator program........")
     x = input("""
@@ -22,13 +22,13 @@ while n.upper()=="Y" :
     print("Enter the two numbers to do the operation: \n")
     a= input()
     b= input()
-    if(a==1):
+    if(x==1):
         add(a,b)
-    elif(a==2):
+    elif(x==2):
         subtract(a,b)
-    elif(a==3):
+    elif(x==3):
         multiply(a,b)
-    elif(a==4):
+    elif(x==4):
         divide(a,b)
     else:
         print(" enter a valid number")
