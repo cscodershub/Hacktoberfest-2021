@@ -1,0 +1,33 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "making a URL short and simple using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd ./config/dev.env nodemon Server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaibhavPaliwal0007/URLshortener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaibhavPaliwal0007/URLshortener/issues"
+  },
+  "homepage": "https://github.com/VaibhavPaliwal0007/URLshortener#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2",
+    "nanoid": "^3.1.25",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "nodemon": "^2.0.12"
+  }
+}
