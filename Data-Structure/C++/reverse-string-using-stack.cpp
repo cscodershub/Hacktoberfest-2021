@@ -1,4 +1,11 @@
 // Contributed By: Anmol Singh yadav (IamLucif3r)
+/* Approach for solving the Problem:
+1) First of all, create an empty stack.
+2) Then we will push all characters of string to stack one by one
+3) Now, one by one pop all characters from stack and put 
+   them back to string.
+This is how our input string will be reversed.
+*/
 #include<bits/stdc++.h>
 using namespace std;
 class Solution
