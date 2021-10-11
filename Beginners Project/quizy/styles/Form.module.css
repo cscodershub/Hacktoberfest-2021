@@ -1,0 +1,16 @@
+.form {
+  margin: 0 auto;
+  padding: 3rem 0 1em 0;
+}
+
+.form label {
+  display: block;
+  width: 100%;
+}
+  
+.form input,
+.form select {
+  width: 100%;
+  padding: 1em;
+  margin: 0.5em 0;
+}
