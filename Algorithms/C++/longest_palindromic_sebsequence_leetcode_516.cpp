@@ -34,7 +34,10 @@ int longestPalindromeSubseq(string &s, int i, int j, vector<vector<int>> &dp)
 
 int main()
 {
-	string s = "bbbab";
+	string s;
+	cout<<"Enter the string: ";
+	cin>>s;
+	cout<<endl;
 	int n = s.length();
     vector<vector<int>> dp(n, (vector<int>(n,0)));
     cout<<"The length of longest palindromic subsequence in "<<s<<" is "<<longestPalindromeSubseq(s,0,n-1,dp);
