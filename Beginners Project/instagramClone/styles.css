@@ -1,0 +1,197 @@
+.whole
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: hidden;
+    
+}
+.instapic
+{
+    position: relative;
+    /* padding-left: 219px;
+    padding-top: 25px; */
+} 
+
+ .ss
+{
+    position: absolute;
+    /* z-index: 1; */
+    top: 100px;
+    left: 151px;
+} 
+.image
+{
+    height: 53px;
+    width: 200px;
+    padding-top: 30px;
+    padding-left: 78px;
+}
+
+.totalBox
+{
+    display: flex;
+    flex-direction: column;
+}
+.instaBox
+{
+    border-style: solid;
+    border-color: rgba(240,230,230 );
+    margin-top: 37px;
+    margin-left: -20px;
+    width: 337px;
+    background-color: #ffffff;
+    border-width: 1px;
+    height: 400px;
+    
+}
+.forms
+{
+    
+    margin-left: 35px;
+    
+}
+#singleForm1:focus{
+    outline: none;
+}
+#singleForm2:focus{
+    outline: none;
+}
+.login_button{
+    margin-left: 36px;
+    padding-top:2px ;
+    width: 267px; 
+    height: 31px;
+    border-radius: 5px ;
+    background-color: #0095F6;
+    border: none;
+    color: white;
+}
+.single_form{
+    border-radius:  5px;
+    height: 40px;
+    width: 267px;
+    background-color: #FAFAFA;
+    border-color: #DBDBDB;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#singleform1
+{
+    margin-top: 36px;
+}
+
+#singleForm2
+{
+      margin-top: -11px;
+}
+.line{
+    /* display: inline-flex; */
+    width: 106px;
+    margin-left: 36px;
+   
+    /* margin-bottom: 0px; */
+    padding: 0;
+}
+
+.or{
+    display: inline;
+    color: #8E8E8E;
+    /* margin-top: 20px; */
+    margin-left: 13px;
+    padding: 0;
+    /* margin-bottom: 50px; */
+}
+
+.hr{
+    display: inline-flex;
+    margin-top: 20px;
+}
+#line2{
+    margin-left: 10px;
+}
+#fbLogo
+{
+    height: 15px;
+    width: 15px;
+    
+    
+}
+
+.facebook
+{
+    display: flex;
+    width: 570px;
+    flex-direction: row ;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 69px;
+    margin-top: 27px;
+    
+}
+
+.pass
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 13px;
+    
+}
+#forgotPass
+{
+    text-decoration: none;
+    color: #495f86;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    
+}
+#fb
+{
+    text-decoration: none;
+    color: #385185;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.box2
+{
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 4px;
+    border-style: solid;
+    border-color: rgba(240,230,230 );
+    margin-top: 10px;
+    width: 337px;
+    margin-left: -20px;
+    border-width: 1px;
+    height: 4rem;
+}
+
+#signUp
+{
+    text-decoration: none;
+    color: #0095F7;
+}
+#app
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.download
+{
+    width: 9rem;
+    height: 3rem;
+    
+}
+.appStore
+{
+    background-color:#FFFFFF ;
+    border: none;
+}
