@@ -1,0 +1,102 @@
+
+body{
+    background-image: url(https://wallpaperbat.com/img/346351-download-free-rain-wallpaper-weather-wallpaper-clouds-rain.jpg);
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    
+}
+.textbox,.profile{
+    margin-top: 60px;
+}
+#mainicon{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+   
+}
+.searchbox{
+    height: 30px;
+    width: 400px;
+}
+#search{
+    height: 35px;
+
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+#prof{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+#profilee{
+    margin-top: 18px;
+}
+
+
+    .main{
+padding: 50px;
+margin: 50px 0px 0px 50px;
+background-size: cover;
+background-position: bottom;
+width: 600px;
+border-radius: 20px;
+}
+/* .info{
+display: flex;
+flex-direction: row;
+gap: 30rem;
+} */
+.iconstatus{
+width:60px;
+
+}
+.current{
+display: flex;
+flex-direction: row;
+gap: 5rem;
+}
+.condition{
+font-size: 30px;
+font-weight: 530;
+margin-top: 80px;
+display: flex;
+flex-direction: column;
+size: 70px;
+margin-left: 100px;
+}
+.location{
+font-size: 40px;
+}
+.details{
+margin-top: 50px;
+font-weight: 530;
+}
+#date{
+font-size: larger;
+
+}
+.temp{
+margin-top: 70px;
+
+}
+.feelslike{
+font-weight: 400;
+font-size: larger;
+margin-bottom: 50px;
+}
+
