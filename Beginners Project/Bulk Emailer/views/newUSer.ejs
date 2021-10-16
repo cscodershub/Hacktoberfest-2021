@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link href="css/style.css" rel="stylesheet">
+    <title>Emailer</title>
+  </head>
+  <body>
+
+
+
+
+
+
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-brand text-center mb-3 mt-3 h1">Emailer</span>
+        <div class="text-end">
+          <form method="GET" action="/api/v1/emails"><button type="submit">Send Email</button></form>
+        </div>
+      </div>
+     
+    </nav>
+    <div class="parent container d-flex justify-content-center align-items-center h-100">
+      <form action="/api/v1/emails" encType="multipart/form-data" method="post">
+        <div div class="form-group">
+          <label form-control ><h1> Upload csv file</h1></label><br>
+          <input type="file" name="file" class="form-control mt-5 mb-5" id="title">
+          </div>
+      <button type="submit" class="form-control btn btn-primary">Save to DB</button>
+      </form>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
