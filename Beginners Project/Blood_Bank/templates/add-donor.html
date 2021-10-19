@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number],input[type=date] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4FCBBB;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<form action='add-donor' method="post">
+  {% csrf_token %}
+  <div class="container">
+    <h1>Blood Bank</h1>
+    <p>Please fill in this form to add a donor.</p>
+    <hr>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+    <label for="cnum"><b>Contact Number</b></label>
+    <input type="number" placeholder="Enter Contact Number" name="cnum" id="cnum" required>
+    
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+    <label for="dob"><b>Date Of Birth</b></label>
+    <input type="date" placeholder="Enter date of birth in DDMMYYYY" name="dob" id="dob" required>
+    <label for="sex"><b>SEX</b></label>
+    <input type="text" placeholder="Male/Female" id="sex" name="sex" required>
+
+    <label for="blg"><b>Blood Group</b></label>
+    <input type="text" placeholder="O+ve / B+ve / AB+ve" name="blg" id="blg" required>
+
+    <hr>
+    <p>By registering you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn">ADD</button>
+    
+
+  </div>
+  
+</form>
+
+</body>
+</html>
