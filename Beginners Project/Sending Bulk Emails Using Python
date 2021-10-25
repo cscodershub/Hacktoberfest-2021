@@ -1,0 +1,31 @@
+# Import the required libraries
+import pandas as pd
+import smtplib
+from google.colab import files 
+import io
+print ('Modules imported')
+
+'''Create an excel sheet with the heading as Emails and type several email addresses 
+(whom the email needs to be sent) in the following columns. Save it & upload it here.'''
+# Upload the excel sheet
+uploaded = files.upload ()
+
+Sender_EmailAddress = "<abc@gmail.com>"
+password = "password of sender"
+
+e = pd.read_excel("email.xlsx")
+emails = e['Emails'].values
+server = smtplib.SMTP("smtp.gmail.com", 587)  # 587 is the port number. 
+server.starttls()
+server.login("abc@gmail.com", "password")  # Put the email address & password inside double quotes
+msg = "EMAILED USING PYTHON"
+subject = "Hello World !"
+body = "Subject: {}\n\n{}".format(subject,msg)
+for email in emails:
+    try:
+        server.sendmail(Sender_EmailAddress, email, body)
+    Except Exception as e:
+        print("Message Sending failed")
+        print(e)
+        break
+server.quit()
