@@ -1,0 +1,10 @@
+//function to generate all the factors of given x
+def printfact(x):
+   print("The factors of",x,"are:")
+   for i in range(1, x + 1):
+       if x % i == 0:
+           print(i)
+
+numb = int(input("Enter a number : "))
+
+printfact(numb)
